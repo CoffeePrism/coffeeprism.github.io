@@ -41,7 +41,7 @@ layout: default
           {% if site.use_remote_images %}
             {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
             {% assign search_term = image_name | replace: "-", "+" %}
-            <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+            <img src="{{ site.remote_image_base_url }}coffee,{{ search_term }}" alt="{{ post.title }}">
           {% else %}
             <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
           {% endif %}

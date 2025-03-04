@@ -18,7 +18,7 @@ permalink: /equipment/
             {% if site.use_remote_images %}
               {% assign image_name = equipment.featured_image | split: "/" | last | split: "." | first %}
               {% assign search_term = image_name | replace: "-", "+" %}
-              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee+equipment" alt="{{ equipment.title }}">
+              <img src="{{ site.remote_image_base_url }}coffee,equipment,{{ search_term }}" alt="{{ equipment.title }}">
             {% else %}
               <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
             {% endif %}

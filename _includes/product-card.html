@@ -8,7 +8,7 @@
       {% if site.use_remote_images %}
         {% assign image_name = include.image | split: "/" | last | split: "." | first %}
         {% assign search_term = image_name | replace: "-", "+" %}
-        <img src="{{ site.remote_image_base_url }}{{ search_term }}" alt="{{ include.name }}">
+        <img src="{{ site.remote_image_base_url }}coffee,product,{{ search_term }}" alt="{{ include.name }}">
       {% else %}
         <img src="{{ include.image | relative_url }}" alt="{{ include.name }}">
       {% endif %}
