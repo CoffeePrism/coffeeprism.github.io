@@ -1,8 +1,8 @@
 # Coffee Prism
 
-Coffee Prism 是一个专注于咖啡知识和产品推荐的网站，基于 Jekyll 和 GitHub Pages 构建。
+Coffee Prism 是一个专注于咖啡知识和产品推荐的网站，基于 Jekyll 构建。
 
-网站地址: [https://coffeeprism.github.io](https://coffeeprism.github.io)
+网站地址: [https://coffeeprism.com](https://coffeeprism.com)
 
 ## 网站结构
 
@@ -130,7 +130,7 @@ affiliate:
 
 ## 部署
 
-网站使用 GitHub Pages 自动部署。只需将更改推送到 `main` 分支，GitHub 将自动构建和部署网站。
+将更改推送到主分支后，网站将自动构建和部署。
 
 ## 图片优化
 

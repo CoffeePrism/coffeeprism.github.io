@@ -33,7 +33,6 @@ permalink: /about/
     <h2>联系我们</h2>
     <p>如果您有任何问题、建议或合作意向，欢迎通过以下方式联系我们：</p>
     <p><strong>邮箱：</strong> <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a></p>
-    <p><strong>GitHub：</strong> <a href="https://github.com/CoffeePrism" target="_blank">https://github.com/CoffeePrism</a></p>
 
     <h2>加入我们</h2>
     <p>我们欢迎对咖啡充满热情的作者加入我们的团队。如果您有兴趣为 Coffee Prism 贡献内容，请通过上述联系方式与我们联系。</p>
