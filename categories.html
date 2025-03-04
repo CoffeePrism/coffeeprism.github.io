@@ -1,0 +1,35 @@
+---
+layout: default
+title: 分类
+permalink: /categories/
+---
+
+<div class="categories-page">
+  <header class="page-header">
+    <h1 class="page-title">所有分类</h1>
+    <p class="page-description">浏览所有文章分类</p>
+  </header>
+
+  <div class="categories-list">
+    {% assign sorted_categories = site.categories | sort %}
+    {% for category in sorted_categories %}
+      {% assign category_name = category | first %}
+      {% assign posts = category | last %}
+      <div class="category-item">
+        <h2 id="{{ category_name | slugify }}">{{ category_name }}</h2>
+        <span class="category-count">{{ posts.size }} 篇文章</span>
+        
+        <ul class="category-posts">
+          {% for post in posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</div> 

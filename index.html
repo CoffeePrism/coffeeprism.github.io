@@ -1,0 +1,152 @@
+---
+layout: default
+title: 首页
+---
+
+<div class="home">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>探索咖啡的世界</h1>
+      <p>从咖啡豆到咖啡杯，发现完美咖啡的一切</p>
+      <div class="hero-buttons">
+        <a href="{{ '/coffee/' | relative_url }}" class="btn btn-primary">探索咖啡</a>
+        <a href="{{ '/equipment/' | relative_url }}" class="btn btn-secondary">浏览设备</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="featured-section">
+    <h2 class="section-title">精选内容</h2>
+    <div class="featured-grid">
+      {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
+      {% for post in featured_posts %}
+      <div class="featured-card">
+        <a href="{{ post.url | relative_url }}" class="featured-link">
+          {% if post.featured_image %}
+          <div class="featured-image">
+            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+          </div>
+          {% endif %}
+          <div class="featured-content">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  <section class="latest-articles">
+    <h2 class="section-title">最新文章</h2>
+    <div class="articles-grid">
+      {% for post in site.posts limit:6 %}
+      <div class="article-card">
+        <a href="{{ post.url | relative_url }}" class="article-link">
+          {% if post.featured_image %}
+          <div class="article-image">
+            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+          </div>
+          {% endif %}
+          <div class="article-content">
+            <h3>{{ post.title }}</h3>
+            <div class="article-meta">
+              <span class="article-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+              {% if post.categories.size > 0 %}
+              <span class="article-category">
+                <i class="fas fa-folder"></i> {{ post.categories | first }}
+              </span>
+              {% endif %}
+            </div>
+            <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="view-all">
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">查看所有文章</a>
+    </div>
+  </section>
+
+  <!-- Coffee Collections -->
+  <section class="coffee-collections">
+    <h2 class="section-title">咖啡精选</h2>
+    <div class="collections-grid">
+      {% for coffee in site.coffee limit:3 %}
+      <div class="collection-card">
+        <a href="{{ coffee.url | relative_url }}" class="collection-link">
+          {% if coffee.featured_image %}
+          <div class="collection-image">
+            <img src="{{ coffee.featured_image | relative_url }}" alt="{{ coffee.title }}">
+          </div>
+          {% endif %}
+          <div class="collection-content">
+            <h3>{{ coffee.title }}</h3>
+            {% if coffee.origin %}
+            <div class="collection-origin">
+              <i class="fas fa-globe"></i> {{ coffee.origin }}
+            </div>
+            {% endif %}
+            <p>{{ coffee.excerpt | strip_html | truncate: 80 }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="view-all">
+      <a href="{{ '/coffee/' | relative_url }}" class="btn btn-outline">探索更多咖啡</a>
+    </div>
+  </section>
+
+  <!-- Equipment Collections -->
+  <section class="equipment-collections">
+    <h2 class="section-title">咖啡设备</h2>
+    <div class="collections-grid">
+      {% for equipment in site.equipment limit:3 %}
+      <div class="collection-card">
+        <a href="{{ equipment.url | relative_url }}" class="collection-link">
+          {% if equipment.featured_image %}
+          <div class="collection-image">
+            <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
+          </div>
+          {% endif %}
+          <div class="collection-content">
+            <h3>{{ equipment.title }}</h3>
+            {% if equipment.brand %}
+            <div class="collection-brand">
+              <i class="fas fa-trademark"></i> {{ equipment.brand }}
+            </div>
+            {% endif %}
+            <p>{{ equipment.excerpt | strip_html | truncate: 80 }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="view-all">
+      <a href="{{ '/equipment/' | relative_url }}" class="btn btn-outline">浏览更多设备</a>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories-section">
+    <h2 class="section-title">分类浏览</h2>
+    <div class="categories-grid">
+      {% assign categories = site.categories | sort %}
+      {% for category in categories limit:6 %}
+      {% assign category_name = category | first %}
+      <a href="{{ site.baseurl }}/categories/{{ category_name | slugify }}/" class="category-card">
+        <h3>{{ category_name }}</h3>
+        <span class="category-count">{{ site.categories[category_name].size }} 篇文章</span>
+      </a>
+      {% endfor %}
+    </div>
+    <div class="view-all">
+      <a href="{{ '/categories/' | relative_url }}" class="btn btn-outline">查看所有分类</a>
+    </div>
+  </section>
+</div> 

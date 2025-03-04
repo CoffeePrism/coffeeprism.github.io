@@ -1,0 +1,48 @@
+<footer class="site-footer">
+  <div class="footer-wrapper">
+    <div class="footer-col-wrapper">
+      <div class="footer-col">
+        <h2 class="footer-heading">Coffee Prism</h2>
+        <p>{{ site.description }}</p>
+      </div>
+
+      <div class="footer-col">
+        <h2>快速链接</h2>
+        <ul class="footer-links">
+          <li><a href="{{ '/' | relative_url }}">首页</a></li>
+          <li><a href="{{ '/coffee/' | relative_url }}">咖啡</a></li>
+          <li><a href="{{ '/equipment/' | relative_url }}">设备</a></li>
+          <li><a href="{{ '/categories/' | relative_url }}">分类</a></li>
+          <li><a href="{{ '/tags/' | relative_url }}">标签</a></li>
+          <li><a href="{{ '/search/' | relative_url }}">搜索</a></li>
+          <li><a href="{{ '/about/' | relative_url }}">关于我们</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">联系我们</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-col">
+        <h2>联系我们</h2>
+        <ul class="social-media-list">
+          <li>
+            <a href="https://github.com/CoffeePrism" target="_blank">
+              <i class="fab fa-github"></i> GitHub
+            </a>
+          </li>
+          <li>
+            <a href="mailto:info@coffeeprism.com">
+              <i class="fas fa-envelope"></i> Email
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+
+    <div class="footer-bottom">
+      <p>&copy; {{ 'now' | date: "%Y" }} Coffee Prism. All rights reserved.</p>
+      <p class="disclaimer">本网站包含亚马逊联盟链接，我们可能会从您的购买中获得佣金。</p>
+      <p class="footer-links-small">
+        <a href="{{ '/privacy/' | relative_url }}">隐私政策</a>
+      </p>
+    </div>
+  </div>
+</footer> 

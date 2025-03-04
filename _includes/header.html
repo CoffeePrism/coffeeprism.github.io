@@ -1,0 +1,29 @@
+<header class="site-header">
+  <div class="header-wrapper">
+    <div class="site-logo">
+      <a href="{{ '/' | relative_url }}">
+        <span class="logo-text">Coffee Prism</span>
+      </a>
+    </div>
+    
+    <nav class="site-nav">
+      <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+      <label for="nav-trigger">
+        <span class="menu-icon">
+          <i class="fas fa-bars"></i>
+        </span>
+      </label>
+
+      <div class="trigger">
+        <a class="page-link" href="{{ '/' | relative_url }}">首页</a>
+        <a class="page-link" href="{{ '/coffee/' | relative_url }}">咖啡</a>
+        <a class="page-link" href="{{ '/equipment/' | relative_url }}">设备</a>
+        <a class="page-link" href="{{ '/categories/' | relative_url }}">分类</a>
+        <a class="page-link" href="{{ '/tags/' | relative_url }}">标签</a>
+        <a class="page-link" href="{{ '/search/' | relative_url }}">搜索</a>
+        <a class="page-link" href="{{ '/about/' | relative_url }}">关于我们</a>
+        <a class="page-link" href="{{ '/contact/' | relative_url }}">联系我们</a>
+      </div>
+    </nav>
+  </div>
+</header> 

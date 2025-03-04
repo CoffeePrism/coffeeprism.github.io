@@ -1,0 +1,66 @@
+title: Coffee Prism
+description: Exploring the world of coffee through a prism of knowledge
+url: https://coffeeprism.github.io
+baseurl: ""
+permalink: /:categories/:title/
+
+# Build settings
+markdown: kramdown
+highlighter: rouge
+
+# Collections
+collections:
+  coffee:
+    output: true
+    permalink: /coffee/:path/
+  equipment:
+    output: true
+    permalink: /equipment/:path/
+
+# Default front matter
+defaults:
+  - scope:
+      path: ""
+    values:
+      layout: "default"
+  - scope:
+      path: ""
+      type: "posts"
+    values:
+      layout: "post"
+  - scope:
+      path: ""
+      type: "coffee"
+    values:
+      layout: "coffee"
+  - scope:
+      path: ""
+      type: "equipment"
+    values:
+      layout: "equipment"
+
+# Affiliate settings
+affiliate:
+  amazon:
+    tracking_id: "coffeeprism-20"
+    enabled: true
+  
+# Pagination
+paginate: 10
+paginate_path: "/page/:num/"
+
+# Plugins
+plugins:
+  - jekyll-paginate
+  - jekyll-sitemap
+  - jekyll-feed
+  - jekyll-seo-tag
+
+# Exclude from processing
+exclude:
+  - Gemfile
+  - Gemfile.lock
+  - node_modules
+  - vendor
+  - .git
+  - README.md 

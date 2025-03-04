@@ -1,0 +1,71 @@
+---
+layout: default
+title: 标签
+permalink: /tags/
+---
+
+<div class="tags-page">
+  <header class="page-header">
+    <h1 class="page-title">所有标签</h1>
+    <p class="page-description">按标签浏览所有文章</p>
+  </header>
+
+  {% assign tags = site.tags | sort %}
+  
+  <div class="tags-cloud">
+    {% for tag in tags %}
+      {% assign tag_name = tag | first %}
+      {% assign posts = tag | last %}
+      {% assign tag_size = posts.size | plus: 1 %}
+      {% if tag_size <= 2 %}
+        {% assign size_class = 'tag-size-1' %}
+      {% elsif tag_size <= 4 %}
+        {% assign size_class = 'tag-size-2' %}
+      {% elsif tag_size <= 6 %}
+        {% assign size_class = 'tag-size-3' %}
+      {% elsif tag_size <= 8 %}
+        {% assign size_class = 'tag-size-4' %}
+      {% elsif tag_size <= 10 %}
+        {% assign size_class = 'tag-size-5' %}
+      {% elsif tag_size <= 12 %}
+        {% assign size_class = 'tag-size-6' %}
+      {% else %}
+        {% assign size_class = 'tag-size-7' %}
+      {% endif %}
+      <a href="#{{ tag_name | slugify }}" class="tag-cloud-item {{ size_class }}">
+        {{ tag_name }} <span class="tag-count">({{ posts.size }})</span>
+      </a>
+    {% endfor %}
+  </div>
+
+  <div class="tags-list">
+    {% for tag in tags %}
+      {% assign tag_name = tag | first %}
+      {% assign posts = tag | last %}
+      <div class="tag-item" id="{{ tag_name | slugify }}">
+        <h2>{{ tag_name }}</h2>
+        <span class="tag-count">{{ posts.size }} 篇文章</span>
+        
+        <ul class="tag-posts">
+          {% for post in posts %}
+          <li>
+            <a href="{{ post.url | relative_url }}">
+              {{ post.title }}
+            </a>
+            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+            
+            {% if post.categories.size > 0 %}
+            <span class="post-categories">
+              <i class="fas fa-folder"></i>
+              {% for category in post.categories %}
+                <a href="{{ site.baseurl }}/categories/{{ category | slugify }}/">{{ category }}</a>{% unless forloop.last %}, {% endunless %}
+              {% endfor %}
+            </span>
+            {% endif %}
+          </li>
+          {% endfor %}
+        </ul>
+      </div>
+    {% endfor %}
+  </div>
+</div> 

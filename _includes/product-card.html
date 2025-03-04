@@ -1,0 +1,29 @@
+{% assign amazon_id = include.amazon_id %}
+{% assign tracking_id = site.affiliate.amazon.tracking_id %}
+{% assign amazon_url = "https://www.amazon.com/dp/" | append: amazon_id | append: "?tag=" | append: tracking_id %}
+
+<div class="product-card">
+  <div class="product-image">
+    {% if include.image %}
+    <img src="{{ include.image | relative_url }}" alt="{{ include.name }}">
+    {% else %}
+    <div class="no-image">No Image</div>
+    {% endif %}
+  </div>
+  
+  <div class="product-info">
+    <h3 class="product-name">{{ include.name }}</h3>
+    
+    {% if include.price %}
+    <div class="product-price">{{ include.price }}</div>
+    {% endif %}
+    
+    {% if include.description %}
+    <p class="product-description">{{ include.description }}</p>
+    {% endif %}
+    
+    <a href="{{ amazon_url }}" class="product-button" target="_blank" rel="nofollow">
+      <i class="fab fa-amazon"></i> 在亚马逊购买
+    </a>
+  </div>
+</div> 
