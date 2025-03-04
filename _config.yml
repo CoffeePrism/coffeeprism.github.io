@@ -23,6 +23,9 @@ collections:
   categories:
     output: true
     permalink: /categories/:path/
+  tags:
+    output: true
+    permalink: /tags/:path/
 
 # Default front matter
 defaults:
@@ -50,6 +53,11 @@ defaults:
       type: "categories"
     values:
       layout: "category"
+  - scope:
+      path: ""
+      type: "tags"
+    values:
+      layout: "tag"
 
 # Affiliate settings
 affiliate:

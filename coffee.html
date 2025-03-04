@@ -1,0 +1,114 @@
+---
+layout: default
+title: 咖啡
+permalink: /coffee/
+---
+
+<div class="coffee-page">
+  <header class="page-header">
+    <h1 class="page-title">咖啡</h1>
+    <p class="page-description">探索世界各地的精品咖啡豆</p>
+  </header>
+
+  <div class="coffee-grid">
+    {% for coffee in site.coffee %}
+      <div class="coffee-card">
+        <a href="{{ coffee.url | relative_url }}">
+          {% if coffee.featured_image %}
+            {% if site.use_remote_images %}
+              {% assign image_name = coffee.featured_image | split: "/" | last | split: "." | first %}
+              {% assign search_term = image_name | replace: "-", "+" %}
+              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ coffee.title }}">
+            {% else %}
+              <img src="{{ coffee.featured_image | relative_url }}" alt="{{ coffee.title }}">
+            {% endif %}
+          {% endif %}
+          <div class="coffee-content">
+            <h3>{{ coffee.title }}</h3>
+            
+            {% if coffee.origin %}
+            <div class="coffee-origin">
+              <i class="fas fa-globe"></i> 产地: {{ coffee.origin }}
+            </div>
+            {% endif %}
+            
+            {% if coffee.roast_level %}
+            <div class="coffee-roast">
+              <i class="fas fa-fire"></i> 烘焙度: {{ coffee.roast_level }}
+            </div>
+            {% endif %}
+            
+            <p>{{ coffee.excerpt | strip_html | truncate: 100 }}</p>
+          </div>
+        </a>
+      </div>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .coffee-page {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .coffee-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 2rem;
+    margin-top: 2rem;
+  }
+  
+  .coffee-card {
+    border-radius: 8px;
+    overflow: hidden;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s, box-shadow 0.3s;
+    background-color: white;
+  }
+  
+  .coffee-card:hover {
+    transform: translateY(-5px);
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  
+  .coffee-card a {
+    text-decoration: none;
+    color: inherit;
+    display: block;
+  }
+  
+  .coffee-card img {
+    width: 100%;
+    height: 200px;
+    object-fit: cover;
+  }
+  
+  .coffee-content {
+    padding: 1.5rem;
+  }
+  
+  .coffee-content h3 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+    color: var(--primary-color);
+  }
+  
+  .coffee-origin, .coffee-roast {
+    font-size: 0.9rem;
+    color: var(--text-light-color);
+    margin-bottom: 0.5rem;
+  }
+  
+  .coffee-content p {
+    margin-top: 1rem;
+    color: var(--text-color);
+  }
+  
+  @media (max-width: 768px) {
+    .coffee-grid {
+      grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    }
+  }
+</style> 
