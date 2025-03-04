@@ -16,7 +16,9 @@ permalink: /categories/
       {% assign category_name = category | first %}
       {% assign posts = category | last %}
       <div class="category-item">
-        <h2 id="{{ category_name | slugify }}">{{ category_name }}</h2>
+        <h2 id="{{ category_name | slugify }}">
+          <a href="{{ site.baseurl }}/categories/{{ category_name | slugify }}/">{{ category_name }}</a>
+        </h2>
         <span class="category-count">{{ posts.size }} 篇文章</span>
         
         <ul class="category-posts">
@@ -32,4 +34,64 @@ permalink: /categories/
       </div>
     {% endfor %}
   </div>
-</div> 
+</div>
+
+<style>
+  .categories-page {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .category-item {
+    margin-bottom: 2rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid var(--border-color);
+  }
+  
+  .category-item:last-child {
+    border-bottom: none;
+  }
+  
+  .category-item h2 {
+    margin-top: 0;
+    margin-bottom: 0.5rem;
+  }
+  
+  .category-item h2 a {
+    color: var(--primary-color);
+    text-decoration: none;
+  }
+  
+  .category-item h2 a:hover {
+    text-decoration: underline;
+  }
+  
+  .category-count {
+    display: inline-block;
+    margin-bottom: 1rem;
+    color: var(--text-light-color);
+    font-size: 0.9rem;
+  }
+  
+  .category-posts {
+    list-style: none;
+    padding-left: 0;
+  }
+  
+  .category-posts li {
+    margin-bottom: 0.5rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 1px dashed var(--border-color-light);
+  }
+  
+  .category-posts li:last-child {
+    border-bottom: none;
+  }
+  
+  .post-date {
+    color: var(--text-light-color);
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+</style> 

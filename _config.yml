@@ -20,6 +20,9 @@ collections:
   equipment:
     output: true
     permalink: /equipment/:path/
+  categories:
+    output: true
+    permalink: /categories/:path/
 
 # Default front matter
 defaults:
@@ -42,6 +45,11 @@ defaults:
       type: "equipment"
     values:
       layout: "equipment"
+  - scope:
+      path: ""
+      type: "categories"
+    values:
+      layout: "category"
 
 # Affiliate settings
 affiliate:
