@@ -26,7 +26,13 @@ title: 首页
         <a href="{{ post.url | relative_url }}" class="featured-link">
           {% if post.featured_image %}
           <div class="featured-image">
-            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            {% if site.use_remote_images %}
+              {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
+              {% assign search_term = image_name | replace: "-", "+" %}
+              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+            {% else %}
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            {% endif %}
           </div>
           {% endif %}
           <div class="featured-content">
@@ -48,7 +54,13 @@ title: 首页
         <a href="{{ post.url | relative_url }}" class="article-link">
           {% if post.featured_image %}
           <div class="article-image">
-            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            {% if site.use_remote_images %}
+              {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
+              {% assign search_term = image_name | replace: "-", "+" %}
+              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+            {% else %}
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            {% endif %}
           </div>
           {% endif %}
           <div class="article-content">
@@ -81,7 +93,13 @@ title: 首页
         <a href="{{ coffee.url | relative_url }}" class="collection-link">
           {% if coffee.featured_image %}
           <div class="collection-image">
-            <img src="{{ coffee.featured_image | relative_url }}" alt="{{ coffee.title }}">
+            {% if site.use_remote_images %}
+              {% assign image_name = coffee.featured_image | split: "/" | last | split: "." | first %}
+              {% assign search_term = image_name | replace: "-", "+" %}
+              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ coffee.title }}">
+            {% else %}
+              <img src="{{ coffee.featured_image | relative_url }}" alt="{{ coffee.title }}">
+            {% endif %}
           </div>
           {% endif %}
           <div class="collection-content">
@@ -111,7 +129,13 @@ title: 首页
         <a href="{{ equipment.url | relative_url }}" class="collection-link">
           {% if equipment.featured_image %}
           <div class="collection-image">
-            <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
+            {% if site.use_remote_images %}
+              {% assign image_name = equipment.featured_image | split: "/" | last | split: "." | first %}
+              {% assign search_term = image_name | replace: "-", "+" %}
+              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee+equipment" alt="{{ equipment.title }}">
+            {% else %}
+              <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
+            {% endif %}
           </div>
           {% endif %}
           <div class="collection-content">

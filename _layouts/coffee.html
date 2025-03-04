@@ -38,7 +38,13 @@ layout: default
 
   {% if page.featured_image %}
   <div class="coffee-featured-image">
-    <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+    {% if site.use_remote_images %}
+      {% assign image_name = page.featured_image | split: "/" | last | split: "." | first %}
+      {% assign search_term = image_name | replace: "-", "+" %}
+      <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ page.title }}">
+    {% else %}
+      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+    {% endif %}
   </div>
   {% endif %}
 
@@ -88,7 +94,13 @@ layout: default
         <div class="coffee-card">
           <a href="{{ coffee.url | relative_url }}">
             {% if coffee.featured_image %}
-            <img src="{{ coffee.featured_image | relative_url }}" alt="{{ coffee.title }}">
+              {% if site.use_remote_images %}
+                {% assign image_name = coffee.featured_image | split: "/" | last | split: "." | first %}
+                {% assign search_term = image_name | replace: "-", "+" %}
+                <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ coffee.title }}">
+              {% else %}
+                <img src="{{ coffee.featured_image | relative_url }}" alt="{{ coffee.title }}">
+              {% endif %}
             {% endif %}
             <h4>{{ coffee.title }}</h4>
             <p>{{ coffee.excerpt | strip_html | truncate: 100 }}</p>

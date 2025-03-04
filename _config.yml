@@ -4,6 +4,10 @@ url: https://coffeeprism.github.io
 baseurl: ""
 permalink: /:categories/:title/
 
+# Image settings
+use_remote_images: true
+remote_image_base_url: "https://source.unsplash.com/featured/?"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge

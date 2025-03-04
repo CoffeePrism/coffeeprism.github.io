@@ -3,28 +3,24 @@ document.addEventListener('DOMContentLoaded', function() {
   const navTrigger = document.querySelector('.nav-trigger');
   if (navTrigger) {
     navTrigger.addEventListener('change', function() {
-      if (this.checked) {
-        document.body.classList.add('nav-open');
-      } else {
-        document.body.classList.remove('nav-open');
-      }
+      document.body.classList.toggle('nav-open', this.checked);
     });
   }
 
   // Smooth scrolling for anchor links
   document.querySelectorAll('a[href^="#"]').forEach(anchor => {
-    anchor.addEventListener('click', function (e) {
-      // Skip if it's the back to top button
-      if (this.closest('#back-to-top')) return;
-      
+    // Skip back-to-top button as it has its own handler
+    if (anchor.closest('#back-to-top')) return;
+    
+    anchor.addEventListener('click', function(e) {
+      e.preventDefault();
       const targetId = this.getAttribute('href');
       if (targetId === '#') return;
       
       const targetElement = document.querySelector(targetId);
       if (targetElement) {
-        e.preventDefault();
         window.scrollTo({
-          top: targetElement.offsetTop - 80, // Adjust for header height
+          top: targetElement.offsetTop,
           behavior: 'smooth'
         });
       }
@@ -53,7 +49,7 @@ document.addEventListener('DOMContentLoaded', function() {
           }
         });
       });
-
+      
       lazyImages.forEach(image => {
         imageObserver.observe(image);
       });
@@ -61,14 +57,17 @@ document.addEventListener('DOMContentLoaded', function() {
   }
 
   // Product recommendation tracking
-  const productLinks = document.querySelectorAll('.product-button');
-  productLinks.forEach(link => {
-    link.addEventListener('click', function() {
-      const productName = this.closest('.product-card').querySelector('.product-name').textContent;
-      console.log('Product clicked:', productName);
-      // Here you could add more sophisticated tracking
-    });
-  });
+  window.trackProductClick = function(productName) {
+    console.log('Product clicked:', productName);
+    // Here you can add code to track clicks using analytics tools
+    // For example: 
+    // if (typeof gtag === 'function') {
+    //   gtag('event', 'click', {
+    //     'event_category': 'Product',
+    //     'event_label': productName
+    //   });
+    // }
+  };
 
   // Back to top button
   const backToTopButton = document.getElementById('back-to-top');
@@ -81,8 +80,8 @@ document.addEventListener('DOMContentLoaded', function() {
         backToTopButton.classList.remove('show');
       }
     });
-
-    // Smooth scroll to top when clicked
+    
+    // Scroll to top when clicked
     backToTopButton.querySelector('a').addEventListener('click', function(e) {
       e.preventDefault();
       window.scrollTo({

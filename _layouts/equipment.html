@@ -38,7 +38,13 @@ layout: default
 
   {% if page.featured_image %}
   <div class="equipment-featured-image">
-    <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+    {% if site.use_remote_images %}
+      {% assign image_name = page.featured_image | split: "/" | last | split: "." | first %}
+      {% assign search_term = image_name | replace: "-", "+" %}
+      <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee+equipment" alt="{{ page.title }}">
+    {% else %}
+      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
+    {% endif %}
   </div>
   {% endif %}
 
@@ -109,7 +115,13 @@ layout: default
         <div class="equipment-card">
           <a href="{{ equipment.url | relative_url }}">
             {% if equipment.featured_image %}
-            <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
+              {% if site.use_remote_images %}
+                {% assign image_name = equipment.featured_image | split: "/" | last | split: "." | first %}
+                {% assign search_term = image_name | replace: "-", "+" %}
+                <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee+equipment" alt="{{ equipment.title }}">
+              {% else %}
+                <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
+              {% endif %}
             {% endif %}
             <h4>{{ equipment.title }}</h4>
             <p>{{ equipment.excerpt | strip_html | truncate: 100 }}</p>
