@@ -1,10 +1,14 @@
 # Coffee Prism
 
-Coffee Prism 是一个专注于咖啡知识和产品推荐的网站，基于 Jekyll 构建。
+[![Jekyll site CI](https://github.com/your-username/coffeeprism/workflows/Jekyll%20site%20CI/badge.svg)](https://github.com/your-username/coffeeprism/actions)
+[![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 
-网站地址: [https://coffeeprism.com](https://coffeeprism.com)
+Coffee Prism 是一个专注于咖啡知识和产品推荐的网站，基于 Jekyll 构建。  
+Coffee Prism is a website focused on coffee knowledge and product recommendations, built with Jekyll.
 
-## 网站结构
+🌐 **Website**: [https://coffeeprism.com](https://coffeeprism.com)
+
+## 🔍 网站结构 (Website Structure)
 
 网站主要包含以下几个部分：
 
@@ -17,7 +21,7 @@ Coffee Prism 是一个专注于咖啡知识和产品推荐的网站，基于 Jek
 - **样式文件**：存放在 `assets/css` 目录中
 - **图片资源**：存放在 `assets/images` 目录中
 
-## 如何添加新内容
+## 🚀 如何添加新内容 (How to Add New Content)
 
 ### 添加博客文章
 
@@ -105,20 +109,7 @@ coffee_beans:
 
 3. 确保 `amazon_id` 是正确的亚马逊产品 ID，这将用于生成亚马逊联盟链接
 
-## 亚马逊联盟设置
-
-亚马逊联盟的跟踪 ID 配置在 `_config.yml` 文件中：
-
-```yaml
-affiliate:
-  amazon:
-    tracking_id: "coffeeprism-20"
-    enabled: true
-```
-
-如需更改跟踪 ID，请修改 `tracking_id` 的值。
-
-## 本地开发
+## 💻 本地开发 (Local Development)
 
 要在本地运行网站进行开发和测试，请按照以下步骤操作：
 
@@ -128,11 +119,11 @@ affiliate:
 4. 运行 `bundle exec jekyll serve` 启动本地服务器
 5. 在浏览器中访问 `http://localhost:4000` 查看网站
 
-## 部署
+## 🌐 部署 (Deployment)
 
 将更改推送到主分支后，网站将自动构建和部署。
 
-## 图片优化
+## 🖼️ 图片优化 (Image Optimization)
 
 为了提高网站性能，请确保上传的图片已经过优化：
 
@@ -140,6 +131,28 @@ affiliate:
 2. 使用适当的压缩工具减小文件大小
 3. 为产品图片使用统一的尺寸比例（建议 1:1 或 4:3）
 
-## 许可证
+## 🤝 贡献指南 (Contributing Guidelines)
+
+We welcome contributions to improve Coffee Prism! Here's how you can help:
+
+1. **Fork** the repository
+2. **Create** a feature branch: `git checkout -b feature/amazing-feature`
+3. **Commit** your changes: `git commit -m 'Add some amazing feature'`
+4. **Push** to the branch: `git push origin feature/amazing-feature`
+5. Submit a **Pull Request**
+
+Please make sure your code follows our style guide and passes all tests.
+
+## 📝 问题反馈 (Issue Reporting)
+
+If you find a bug or have a feature request, please create an issue using our issue template.
+
+## 📊 项目状态 (Project Status)
+
+此项目处于积极开发和维护中。
+This project is actively maintained and under development.
+
+## 📜 许可证 (License)
 
 本项目采用 MIT 许可证。详情请参阅 [LICENSE](LICENSE) 文件。
+This project is licensed under the MIT License - see the [LICENSE](LICENSE) file for details.

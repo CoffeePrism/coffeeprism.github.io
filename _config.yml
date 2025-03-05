@@ -1,8 +1,12 @@
 title: Coffee Prism
 description: Exploring the world of coffee through a prism of knowledge
-url: https://coffeeprism.github.io
+url: https://www.coffeeprism.com
 baseurl: ""
 permalink: /:categories/:title/
+
+# GitHub Pages settings
+github: [metadata]
+repository: CoffeePrism/coffeeprism.github.io
 
 # Image settings
 use_remote_images: true
@@ -11,6 +15,9 @@ remote_image_base_url: "https://source.unsplash.com/random/800x600/?"
 # Build settings
 markdown: kramdown
 highlighter: rouge
+kramdown:
+  input: GFM
+  syntax_highlighter: rouge
 
 # Collections
 collections:
@@ -75,6 +82,7 @@ plugins:
   - jekyll-sitemap
   - jekyll-feed
   - jekyll-seo-tag
+  - jekyll-github-metadata
 
 # Exclude from processing
 exclude:
@@ -83,4 +91,10 @@ exclude:
   - node_modules
   - vendor
   - .git
-  - README.md 
+  - README.md
+  - LICENSE
+  - CNAME
+  - .github
+  - CODE_OF_CONDUCT.md
+  - CONTRIBUTING.md
+  - .editorconfig 
