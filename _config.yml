@@ -7,6 +7,9 @@ permalink: /:categories/:title/
 # GitHub Pages settings
 github: [metadata]
 repository: CoffeePrism/coffeeprism.github.io
+safe: true
+lsi: false
+incremental: false
 
 # Image settings
 use_remote_images: true
@@ -17,7 +20,10 @@ markdown: kramdown
 highlighter: rouge
 kramdown:
   input: GFM
+  hard_wrap: false
   syntax_highlighter: rouge
+  syntax_highlighter_opts:
+    css_class: 'highlight'
 
 # Collections
 collections:

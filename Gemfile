@@ -1,7 +1,7 @@
 source "https://rubygems.org"
 
 # Use GitHub Pages gem
-gem "github-pages", group: :jekyll_plugins
+gem "github-pages", "~> 231", group: :jekyll_plugins
 
 # Jekyll plugins
 group :jekyll_plugins do
@@ -22,4 +22,7 @@ end
 gem "wdm", "~> 0.1.1", :platforms => [:mingw, :x64_mingw, :mswin]
 
 # Lock webrick to compatible version
-gem "webrick", "~> 1.7" 
+gem "webrick", "~> 1.7"
+
+# HTML Proofer for testing
+gem "html-proofer", "~> 3.19" 
