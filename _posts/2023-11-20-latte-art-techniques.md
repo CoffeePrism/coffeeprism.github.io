@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "拉花艺术：从基础到进阶的咖啡拉花技巧"
+title: "拉花艺术：从基础到高级技巧"
 date: 2023-11-20
 author: Coffee Prism
-categories: [咖啡技巧]
-tags: [拉花, 咖啡艺术, 奶泡, 浓缩咖啡]
-featured_image: /assets/images/latte-art.jpg
-excerpt: "学习如何创作精美的咖啡拉花，从基础技巧到高级图案，成为咖啡艺术大师。"
+categories: [coffee-knowledge]
+tags: [拉花, 咖啡艺术, 奶泡, 咖啡技巧]
+featured_image: /assets/images/latte-art-techniques.jpg
+featured: true
+excerpt: "学习专业咖啡师的拉花技巧，从简单的心形到复杂的郁金香图案。"
 ---
 
 # 拉花艺术：从基础到进阶的咖啡拉花技巧

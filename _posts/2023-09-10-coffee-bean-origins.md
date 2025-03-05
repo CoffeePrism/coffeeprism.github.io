@@ -1,12 +1,13 @@
 ---
 layout: post
-title: "咖啡豆产地指南：探索世界各地的咖啡风味"
+title: "咖啡豆产地指南：探索全球咖啡风味"
 date: 2023-09-10
 author: Coffee Prism
-categories: [咖啡知识]
-tags: [咖啡豆, 产地, 风味, 精品咖啡]
-featured_image: /assets/images/coffee-origins.jpg
-excerpt: "从埃塞俄比亚到哥伦比亚，了解不同产地咖啡豆的独特风味特点。"
+categories: [coffee-knowledge]
+tags: [咖啡豆, 产地, 埃塞俄比亚, 哥伦比亚, 巴西, 肯尼亚]
+featured_image: /assets/images/coffee-bean-origins.jpg
+featured: true
+excerpt: "了解不同产地咖啡豆的独特风味特点，探索全球咖啡文化。"
 ---
 
 # 咖啡豆产地指南：探索世界各地的咖啡风味

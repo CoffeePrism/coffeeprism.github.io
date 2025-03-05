@@ -3,9 +3,10 @@ layout: post
 title: "咖啡冲泡方法全指南：从手冲到浓缩"
 date: 2023-08-15
 author: Coffee Prism
-categories: [咖啡知识]
+categories: [coffee-knowledge]
 tags: [冲泡, 手冲, 浓缩咖啡, 法压壶, 摩卡壶]
 featured_image: /assets/images/brewing-methods.jpg
+featured: true
 excerpt: "探索不同的咖啡冲泡方法，找到最适合你口味的完美一杯。"
 ---
 

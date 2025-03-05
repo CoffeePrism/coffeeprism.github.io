@@ -3,9 +3,10 @@ layout: post
 title: "咖啡烘焙指南：从生豆到完美烘焙"
 date: 2023-10-05
 author: Coffee Prism
-categories: [咖啡知识]
+categories: [coffee-knowledge]
 tags: [咖啡烘焙, 烘焙度, 家庭烘焙, 生豆]
 featured_image: /assets/images/coffee-roasting.jpg
+featured: true
 excerpt: "探索咖啡烘焙的艺术与科学，学习如何在家中烘焙出完美的咖啡豆。"
 ---
 
