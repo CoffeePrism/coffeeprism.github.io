@@ -12,12 +12,12 @@ permalink: /categories/
 
   <div class="categories-list">
     {% assign sorted_categories = site.categories | sort %}
-    {% for category in sorted_categories %}
-      {% assign category_name = category | first %}
-      {% assign posts = category | last %}
+    {% for category_pair in sorted_categories %}
+      {% assign category_name = category_pair[0] %}
+      {% assign posts = category_pair[1] %}
       <div class="category-item">
-        <h2 id="{{ category_name | slugify }}">
-          <a href="{{ site.baseurl }}/categories/{{ category_name | slugify }}/">{{ category_name }}</a>
+        <h2 id="{{ category_name | strip | slugify }}">
+          <a href="{{ site.baseurl }}/categories/{{ category_name | strip | slugify }}/">{{ category_name }}</a>
         </h2>
         <span class="category-count">{{ posts.size }} 篇文章</span>
         
