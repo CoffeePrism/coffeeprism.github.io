@@ -1,4 +1,4 @@
-name: Jekyll site CI/CD
+name: Build and deploy Jekyll site
 
 on:
   push:
@@ -7,43 +7,22 @@ on:
     branches: [ main ]
 
 jobs:
-  build:
+  github-pages:
     runs-on: ubuntu-latest
     steps:
-    - uses: actions/checkout@v3
-      with:
-        token: ${{ secrets.GITHUB_TOKEN }}
-        submodules: recursive
+      - uses: actions/checkout@v3
       
-    - name: Set up Ruby
-      uses: ruby/setup-ruby@v1
-      with:
-        ruby-version: '3.0'
-        bundler-cache: false
-    
-    - name: Install dependencies
-      run: |
-        bundle config set --local path 'vendor/bundle'
-        bundle install --jobs 4 --retry 3
+      - uses: actions/cache@v3
+        with:
+          path: vendor/bundle
+          key: ${{ runner.os }}-gems-${{ hashFiles('**/Gemfile') }}
+          restore-keys: |
+            ${{ runner.os }}-gems-
       
-    - name: Build site
-      run: |
-        bundle exec jekyll build --trace
-      env:
-        JEKYLL_ENV: production
-        JEKYLL_GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
-      
-    - name: Test HTML
-      run: |
-        bundle exec htmlproofer ./_site --disable-external --allow-hash-href --checks-to-ignore ImageCheck || true
-
-    - name: Deploy to GitHub Pages
-      if: github.event_name == 'push' && github.ref == 'refs/heads/main'
-      uses: peaceiris/actions-gh-pages@v3
-      with:
-        github_token: ${{ secrets.GITHUB_TOKEN }}
-        publish_dir: ./_site
-        cname: www.coffeeprism.com
-        publish_branch: main
-        force_orphan: true
-        commit_message: "Deploy site built from ${{ github.sha }}" 
+      - uses: helaili/jekyll-action@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }}
+          jekyll_src: '.'
+          target_branch: 'gh-pages'
+          build_only: false
+          pre_build_commands: '' 
