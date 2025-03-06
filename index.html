@@ -24,21 +24,23 @@ title: 首页
       {% for post in featured_posts %}
       <div class="featured-card">
         <a href="{{ post.url | relative_url }}" class="featured-link">
-          {% if post.featured_image %}
           <div class="featured-image">
-            {% if site.use_remote_images %}
-              {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
-              {% assign search_term = image_name | replace: "-", "+" %}
-              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+            {% if site.use_smart_images %}
+              {% include smart-image.html post=post class="img-fluid rounded shadow-sm" %}
             {% else %}
-              {% if post.featured_image %}
-                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+              {% if site.use_remote_images %}
+                {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
+                {% assign search_term = image_name | replace: "-", "+" %}
+                <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
               {% else %}
-                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+                {% if post.featured_image %}
+                  <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+                {% else %}
+                  <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+                {% endif %}
               {% endif %}
             {% endif %}
           </div>
-          {% endif %}
           <div class="featured-content">
             <h3>{{ post.title }}</h3>
             <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
@@ -56,21 +58,23 @@ title: 首页
       {% for post in site.posts limit:6 %}
       <div class="article-card">
         <a href="{{ post.url | relative_url }}" class="article-link">
-          {% if post.featured_image %}
           <div class="article-image">
-            {% if site.use_remote_images %}
-              {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
-              {% assign search_term = image_name | replace: "-", "+" %}
-              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+            {% if site.use_smart_images %}
+              {% include smart-image.html post=post class="img-fluid rounded shadow-sm" %}
             {% else %}
-              {% if post.featured_image %}
-                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+              {% if site.use_remote_images %}
+                {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
+                {% assign search_term = image_name | replace: "-", "+" %}
+                <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
               {% else %}
-                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+                {% if post.featured_image %}
+                  <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+                {% else %}
+                  <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+                {% endif %}
               {% endif %}
             {% endif %}
           </div>
-          {% endif %}
           <div class="article-content">
             <h3>{{ post.title }}</h3>
             <div class="article-meta">

@@ -1,0 +1,49 @@
+# 图片映射配置
+# 这个文件将分类、标签和关键词映射到相应的图片
+# 系统会优先使用文章原有的特色图片，若没有则根据匹配规则自动选择
+
+# 分类映射
+categories:
+  brewing: "/assets/images/categories/brewing.jpg"
+  roasting: "/assets/images/categories/roasting.jpg"
+  beans: "/assets/images/categories/beans.jpg"
+  equipment: "/assets/images/categories/coffee-equipment.jpg"
+  history: "/assets/images/categories/coffee-history.jpg"
+  culture: "/assets/images/categories/coffee-culture.jpg"
+  latte-art: "/assets/images/categories/latte-art.jpg"
+  espresso: "/assets/images/categories/espresso.jpg"
+  coffee-knowledge: "/assets/images/categories/coffee-culture.jpg"
+  guides: "/assets/images/categories/brewing.jpg"
+  reviews: "/assets/images/categories/coffee-equipment.jpg"
+  recipes: "/assets/images/categories/coffee-drink.jpg"
+
+# 标签映射（标签优先级低于分类）
+tags:
+  brewing: "/assets/images/categories/brewing.jpg"
+  pour-over: "/assets/images/categories/brewing.jpg"
+  drip: "/assets/images/categories/brewing.jpg"
+  espresso: "/assets/images/categories/espresso.jpg"
+  latte: "/assets/images/categories/latte-art.jpg"
+  cappuccino: "/assets/images/categories/latte-art.jpg"
+  beans: "/assets/images/categories/beans.jpg"
+  roasting: "/assets/images/categories/roasting.jpg"
+  equipment: "/assets/images/categories/coffee-equipment.jpg"
+  history: "/assets/images/categories/coffee-history.jpg"
+  culture: "/assets/images/categories/coffee-culture.jpg"
+
+# 关键词映射（用于标题或内容中没有明确分类或标签的情况）
+keywords:
+  brew: "/assets/images/categories/brewing.jpg"
+  brewing: "/assets/images/categories/brewing.jpg"
+  drip: "/assets/images/categories/brewing.jpg"
+  pour: "/assets/images/categories/brewing.jpg"
+  espresso: "/assets/images/categories/espresso.jpg"
+  latte: "/assets/images/categories/latte-art.jpg"
+  art: "/assets/images/categories/latte-art.jpg"
+  bean: "/assets/images/categories/beans.jpg"
+  beans: "/assets/images/categories/beans.jpg"
+  roast: "/assets/images/categories/roasting.jpg"
+  grinder: "/assets/images/categories/coffee-equipment.jpg"
+  machine: "/assets/images/categories/coffee-equipment.jpg"
+  history: "/assets/images/categories/coffee-history.jpg"
+  culture: "/assets/images/categories/coffee-culture.jpg" 

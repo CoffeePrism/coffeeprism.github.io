@@ -740,4 +740,44 @@ img {
 .tag-size-4 { font-size: 1.4rem; }
 .tag-size-5 { font-size: 1.6rem; }
 .tag-size-6 { font-size: 1.8rem; }
-.tag-size-7 { font-size: 2rem; } 
+.tag-size-7 { font-size: 2rem; }
+
+/* 智能图片样式 */
+.post-featured-image img,
+.featured-image img,
+.article-image img {
+  width: 100%;
+  height: auto;
+  border-radius: 8px;
+  box-shadow: 0 4px 6px rgba(0, 0, 0, 0.1);
+  transition: all 0.3s ease;
+  object-fit: cover;
+}
+
+.post-featured-image img {
+  max-height: 400px;
+}
+
+.featured-image img,
+.article-image img {
+  height: 220px;
+}
+
+/* 图片悬停效果 */
+.featured-image img:hover,
+.article-image img:hover {
+  transform: translateY(-5px);
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* 图片加载动画 */
+@keyframes imageFadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+.post-featured-image img,
+.featured-image img,
+.article-image img {
+  animation: imageFadeIn 0.5s ease-in-out;
+} 

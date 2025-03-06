@@ -95,4 +95,7 @@ exclude:
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
   - .editorconfig
-  - _tags 
+  - _tags
+
+# Image display and processing
+use_smart_images: true 

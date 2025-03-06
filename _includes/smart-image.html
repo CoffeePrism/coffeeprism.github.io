@@ -1,0 +1,55 @@
+{% comment %}
+智能图片处理组件 - 根据文章内容自动选择相关图片
+使用方法:
+include smart-image.html 
+  post=page
+  class="additional-class"
+  使用post参数传入文章对象，系统会自动分析其分类、标签和标题，选择最相关的图片
+{% endcomment %}
+
+{% assign post = include.post %}
+{% assign img_class = include.class | default: "" %}
+{% assign selected_image = site.default_image %}
+
+{% if post.featured_image %}
+  {% assign selected_image = post.featured_image %}
+{% else %}
+  {% comment %} 1. 优先根据分类选择图片 {% endcomment %}
+  {% if post.categories.size > 0 %}
+    {% assign category_slug = post.categories.first | strip | slugify %}
+    {% if site.data.image_mappings.categories[category_slug] %}
+      {% assign selected_image = site.data.image_mappings.categories[category_slug] %}
+    {% endif %}
+  {% endif %}
+  
+  {% comment %} 2. 如果没有匹配的分类，则根据标签选择 {% endcomment %}
+  {% if selected_image == site.default_image and post.tags.size > 0 %}
+    {% for tag in post.tags %}
+      {% assign tag_slug = tag | strip | slugify %}
+      {% if site.data.image_mappings.tags[tag_slug] %}
+        {% assign selected_image = site.data.image_mappings.tags[tag_slug] %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+  
+  {% comment %} 3. 如果分类和标签都没有匹配，则根据标题关键词选择 {% endcomment %}
+  {% if selected_image == site.default_image and post.title %}
+    {% assign title_downcase = post.title | downcase %}
+    {% for keyword_mapping in site.data.image_mappings.keywords %}
+      {% assign keyword = keyword_mapping[0] %}
+      {% if title_downcase contains keyword %}
+        {% assign selected_image = keyword_mapping[1] %}
+        {% break %}
+      {% endif %}
+    {% endfor %}
+  {% endif %}
+{% endif %}
+
+<img 
+  src="{{ selected_image | relative_url }}" 
+  alt="{{ post.title }}" 
+  class="{{ img_class }}"
+  loading="lazy"
+  onerror="this.onerror=null; this.src='{{ site.default_image | relative_url }}';"
+/> 

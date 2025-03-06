@@ -38,22 +38,18 @@ layout: default
     </div>
   </header>
 
-  {% if page.featured_image %}
+  <!-- 图片区域 -->
   <div class="post-featured-image">
-    {% include image.html 
-      src=page.featured_image 
-      alt=page.title 
-      default_src=site.default_image 
-    %}
+    {% if site.use_smart_images %}
+      {% include smart-image.html post=page class="img-fluid rounded shadow-sm" %}
+    {% else %}
+      {% if page.featured_image %}
+        {% include image.html src=page.featured_image alt=page.title default_src=site.default_image %}
+      {% else %}
+        {% include image.html src=site.default_image alt=page.title %}
+      {% endif %}
+    {% endif %}
   </div>
-  {% else %}
-  <div class="post-featured-image">
-    {% include image.html 
-      src=site.default_image 
-      alt=page.title 
-    %}
-  </div>
-  {% endif %}
 
   <div class="post-content">
     {{ content }}
