@@ -11,10 +11,6 @@ safe: true
 lsi: false
 incremental: false
 
-# Image settings
-use_remote_images: true
-remote_image_base_url: "https://source.unsplash.com/random/800x600/?"
-
 # Build settings
 markdown: kramdown
 highlighter: rouge
@@ -36,9 +32,6 @@ collections:
   categories:
     output: true
     permalink: /categories/:path/
-  tags:
-    output: true
-    permalink: /tags/:path/
 
 # Default front matter
 defaults:
@@ -66,18 +59,7 @@ defaults:
       type: "categories"
     values:
       layout: "category"
-  - scope:
-      path: ""
-      type: "tags"
-    values:
-      layout: "tag"
 
-# Affiliate settings
-affiliate:
-  amazon:
-    tracking_id: "coffeeprism-20"
-    enabled: true
-  
 # Pagination
 paginate: 10
 paginate_path: "/page/:num/"
@@ -103,4 +85,5 @@ exclude:
   - .github
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
-  - .editorconfig 
+  - .editorconfig
+  - _tags 

@@ -1,77 +1,46 @@
 ---
 layout: default
-title: 标签
+title: Tags
 permalink: /tags/
 ---
 
-<div class="tags-page">
-  <header class="page-header">
-    <h1 class="page-title">所有标签</h1>
-    <p class="page-description">按标签浏览所有文章</p>
-  </header>
+<div class="page-header">
+  <h1>Tags</h1>
+</div>
 
-  {% assign tags = site.tags | sort %}
-  
-  <div class="tags-cloud">
-    {% for tag in tags %}
-      {% assign tag_name = tag | first %}
-      {% assign posts = tag | last %}
-      {% assign tag_size = posts.size | plus: 1 %}
-      {% if tag_size <= 2 %}
-        {% assign size_class = 'tag-size-1' %}
-      {% elsif tag_size <= 4 %}
-        {% assign size_class = 'tag-size-2' %}
-      {% elsif tag_size <= 6 %}
-        {% assign size_class = 'tag-size-3' %}
-      {% elsif tag_size <= 8 %}
-        {% assign size_class = 'tag-size-4' %}
-      {% elsif tag_size <= 10 %}
-        {% assign size_class = 'tag-size-5' %}
-      {% elsif tag_size <= 12 %}
-        {% assign size_class = 'tag-size-6' %}
-      {% else %}
-        {% assign size_class = 'tag-size-7' %}
-      {% endif %}
-      <a href="#{{ tag_name | slugify }}" class="tag-cloud-item {{ size_class }}">
-        {{ tag_name }} <span class="tag-count">({{ posts.size }})</span>
-      </a>
-    {% endfor %}
-  </div>
+<div class="tags-container">
+  {% assign sorted_tags = site.tags | sort %}
+  {% for tag in sorted_tags %}
+    {% assign tag_name = tag | first %}
+    {% assign tag_slug = tag_name | strip | slugify %}
+    {% assign posts = tag | last %}
+    
+    <h2 id="{{ tag_slug }}">{{ tag_name }}</h2>
+    <ul class="tag-posts">
+      {% for post in posts %}
+        <li>
+          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+          <span class="post-date">({{ post.date | date: "%b %d, %Y" }})</span>
+        </li>
+      {% endfor %}
+    </ul>
+  {% endfor %}
+</div>
 
-  <div class="tags-list">
-    {% for tag in tags %}
-      {% assign tag_name = tag | first %}
-      {% assign posts = tag | last %}
-      <div class="tag-item" id="{{ tag_name | slugify }}">
-        <h2>{{ tag_name }}</h2>
-        <span class="tag-count">{{ posts.size }} 篇文章</span>
-        
-        <ul class="tag-posts">
-          {% for post in posts %}
-          <li>
-            <a href="{{ post.url | relative_url }}">
-              {{ post.title }}
-            </a>
-            <span class="post-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-            
-            {% if post.categories %}
-            <span class="post-categories">
-              <i class="fas fa-folder"></i>
-              {% if post.categories.first %}
-                {% for category in post.categories %}
-                  {% assign category_str = category | strip %}
-                  <a href="{{ site.baseurl }}/categories/{{ category_str | slugify }}/">{{ category_str }}</a>{% unless forloop.last %}, {% endunless %}
-                {% endfor %}
-              {% else %}
-                {% assign category_str = post.categories | strip %}
-                <a href="{{ site.baseurl }}/categories/{{ category_str | slugify }}/">{{ category_str }}</a>
-              {% endif %}
-            </span>
-            {% endif %}
-          </li>
-          {% endfor %}
-        </ul>
-      </div>
-    {% endfor %}
-  </div>
-</div> 
+<style>
+  .tags-container h2 {
+    margin-top: 30px;
+    margin-bottom: 10px;
+  }
+  .tag-posts {
+    list-style-type: none;
+    padding-left: 0;
+  }
+  .tag-posts li {
+    margin-bottom: 5px;
+  }
+  .post-date {
+    color: #999;
+    font-size: 0.9em;
+  }
+</style> 
