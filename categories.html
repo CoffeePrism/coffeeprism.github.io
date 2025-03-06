@@ -11,10 +11,10 @@ permalink: /categories/
 <div class="categories-container">
   {% assign sorted_categories = site.categories | sort %}
   
-  {% for category_pair in sorted_categories %}
-    {% assign category_name = category_pair[0] %}
+  {% for category in sorted_categories %}
+    {% assign category_name = category | first %}
     {% assign category_slug = category_name | strip | slugify %}
-    {% assign posts = category_pair[1] %}
+    {% assign posts = category | last %}
     
     <h2 id="{{ category_slug }}">{{ category_name }}</h2>
     <ul class="category-posts">
