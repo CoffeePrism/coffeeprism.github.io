@@ -10,17 +10,24 @@ permalink: /categories/
 </div>
 
 <div class="categories-container">
-  {% assign sorted_categories = site.categories | sort %}
+  <!-- Create a simpler approach to iterate through categories -->
+  {% assign all_categories = "" | split: "" %}
+  {% for post in site.posts %}
+    {% for category in post.categories %}
+      {% assign all_categories = all_categories | push: category %}
+    {% endfor %}
+  {% endfor %}
   
-  {% for category in sorted_categories %}
-    {% assign category_name = category[0] %}
-    {% assign posts = category[1] %}
+  {% assign unique_categories = all_categories | uniq | sort %}
+  
+  {% for category_name in unique_categories %}
     {% assign category_slug = category_name | strip | slugify %}
+    {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category_name" %}
     
     <section class="category-section" id="{{ category_slug }}">
       <h2 class="category-title">{{ category_name }}</h2>
       <ul class="category-posts">
-        {% for post in posts %}
+        {% for post in category_posts %}
           <li class="category-post-item">
             <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
             <span class="post-date">({{ post.date | date: "%Y-%m-%d" }})</span>
