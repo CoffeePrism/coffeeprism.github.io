@@ -1,0 +1,180 @@
+---
+layout: default
+title: 文章列表
+permalink: /blog/
+---
+
+<div class="blog-list-container">
+  <header class="page-header">
+    <h1 class="page-title">文章列表</h1>
+    <p class="page-description">浏览所有最新文章和归档</p>
+  </header>
+
+  <div class="blog-list">
+    {% assign sorted_posts = site.posts | sort: 'date' | reverse %}
+    {% for post in sorted_posts %}
+      <article class="blog-list-item">
+        <div class="blog-list-content">
+          <header>
+            <h2 class="blog-list-title">
+              <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
+            </h2>
+            <div class="blog-list-meta">
+              <time datetime="{{ post.date | date_to_xmlschema }}">{{ post.date | date: "%Y-%m-%d" }}</time>
+              {% if post.categories.size > 0 %}
+                <span class="blog-list-categories">
+                  {% for category in post.categories %}
+                    {% assign category_name = category | strip %}
+                    {% assign category_slug = category_name | slugify %}
+                    <a href="{{ site.baseurl }}/categories#{{ category_slug }}" class="category-link">{{ category_name }}</a>{% unless forloop.last %}, {% endunless %}
+                  {% endfor %}
+                </span>
+              {% endif %}
+            </div>
+          </header>
+          
+          {% if post.featured_image %}
+          <div class="blog-list-image">
+            {% if site.use_remote_images %}
+              {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
+              {% assign search_term = image_name | replace: "-", "+" %}
+              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+            {% else %}
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+            {% endif %}
+          </div>
+          {% endif %}
+          
+          <div class="blog-list-excerpt">
+            {{ post.excerpt | strip_html | truncate: 200 }}
+          </div>
+          
+          <a href="{{ post.url | relative_url }}" class="read-more-link">阅读更多 &raquo;</a>
+        </div>
+      </article>
+    {% endfor %}
+  </div>
+</div>
+
+<style>
+  .blog-list-container {
+    max-width: 1200px;
+    margin: 0 auto;
+    padding: 2rem 1rem;
+  }
+  
+  .page-header {
+    text-align: center;
+    margin-bottom: 3rem;
+  }
+  
+  .page-title {
+    font-size: 2.5rem;
+    color: #333;
+    margin-bottom: 0.5rem;
+  }
+  
+  .page-description {
+    font-size: 1.2rem;
+    color: #666;
+  }
+  
+  .blog-list-item {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eaeaea;
+  }
+  
+  .blog-list-item:last-child {
+    border-bottom: none;
+  }
+  
+  .blog-list-title {
+    font-size: 1.8rem;
+    margin-bottom: 0.5rem;
+  }
+  
+  .blog-list-title a {
+    color: #333;
+    text-decoration: none;
+    transition: color 0.3s;
+  }
+  
+  .blog-list-title a:hover {
+    color: #c9741c;
+  }
+  
+  .blog-list-meta {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1rem;
+    margin-bottom: 1rem;
+    font-size: 0.9rem;
+    color: #666;
+  }
+  
+  .blog-list-categories a {
+    color: #c9741c;
+    text-decoration: none;
+  }
+  
+  .blog-list-categories a:hover {
+    text-decoration: underline;
+  }
+  
+  .blog-list-image {
+    margin: 1rem 0;
+    overflow: hidden;
+    border-radius: 8px;
+  }
+  
+  .blog-list-image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.3s;
+  }
+  
+  .blog-list-image img:hover {
+    transform: scale(1.03);
+  }
+  
+  .blog-list-excerpt {
+    margin-bottom: 1rem;
+    color: #444;
+    line-height: 1.6;
+  }
+  
+  .read-more-link {
+    display: inline-block;
+    color: #c9741c;
+    font-weight: 600;
+    text-decoration: none;
+  }
+  
+  .read-more-link:hover {
+    text-decoration: underline;
+  }
+  
+  @media (min-width: 768px) {
+    .blog-list-content {
+      display: grid;
+      grid-template-columns: 1fr;
+      gap: 1.5rem;
+    }
+    
+    .blog-list-image {
+      margin: 0;
+    }
+  }
+  
+  @media (min-width: 992px) {
+    .blog-list-item {
+      padding-bottom: 3rem;
+      margin-bottom: 4rem;
+    }
+    
+    .blog-list-title {
+      font-size: 2rem;
+    }
+  }
+</style> 
