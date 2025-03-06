@@ -28,8 +28,10 @@ affiliate:
     enabled: true
 
 # Image settings
-use_remote_images: true
-remote_image_base_url: "https://source.unsplash.com/random/800x600/?"
+use_remote_images: false
+default_image: "/assets/images/coffee-default.jpg"
+default_coffee_image: "/assets/images/coffee-beans-default.jpg"
+remote_image_base_url: "https://images.unsplash.com/photo-"
 
 # Collections
 collections:

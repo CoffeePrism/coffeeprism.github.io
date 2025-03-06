@@ -31,7 +31,11 @@ title: 首页
               {% assign search_term = image_name | replace: "-", "+" %}
               <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
             {% else %}
-              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+              {% if post.featured_image %}
+                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+              {% else %}
+                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+              {% endif %}
             {% endif %}
           </div>
           {% endif %}
@@ -59,7 +63,11 @@ title: 首页
               {% assign search_term = image_name | replace: "-", "+" %}
               <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
             {% else %}
-              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+              {% if post.featured_image %}
+                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+              {% else %}
+                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+              {% endif %}
             {% endif %}
           </div>
           {% endif %}

@@ -40,8 +40,12 @@ permalink: /blog/
               {% assign search_term = image_name | replace: "-", "+" %}
               <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
             {% else %}
-              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}">
+              <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
             {% endif %}
+          </div>
+          {% else %}
+          <div class="blog-list-image">
+            <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
           </div>
           {% endif %}
           

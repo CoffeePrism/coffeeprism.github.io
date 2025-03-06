@@ -1,0 +1,20 @@
+{% comment %}
+图片处理组件 - 使用方法:
+include image.html 
+  src="/path/to/image.jpg" 
+  alt="图片描述" 
+  class="additional-class" 
+  default_src=site.default_image
+{% endcomment %}
+
+{% assign img_src = include.src | default: include.default_src | default: site.default_image %}
+{% assign img_alt = include.alt | default: "Coffee Prism Image" %}
+{% assign img_class = include.class | default: "" %}
+
+<img 
+  src="{{ img_src | relative_url }}" 
+  alt="{{ img_alt }}" 
+  class="{{ img_class }}"
+  loading="lazy"
+  onerror="this.onerror=null; this.src='{{ site.default_image | relative_url }}';"
+/> 

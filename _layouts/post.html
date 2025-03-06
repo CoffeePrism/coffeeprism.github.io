@@ -40,13 +40,18 @@ layout: default
 
   {% if page.featured_image %}
   <div class="post-featured-image">
-    {% if site.use_remote_images %}
-      {% assign image_name = page.featured_image | split: "/" | last | split: "." | first %}
-      {% assign search_term = image_name | replace: "-", "+" %}
-      <img src="{{ site.remote_image_base_url }}coffee,{{ search_term }}" alt="{{ page.title }}">
-    {% else %}
-      <img src="{{ page.featured_image | relative_url }}" alt="{{ page.title }}">
-    {% endif %}
+    {% include image.html 
+      src=page.featured_image 
+      alt=page.title 
+      default_src=site.default_image 
+    %}
+  </div>
+  {% else %}
+  <div class="post-featured-image">
+    {% include image.html 
+      src=site.default_image 
+      alt=page.title 
+    %}
   </div>
   {% endif %}
 

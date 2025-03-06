@@ -1,0 +1,46 @@
+/* 图片样式优化 */
+.post-featured-image,
+.blog-list-image,
+.featured-image,
+.article-image {
+  border-radius: 8px;
+  overflow: hidden;
+  box-shadow: 0 3px 10px rgba(0, 0, 0, 0.1);
+  margin: 1.5rem 0;
+}
+
+.post-featured-image img,
+.blog-list-image img,
+.featured-image img,
+.article-image img {
+  width: 100%;
+  height: auto;
+  object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.post-featured-image img:hover,
+.blog-list-image img:hover,
+.featured-image img:hover,
+.article-image img:hover {
+  transform: scale(1.03);
+}
+
+@media (max-width: 768px) {
+  .post-featured-image,
+  .blog-list-image,
+  .featured-image,
+  .article-image {
+    margin: 1rem 0;
+  }
+}
+
+/* 图片加载动画 */
+@keyframes fadeIn {
+  from { opacity: 0; }
+  to { opacity: 1; }
+}
+
+img {
+  animation: fadeIn 0.5s ease-in;
+} 
