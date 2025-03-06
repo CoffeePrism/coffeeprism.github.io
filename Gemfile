@@ -7,7 +7,7 @@ gem "github-pages", "~> 231", group: :jekyll_plugins
 gem "ffi", "~> 1.15.5" # Pin to older version compatible with RubyGems 3.1.6
 gem "eventmachine", "1.2.7" # Pin eventmachine version for compatibility
 gem "faraday", "~> 2.7.10" # Pin Faraday to avoid issues
-gem "faraday-retry" # Add retry middleware
+gem "faraday-retry", "~> 2.1.0" # Specify version for retry middleware
 
 # Jekyll plugins
 group :jekyll_plugins do
@@ -21,6 +21,7 @@ end
 # Platform-specific dependencies
 platform :ruby do
   gem "webrick", "~> 1.7"
+  gem "faraday-retry" # Ensure faraday-retry is available for Ruby platform
 end
 
 # Windows and JRuby-specific dependencies
