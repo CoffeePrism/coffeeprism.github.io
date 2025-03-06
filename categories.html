@@ -1,47 +1,100 @@
 ---
 layout: default
-title: Categories
+title: 分类
 permalink: /categories/
 ---
 
 <div class="page-header">
-  <h1>Categories</h1>
+  <h1>分类</h1>
+  <p>按话题浏览文章</p>
 </div>
 
 <div class="categories-container">
   {% assign sorted_categories = site.categories | sort %}
   
-  {% for category in sorted_categories %}
-    {% assign category_name = category | first %}
+  {% for category_pair in sorted_categories %}
+    {% assign category_name = category_pair[0] %}
+    {% assign posts = category_pair[1] %}
     {% assign category_slug = category_name | strip | slugify %}
-    {% assign posts = category | last %}
     
-    <h2 id="{{ category_slug }}">{{ category_name }}</h2>
-    <ul class="category-posts">
-      {% for post in posts %}
-        <li>
-          <a href="{{ post.url | relative_url }}">{{ post.title }}</a>
-          <span class="post-date">({{ post.date | date: "%b %d, %Y" }})</span>
-        </li>
-      {% endfor %}
-    </ul>
+    <section class="category-section" id="{{ category_slug }}">
+      <h2 class="category-title">{{ category_name }}</h2>
+      <ul class="category-posts">
+        {% for post in posts %}
+          <li class="category-post-item">
+            <a href="{{ post.url | relative_url }}" class="post-link">{{ post.title }}</a>
+            <span class="post-date">({{ post.date | date: "%Y-%m-%d" }})</span>
+            {% if post.excerpt %}
+              <p class="post-excerpt">{{ post.excerpt | strip_html | truncate: 120 }}</p>
+            {% endif %}
+          </li>
+        {% endfor %}
+      </ul>
+    </section>
   {% endfor %}
 </div>
 
 <style>
-  .categories-container h2 {
-    margin-top: 30px;
-    margin-bottom: 10px;
+  .categories-container {
+    max-width: 800px;
+    margin: 0 auto;
+    padding: 0 1rem;
   }
+  
+  .category-section {
+    margin-bottom: 3rem;
+    padding-bottom: 2rem;
+    border-bottom: 1px solid #eee;
+  }
+  
+  .category-section:last-child {
+    border-bottom: none;
+  }
+  
+  .category-title {
+    color: var(--primary-color, #007bff);
+    margin-top: 2rem;
+    margin-bottom: 1rem;
+    padding-bottom: 0.5rem;
+    border-bottom: 2px solid #eee;
+  }
+  
   .category-posts {
     list-style-type: none;
     padding-left: 0;
   }
-  .category-posts li {
-    margin-bottom: 5px;
+  
+  .category-post-item {
+    margin-bottom: 1.5rem;
   }
+  
+  .post-link {
+    font-weight: bold;
+    font-size: 1.1rem;
+    text-decoration: none;
+    color: var(--text-color, #333);
+  }
+  
+  .post-link:hover {
+    color: var(--primary-color, #007bff);
+  }
+  
   .post-date {
     color: #999;
-    font-size: 0.9em;
+    font-size: 0.9rem;
+    margin-left: 0.5rem;
+  }
+  
+  .post-excerpt {
+    margin-top: 0.5rem;
+    margin-bottom: 0;
+    color: #666;
+    font-size: 0.95rem;
+  }
+
+  @media (max-width: 768px) {
+    .categories-container {
+      padding: 0 0.5rem;
+    }
   }
 </style> 

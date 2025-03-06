@@ -34,11 +34,9 @@ remote_image_base_url: "https://source.unsplash.com/random/800x600/?"
 # Collections
 collections:
   coffee:
-    output: true
-    permalink: /coffee/:path/
+    output: false
   equipment:
-    output: true
-    permalink: /equipment/:path/
+    output: false
   categories:
     output: true
     permalink: /categories/:path/
