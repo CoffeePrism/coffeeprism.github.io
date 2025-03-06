@@ -24,7 +24,6 @@ jobs:
         run: |
           bundle config set --local path 'vendor/bundle'
           bundle install
-          bundle add faraday-retry -v 2.1.0
       
       - name: Build Jekyll site
         run: |
