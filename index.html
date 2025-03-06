@@ -10,8 +10,8 @@ title: 首页
       <h1>探索咖啡的世界</h1>
       <p>从咖啡豆到咖啡杯，发现完美咖啡的一切</p>
       <div class="hero-buttons">
-        <a href="{{ '/coffee/' | relative_url }}" class="btn btn-primary">探索咖啡</a>
-        <a href="{{ '/equipment/' | relative_url }}" class="btn btn-secondary">浏览设备</a>
+        <a href="{{ '/categories/' | relative_url }}" class="btn btn-primary">浏览分类</a>
+        <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">浏览文章</a>
       </div>
     </div>
   </section>
@@ -81,78 +81,6 @@ title: 首页
     </div>
     <div class="view-all">
       <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">查看所有文章</a>
-    </div>
-  </section>
-
-  <!-- Coffee Collections -->
-  <section class="coffee-collections">
-    <h2 class="section-title">咖啡精选</h2>
-    <div class="collections-grid">
-      {% for coffee in site.coffee limit:3 %}
-      <div class="collection-card">
-        <a href="{{ coffee.url | relative_url }}" class="collection-link">
-          {% if coffee.featured_image %}
-          <div class="collection-image">
-            {% if site.use_remote_images %}
-              {% assign image_name = coffee.featured_image | split: "/" | last | split: "." | first %}
-              {% assign search_term = image_name | replace: "-", "+" %}
-              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ coffee.title }}">
-            {% else %}
-              <img src="{{ coffee.featured_image | relative_url }}" alt="{{ coffee.title }}">
-            {% endif %}
-          </div>
-          {% endif %}
-          <div class="collection-content">
-            <h3>{{ coffee.title }}</h3>
-            {% if coffee.origin %}
-            <div class="collection-origin">
-              <i class="fas fa-globe"></i> {{ coffee.origin }}
-            </div>
-            {% endif %}
-            <p>{{ coffee.excerpt | strip_html | truncate: 80 }}</p>
-          </div>
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="view-all">
-      <a href="{{ '/coffee/' | relative_url }}" class="btn btn-outline">探索更多咖啡</a>
-    </div>
-  </section>
-
-  <!-- Equipment Collections -->
-  <section class="equipment-collections">
-    <h2 class="section-title">咖啡设备</h2>
-    <div class="collections-grid">
-      {% for equipment in site.equipment limit:3 %}
-      <div class="collection-card">
-        <a href="{{ equipment.url | relative_url }}" class="collection-link">
-          {% if equipment.featured_image %}
-          <div class="collection-image">
-            {% if site.use_remote_images %}
-              {% assign image_name = equipment.featured_image | split: "/" | last | split: "." | first %}
-              {% assign search_term = image_name | replace: "-", "+" %}
-              <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee+equipment" alt="{{ equipment.title }}">
-            {% else %}
-              <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
-            {% endif %}
-          </div>
-          {% endif %}
-          <div class="collection-content">
-            <h3>{{ equipment.title }}</h3>
-            {% if equipment.brand %}
-            <div class="collection-brand">
-              <i class="fas fa-trademark"></i> {{ equipment.brand }}
-            </div>
-            {% endif %}
-            <p>{{ equipment.excerpt | strip_html | truncate: 80 }}</p>
-          </div>
-        </a>
-      </div>
-      {% endfor %}
-    </div>
-    <div class="view-all">
-      <a href="{{ '/equipment/' | relative_url }}" class="btn btn-outline">浏览更多设备</a>
     </div>
   </section>
 
