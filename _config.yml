@@ -21,6 +21,16 @@ kramdown:
   syntax_highlighter_opts:
     css_class: 'highlight'
 
+# Amazon Affiliate settings
+affiliate:
+  amazon:
+    tracking_id: "coffeeprism-20"
+    enabled: true
+
+# Image settings
+use_remote_images: true
+remote_image_base_url: "https://source.unsplash.com/random/800x600/?"
+
 # Collections
 collections:
   coffee:
