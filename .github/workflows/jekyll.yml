@@ -23,7 +23,6 @@ jobs:
       - name: Install dependencies
         run: |
           bundle install
-          bundle add faraday-retry
       
       - name: Build Jekyll site
         run: |

@@ -21,7 +21,6 @@ end
 # Platform-specific dependencies
 platform :ruby do
   gem "webrick", "~> 1.7"
-  gem "faraday-retry" # Ensure faraday-retry is available for Ruby platform
 end
 
 # Windows and JRuby-specific dependencies
