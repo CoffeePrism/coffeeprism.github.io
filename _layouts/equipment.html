@@ -26,12 +26,13 @@ layout: default
       {% endif %}
       
       {% if page.tags.size > 0 %}
-      <span class="equipment-tags">
+      <div class="equipment-tags">
         <i class="fas fa-tags"></i>
         {% for tag in page.tags %}
-          <a href="{{ site.baseurl }}/tags/{{ tag | slugify }}/">{{ tag }}</a>{% unless forloop.last %}, {% endunless %}
+          {% assign tag_str = tag | strip %}
+          <a href="{{ site.baseurl }}/tags/#{{ tag_str | slugify }}">{{ tag_str }}</a>{% unless forloop.last %}, {% endunless %}
         {% endfor %}
-      </span>
+      </div>
       {% endif %}
     </div>
   </header>
