@@ -9,7 +9,17 @@ include smart-image.html
 
 {% assign post = include.post %}
 {% assign img_class = include.class | default: "" %}
-{% assign selected_image = site.default_image %}
+
+{% comment %} 设置默认图片，如果启用随机默认图片，则从默认图片集合中随机选择一张 {% endcomment %}
+{% if site.use_random_default_images and site.default_images.size > 0 %}
+  {% assign random_index = site.time | date: "%s" | modulo: site.default_images.size %}
+  {% assign random_index = random_index | plus: post.title.size | modulo: site.default_images.size %}
+  {% assign default_image = site.default_images[random_index] %}
+{% else %}
+  {% assign default_image = site.default_image %}
+{% endif %}
+
+{% assign selected_image = default_image %}
 
 {% if post.featured_image %}
   {% assign selected_image = post.featured_image %}
@@ -23,7 +33,7 @@ include smart-image.html
   {% endif %}
   
   {% comment %} 2. 如果没有匹配的分类，则根据标签选择 {% endcomment %}
-  {% if selected_image == site.default_image and post.tags.size > 0 %}
+  {% if selected_image == default_image and post.tags.size > 0 %}
     {% for tag in post.tags %}
       {% assign tag_slug = tag | strip | slugify %}
       {% if site.data.image_mappings.tags[tag_slug] %}
@@ -34,7 +44,7 @@ include smart-image.html
   {% endif %}
   
   {% comment %} 3. 如果分类和标签都没有匹配，则根据标题关键词选择 {% endcomment %}
-  {% if selected_image == site.default_image and post.title %}
+  {% if selected_image == default_image and post.title %}
     {% assign title_downcase = post.title | downcase %}
     {% for keyword_mapping in site.data.image_mappings.keywords %}
       {% assign keyword = keyword_mapping[0] %}
@@ -51,5 +61,5 @@ include smart-image.html
   alt="{{ post.title }}" 
   class="{{ img_class }}"
   loading="lazy"
-  onerror="this.onerror=null; this.src='{{ site.default_image | relative_url }}';"
+  onerror="this.onerror=null; this.src='{{ default_image | relative_url }}';"
 /> 
