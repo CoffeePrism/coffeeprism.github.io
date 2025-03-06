@@ -38,8 +38,7 @@ collections:
   equipment:
     output: false
   categories:
-    output: true
-    permalink: /categories/:path/
+    output: false
 
 # Default front matter
 defaults:

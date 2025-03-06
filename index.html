@@ -92,7 +92,7 @@ title: 首页
       {% for category in categories limit:6 %}
         {% assign category_name = category | first %}
         {% assign category_slug = category_name | strip | slugify %}
-        <a href="{{ site.baseurl }}/categories/{{ category_slug }}/" class="category-card">
+        <a href="{{ site.baseurl }}/categories/#{{ category_slug }}" class="category-card">
           <h3>{{ category_name }}</h3>
           <span class="category-count">{{ category | last | size }} 篇文章</span>
         </a>
