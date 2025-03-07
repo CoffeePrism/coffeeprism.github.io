@@ -1,14 +1,14 @@
 <!-- Critical CSS -->
 <style>
 :root {
-  --primary-color: {{ site.primary_color | default: '#007bff' }};
-  --primary-color-dark: {{ site.primary_color_dark | default: '#0056b3' }};
-  --text-color: {{ site.text_color | default: '#212529' }};
-  --text-muted: {{ site.text_muted | default: '#6c757d' }};
-  --bg-color: {{ site.bg_color | default: '#ffffff' }};
-  --bg-color-alt: {{ site.bg_color_alt | default: '#f8f9fa' }};
-  --border-color: {{ site.border_color | default: '#dee2e6' }};
-  --error-color: {{ site.error_color | default: '#dc3545' }};
+  --primary-color: #007bff;
+  --primary-color-dark: #0056b3;
+  --text-color: #212529;
+  --text-muted: #6c757d;
+  --bg-color: #ffffff;
+  --bg-color-alt: #f8f9fa;
+  --border-color: #dee2e6;
+  --error-color: #dc3545;
   
   --spacing-xs: 0.25rem;
   --spacing-sm: 0.5rem;
@@ -24,7 +24,7 @@
   --shadow-md: 0 .5rem 1rem rgba(0,0,0,.15);
   --shadow-lg: 0 1rem 3rem rgba(0,0,0,.175);
   
-  --primary-rgb: {{ site.primary_color | remove: '#' | regex_replace: '^(..)(..)(..)$', '\1,\2,\3' | split: ',' | map: 'hex_to_rgb' | join: ',' }};
+  --primary-rgb: 0, 123, 255;
 }
 
 /* Base Styles */
@@ -158,7 +158,7 @@ a:hover {
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
 <meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
-<meta name="theme-color" content="{{ site.theme_color | default: '#ffffff' }}">
+<meta name="theme-color" content="#007bff">
 
 <!-- Open Graph -->
 <meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}">
@@ -199,36 +199,5 @@ a:hover {
 <!-- RSS Feed -->
 {% feed_meta %}
 
-<!-- JSON-LD -->
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "{% if page.date %}Article{% else %}WebSite{% endif %}",
-  "url": "{{ page.url | absolute_url }}",
-  "name": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
-  "description": "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
-  {% if page.date %}
-  "datePublished": "{{ page.date | date_to_xmlschema }}",
-  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
-  "author": {
-    "@type": "Person",
-    "name": "{{ page.author | default: site.author | escape }}"
-  },
-  {% endif %}
-  {% if page.featured_image %}
-  "image": {
-    "@type": "ImageObject",
-    "url": "{{ page.featured_image | absolute_url }}"
-  },
-  {% endif %}
-  "publisher": {
-    "@type": "Organization",
-    "name": "{{ site.title | escape }}",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "{{ '/assets/images/logo.png' | absolute_url }}"
-    }
-  }
-}
-</script> 
+<!-- Title -->
+<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title> 
