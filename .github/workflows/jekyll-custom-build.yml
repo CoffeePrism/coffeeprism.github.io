@@ -20,7 +20,7 @@ jobs:
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.0'
+          ruby-version: '3.2'
           bundler-cache: true
 
       - name: Install dependencies
@@ -28,11 +28,19 @@ jobs:
           bundle config set --local path 'vendor/bundle'
           bundle install
 
+      - name: Setup directories
+        run: |
+          mkdir -p _i18n/{zh,en}
+          touch _i18n/zh.yml _i18n/en.yml
+          ls -la _i18n/
+
       - name: Build Jekyll site
         env:
           JEKYLL_ENV: production
         run: |
-          bundle exec jekyll build --verbose
+          echo "Building Jekyll site..."
+          bundle exec jekyll build --trace
+          echo "Build completed, checking _site directory..."
           ls -la _site
 
       - name: Deploy to GitHub Pages
