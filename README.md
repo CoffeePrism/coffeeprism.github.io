@@ -39,6 +39,17 @@ Coffee Prism is a website focused on coffee knowledge and product recommendation
 
 更多详细信息请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 中的 GitHub Actions 工作流程部分。
 
+## 🔧 Cursor IDE 规则
+
+本项目包含 [Cursor IDE](https://cursor.sh/) 的自定义规则，帮助开发者避免常见错误并遵循最佳实践：
+
+- 推送代码后提醒检查 GitHub Actions 构建状态
+- 保存文件时检查常见的 Liquid 模板错误
+- 防止使用 GitHub Pages 不支持的插件
+- 修改关键文件时提醒本地测试构建
+
+使用 Cursor IDE 编辑此项目时，这些规则会自动生效。详细信息请查看 [Cursor 规则指南](docs/cursor-rules-guide.md)。
+
 ## 🚀 如何添加新内容 (How to Add New Content)
 
 ### 添加博客文章
