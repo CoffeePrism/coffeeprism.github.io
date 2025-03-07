@@ -1,0 +1,13 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Placeholder Image</title>
+    <style>
+        body { margin: 0; padding: 0; }
+        img { width: 100%; height: auto; }
+    </style>
+</head>
+<body>
+    <img src="data:image/svg+xml;base64,PHN2ZyB3aWR0aD0iMzAwIiBoZWlnaHQ9IjMwMCIgeG1sbnM9Imh0dHA6Ly93d3cudzMub3JnLzIwMDAvc3ZnIj4KICA8cmVjdCB3aWR0aD0iMTAwJSIgaGVpZ2h0PSIxMDAlIiBmaWxsPSIjNkY0RTM3Ii8+CiAgPHRleHQgeD0iNTAlIiB5PSI1MCUiIGRvbWluYW50LWJhc2VsaW5lPSJtaWRkbGUiIHRleHQtYW5jaG9yPSJtaWRkbGUiIGZpbGw9IiNGRkZGRkYiIAogICAgICAgIGZvbnQtZmFtaWx5PSJBcmlhbCwgc2Fucy1zZXJpZiIgZm9udC1zaXplPSIyMHB4Ij5FdGhpb3BpYW4gWWlyZ2FjaGVmZmUgQ29mZmVlPC90ZXh0PgogIDxwYXRoIGQ9Ik05MC4wLDkwLjAgTDIxMC4wLDkwLjAgTDIxMC4wLDIxMC4wIEw5MC4wLDIxMC4wIFoiIAogICAgICAgIGZpbGw9IndoaXRlIiBvcGFjaXR5PSIwLjIiLz4KICA8Y2lyY2xlIGN4PSIxNTAuMCIgY3k9IjE1MC4wIiByPSI1MC4wIiAKICAgICAgICAgIHN0cm9rZT0id2hpdGUiIHN0cm9rZS13aWR0aD0iMiIgZmlsbD0ibm9uZSIgb3BhY2l0eT0iMC4zIi8+Cjwvc3ZnPg==" alt="Placeholder">
+</body>
+</html>
