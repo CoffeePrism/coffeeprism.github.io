@@ -1,9 +1,12 @@
-# DISABLED - Using jekyll-github-pages.yml instead
 # Sample workflow for building and deploying a Jekyll site to GitHub Pages
-name: Deploy Jekyll site to Pages (Disabled)
+name: Deploy Jekyll site to Pages
 
 on:
-  # Manually disabled - using jekyll-github-pages.yml instead
+  # Runs on pushes targeting the default branch
+  push:
+    branches: ["main"]
+
+  # Allows you to run this workflow manually from the Actions tab
   workflow_dispatch:
 
 # Sets permissions of the GITHUB_TOKEN to allow deployment to GitHub Pages
@@ -36,8 +39,7 @@ jobs:
         run: bundle exec jekyll build
         env:
           JEKYLL_ENV: production
-      # Downgraded to v2 due to compatibility issues with v3
-      - name: Upload pages artifact
+      - name: Upload artifact
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./_site
@@ -52,4 +54,4 @@ jobs:
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: actions/deploy-pages@v2 
