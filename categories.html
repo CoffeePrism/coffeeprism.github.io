@@ -1,12 +1,12 @@
 ---
 layout: default
-title: {% t categories.title %}
+title: {% if page.lang == 'en' %}Categories{% else %}分类{% endif %}
 permalink: /categories/
 ---
 
 <div class="page-header">
-  <h1>{% t categories.title %}</h1>
-  <p>{% t categories.subtitle %}</p>
+  <h1>{% if page.lang == 'en' %}Categories{% else %}分类{% endif %}</h1>
+  <p>{% if page.lang == 'en' %}Browse Articles by Topic{% else %}按话题浏览文章{% endif %}</p>
 </div>
 
 <div class="categories-container">

@@ -1,12 +1,12 @@
 ---
 layout: default
-title: {% t tags.title %}
+title: {% if page.lang == 'en' %}Tags{% else %}标签{% endif %}
 permalink: /tags/
 ---
 
 <div class="page-header">
-  <h1>{% t tags.title %}</h1>
-  <p>{% t tags.subtitle %}</p>
+  <h1>{% if page.lang == 'en' %}Tags{% else %}标签{% endif %}</h1>
+  <p>{% if page.lang == 'en' %}Browse Articles by Tag{% else %}按标签浏览文章{% endif %}</p>
 </div>
 
 <div class="tags-container">

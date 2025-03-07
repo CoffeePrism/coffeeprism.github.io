@@ -15,32 +15,19 @@
       </label>
 
       <div class="trigger">
-        <a class="page-link" href="{{ '/' | relative_url }}">{% t nav.home %}</a>
-        <a class="page-link" href="{{ '/categories/' | relative_url }}">{% t nav.categories %}</a>
-        <a class="page-link" href="{{ '/tags/' | relative_url }}">{% t nav.tags %}</a>
-        <a class="page-link" href="{{ '/search/' | relative_url }}">{% t nav.search %}</a>
-        <a class="page-link" href="{{ '/about/' | relative_url }}">{% t nav.about %}</a>
-        <a class="page-link" href="{{ '/contact/' | relative_url }}">{% t nav.contact %}</a>
+        <a class="page-link" href="{{ '/' | relative_url }}">{% if page.lang == 'en' %}Home{% else %}首页{% endif %}</a>
+        <a class="page-link" href="{{ '/categories/' | relative_url }}">{% if page.lang == 'en' %}Categories{% else %}分类{% endif %}</a>
+        <a class="page-link" href="{{ '/tags/' | relative_url }}">{% if page.lang == 'en' %}Tags{% else %}标签{% endif %}</a>
+        <a class="page-link" href="{{ '/search/' | relative_url }}">{% if page.lang == 'en' %}Search{% else %}搜索{% endif %}</a>
+        <a class="page-link" href="{{ '/about/' | relative_url }}">{% if page.lang == 'en' %}About Us{% else %}关于我们{% endif %}</a>
+        <a class="page-link" href="{{ '/contact/' | relative_url }}">{% if page.lang == 'en' %}Contact Us{% else %}联系我们{% endif %}</a>
         
         <!-- 语言切换器 -->
         <div class="language-switcher">
-          {% for lang in site.languages %}
-            {% if lang == site.active_lang %}
-              <span class="active-lang">{{ site.data.i18n[lang].global.language }}</span>
-            {% else %}
-              {% if lang == site.default_lang %}
-                <a href="{{ page.url }}">{{ site.data.i18n[lang].global.language }}</a>
-              {% else %}
-                <a href="/{{ lang }}{{ page.url }}">{{ site.data.i18n[lang].global.language }}</a>
-              {% endif %}
-            {% endif %}
-          {% endfor %}
-          
-          <!-- 备用简单切换器 -->
-          {% if site.lang == "zh" or site.active_lang == "zh" %}
-            <a href="/en{{ page.url }}" class="lang-switch">English</a>
+          {% if page.lang == 'en' %}
+            <a href="{{ page.url | replace_first: '/en', '' }}" class="lang-switch">中文</a>
           {% else %}
-            <a href="{{ page.url | remove_first: '/en' }}" class="lang-switch">中文</a>
+            <a href="/en{{ page.url }}" class="lang-switch">English</a>
           {% endif %}
         </div>
       </div>

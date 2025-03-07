@@ -1,5 +1,4 @@
-# 此文件已被禁用，改用 jekyll-custom-build.yml
-name: OLD-Build and deploy Jekyll site
+name: Build and deploy Jekyll site with custom plugins
 
 on:
   push:
@@ -8,32 +7,31 @@ on:
     branches: [ main ]
 
 jobs:
-  github-pages:
+  build-and-deploy:
     runs-on: ubuntu-latest
-    permissions:
-      contents: write
     steps:
-      - uses: actions/checkout@v3
-      
+      - name: Checkout
+        uses: actions/checkout@v3
+
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
           ruby-version: '3.0'
           bundler-cache: true
-      
+
       - name: Install dependencies
         run: |
           bundle config set --local path 'vendor/bundle'
           bundle install
-      
+
       - name: Build Jekyll site
-        run: |
-          bundle exec jekyll build --verbose
-      
+        run: bundle exec jekyll build
+
       - name: Deploy to GitHub Pages
         if: github.event_name == 'push' && github.ref == 'refs/heads/main'
         uses: peaceiris/actions-gh-pages@v3
         with:
           github_token: ${{ secrets.GITHUB_TOKEN }}
           publish_dir: ./_site
+          publish_branch: gh-pages
           cname: www.coffeeprism.com 
