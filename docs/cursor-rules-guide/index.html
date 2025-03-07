@@ -1,0 +1,246 @@
+<!DOCTYPE html>
+<html lang="zh">
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  
+  <title>Cursor Rules Guide - Coffee Prism</title>
+  <meta name="description" content="探索咖啡的世界">
+  
+  <link rel="stylesheet" href="/assets/css/main.css">
+  <link rel="stylesheet" href="/assets/css/styles.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  
+  
+  <script type="text/javascript">
+    var host = "www.coffeeprism.com";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
+  </script>
+  
+</head>
+<body>
+  <header class="site-header">
+    <div class="header-wrapper">
+      <div class="site-logo">
+        <a href="/">
+          <span class="logo-text">Coffee Prism</span>
+        </a>
+      </div>
+      
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </label>
+
+        <div class="trigger">
+          <a class="page-link" href="/">首页</a>
+          <a class="page-link" href="/categories/">分类</a>
+          <a class="page-link" href="/tags/">标签</a>
+          <a class="page-link" href="/search/">搜索</a>
+          <a class="page-link" href="/about/">关于我们</a>
+          <a class="page-link" href="/contact/">联系我们</a>
+          
+          
+
+
+<div class="language-switcher">
+  
+    
+      <span class="active-lang">中文</span>
+    
+  
+    
+      
+        
+        
+        
+          
+            <a href="/en/docs/cursor-rules-guide/" class="lang-link">English</a>
+          
+        
+      
+    
+  
+</div>
+
+<style>
+.language-switcher {
+  display: inline-flex;
+  align-items: center;
+  gap: 1rem;
+  padding: 0.5rem;
+  border-radius: 4px;
+  background: rgba(0, 0, 0, 0.05);
+}
+
+.language-switcher .active-lang {
+  font-weight: bold;
+  color: var(--primary-color, #007bff);
+}
+
+.language-switcher .lang-link {
+  color: #666;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+.language-switcher .lang-link:hover {
+  color: var(--primary-color, #007bff);
+  text-decoration: underline;
+}
+
+@media (max-width: 768px) {
+  .language-switcher {
+    margin: 1rem 0;
+    justify-content: center;
+  }
+}
+</style> 
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="wrapper">
+      <h1 id="cursor-rules-guide">Cursor Rules Guide</h1>
+
+<p>本文档介绍了 Coffee Prism 项目中配置的 Cursor IDE 规则，这些规则旨在帮助开发者遵循最佳实践并避免常见错误。</p>
+
+<h2 id="什么是-cursor-规则">什么是 Cursor 规则？</h2>
+
+<p>Cursor 规则是针对 <a href="https://cursor.sh/">Cursor IDE</a> 设置的提醒和警告，当满足特定条件时（例如保存文件或执行 Git 命令后）会触发。这些规则帮助团队成员遵循项目约定并避免常见错误。</p>
+
+<h2 id="规则概览">规则概览</h2>
+
+<p>我们的 Cursor 规则主要聚焦于以下几个方面：</p>
+
+<ol>
+  <li><strong>GitHub Actions 监控</strong> - 确保在推送更改后检查构建状态</li>
+  <li><strong>Jekyll 模板检查</strong> - 防止常见的 Liquid 模板错误</li>
+  <li><strong>YAML 格式验证</strong> - 确保前置配置格式正确</li>
+  <li><strong>依赖项验证</strong> - 防止使用 GitHub Pages 不支持的插件</li>
+  <li><strong>最佳实践提醒</strong> - 提供有关本地测试和文档更新的提示</li>
+</ol>
+
+<h2 id="主要规则详解">主要规则详解</h2>
+
+<h3 id="github-actions-监控提醒">GitHub Actions 监控提醒</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reminder "GitHub Actions Verification" after git push {
+  message: "🔍 Remember to check GitHub Actions build status"
+  severity: warning
+}
+</code></pre></div></div>
+
+<p><strong>作用</strong>：每次推送代码后提醒你检查 GitHub Actions 构建状态。这是项目的重要规则，确保你会在每次推送后验证构建是否成功。</p>
+
+<h3 id="liquid-模板语法检查">Liquid 模板语法检查</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning on save **/**.html if content matches /\{\{.*\|.*slugify.*\}\}/ {
+  message: "⚠️ Slugify Filter Usage: Check that you're applying slugify to strings, not arrays"
+}
+</code></pre></div></div>
+
+<p><strong>作用</strong>：当你在 HTML 文件中使用 <code class="language-plaintext highlighter-rouge">slugify</code> 过滤器时，提醒你确保只对字符串使用该过滤器，而不是数组。这可以防止 <code class="language-plaintext highlighter-rouge">undefined method 'gsub' for Array</code> 错误。</p>
+
+<h3 id="插件兼容性检查">插件兼容性检查</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning on save Gemfile if content matches /gem "jekyll-multiple-languages-plugin"/ {
+  message: "⚠️ Unsupported Plugin: jekyll-multiple-languages-plugin is not supported by GitHub Pages"
+}
+</code></pre></div></div>
+
+<p><strong>作用</strong>：防止添加 GitHub Pages 不支持的插件，这会导致远程构建失败。</p>
+
+<h3 id="本地测试提醒">本地测试提醒</h3>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reminder on save [_config.yml, **/_layouts/*, **/_includes/*] {
+  message: "🔄 Remember to test your build locally with 'bundle exec jekyll build --trace'"
+  severity: info
+}
+</code></pre></div></div>
+
+<p><strong>作用</strong>：当修改关键文件后，提醒你在本地测试构建，以便在推送前捕获错误。</p>
+
+<h2 id="如何获取规则提醒">如何获取规则提醒</h2>
+
+<p>使用 Cursor IDE 编辑项目代码时，规则会以通知的形式显示：</p>
+
+<ul>
+  <li><strong>警告</strong>（⚠️）- 表示潜在的问题，需要注意</li>
+  <li><strong>提醒</strong>（🔍）- 提示你执行某些操作</li>
+  <li><strong>信息</strong>（ℹ️）- 提供有用的上下文信息</li>
+</ul>
+
+<h2 id="自定义规则">自定义规则</h2>
+
+<p>如果你想添加或修改规则，可以编辑项目根目录中的 <code class="language-plaintext highlighter-rouge">.cursorrules</code> 文件。规则使用简单的声明式语法，格式为：</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[rule_type] [trigger] [condition] {
+  message: "显示的消息"
+  description: "更详细的描述"
+  severity: [info|warning|error]
+}
+</code></pre></div></div>
+
+<h2 id="推荐工作流程">推荐工作流程</h2>
+
+<p>使用这些规则的理想工作流程是：</p>
+
+<ol>
+  <li>进行代码修改</li>
+  <li>注意 Cursor 提供的实时警告和提示</li>
+  <li>在本地测试构建 (<code class="language-plaintext highlighter-rouge">bundle exec jekyll build --trace</code>)</li>
+  <li>提交并推送更改</li>
+  <li>根据推送后的提醒，检查 GitHub Actions 构建状态</li>
+  <li>如果构建失败，检查错误日志并修复问题</li>
+</ol>
+
+<h2 id="结论">结论</h2>
+
+<p>Cursor 规则是确保项目稳定性的辅助工具，它们与我们的 GitHub Actions 监控指南相辅相成。通过遵循这些规则和提示，你可以减少构建错误并提高开发效率。</p>
+
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <h2 class="footer-heading">Coffee Prism</h2>
+          <p>探索咖啡的世界</p>
+        </div>
+        
+        <div class="footer-col">
+          <h3>分类</h3>
+          <ul class="footer-links">
+            
+            
+              
+              <li><a href="/categories-relative-path-categories-coffee-knowledge-md">relative_path_categories/coffee-knowledge.md</a></li>
+            
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>关于我们</h3>
+          <ul class="footer-links">
+            <li><a href="/about/">关于我们</a></li>
+            <li><a href="/contact/">联系我们</a></li>
+            <li><a href="/privacy/">隐私政策</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">版权所有 © Coffee Prism &copy; 2025. 保留所有权利</p>
+      </div>
+    </div>
+  </footer>
+</body>
+</html> 
