@@ -5,28 +5,157 @@ permalink: /search/
 ---
 
 <div class="search-page">
-  <header class="page-header">
-    <h1 class="page-title">Search</h1>
-    <p class="page-description">Search for content on Coffee Prism</p>
-  </header>
+  <div class="container">
+    <header class="page-header">
+      <h1 class="page-title">Search</h1>
+      <p class="page-description">Search for content on Coffee Prism</p>
+    </header>
 
-  <div class="search-container">
-    <form id="search-form" action="javascript:void(0);">
-      <div class="search-input-container">
-        <input type="text" id="search-input" placeholder="Enter keywords..." class="search-input">
-        <button type="submit" class="search-button">
-          <i class="fas fa-search"></i>
-        </button>
-      </div>
-    </form>
-  </div>
+    <div class="search-container">
+      <form id="search-form" action="javascript:void(0);">
+        <div class="search-input-container">
+          <input type="text" id="search-input" placeholder="Enter keywords..." class="search-input">
+          <button type="submit" class="search-button btn">
+            <i class="fas fa-search"></i> Search
+          </button>
+        </div>
+      </form>
+    </div>
 
-  <div id="search-results" class="search-results">
-    <p class="search-message">Enter keywords to start searching</p>
+    <div id="search-results" class="search-results">
+      <p class="search-message">Enter keywords to start searching</p>
+    </div>
   </div>
 </div>
 
-<script>
+<style>
+  .search-container {
+    margin-bottom: var(--spacing-lg);
+  }
+  
+  .search-input-container {
+    display: flex;
+    margin-bottom: var(--spacing-md);
+    max-width: 600px;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+  .search-input {
+    flex: 1;
+    padding: 12px 16px;
+    font-size: 16px;
+    border: 2px solid var(--border-color);
+    border-radius: 4px 0 0 4px;
+    font-family: var(--body-font);
+  }
+  
+  .search-input:focus {
+    outline: none;
+    border-color: var(--accent-color);
+  }
+  
+  .search-button {
+    border-radius: 0 4px 4px 0;
+    padding: 0 20px;
+  }
+  
+  .search-message {
+    text-align: center;
+    padding: var(--spacing-lg);
+    color: var(--light-text);
+    font-style: italic;
+  }
+  
+  .search-results-list {
+    list-style: none;
+    padding: 0;
+    margin: var(--spacing-md) 0;
+  }
+  
+  .search-result-item {
+    margin-bottom: var(--spacing-lg);
+    border-bottom: 1px solid var(--border-color);
+    padding-bottom: var(--spacing-md);
+  }
+  
+  .search-result-item:last-child {
+    border-bottom: none;
+  }
+  
+  .search-result-link {
+    display: block;
+    color: var(--text-color);
+    text-decoration: none;
+    padding: var(--spacing-md);
+    border-radius: 8px;
+    transition: all 0.3s ease;
+  }
+  
+  .search-result-link:hover {
+    background-color: var(--light-gray);
+    transform: translateY(-2px);
+  }
+  
+  .search-result-link h3 {
+    margin-top: 0;
+    margin-bottom: var(--spacing-sm);
+    color: var(--secondary-color);
+    transition: color 0.3s ease;
+  }
+  
+  .search-result-link:hover h3 {
+    color: var(--accent-color);
+  }
+  
+  .search-result-meta {
+    display: flex;
+    gap: var(--spacing-md);
+    margin-bottom: var(--spacing-sm);
+    font-size: 0.9rem;
+    color: var(--light-text);
+  }
+  
+  .search-result-type {
+    color: var(--primary-color);
+    font-weight: 600;
+  }
+  
+  .search-result-preview {
+    margin-bottom: var(--spacing-sm);
+    line-height: 1.6;
+  }
+  
+  .search-result-preview strong {
+    background-color: rgba(215, 149, 75, 0.2);
+    padding: 2px 0;
+    border-radius: 2px;
+    font-weight: 600;
+  }
+  
+  .search-result-tags {
+    display: flex;
+    flex-wrap: wrap;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-sm);
+  }
+  
+  .search-result-tag {
+    background-color: var(--light-gray);
+    padding: 4px 8px;
+    border-radius: 20px;
+    font-size: 0.8rem;
+    transition: all 0.3s ease;
+  }
+  
+  .search-result-link:hover .search-result-tag {
+    background-color: var(--accent-color-light);
+    color: var(--white);
+  }
+</style>
+
+<script type="text/javascript">
+//<![CDATA[
   document.addEventListener('DOMContentLoaded', function() {
     // Load search index
     var searchIndex = [];
@@ -113,7 +242,7 @@ permalink: /search/
         html += '<div class="search-result-meta">';
         html += '<span class="search-result-type">' + item.type + '</span>';
         if (item.date) {
-          html += '<span class="search-result-date">' + item.date + '</span>';
+          html += '<span class="search-result-date"><i class="fas fa-calendar-alt"></i> ' + item.date + '</span>';
         }
         html += '</div>';
         
@@ -177,105 +306,5 @@ permalink: /search/
       return preview;
     }
   });
-</script>
-
-<style>
-  .search-page {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-  }
-  
-  .search-input-container {
-    display: flex;
-    margin-bottom: 2rem;
-  }
-  
-  .search-input {
-    flex: 1;
-    padding: 1rem;
-    font-size: 1.1rem;
-    border: 2px solid var(--border-color);
-    border-right: none;
-    border-radius: 4px 0 0 4px;
-  }
-  
-  .search-button {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 0 1.5rem;
-    font-size: 1.1rem;
-    border-radius: 0 4px 4px 0;
-    cursor: pointer;
-  }
-  
-  .search-message {
-    text-align: center;
-    padding: 2rem;
-    color: var(--text-color-light);
-  }
-  
-  .search-results-list {
-    list-style: none;
-    padding: 0;
-    margin: 0;
-  }
-  
-  .search-result-item {
-    margin-bottom: 2rem;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 1.5rem;
-  }
-  
-  .search-result-item:last-child {
-    border-bottom: none;
-  }
-  
-  .search-result-link {
-    display: block;
-    color: var(--text-color);
-    text-decoration: none;
-  }
-  
-  .search-result-link:hover h3 {
-    color: var(--primary-color);
-  }
-  
-  .search-result-link h3 {
-    margin-top: 0;
-    margin-bottom: 0.5rem;
-    transition: color 0.2s;
-  }
-  
-  .search-result-meta {
-    display: flex;
-    gap: 1rem;
-    margin-bottom: 0.5rem;
-    font-size: 0.9rem;
-    color: var(--text-color-light);
-  }
-  
-  .search-result-preview {
-    margin-bottom: 0.5rem;
-    line-height: 1.5;
-  }
-  
-  .search-result-preview strong {
-    background-color: rgba(255, 204, 0, 0.3);
-    padding: 0 2px;
-  }
-  
-  .search-result-tags {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 0.5rem;
-  }
-  
-  .search-result-tag {
-    background-color: var(--light-bg-color);
-    padding: 0.2rem 0.5rem;
-    border-radius: 4px;
-    font-size: 0.8rem;
-  }
-</style> 
+//]]>
+</script> 

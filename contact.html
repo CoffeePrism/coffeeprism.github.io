@@ -5,183 +5,221 @@ permalink: /contact/
 ---
 
 <div class="contact-page">
-  <header class="page-header">
-    <h1 class="page-title">Contact Us</h1>
-    <p class="page-description">Questions or suggestions? Feel free to get in touch</p>
-  </header>
+  <div class="container">
+    <header class="page-header">
+      <h1 class="page-title">Contact Us</h1>
+      <p class="page-description">Questions or suggestions? Feel free to get in touch</p>
+    </header>
 
-  <div class="contact-content">
-    <div class="contact-info">
-      <h2>Contact Information</h2>
-      <ul class="contact-list">
-        <li>
-          <i class="fas fa-envelope"></i>
-          <span>Email:</span>
-          <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a>
-        </li>
-      </ul>
+    <div class="contact-content">
+      <div class="row">
+        <div class="col-md-4">
+          <div class="contact-info card">
+            <h2>Contact Information</h2>
+            <ul class="contact-list">
+              <li>
+                <i class="fas fa-envelope"></i>
+                <span>Email:</span>
+                <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a>
+              </li>
+              <li>
+                <i class="fas fa-globe"></i>
+                <span>Website:</span>
+                <a href="https://www.coffeeprism.com">www.coffeeprism.com</a>
+              </li>
+            </ul>
+            
+            <div class="social-links">
+              <a href="#" aria-label="Facebook" title="Facebook">
+                <i class="fab fa-facebook"></i>
+              </a>
+              <a href="#" aria-label="Instagram" title="Instagram">
+                <i class="fab fa-instagram"></i>
+              </a>
+              <a href="#" aria-label="Twitter" title="Twitter">
+                <i class="fab fa-twitter"></i>
+              </a>
+            </div>
+          </div>
+        </div>
+        
+        <div class="col-md-8">
+          <div class="contact-form-container card">
+            <h2>Send a Message</h2>
+            <p>You can also contact us directly through the form below. We'll reply to your message as soon as possible.</p>
+            
+            <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
+              <div class="form-group">
+                <label for="name">Name</label>
+                <input type="text" id="name" name="name" class="form-control" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="email">Email</label>
+                <input type="email" id="email" name="email" class="form-control" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="subject">Subject</label>
+                <input type="text" id="subject" name="subject" class="form-control" required>
+              </div>
+              
+              <div class="form-group">
+                <label for="message">Message</label>
+                <textarea id="message" name="message" rows="5" class="form-control" required></textarea>
+              </div>
+              
+              <button type="submit" class="btn">Send Message <i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+      </div>
     </div>
 
-    <div class="contact-form-container">
-      <h2>Send a Message</h2>
-      <p>You can also contact us directly through the form below. We'll reply to your message as soon as possible.</p>
+    <div class="faq-section">
+      <h2 class="section-title">Frequently Asked Questions</h2>
       
-      <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
-        <div class="form-group">
-          <label for="name">Name</label>
-          <input type="text" id="name" name="name" required>
+      <div class="row">
+        <div class="col-md-6">
+          <div class="faq-item card">
+            <h3>How can I become a contributor?</h3>
+            <p>We welcome writers who are passionate about coffee to join our team. If you're interested in contributing content to Coffee Prism, please contact us using the methods above and include your writing samples or relevant experience.</p>
+          </div>
         </div>
         
-        <div class="form-group">
-          <label for="email">Email</label>
-          <input type="email" id="email" name="email" required>
+        <div class="col-md-6">
+          <div class="faq-item card">
+            <h3>Can I recommend products?</h3>
+            <p>Absolutely! We greatly appreciate product recommendations from our readers. If you have a favorite coffee or coffee equipment you'd like to share, please let us know through the contact form, and we'll consider adding it to our recommendation list.</p>
+          </div>
         </div>
         
-        <div class="form-group">
-          <label for="subject">Subject</label>
-          <input type="text" id="subject" name="subject" required>
+        <div class="col-md-6">
+          <div class="faq-item card">
+            <h3>Can I repost your content?</h3>
+            <p>Our content is licensed under the MIT License, which means you can repost it as long as you credit the source. For commercial use, please contact us first to obtain permission.</p>
+          </div>
         </div>
         
-        <div class="form-group">
-          <label for="message">Message</label>
-          <textarea id="message" name="message" rows="5" required></textarea>
+        <div class="col-md-6">
+          <div class="faq-item card">
+            <h3>How do I report website issues?</h3>
+            <p>If you find any problems or errors on the website, please let us know through the contact form. We'll fix these issues as soon as possible.</p>
+          </div>
         </div>
-        
-        <button type="submit" class="submit-button">Send Message</button>
-      </form>
-    </div>
-  </div>
-
-  <div class="faq-section">
-    <h2>Frequently Asked Questions</h2>
-    
-    <div class="faq-item">
-      <h3>How can I become a contributor?</h3>
-      <p>We welcome writers who are passionate about coffee to join our team. If you're interested in contributing content to Coffee Prism, please contact us using the methods above and include your writing samples or relevant experience.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h3>Can I recommend products?</h3>
-      <p>Absolutely! We greatly appreciate product recommendations from our readers. If you have a favorite coffee or coffee equipment you'd like to share, please let us know through the contact form, and we'll consider adding it to our recommendation list.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h3>Can I repost your content?</h3>
-      <p>Our content is licensed under the MIT License, which means you can repost it as long as you credit the source. For commercial use, please contact us first to obtain permission.</p>
-    </div>
-    
-    <div class="faq-item">
-      <h3>How do I report website issues?</h3>
-      <p>If you find any problems or errors on the website, please let us know through the contact form. We'll fix these issues as soon as possible.</p>
+      </div>
     </div>
   </div>
 </div>
 
 <style>
-  .contact-page {
-    max-width: 800px;
-    margin: 0 auto;
-    padding: 2rem 1rem;
-  }
-  
   .contact-content {
-    display: flex;
-    flex-wrap: wrap;
-    gap: 2rem;
-    margin-bottom: 3rem;
+    margin-bottom: var(--spacing-xl);
   }
   
   .contact-info {
-    flex: 1;
-    min-width: 300px;
+    height: 100%;
+    padding: var(--spacing-lg);
   }
   
   .contact-list {
     list-style: none;
     padding: 0;
+    margin-bottom: var(--spacing-lg);
   }
   
   .contact-list li {
-    margin-bottom: 1rem;
+    margin-bottom: var(--spacing-md);
     display: flex;
-    align-items: flex-start;
+    align-items: center;
   }
   
   .contact-list i {
     width: 24px;
-    margin-right: 0.5rem;
-    color: var(--primary-color);
+    margin-right: var(--spacing-sm);
+    color: var(--accent-color);
   }
   
   .contact-form-container {
-    flex: 2;
-    min-width: 300px;
+    padding: var(--spacing-lg);
   }
   
   .contact-form {
-    background-color: var(--light-bg-color);
-    padding: 1.5rem;
-    border-radius: 8px;
+    margin-top: var(--spacing-md);
   }
   
   .form-group {
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--spacing-md);
   }
   
   .form-group label {
     display: block;
-    margin-bottom: 0.5rem;
-    font-weight: bold;
+    margin-bottom: var(--spacing-xs);
+    font-weight: 600;
+    color: var(--primary-color-dark);
   }
   
-  .form-group input,
-  .form-group textarea {
+  .form-control {
     width: 100%;
-    padding: 0.8rem;
+    padding: 12px 16px;
     border: 1px solid var(--border-color);
     border-radius: 4px;
-    font-size: 1rem;
+    font-size: 16px;
+    font-family: var(--body-font);
+    transition: all 0.3s ease;
   }
   
-  .submit-button {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 0.8rem 1.5rem;
-    font-size: 1rem;
-    border-radius: 4px;
-    cursor: pointer;
-    transition: background-color 0.2s;
+  .form-control:focus {
+    outline: none;
+    border-color: var(--accent-color);
+    box-shadow: 0 0 0 3px rgba(215, 149, 75, 0.2);
   }
   
-  .submit-button:hover {
-    background-color: var(--primary-color-dark);
+  textarea.form-control {
+    min-height: 120px;
+    resize: vertical;
   }
   
   .faq-section {
-    margin-top: 3rem;
+    margin-top: var(--spacing-xl);
+    margin-bottom: var(--spacing-xl);
   }
   
   .faq-item {
-    margin-bottom: 1.5rem;
-    border-bottom: 1px solid var(--border-color);
-    padding-bottom: 1.5rem;
-  }
-  
-  .faq-item:last-child {
-    border-bottom: none;
+    height: 100%;
+    padding: var(--spacing-lg);
+    margin-bottom: var(--spacing-lg);
   }
   
   .faq-item h3 {
+    color: var(--secondary-color);
     margin-top: 0;
-    margin-bottom: 0.5rem;
-    color: var(--primary-color);
+    margin-bottom: var(--spacing-md);
+    font-size: 1.25rem;
   }
   
-  @media (max-width: 768px) {
-    .contact-content {
-      flex-direction: column;
-    }
+  .social-links {
+    display: flex;
+    gap: var(--spacing-sm);
+    margin-top: var(--spacing-lg);
+  }
+  
+  .social-links a {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    width: 40px;
+    height: 40px;
+    background-color: var(--light-gray);
+    color: var(--primary-color);
+    border-radius: 50%;
+    transition: all 0.3s ease;
+  }
+  
+  .social-links a:hover {
+    background-color: var(--accent-color);
+    color: var(--white);
+    transform: translateY(-3px);
   }
 </style>
 
@@ -190,10 +228,7 @@ permalink: /contact/
     const form = document.getElementById('contact-form');
     
     form.addEventListener('submit', function(e) {
-      // Form validation logic can be added here
-      // If using Formspree, most validation will be done on their server
-      
-      // Example: Simple client-side validation
+      // Form validation logic
       const email = document.getElementById('email').value;
       if (!email.includes('@')) {
         e.preventDefault();
@@ -201,7 +236,7 @@ permalink: /contact/
         return;
       }
       
-      // Post-submission handling can be added here
+      // Additional validation can be added here
     });
   });
 </script> 
