@@ -67,8 +67,10 @@
         <div class="footer-col">
           <h3>{{ site.data.i18n[current_lang].nav.categories }}</h3>
           <ul class="footer-links">
-            {% for category in site.categories limit:5 %}
-              <li><a href="{{ '/categories/#' | append: category[0] | slugify | relative_url }}">{{ category[0] }}</a></li>
+            {% assign filtered_categories = site.categories | where_exp: "item", "item" %}
+            {% for category in filtered_categories limit:5 %}
+              {% assign category_name = category | first %}
+              <li><a href="{{ '/categories/#' | append: category_name | slugify | relative_url }}">{{ category_name }}</a></li>
             {% endfor %}
           </ul>
         </div>
