@@ -39,21 +39,29 @@ affiliate:
 # Image settings
 use_remote_images: false
 default_image: "/assets/images/coffee-default.jpg"
-default_coffee_image: "/assets/images/coffee-beans-default.jpg"
-remote_image_base_url: "https://images.unsplash.com/photo-"
+default_category_images:
+  coffee-knowledge: "/assets/images/categories/coffee-science.jpg"
+  brewing: "/assets/images/categories/brewing.jpg"
+  roasting: "/assets/images/categories/roasting.jpg"
+  beans: "/assets/images/categories/beans.jpg"
+  equipment: "/assets/images/coffee-cup.jpg"
+  latte-art: "/assets/images/categories/latte-art.jpg"
+  barista-skills: "/assets/images/categories/barista.jpg"
+
 # Default image collection (for random selection)
 default_images:
-  - "/assets/images/defaults/coffee-default-1.jpg"
-  - "/assets/images/defaults/coffee-default-2.jpg"
-  - "/assets/images/defaults/coffee-default-3.jpg"
-  - "/assets/images/defaults/coffee-default-4.jpg"
-  - "/assets/images/defaults/coffee-default-5.jpg"
-  - "/assets/images/defaults/coffee-default-6.jpg"
-  - "/assets/images/defaults/coffee-default-7.jpg"
-  - "/assets/images/defaults/coffee-default-8.jpg"
-  - "/assets/images/defaults/coffee-default-9.jpg"
-  - "/assets/images/defaults/coffee-default-10.jpg"
+  - "/assets/images/coffee-default.jpg"
+  - "/assets/images/coffee-beans-default.jpg"
+  - "/assets/images/coffee-beans.jpg"
+  - "/assets/images/coffee-cup.jpg"
 use_random_default_images: true
+use_smart_images: true
+
+# Image fallback settings
+image_fallback_strategy:
+  - featured_image
+  - category_image
+  - default_image
 
 # Collections
 collections:
@@ -121,7 +129,4 @@ exclude:
   - CODE_OF_CONDUCT.md
   - CONTRIBUTING.md
   - .editorconfig
-  - _tags
-
-# Image display and processing
-use_smart_images: true 
+  - _tags 

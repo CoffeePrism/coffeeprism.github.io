@@ -30,11 +30,12 @@ lang: en
       <div class="col col-md-4 col-sm-6 col-xs-12 mb-4">
         <div class="card">
           <div class="card-img-container">
-            {% if post.featured_image %}
-            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" class="card-img">
-            {% else %}
-            <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}" class="card-img">
-            {% endif %}
+            {% include image.html 
+              src=post.featured_image 
+              alt=post.title 
+              class="card-img"
+              category=post.categories.first
+            %}
           </div>
           <div class="card-body">
             <div class="card-subtitle">
@@ -67,11 +68,12 @@ lang: en
       <div class="col col-md-4 col-sm-6 col-xs-12 mb-4">
         <div class="card">
           <div class="card-img-container">
-            {% if post.featured_image %}
-            <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" class="card-img">
-            {% else %}
-            <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}" class="card-img">
-            {% endif %}
+            {% include image.html 
+              src=post.featured_image 
+              alt=post.title 
+              class="card-img"
+              category=post.categories.first
+            %}
           </div>
           <div class="card-body">
             <div class="card-subtitle">

@@ -356,10 +356,55 @@ ul, ol {
   box-shadow: var(--shadow-md);
 }
 
-.card-img {
+.card-img-container {
+  position: relative;
   width: 100%;
-  height: 200px;
+  padding-top: 56.25%; /* 16:9 Aspect Ratio */
+  overflow: hidden;
+  background-color: #f8f9fa;
+}
+
+.card-img-container img {
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
   object-fit: cover;
+  transition: transform 0.3s ease;
+}
+
+.card-img-container img:hover {
+  transform: scale(1.05);
+}
+
+/* Loading state */
+.card-img-container::before {
+  content: '';
+  position: absolute;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-color: #f8f9fa;
+  z-index: 1;
+}
+
+.card-img-container img[src] {
+  z-index: 2;
+  position: relative;
+}
+
+/* Error state */
+.card-img-container img.error {
+  opacity: 0.7;
+}
+
+/* Responsive image handling */
+@media (max-width: 768px) {
+  .card-img-container {
+    padding-top: 75%; /* 4:3 Aspect Ratio on mobile */
+  }
 }
 
 .card-body {

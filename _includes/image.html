@@ -1,15 +1,30 @@
 {% comment %}
-Image processing component - Usage:
+Image processing component with smart fallbacks
+Usage:
 include image.html 
   src="/path/to/image.jpg" 
   alt="Image description" 
-  class="additional-class" 
+  class="additional-class"
+  category="category-name"
   default_src=site.default_image
 {% endcomment %}
 
-{% assign img_src = include.src | default: include.default_src | default: site.default_image %}
+{% assign img_src = include.src %}
+{% assign category = include.category %}
+
+{% if img_src == blank or img_src == nil %}
+  {% if category and site.default_category_images[category] %}
+    {% assign img_src = site.default_category_images[category] %}
+  {% elsif site.use_random_default_images and site.default_images.size > 0 %}
+    {% assign random_index = site.time | date: "%s" | modulo: site.default_images.size %}
+    {% assign img_src = site.default_images[random_index] %}
+  {% else %}
+    {% assign img_src = site.default_image %}
+  {% endif %}
+{% endif %}
+
 {% assign img_alt = include.alt | default: "Coffee Prism Image" %}
-{% assign img_class = include.class | default: "" %}
+{% assign img_class = include.class | default: "img-fluid" %}
 
 <img 
   src="{{ img_src | relative_url }}" 
@@ -17,4 +32,14 @@ include image.html
   class="{{ img_class }}"
   loading="lazy"
   onerror="this.onerror=null; this.src='{{ site.default_image | relative_url }}';"
-/> 
+  {% if include.width %}width="{{ include.width }}"{% endif %}
+  {% if include.height %}height="{{ include.height }}"{% endif %}
+/>
+
+<noscript>
+  <img 
+    src="{{ site.default_image | relative_url }}" 
+    alt="{{ img_alt }}"
+    class="{{ img_class }}"
+  />
+</noscript> 
