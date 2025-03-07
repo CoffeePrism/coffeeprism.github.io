@@ -1,4 +1,4 @@
-name: Build and deploy Jekyll site with custom plugins
+name: Build and deploy Jekyll site
 
 on:
   push:
@@ -7,47 +7,34 @@ on:
     branches: [ main ]
 
 jobs:
-  build-and-deploy:
+  github-pages:
     runs-on: ubuntu-latest
     permissions:
       contents: write
     steps:
-      - name: Checkout
-        uses: actions/checkout@v3
-        with:
-          fetch-depth: 0
-
+      - uses: actions/checkout@v3
+      
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
         with:
-          ruby-version: '3.2'
+          ruby-version: '3.1'
           bundler-cache: true
-
-      - name: Install dependencies
-        run: |
-          bundle config set --local path 'vendor/bundle'
-          bundle install
-
-      - name: Setup directories
-        run: |
-          mkdir -p _i18n/{zh,en}
-          touch _i18n/zh.yml _i18n/en.yml
-          ls -la _i18n/
-
-      - name: Build Jekyll site
-        env:
-          JEKYLL_ENV: production
-        run: |
-          echo "Building Jekyll site..."
-          bundle exec jekyll build --trace
-          echo "Build completed, checking _site directory..."
-          ls -la _site
-
-      - name: Deploy to GitHub Pages
-        if: success() && github.ref == 'refs/heads/main'
-        uses: JamesIves/github-pages-deploy-action@v4
+      
+      - name: Setup Pages
+        id: pages
+        uses: actions/configure-pages@v3
+      
+      - name: Build with Jekyll
+        uses: actions/jekyll-build-pages@v1
         with:
-          folder: _site
-          branch: gh-pages
-          clean: true
-          single-commit: true 
+          source: ./
+          destination: ./_site
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v2
+      
+      - name: Deploy to GitHub Pages
+        if: github.ref == 'refs/heads/main'
+        uses: actions/deploy-pages@v2
+        with:
+          token: ${{ secrets.GITHUB_TOKEN }} 
