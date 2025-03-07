@@ -1,6 +1,6 @@
 # Security Policy - https://securitytxt.org/
 Contact: mailto:security@coffeeprism.com
-Expires: {{ site.time | date: '%Y-%m-%d' | date: '%s' | plus: 31536000 | date: '%Y-%m-%d' }}
+Expires: 2024-12-31
 Encryption: https://coffeeprism.com/pgp-key.txt
 Preferred-Languages: en
 Canonical: https://coffeeprism.com/.well-known/security.txt
