@@ -21,6 +21,24 @@ Coffee Prism is a website focused on coffee knowledge and product recommendation
 - **样式文件**：存放在 `assets/css` 目录中
 - **图片资源**：存放在 `assets/images` 目录中
 
+## 📦 GitHub Actions 规则
+
+本项目使用 GitHub Actions 自动构建和部署网站。遵循以下规则确保顺利发布：
+
+> **重要规则**: 每次推送代码后，务必检查 GitHub Actions 构建是否成功。如发现构建失败，请查看错误日志并修复问题。
+
+### 检查构建状态流程：
+
+1. 推送更改到 GitHub 仓库
+2. 前往 [Actions 页面](https://github.com/CoffeePrism/coffeeprism.github.io/actions) 查看构建状态
+3. 如果构建失败：
+   - 点击失败的工作流程查看详细日志
+   - 识别错误原因（通常是 Liquid 模板错误、依赖问题或 YAML 前置格式错误）
+   - 本地修复问题并推送更改
+   - 重复以上步骤直到构建成功
+
+更多详细信息请查看 [CONTRIBUTING.md](CONTRIBUTING.md) 中的 GitHub Actions 工作流程部分。
+
 ## 🚀 如何添加新内容 (How to Add New Content)
 
 ### 添加博客文章

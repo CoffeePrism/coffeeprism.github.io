@@ -6,6 +6,49 @@ Thank you for considering contributing to Coffee Prism! This document outlines t
 
 By participating in this project, you agree to abide by our [Code of Conduct](CODE_OF_CONDUCT.md).
 
+## GitHub Actions Workflow
+
+### Monitoring Build Status
+
+After pushing changes to the repository, always follow these steps:
+
+1. **Check Build Status**: 
+   - Go to the [Actions tab](https://github.com/CoffeePrism/coffeeprism.github.io/actions) in the GitHub repository
+   - Look for your recent commit in the workflow runs list
+   - Wait for the build to complete and check its status (success or failure)
+
+2. **If Build Succeeds**:
+   - Verify the changes on the live site (https://www.coffeeprism.com)
+   - Check for any visual or functional issues that may not have been caught by the build
+
+3. **If Build Fails**:
+   - Click on the failed workflow run to view details
+   - Examine the error messages in the logs
+   - Common issues include:
+     - Liquid template errors (undefined variables, incorrect syntax)
+     - Missing dependencies
+     - YAML front matter formatting issues
+     - File path issues
+   - Make necessary fixes and commit them with a clear message
+   - Push the changes and monitor the new build
+
+### Troubleshooting Tips
+
+#### Liquid Template Errors
+- Check for undefined variables or incorrect variable types
+- Ensure proper use of filters (e.g., `slugify` only works on strings, not arrays)
+- Verify that arrays/collections are accessed correctly
+
+#### Jekyll Build Issues
+- Run `bundle exec jekyll build --trace` locally to get detailed error messages
+- Check YAML front matter in all affected files
+- Verify compatibility of plugins with GitHub Pages
+
+#### GitHub Pages Limitations
+- Remember that GitHub Pages only supports [certain gems and versions](https://pages.github.com/versions/)
+- Avoid using unsupported plugins (like `jekyll-multiple-languages-plugin`)
+- Use supported alternatives for custom functionality
+
 ## How Can I Contribute?
 
 ### Reporting Bugs
