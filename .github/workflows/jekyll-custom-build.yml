@@ -14,6 +14,8 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
 
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -27,11 +29,17 @@ jobs:
           bundle install
 
       - name: Build Jekyll site
-        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
+        run: |
+          bundle exec jekyll build --verbose
+          ls -la _site
 
       - name: Deploy to GitHub Pages
+        if: success() && github.ref == 'refs/heads/main'
         uses: JamesIves/github-pages-deploy-action@v4
         with:
           folder: _site
           branch: gh-pages
-          clean: true 
+          clean: true
+          single-commit: true 
