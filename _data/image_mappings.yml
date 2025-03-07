@@ -1,8 +1,8 @@
-# 图片映射配置
-# 这个文件将分类、标签和关键词映射到相应的图片
-# 系统会优先使用文章原有的特色图片，若没有则根据匹配规则自动选择
+# Image Mapping Configuration
+# This file maps categories, tags, and keywords to corresponding images
+# The system will first use the article's featured image if available, then match based on these rules
 
-# 分类映射
+# Category mappings
 categories:
   brewing: "/assets/images/categories/brewing.jpg"
   roasting: "/assets/images/categories/roasting.jpg"
@@ -20,7 +20,7 @@ categories:
   specialty-coffee: "/assets/images/categories-extra/coffee-shop.jpg"
   cafe: "/assets/images/categories-extra/coffee-shop.jpg"
 
-# 标签映射（标签优先级低于分类）
+# Tag mappings (tags have lower priority than categories)
 tags:
   brewing-methods: "/assets/images/categories/brewing.jpg"
   coffee-beans: "/assets/images/categories/beans.jpg"
@@ -37,22 +37,22 @@ tags:
   specialty-coffee: "/assets/images/categories-extra/coffee-shop.jpg"
   cafe-reviews: "/assets/images/categories-extra/coffee-shop.jpg"
 
-# 关键词映射（用于无法通过分类或标签匹配的情况）
+# Keyword mappings (used when no match is found via category or tag)
 keywords:
   espresso: "/assets/images/categories/espresso.jpg"
-  拿铁: "/assets/images/categories/latte-art.jpg"
-  手冲: "/assets/images/categories/brewing.jpg"
-  咖啡豆: "/assets/images/categories/beans.jpg"
-  烘焙: "/assets/images/categories/roasting.jpg"
-  器具: "/assets/images/coffee-cup.jpg"
-  设备: "/assets/images/coffee-cup.jpg"
-  历史: "/assets/images/categories/coffee-history.jpg"
-  文化: "/assets/images/categories/coffee-culture.jpg"
-  冲泡: "/assets/images/categories/brewing.jpg"
-  品鉴: "/assets/images/categories-extra/coffee-tasting.jpg"
-  咖啡店: "/assets/images/categories-extra/coffee-shop.jpg"
-  咖啡馆: "/assets/images/categories-extra/coffee-shop.jpg"
-  咖啡研磨: "/assets/images/categories-extra/coffee-beans-roasted.jpg"
-  法压: "/assets/images/categories-extra/french-press.jpg"
-  萃取: "/assets/images/categories/brewing.jpg"
-  磨豆机: "/assets/images/coffee-cup.jpg" 
+  latte: "/assets/images/categories/latte-art.jpg"
+  pour-over: "/assets/images/categories/brewing.jpg"
+  coffee-beans: "/assets/images/categories/beans.jpg"
+  roasting: "/assets/images/categories/roasting.jpg"
+  equipment: "/assets/images/coffee-cup.jpg"
+  tools: "/assets/images/coffee-cup.jpg"
+  history: "/assets/images/categories/coffee-history.jpg"
+  culture: "/assets/images/categories/coffee-culture.jpg"
+  brewing: "/assets/images/categories/brewing.jpg"
+  tasting: "/assets/images/categories-extra/coffee-tasting.jpg"
+  cafe: "/assets/images/categories-extra/coffee-shop.jpg"
+  coffee-shop: "/assets/images/categories-extra/coffee-shop.jpg"
+  grinding: "/assets/images/categories-extra/coffee-beans-roasted.jpg"
+  french-press: "/assets/images/categories-extra/french-press.jpg"
+  extraction: "/assets/images/categories/brewing.jpg"
+  grinder: "/assets/images/coffee-cup.jpg" 

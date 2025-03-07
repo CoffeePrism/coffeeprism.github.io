@@ -9,19 +9,19 @@ layout: default
     <div class="coffee-meta">
       {% if page.origin %}
       <span class="coffee-origin">
-        <i class="fas fa-globe"></i> 产地: {{ page.origin }}
+        <i class="fas fa-globe"></i> Origin: {{ page.origin }}
       </span>
       {% endif %}
       
       {% if page.roast_level %}
       <span class="coffee-roast">
-        <i class="fas fa-fire"></i> 烘焙度: {{ page.roast_level }}
+        <i class="fas fa-fire"></i> Roast Level: {{ page.roast_level }}
       </span>
       {% endif %}
       
       {% if page.flavor_profile %}
       <span class="coffee-flavor">
-        <i class="fas fa-coffee"></i> 风味: {{ page.flavor_profile | join: ", " }}
+        <i class="fas fa-coffee"></i> Flavor Profile: {{ page.flavor_profile | join: ", " }}
       </span>
       {% endif %}
       
@@ -55,7 +55,7 @@ layout: default
 
   {% if page.products %}
   <div class="product-recommendations">
-    <h3>相关咖啡产品</h3>
+    <h3>Related Coffee Products</h3>
     <div class="product-grid">
       {% for product in page.products %}
         {% include product-card.html 
@@ -74,21 +74,21 @@ layout: default
     <div class="coffee-navigation-prev">
       {% if page.previous.url %}
       <a href="{{ page.previous.url | relative_url }}" title="{{ page.previous.title }}">
-        <i class="fas fa-arrow-left"></i> 上一篇
+        <i class="fas fa-arrow-left"></i> Previous
       </a>
       {% endif %}
     </div>
     <div class="coffee-navigation-next">
       {% if page.next.url %}
       <a href="{{ page.next.url | relative_url }}" title="{{ page.next.title }}">
-        下一篇 <i class="fas fa-arrow-right"></i>
+        Next <i class="fas fa-arrow-right"></i>
       </a>
       {% endif %}
     </div>
   </div>
 
   <div class="related-coffee">
-    <h3>您可能也喜欢</h3>
+    <h3>You May Also Like</h3>
     <div class="coffee-grid">
       {% assign related_coffee = site.coffee | where_exp: "item", "item.url != page.url" | sample: 3 %}
       {% for coffee in related_coffee %}

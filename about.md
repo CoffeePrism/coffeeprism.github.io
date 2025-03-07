@@ -1,40 +1,40 @@
 ---
 layout: default
-title: 关于我们
+title: About Us
 permalink: /about/
 ---
 
 <div class="about-page">
   <header class="page-header">
-    <h1 class="page-title">关于 Coffee Prism</h1>
-    <p class="page-description">探索咖啡的多彩世界</p>
+    <h1 class="page-title">About Coffee Prism</h1>
+    <p class="page-description">Exploring the Colorful World of Coffee</p>
   </header>
 
   <div class="about-content">
-    <h2>我们的故事</h2>
-    <p>Coffee Prism 诞生于对咖啡的热爱和分享知识的渴望。作为一群咖啡爱好者，我们发现咖啡就像一个棱镜，能够折射出丰富多彩的风味、文化和体验。我们希望通过这个平台，帮助更多人探索咖啡的奇妙世界，从咖啡豆的种植到杯中的完美一滴。</p>
+    <h2>Our Story</h2>
+    <p>Coffee Prism was born from a love of coffee and a desire to share knowledge. As a group of coffee enthusiasts, we discovered that coffee is like a prism, able to refract a rich spectrum of flavors, cultures, and experiences. Through this platform, we hope to help more people explore the wonderful world of coffee, from the cultivation of coffee beans to the perfect drop in your cup.</p>
 
-    <h2>我们的使命</h2>
-    <p>我们的使命是提供准确、实用的咖啡知识和产品推荐，帮助咖啡爱好者在家中冲泡出更美味的咖啡。无论您是咖啡新手还是资深玩家，我们都希望能够为您提供有价值的信息和建议。</p>
+    <h2>Our Mission</h2>
+    <p>Our mission is to provide accurate, practical coffee knowledge and product recommendations to help coffee lovers brew better coffee at home. Whether you're a coffee novice or a seasoned enthusiast, we aim to offer valuable information and advice for your coffee journey.</p>
 
-    <h2>我们的内容</h2>
-    <p>在 Coffee Prism，您可以找到：</p>
+    <h2>Our Content</h2>
+    <p>At Coffee Prism, you can find:</p>
     <ul>
-      <li>咖啡知识：从咖啡豆的种植、处理、烘焙到冲泡的全面知识</li>
-      <li>咖啡产区介绍：探索世界各地的咖啡产区及其独特风味</li>
-      <li>咖啡器具评测：客观评价各种咖啡器具的优缺点</li>
-      <li>冲泡技巧：详细的冲泡指南和技巧分享</li>
-      <li>产品推荐：精心挑选的咖啡和咖啡器具推荐</li>
+      <li>Coffee Knowledge: Comprehensive information on growing, processing, roasting, and brewing coffee</li>
+      <li>Coffee Origin Guides: Exploration of coffee regions around the world and their unique flavors</li>
+      <li>Equipment Reviews: Objective evaluations of various coffee equipment</li>
+      <li>Brewing Techniques: Detailed brewing guides and technique sharing</li>
+      <li>Product Recommendations: Carefully selected coffee and coffee equipment recommendations</li>
     </ul>
 
-    <h2>关于亚马逊联盟</h2>
-    <p>为了维持网站的运营，我们加入了亚马逊联盟计划。这意味着当您通过我们网站上的链接购买产品时，我们可能会获得一小部分佣金，而不会增加您的购买成本。我们只推荐我们真正相信的产品，所有的评测和推荐都基于我们的真实体验和研究。</p>
+    <h2>About Amazon Associates</h2>
+    <p>To maintain the operation of our website, we have joined the Amazon Associates program. This means that when you purchase products through links on our website, we may earn a small commission at no additional cost to you. We only recommend products we truly believe in, and all reviews and recommendations are based on our genuine experience and research.</p>
 
-    <h2>联系我们</h2>
-    <p>如果您有任何问题、建议或合作意向，欢迎通过以下方式联系我们：</p>
-    <p><strong>邮箱：</strong> <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a></p>
+    <h2>Contact Us</h2>
+    <p>If you have any questions, suggestions, or cooperation intentions, please don't hesitate to contact us:</p>
+    <p><strong>Email:</strong> <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a></p>
 
-    <h2>加入我们</h2>
-    <p>我们欢迎对咖啡充满热情的作者加入我们的团队。如果您有兴趣为 Coffee Prism 贡献内容，请通过上述联系方式与我们联系。</p>
+    <h2>Join Us</h2>
+    <p>We welcome writers who are passionate about coffee to join our team. If you're interested in contributing content to Coffee Prism, please contact us through the above methods.</p>
   </div>
 </div> 

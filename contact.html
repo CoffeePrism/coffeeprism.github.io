@@ -1,78 +1,78 @@
 ---
 layout: default
-title: 联系我们
+title: Contact Us
 permalink: /contact/
 ---
 
 <div class="contact-page">
   <header class="page-header">
-    <h1 class="page-title">联系我们</h1>
-    <p class="page-description">有问题或建议？请随时与我们联系</p>
+    <h1 class="page-title">Contact Us</h1>
+    <p class="page-description">Questions or suggestions? Feel free to get in touch</p>
   </header>
 
   <div class="contact-content">
     <div class="contact-info">
-      <h2>联系方式</h2>
+      <h2>Contact Information</h2>
       <ul class="contact-list">
         <li>
           <i class="fas fa-envelope"></i>
-          <span>电子邮件：</span>
+          <span>Email:</span>
           <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a>
         </li>
       </ul>
     </div>
 
     <div class="contact-form-container">
-      <h2>发送消息</h2>
-      <p>您也可以通过以下表单直接联系我们。我们会尽快回复您的消息。</p>
+      <h2>Send a Message</h2>
+      <p>You can also contact us directly through the form below. We'll reply to your message as soon as possible.</p>
       
       <form id="contact-form" class="contact-form" action="https://formspree.io/f/your-formspree-id" method="POST">
         <div class="form-group">
-          <label for="name">姓名</label>
+          <label for="name">Name</label>
           <input type="text" id="name" name="name" required>
         </div>
         
         <div class="form-group">
-          <label for="email">电子邮件</label>
+          <label for="email">Email</label>
           <input type="email" id="email" name="email" required>
         </div>
         
         <div class="form-group">
-          <label for="subject">主题</label>
+          <label for="subject">Subject</label>
           <input type="text" id="subject" name="subject" required>
         </div>
         
         <div class="form-group">
-          <label for="message">消息</label>
+          <label for="message">Message</label>
           <textarea id="message" name="message" rows="5" required></textarea>
         </div>
         
-        <button type="submit" class="submit-button">发送消息</button>
+        <button type="submit" class="submit-button">Send Message</button>
       </form>
     </div>
   </div>
 
   <div class="faq-section">
-    <h2>常见问题</h2>
+    <h2>Frequently Asked Questions</h2>
     
     <div class="faq-item">
-      <h3>如何成为贡献者？</h3>
-      <p>我们欢迎对咖啡充满热情的作者加入我们的团队。如果您有兴趣为 Coffee Prism 贡献内容，请通过上述联系方式与我们联系，并附上您的写作样本或相关经验。</p>
+      <h3>How can I become a contributor?</h3>
+      <p>We welcome writers who are passionate about coffee to join our team. If you're interested in contributing content to Coffee Prism, please contact us using the methods above and include your writing samples or relevant experience.</p>
     </div>
     
     <div class="faq-item">
-      <h3>我可以推荐产品吗？</h3>
-      <p>当然可以！我们非常欢迎读者的产品推荐。如果您有喜欢的咖啡或咖啡设备想要分享，请通过联系表单告诉我们，我们会考虑将其添加到我们的推荐列表中。</p>
+      <h3>Can I recommend products?</h3>
+      <p>Absolutely! We greatly appreciate product recommendations from our readers. If you have a favorite coffee or coffee equipment you'd like to share, please let us know through the contact form, and we'll consider adding it to our recommendation list.</p>
     </div>
     
     <div class="faq-item">
-      <h3>我可以转载你们的内容吗？</h3>
-      <p>我们的内容采用 MIT 许可证，您可以在注明出处的情况下转载我们的内容。如需商业用途，请先与我们联系获取许可。</p>
+      <h3>Can I repost your content?</h3>
+      <p>Our content is licensed under the MIT License, which means you can repost it as long as you credit the source. For commercial use, please contact us first to obtain permission.</p>
     </div>
     
     <div class="faq-item">
-      <h3>如何报告网站问题？</h3>
-      <p>如果您发现网站存在任何问题或错误，请通过联系表单告诉我们。我们会尽快修复这些问题。</p>
+      <h3>How do I report website issues?</h3>
+      <p>If you find any problems or errors on the website, please let us know through the contact form. We'll fix these issues as soon as possible.</p>
     </div>
   </div>
 </div>
@@ -190,18 +190,18 @@ permalink: /contact/
     const form = document.getElementById('contact-form');
     
     form.addEventListener('submit', function(e) {
-      // 这里可以添加表单验证逻辑
-      // 如果使用 Formspree，大部分验证会在他们的服务端完成
+      // Form validation logic can be added here
+      // If using Formspree, most validation will be done on their server
       
-      // 示例：简单的客户端验证
+      // Example: Simple client-side validation
       const email = document.getElementById('email').value;
       if (!email.includes('@')) {
         e.preventDefault();
-        alert('请输入有效的电子邮件地址');
+        alert('Please enter a valid email address');
         return;
       }
       
-      // 成功提交后的处理可以在这里添加
+      // Post-submission handling can be added here
     });
   });
 </script> 
