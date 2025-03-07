@@ -103,18 +103,18 @@ lang: en
   <div class="container">
     <h2 class="section-title text-center mb-4">Browse by Category</h2>
     <div class="row">
-      {% assign categories = site.categories | sort %}
-      {% for category in categories limit:6 %}
-      {% assign category_name = category | first %}
-      {% assign posts = category | last %}
-      <div class="col col-md-4 col-sm-6 col-xs-12 mb-4">
-        <div class="category-card">
-          <a href="{{ site.baseurl }}/categories/#{{ category_name | slugify }}">
-            <h3>{{ category_name }}</h3>
-            <span class="category-count">{{ posts.size }} articles</span>
-          </a>
+      {% assign all_categories = site.posts | map: "categories" | compact | uniq %}
+      {% for category_array in all_categories limit:6 %}
+        {% assign category_name = category_array | first %}
+        {% assign category_posts = site.posts | where_exp: "post", "post.categories contains category_name" %}
+        <div class="col col-md-4 col-sm-6 col-xs-12 mb-4">
+          <div class="category-card">
+            <a href="{{ site.baseurl }}/categories/#{{ category_name | slugify }}">
+              <h3>{{ category_name }}</h3>
+              <span class="category-count">{{ category_posts.size }} articles</span>
+            </a>
+          </div>
         </div>
-      </div>
       {% endfor %}
     </div>
     <div class="text-center mt-4">
