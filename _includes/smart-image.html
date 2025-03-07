@@ -56,10 +56,187 @@ include smart-image.html
   {% endif %}
 {% endif %}
 
-<img 
-  src="{{ selected_image | relative_url }}" 
-  alt="{{ post.title }}" 
-  class="{{ img_class }}"
-  loading="lazy"
-  onerror="this.onerror=null; this.src='{{ default_image | relative_url }}';"
-/> 
+<div class="image-wrapper">
+  <div class="image-loading">
+    <div class="loading-spinner"></div>
+  </div>
+  <img 
+    src="{{ selected_image | relative_url }}" 
+    alt="{{ post.title }}" 
+    class="smart-image {{ img_class }}"
+    loading="lazy"
+    onload="handleImageLoad(this)"
+    onerror="handleImageError(this, '{{ default_image | relative_url }}')"
+    data-zoomable="true"
+  />
+  <div class="image-error">
+    <i class="fas fa-exclamation-circle"></i>
+    <span>Failed to load image</span>
+  </div>
+</div>
+
+<script>
+function handleImageLoad(img) {
+  img.classList.add('loaded');
+  const wrapper = img.closest('.image-wrapper');
+  wrapper.querySelector('.image-loading').style.display = 'none';
+  wrapper.querySelector('.image-error').style.display = 'none';
+  
+  if (img.getAttribute('data-zoomable') === 'true') {
+    setupZoom(img);
+  }
+}
+
+function handleImageError(img, fallbackSrc) {
+  if (img.src !== fallbackSrc) {
+    img.src = fallbackSrc;
+  } else {
+    const wrapper = img.closest('.image-wrapper');
+    wrapper.querySelector('.image-loading').style.display = 'none';
+    wrapper.querySelector('.image-error').style.display = 'flex';
+    img.style.display = 'none';
+  }
+}
+
+function setupZoom(img) {
+  img.addEventListener('click', function() {
+    if (this.classList.contains('zoomed')) {
+      this.classList.remove('zoomed');
+      document.body.style.overflow = '';
+    } else {
+      this.classList.add('zoomed');
+      document.body.style.overflow = 'hidden';
+    }
+  });
+  
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape' && img.classList.contains('zoomed')) {
+      img.classList.remove('zoomed');
+      document.body.style.overflow = '';
+    }
+  });
+  
+  document.addEventListener('click', function(e) {
+    if (img.classList.contains('zoomed') && !e.target.classList.contains('smart-image')) {
+      img.classList.remove('zoomed');
+      document.body.style.overflow = '';
+    }
+  });
+}
+</script>
+
+<style>
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  min-height: 200px;
+  background-color: var(--bg-color-alt);
+  border-radius: var(--radius-md);
+  overflow: hidden;
+}
+
+.smart-image {
+  width: 100%;
+  height: auto;
+  display: block;
+  opacity: 0;
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  cursor: zoom-in;
+}
+
+.smart-image.loaded {
+  opacity: 1;
+}
+
+.smart-image:hover {
+  transform: scale(1.02);
+}
+
+.image-loading {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-alt);
+}
+
+.loading-spinner {
+  width: 40px;
+  height: 40px;
+  border: 4px solid var(--border-color);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+.image-error {
+  position: absolute;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  display: none;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  background-color: var(--bg-color-alt);
+  color: var(--text-muted);
+  font-size: 0.9rem;
+  text-align: center;
+  padding: var(--spacing-md);
+}
+
+.image-error i {
+  font-size: 2rem;
+  margin-bottom: var(--spacing-sm);
+  color: var(--error-color);
+}
+
+.smart-image.zoomed {
+  position: fixed;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%) scale(1.5);
+  max-width: 90vw;
+  max-height: 90vh;
+  width: auto;
+  height: auto;
+  z-index: 1000;
+  cursor: zoom-out;
+  box-shadow: var(--shadow-lg);
+  animation: zoomIn 0.3s ease;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+
+@keyframes zoomIn {
+  from { transform: translate(-50%, -50%) scale(1); }
+  to { transform: translate(-50%, -50%) scale(1.5); }
+}
+
+@media (max-width: 768px) {
+  .image-wrapper {
+    min-height: 150px;
+  }
+  
+  .loading-spinner {
+    width: 30px;
+    height: 30px;
+    border-width: 3px;
+  }
+  
+  .smart-image.zoomed {
+    transform: translate(-50%, -50%) scale(1.2);
+  }
+  
+  @keyframes zoomIn {
+    from { transform: translate(-50%, -50%) scale(1); }
+    to { transform: translate(-50%, -50%) scale(1.2); }
+  }
+}</style> 

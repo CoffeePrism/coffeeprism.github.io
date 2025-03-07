@@ -1,0 +1,153 @@
+---
+layout: default
+title: Offline
+permalink: /offline.html
+---
+
+<div class="offline-page">
+  <div class="container">
+    <div class="offline-content">
+      <i class="fas fa-wifi-slash offline-icon"></i>
+      <h1>You're Offline</h1>
+      <p>Sorry, but you appear to be offline and the page you requested has not been previously cached.</p>
+      <p>Try:</p>
+      <ul>
+        <li>Checking your internet connection</li>
+        <li>Refreshing the page when you're back online</li>
+        <li>Accessing previously visited pages (they might be cached)</li>
+      </ul>
+      <div class="offline-actions">
+        <button onclick="window.location.reload()" class="btn btn-primary">
+          <i class="fas fa-sync-alt"></i> Try Again
+        </button>
+        <a href="/" class="btn btn-secondary">
+          <i class="fas fa-home"></i> Go to Homepage
+        </a>
+      </div>
+    </div>
+  </div>
+</div>
+
+<style>
+.offline-page {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: var(--spacing-xl) 0;
+  text-align: center;
+  background-color: var(--bg-color-alt);
+}
+
+.offline-content {
+  max-width: 600px;
+  margin: 0 auto;
+  padding: var(--spacing-xl);
+  background-color: var(--bg-color);
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-md);
+}
+
+.offline-icon {
+  font-size: 4rem;
+  color: var(--text-muted);
+  margin-bottom: var(--spacing-lg);
+}
+
+.offline-content h1 {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-color);
+}
+
+.offline-content p {
+  margin-bottom: var(--spacing-md);
+  color: var(--text-muted);
+}
+
+.offline-content ul {
+  text-align: left;
+  margin-bottom: var(--spacing-lg);
+  color: var(--text-muted);
+}
+
+.offline-content li {
+  margin-bottom: var(--spacing-sm);
+}
+
+.offline-actions {
+  display: flex;
+  gap: var(--spacing-md);
+  justify-content: center;
+}
+
+.btn {
+  display: inline-flex;
+  align-items: center;
+  gap: var(--spacing-sm);
+  padding: var(--spacing-sm) var(--spacing-lg);
+  border: none;
+  border-radius: var(--radius-md);
+  font-size: 1rem;
+  cursor: pointer;
+  transition: all 0.3s ease;
+}
+
+.btn-primary {
+  background-color: var(--primary-color);
+  color: white;
+}
+
+.btn-primary:hover {
+  background-color: var(--primary-color-dark);
+  transform: translateY(-1px);
+}
+
+.btn-secondary {
+  background-color: var(--bg-color);
+  color: var(--text-color);
+  border: 1px solid var(--border-color);
+  text-decoration: none;
+}
+
+.btn-secondary:hover {
+  background-color: var(--bg-color-alt);
+  transform: translateY(-1px);
+}
+
+@media (max-width: 768px) {
+  .offline-actions {
+    flex-direction: column;
+  }
+  
+  .btn {
+    width: 100%;
+    justify-content: center;
+  }
+}
+</style>
+
+<script>
+// Check connection status
+function updateOnlineStatus() {
+  const offlineContent = document.querySelector('.offline-content');
+  if (navigator.onLine) {
+    offlineContent.classList.add('fade-out');
+    setTimeout(() => {
+      window.location.reload();
+    }, 300);
+  }
+}
+
+window.addEventListener('online', updateOnlineStatus);
+window.addEventListener('offline', updateOnlineStatus);
+
+// Add fade-out animation
+const style = document.createElement('style');
+style.textContent = `
+  .fade-out {
+    opacity: 0;
+    transition: opacity 0.3s ease;
+  }
+`;
+document.head.appendChild(style);
+</script> 

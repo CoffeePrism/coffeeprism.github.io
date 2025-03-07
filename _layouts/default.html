@@ -1,141 +1,248 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="en" data-theme="light">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {% endif %}{{ site.title }}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  {% include head.html %}
   
-  <!-- Fonts -->
+  <!-- PWA Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="{{ site.theme_color | default: '#007bff' }}">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="{{ site.title }}">
+  
+  <!-- Apple Touch Icons -->
+  <link rel="apple-touch-icon" href="/assets/images/icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="152x152" href="/assets/images/icon-152x152.png">
+  <link rel="apple-touch-icon" sizes="180x180" href="/assets/images/icon-180x180.png">
+  <link rel="apple-touch-icon" sizes="167x167" href="/assets/images/icon-167x167.png">
+  
+  <!-- Splash Screens -->
+  <link rel="apple-touch-startup-image" href="/assets/images/splash-2048x2732.png" media="(device-width: 1024px) and (device-height: 1366px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/assets/images/splash-1668x2388.png" media="(device-width: 834px) and (device-height: 1194px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/assets/images/splash-1536x2048.png" media="(device-width: 768px) and (device-height: 1024px) and (-webkit-device-pixel-ratio: 2) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/assets/images/splash-1125x2436.png" media="(device-width: 375px) and (device-height: 812px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  <link rel="apple-touch-startup-image" href="/assets/images/splash-1242x2688.png" media="(device-width: 414px) and (device-height: 896px) and (-webkit-device-pixel-ratio: 3) and (orientation: portrait)">
+  
+  <!-- Microsoft Tiles -->
+  <meta name="msapplication-TileColor" content="{{ site.theme_color | default: '#007bff' }}">
+  <meta name="msapplication-TileImage" content="/assets/images/icon-144x144.png">
+  <meta name="msapplication-config" content="/browserconfig.xml">
+  
+  <!-- Performance Optimizations -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
-  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-  <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@400;500;600;700&family=Merriweather:wght@400;700&display=swap" rel="stylesheet">
+  <link rel="preconnect" href="https://cdnjs.cloudflare.com">
+  <link rel="dns-prefetch" href="https://www.google-analytics.com">
   
-  <!-- Icons -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
+  <!-- Critical CSS -->
+  <style>
+    {% include critical.css %}
+  </style>
   
-  <!-- CSS -->
-  <link rel="stylesheet" href="{{ '/assets/css/style.css' | relative_url }}">
-  
-  <!-- Favicon -->
-  <link rel="icon" href="{{ '/assets/images/favicon.png' | relative_url }}">
-  
-  <!-- OpenGraph Tags -->
-  <meta property="og:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta property="og:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <meta property="og:url" content="{{ page.url | replace:'index.html','' | absolute_url }}">
-  <meta property="og:site_name" content="{{ site.title }}">
-  {% if page.featured_image %}
-  <meta property="og:image" content="{{ page.featured_image | absolute_url }}">
-  {% endif %}
-  
-  <!-- Twitter Card -->
-  <meta name="twitter:card" content="summary_large_image">
-  <meta name="twitter:title" content="{% if page.title %}{{ page.title }}{% else %}{{ site.title }}{% endif %}">
-  <meta name="twitter:description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  {% if page.featured_image %}
-  <meta name="twitter:image" content="{{ page.featured_image | absolute_url }}">
-  {% endif %}
+  <!-- Theme and Component Styles -->
+  <style>
+    /* Theme Variables */
+    :root {
+      --bg-color: #ffffff;
+      --bg-color-alt: #f8f9fa;
+      --text-color: #212529;
+      --text-muted: #6c757d;
+      --border-color: #dee2e6;
+      --primary-color: #007bff;
+      --primary-color-dark: #0056b3;
+      --error-color: #dc3545;
+    }
+
+    /* Dark Theme */
+    [data-theme="dark"] {
+      --bg-color: #1a1a1a;
+      --bg-color-alt: #2d2d2d;
+      --text-color: #e0e0e0;
+      --text-muted: #a0a0a0;
+      --border-color: #404040;
+      --primary-color: #4d9fff;
+      --primary-color-dark: #3d7fcf;
+    }
+
+    /* Accessibility */
+    .skip-link {
+      position: absolute;
+      top: -40px;
+      left: 0;
+      padding: 8px;
+      background-color: var(--primary-color);
+      color: white;
+      z-index: 100;
+      transition: top 0.3s;
+    }
+
+    .skip-link:focus {
+      top: 0;
+    }
+
+    /* Theme Toggle */
+    .theme-toggle {
+      position: fixed;
+      bottom: 80px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--bg-color);
+      border: 1px solid var(--border-color);
+      color: var(--text-color);
+      cursor: pointer;
+      transition: all 0.3s ease;
+      z-index: 99;
+    }
+
+    .theme-toggle:hover {
+      transform: scale(1.1);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    /* Back to Top */
+    .back-to-top {
+      position: fixed;
+      bottom: 20px;
+      right: 20px;
+      width: 40px;
+      height: 40px;
+      border-radius: 50%;
+      background-color: var(--primary-color);
+      color: white;
+      border: none;
+      cursor: pointer;
+      opacity: 0;
+      visibility: hidden;
+      transition: all 0.3s ease;
+      z-index: 99;
+    }
+
+    .back-to-top.visible {
+      opacity: 1;
+      visibility: visible;
+    }
+
+    .back-to-top:hover {
+      transform: translateY(-3px);
+      box-shadow: 0 0.5rem 1rem rgba(0, 0, 0, 0.15);
+    }
+
+    /* Tooltip */
+    .tooltip {
+      position: fixed;
+      padding: 6px 12px;
+      background-color: var(--bg-color);
+      border: 1px solid var(--border-color);
+      border-radius: 4px;
+      font-size: 0.875rem;
+      color: var(--text-color);
+      box-shadow: 0 0.125rem 0.25rem rgba(0, 0, 0, 0.075);
+      pointer-events: none;
+      z-index: 1000;
+      animation: fadeIn 0.2s ease;
+    }
+
+    @keyframes fadeIn {
+      from {
+        opacity: 0;
+        transform: translateY(5px);
+      }
+      to {
+        opacity: 1;
+        transform: translateY(0);
+      }
+    }
+
+    /* Dark Mode Image Adjustments */
+    [data-theme="dark"] img {
+      filter: brightness(0.8) contrast(1.2);
+    }
+
+    /* Print Styles */
+    @media print {
+      .theme-toggle,
+      .back-to-top,
+      .cookie-consent {
+        display: none !important;
+      }
+
+      body {
+        color: black;
+        background: white;
+      }
+
+      a {
+        text-decoration: underline;
+      }
+
+      @page {
+        margin: 2cm;
+      }
+    }
+  </style>
 </head>
 <body>
-  <header class="header">
-    <div class="container header-container">
-      <div class="logo">
-        <a href="{{ '/' | relative_url }}">
-          <span class="logo-text">Coffee Prism</span>
-        </a>
-      </div>
-      <nav class="nav">
-        <button class="mobile-menu-toggle" id="mobile-menu-toggle">
-          <i class="fas fa-bars"></i>
-        </button>
-        <ul class="nav-menu" id="nav-menu">
-          <li class="nav-item">
-            <a href="{{ '/' | relative_url }}" class="nav-link{% if page.url == '/' %} active{% endif %}">Home</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ '/blog' | relative_url }}" class="nav-link{% if page.url contains '/blog' or page.layout == 'post' %} active{% endif %}">Blog</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ '/categories' | relative_url }}" class="nav-link{% if page.url contains '/categories' %} active{% endif %}">Categories</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ '/tags' | relative_url }}" class="nav-link{% if page.url contains '/tags' %} active{% endif %}">Tags</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ '/about' | relative_url }}" class="nav-link{% if page.url contains '/about' %} active{% endif %}">About</a>
-          </li>
-          <li class="nav-item">
-            <a href="{{ '/contact' | relative_url }}" class="nav-link{% if page.url contains '/contact' %} active{% endif %}">Contact</a>
-          </li>
-        </ul>
-      </nav>
-    </div>
-  </header>
-
-  <main class="main-content">
+  <!-- Skip to main content -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Header -->
+  {% include header.html %}
+  
+  <!-- Main Content -->
+  <main id="main-content" tabindex="-1">
     {{ content }}
   </main>
-
-  <footer class="footer">
-    <div class="container">
-      <div class="row">
-        <div class="col col-md-4 col-sm-12 mb-4">
-          <h4>About Coffee Prism</h4>
-          <p>Exploring the world of coffee through a prism of knowledge, from bean origins to brewing techniques and everything in between.</p>
-          <div class="social-links">
-            <a href="#"><i class="fab fa-facebook-f"></i></a>
-            <a href="#"><i class="fab fa-twitter"></i></a>
-            <a href="#"><i class="fab fa-instagram"></i></a>
-            <a href="#"><i class="fab fa-pinterest-p"></i></a>
-          </div>
-        </div>
-        <div class="col col-md-4 col-sm-6 mb-4">
-          <h4>Quick Links</h4>
-          <ul class="footer-links">
-            <li><a href="{{ '/about' | relative_url }}">About Us</a></li>
-            <li><a href="{{ '/blog' | relative_url }}">Blog</a></li>
-            <li><a href="{{ '/categories' | relative_url }}">Categories</a></li>
-            <li><a href="{{ '/tags' | relative_url }}">Tags</a></li>
-            <li><a href="{{ '/contact' | relative_url }}">Contact Us</a></li>
-          </ul>
-        </div>
-        <div class="col col-md-4 col-sm-6">
-          <h4>Contact Us</h4>
-          <p>Have questions or suggestions? We'd love to hear from you!</p>
-          <p><a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a></p>
-        </div>
-      </div>
-      <div class="footer-bottom">
-        <p>Copyright &copy; {{ 'now' | date: "%Y" }} Coffee Prism. All Rights Reserved.</p>
-      </div>
-    </div>
-  </footer>
-
-  <!-- Scripts -->
+  
+  <!-- Footer -->
+  {% include footer.html %}
+  
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" aria-label="Toggle theme" data-tooltip="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+  </button>
+  
+  <!-- Back to Top -->
+  <button class="back-to-top" aria-label="Back to top" data-tooltip="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  
+  <!-- Deferred JavaScript -->
+  <script src="{{ '/assets/js/main.js' | relative_url }}" defer></script>
+  
+  <!-- Analytics -->
+  {% if jekyll.environment == "production" and site.google_analytics %}
+    {% include analytics.html %}
+  {% endif %}
+  
+  <!-- Cookie Consent -->
+  {% if site.cookie_consent_enabled %}
+    {% include cookie-consent.html %}
+  {% endif %}
+  
+  <!-- Page-specific scripts -->
   <script>
-    document.addEventListener('DOMContentLoaded', function() {
-      // Mobile menu toggle
-      const mobileMenuToggle = document.getElementById('mobile-menu-toggle');
-      const navMenu = document.getElementById('nav-menu');
-      
-      if (mobileMenuToggle && navMenu) {
-        mobileMenuToggle.addEventListener('click', function() {
-          navMenu.classList.toggle('active');
-          mobileMenuToggle.innerHTML = navMenu.classList.contains('active') 
-            ? '<i class="fas fa-times"></i>' 
-            : '<i class="fas fa-bars"></i>';
-        });
+    // Back to top functionality
+    const backToTop = document.querySelector('.back-to-top');
+
+    window.addEventListener('scroll', () => {
+      if (window.pageYOffset > 200) {
+        backToTop.classList.add('visible');
+      } else {
+        backToTop.classList.remove('visible');
       }
-      
-      // Close mobile menu when clicking on links
-      const navLinks = document.querySelectorAll('.nav-link');
-      navLinks.forEach(function(link) {
-        link.addEventListener('click', function() {
-          navMenu.classList.remove('active');
-          mobileMenuToggle.innerHTML = '<i class="fas fa-bars"></i>';
-        });
+    });
+
+    backToTop.addEventListener('click', () => {
+      window.scrollTo({
+        top: 0,
+        behavior: 'smooth'
       });
+    });
+
+    // Print handler
+    window.addEventListener('beforeprint', () => {
+      document.documentElement.setAttribute('data-theme', 'light');
     });
   </script>
 </body>

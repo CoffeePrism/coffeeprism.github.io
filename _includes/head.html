@@ -1,0 +1,234 @@
+<!-- Critical CSS -->
+<style>
+:root {
+  --primary-color: {{ site.primary_color | default: '#007bff' }};
+  --primary-color-dark: {{ site.primary_color_dark | default: '#0056b3' }};
+  --text-color: {{ site.text_color | default: '#212529' }};
+  --text-muted: {{ site.text_muted | default: '#6c757d' }};
+  --bg-color: {{ site.bg_color | default: '#ffffff' }};
+  --bg-color-alt: {{ site.bg_color_alt | default: '#f8f9fa' }};
+  --border-color: {{ site.border_color | default: '#dee2e6' }};
+  --error-color: {{ site.error_color | default: '#dc3545' }};
+  
+  --spacing-xs: 0.25rem;
+  --spacing-sm: 0.5rem;
+  --spacing-md: 1rem;
+  --spacing-lg: 2rem;
+  --spacing-xl: 4rem;
+  
+  --radius-sm: 0.25rem;
+  --radius-md: 0.5rem;
+  --radius-lg: 1rem;
+  
+  --shadow-sm: 0 .125rem .25rem rgba(0,0,0,.075);
+  --shadow-md: 0 .5rem 1rem rgba(0,0,0,.15);
+  --shadow-lg: 0 1rem 3rem rgba(0,0,0,.175);
+  
+  --primary-rgb: {{ site.primary_color | remove: '#' | regex_replace: '^(..)(..)(..)$', '\1,\2,\3' | split: ',' | map: 'hex_to_rgb' | join: ',' }};
+}
+
+/* Base Styles */
+body {
+  margin: 0;
+  font-family: -apple-system, BlinkMacSystemFont, "Segoe UI", Roboto, "Helvetica Neue", Arial, sans-serif;
+  font-size: 1rem;
+  line-height: 1.5;
+  color: var(--text-color);
+  background-color: var(--bg-color);
+}
+
+/* Container */
+.container {
+  width: 100%;
+  max-width: 1200px;
+  margin-right: auto;
+  margin-left: auto;
+  padding-right: var(--spacing-md);
+  padding-left: var(--spacing-md);
+}
+
+/* Typography */
+h1, h2, h3, h4, h5, h6 {
+  margin-top: 0;
+  margin-bottom: var(--spacing-md);
+  font-weight: 500;
+  line-height: 1.2;
+}
+
+a {
+  color: var(--primary-color);
+  text-decoration: none;
+  transition: color 0.3s ease;
+}
+
+a:hover {
+  color: var(--primary-color-dark);
+}
+
+/* Utilities */
+.text-center { text-align: center; }
+.mb-0 { margin-bottom: 0; }
+.mt-0 { margin-top: 0; }
+.d-none { display: none; }
+.w-100 { width: 100%; }
+.h-100 { height: 100%; }
+</style>
+
+<!-- Preload Critical Fonts -->
+<link rel="preload" href="{{ '/assets/fonts/montserrat-v25-latin-regular.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+<link rel="preload" href="{{ '/assets/fonts/montserrat-v25-latin-700.woff2' | relative_url }}" as="font" type="font/woff2" crossorigin>
+
+<!-- Preload Critical Images -->
+<script type="text/javascript">
+//<![CDATA[
+(function() {
+  var criticalImages = [
+    '{{ site.default_image | relative_url }}'
+    {%- if page.featured_image -%}
+    ,'{{ page.featured_image | relative_url }}'
+    {%- endif -%}
+    {%- if page.hero_image -%}
+    ,'{{ page.hero_image | relative_url }}'
+    {%- endif -%}
+    {%- for post in site.posts limit:3 -%}
+      {%- if post.featured_image -%}
+    ,'{{ post.featured_image | relative_url }}'
+      {%- endif -%}
+    {%- endfor -%}
+  ];
+
+  function preloadImage(url) {
+    var img = new Image();
+    img.src = url;
+  }
+
+  criticalImages.forEach(preloadImage);
+
+  document.addEventListener('DOMContentLoaded', function() {
+    if ('IntersectionObserver' in window) {
+      var imageObserver = new IntersectionObserver(function(entries, observer) {
+        entries.forEach(function(entry) {
+          if (entry.isIntersecting) {
+            var img = entry.target;
+            if (img.dataset.src) {
+              img.src = img.dataset.src;
+              img.removeAttribute('data-src');
+            }
+            observer.unobserve(img);
+          }
+        });
+      }, {
+        rootMargin: '50px 0px',
+        threshold: 0.01
+      });
+
+      document.querySelectorAll('img[loading="lazy"]').forEach(function(img) {
+        imageObserver.observe(img);
+      });
+    }
+  });
+
+  if ('loading' in HTMLImageElement.prototype) {
+    document.querySelectorAll('img[loading="lazy"]').forEach(function(img) {
+      img.src = img.dataset.src;
+    });
+  }
+})();
+//]]>
+</script>
+
+<!-- Deferred CSS -->
+<link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}" media="print" onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+</noscript>
+
+<!-- Font Awesome -->
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" 
+      integrity="sha512-9usAa10IRO0HhonpyAIVpjrylPvoDwiPUiKdWk5t3PyolY1cOd4DSE0Ga+ri4AuTroPR5aQvXU9xC6qOPnzFeg==" 
+      crossorigin="anonymous" 
+      referrerpolicy="no-referrer" 
+      media="print" 
+      onload="this.media='all'">
+<noscript>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+</noscript>
+
+<!-- Meta Tags -->
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<meta name="description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<meta name="theme-color" content="{{ site.theme_color | default: '#ffffff' }}">
+
+<!-- Open Graph -->
+<meta property="og:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}">
+<meta property="og:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+<meta property="og:url" content="{{ page.url | absolute_url }}">
+<meta property="og:site_name" content="{{ site.title | escape }}">
+<meta property="og:type" content="{% if page.date %}article{% else %}website{% endif %}">
+{% if page.featured_image %}
+<meta property="og:image" content="{{ page.featured_image | absolute_url }}">
+{% endif %}
+
+<!-- Twitter Card -->
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}">
+<meta name="twitter:description" content="{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}">
+{% if page.featured_image %}
+<meta name="twitter:image" content="{{ page.featured_image | absolute_url }}">
+{% endif %}
+
+<!-- Favicon -->
+<link rel="icon" type="image/png" href="{{ '/assets/images/favicon.png' | relative_url }}">
+<link rel="apple-touch-icon" href="{{ '/assets/images/apple-touch-icon.png' | relative_url }}">
+
+<!-- Title -->
+<title>{% if page.title %}{{ page.title | escape }} | {% endif %}{{ site.title | escape }}</title>
+
+<!-- SEO -->
+{% if page.noindex %}
+<meta name="robots" content="noindex">
+{% endif %}
+
+{% if page.canonical_url %}
+<link rel="canonical" href="{{ page.canonical_url }}">
+{% else %}
+<link rel="canonical" href="{{ page.url | replace:'index.html','' | absolute_url }}">
+{% endif %}
+
+<!-- RSS Feed -->
+{% feed_meta %}
+
+<!-- JSON-LD -->
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "{% if page.date %}Article{% else %}WebSite{% endif %}",
+  "url": "{{ page.url | absolute_url }}",
+  "name": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "headline": "{% if page.title %}{{ page.title | escape }}{% else %}{{ site.title | escape }}{% endif %}",
+  "description": "{{ page.excerpt | default: site.description | strip_html | normalize_whitespace | truncate: 160 | escape }}",
+  {% if page.date %}
+  "datePublished": "{{ page.date | date_to_xmlschema }}",
+  "dateModified": "{{ page.last_modified_at | default: page.date | date_to_xmlschema }}",
+  "author": {
+    "@type": "Person",
+    "name": "{{ page.author | default: site.author | escape }}"
+  },
+  {% endif %}
+  {% if page.featured_image %}
+  "image": {
+    "@type": "ImageObject",
+    "url": "{{ page.featured_image | absolute_url }}"
+  },
+  {% endif %}
+  "publisher": {
+    "@type": "Organization",
+    "name": "{{ site.title | escape }}",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "{{ '/assets/images/logo.png' | absolute_url }}"
+    }
+  }
+}
+</script> 

@@ -39,21 +39,43 @@ affiliate:
 # Image settings
 use_remote_images: false
 default_image: "/assets/images/coffee-default.jpg"
-default_category_images:
-  coffee-knowledge: "/assets/images/categories/coffee-science.jpg"
-  brewing: "/assets/images/categories/brewing.jpg"
-  roasting: "/assets/images/categories/roasting.jpg"
-  beans: "/assets/images/categories/beans.jpg"
-  equipment: "/assets/images/coffee-cup.jpg"
-  latte-art: "/assets/images/categories/latte-art.jpg"
-  barista-skills: "/assets/images/categories/barista.jpg"
 
-# Default image collection (for random selection)
+# Category-specific images
+default_category_images:
+  coffee-knowledge: "/assets/images/categories-extra/coffee-science.jpg"
+  brewing: "/assets/images/categories/brewing.jpg"
+  roasting: "/assets/images/categories/coffee-equipment.jpg"
+  beans: "/assets/images/categories/beans.jpg"
+  equipment: "/assets/images/categories/coffee-equipment.jpg"
+  latte-art: "/assets/images/categories/latte-art.jpg"
+  barista-skills: "/assets/images/categories-extra/barista.jpg"
+  coffee-culture: "/assets/images/categories/coffee-culture.jpg"
+  coffee-history: "/assets/images/categories/coffee-history.jpg"
+  reviews: "/assets/images/categories-extra/coffee-cups.jpg"
+  guides: "/assets/images/categories-extra/brewing-guide.jpg"
+
+# Default image collection for random selection
 default_images:
-  - "/assets/images/coffee-default.jpg"
-  - "/assets/images/coffee-beans-default.jpg"
-  - "/assets/images/coffee-beans.jpg"
-  - "/assets/images/coffee-cup.jpg"
+  # Category images
+  - "/assets/images/categories/brewing.jpg"
+  - "/assets/images/categories/espresso.jpg"
+  - "/assets/images/categories/coffee-brewing-methods.jpg"
+  - "/assets/images/categories/coffee-beans-closeup.jpg"
+  - "/assets/images/categories/coffee-pour-over.jpg"
+  - "/assets/images/categories/coffee-drink.jpg"
+  - "/assets/images/categories/coffee-culture.jpg"
+  - "/assets/images/categories/coffee-history.jpg"
+  - "/assets/images/categories/coffee-equipment.jpg"
+  # Extra category images
+  - "/assets/images/categories-extra/coffee-science.jpg"
+  - "/assets/images/categories-extra/coffee-cups.jpg"
+  - "/assets/images/categories-extra/coffee-beans-roasted.jpg"
+  - "/assets/images/categories-extra/french-press.jpg"
+  - "/assets/images/categories-extra/coffee-packaging.jpg"
+  - "/assets/images/categories-extra/coffee-shop.jpg"
+  - "/assets/images/categories-extra/barista.jpg"
+  - "/assets/images/categories-extra/brewing-guide.jpg"
+
 use_random_default_images: true
 use_smart_images: true
 

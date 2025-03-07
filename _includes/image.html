@@ -1,22 +1,25 @@
 {% comment %}
-Image processing component with smart fallbacks
+Image processing component with smart fallbacks, loading states, and zoom functionality
 Usage:
 include image.html 
   src="/path/to/image.jpg" 
   alt="Image description" 
   class="additional-class"
   category="category-name"
-  default_src=site.default_image
+  caption="Optional caption"
+  zoomable=true/false
 {% endcomment %}
 
 {% assign img_src = include.src %}
 {% assign category = include.category %}
+{% assign zoomable = include.zoomable | default: false %}
 
-{% if img_src == blank or img_src == nil %}
+{% if img_src == blank or img_src == nil or img_src contains "0.0B" %}
   {% if category and site.default_category_images[category] %}
     {% assign img_src = site.default_category_images[category] %}
   {% elsif site.use_random_default_images and site.default_images.size > 0 %}
-    {% assign random_index = site.time | date: "%s" | modulo: site.default_images.size %}
+    {% assign seed = include.alt | append: category | size %}
+    {% assign random_index = seed | modulo: site.default_images.size %}
     {% assign img_src = site.default_images[random_index] %}
   {% else %}
     {% assign img_src = site.default_image %}
@@ -25,21 +28,146 @@ include image.html
 
 {% assign img_alt = include.alt | default: "Coffee Prism Image" %}
 {% assign img_class = include.class | default: "img-fluid" %}
+{% assign img_id = img_src | slugify | append: "-" | append: include.alt | slugify %}
 
-<img 
-  src="{{ img_src | relative_url }}" 
-  alt="{{ img_alt }}" 
-  class="{{ img_class }}"
-  loading="lazy"
-  onerror="this.onerror=null; this.src='{{ site.default_image | relative_url }}';"
-  {% if include.width %}width="{{ include.width }}"{% endif %}
-  {% if include.height %}height="{{ include.height }}"{% endif %}
-/>
-
-<noscript>
+<div class="image-wrapper{% if zoomable %} zoomable{% endif %}" id="wrapper-{{ img_id }}">
+  <div class="image-loading" id="loading-{{ img_id }}">
+    <div class="loading-spinner"></div>
+  </div>
+  
+  <div class="image-error" id="error-{{ img_id }}" style="display: none;">
+    <div>
+      <i class="fas fa-exclamation-circle"></i>
+      <p>Failed to load image</p>
+    </div>
+  </div>
+  
   <img 
-    src="{{ site.default_image | relative_url }}" 
-    alt="{{ img_alt }}"
+    src="{{ img_src | relative_url }}" 
+    alt="{{ img_alt }}" 
     class="{{ img_class }}"
+    loading="lazy"
+    id="{{ img_id }}"
+    onload="handleImageLoad('{{ img_id }}')"
+    onerror="handleImageError('{{ img_id }}', '{{ site.default_image | relative_url }}')"
+    {% if include.width %}width="{{ include.width }}"{% endif %}
+    {% if include.height %}height="{{ include.height }}"{% endif %}
   />
-</noscript> 
+  
+  {% if include.caption %}
+    <div class="image-caption">{{ include.caption }}</div>
+  {% endif %}
+  
+  <noscript>
+    <img 
+      src="{{ site.default_image | relative_url }}" 
+      alt="{{ img_alt }}"
+      class="{{ img_class }}"
+    />
+  </noscript>
+</div>
+
+<script>
+function handleImageLoad(id) {
+  const img = document.getElementById(id);
+  const loading = document.getElementById('loading-' + id);
+  const error = document.getElementById('error-' + id);
+  
+  if (img && loading && error) {
+    img.classList.add('loaded');
+    loading.style.display = 'none';
+    error.style.display = 'none';
+  }
+}
+
+function handleImageError(id, fallbackSrc) {
+  const img = document.getElementById(id);
+  const loading = document.getElementById('loading-' + id);
+  const error = document.getElementById('error-' + id);
+  const wrapper = document.getElementById('wrapper-' + id);
+  
+  if (img && loading && error && wrapper) {
+    if (img.src !== fallbackSrc) {
+      img.src = fallbackSrc;
+      img.classList.add('error');
+    } else {
+      img.style.display = 'none';
+      loading.style.display = 'none';
+      error.style.display = 'flex';
+      wrapper.classList.remove('zoomable');
+    }
+  }
+}
+
+// Initialize zoom functionality for zoomable images
+document.addEventListener('DOMContentLoaded', function() {
+  const zoomableImages = document.querySelectorAll('.zoomable img');
+  
+  zoomableImages.forEach(img => {
+    img.addEventListener('click', function() {
+      if (this.parentElement.classList.contains('zoomed')) {
+        this.parentElement.classList.remove('zoomed');
+        document.body.style.overflow = '';
+      } else {
+        this.parentElement.classList.add('zoomed');
+        document.body.style.overflow = 'hidden';
+      }
+    });
+  });
+  
+  // Close zoomed image when clicking outside
+  document.addEventListener('click', function(e) {
+    if (e.target.classList.contains('zoomed')) {
+      e.target.classList.remove('zoomed');
+      document.body.style.overflow = '';
+    }
+  });
+  
+  // Close zoomed image with Escape key
+  document.addEventListener('keydown', function(e) {
+    if (e.key === 'Escape') {
+      const zoomed = document.querySelector('.zoomed');
+      if (zoomed) {
+        zoomed.classList.remove('zoomed');
+        document.body.style.overflow = '';
+      }
+    }
+  });
+});
+</script>
+
+<style>
+.image-wrapper {
+  position: relative;
+  width: 100%;
+  height: 100%;
+  margin-bottom: var(--spacing-md);
+}
+
+.image-wrapper img {
+  transition: opacity 0.3s ease, transform 0.3s ease;
+  opacity: 0;
+}
+
+.image-wrapper img.loaded {
+  opacity: 1;
+}
+
+.image-wrapper img.error {
+  opacity: 0.8;
+  filter: grayscale(20%);
+}
+
+.loading-spinner {
+  width: 30px;
+  height: 30px;
+  border: 2px solid var(--border-color);
+  border-top-color: var(--primary-color);
+  border-radius: 50%;
+  animation: spin 1s linear infinite;
+}
+
+@keyframes spin {
+  to { transform: rotate(360deg); }
+}
+</style> 

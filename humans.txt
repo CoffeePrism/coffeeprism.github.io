@@ -1,0 +1,47 @@
+/* TEAM */
+	Chef & Founder: Coffee Prism Team
+	Contact: hello@coffeeprism.com
+	Twitter: @coffeeprism
+	From: Earth, Solar System
+
+/* THANKS */
+	Coffee Farmers: For growing amazing beans
+	Roasters: For perfecting the craft
+	Community: For sharing knowledge and passion
+
+/* SITE */
+	Last update: {{ site.time | date: "%Y/%m/%d" }}
+	Language: English
+	Doctype: HTML5
+	IDE: Visual Studio Code, Cursor
+	
+/* TECHNOLOGY */
+	Standards: HTML5, CSS3, JavaScript
+	Components: Jekyll, Liquid
+	Software: Git, Node.js, Ruby
+	
+/* TOOLS & SERVICES */
+	Static Site Generator: Jekyll
+	Version Control: Git
+	Hosting: GitHub Pages
+	CDN: Cloudflare
+	Analytics: Google Analytics
+	Fonts: Google Fonts
+	Icons: Font Awesome
+	
+/* ASSETS */
+	Framework: Custom
+	Grid: CSS Grid & Flexbox
+	Responsive: Yes
+	Images: Optimized WebP & JPEG
+	Icons: SVG & WebFont
+	
+/* FEATURES */
+	Progressive Web App: Yes
+	Offline Support: Yes
+	Dark Mode: Yes
+	Responsive Design: Yes
+	Accessibility: WCAG 2.1 AA
+	Performance: 90+ Lighthouse Score
+	SEO: Optimized
+	Security: HTTP/2, HSTS, CSP 

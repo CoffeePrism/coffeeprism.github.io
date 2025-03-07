@@ -1,8 +1,57 @@
----
-layout: null
----
+# www.robotstxt.org/
+# Allow crawling of all content
 User-agent: *
 Allow: /
+
+# Sitemap location
 Sitemap: {{ site.url }}/sitemap.xml
-Disallow: /assets/
-Disallow: /404.html 
+
+# Disallow crawling of feeds and search results
+Disallow: /feed/
+Disallow: /feed.xml
+Disallow: /atom.xml
+Disallow: /search/
+Disallow: /search.json
+Disallow: /404.html
+Disallow: /offline.html
+
+# Disallow crawling of admin and development files
+Disallow: /admin/
+Disallow: /assets/js/
+Disallow: /assets/css/
+Disallow: /assets/fonts/
+Disallow: /*.md$
+Disallow: /*.json$
+Disallow: /*.yml$
+Disallow: /*.yaml$
+Disallow: /*.xml$
+Disallow: /*.txt$
+
+# Allow crawling of critical assets
+Allow: /assets/images/
+Allow: /manifest.json
+Allow: /browserconfig.xml
+Allow: /sitemap.xml
+Allow: /robots.txt
+
+# Crawl-delay for all bots
+Crawl-delay: 10
+
+# Additional rules for specific bots
+User-agent: Googlebot
+Crawl-delay: 1
+
+User-agent: Googlebot-Image
+Allow: /assets/images/
+
+User-agent: Bingbot
+Crawl-delay: 1
+
+User-agent: DuckDuckBot
+Crawl-delay: 1
+
+User-agent: Baiduspider
+Disallow: /
+
+User-agent: YandexBot
+Disallow: / 
