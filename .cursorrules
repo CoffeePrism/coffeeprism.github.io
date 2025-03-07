@@ -39,6 +39,19 @@ warning on save Gemfile if content matches /gem "jekyll"/ and not content matche
   description: "Direct Jekyll dependency can cause version conflicts with GitHub Pages"
 }
 
+# GitHub Actions Workflow Checks
+warning on save .github/workflows/*.yml if not content matches /permissions:/ {
+  message: "⚠️ Missing permissions in GitHub Actions workflow"
+  description: "GitHub Actions workflows need proper permissions to function correctly"
+  severity: high
+}
+
+warning on save .github/workflows/*.yml if content matches /uses: actions\/upload-pages-artifact/ and not content matches /uses: actions\/upload-artifact/ {
+  message: "⚠️ Missing upload-artifact dependency in GitHub Actions workflow"
+  description: "The upload-pages-artifact action requires the upload-artifact action as a dependency"
+  severity: high
+}
+
 # Jekyll Build Reminder
 reminder on save [_config.yml, **/_layouts/*, **/_includes/*] {
   message: "🔄 Remember to test your build locally with 'bundle exec jekyll build --trace'"

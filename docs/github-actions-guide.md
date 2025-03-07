@@ -13,6 +13,45 @@
 5. 上传构建产物
 6. 部署到 GitHub Pages
 
+## GitHub Actions 工作流配置要求
+
+为确保 GitHub Actions 工作流正常运行，必须满足以下要求：
+
+### 必要的权限设置
+
+```yaml
+permissions:
+  contents: write  # 允许工作流修改仓库内容
+  pages: write     # 允许工作流操作 GitHub Pages
+  id-token: write  # 允许工作流使用 OIDC 令牌
+```
+
+### 必要的环境配置
+
+```yaml
+environment:
+  name: github-pages
+  url: ${{ steps.deployment.outputs.page_url }}
+```
+
+### 动作依赖关系
+
+某些 GitHub Actions 动作依赖于其他动作。例如，`actions/upload-pages-artifact` 依赖于 `actions/upload-artifact`。确保包含所有必要的动作：
+
+```yaml
+- name: Upload artifact
+  uses: actions/upload-artifact@v3
+  with:
+    name: github-pages
+    path: ./_site
+    if-no-files-found: error
+
+- name: Upload Pages artifact
+  uses: actions/upload-pages-artifact@v2
+  with:
+    path: ./_site
+```
+
 ## 监控构建状态
 
 ### 查看构建结果
@@ -32,6 +71,23 @@
 失败的构建会显示红色叉号。点击失败的工作流运行记录可以查看详细信息和错误日志。
 
 ## 常见错误类型及解决方案
+
+### GitHub Actions 配置错误
+
+**示例错误信息：**
+```
+Error: Missing download info for actions/upload-artifact@v3
+```
+
+**可能原因：**
+- 缺少必要的动作依赖
+- 权限配置不正确
+- 环境配置缺失
+
+**解决方法：**
+1. 确保包含所有必要的动作和依赖
+2. 设置正确的权限（contents, pages, id-token）
+3. 配置适当的环境（github-pages）
 
 ### Liquid 模板错误
 
@@ -148,6 +204,8 @@ curl -H "Authorization: token YOUR_GITHUB_TOKEN" \
 - [ ] 文件路径错误
 - [ ] 权限问题
 - [ ] GitHub Pages 特定限制
+- [ ] GitHub Actions 工作流配置错误
+- [ ] 缺少必要的动作依赖
 
 ## 结论
 
