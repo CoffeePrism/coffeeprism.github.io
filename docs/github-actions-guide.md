@@ -4,11 +4,11 @@
 
 ## 构建流程概述
 
-我们的 GitHub Actions 工作流程在 `.github/workflows/jekyll-custom-build.yml` 中定义，主要执行以下步骤：
+我们的 GitHub Actions 工作流程在 `.github/workflows/jekyll-custom-build.yml` 中定义，使用标准的 GitHub Pages Jekyll 工作流，主要执行以下步骤：
 
 1. 检出代码
-2. 设置 Ruby 环境
-3. 配置 GitHub Pages
+2. 配置 GitHub Pages
+3. 设置 Ruby 环境
 4. 构建 Jekyll 站点
 5. 上传构建产物
 6. 部署到 GitHub Pages
@@ -36,7 +36,7 @@ concurrency:
 
 ### 工作流结构
 
-我们使用两个独立的任务来分离构建和部署步骤，这提高了工作流的稳定性：
+我们使用标准的 GitHub Pages Jekyll 工作流，它包含两个独立的任务来分离构建和部署步骤：
 
 ```yaml
 jobs:
@@ -46,13 +46,19 @@ jobs:
     steps:
       - name: Checkout
         uses: actions/checkout@v3
-      
-      # ... 其他构建步骤 ...
-      
+      - name: Setup Pages
+        uses: actions/configure-pages@v3
+      - name: Setup Ruby
+        uses: ruby/setup-ruby@v1
+        with:
+          ruby-version: '3.1'
+          bundler-cache: true
+      - name: Build with Jekyll
+        run: bundle exec jekyll build
+        env:
+          JEKYLL_ENV: production
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
-        with:
-          path: ./_site
 
   # 部署任务
   deploy:
@@ -61,16 +67,15 @@ jobs:
       url: ${{ steps.deployment.outputs.page_url }}
     runs-on: ubuntu-latest
     needs: build
-    if: github.ref == 'refs/heads/main'
     steps:
       - name: Deploy to GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v2
 ```
 
-> **重要注意事项**：我们发现使用单个任务来处理构建和部署在某些情况下可能会导致权限问题。推荐使用分离的构建和部署任务，并使用官方的 `actions/upload-pages-artifact` 和 `actions/deploy-pages` 动作。
+> **重要注意事项**：我们发现使用自定义工作流可能会导致各种问题。强烈建议使用 GitHub 提供的标准 Jekyll 工作流，它已经过充分测试并与 GitHub Pages 完全兼容。
 
-> **注意**：我们在 2023-03-07 解决了一个与 GitHub Actions 工作流相关的构建错误。如果您看到类似的错误，请确保您的工作流使用上述推荐的分离任务结构。
+> **注意**：我们在 2023-03-07 解决了一个与 GitHub Actions 工作流相关的构建错误。最终解决方案是采用标准的 GitHub Pages Jekyll 工作流，这是最可靠的方法。
 
 ## 监控构建状态
 

@@ -52,6 +52,12 @@ warning on save .github/workflows/*.yml if not content matches /concurrency:/ {
   severity: high
 }
 
+warning on save .github/workflows/*.yml if not content matches /name: Deploy Jekyll site to Pages/ {
+  message: "⚠️ Not using standard GitHub Pages workflow"
+  description: "For maximum compatibility, use the standard GitHub Pages Jekyll workflow"
+  severity: high
+}
+
 # Jekyll Build Reminder
 reminder on save [_config.yml, **/_layouts/*, **/_includes/*] {
   message: "🔄 Remember to test your build locally with 'bundle exec jekyll build --trace'"
