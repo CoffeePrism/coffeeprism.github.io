@@ -1,113 +1,63 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>文章列表 | Coffee Prism</title>
+  <meta name="description" content="Exploring the world of coffee through a prism of knowledge">
   
-  <title>文章列表 - Coffee Prism</title>
-  <meta name="description" content="探索咖啡的世界">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/themify-icons.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.ico">
+  
+  <!-- OpenGraph Tags -->
+  <meta property="og:title" content="文章列表">
+  <meta property="og:description" content="Exploring the world of coffee through a prism of knowledge">
+  <meta property="og:url" content="https://www.coffeeprism.com/blog/">
+  <meta property="og:site_name" content="Coffee Prism">
   
   
-  <script type="text/javascript">
-    var host = "www.coffeeprism.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-      window.location.protocol = "https";
-  </script>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="文章列表">
+  <meta name="twitter:description" content="Exploring the world of coffee through a prism of knowledge">
   
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-wrapper">
-      <div class="site-logo">
-        <a href="/">
-          <span class="logo-text">Coffee Prism</span>
-        </a>
-      </div>
-      
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <i class="fas fa-bars"></i>
-          </span>
-        </label>
-
-        <div class="trigger">
-          <a class="page-link" href="/">首页</a>
-          <a class="page-link" href="/categories/">分类</a>
-          <a class="page-link" href="/tags/">标签</a>
-          <a class="page-link" href="/search/">搜索</a>
-          <a class="page-link" href="/about/">关于我们</a>
-          <a class="page-link" href="/contact/">联系我们</a>
-          
-          
-
-
-<div class="language-switcher">
-  
-    
-      <span class="active-lang">中文</span>
-    
-  
-    
-      
-        
-        
-        
-          
-            <a href="/en/blog/" class="lang-link">English</a>
-          
-        
-      
-    
-  
-</div>
-
-<style>
-.language-switcher {
-  display: inline-flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.5rem;
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.language-switcher .active-lang {
-  font-weight: bold;
-  color: var(--primary-color, #007bff);
-}
-
-.language-switcher .lang-link {
-  color: #666;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.language-switcher .lang-link:hover {
-  color: var(--primary-color, #007bff);
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .language-switcher {
-    margin: 1rem 0;
-    justify-content: center;
-  }
-}
-</style> 
+  <header class="main_header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-2">
+          <div class="logo">
+            <a href="/">
+              <img src="/assets/img/logo.png" alt="Coffee Prism" class="img-fluid">
+            </a>
+          </div>
         </div>
-      </nav>
+        <div class="col-lg-10">
+          <div class="main_menu">
+            <nav>
+              <ul>
+                <li><a href="/"></a></li>
+                <li><a href="/blog"></a></li>
+                <li><a href="/categories"></a></li>
+                <li><a href="/tags"></a></li>
+                <li><a href="/about"></a></li>
+                <li><a href="/contact"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main class="page-content">
-    <div class="wrapper">
-      <div class="blog-list-container">
+  <main class="main_content">
+    <div class="blog-list-container">
   <header class="page-header">
     <h1 class="page-title">文章列表</h1>
     <p class="page-description">浏览所有最新文章和归档</p>
@@ -264,7 +214,7 @@
         <div class="blog-list-content">
           <header>
             <h2 class="blog-list-title">
-              <a href="/latte-art/latte-art-techniques/">拿铁艺术进阶技巧：从基础到专业</a>
+              <a href="/latte-art/latte-art-techniques/">Advanced Latte Art Techniques: From Basics to Professional</a>
             </h2>
             <div class="blog-list-meta">
               <time datetime="2023-03-05T00:00:00+00:00">2023-03-05</time>
@@ -282,12 +232,12 @@
           
           
           <div class="blog-list-image">
-            <img src="/assets/images/coffee-default.jpg" alt="拿铁艺术进阶技巧：从基础到专业">
+            <img src="/assets/images/coffee-default.jpg" alt="Advanced Latte Art Techniques: From Basics to Professional">
           </div>
           
           
           <div class="blog-list-excerpt">
-            本文详细介绍如何掌握复杂的拿铁艺术技巧，从基础花纹到高级3D设计，让你的咖啡更具艺术感。
+            This article details how to master complex latte art techniques, from basic patterns to advanced 3D designs, adding an artistic touch to your coffee.
           </div>
           
           <a href="/latte-art/latte-art-techniques/" class="read-more-link">阅读更多 &raquo;</a>
@@ -298,7 +248,7 @@
         <div class="blog-list-content">
           <header>
             <h2 class="blog-list-title">
-              <a href="/equipment/coffee-equipment-guide/">咖啡器具全指南：从入门到专业</a>
+              <a href="/equipment/coffee-equipment-guide/">Comprehensive Coffee Equipment Guide: From Beginners to Professionals</a>
             </h2>
             <div class="blog-list-meta">
               <time datetime="2023-03-04T00:00:00+00:00">2023-03-04</time>
@@ -316,12 +266,12 @@
           
           
           <div class="blog-list-image">
-            <img src="/assets/images/coffee-default.jpg" alt="咖啡器具全指南：从入门到专业">
+            <img src="/assets/images/coffee-default.jpg" alt="Comprehensive Coffee Equipment Guide: From Beginners to Professionals">
           </div>
           
           
           <div class="blog-list-excerpt">
-            全面介绍各种咖啡器具的优缺点及适用场景，帮助你选择最适合的咖啡装备。
+            A comprehensive introduction to the pros and cons of various coffee equipment and their suitable scenarios, helping you choose the most appropriate coffee gear.
           </div>
           
           <a href="/equipment/coffee-equipment-guide/" class="read-more-link">阅读更多 &raquo;</a>
@@ -332,7 +282,7 @@
         <div class="blog-list-content">
           <header>
             <h2 class="blog-list-title">
-              <a href="/latte-art/latte-art-basics/">拿铁艺术入门：基础图案教程</a>
+              <a href="/latte-art/latte-art-basics/">Latte Art Basics: Fundamental Pattern Tutorial</a>
             </h2>
             <div class="blog-list-meta">
               <time datetime="2023-03-03T00:00:00+00:00">2023-03-03</time>
@@ -350,12 +300,12 @@
           
           
           <div class="blog-list-image">
-            <img src="/assets/images/coffee-default.jpg" alt="拿铁艺术入门：基础图案教程">
+            <img src="/assets/images/coffee-default.jpg" alt="Latte Art Basics: Fundamental Pattern Tutorial">
           </div>
           
           
           <div class="blog-list-excerpt">
-            学习制作心形、叶形和圆点等基础拿铁艺术图案的技巧。
+            Learn techniques for creating basic latte art patterns such as hearts, leaves, and dots.
           </div>
           
           <a href="/latte-art/latte-art-basics/" class="read-more-link">阅读更多 &raquo;</a>
@@ -366,7 +316,7 @@
         <div class="blog-list-content">
           <header>
             <h2 class="blog-list-title">
-              <a href="/beans/coffee-beans-guide/">咖啡豆选购完全指南</a>
+              <a href="/beans/coffee-beans-guide/">Complete Guide to Selecting Coffee Beans</a>
             </h2>
             <div class="blog-list-meta">
               <time datetime="2023-03-02T00:00:00+00:00">2023-03-02</time>
@@ -384,12 +334,12 @@
           
           
           <div class="blog-list-image">
-            <img src="/assets/images/coffee-default.jpg" alt="咖啡豆选购完全指南">
+            <img src="/assets/images/coffee-default.jpg" alt="Complete Guide to Selecting Coffee Beans">
           </div>
           
           
           <div class="blog-list-excerpt">
-            如何选择最适合你口味的咖啡豆，从产地到烘焙度的详细解析。
+            How to choose coffee beans that suit your taste, with detailed analysis from origin to roast level.
           </div>
           
           <a href="/beans/coffee-beans-guide/" class="read-more-link">阅读更多 &raquo;</a>
@@ -400,7 +350,7 @@
         <div class="blog-list-content">
           <header>
             <h2 class="blog-list-title">
-              <a href="/brewing/espresso-brewing-guide/">完美Espresso冲泡指南</a>
+              <a href="/brewing/espresso-brewing-guide/">Perfect Espresso Brewing Guide</a>
             </h2>
             <div class="blog-list-meta">
               <time datetime="2023-03-01T00:00:00+00:00">2023-03-01</time>
@@ -418,12 +368,12 @@
           
           
           <div class="blog-list-image">
-            <img src="/assets/images/coffee-default.jpg" alt="完美Espresso冲泡指南">
+            <img src="/assets/images/coffee-default.jpg" alt="Perfect Espresso Brewing Guide">
           </div>
           
           
           <div class="blog-list-excerpt">
-            学习如何冲泡完美的Espresso，从研磨到萃取的每一个环节。
+            Learn how to brew the perfect Espresso, from grinding to extraction.
           </div>
           
           <a href="/brewing/espresso-brewing-guide/" class="read-more-link">阅读更多 &raquo;</a>
@@ -591,42 +541,55 @@
     }
   }
 </style> 
-    </div>
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <h2 class="footer-heading">Coffee Prism</h2>
-          <p>探索咖啡的世界</p>
+  <footer class="footer_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer_widget">
+            <h3></h3>
+            <p></p>
+          </div>
         </div>
-        
-        <div class="footer-col">
-          <h3>分类</h3>
-          <ul class="footer-links">
-            
-            
-              
-              <li><a href="/categories-relative-path-categories-coffee-knowledge-md">relative_path_categories/coffee-knowledge.md</a></li>
-            
-          </ul>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer_widget">
+            <h3></h3>
+            <ul class="footer_links">
+              <li><a href="/about"></a></li>
+              <li><a href="/blog"></a></li>
+              <li><a href="/categories"></a></li>
+              <li><a href="/tags"></a></li>
+              <li><a href="/contact"></a></li>
+            </ul>
+          </div>
         </div>
-        
-        <div class="footer-col">
-          <h3>关于我们</h3>
-          <ul class="footer-links">
-            <li><a href="/about/">关于我们</a></li>
-            <li><a href="/contact/">联系我们</a></li>
-            <li><a href="/privacy/">隐私政策</a></li>
-          </ul>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer_widget">
+            <h3></h3>
+            <p></p>
+            <div class="social_links">
+              <a href="#"><i class="ti-facebook"></i></a>
+              <a href="#"><i class="ti-twitter-alt"></i></a>
+              <a href="#"><i class="ti-instagram"></i></a>
+              <a href="#"><i class="ti-pinterest"></i></a>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="footer-bottom">
-        <p class="copyright">版权所有 © Coffee Prism &copy; 2025. 保留所有权利</p>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copyright_text">
+            <p>Copyright © 2025 Coffee Prism. All Rights Reserved.</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/jquery-3.6.0.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/custom.js"></script>
 </body>
 </html> 

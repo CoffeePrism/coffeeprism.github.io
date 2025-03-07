@@ -1,246 +1,209 @@
 <!DOCTYPE html>
-<html lang="zh">
+<html lang="en">
 <head>
-  <meta charset="utf-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Cursor Rules Guide | Coffee Prism</title>
+  <meta name="description" content="Exploring the world of coffee through a prism of knowledge">
   
-  <title>Cursor Rules Guide - Coffee Prism</title>
-  <meta name="description" content="探索咖啡的世界">
+  <!-- CSS -->
+  <link rel="stylesheet" href="/assets/css/bootstrap.min.css">
+  <link rel="stylesheet" href="/assets/css/themify-icons.css">
+  <link rel="stylesheet" href="/assets/css/style.css">
   
-  <link rel="stylesheet" href="/assets/css/main.css">
-  <link rel="stylesheet" href="/assets/css/styles.css">
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
+  <!-- Favicon -->
+  <link rel="icon" href="/assets/img/favicon.ico">
+  
+  <!-- OpenGraph Tags -->
+  <meta property="og:title" content="Cursor Rules Guide">
+  <meta property="og:description" content="Exploring the world of coffee through a prism of knowledge">
+  <meta property="og:url" content="https://www.coffeeprism.com/docs/cursor-rules-guide/">
+  <meta property="og:site_name" content="Coffee Prism">
   
   
-  <script type="text/javascript">
-    var host = "www.coffeeprism.com";
-    if ((host == window.location.host) && (window.location.protocol != "https:"))
-      window.location.protocol = "https";
-  </script>
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Cursor Rules Guide">
+  <meta name="twitter:description" content="Exploring the world of coffee through a prism of knowledge">
   
 </head>
 <body>
-  <header class="site-header">
-    <div class="header-wrapper">
-      <div class="site-logo">
-        <a href="/">
-          <span class="logo-text">Coffee Prism</span>
-        </a>
-      </div>
-      
-      <nav class="site-nav">
-        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
-        <label for="nav-trigger">
-          <span class="menu-icon">
-            <i class="fas fa-bars"></i>
-          </span>
-        </label>
-
-        <div class="trigger">
-          <a class="page-link" href="/">首页</a>
-          <a class="page-link" href="/categories/">分类</a>
-          <a class="page-link" href="/tags/">标签</a>
-          <a class="page-link" href="/search/">搜索</a>
-          <a class="page-link" href="/about/">关于我们</a>
-          <a class="page-link" href="/contact/">联系我们</a>
-          
-          
-
-
-<div class="language-switcher">
-  
-    
-      <span class="active-lang">中文</span>
-    
-  
-    
-      
-        
-        
-        
-          
-            <a href="/en/docs/cursor-rules-guide/" class="lang-link">English</a>
-          
-        
-      
-    
-  
-</div>
-
-<style>
-.language-switcher {
-  display: inline-flex;
-  align-items: center;
-  gap: 1rem;
-  padding: 0.5rem;
-  border-radius: 4px;
-  background: rgba(0, 0, 0, 0.05);
-}
-
-.language-switcher .active-lang {
-  font-weight: bold;
-  color: var(--primary-color, #007bff);
-}
-
-.language-switcher .lang-link {
-  color: #666;
-  text-decoration: none;
-  transition: color 0.2s;
-}
-
-.language-switcher .lang-link:hover {
-  color: var(--primary-color, #007bff);
-  text-decoration: underline;
-}
-
-@media (max-width: 768px) {
-  .language-switcher {
-    margin: 1rem 0;
-    justify-content: center;
-  }
-}
-</style> 
+  <header class="main_header">
+    <div class="container">
+      <div class="row align-items-center">
+        <div class="col-lg-2">
+          <div class="logo">
+            <a href="/">
+              <img src="/assets/img/logo.png" alt="Coffee Prism" class="img-fluid">
+            </a>
+          </div>
         </div>
-      </nav>
+        <div class="col-lg-10">
+          <div class="main_menu">
+            <nav>
+              <ul>
+                <li><a href="/"></a></li>
+                <li><a href="/blog"></a></li>
+                <li><a href="/categories"></a></li>
+                <li><a href="/tags"></a></li>
+                <li><a href="/about"></a></li>
+                <li><a href="/contact"></a></li>
+              </ul>
+            </nav>
+          </div>
+        </div>
+      </div>
     </div>
   </header>
 
-  <main class="page-content">
-    <div class="wrapper">
-      <h1 id="cursor-rules-guide">Cursor Rules Guide</h1>
+  <main class="main_content">
+    <h1 id="cursor-rules-guide">Cursor Rules Guide</h1>
 
-<p>本文档介绍了 Coffee Prism 项目中配置的 Cursor IDE 规则，这些规则旨在帮助开发者遵循最佳实践并避免常见错误。</p>
+<p>This document introduces the Cursor IDE rules configured for the Coffee Prism project, which are designed to help developers follow best practices and avoid common errors.</p>
 
-<h2 id="什么是-cursor-规则">什么是 Cursor 规则？</h2>
+<h2 id="what-are-cursor-rules">What Are Cursor Rules?</h2>
 
-<p>Cursor 规则是针对 <a href="https://cursor.sh/">Cursor IDE</a> 设置的提醒和警告，当满足特定条件时（例如保存文件或执行 Git 命令后）会触发。这些规则帮助团队成员遵循项目约定并避免常见错误。</p>
+<p>Cursor rules are reminders and warnings set for the <a href="https://cursor.sh/">Cursor IDE</a> that trigger when specific conditions are met (such as after saving files or executing Git commands). These rules help team members follow project conventions and avoid common mistakes.</p>
 
-<h2 id="规则概览">规则概览</h2>
+<h2 id="rules-overview">Rules Overview</h2>
 
-<p>我们的 Cursor 规则主要聚焦于以下几个方面：</p>
+<p>Our Cursor rules mainly focus on the following aspects:</p>
 
 <ol>
-  <li><strong>GitHub Actions 监控</strong> - 确保在推送更改后检查构建状态</li>
-  <li><strong>Jekyll 模板检查</strong> - 防止常见的 Liquid 模板错误</li>
-  <li><strong>YAML 格式验证</strong> - 确保前置配置格式正确</li>
-  <li><strong>依赖项验证</strong> - 防止使用 GitHub Pages 不支持的插件</li>
-  <li><strong>最佳实践提醒</strong> - 提供有关本地测试和文档更新的提示</li>
+  <li><strong>GitHub Actions Monitoring</strong> - Ensuring build status is checked after pushing changes</li>
+  <li><strong>Jekyll Template Checks</strong> - Preventing common Liquid template errors</li>
+  <li><strong>YAML Format Validation</strong> - Ensuring front matter is formatted correctly</li>
+  <li><strong>Dependency Validation</strong> - Preventing the use of plugins not supported by GitHub Pages</li>
+  <li><strong>Best Practice Reminders</strong> - Providing tips about local testing and documentation updates</li>
 </ol>
 
-<h2 id="主要规则详解">主要规则详解</h2>
+<h2 id="main-rules-explained">Main Rules Explained</h2>
 
-<h3 id="github-actions-监控提醒">GitHub Actions 监控提醒</h3>
+<h3 id="github-actions-monitoring-reminder">GitHub Actions Monitoring Reminder</h3>
+
+<p>This rule reminds you to check the build status after pushing changes:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reminder "GitHub Actions Verification" after git push {
-  message: "🔍 Remember to check GitHub Actions build status"
+  message: "🔍 Remember to check GitHub Actions build status at https://github.com/CoffeePrism/coffeeprism.github.io/actions"
+  description: "Always verify your build completed successfully after pushing changes"
   severity: warning
 }
 </code></pre></div></div>
 
-<p><strong>作用</strong>：每次推送代码后提醒你检查 GitHub Actions 构建状态。这是项目的重要规则，确保你会在每次推送后验证构建是否成功。</p>
+<h3 id="jekyll-template-checks">Jekyll Template Checks</h3>
 
-<h3 id="liquid-模板语法检查">Liquid 模板语法检查</h3>
+<p>These rules check for common template syntax issues:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning on save **/**.html if content matches /\{\{.*\|.*slugify.*\}\}/ {
   message: "⚠️ Slugify Filter Usage: Check that you're applying slugify to strings, not arrays"
+  description: "The slugify filter only works on strings. Arrays must be processed before slugifying."
 }
 </code></pre></div></div>
 
-<p><strong>作用</strong>：当你在 HTML 文件中使用 <code class="language-plaintext highlighter-rouge">slugify</code> 过滤器时，提醒你确保只对字符串使用该过滤器，而不是数组。这可以防止 <code class="language-plaintext highlighter-rouge">undefined method 'gsub' for Array</code> 错误。</p>
+<h3 id="yaml-front-matter-validation">YAML Front Matter Validation</h3>
 
-<h3 id="插件兼容性检查">插件兼容性检查</h3>
+<p>These rules ensure Jekyll front matter is correctly formatted:</p>
+
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning on save **/_posts/*.md if not content matches /^---\n.*layout:.*\n.*title:.*\n.*date:.*\n.*categories:.*\n/ {
+  message: "⚠️ Blog Post Front Matter: Missing required YAML front matter"
+  description: "Posts should include layout, title, date, and categories in front matter"
+}
+</code></pre></div></div>
+
+<h3 id="dependency-management-rules">Dependency Management Rules</h3>
+
+<p>These rules ensure GitHub Pages compatibility:</p>
 
 <div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning on save Gemfile if content matches /gem "jekyll-multiple-languages-plugin"/ {
   message: "⚠️ Unsupported Plugin: jekyll-multiple-languages-plugin is not supported by GitHub Pages"
+  description: "This plugin won't work on GitHub Pages. Consider using a supported alternative."
 }
 </code></pre></div></div>
 
-<p><strong>作用</strong>：防止添加 GitHub Pages 不支持的插件，这会导致远程构建失败。</p>
+<h3 id="github-actions-workflow-rules">GitHub Actions Workflow Rules</h3>
 
-<h3 id="本地测试提醒">本地测试提醒</h3>
+<p>These rules ensure the GitHub Actions workflow is properly configured:</p>
 
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>reminder on save [_config.yml, **/_layouts/*, **/_includes/*] {
-  message: "🔄 Remember to test your build locally with 'bundle exec jekyll build --trace'"
-  severity: info
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>warning on save .github/workflows/*.yml if not content matches /permissions:/ {
+  message: "⚠️ Missing permissions in GitHub Actions workflow"
+  description: "GitHub Actions workflows need proper permissions to function correctly"
+  severity: high
 }
 </code></pre></div></div>
 
-<p><strong>作用</strong>：当修改关键文件后，提醒你在本地测试构建，以便在推送前捕获错误。</p>
-
-<h2 id="如何获取规则提醒">如何获取规则提醒</h2>
-
-<p>使用 Cursor IDE 编辑项目代码时，规则会以通知的形式显示：</p>
-
-<ul>
-  <li><strong>警告</strong>（⚠️）- 表示潜在的问题，需要注意</li>
-  <li><strong>提醒</strong>（🔍）- 提示你执行某些操作</li>
-  <li><strong>信息</strong>（ℹ️）- 提供有用的上下文信息</li>
-</ul>
-
-<h2 id="自定义规则">自定义规则</h2>
-
-<p>如果你想添加或修改规则，可以编辑项目根目录中的 <code class="language-plaintext highlighter-rouge">.cursorrules</code> 文件。规则使用简单的声明式语法，格式为：</p>
-
-<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>[rule_type] [trigger] [condition] {
-  message: "显示的消息"
-  description: "更详细的描述"
-  severity: [info|warning|error]
-}
-</code></pre></div></div>
-
-<h2 id="推荐工作流程">推荐工作流程</h2>
-
-<p>使用这些规则的理想工作流程是：</p>
+<h2 id="how-to-use-cursor-rules">How to Use Cursor Rules</h2>
 
 <ol>
-  <li>进行代码修改</li>
-  <li>注意 Cursor 提供的实时警告和提示</li>
-  <li>在本地测试构建 (<code class="language-plaintext highlighter-rouge">bundle exec jekyll build --trace</code>)</li>
-  <li>提交并推送更改</li>
-  <li>根据推送后的提醒，检查 GitHub Actions 构建状态</li>
-  <li>如果构建失败，检查错误日志并修复问题</li>
+  <li><strong>During Development</strong>: The rules will automatically trigger when you save files or perform Git operations</li>
+  <li><strong>Addressing Warnings</strong>: Carefully read the warning messages and make necessary corrections</li>
+  <li><strong>Leveraging Reminders</strong>: Use the informational reminders to maintain good practices</li>
 </ol>
 
-<h2 id="结论">结论</h2>
+<h2 id="adding-new-rules">Adding New Rules</h2>
 
-<p>Cursor 规则是确保项目稳定性的辅助工具，它们与我们的 GitHub Actions 监控指南相辅相成。通过遵循这些规则和提示，你可以减少构建错误并提高开发效率。</p>
+<p>When adding new rules, follow these guidelines:</p>
 
-    </div>
+<ol>
+  <li>Make sure the rule addresses a real problem or best practice</li>
+  <li>Keep the message clear and concise</li>
+  <li>Include a detailed description that explains why the rule exists</li>
+  <li>Set appropriate severity level (info, warning, high)</li>
+  <li>Test the rule to ensure it triggers correctly</li>
+</ol>
+
+<h2 id="conclusion">Conclusion</h2>
+
+<p>Following these Cursor rules will help ensure consistent code quality and prevent common Jekyll site issues. The rules are designed to catch problems early, prompting you to fix them before they cause build failures.</p>
+
   </main>
 
-  <footer class="site-footer">
-    <div class="footer-wrapper">
-      <div class="footer-col-wrapper">
-        <div class="footer-col">
-          <h2 class="footer-heading">Coffee Prism</h2>
-          <p>探索咖啡的世界</p>
+  <footer class="footer_area">
+    <div class="container">
+      <div class="row">
+        <div class="col-lg-4 col-md-6">
+          <div class="footer_widget">
+            <h3></h3>
+            <p></p>
+          </div>
         </div>
-        
-        <div class="footer-col">
-          <h3>分类</h3>
-          <ul class="footer-links">
-            
-            
-              
-              <li><a href="/categories-relative-path-categories-coffee-knowledge-md">relative_path_categories/coffee-knowledge.md</a></li>
-            
-          </ul>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer_widget">
+            <h3></h3>
+            <ul class="footer_links">
+              <li><a href="/about"></a></li>
+              <li><a href="/blog"></a></li>
+              <li><a href="/categories"></a></li>
+              <li><a href="/tags"></a></li>
+              <li><a href="/contact"></a></li>
+            </ul>
+          </div>
         </div>
-        
-        <div class="footer-col">
-          <h3>关于我们</h3>
-          <ul class="footer-links">
-            <li><a href="/about/">关于我们</a></li>
-            <li><a href="/contact/">联系我们</a></li>
-            <li><a href="/privacy/">隐私政策</a></li>
-          </ul>
+        <div class="col-lg-4 col-md-6">
+          <div class="footer_widget">
+            <h3></h3>
+            <p></p>
+            <div class="social_links">
+              <a href="#"><i class="ti-facebook"></i></a>
+              <a href="#"><i class="ti-twitter-alt"></i></a>
+              <a href="#"><i class="ti-instagram"></i></a>
+              <a href="#"><i class="ti-pinterest"></i></a>
+            </div>
+          </div>
         </div>
       </div>
-      
-      <div class="footer-bottom">
-        <p class="copyright">版权所有 © Coffee Prism &copy; 2025. 保留所有权利</p>
+      <div class="row">
+        <div class="col-lg-12">
+          <div class="copyright_text">
+            <p>Copyright © 2025 Coffee Prism. All Rights Reserved.</p>
+          </div>
+        </div>
       </div>
     </div>
   </footer>
+
+  <!-- Scripts -->
+  <script src="/assets/js/jquery-3.6.0.min.js"></script>
+  <script src="/assets/js/bootstrap.bundle.min.js"></script>
+  <script src="/assets/js/custom.js"></script>
 </body>
 </html> 

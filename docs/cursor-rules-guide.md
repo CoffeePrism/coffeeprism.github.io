@@ -1,96 +1,96 @@
 # Cursor Rules Guide
 
-本文档介绍了 Coffee Prism 项目中配置的 Cursor IDE 规则，这些规则旨在帮助开发者遵循最佳实践并避免常见错误。
+This document introduces the Cursor IDE rules configured for the Coffee Prism project, which are designed to help developers follow best practices and avoid common errors.
 
-## 什么是 Cursor 规则？
+## What Are Cursor Rules?
 
-Cursor 规则是针对 [Cursor IDE](https://cursor.sh/) 设置的提醒和警告，当满足特定条件时（例如保存文件或执行 Git 命令后）会触发。这些规则帮助团队成员遵循项目约定并避免常见错误。
+Cursor rules are reminders and warnings set for the [Cursor IDE](https://cursor.sh/) that trigger when specific conditions are met (such as after saving files or executing Git commands). These rules help team members follow project conventions and avoid common mistakes.
 
-## 规则概览
+## Rules Overview
 
-我们的 Cursor 规则主要聚焦于以下几个方面：
+Our Cursor rules mainly focus on the following aspects:
 
-1. **GitHub Actions 监控** - 确保在推送更改后检查构建状态
-2. **Jekyll 模板检查** - 防止常见的 Liquid 模板错误
-3. **YAML 格式验证** - 确保前置配置格式正确
-4. **依赖项验证** - 防止使用 GitHub Pages 不支持的插件
-5. **最佳实践提醒** - 提供有关本地测试和文档更新的提示
+1. **GitHub Actions Monitoring** - Ensuring build status is checked after pushing changes
+2. **Jekyll Template Checks** - Preventing common Liquid template errors
+3. **YAML Format Validation** - Ensuring front matter is formatted correctly
+4. **Dependency Validation** - Preventing the use of plugins not supported by GitHub Pages
+5. **Best Practice Reminders** - Providing tips about local testing and documentation updates
 
-## 主要规则详解
+## Main Rules Explained
 
-### GitHub Actions 监控提醒
+### GitHub Actions Monitoring Reminder
+
+This rule reminds you to check the build status after pushing changes:
 
 ```
 reminder "GitHub Actions Verification" after git push {
-  message: "🔍 Remember to check GitHub Actions build status"
+  message: "🔍 Remember to check GitHub Actions build status at https://github.com/CoffeePrism/coffeeprism.github.io/actions"
+  description: "Always verify your build completed successfully after pushing changes"
   severity: warning
 }
 ```
 
-**作用**：每次推送代码后提醒你检查 GitHub Actions 构建状态。这是项目的重要规则，确保你会在每次推送后验证构建是否成功。
+### Jekyll Template Checks
 
-### Liquid 模板语法检查
+These rules check for common template syntax issues:
 
 ```
 warning on save **/**.html if content matches /\{\{.*\|.*slugify.*\}\}/ {
   message: "⚠️ Slugify Filter Usage: Check that you're applying slugify to strings, not arrays"
+  description: "The slugify filter only works on strings. Arrays must be processed before slugifying."
 }
 ```
 
-**作用**：当你在 HTML 文件中使用 `slugify` 过滤器时，提醒你确保只对字符串使用该过滤器，而不是数组。这可以防止 `undefined method 'gsub' for Array` 错误。
+### YAML Front Matter Validation
 
-### 插件兼容性检查
+These rules ensure Jekyll front matter is correctly formatted:
+
+```
+warning on save **/_posts/*.md if not content matches /^---\n.*layout:.*\n.*title:.*\n.*date:.*\n.*categories:.*\n/ {
+  message: "⚠️ Blog Post Front Matter: Missing required YAML front matter"
+  description: "Posts should include layout, title, date, and categories in front matter"
+}
+```
+
+### Dependency Management Rules
+
+These rules ensure GitHub Pages compatibility:
 
 ```
 warning on save Gemfile if content matches /gem "jekyll-multiple-languages-plugin"/ {
   message: "⚠️ Unsupported Plugin: jekyll-multiple-languages-plugin is not supported by GitHub Pages"
+  description: "This plugin won't work on GitHub Pages. Consider using a supported alternative."
 }
 ```
 
-**作用**：防止添加 GitHub Pages 不支持的插件，这会导致远程构建失败。
+### GitHub Actions Workflow Rules
 
-### 本地测试提醒
+These rules ensure the GitHub Actions workflow is properly configured:
 
 ```
-reminder on save [_config.yml, **/_layouts/*, **/_includes/*] {
-  message: "🔄 Remember to test your build locally with 'bundle exec jekyll build --trace'"
-  severity: info
+warning on save .github/workflows/*.yml if not content matches /permissions:/ {
+  message: "⚠️ Missing permissions in GitHub Actions workflow"
+  description: "GitHub Actions workflows need proper permissions to function correctly"
+  severity: high
 }
 ```
 
-**作用**：当修改关键文件后，提醒你在本地测试构建，以便在推送前捕获错误。
+## How to Use Cursor Rules
 
-## 如何获取规则提醒
+1. **During Development**: The rules will automatically trigger when you save files or perform Git operations
+2. **Addressing Warnings**: Carefully read the warning messages and make necessary corrections
+3. **Leveraging Reminders**: Use the informational reminders to maintain good practices
 
-使用 Cursor IDE 编辑项目代码时，规则会以通知的形式显示：
+## Adding New Rules
 
-- **警告**（⚠️）- 表示潜在的问题，需要注意
-- **提醒**（🔍）- 提示你执行某些操作
-- **信息**（ℹ️）- 提供有用的上下文信息
+When adding new rules, follow these guidelines:
 
-## 自定义规则
+1. Make sure the rule addresses a real problem or best practice
+2. Keep the message clear and concise
+3. Include a detailed description that explains why the rule exists
+4. Set appropriate severity level (info, warning, high)
+5. Test the rule to ensure it triggers correctly
 
-如果你想添加或修改规则，可以编辑项目根目录中的 `.cursorrules` 文件。规则使用简单的声明式语法，格式为：
+## Conclusion
 
-```
-[rule_type] [trigger] [condition] {
-  message: "显示的消息"
-  description: "更详细的描述"
-  severity: [info|warning|error]
-}
-```
-
-## 推荐工作流程
-
-使用这些规则的理想工作流程是：
-
-1. 进行代码修改
-2. 注意 Cursor 提供的实时警告和提示
-3. 在本地测试构建 (`bundle exec jekyll build --trace`)
-4. 提交并推送更改
-5. 根据推送后的提醒，检查 GitHub Actions 构建状态
-6. 如果构建失败，检查错误日志并修复问题
-
-## 结论
-
-Cursor 规则是确保项目稳定性的辅助工具，它们与我们的 GitHub Actions 监控指南相辅相成。通过遵循这些规则和提示，你可以减少构建错误并提高开发效率。 
+Following these Cursor rules will help ensure consistent code quality and prevent common Jekyll site issues. The rules are designed to catch problems early, prompting you to fix them before they cause build failures. 

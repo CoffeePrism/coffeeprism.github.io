@@ -1,32 +1,32 @@
-# GitHub Actions 构建指南
+# GitHub Actions Guide
 
-本文档提供了详细的 GitHub Actions 工作流程指南，包括如何监控构建、排查常见问题以及修复构建错误。
+This document provides a detailed guide for the GitHub Actions workflow, including how to monitor builds, troubleshoot common issues, and fix build errors.
 
-## 构建流程概述
+## Build Process Overview
 
-我们的 GitHub Actions 工作流程在 `.github/workflows/jekyll-custom-build.yml` 中定义，使用标准的 GitHub Pages Jekyll 工作流，主要执行以下步骤：
+Our GitHub Actions workflow in `.github/workflows/jekyll-custom-build.yml` uses the standard GitHub Pages Jekyll workflow, which performs the following steps:
 
-1. 检出代码
-2. 配置 GitHub Pages
-3. 设置 Ruby 环境
-4. 构建 Jekyll 站点
-5. 上传构建产物
-6. 部署到 GitHub Pages
+1. Checkout code
+2. Setup GitHub Pages
+3. Setup Ruby environment
+4. Build Jekyll site
+5. Upload build artifacts
+6. Deploy to GitHub Pages
 
-## GitHub Actions 工作流配置要求
+## GitHub Actions Workflow Requirements
 
-为确保 GitHub Actions 工作流正常运行，必须满足以下要求：
+To ensure GitHub Actions workflows run properly, the following requirements must be met:
 
-### 必要的权限设置
+### Required Permissions
 
 ```yaml
 permissions:
-  contents: read  # 允许工作流读取仓库内容
-  pages: write    # 允许工作流操作 GitHub Pages
-  id-token: write # 允许工作流使用 OIDC 令牌
+  contents: read  # Allow the workflow to read repository contents
+  pages: write    # Allow the workflow to operate GitHub Pages
+  id-token: write # Allow the workflow to use OIDC tokens
 ```
 
-### 并发控制设置
+### Concurrency Settings
 
 ```yaml
 concurrency:
@@ -34,13 +34,13 @@ concurrency:
   cancel-in-progress: false
 ```
 
-### 工作流结构
+### Workflow Structure
 
-我们使用标准的 GitHub Pages Jekyll 工作流，它包含两个独立的任务来分离构建和部署步骤：
+We use the standard GitHub Pages Jekyll workflow, which contains two separate jobs for building and deployment:
 
 ```yaml
 jobs:
-  # 构建任务
+  # Build job
   build:
     runs-on: ubuntu-latest
     steps:
@@ -60,7 +60,7 @@ jobs:
       - name: Upload artifact
         uses: actions/upload-pages-artifact@v1
 
-  # 部署任务
+  # Deployment job
   deploy:
     environment:
       name: github-pages
@@ -73,165 +73,165 @@ jobs:
         uses: actions/deploy-pages@v2
 ```
 
-> **重要注意事项**：我们发现使用自定义工作流可能会导致各种问题。强烈建议使用 GitHub 提供的标准 Jekyll 工作流，它已经过充分测试并与 GitHub Pages 完全兼容。
+> **Important Note**: We found that using custom workflows could lead to various issues. It is strongly recommended to use the standard Jekyll workflow provided by GitHub, which has been thoroughly tested and is fully compatible with GitHub Pages.
 
-> **注意**：我们在 2023-03-07 解决了一个与 GitHub Actions 工作流相关的构建错误。最终解决方案是采用标准的 GitHub Pages Jekyll 工作流，这是最可靠的方法。
+> **Note**: On 2023-03-07, we resolved a build error related to GitHub Actions workflow. The final solution was to adopt the standard GitHub Pages Jekyll workflow, which is the most reliable method.
 
-## 监控构建状态
+## Monitoring Build Status
 
-### 查看构建结果
+### Viewing Build Results
 
-每次推送代码到 `main` 分支后，都会触发自动构建。要查看构建状态：
+Each time you push code to the `main` branch, an automatic build is triggered. To view the build status:
 
-1. 前往 [GitHub Actions 页面](https://github.com/CoffeePrism/coffeeprism.github.io/actions)
-2. 找到最近的工作流运行记录
-3. 查看其状态（成功、失败、进行中）
+1. Go to the [GitHub Actions page](https://github.com/CoffeePrism/coffeeprism.github.io/actions)
+2. Find the most recent workflow run
+3. Check its status (success, failure, in progress)
 
-### 成功的构建
+### Successful Builds
 
-成功的构建会显示绿色对勾标记。此时，您的更改应已成功部署到 GitHub Pages 上。请访问 [www.coffeeprism.com](https://www.coffeeprism.com) 验证更改是否正确显示。
+A successful build displays a green checkmark. Your changes should now be successfully deployed to GitHub Pages. Please visit [www.coffeeprism.com](https://www.coffeeprism.com) to verify that the changes are displaying correctly.
 
-### 失败的构建
+### Failed Builds
 
-失败的构建会显示红色叉号。点击失败的工作流运行记录可以查看详细信息和错误日志。
+A failed build displays a red X. Click on the failed workflow run to view detailed information and error logs.
 
-## 常见错误类型及解决方案
+## Common Error Types and Solutions
 
-### GitHub Actions 配置错误
+### GitHub Actions Configuration Errors
 
-**示例错误信息：**
+**Example Error Message:**
 ```
 Error: Missing download info for actions/upload-artifact@v3
 ```
 
-**可能原因：**
-- 缺少必要的动作依赖
-- 权限配置不正确
-- 环境配置缺失
+**Possible Causes:**
+- Missing necessary action dependencies
+- Incorrect permission configuration
+- Missing environment configuration
 
-**解决方法：**
-1. 确保包含所有必要的动作和依赖
-2. 设置正确的权限（contents, pages, id-token）
-3. 配置适当的环境（github-pages）
+**Solutions:**
+1. Ensure all necessary actions and dependencies are included
+2. Set correct permissions (contents, pages, id-token)
+3. Configure appropriate environment (github-pages)
 
-### Liquid 模板错误
+### Liquid Template Errors
 
-**示例错误信息：**
+**Example Error Message:**
 ```
 Liquid Exception: undefined method 'gsub' for #<Array:0x000000012fab4ed0> in index.html
 ```
 
-**可能原因：** 
-- 尝试对数组使用字符串方法
-- 使用了未定义的变量
-- 使用了不正确的过滤器
+**Possible Causes:** 
+- Attempting to use string methods on arrays
+- Using undefined variables
+- Using incorrect filters
 
-**解决方法：**
-1. 检查相关文件中的 Liquid 语法
-2. 确保 `slugify` 等过滤器只用于字符串
-3. 修改类似于 `{% assign category_slug = category_item | slugify %}` 的代码，确保被过滤的对象是字符串
+**Solutions:**
+1. Check Liquid syntax in relevant files
+2. Ensure filters like `slugify` are only used on strings
+3. Modify code such as `{% assign category_slug = category_item | slugify %}` to ensure the filtered object is a string
 
-### YAML 前置配置错误
+### YAML Front Matter Errors
 
-**示例错误信息：**
+**Example Error Message:**
 ```
 YAML Exception: mapping values are not allowed in this context at line 3 column 4
 ```
 
-**可能原因：**
-- YAML 格式错误
-- 缩进不一致
-- 特殊字符未正确处理
+**Possible Causes:**
+- YAML format errors
+- Inconsistent indentation
+- Special characters not properly handled
 
-**解决方法：**
-1. 检查 YAML 文件（如 `_config.yml`）或博客文章的前置配置
-2. 确保所有键值对格式正确
-3. 使用引号包裹包含特殊字符的值
+**Solutions:**
+1. Check YAML files (such as `_config.yml`) or blog post front matter
+2. Ensure all key-value pairs are formatted correctly
+3. Use quotes to wrap values containing special characters
 
-### 插件兼容性问题
+### Plugin Compatibility Issues
 
-**示例错误信息：**
+**Example Error Message:**
 ```
 Bundler could not find compatible versions for gem "jekyll"
 ```
 
-**可能原因：**
-- 使用了 GitHub Pages 不支持的插件
-- 插件版本冲突
-- Gemfile 配置不正确
+**Possible Causes:**
+- Using plugins not supported by GitHub Pages
+- Plugin version conflicts
+- Incorrect Gemfile configuration
 
-**解决方法：**
-1. 检查 [GitHub Pages 支持的依赖版本](https://pages.github.com/versions/)
-2. 移除不支持的插件
-3. 更新 Gemfile 使用 `github-pages` gem 而非直接指定 Jekyll
+**Solutions:**
+1. Check [GitHub Pages supported dependency versions](https://pages.github.com/versions/)
+2. Remove unsupported plugins
+3. Update Gemfile to use `github-pages` gem rather than directly specifying Jekyll
 
-### 文件路径问题
+### File Path Issues
 
-**示例错误信息：**
+**Example Error Message:**
 ```
 Error: could not read file /github/workspace/assets/css/main.css: no such file or directory
 ```
 
-**可能原因：**
-- 引用了不存在的文件
-- 路径大小写错误
-- 使用了绝对路径而非相对路径
+**Possible Causes:**
+- Referencing non-existent files
+- Case sensitivity errors in paths
+- Using absolute paths instead of relative paths
 
-**解决方法：**
-1. 检查文件路径是否正确
-2. 确保使用相对路径（如 `{{ '/assets/css/main.css' | relative_url }}`）
-3. 验证所有引用的文件确实存在
+**Solutions:**
+1. Check if file paths are correct
+2. Ensure you use relative paths (like `{{ '/assets/css/main.css' | relative_url }}`)
+3. Verify all referenced files exist
 
-## 本地测试技巧
+## Local Testing Tips
 
-在推送到 GitHub 前，建议执行以下本地测试：
+Before pushing to GitHub, it's recommended to run the following local tests:
 
 ```bash
-# 安装依赖
+# Install dependencies
 bundle install
 
-# 构建站点
+# Build the site
 bundle exec jekyll build --trace
 
-# 如果希望在本地预览
+# For local preview
 bundle exec jekyll serve
 ```
 
-如果本地构建成功，通常远程构建也会成功，但由于环境差异仍可能出现问题。
+If the local build succeeds, the remote build usually will too, but differences in environments may still cause issues.
 
-## 高级错误排查
+## Advanced Error Troubleshooting
 
-### 查看详细构建日志
+### Viewing Detailed Build Logs
 
-点击失败的工作流程，展开包含错误的步骤，查看完整日志输出。
+Click on the failed workflow, expand the step containing the error, and view the complete log output.
 
-### 查看原始日志文件
+### Viewing Raw Log Files
 
-有时界面上的日志可能截断。点击右上角的"Download logs"下载完整日志文件进行分析。
+Sometimes logs on the interface may be truncated. Click the "Download logs" button in the top right corner to download the complete log file for analysis.
 
-### 使用 GitHub API 获取日志
+### Using GitHub API to Get Logs
 
-可以使用 GitHub API 获取详细日志：
+You can use the GitHub API to get detailed logs:
 
 ```bash
 curl -H "Authorization: token YOUR_GITHUB_TOKEN" \
   https://api.github.com/repos/CoffeePrism/coffeeprism.github.io/actions/runs/RUN_ID/logs
 ```
 
-## 构建错误核对清单
+## Build Error Checklist
 
-在排查构建错误时，请检查以下常见问题：
+When troubleshooting build errors, check the following common issues:
 
-- [ ] Liquid 模板语法错误
-- [ ] 未定义变量或错误的变量类型
-- [ ] YAML 前置配置格式问题
-- [ ] 不支持的插件或依赖
-- [ ] 文件路径错误
-- [ ] 权限问题
-- [ ] GitHub Pages 特定限制
-- [ ] GitHub Actions 工作流配置错误
-- [ ] 缺少必要的动作依赖
+- [ ] Liquid template syntax errors
+- [ ] Undefined variables or incorrect variable types
+- [ ] YAML front matter formatting issues
+- [ ] Unsupported plugins or dependencies
+- [ ] File path errors
+- [ ] Permission issues
+- [ ] GitHub Pages specific limitations
+- [ ] GitHub Actions workflow configuration errors
+- [ ] Missing necessary action dependencies
 
-## 结论
+## Conclusion
 
-遵循"检查构建状态→识别错误→修复问题→验证解决方案"的工作流程，可以确保网站始终保持正常构建和部署。养成每次推送后检查构建状态的习惯，将大大减少网站出现问题的可能性。 
+Following the "check build status → identify errors → fix issues → verify solution" workflow ensures your website always builds and deploys correctly. Creating a habit of checking build status after each push will greatly reduce the likelihood of issues with your website. 
