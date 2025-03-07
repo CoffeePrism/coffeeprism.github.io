@@ -1,0 +1,90 @@
+# Cursor Rules for Coffee Prism
+# These rules provide guidance for working with this Jekyll site codebase
+
+# GitHub Actions Monitoring
+reminder "GitHub Actions Verification" after git push {
+  message: "🔍 Remember to check GitHub Actions build status at https://github.com/CoffeePrism/coffeeprism.github.io/actions"
+  description: "Always verify your build completed successfully after pushing changes"
+  severity: warning
+}
+
+# Jekyll Template Checks
+warning on save **/**.html if content matches /\{\{.*\|.*slugify.*\}\}/ {
+  message: "⚠️ Slugify Filter Usage: Check that you're applying slugify to strings, not arrays"
+  description: "The slugify filter only works on strings. Arrays must be processed before slugifying."
+  documentation: "docs/github-actions-guide.md#liquid-模板错误"
+}
+
+warning on save **/_posts/*.md if not content matches /^---\n.*layout:.*\n.*title:.*\n.*date:.*\n.*categories:.*\n/ {
+  message: "⚠️ Blog Post Front Matter: Missing required YAML front matter"
+  description: "Posts should include layout, title, date, and categories in front matter"
+  documentation: "README.md#添加博客文章"
+}
+
+# Liquid Syntax Checks
+warning on save **/*.html if content matches /\{\{.*site\.categories\[\d+\].*\}\}/ {
+  message: "⚠️ Incorrect site.categories access: Use named access instead of numeric indices"
+  description: "site.categories is a hash, not an array. Access by category name."
+}
+
+# Dependency Warnings
+warning on save Gemfile if content matches /gem "jekyll-multiple-languages-plugin"/ {
+  message: "⚠️ Unsupported Plugin: jekyll-multiple-languages-plugin is not supported by GitHub Pages"
+  description: "This plugin won't work on GitHub Pages. Consider using a supported alternative."
+  documentation: "docs/github-actions-guide.md#插件兼容性问题"
+}
+
+warning on save Gemfile if content matches /gem "jekyll"/ and not content matches /gem "github-pages"/ {
+  message: "⚠️ Missing github-pages gem: For GitHub Pages compatibility, use github-pages gem"
+  description: "Direct Jekyll dependency can cause version conflicts with GitHub Pages"
+}
+
+# Jekyll Build Reminder
+reminder on save [_config.yml, **/_layouts/*, **/_includes/*] {
+  message: "🔄 Remember to test your build locally with 'bundle exec jekyll build --trace'"
+  description: "Local testing can catch errors before you push to GitHub"
+  severity: info
+}
+
+# Image Path Checks
+warning on save **/*.md if content matches /\!\[.*\]\((?!\/|https?:\/\/).*\)/ {
+  message: "⚠️ Image path format: Use relative paths starting with / or absolute URLs"
+  description: "Image paths should use site-root relative paths (starting with /) or absolute URLs"
+}
+
+# YAML Syntax Check
+warning on save **/*.yml if content matches /:[^\s]/ {
+  message: "⚠️ YAML syntax: Add space after colon in key-value pairs"
+  description: "YAML requires a space after the colon in key-value pairs"
+}
+
+# Specific GitHub Actions workflow file changes
+warning on save .github/workflows/*.yml {
+  message: "⚠️ Workflow file modified: Test locally before pushing"
+  description: "Changes to GitHub Actions workflows should be tested carefully"
+  severity: high
+}
+
+# Helpful reminders
+info on open {
+  message: "Coffee Prism Development Guidelines"
+  description: "- Check GitHub Actions after pushing changes\n- Test Jekyll builds locally\n- Follow YAML front matter conventions\n- Use supported plugins only"
+}
+
+# Jekyll _config.yml validation
+warning on save _config.yml if content matches /^(?!#).*jekyll-multiple-languages-plugin/ {
+  message: "⚠️ Unsupported plugin in _config.yml"
+  description: "GitHub Pages doesn't support jekyll-multiple-languages-plugin"
+}
+
+# Reminder to update documentation
+reminder on save {
+  conditions: [
+    file matches ".github/workflows/*.yml",
+    file matches "Gemfile",
+    file matches "_config.yml"
+  ]
+  message: "📝 Remember to update documentation if you've changed build configurations"
+  description: "If you modified build settings, update docs/github-actions-guide.md accordingly"
+  severity: info
+} 
