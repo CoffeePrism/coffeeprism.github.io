@@ -40,7 +40,7 @@ environment:
 
 ```yaml
 - name: Upload artifact
-  uses: actions/upload-artifact@v3
+  uses: actions/upload-artifact@v2
   with:
     name: github-pages
     path: ./_site
@@ -52,7 +52,9 @@ environment:
     path: ./_site
 ```
 
-> **注意**：我们在 2023-03-07 解决了一个与 `actions/upload-artifact@v3` 相关的构建错误。如果您看到类似的错误，请确保您的工作流包含上述所有必要的配置和依赖。
+> **重要注意事项**：我们发现 `actions/upload-artifact@v3` 在某些 GitHub Actions 运行环境中可能不可用或不稳定。强烈建议使用 `actions/upload-artifact@v2`，该版本更稳定且与 GitHub Pages 部署流程兼容性更好。
+
+> **注意**：我们在 2023-03-07 解决了一个与 `actions/upload-artifact` 相关的构建错误。如果您看到类似的错误，请确保您的工作流包含上述所有必要的配置和依赖，并使用 v2 版本而非 v3。
 
 ## 监控构建状态
 
