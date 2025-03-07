@@ -1,60 +1,61 @@
 ---
 layout: post
-title: "咖啡豆选购完全指南"
+title: "Complete Guide to Selecting Coffee Beans"
 date: 2023-03-02
 categories: [beans]
 tags: [coffee-knowledge, guides]
-excerpt: "如何选择最适合你口味的咖啡豆，从产地到烘焙度的详细解析。"
+excerpt: "How to choose coffee beans that suit your taste, with detailed analysis from origin to roast level."
+lang: en
 ---
 
-# 咖啡豆选购完全指南
+# Complete Guide to Selecting Coffee Beans
 
-选择合适的咖啡豆是享受美好咖啡体验的第一步。本指南将帮助你了解如何选择最适合你口味的咖啡豆。
+Choosing the right coffee beans is the first step to enjoying a wonderful coffee experience. This guide will help you understand how to select coffee beans that best suit your taste.
 
-## 咖啡豆产地
+## Coffee Bean Origins
 
-不同产地的咖啡豆有着迥异的风味特点：
+Coffee beans from different origins have distinctly different flavor profiles:
 
-### 非洲咖啡
-- **埃塞俄比亚**：被誉为咖啡的发源地，风味复杂，通常带有花香、果香和柑橘调性。
-- **肯尼亚**：酸度明亮，带有浆果和柑橘风味，层次感丰富。
-- **卢旺达**：平衡而细腻，有着柔和的水果香和焦糖甜感。
+### African Coffee
+- **Ethiopia**: Known as the birthplace of coffee, complex flavors, usually with floral, fruity, and citrus notes.
+- **Kenya**: Bright acidity, with berry and citrus flavors, rich in complexity.
+- **Rwanda**: Balanced and delicate, with gentle fruit flavors and caramel sweetness.
 
-### 中南美洲咖啡
-- **哥伦比亚**：平衡的酸度与甜度，有巧克力、坚果和焦糖的风味。
-- **危地马拉**：常有巧克力、坚果香气，同时带有柔和的水果酸。
-- **巴西**：低酸度，醇厚的口感，带有巧克力和坚果风味。
+### Central and South American Coffee
+- **Colombia**: Balanced acidity and sweetness, with chocolate, nut, and caramel flavors.
+- **Guatemala**: Often with chocolate and nut aromas, along with gentle fruit acidity.
+- **Brazil**: Low acidity, full-bodied taste, with chocolate and nut flavors.
 
-### 亚洲咖啡
-- **印尼**：如苏门答腊咖啡，低酸度，醇厚的口感，带有草本和土壤风味。
-- **越南**：强烈的风味，适合制作浓郁风格的咖啡。
+### Asian Coffee
+- **Indonesia**: Such as Sumatra coffee, low acidity, full-bodied taste, with herbal and earth flavors.
+- **Vietnam**: Strong flavors, suitable for making robust style coffee.
 
-## 咖啡豆处理法
+## Coffee Processing Methods
 
-不同的处理方法影响咖啡的风味特性：
-- **日晒处理**：整颗咖啡果实直接晒干，风味浓郁，果香明显。
-- **水洗处理**：去除果肉后用水清洗咖啡豆，风味更加干净明亮。
-- **蜜处理**：部分果肉保留在豆子上晒干，兼具日晒和水洗的特点。
+Different processing methods affect the flavor characteristics of coffee:
+- **Natural Processing**: The entire coffee cherry is dried directly, resulting in rich flavors and pronounced fruit notes.
+- **Washed Processing**: The fruit flesh is removed and the beans are washed with water, resulting in cleaner and brighter flavors.
+- **Honey Processing**: Some fruit flesh is left on the beans during drying, combining characteristics of both natural and washed processing.
 
-## 烘焙度选择
+## Roast Level Selection
 
-烘焙度影响咖啡的口感和风味：
-- **浅烘焙**：保留咖啡原有的风味特性，酸度明显，风味复杂。
-- **中度烘焙**：平衡的风味，中等酸度，香气更加丰富。
-- **深度烘焙**：低酸度，醇厚的口感，常有烘烤和巧克力风味。
+Roast level affects the taste and flavor of coffee:
+- **Light Roast**: Preserves the original flavor characteristics of the coffee, pronounced acidity, complex flavors.
+- **Medium Roast**: Balanced flavors, medium acidity, richer aroma.
+- **Dark Roast**: Low acidity, full-bodied taste, often with roasted and chocolate flavors.
 
-## 新鲜程度
+## Freshness
 
-咖啡豆在烘焙后会逐渐释放二氧化碳并氧化。最佳饮用时间通常是：
-- 烘焙后3-14天：最佳风味窗口期
-- 超过1个月：风味开始明显下降
+Coffee beans gradually release carbon dioxide and oxidize after roasting. The best time to drink is usually:
+- 3-14 days after roasting: Best flavor window
+- More than 1 month: Flavor starts to decline significantly
 
-## 选择适合的研磨度
+## Choosing the Right Grind Size
 
-根据你的冲泡方法选择合适的研磨度：
-- **粗研磨**：法压壶、冷萃
-- **中等研磨**：滴滤、手冲
-- **细研磨**：摩卡壶
-- **极细研磨**：Espresso
+Choose the appropriate grind size based on your brewing method:
+- **Coarse Grind**: French press, cold brew
+- **Medium Grind**: Drip, pour-over
+- **Fine Grind**: Moka pot
+- **Extra Fine Grind**: Espresso
 
-选择适合自己口味的咖啡豆需要不断尝试和探索。希望本指南能帮助你找到最适合你的咖啡豆！ 
+Finding coffee beans that suit your taste requires continuous experimentation and exploration. We hope this guide helps you find the coffee beans that are best for you! 

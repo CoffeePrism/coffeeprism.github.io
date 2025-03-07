@@ -1,51 +1,52 @@
 ---
 layout: post
-title: "完美Espresso冲泡指南"
+title: "Perfect Espresso Brewing Guide"
 date: 2023-03-01
 categories: [brewing]
 tags: [espresso, guides]
-excerpt: "学习如何冲泡完美的Espresso，从研磨到萃取的每一个环节。"
+excerpt: "Learn how to brew the perfect Espresso, from grinding to extraction."
+lang: en
 ---
 
-# 完美Espresso冲泡指南
+# Perfect Espresso Brewing Guide
 
-Espresso是咖啡的精华，浓缩了咖啡的所有风味。本指南将帮助你掌握冲泡完美Espresso的技巧。
+Espresso is the essence of coffee, concentrating all the coffee flavors. This guide will help you master the techniques for brewing the perfect Espresso.
 
-## 选择咖啡豆
+## Choosing Coffee Beans
 
-选择新鲜烘焙的咖啡豆是制作完美Espresso的第一步。通常，中度至深度烘焙的咖啡豆最适合制作Espresso，它们能带来丰富的风味和醇厚的口感。
+Selecting freshly roasted coffee beans is the first step in making the perfect Espresso. Medium to dark roast coffee beans are usually most suitable for making Espresso, as they bring rich flavors and a full-bodied taste.
 
-## 研磨
+## Grinding
 
-研磨度对Espresso的质量有着决定性影响：
-- 研磨过粗：水流太快，咖啡欠萃取，味道酸而薄
-- 研磨过细：水流太慢，咖啡过萃取，味道苦而涩
+The grind size has a decisive impact on the quality of Espresso:
+- Too coarse: Water flows too fast, coffee is under-extracted, taste is sour and thin
+- Too fine: Water flows too slowly, coffee is over-extracted, taste is bitter and astringent
 
-理想的Espresso研磨度应该像细砂糖一样，不是粉末状，但也不是颗粒状。
+The ideal Espresso grind should be like fine sugar, not powdery, but also not grainy.
 
-## 压粉技巧
+## Tamping Techniques
 
-均匀的压粉是制作稳定Espresso的关键：
-1. 在咖啡篮中均匀分布咖啡粉
-2. 用压粉器垂直压实咖啡粉
-3. 施加约30磅（13.6公斤）的压力
-4. 确保咖啡饼平整无倾斜
+Even tamping is key to making stable Espresso:
+1. Distribute coffee grounds evenly in the basket
+2. Tamp the coffee grounds vertically with a tamper
+3. Apply about 30 pounds (13.6 kg) of pressure
+4. Ensure the coffee puck is level and not tilted
 
-## 萃取参数
+## Extraction Parameters
 
-标准Espresso的萃取参数：
-- 咖啡粉量：18-20克
-- 萃取时间：25-30秒
-- 水温：90-96°C
-- 压力：9 bar
-- 成品量：25-30毫升
+Standard Espresso extraction parameters:
+- Coffee amount: 18-20 grams
+- Extraction time: 25-30 seconds
+- Water temperature: 90-96°C
+- Pressure: 9 bar
+- Yield: 25-30 ml
 
-## 品鉴与调整
+## Tasting and Adjusting
 
-一杯完美的Espresso应有浓郁的香气，平衡的口感，以及持久的余韵。如果你的Espresso不尽如人意，可以调整以下因素：
-- 研磨度
-- 咖啡粉量
-- 萃取时间
-- 水温
+A perfect Espresso should have a rich aroma, balanced taste, and lingering aftertaste. If your Espresso is not satisfactory, you can adjust the following factors:
+- Grind size
+- Coffee amount
+- Extraction time
+- Water temperature
 
-通过不断实践和调整，你将能够冲泡出完美的Espresso。 
+Through continuous practice and adjustment, you will be able to brew the perfect Espresso. 

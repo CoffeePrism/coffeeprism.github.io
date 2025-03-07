@@ -1,68 +1,69 @@
 ---
 layout: post
-title: "拿铁艺术入门：基础图案教程"
+title: "Latte Art Basics: Fundamental Pattern Tutorial"
 date: 2023-03-03
 categories: [latte-art]
 tags: [barista, guides]
-excerpt: "学习制作心形、叶形和圆点等基础拿铁艺术图案的技巧。"
+excerpt: "Learn techniques for creating basic latte art patterns such as hearts, leaves, and dots."
+lang: en
 ---
 
-# 拿铁艺术入门：基础图案教程
+# Latte Art Basics: Fundamental Pattern Tutorial
 
-拿铁艺术不仅能为咖啡增添视觉享受，也是咖啡师展示技艺的方式。本文将介绍几种基础拿铁艺术图案的制作方法。
+Latte art not only adds visual enjoyment to coffee but is also a way for baristas to showcase their skills. This article will introduce methods for creating several basic latte art patterns.
 
-## 准备工作
+## Preparation
 
-在开始尝试拿铁艺术前，你需要准备：
+Before attempting latte art, you need to prepare:
 
-1. **优质浓缩咖啡**：新鲜萃取的Espresso，拥有丰富的咖啡油脂和咖啡霜
-2. **质地适宜的奶泡**：温度约65°C，质地如湿颜料般顺滑
-3. **适合的咖啡杯**：杯口宽敞，内壁光滑的圆形杯子
-4. **良好的咖啡基础**：浓缩咖啡应该填满杯底约1/3的位置
+1. **Quality Espresso**: Freshly extracted Espresso with rich coffee oils and crema
+2. **Properly Textured Milk**: Temperature around 65°C, smooth like wet paint
+3. **Suitable Coffee Cup**: Wide-mouthed cup with smooth inner walls
+4. **Good Coffee Base**: Espresso should fill about 1/3 of the bottom of the cup
 
-## 奶泡技巧
+## Milk Frothing Techniques
 
-拿铁艺术的关键在于打发完美的奶泡：
+The key to latte art is to prepare the perfect milk foam:
 
-1. 使用冰冷的新鲜牛奶（全脂牛奶效果最佳）
-2. 蒸汽棒放入奶缸边缘位置，略低于表面
-3. 先通过引入空气打发奶泡（发出"吱吱"声）
-4. 然后将蒸汽棒深入，继续旋转加热至65°C
-5. 轻敲奶缸去除大气泡，旋转使奶泡质地均匀
+1. Use cold fresh milk (whole milk works best)
+2. Place the steam wand at the edge of the milk pitcher, slightly below the surface
+3. First introduce air to froth the milk (making a "tss-tss" sound)
+4. Then submerge the steam wand deeper and continue to swirl and heat to 65°C
+5. Tap the pitcher to remove large air bubbles, swirl to create a uniform texture
 
-## 基础图案：心形
+## Basic Pattern: Heart Shape
 
-心形是最基础的拿铁艺术图案，步骤如下：
+The heart is the most basic latte art pattern, with the following steps:
 
-1. 将咖啡杯轻微倾斜
-2. 从较高处开始倒入奶泡，让奶泡沉入咖啡底部
-3. 当杯子约填满一半时，降低倒奶高度
-4. 保持奶缸中心对准咖啡杯中心
-5. 当奶缸即将接触咖啡表面时，开始直线穿过咖啡中心
-6. 最后抬起奶缸，完成心形顶部
+1. Slightly tilt the coffee cup
+2. Start pouring milk from higher up, allowing the milk to sink to the bottom of the coffee
+3. When the cup is about half full, lower the pouring height
+4. Keep the pitcher centered over the coffee cup
+5. When the pitcher is about to touch the coffee surface, begin to pour straight through the center
+6. Finally lift the pitcher up to complete the top of the heart
 
-## 进阶图案：叶形（或称鬓羽）
+## Advanced Pattern: Rosetta (or Fern)
 
-叶形比心形更具变化，步骤如下：
+The Rosetta is more variable than the heart, with the following steps:
 
-1. 前期操作同心形
-2. 当开始叶形拉花时，奶缸需要轻微左右摇摆
-3. 这样会形成叶形的侧边锯齿
-4. 最后中线穿过完成叶脉
+1. Initial operation is the same as the heart
+2. When starting the Rosetta pour, the pitcher needs to be gently rocked from side to side
+3. This will create the serrated edges of the leaf
+4. Finally, pour straight through the middle to complete the stem
 
-## 圆点图案（或称圆环）
+## Dot Pattern (or Stacking)
 
-圆点图案是创作更复杂图案的基础：
+The dot pattern is the foundation for creating more complex designs:
 
-1. 保持倒奶高度低，靠近咖啡表面
-2. 集中倒入一点，形成白色圆点
-3. 快速提高奶缸，让咖啡色覆盖白色圆点边缘
-4. 重复此过程可以创造多个圆环
+1. Keep the pouring height low, close to the coffee surface
+2. Pour concentrically to form a white dot
+3. Quickly raise the pitcher to allow the coffee color to cover the edges of the white dot
+4. Repeating this process can create multiple rings
 
-## 常见问题与解决方案
+## Common Problems and Solutions
 
-1. **奶泡消失太快**：可能奶泡打发不足或温度过高
-2. **图案不清晰**：控制倒奶速度，或调整奶与咖啡的对比度
-3. **无法形成图案**：可能是咖啡缺乏足够的咖啡霜作为背景
+1. **Milk foam disappears too quickly**: Possibly insufficient foaming or temperature too high
+2. **Pattern not clear**: Control pouring speed, or adjust milk and coffee contrast
+3. **Unable to form a pattern**: Possibly the coffee lacks sufficient crema as a background
 
-拿铁艺术需要耐心和大量练习。即使最简单的心形图案，也需要反复练习才能达到满意效果。祝你的咖啡艺术之旅愉快！ 
+Latte art requires patience and lots of practice. Even the simplest heart pattern needs repeated practice to achieve satisfactory results. Enjoy your coffee art journey! 

@@ -1,95 +1,92 @@
 ---
 layout: post
-title: "咖啡器具全指南：从入门到专业"
-title_en: "Comprehensive Coffee Equipment Guide: From Beginners to Professionals"
+title: "Comprehensive Coffee Equipment Guide: From Beginners to Professionals"
 date: 2023-03-04
 categories: [equipment]
 tags: [guides, coffee-knowledge]
-excerpt: "全面介绍各种咖啡器具的优缺点及适用场景，帮助你选择最适合的咖啡装备。"
-excerpt_en: "A comprehensive introduction to the pros and cons of various coffee equipment and their suitable scenarios, helping you choose the most appropriate coffee gear."
-lang: zh
-namespace: 2023-03-04-coffee-equipment-guide
+excerpt: "A comprehensive introduction to the pros and cons of various coffee equipment and their suitable scenarios, helping you choose the most appropriate coffee gear."
+lang: en
 ---
 
-# 咖啡器具全指南：从入门到专业
+# Comprehensive Coffee Equipment Guide: From Beginners to Professionals
 
-选择合适的咖啡器具对于冲泡出理想的咖啡至关重要。本文将介绍各类常见咖啡器具的特点、优缺点及适用场景。
+Choosing the right coffee equipment is crucial for brewing the perfect cup. This article will introduce the characteristics, pros and cons, and suitable scenarios for various common coffee equipment.
 
-## 磨豆机
+## Coffee Grinders
 
-咖啡研磨是影响咖啡品质的关键因素之一。市场上常见的磨豆机类型：
+Coffee grinding is one of the key factors affecting coffee quality. Common types of coffee grinders in the market:
 
-### 手动磨豆机
-- **优点**：价格实惠、便携、无需电源
-- **缺点**：需要体力、研磨量少、研磨时间长
-- **推荐场景**：旅行使用、预算有限、小批量研磨
+### Manual Coffee Grinders
+- **Advantages**: Affordable, portable, no power required
+- **Disadvantages**: Requires physical effort, small grinding capacity, time-consuming
+- **Recommended scenarios**: Travel use, limited budget, small batch grinding
 
-### 电动平刀磨豆机
-- **优点**：价格适中、操作简单
-- **缺点**：研磨均匀度较差、发热可能影响咖啡风味
-- **推荐场景**：家庭入门级使用、预算中等
+### Electric Blade Grinders
+- **Advantages**: Moderately priced, easy to operate
+- **Disadvantages**: Poor grinding uniformity, heat may affect coffee flavor
+- **Recommended scenarios**: Entry-level home use, moderate budget
 
-### 电动锥刀磨豆机
-- **优点**：研磨均匀度好、可调整研磨度、发热少
-- **缺点**：价格较高、体积大
-- **推荐场景**：追求高品质咖啡、经常冲泡不同种类咖啡
+### Electric Burr Grinders
+- **Advantages**: Good grinding uniformity, adjustable grind size, less heat generation
+- **Disadvantages**: Higher price, larger size
+- **Recommended scenarios**: Pursuing high-quality coffee, frequently brewing different types of coffee
 
-## 冲泡设备
+## Brewing Equipment
 
-### 法压壶 (French Press)
-- **特点**：浸泡式萃取、金属滤网过滤
-- **优点**：操作简单、保留咖啡油脂、醇厚口感
-- **缺点**：容易有咖啡渣、清洗稍复杂
-- **适合风格**：喜欢醇厚、低酸度咖啡的人
+### French Press
+- **Characteristics**: Immersion brewing, metal filter
+- **Advantages**: Simple operation, retains coffee oils, full-bodied taste
+- **Disadvantages**: Coffee sediment, slightly more complex to clean
+- **Suitable style**: For those who prefer full-bodied, low-acidity coffee
 
-### 手冲滤杯 (Pour Over)
-- **特点**：滴滤式萃取、需要滤纸
-- **优点**：可控性高、突出咖啡风味层次
-- **缺点**：需要一定技巧、冲泡时间较长
-- **适合风格**：追求清澈风味、享受冲泡过程的人
+### Pour Over Dripper
+- **Characteristics**: Drip brewing, requires filter paper
+- **Advantages**: High controllability, highlights coffee flavor layers
+- **Disadvantages**: Requires technique, longer brewing time
+- **Suitable style**: For those seeking clear flavors and enjoying the brewing process
 
-### 爱乐压 (AeroPress)
-- **特点**：压力辅助萃取、需要滤纸
-- **优点**：便携、多样性强、清洗简便
-- **缺点**：一次冲泡量少
-- **适合风格**：喜欢尝试不同风味、旅行者
+### AeroPress
+- **Characteristics**: Pressure-assisted extraction, requires filter paper
+- **Advantages**: Portable, versatile, easy to clean
+- **Disadvantages**: Small brewing capacity
+- **Suitable style**: For those who like to try different flavors, travelers
 
-### 摩卡壶 (Moka Pot)
-- **特点**：蒸汽压力萃取
-- **优点**：浓郁咖啡味、操作相对简单
-- **缺点**：易苦味过重、水温不易控制
-- **适合风格**：喜欢浓郁咖啡但没有Espresso机预算的人
+### Moka Pot
+- **Characteristics**: Steam pressure extraction
+- **Advantages**: Rich coffee flavor, relatively simple operation
+- **Disadvantages**: Prone to excessive bitterness, difficult to control water temperature
+- **Suitable style**: For those who like rich coffee but don't have an Espresso machine budget
 
-### 意式浓缩咖啡机 (Espresso Machine)
-- **特点**：高压萃取
-- **优点**：制作正宗Espresso及其衍生饮品
-- **缺点**：价格高、学习曲线陡峭、占用空间大
-- **适合风格**：咖啡发烧友、喜欢拿铁艺术的人
+### Espresso Machine
+- **Characteristics**: High-pressure extraction
+- **Advantages**: Makes authentic Espresso and derivative drinks
+- **Disadvantages**: High price, steep learning curve, occupies space
+- **Suitable style**: Coffee enthusiasts, latte art lovers
 
-## 辅助器具
+## Auxiliary Equipment
 
-### 手冲壶
-- **重点功能**：水流控制、适合精准手冲
-- **推荐类型**：细嘴壶，便于控制水流和倒水精度
+### Pour Over Kettle
+- **Key function**: Water flow control, suitable for precise manual brewing
+- **Recommended type**: Gooseneck kettle for controlling water flow and pouring precision
 
-### 温度计
-- **重点功能**：监控水温，确保在理想萃取温度(90-96°C)
-- **推荐类型**：数字温度计或温控电水壶
+### Thermometer
+- **Key function**: Monitoring water temperature, ensuring ideal extraction temperature (90-96°C)
+- **Recommended type**: Digital thermometer or temperature-controlled electric kettle
 
-### 计时器
-- **重点功能**：控制萃取时间
-- **推荐类型**：带倒计时功能的厨房计时器或手机APP
+### Timer
+- **Key function**: Controlling extraction time
+- **Recommended type**: Kitchen timer with countdown function or mobile app
 
-### 电子秤
-- **重点功能**：精确测量咖啡粉和水的重量
-- **推荐类型**：0.1g精度，带计时功能的咖啡专用秤
+### Electronic Scale
+- **Key function**: Precisely measuring coffee grounds and water weight
+- **Recommended type**: 0.1g precision, coffee-specific scale with timer function
 
-## 选择建议
+## Selection Advice
 
-1. **根据个人饮用习惯**：每天冲泡次数和数量
-2. **考虑预算**：合理分配预算，磨豆机与冲泡设备同样重要
-3. **学习曲线**：先从简单设备开始，逐步进阶
-4. **空间限制**：考虑家中可用空间
-5. **口味偏好**：不同器具冲泡出的咖啡风味各异
+1. **Based on personal drinking habits**: Daily brewing frequency and quantity
+2. **Consider budget**: Allocate budget reasonably, grinder and brewing equipment are equally important
+3. **Learning curve**: Start with simple equipment, progress gradually
+4. **Space limitations**: Consider available space at home
+5. **Taste preference**: Different equipment produces coffee with various flavor profiles
 
-无论选择哪种咖啡器具，都可以通过实践和探索找到最适合自己的冲泡方式。咖啡器具只是工具，最重要的是享受冲泡和品尝的过程！ 
+Regardless of which coffee equipment you choose, you can find the most suitable brewing method through practice and exploration. Coffee equipment is just a tool; the most important thing is to enjoy the process of brewing and tasting! 
