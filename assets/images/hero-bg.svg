@@ -1,0 +1,86 @@
+<?xml version="1.0" encoding="UTF-8" standalone="no"?>
+<svg width="1200" height="600" viewBox="0 0 1200 600" xmlns="http://www.w3.org/2000/svg">
+  <!-- Background gradient -->
+  <defs>
+    <linearGradient id="bgGradient" x1="0%" y1="0%" x2="100%" y2="100%">
+      <stop offset="0%" style="stop-color:#3a2618;stop-opacity:0.9" />
+      <stop offset="100%" style="stop-color:#6b4423;stop-opacity:0.8" />
+    </linearGradient>
+    <pattern id="coffeePattern" patternUnits="userSpaceOnUse" width="100" height="100">
+      <circle cx="50" cy="50" r="20" fill="#a67c52" opacity="0.1" />
+      <circle cx="0" cy="0" r="15" fill="#a67c52" opacity="0.1" />
+      <circle cx="0" cy="100" r="15" fill="#a67c52" opacity="0.1" />
+      <circle cx="100" cy="0" r="15" fill="#a67c52" opacity="0.1" />
+      <circle cx="100" cy="100" r="15" fill="#a67c52" opacity="0.1" />
+    </pattern>
+  </defs>
+  
+  <!-- Main background -->
+  <rect width="1200" height="600" fill="url(#bgGradient)" />
+  
+  <!-- Pattern overlay -->
+  <rect width="1200" height="600" fill="url(#coffeePattern)" />
+  
+  <!-- Coffee beans scattered around -->
+  <g opacity="0.3">
+    <!-- Bean 1 -->
+    <ellipse cx="200" cy="150" rx="30" ry="15" transform="rotate(30 200 150)" fill="#3a2618" />
+    <ellipse cx="200" cy="150" rx="25" ry="10" transform="rotate(30 200 150)" fill="#6b4423" />
+    <line x1="190" y1="145" x2="210" y2="155" stroke="#3a2618" stroke-width="2" />
+    
+    <!-- Bean 2 -->
+    <ellipse cx="400" cy="250" rx="30" ry="15" transform="rotate(60 400 250)" fill="#3a2618" />
+    <ellipse cx="400" cy="250" rx="25" ry="10" transform="rotate(60 400 250)" fill="#6b4423" />
+    <line x1="395" y1="240" x2="405" y2="260" stroke="#3a2618" stroke-width="2" />
+    
+    <!-- Bean 3 -->
+    <ellipse cx="700" cy="150" rx="30" ry="15" transform="rotate(120 700 150)" fill="#3a2618" />
+    <ellipse cx="700" cy="150" rx="25" ry="10" transform="rotate(120 700 150)" fill="#6b4423" />
+    <line x1="690" y1="155" x2="710" y2="145" stroke="#3a2618" stroke-width="2" />
+    
+    <!-- Bean 4 -->
+    <ellipse cx="900" cy="350" rx="30" ry="15" transform="rotate(45 900 350)" fill="#3a2618" />
+    <ellipse cx="900" cy="350" rx="25" ry="10" transform="rotate(45 900 350)" fill="#6b4423" />
+    <line x1="890" y1="340" x2="910" y2="360" stroke="#3a2618" stroke-width="2" />
+    
+    <!-- Bean 5 -->
+    <ellipse cx="300" cy="450" rx="30" ry="15" transform="rotate(15 300 450)" fill="#3a2618" />
+    <ellipse cx="300" cy="450" rx="25" ry="10" transform="rotate(15 300 450)" fill="#6b4423" />
+    <line x1="290" y1="448" x2="310" y2="452" stroke="#3a2618" stroke-width="2" />
+    
+    <!-- Bean 6 -->
+    <ellipse cx="600" cy="500" rx="30" ry="15" transform="rotate(75 600 500)" fill="#3a2618" />
+    <ellipse cx="600" cy="500" rx="25" ry="10" transform="rotate(75 600 500)" fill="#6b4423" />
+    <line x1="598" y1="490" x2="602" y2="510" stroke="#3a2618" stroke-width="2" />
+    
+    <!-- Bean 7 -->
+    <ellipse cx="1000" cy="200" rx="30" ry="15" transform="rotate(90 1000 200)" fill="#3a2618" />
+    <ellipse cx="1000" cy="200" rx="25" ry="10" transform="rotate(90 1000 200)" fill="#6b4423" />
+    <line x1="990" y1="200" x2="1010" y2="200" stroke="#3a2618" stroke-width="2" />
+    
+    <!-- Bean 8 -->
+    <ellipse cx="1100" cy="450" rx="30" ry="15" transform="rotate(135 1100 450)" fill="#3a2618" />
+    <ellipse cx="1100" cy="450" rx="25" ry="10" transform="rotate(135 1100 450)" fill="#6b4423" />
+    <line x1="1090" y1="440" x2="1110" y2="460" stroke="#3a2618" stroke-width="2" />
+  </g>
+  
+  <!-- Coffee cup in the center -->
+  <g transform="translate(550, 250) scale(1.5)">
+    <!-- Cup body -->
+    <path d="M10,10 L10,40 C10,45 15,50 40,50 C65,50 70,45 70,40 L70,10 Z" fill="#e6d7c3" opacity="0.6" />
+    
+    <!-- Cup handle -->
+    <path d="M70,15 C80,15 85,20 85,25 C85,30 80,35 70,35" fill="none" stroke="#e6d7c3" stroke-width="5" stroke-linecap="round" opacity="0.6" />
+    
+    <!-- Cup rim -->
+    <path d="M5,10 L75,10" stroke="#a67c52" stroke-width="5" stroke-linecap="round" opacity="0.6" />
+    
+    <!-- Coffee surface -->
+    <ellipse cx="40" cy="10" rx="30" ry="5" fill="#6b4423" opacity="0.6" />
+    
+    <!-- Steam -->
+    <path d="M30,5 C30,0 35,-5 40,0 C45,-5 50,0 50,5" fill="none" stroke="#f5f1e6" stroke-width="2" stroke-linecap="round" opacity="0.4" />
+    <path d="M25,0 C25,-5 30,-10 35,-5 C40,-10 45,-5 45,0" fill="none" stroke="#f5f1e6" stroke-width="2" stroke-linecap="round" opacity="0.3" />
+    <path d="M35,-5 C35,-10 40,-15 45,-10 C50,-15 55,-10 55,-5" fill="none" stroke="#f5f1e6" stroke-width="2" stroke-linecap="round" opacity="0.2" />
+  </g>
+</svg> 
