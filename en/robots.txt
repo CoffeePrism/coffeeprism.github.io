@@ -1,5 +1,0 @@
-User-agent: *
-Allow: /
-Sitemap: https://www.coffeeprism.com/sitemap.xml
-Disallow: /assets/
-Disallow: /404.html 
