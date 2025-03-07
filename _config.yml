@@ -7,6 +7,10 @@ permalink: /:categories/:title/
 # GitHub Pages settings
 github: [metadata]
 repository: CoffeePrism/coffeeprism.github.io
+domain: coffeeprism.com
+url: "https://www.coffeeprism.com"
+baseurl: ""
+enforce_ssl: "www.coffeeprism.com"
 safe: true
 lsi: false
 incremental: false
@@ -15,11 +19,6 @@ incremental: false
 languages: ["en"]
 default_lang: "en"
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico", "assets"]
-
-# GitHub Pages related configuration
-domain: coffeeprism.com
-url: "https://www.coffeeprism.com"
-enforce_ssl: "www.coffeeprism.com"
 
 # Build settings
 markdown: kramdown
