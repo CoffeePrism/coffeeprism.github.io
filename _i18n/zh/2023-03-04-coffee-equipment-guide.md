@@ -1,16 +1,3 @@
----
-layout: post
-title: "咖啡器具全指南：从入门到专业"
-title_en: "Comprehensive Coffee Equipment Guide: From Beginners to Professionals"
-date: 2023-03-04
-categories: [equipment]
-tags: [guides, coffee-knowledge]
-excerpt: "全面介绍各种咖啡器具的优缺点及适用场景，帮助你选择最适合的咖啡装备。"
-excerpt_en: "A comprehensive introduction to the pros and cons of various coffee equipment and their suitable scenarios, helping you choose the most appropriate coffee gear."
-lang: zh
-namespace: 2023-03-04-coffee-equipment-guide
----
-
 # 咖啡器具全指南：从入门到专业
 
 选择合适的咖啡器具对于冲泡出理想的咖啡至关重要。本文将介绍各类常见咖啡器具的特点、优缺点及适用场景。

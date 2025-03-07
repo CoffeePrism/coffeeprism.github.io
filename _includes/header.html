@@ -15,13 +15,72 @@
       </label>
 
       <div class="trigger">
-        <a class="page-link" href="{{ '/' | relative_url }}">首页</a>
-        <a class="page-link" href="{{ '/categories/' | relative_url }}">分类</a>
-        <a class="page-link" href="{{ '/tags/' | relative_url }}">标签</a>
-        <a class="page-link" href="{{ '/search/' | relative_url }}">搜索</a>
-        <a class="page-link" href="{{ '/about/' | relative_url }}">关于我们</a>
-        <a class="page-link" href="{{ '/contact/' | relative_url }}">联系我们</a>
+        <a class="page-link" href="{{ '/' | relative_url }}">{% t nav.home %}</a>
+        <a class="page-link" href="{{ '/categories/' | relative_url }}">{% t nav.categories %}</a>
+        <a class="page-link" href="{{ '/tags/' | relative_url }}">{% t nav.tags %}</a>
+        <a class="page-link" href="{{ '/search/' | relative_url }}">{% t nav.search %}</a>
+        <a class="page-link" href="{{ '/about/' | relative_url }}">{% t nav.about %}</a>
+        <a class="page-link" href="{{ '/contact/' | relative_url }}">{% t nav.contact %}</a>
+        
+        <!-- 语言切换器 -->
+        <div class="language-switcher">
+          {% for lang in site.languages %}
+            {% if lang == site.active_lang %}
+              <span class="active-lang">{{ site.data.i18n[lang].global.language }}</span>
+            {% else %}
+              {% if lang == site.default_lang %}
+                <a href="{{ page.url }}">{{ site.data.i18n[lang].global.language }}</a>
+              {% else %}
+                <a href="/{{ lang }}{{ page.url }}">{{ site.data.i18n[lang].global.language }}</a>
+              {% endif %}
+            {% endif %}
+          {% endfor %}
+          
+          <!-- 备用简单切换器 -->
+          {% if site.lang == "zh" or site.active_lang == "zh" %}
+            <a href="/en{{ page.url }}" class="lang-switch">English</a>
+          {% else %}
+            <a href="{{ page.url | remove_first: '/en' }}" class="lang-switch">中文</a>
+          {% endif %}
+        </div>
       </div>
     </nav>
   </div>
-</header> 
+</header>
+
+<style>
+  .language-switcher {
+    display: inline-block;
+    margin-left: 15px;
+    padding-left: 15px;
+    border-left: 1px solid #e8e8e8;
+  }
+  
+  .language-switcher a {
+    color: #999;
+    margin-left: 5px;
+    font-size: 0.9em;
+    text-decoration: none;
+  }
+  
+  .language-switcher a:hover {
+    color: var(--primary-color);
+    text-decoration: underline;
+  }
+  
+  .active-lang {
+    color: var(--primary-color);
+    font-weight: bold;
+    margin-left: 5px;
+  }
+  
+  @media (max-width: 768px) {
+    .language-switcher {
+      display: block;
+      margin: 10px 0 0 0;
+      padding: 10px 0 0 0;
+      border-left: none;
+      border-top: 1px solid #e8e8e8;
+    }
+  }
+</style> 

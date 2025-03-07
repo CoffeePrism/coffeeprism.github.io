@@ -1,24 +1,24 @@
 ---
 layout: default
-title: 首页
+title: {% t nav.home %}
 ---
 
 <div class="home">
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1>探索咖啡的世界</h1>
-      <p>从咖啡豆到咖啡杯，发现完美咖啡的一切</p>
+      <h1>{% t home.hero_title %}</h1>
+      <p>{% t home.hero_subtitle %}</p>
       <div class="hero-buttons">
-        <a href="{{ '/categories/' | relative_url }}" class="btn btn-primary">浏览分类</a>
-        <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">浏览文章</a>
+        <a href="{{ '/categories/' | relative_url }}" class="btn btn-primary">{% t home.browse_categories %}</a>
+        <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">{% t home.browse_articles %}</a>
       </div>
     </div>
   </section>
 
   <!-- Featured Section -->
   <section class="featured-section">
-    <h2 class="section-title">精选内容</h2>
+    <h2 class="section-title">{% t home.featured_content %}</h2>
     <div class="featured-grid">
       {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
       {% for post in featured_posts %}
@@ -53,7 +53,7 @@ title: 首页
 
   <!-- Latest Articles -->
   <section class="latest-articles">
-    <h2 class="section-title">最新文章</h2>
+    <h2 class="section-title">{% t home.latest_articles %}</h2>
     <div class="articles-grid">
       {% for post in site.posts limit:6 %}
       <div class="article-card">
@@ -92,13 +92,13 @@ title: 首页
       {% endfor %}
     </div>
     <div class="view-all">
-      <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">查看所有文章</a>
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">{% t home.view_all %}</a>
     </div>
   </section>
 
   <!-- Categories Section -->
   <section class="categories-section">
-    <h2 class="section-title">分类浏览</h2>
+    <h2 class="section-title">{% t home.categories_browse %}</h2>
     <div class="categories-grid">
       {% assign categories = site.categories | sort %}
       {% for category in categories limit:6 %}
@@ -106,12 +106,12 @@ title: 首页
         {% assign category_slug = category_name | strip | slugify %}
         <a href="{{ site.baseurl }}/categories/#{{ category_slug }}" class="category-card">
           <h3>{{ category_name }}</h3>
-          <span class="category-count">{{ category | last | size }} 篇文章</span>
+          <span class="category-count">{{ category | last | size }} {% t home.articles %}</span>
         </a>
       {% endfor %}
     </div>
     <div class="view-all">
-      <a href="{{ '/categories/' | relative_url }}" class="btn btn-outline">查看所有分类</a>
+      <a href="{{ '/categories/' | relative_url }}" class="btn btn-outline">{% t home.view_all %}</a>
     </div>
   </section>
 </div> 

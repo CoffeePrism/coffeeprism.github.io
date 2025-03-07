@@ -16,6 +16,7 @@ group :jekyll_plugins do
   gem "jekyll-feed"
   gem "jekyll-seo-tag"
   gem "jekyll-github-metadata"
+  gem "jekyll-multiple-languages-plugin"
 end
 
 # Platform-specific dependencies
