@@ -11,6 +11,14 @@ safe: true
 lsi: false
 incremental: false
 
+# 多语言支持配置
+languages: ["zh", "en"]
+default_lang: "zh"
+exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico", "assets"]
+language_data: data.i18n
+language_includes_dir: _i18n
+parallel_localization: true
+
 # 其他 GitHub Pages 相关配置
 domain: coffeeprism.com
 url: "https://www.coffeeprism.com"
@@ -54,11 +62,14 @@ use_random_default_images: true
 # Collections
 collections:
   coffee:
-    output: false
+    output: true
+    permalink: /:collection/:name/
   equipment:
-    output: false
+    output: true
+    permalink: /:collection/:name/
   categories:
-    output: false
+    output: true
+    permalink: /:collection/:name/
 
 # Default front matter
 defaults:
@@ -66,6 +77,11 @@ defaults:
       path: ""
     values:
       layout: "default"
+      lang: "zh"
+  - scope:
+      path: "en"
+    values:
+      lang: "en"
   - scope:
       path: ""
       type: "posts"
@@ -99,14 +115,6 @@ plugins:
   - jekyll-seo-tag
   - jekyll-github-metadata
   - jekyll-multiple-languages-plugin
-
-# 多语言支持配置
-languages: ["zh", "en"]
-default_lang: "zh"
-exclude_from_localizations: ["assets", "images", "css", "README.md", "Gemfile", "Gemfile.lock", "CNAME"]
-language_data: data.i18n
-language_includes_dir: _i18n
-parallel_localization: true
 
 # Exclude from processing
 exclude:

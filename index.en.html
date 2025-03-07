@@ -1,0 +1,107 @@
+---
+layout: default
+lang: en
+permalink: /en/
+---
+
+<div class="home">
+  <!-- Hero Section -->
+  <section class="hero">
+    <div class="hero-content">
+      <h1>Exploring the World of Coffee</h1>
+      <p>From Coffee Beans to Coffee Cups, Discover Everything About Perfect Coffee</p>
+      <div class="hero-buttons">
+        <a href="{{ '/en/categories/' | relative_url }}" class="btn btn-primary">Browse Categories</a>
+        <a href="{{ '/en/blog/' | relative_url }}" class="btn btn-secondary">Browse Articles</a>
+      </div>
+    </div>
+  </section>
+
+  <!-- Featured Section -->
+  <section class="featured-section">
+    <h2 class="section-title">Featured Content</h2>
+    <div class="featured-grid">
+      {% assign featured_posts = site.posts | where: "featured", true | where: "lang", "en" | limit: 3 %}
+      {% for post in featured_posts %}
+      <div class="featured-card">
+        <a href="{{ post.url | relative_url }}" class="featured-link">
+          <div class="featured-image">
+            {% if site.use_smart_images %}
+              {% include smart-image.html post=post class="img-fluid rounded shadow-sm" %}
+            {% else %}
+              {% if post.featured_image %}
+                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+              {% else %}
+                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+              {% endif %}
+            {% endif %}
+          </div>
+          <div class="featured-content">
+            <h3>{{ post.title }}</h3>
+            <p>{{ post.excerpt | strip_html | truncate: 120 }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+  </section>
+
+  <!-- Latest Articles -->
+  <section class="latest-articles">
+    <h2 class="section-title">Latest Articles</h2>
+    <div class="articles-grid">
+      {% assign english_posts = site.posts | where: "lang", "en" %}
+      {% for post in english_posts limit:6 %}
+      <div class="article-card">
+        <a href="{{ post.url | relative_url }}" class="article-link">
+          <div class="article-image">
+            {% if site.use_smart_images %}
+              {% include smart-image.html post=post class="img-fluid rounded shadow-sm" %}
+            {% else %}
+              {% if post.featured_image %}
+                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
+              {% else %}
+                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
+              {% endif %}
+            {% endif %}
+          </div>
+          <div class="article-content">
+            <h3>{{ post.title }}</h3>
+            <div class="article-meta">
+              <span class="article-date">{{ post.date | date: "%Y-%m-%d" }}</span>
+              {% if post.categories.size > 0 %}
+              <span class="article-category">
+                <i class="fas fa-folder"></i> {{ post.categories | first }}
+              </span>
+              {% endif %}
+            </div>
+            <p>{{ post.excerpt | strip_html | truncate: 100 }}</p>
+          </div>
+        </a>
+      </div>
+      {% endfor %}
+    </div>
+    <div class="view-all">
+      <a href="{{ '/en/blog/' | relative_url }}" class="btn btn-outline">View All</a>
+    </div>
+  </section>
+
+  <!-- Categories Section -->
+  <section class="categories-section">
+    <h2 class="section-title">Browse by Category</h2>
+    <div class="categories-grid">
+      {% assign categories = site.categories | sort %}
+      {% for category in categories limit:6 %}
+        {% assign category_name = category | first %}
+        {% assign category_slug = category_name | strip | slugify %}
+        <a href="{{ site.baseurl }}/en/categories/#{{ category_slug }}" class="category-card">
+          <h3>{{ category_name }}</h3>
+          <span class="category-count">{{ category | last | size }} articles</span>
+        </a>
+      {% endfor %}
+    </div>
+    <div class="view-all">
+      <a href="{{ '/en/categories/' | relative_url }}" class="btn btn-outline">View All</a>
+    </div>
+  </section>
+</div> 
