@@ -113,12 +113,12 @@
 
 <h2 id="构建流程概述">构建流程概述</h2>
 
-<p>我们的 GitHub Actions 工作流程在 <code class="language-plaintext highlighter-rouge">.github/workflows/jekyll-custom-build.yml</code> 中定义，主要执行以下步骤：</p>
+<p>我们的 GitHub Actions 工作流程在 <code class="language-plaintext highlighter-rouge">.github/workflows/jekyll-custom-build.yml</code> 中定义，使用标准的 GitHub Pages Jekyll 工作流，主要执行以下步骤：</p>
 
 <ol>
   <li>检出代码</li>
-  <li>设置 Ruby 环境</li>
   <li>配置 GitHub Pages</li>
+  <li>设置 Ruby 环境</li>
   <li>构建 Jekyll 站点</li>
   <li>上传构建产物</li>
   <li>部署到 GitHub Pages</li>
@@ -145,7 +145,7 @@
 
 <h3 id="工作流结构">工作流结构</h3>
 
-<p>我们使用两个独立的任务来分离构建和部署步骤，这提高了工作流的稳定性：</p>
+<p>我们使用标准的 GitHub Pages Jekyll 工作流，它包含两个独立的任务来分离构建和部署步骤：</p>
 
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">jobs</span><span class="pi">:</span>
   <span class="c1"># 构建任务</span>
@@ -154,13 +154,19 @@
     <span class="na">steps</span><span class="pi">:</span>
       <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
         <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
-      
-      <span class="c1"># ... 其他构建步骤 ...</span>
-      
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Pages</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/configure-pages@v3</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Setup Ruby</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">ruby/setup-ruby@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">ruby-version</span><span class="pi">:</span> <span class="s1">'</span><span class="s">3.1'</span>
+          <span class="na">bundler-cache</span><span class="pi">:</span> <span class="no">true</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Build with Jekyll</span>
+        <span class="na">run</span><span class="pi">:</span> <span class="s">bundle exec jekyll build</span>
+        <span class="na">env</span><span class="pi">:</span>
+          <span class="na">JEKYLL_ENV</span><span class="pi">:</span> <span class="s">production</span>
       <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload artifact</span>
         <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-pages-artifact@v1</span>
-        <span class="na">with</span><span class="pi">:</span>
-          <span class="na">path</span><span class="pi">:</span> <span class="s">./_site</span>
 
   <span class="c1"># 部署任务</span>
   <span class="na">deploy</span><span class="pi">:</span>
@@ -169,7 +175,6 @@
       <span class="na">url</span><span class="pi">:</span> <span class="s">$</span>
     <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
     <span class="na">needs</span><span class="pi">:</span> <span class="s">build</span>
-    <span class="na">if</span><span class="pi">:</span> <span class="s">github.ref == 'refs/heads/main'</span>
     <span class="na">steps</span><span class="pi">:</span>
       <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to GitHub Pages</span>
         <span class="na">id</span><span class="pi">:</span> <span class="s">deployment</span>
@@ -177,11 +182,11 @@
 </code></pre></div></div>
 
 <blockquote>
-  <p><strong>重要注意事项</strong>：我们发现使用单个任务来处理构建和部署在某些情况下可能会导致权限问题。推荐使用分离的构建和部署任务，并使用官方的 <code class="language-plaintext highlighter-rouge">actions/upload-pages-artifact</code> 和 <code class="language-plaintext highlighter-rouge">actions/deploy-pages</code> 动作。</p>
+  <p><strong>重要注意事项</strong>：我们发现使用自定义工作流可能会导致各种问题。强烈建议使用 GitHub 提供的标准 Jekyll 工作流，它已经过充分测试并与 GitHub Pages 完全兼容。</p>
 </blockquote>
 
 <blockquote>
-  <p><strong>注意</strong>：我们在 2023-03-07 解决了一个与 GitHub Actions 工作流相关的构建错误。如果您看到类似的错误，请确保您的工作流使用上述推荐的分离任务结构。</p>
+  <p><strong>注意</strong>：我们在 2023-03-07 解决了一个与 GitHub Actions 工作流相关的构建错误。最终解决方案是采用标准的 GitHub Pages Jekyll 工作流，这是最可靠的方法。</p>
 </blockquote>
 
 <h2 id="监控构建状态">监控构建状态</h2>
