@@ -19,7 +19,7 @@ gem "http_parser.rb", "~> 0.6.0", :platforms => [:jruby]
 gem "webrick", "~> 1.8"
 
 # Specify compatible versions of dependencies
-gem "faraday-retry", "~> 2.1.0" # Specify version for retry middleware
+gem "faraday-retry", "~> 2.1"
 
 # HTML Proofer for testing
 gem "html-proofer", "~> 3.19" 

@@ -47,7 +47,15 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {{ content | replace: '<img src="/', '<img src="' | replace: '<img src="http', '<img src="http' | replace: '<img ', '{% include image.html ' | replace: 'src="', 'src="' | replace: '" alt="', '" alt="' | replace: '">', '" %}'}}
+    {% capture processed_content %}
+      {{ content | replace: '<img src="/', '<img src="' | 
+                  replace: '<img src="http', '<img src="http' | 
+                  replace: '<img ', '{% include image.html ' | 
+                  replace: 'src="', 'src="' | 
+                  replace: '" alt="', '" alt="' | 
+                  replace: '">', '" %}' }}
+    {% endcapture %}
+    {{ processed_content }}
   </div>
 
   {%- if site.disqus.shortname -%}
