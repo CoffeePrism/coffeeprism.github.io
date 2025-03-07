@@ -47,15 +47,29 @@ layout: default
   </header>
 
   <div class="post-content e-content" itemprop="articleBody">
-    {% capture processed_content %}
-      {{ content | replace: '<img src="/', '<img src="' | 
-                  replace: '<img src="http', '<img src="http' | 
-                  replace: '<img ', '{% include image.html ' | 
-                  replace: 'src="', 'src="' | 
-                  replace: '" alt="', '" alt="' | 
-                  replace: '">', '" %}' }}
-    {% endcapture %}
-    {{ processed_content }}
+    {% assign content_with_images = content %}
+    {% assign image_splits = content_with_images | split: '<img ' %}
+    {% for split in image_splits %}
+      {% if forloop.first %}
+        {{ split }}
+      {% else %}
+        {% assign img_tag = split | split: '>' | first %}
+        {% assign remainder = split | split: '>' | last %}
+        {% if img_tag contains 'src="/' %}
+          {% assign src = img_tag | split: 'src="/' | last | split: '"' | first %}
+        {% elsif img_tag contains 'src="http' %}
+          {% assign src = img_tag | split: 'src="' | last | split: '"' | first %}
+        {% else %}
+          {% assign src = img_tag | split: 'src="' | last | split: '"' | first %}
+        {% endif %}
+        {% assign alt = "" %}
+        {% if img_tag contains 'alt="' %}
+          {% assign alt = img_tag | split: 'alt="' | last | split: '"' | first %}
+        {% endif %}
+        {% include image.html src=src alt=alt %}
+        {{ remainder }}
+      {% endif %}
+    {% endfor %}
   </div>
 
   {%- if site.disqus.shortname -%}
