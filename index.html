@@ -90,14 +90,12 @@ lang: zh
   <section class="categories-section">
     <h2 class="section-title">{{ site.data.i18n[page.lang].home.categories_browse }}</h2>
     <div class="categories-grid">
-      {% assign site_categories = site.categories | sort %}
-      {% for category_item in site_categories limit: 6 %}
-        {% assign category_name = category_item | first %}
-        {% assign posts = category_item | last %}
-        {% assign category_slug = category_name | slugify %}
-        <a href="{{ '/categories/#' | append: category_slug | relative_url }}" class="category-card">
-          <h3>{{ category_name }}</h3>
-          <span class="category-count">{{ posts.size }} {{ site.data.i18n[page.lang].home.articles }}</span>
+      {% assign categories = site.categories | map: 'first' | sort %}
+      {% for category in categories limit: 6 %}
+        {% assign category_posts = site.categories[category] %}
+        <a href="{{ '/categories/#' | append: category | slugify | relative_url }}" class="category-card">
+          <h3>{{ category }}</h3>
+          <span class="category-count">{{ category_posts.size }} {{ site.data.i18n[page.lang].home.articles }}</span>
         </a>
       {% endfor %}
     </div>
