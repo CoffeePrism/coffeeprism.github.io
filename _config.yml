@@ -11,6 +11,11 @@ safe: true
 lsi: false
 incremental: false
 
+# 其他 GitHub Pages 相关配置
+domain: coffeeprism.com
+url: "https://www.coffeeprism.com"
+enforce_ssl: "www.coffeeprism.com"
+
 # Build settings
 markdown: kramdown
 highlighter: rouge
