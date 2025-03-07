@@ -1,34 +1,92 @@
 <!DOCTYPE html>
-<html lang="zh-CN">
+<html lang="{{ page.lang | default: site.default_lang }}">
 <head>
-  <meta charset="UTF-8">
-  <meta name="viewport" content="width=device-width, initial-scale=1.0">
-  <title>{% if page.title %}{{ page.title }} | {{ site.title }}{% else %}{{ site.title }}{% endif %}</title>
-  <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.i18n[page.lang].global.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.data.i18n[page.lang].global.description | strip_html | strip }}">
   
-  <!-- CSS -->
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
+  <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
   
-  <!-- Font Awesome -->
-  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
-  
-  <!-- SEO Tags -->
-  {% seo title=false %}
+  {% if site.enforce_ssl %}
+  <script type="text/javascript">
+    var host = "{{ site.enforce_ssl }}";
+    if ((host == window.location.host) && (window.location.protocol != "https:"))
+      window.location.protocol = "https";
+  </script>
+  {% endif %}
 </head>
 <body>
-  <div class="container">
-    {% include header.html %}
-    
-    <main class="content">
+  <header class="site-header">
+    <div class="header-wrapper">
+      <div class="site-logo">
+        <a href="{{ page.lang | default: site.default_lang | prepend: '/' | relative_url }}">
+          <span class="logo-text">{{ site.data.i18n[page.lang].global.title }}</span>
+        </a>
+      </div>
+      
+      <nav class="site-nav">
+        <input type="checkbox" id="nav-trigger" class="nav-trigger" />
+        <label for="nav-trigger">
+          <span class="menu-icon">
+            <i class="fas fa-bars"></i>
+          </span>
+        </label>
+
+        <div class="trigger">
+          {% assign lang_prefix = page.lang | default: site.default_lang | prepend: '/' %}
+          <a class="page-link" href="{{ lang_prefix | relative_url }}">{{ site.data.i18n[page.lang].nav.home }}</a>
+          <a class="page-link" href="{{ lang_prefix | append: '/categories/' | relative_url }}">{{ site.data.i18n[page.lang].nav.categories }}</a>
+          <a class="page-link" href="{{ lang_prefix | append: '/tags/' | relative_url }}">{{ site.data.i18n[page.lang].nav.tags }}</a>
+          <a class="page-link" href="{{ lang_prefix | append: '/search/' | relative_url }}">{{ site.data.i18n[page.lang].nav.search }}</a>
+          <a class="page-link" href="{{ lang_prefix | append: '/about/' | relative_url }}">{{ site.data.i18n[page.lang].nav.about }}</a>
+          <a class="page-link" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ site.data.i18n[page.lang].nav.contact }}</a>
+          
+          {% include language-switcher.html %}
+        </div>
+      </nav>
+    </div>
+  </header>
+
+  <main class="page-content">
+    <div class="wrapper">
       {{ content }}
-    </main>
-    
-    {% include footer.html %}
-  </div>
-  
-  {% include back-to-top.html %}
-  
-  <!-- JavaScript -->
-  <script src="{{ '/assets/js/main.js' | relative_url }}"></script>
+    </div>
+  </main>
+
+  <footer class="site-footer">
+    <div class="footer-wrapper">
+      <div class="footer-col-wrapper">
+        <div class="footer-col">
+          <h2 class="footer-heading">{{ site.data.i18n[page.lang].global.title }}</h2>
+          <p>{{ site.data.i18n[page.lang].global.description }}</p>
+        </div>
+        
+        <div class="footer-col">
+          <h3>{{ site.data.i18n[page.lang].nav.categories }}</h3>
+          <ul class="footer-links">
+            {% for category in site.categories limit:5 %}
+              <li><a href="{{ lang_prefix | append: '/categories/#' | append: category[0] | slugify | relative_url }}">{{ category[0] }}</a></li>
+            {% endfor %}
+          </ul>
+        </div>
+        
+        <div class="footer-col">
+          <h3>{{ site.data.i18n[page.lang].footer.about }}</h3>
+          <ul class="footer-links">
+            <li><a href="{{ lang_prefix | append: '/about/' | relative_url }}">{{ site.data.i18n[page.lang].nav.about }}</a></li>
+            <li><a href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ site.data.i18n[page.lang].nav.contact }}</a></li>
+            <li><a href="{{ lang_prefix | append: '/privacy/' | relative_url }}">{{ site.data.i18n[page.lang].footer.privacy }}</a></li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p class="copyright">{{ site.data.i18n[page.lang].footer.copyright }} &copy; {{ site.time | date: '%Y' }}. {{ site.data.i18n[page.lang].footer.all_rights_reserved }}</p>
+      </div>
+    </div>
+  </footer>
 </body>
 </html> 
