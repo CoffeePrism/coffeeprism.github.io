@@ -131,41 +131,57 @@
 <h3 id="必要的权限设置">必要的权限设置</h3>
 
 <div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">permissions</span><span class="pi">:</span>
-  <span class="na">contents</span><span class="pi">:</span> <span class="s">write</span>  <span class="c1"># 允许工作流修改仓库内容</span>
-  <span class="na">pages</span><span class="pi">:</span> <span class="s">write</span>     <span class="c1"># 允许工作流操作 GitHub Pages</span>
-  <span class="na">id-token</span><span class="pi">:</span> <span class="s">write</span>  <span class="c1"># 允许工作流使用 OIDC 令牌</span>
+  <span class="na">contents</span><span class="pi">:</span> <span class="s">read</span>  <span class="c1"># 允许工作流读取仓库内容</span>
+  <span class="na">pages</span><span class="pi">:</span> <span class="s">write</span>    <span class="c1"># 允许工作流操作 GitHub Pages</span>
+  <span class="na">id-token</span><span class="pi">:</span> <span class="s">write</span> <span class="c1"># 允许工作流使用 OIDC 令牌</span>
 </code></pre></div></div>
 
-<h3 id="必要的环境配置">必要的环境配置</h3>
+<h3 id="并发控制设置">并发控制设置</h3>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">environment</span><span class="pi">:</span>
-  <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
-  <span class="na">url</span><span class="pi">:</span> <span class="s">$</span>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">concurrency</span><span class="pi">:</span>
+  <span class="na">group</span><span class="pi">:</span> <span class="s2">"</span><span class="s">pages"</span>
+  <span class="na">cancel-in-progress</span><span class="pi">:</span> <span class="no">false</span>
 </code></pre></div></div>
 
-<h3 id="动作依赖关系">动作依赖关系</h3>
+<h3 id="工作流结构">工作流结构</h3>
 
-<p>某些 GitHub Actions 动作依赖于其他动作。例如，<code class="language-plaintext highlighter-rouge">actions/upload-pages-artifact</code> 依赖于 <code class="language-plaintext highlighter-rouge">actions/upload-artifact</code>。确保包含所有必要的动作：</p>
+<p>我们使用两个独立的任务来分离构建和部署步骤，这提高了工作流的稳定性：</p>
 
-<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload artifact</span>
-  <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-artifact@v2</span>
-  <span class="na">with</span><span class="pi">:</span>
-    <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
-    <span class="na">path</span><span class="pi">:</span> <span class="s">./_site</span>
-    <span class="na">if-no-files-found</span><span class="pi">:</span> <span class="s">error</span>
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">jobs</span><span class="pi">:</span>
+  <span class="c1"># 构建任务</span>
+  <span class="na">build</span><span class="pi">:</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Checkout</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/checkout@v3</span>
+      
+      <span class="c1"># ... 其他构建步骤 ...</span>
+      
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload artifact</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-pages-artifact@v1</span>
+        <span class="na">with</span><span class="pi">:</span>
+          <span class="na">path</span><span class="pi">:</span> <span class="s">./_site</span>
 
-<span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload Pages artifact</span>
-  <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-pages-artifact@v2</span>
-  <span class="na">with</span><span class="pi">:</span>
-    <span class="na">path</span><span class="pi">:</span> <span class="s">./_site</span>
+  <span class="c1"># 部署任务</span>
+  <span class="na">deploy</span><span class="pi">:</span>
+    <span class="na">environment</span><span class="pi">:</span>
+      <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
+      <span class="na">url</span><span class="pi">:</span> <span class="s">$</span>
+    <span class="na">runs-on</span><span class="pi">:</span> <span class="s">ubuntu-latest</span>
+    <span class="na">needs</span><span class="pi">:</span> <span class="s">build</span>
+    <span class="na">if</span><span class="pi">:</span> <span class="s">github.ref == 'refs/heads/main'</span>
+    <span class="na">steps</span><span class="pi">:</span>
+      <span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Deploy to GitHub Pages</span>
+        <span class="na">id</span><span class="pi">:</span> <span class="s">deployment</span>
+        <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/deploy-pages@v2</span>
 </code></pre></div></div>
 
 <blockquote>
-  <p><strong>重要注意事项</strong>：我们发现 <code class="language-plaintext highlighter-rouge">actions/upload-artifact@v3</code> 在某些 GitHub Actions 运行环境中可能不可用或不稳定。强烈建议使用 <code class="language-plaintext highlighter-rouge">actions/upload-artifact@v2</code>，该版本更稳定且与 GitHub Pages 部署流程兼容性更好。</p>
+  <p><strong>重要注意事项</strong>：我们发现使用单个任务来处理构建和部署在某些情况下可能会导致权限问题。推荐使用分离的构建和部署任务，并使用官方的 <code class="language-plaintext highlighter-rouge">actions/upload-pages-artifact</code> 和 <code class="language-plaintext highlighter-rouge">actions/deploy-pages</code> 动作。</p>
 </blockquote>
 
 <blockquote>
-  <p><strong>注意</strong>：我们在 2023-03-07 解决了一个与 <code class="language-plaintext highlighter-rouge">actions/upload-artifact</code> 相关的构建错误。如果您看到类似的错误，请确保您的工作流包含上述所有必要的配置和依赖，并使用 v2 版本而非 v3。</p>
+  <p><strong>注意</strong>：我们在 2023-03-07 解决了一个与 GitHub Actions 工作流相关的构建错误。如果您看到类似的错误，请确保您的工作流使用上述推荐的分离任务结构。</p>
 </blockquote>
 
 <h2 id="监控构建状态">监控构建状态</h2>
