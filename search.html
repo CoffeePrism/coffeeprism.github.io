@@ -1,19 +1,19 @@
 ---
 layout: default
-title: 搜索
+title: Search
 permalink: /search/
 ---
 
 <div class="search-page">
   <header class="page-header">
-    <h1 class="page-title">搜索</h1>
-    <p class="page-description">在 Coffee Prism 中搜索内容</p>
+    <h1 class="page-title">Search</h1>
+    <p class="page-description">Search for content on Coffee Prism</p>
   </header>
 
   <div class="search-container">
     <form id="search-form" action="javascript:void(0);">
       <div class="search-input-container">
-        <input type="text" id="search-input" placeholder="输入关键词..." class="search-input">
+        <input type="text" id="search-input" placeholder="Enter keywords..." class="search-input">
         <button type="submit" class="search-button">
           <i class="fas fa-search"></i>
         </button>
@@ -22,56 +22,56 @@ permalink: /search/
   </div>
 
   <div id="search-results" class="search-results">
-    <p class="search-message">请输入关键词开始搜索</p>
+    <p class="search-message">Enter keywords to start searching</p>
   </div>
 </div>
 
 <script>
   document.addEventListener('DOMContentLoaded', function() {
-    // 加载搜索索引
+    // Load search index
     var searchIndex = [];
     var searchData = [];
 
-    // 加载文章数据
+    // Load article data
     {% for post in site.posts %}
       searchData.push({
         title: "{{ post.title | escape }}",
         content: {{ post.content | strip_html | jsonify }},
         url: "{{ post.url | relative_url }}",
         date: "{{ post.date | date: '%Y-%m-%d' }}",
-        type: "文章",
+        type: "Article",
         categories: [{% for category in post.categories %}"{{ category }}"{% unless forloop.last %},{% endunless %}{% endfor %}],
         tags: [{% for tag in post.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
       });
     {% endfor %}
 
-    // 加载咖啡数据
+    // Load coffee data
     {% for coffee in site.coffee %}
       searchData.push({
         title: "{{ coffee.title | escape }}",
         content: {{ coffee.content | strip_html | jsonify }},
         url: "{{ coffee.url | relative_url }}",
         date: "",
-        type: "咖啡",
+        type: "Coffee",
         categories: [],
         tags: [{% for tag in coffee.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
       });
     {% endfor %}
 
-    // 加载设备数据
+    // Load equipment data
     {% for equipment in site.equipment %}
       searchData.push({
         title: "{{ equipment.title | escape }}",
         content: {{ equipment.content | strip_html | jsonify }},
         url: "{{ equipment.url | relative_url }}",
         date: "",
-        type: "设备",
+        type: "Equipment",
         categories: [],
         tags: [{% for tag in equipment.tags %}"{{ tag }}"{% unless forloop.last %},{% endunless %}{% endfor %}]
       });
     {% endfor %}
 
-    // 简单的搜索函数
+    // Simple search function
     function search(query) {
       query = query.toLowerCase();
       return searchData.filter(function(item) {
@@ -82,12 +82,12 @@ permalink: /search/
       });
     }
 
-    // 处理搜索表单提交
+    // Handle search form submission
     document.getElementById('search-form').addEventListener('submit', function(e) {
       e.preventDefault();
       var query = document.getElementById('search-input').value.trim();
       if (query.length < 2) {
-        document.getElementById('search-results').innerHTML = '<p class="search-message">请输入至少2个字符</p>';
+        document.getElementById('search-results').innerHTML = '<p class="search-message">Please enter at least 2 characters</p>';
         return;
       }
 
@@ -95,16 +95,16 @@ permalink: /search/
       displayResults(results, query);
     });
 
-    // 显示搜索结果
+    // Display search results
     function displayResults(results, query) {
       var resultsContainer = document.getElementById('search-results');
       
       if (results.length === 0) {
-        resultsContainer.innerHTML = '<p class="search-message">没有找到与 "' + query + '" 相关的内容</p>';
+        resultsContainer.innerHTML = '<p class="search-message">No results found for "' + query + '"</p>';
         return;
       }
 
-      var html = '<h2>搜索结果 (' + results.length + ')</h2><ul class="search-results-list">';
+      var html = '<h2>Search Results (' + results.length + ')</h2><ul class="search-results-list">';
       
       results.forEach(function(item) {
         html += '<li class="search-result-item">';
@@ -117,7 +117,7 @@ permalink: /search/
         }
         html += '</div>';
         
-        // 提取包含查询词的内容片段
+        // Extract content snippet containing the query
         var contentPreview = getContentPreview(item.content, query, 200);
         html += '<p class="search-result-preview">' + contentPreview + '</p>';
         
@@ -136,21 +136,21 @@ permalink: /search/
       resultsContainer.innerHTML = html;
     }
 
-    // 获取内容预览，尝试找到包含查询词的片段
+    // Get content preview, try to find snippet containing the query
     function getContentPreview(content, query, maxLength) {
       var lowerContent = content.toLowerCase();
       var queryIndex = lowerContent.indexOf(query.toLowerCase());
       
       if (queryIndex === -1) {
-        // 如果没有找到查询词，返回内容开头
+        // If query not found, return beginning of content
         return content.substring(0, maxLength) + '...';
       }
       
-      // 计算预览的起始和结束位置
+      // Calculate preview start and end positions
       var start = Math.max(0, queryIndex - 100);
       var end = Math.min(content.length, queryIndex + query.length + 100);
       
-      // 调整以避免截断单词
+      // Adjust to avoid cutting words
       while (start > 0 && content[start] !== ' ' && content[start] !== '.') {
         start--;
       }
@@ -161,7 +161,7 @@ permalink: /search/
       
       var preview = content.substring(start, end);
       
-      // 添加省略号
+      // Add ellipses
       if (start > 0) {
         preview = '...' + preview;
       }
@@ -170,7 +170,7 @@ permalink: /search/
         preview = preview + '...';
       }
       
-      // 高亮查询词
+      // Highlight query terms
       var regex = new RegExp('(' + query + ')', 'gi');
       preview = preview.replace(regex, '<strong>$1</strong>');
       

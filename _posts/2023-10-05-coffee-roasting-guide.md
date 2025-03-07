@@ -1,309 +1,327 @@
 ---
 layout: post
-title: "咖啡烘焙指南：从生豆到完美烘焙"
+title: "Coffee Roasting Guide: From Green Beans to Perfect Roast"
 date: 2023-10-05
 author: Coffee Prism
 categories: [coffee-knowledge]
-tags: [咖啡烘焙, 烘焙度, 家庭烘焙, 生豆]
+tags: [roasting, green-beans, coffee-beans, roast-levels]
 featured_image: /assets/images/coffee-roasting.jpg
 featured: true
-excerpt: "探索咖啡烘焙的艺术与科学，学习如何在家中烘焙出完美的咖啡豆。"
+excerpt: "Discover the art and science of coffee roasting, from basic principles to advanced techniques for coffee enthusiasts."
+lang: en
 ---
 
-# 咖啡烘焙指南：从生豆到完美烘焙
-
-咖啡烘焙是一门将生豆转化为香气四溢的烘焙豆的艺术与科学。通过烘焙过程，咖啡豆内部发生复杂的化学反应，形成我们所熟悉的咖啡风味。无论你是想要开始家庭烘焙的爱好者，还是对咖啡烘焙过程感兴趣的咖啡爱好者，本文都将为你提供全面的咖啡烘焙知识。
+# Coffee Roasting Guide: From Green Beans to Perfect Roast
 
-## 咖啡烘焙的基本原理
-
-### 烘焙过程中发生了什么？
-
-咖啡烘焙是一个将生豆中的水分蒸发并触发一系列化学反应的过程。主要阶段包括：
-
-1. **干燥阶段**：水分蒸发，豆子从绿色变为黄色
-2. **美拉德反应**：糖和氨基酸反应，形成数百种香气化合物
-3. **焦糖化**：糖分分解，形成焦糖风味
-4. **一爆**：豆子内部水分急剧膨胀，发出类似爆米花的声音
-5. **发展阶段**：风味进一步发展，酸度降低，苦味增加
-6. **二爆**（深度烘焙）：油脂开始渗出，发出更轻微的爆裂声
+Coffee roasting is both an art and a science that transforms raw, green coffee beans into the aromatic and flavorful beans we use to brew our favorite beverage. The roasting process is crucial as it develops the complex flavors locked within the green coffee beans. This comprehensive guide explores the fundamentals of coffee roasting, from understanding the basic principles to mastering various roasting techniques.
 
-### 关键参数
+## Understanding the Basics of Coffee Roasting
 
-烘焙过程中需要控制的关键参数包括：
+### What Happens During Roasting?
 
-- **温度曲线**：整个烘焙过程中温度的变化
-- **时间**：总烘焙时间和各阶段的持续时间
-- **热传递率**：热量传递给咖啡豆的速度
-- **气流**：影响热量分布和烟气排出
-- **豆子转动**：确保均匀烘焙
-
-## 烘焙度及其特点
-
-不同的烘焙度会带来不同的风味特点。以下是主要烘焙度及其特征：
-
-### 浅烘焙（Light Roast）
-
-- **外观**：浅棕色，表面无油脂
-- **一爆**：刚完成一爆或一爆后不久结束
-- **风味特点**：
-  - 保留原产地特性
-  - 酸度明显
-  - 花香和水果风味突出
-  - 口感较轻盈
-- **适合产地**：埃塞俄比亚、肯尼亚、中美洲高海拔咖啡
-
-### 中烘焙（Medium Roast）
-
-- **外观**：中棕色，表面略有光泽但无明显油脂
-- **一爆**：一爆后持续发展一段时间
-- **风味特点**：
-  - 平衡的酸度和甜度
-  - 焦糖和巧克力风味开始显现
-  - 保留部分原产地特性
-  - 口感均衡
-- **适合产地**：哥伦比亚、哥斯达黎加、危地马拉
-
-### 中深烘焙（Medium-Dark Roast）
-
-- **外观**：深棕色，表面开始出现少量油脂
-- **一爆**：一爆后持续较长时间，接近二爆
-- **风味特点**：
-  - 酸度降低
-  - 苦甜感增强
-  - 巧克力、焦糖和坚果风味明显
-  - 口感丰富
-- **适合产地**：巴西、印尼、印度
-
-### 深烘焙（Dark Roast）
-
-- **外观**：深褐色至近黑色，表面有明显油脂
-- **爆裂**：经历二爆
-- **风味特点**：
-  - 酸度很低
-  - 苦味明显
-  - 烟熏和烘烤风味
-  - 口感浓郁
-- **适合产地**：苏门答腊、巴西、罗布斯塔混合
-
-## 家庭咖啡烘焙设备
-
-### 入门级设备
-
-1. **热风爆米花机**
-   - **优点**：价格低廉，操作简单
-   - **缺点**：控制精度低，烘焙均匀度不佳
-   - **适合人群**：初学者，想要尝试烘焙的爱好者
-
-2. **改装的空气炸锅**
-   - **优点**：价格适中，热风循环效果好
-   - **缺点**：批次量小，需要改装
-   - **适合人群**：DIY爱好者
+Coffee roasting is a complex process that involves both physical and chemical transformations. When green coffee beans are subjected to heat, they undergo several key changes:
 
-3. **平底锅/烤箱**
-   - **优点**：几乎零成本，使用家中现有设备
-   - **缺点**：控制困难，容易烘焙不均
-   - **适合人群**：只想尝试一两次的好奇者
-
-### 进阶设备
-
-1. **家用鼓风烘焙机**
-   - **代表产品**：Fresh Roast SR540, KALDI
-   - **优点**：专为咖啡烘焙设计，控制较精确
-   - **缺点**：批次量仍然有限（通常100-250克）
-   - **适合人群**：认真的家庭烘焙爱好者
-
-2. **热风烘焙机**
-   - **代表产品**：Behmor 1600 Plus
-   - **优点**：较大批次量，预设程序简化操作
-   - **缺点**：精确控制有限
-   - **适合人群**：需要烘焙较大量咖啡的家庭
-
-3. **半专业鼓风烘焙机**
-   - **代表产品**：Aillio Bullet R1
-   - **优点**：数据记录，精确控制，可重复性高
-   - **缺点**：价格较高
-   - **适合人群**：发烧友，小型咖啡馆
-
-## 家庭烘焙步骤指南
-
-### 准备工作
-
-1. **选择合适的生豆**
-   - 考虑产地、处理方式和预期烘焙度
-   - 初学者建议从中美洲或南美洲的咖啡豆开始
-
-2. **准备设备**
-   - 烘焙设备
-   - 温度计（如果设备没有内置）
-   - 计时器
-   - 冷却盘/筛子
-   - 风扇（用于快速冷却）
-   - 记录工具
-
-3. **了解您的设备**
-   - 熟悉设备的热特性
-   - 了解温度控制方式
-   - 预热设备（如需要）
-
-### 烘焙过程
-
-1. **加载生豆**
-   - 根据设备容量添加适量生豆
-   - 确保豆子能够均匀翻动
-
-2. **初始干燥阶段**
-   - 温度：150-180°C
-   - 目标：均匀去除水分
-   - 观察：豆子从绿色变为黄色
-
-3. **发展阶段**
-   - 温度：180-210°C
-   - 目标：促进美拉德反应和焦糖化
-   - 观察：豆子变为浅棕色，体积开始增大
-
-4. **一爆阶段**
-   - 温度：约210-220°C
-   - 特征：豆子发出类似爆米花的声音
-   - 决策点：根据目标烘焙度决定一爆后继续的时间
-
-5. **完成烘焙**
-   - 浅烘焙：一爆刚结束或一爆后30秒内
-   - 中烘焙：一爆后1-2分钟
-   - 中深烘焙：一爆后2-3分钟
-   - 深烘焙：接近或进入二爆
-
-6. **快速冷却**
-   - 立即将豆子倒入冷却盘
-   - 使用风扇加速冷却
-   - 目标：2-3分钟内降至室温
+1. **Moisture Evaporation**: Green coffee beans contain approximately 10-12% moisture. As roasting begins, this moisture starts to evaporate, causing the beans to dry out.
 
-### 后续处理
+2. **Maillard Reaction**: This chemical reaction between amino acids and reducing sugars creates hundreds of different aromatic compounds and contributes to the development of flavor and color.
 
-1. **去除银皮**
-   - 轻轻摇动或吹风去除松散的银皮
-   - 可使用筛子辅助
+3. **Caramelization**: Sugars within the bean begin to caramelize, creating sweetness and additional complexity in the flavor profile.
 
-2. **排气**
-   - 将烘焙好的豆子放入有单向排气阀的袋子中
-   - 排气时间：12-24小时
-
-3. **储存**
-   - 使用密封容器，避免阳光直射
-   - 最佳饮用窗口：排气后3-14天
-
-## 烘焙记录与改进
-
-### 记录要点
-
-保持详细的烘焙日志对于提高烘焙技术至关重要。记录以下信息：
-
-1. **生豆信息**
-   - 产地、品种、处理方法
-   - 购买日期和供应商
-
-2. **烘焙参数**
-   - 预热温度
-   - 投豆温度
-   - 一爆时间和温度
-   - 结束时间和温度
-   - 总烘焙时间
-   - 发展时间比（一爆后时间/总时间）
-
-3. **感官评估**
-   - 外观（颜色、均匀度）
-   - 香气
-   - 风味描述
-   - 平衡度和整体评价
-
-### 常见问题及解决方案
-
-1. **烘焙不均**
-   - **原因**：豆子翻动不足或热量分布不均
-   - **解决方案**：减少批次量，确保充分翻动
-
-2. **烘焙过快**
-   - **原因**：初始温度过高或热量传递过快
-   - **解决方案**：降低初始温度，控制热量输入
-
-3. **烘焙过慢**
-   - **原因**：设备功率不足或批次量过大
-   - **解决方案**：减少批次量，提高环境温度
-
-4. **风味单一或平淡**
-   - **原因**：发展时间不足或过长
-   - **解决方案**：调整一爆后的发展时间
-
-## 风味与烘焙的关系
-
-### 如何通过烘焙强调特定风味
-
-1. **强调酸度和水果风味**
-   - 选择浅烘焙
-   - 较短的发展时间
-   - 较快的整体烘焙速度
-
-2. **强调甜度和平衡感**
-   - 选择中烘焙
-   - 适中的发展时间
-   - 均匀的温度曲线
-
-3. **强调醇厚感和巧克力风味**
-   - 选择中深烘焙
-   - 较长的发展时间
-   - 控制好一爆后的热量输入
-
-### 不同咖啡豆的烘焙建议
-
-1. **高海拔、高密度豆**（如埃塞俄比亚耶加雪菲）
-   - 需要更高的初始热量
-   - 可以承受更快的烘焙速度
-   - 通常在浅中烘焙表现最佳
-
-2. **中等密度豆**（如哥伦比亚、危地马拉）
-   - 适合均衡的烘焙曲线
-   - 在中烘焙至中深烘焙范围内表现多样
-
-3. **低密度豆**（如巴西、印尼）
-   - 需要更温和的热量输入
-   - 容易过度烘焙
-   - 通常在中深烘焙表现最佳
-
-## 结语
-
-咖啡烘焙是一门需要耐心和实践的艺术。通过了解基本原理、掌握关键技术并保持详细记录，你可以在家中创造出符合个人口味的完美烘焙咖啡。记住，最好的烘焙是能够突出咖啡豆本身特性的烘焙，而这需要不断的尝试和调整。
-
-希望这篇指南能够帮助你开始或提升你的咖啡烘焙之旅。无论你是刚刚起步还是已经有一定经验，持续学习和实验都是提高烘焙技术的关键。祝你烘焙愉快！
-
-{% assign home_roaster = site.data.products.home_roaster | first %}
-{% assign green_beans = site.data.products.green_beans | first %}
-{% assign roasting_book = site.data.products.roasting_book | first %}
-
-{% if home_roaster %}
-  {% include product-card.html 
-    name=home_roaster.name 
-    description=home_roaster.description 
-    image=home_roaster.image 
-    price=home_roaster.price 
-    amazon_id=home_roaster.amazon_id 
-  %}
+4. **First Crack**: At around 385-400°F (196-204°C), the beans undergo a physical change known as "first crack," where the built-up pressure causes them to expand and produce an audible cracking sound. This marks the transition from light to medium roast.
+
+5. **Development Phase**: After the first crack, flavor compounds continue to develop, and the roast character becomes more pronounced.
+
+6. **Second Crack**: If roasting continues to around 435-450°F (224-232°C), a "second crack" occurs as oils within the bean begin to migrate to the surface. This indicates the beginning of dark roasts.
+
+### The Importance of Roast Profiles
+
+A roast profile is essentially a blueprint for how a coffee will be roasted, tracking key variables such as:
+
+- **Time**: The total duration of the roast and the time between significant events (first crack, second crack)
+- **Temperature**: The rate of temperature increase (known as the rate of rise or RoR)
+- **Heat Application**: How and when heat is applied or reduced during different stages of the roast
+
+Developing effective roast profiles is essential for consistently producing quality coffee, as it allows roasters to replicate successful results and make deliberate adjustments to enhance specific flavor characteristics.
+
+## Coffee Roasting Equipment
+
+### Home Roasting Options
+
+For coffee enthusiasts interested in home roasting, several equipment options exist:
+
+1. **Air Popcorn Poppers**: An affordable entry point for home roasting, though they offer limited control over the roasting process.
+   - Pros: Inexpensive, easily available
+   - Cons: Small batch size (typically 2-4 oz), limited temperature control, short lifespan when used for coffee
+
+2. **Heat Gun & Metal Bowl**: A budget DIY approach.
+   - Pros: Low initial investment, relatively good control
+   - Cons: Labor-intensive, learning curve for consistent results
+
+3. **Stovetop Roasters**: Purpose-built for roasting on conventional stoves.
+   - Pros: Simple to use, moderately priced
+   - Cons: Limited batch size, requires constant attention
+
+4. **Dedicated Home Coffee Roasters**: Specifically designed for coffee roasting.
+   - Entry-level options (e.g., Fresh Roast SR540): $200-300 range, 4-5 oz capacity
+   - Mid-range options (e.g., Behmor 1600 Plus): $400-500 range, up to 1 lb capacity
+   - High-end options (e.g., Aillio Bullet R1): $2,000+ range, 1-2 lb capacity with data logging and profile control
+
+### Commercial Roasting Equipment
+
+For professionals and serious enthusiasts:
+
+1. **Drum Roasters**: The standard in the industry, where beans tumble inside a rotating drum heated by gas, electricity, or even wood.
+   - Small commercial: 5-12 kg capacity
+   - Medium commercial: 15-30 kg capacity
+   - Large commercial: 30-120 kg capacity
+
+2. **Fluid Bed (Air) Roasters**: Use hot air to roast and agitate the beans.
+   - Pros: Clean roasting, even heat distribution
+   - Cons: Typically smaller batch sizes than drum roasters
+
+3. **Hybrid Roasters**: Combine elements of both drum and fluid bed roasting.
+
+## Understanding Roast Levels
+
+Roast levels significantly impact coffee's flavor profile. Here's a breakdown of the common roast levels and their characteristics:
+
+### Light Roast (City Roast)
+
+- **Temperature**: 385-400°F (196-204°C), just after first crack begins
+- **Appearance**: Light brown color, no oil on the surface
+- **Flavor Characteristics**: 
+  - Higher acidity
+  - Pronounced origin characteristics
+  - More complex, nuanced flavors
+  - Bright, vibrant notes (floral, fruity, citrusy)
+  - Higher caffeine content
+- **Best for**: Single-origin coffees with distinctive characteristics, especially from Ethiopia, Kenya, or Central America
+
+### Medium Roast (City+ to Full City)
+
+- **Temperature**: 410-430°F (210-221°C), after first crack has completed but before second crack
+- **Appearance**: Medium brown color, still no oil on the surface
+- **Flavor Characteristics**:
+  - Balanced acidity and body
+  - Caramel sweetness emerges
+  - Some origin characteristics preserved with added roast influence
+  - Chocolate, nut, and caramel notes become more prominent
+- **Best for**: Versatile brewing methods, balanced espresso, and all-day drinking
+
+### Medium-Dark Roast (Full City+)
+
+- **Temperature**: 435-445°F (224-229°C), at the beginning of second crack
+- **Appearance**: Dark brown color, some oil beginning to show on the surface
+- **Flavor Characteristics**:
+  - Lower acidity
+  - Fuller body
+  - More pronounced bittersweet notes
+  - Chocolate, dark caramel, toasted nut flavors
+  - Some spicy characteristics
+- **Best for**: Espresso, moka pot, French press
+
+### Dark Roast (Vienna, French, Italian)
+
+- **Temperature**: 445-465°F (229-240°C), well into second crack
+- **Appearance**: Very dark brown to almost black, oily surface
+- **Flavor Characteristics**:
+  - Low acidity
+  - Heavy body
+  - Pronounced bitterness
+  - Smoky, burnt sugar notes
+  - Dominant roast character over origin characteristics
+- **Best for**: Espresso blends, particularly in milk-based drinks, traditional Italian-style coffee
+
+## The Coffee Roasting Process: Step by Step
+
+### 1. Sourcing Quality Green Beans
+
+The quality of your roasted coffee is directly dependent on the quality of the green beans used. Key considerations when sourcing:
+
+- **Variety**: Arabica varieties (Bourbon, Typica, Gesha, etc.) versus Robusta
+- **Origin**: Country, region, even specific farms or micro-lots
+- **Processing Method**: Washed, natural, honey processed
+- **Crop Year**: Freshness of the green coffee
+- **Quality Grade**: Specialty (80+ points) versus commercial grade
+
+### 2. Preparing for the Roast
+
+- **Bean Selection**: Choose beans based on desired flavor profile and brewing method
+- **Batch Size**: Determine appropriate amount based on your equipment
+- **Equipment Check**: Ensure roaster is clean and functioning properly
+- **Data Recording Setup**: Prepare logging method (software, paper, etc.)
+
+### 3. The Roasting Phases
+
+#### Drying Phase (0-30% of roast time)
+- Green beans absorb heat and moisture evaporates
+- Beans turn from green to yellow
+- Temperature typically ranges from room temperature to 300°F (150°C)
+- Aim for gradual temperature increase
+
+#### Browning/Development Phase (30-70% of roast time)
+- Maillard reaction begins
+- Beans change from yellow to light brown
+- Aromas shift from grassy to bread-like, then to sweet
+- Temperature typically ranges from 300-380°F (150-193°C)
+
+#### First Crack and Development (70-90% of roast time)
+- First crack occurs around 385-400°F (196-204°C)
+- Beans expand and cellular structure breaks down
+- Development time (time from first crack to end of roast) is crucial for flavor development
+- For light roasts: 1-1.5 minutes after first crack begins
+- For medium roasts: 1.5-2.5 minutes after first crack completes
+- For dark roasts: Continue to second crack
+
+#### Finishing the Roast (90-100% of roast time)
+- Careful monitoring of color, aroma, and sound
+- Second crack (if desired) occurs around 435-450°F (224-232°C)
+- Controlling the rate of rise becomes critical to avoid scorching
+
+### 4. Cooling
+
+Rapid cooling is essential to stop the roasting process and preserve the developed flavors. Methods include:
+
+- Built-in cooling cycles on commercial or home roasters
+- Cooling trays with forced air
+- Transferring beans to metal colanders and stirring
+
+### 5. Resting
+
+Freshly roasted coffee contains significant CO2 and other gases that need time to dissipate. General resting guidelines:
+
+- Espresso: 7-10 days for optimal extraction
+- Filter/drip coffee: 1-5 days
+- Light roasts typically need less rest time than dark roasts
+
+## Advanced Roasting Techniques
+
+### Profiling for Different Coffee Origins
+
+Different origins and varieties respond better to specific roasting approaches:
+
+#### African Coffees (Ethiopia, Kenya)
+- Often benefit from lighter roasts to preserve floral and fruit notes
+- Gentle heat application during development phase
+- Quick development time after first crack for maximum acidity and clarity
+
+#### Central American Coffees (Guatemala, Costa Rica)
+- Versatile for various roast levels
+- Medium roasts often highlight the balanced sweetness and chocolate notes
+- Moderate development times for balanced profiles
+
+#### South American Coffees (Brazil, Colombia)
+- Can handle slightly faster roasts
+- Medium to medium-dark roasts enhance nutty, chocolate characteristics
+- Well-suited for espresso development profiles with slightly longer development times
+
+#### Indonesian Coffees (Sumatra, Java)
+- Often benefit from slightly darker roasts
+- Can handle higher charge temperatures
+- Longer development times to smooth out earthy characteristics
+
+### Managing Roast Defects
+
+Common roasting defects and how to avoid them:
+
+#### Underdevelopment
+- **Symptoms**: Grassy, sour, hay-like flavors; uneven coloration
+- **Causes**: Too short development time, too low final temperature
+- **Prevention**: Ensure adequate development time after first crack, use appropriate end temperature for bean density
+
+#### Baking
+- **Symptoms**: Flat, dull, cardboard-like flavor; muted acidity
+- **Causes**: Too long roast time with insufficient heat (stalling)
+- **Prevention**: Maintain proper momentum throughout the roast, avoid plateaus in temperature
+
+#### Scorching
+- **Symptoms**: Ashy flavors, uneven coloration, burnt spots on beans
+- **Causes**: Too high charge temperature, poor drum speed, uneven heat distribution
+- **Prevention**: Appropriate charge temperature for bean density, proper agitation
+
+#### Tipping
+- **Symptoms**: Small burned spots on the ends of beans
+- **Causes**: Too rapid heat application, especially early in the roast
+- **Prevention**: More gentle heat application, especially in the early stages
+
+### Blending Strategies
+
+Creating effective coffee blends through roasting:
+
+#### Pre-Roast Blending
+- Combining different green beans before roasting
+- **Pros**: Convenience, single roasting process
+- **Cons**: Different beans respond differently to heat, potentially leading to uneven roasting
+
+#### Post-Roast Blending
+- Roasting different beans separately then combining
+- **Pros**: Each bean can be roasted to its optimal profile
+- **Cons**: More time-consuming, requires multiple roasting sessions
+
+#### Component Selection for Blending
+- **Body components**: Brazilian, Indonesian coffees
+- **Sweetness components**: Colombian, Guatemalan coffees
+- **Complexity/brightness components**: Ethiopian, Kenyan coffees
+
+## Record Keeping and Consistency
+
+Maintaining detailed records is essential for reproducible results:
+
+### Essential Data Points to Track
+- Green bean information (origin, variety, processing, lot)
+- Charge weight and temperature
+- Time and temperature at color changes
+- Time and temperature at first and second crack
+- Total roast time
+- Development time ratio (DTR)
+- Rate of rise at key points
+- Final temperature
+- Cooling time
+
+### Cupping and Evaluation
+
+Systematic tasting to evaluate and improve roasts:
+
+1. **Setup**: Prepare samples consistently (e.g., SCA cupping protocol)
+2. **Fragrance/Aroma**: Evaluate dry and wet aromas
+3. **Flavor/Acidity/Body**: Assess when coffee is hot and as it cools
+4. **Record Findings**: Document experiences for future reference
+5. **Comparative Analysis**: Cup multiple roast profiles of the same bean
+
+## Sustainable and Ethical Roasting Practices
+
+### Environmental Considerations
+- Energy-efficient roasting equipment
+- Afterburners or catalytic oxidizers to reduce emissions
+- Chaff collection and composting
+- Green bean packaging recycling
+
+### Ethical Sourcing
+- Direct trade relationships
+- Fair pricing above commodity market
+- Transparency in supply chain
+- Support for coffee-growing communities
+
+## Conclusion
+
+Coffee roasting is a rewarding journey that combines science, craftsmanship, and sensory evaluation. Whether you're a home enthusiast experimenting with small batches or aspiring to professional roasting, understanding the fundamentals of the roasting process empowers you to create coffees tailored to your preferences.
+
+Remember that mastery comes with practice and attention to detail. Be methodical in your approach, keep detailed records, and most importantly, trust your senses. The perfect roast is ultimately the one that creates flavors you enjoy.
+
+As you progress in your roasting journey, continue to explore different origins, varieties, and processing methods. Each bean tells a story of its origin, and through careful roasting, you become the translator of that story into the cup.
+
+## Recommended Equipment for Home Roasters
+
+{% assign roaster_product = site.data.products.coffee_roasters | first %}
+{% if roaster_product %}
+### {{ roaster_product.name }}
+{{ roaster_product.description }}
+[View Product]({{ roaster_product.url }})
 {% endif %}
 
-{% if green_beans %}
-  {% include product-card.html 
-    name=green_beans.name 
-    description=green_beans.description 
-    image=green_beans.image 
-    price=green_beans.price 
-    amazon_id=green_beans.amazon_id 
-  %}
-{% endif %}
-
-{% if roasting_book %}
-  {% include product-card.html 
-    name=roasting_book.name 
-    description=roasting_book.description 
-    image=roasting_book.image 
-    price=roasting_book.price 
-    amazon_id=roasting_book.amazon_id 
-  %}
+{% assign thermometer_product = site.data.products.thermometers | first %}
+{% if thermometer_product %}
+### {{ thermometer_product.name }}
+{{ thermometer_product.description }}
+[View Product]({{ thermometer_product.url }})
 {% endif %} 

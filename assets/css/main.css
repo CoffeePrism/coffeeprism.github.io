@@ -742,7 +742,7 @@ img {
 .tag-size-6 { font-size: 1.8rem; }
 .tag-size-7 { font-size: 2rem; }
 
-/* 智能图片样式 */
+/* Smart image styles */
 .post-featured-image img,
 .featured-image img,
 .article-image img {
@@ -763,14 +763,14 @@ img {
   height: 220px;
 }
 
-/* 图片悬停效果 */
+/* Image hover effects */
 .featured-image img:hover,
 .article-image img:hover {
   transform: translateY(-5px);
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.15);
 }
 
-/* 图片加载动画 */
+/* Image loading animation */
 @keyframes imageFadeIn {
   from { opacity: 0; }
   to { opacity: 1; }
