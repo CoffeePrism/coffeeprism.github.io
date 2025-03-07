@@ -46,9 +46,9 @@ warning on save .github/workflows/*.yml if not content matches /permissions:/ {
   severity: high
 }
 
-warning on save .github/workflows/*.yml if content matches /uses: actions\/upload-pages-artifact/ and not content matches /uses: actions\/upload-artifact@v2/ {
-  message: "⚠️ Missing upload-artifact dependency in GitHub Actions workflow"
-  description: "The upload-pages-artifact action requires the upload-artifact action as a dependency"
+warning on save .github/workflows/*.yml if not content matches /concurrency:/ {
+  message: "⚠️ Missing concurrency configuration in GitHub Actions workflow"
+  description: "GitHub Pages workflows should include concurrency settings to prevent deployment conflicts"
   severity: high
 }
 

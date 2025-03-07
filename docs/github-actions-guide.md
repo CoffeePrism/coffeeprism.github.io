@@ -21,40 +21,56 @@
 
 ```yaml
 permissions:
-  contents: write  # 允许工作流修改仓库内容
-  pages: write     # 允许工作流操作 GitHub Pages
-  id-token: write  # 允许工作流使用 OIDC 令牌
+  contents: read  # 允许工作流读取仓库内容
+  pages: write    # 允许工作流操作 GitHub Pages
+  id-token: write # 允许工作流使用 OIDC 令牌
 ```
 
-### 必要的环境配置
+### 并发控制设置
 
 ```yaml
-environment:
-  name: github-pages
-  url: ${{ steps.deployment.outputs.page_url }}
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
 ```
 
-### 动作依赖关系
+### 工作流结构
 
-某些 GitHub Actions 动作依赖于其他动作。例如，`actions/upload-pages-artifact` 依赖于 `actions/upload-artifact`。确保包含所有必要的动作：
+我们使用两个独立的任务来分离构建和部署步骤，这提高了工作流的稳定性：
 
 ```yaml
-- name: Upload artifact
-  uses: actions/upload-artifact@v2
-  with:
-    name: github-pages
-    path: ./_site
-    if-no-files-found: error
+jobs:
+  # 构建任务
+  build:
+    runs-on: ubuntu-latest
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v3
+      
+      # ... 其他构建步骤 ...
+      
+      - name: Upload artifact
+        uses: actions/upload-pages-artifact@v1
+        with:
+          path: ./_site
 
-- name: Upload Pages artifact
-  uses: actions/upload-pages-artifact@v2
-  with:
-    path: ./_site
+  # 部署任务
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: build
+    if: github.ref == 'refs/heads/main'
+    steps:
+      - name: Deploy to GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2
 ```
 
-> **重要注意事项**：我们发现 `actions/upload-artifact@v3` 在某些 GitHub Actions 运行环境中可能不可用或不稳定。强烈建议使用 `actions/upload-artifact@v2`，该版本更稳定且与 GitHub Pages 部署流程兼容性更好。
+> **重要注意事项**：我们发现使用单个任务来处理构建和部署在某些情况下可能会导致权限问题。推荐使用分离的构建和部署任务，并使用官方的 `actions/upload-pages-artifact` 和 `actions/deploy-pages` 动作。
 
-> **注意**：我们在 2023-03-07 解决了一个与 `actions/upload-artifact` 相关的构建错误。如果您看到类似的错误，请确保您的工作流包含上述所有必要的配置和依赖，并使用 v2 版本而非 v3。
+> **注意**：我们在 2023-03-07 解决了一个与 GitHub Actions 工作流相关的构建错误。如果您看到类似的错误，请确保您的工作流使用上述推荐的分离任务结构。
 
 ## 监控构建状态
 
