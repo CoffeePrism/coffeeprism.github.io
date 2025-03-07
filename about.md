@@ -1,165 +1,361 @@
----
-layout: default
-title: About Us
-permalink: /about/
----
-
-<div class="about-page">
-  <div class="container">
-    <header class="page-header">
-      <h1 class="page-title">About Coffee Prism</h1>
-      <p class="page-description">Exploring the Colorful World of Coffee</p>
-    </header>
-
-    <div class="about-content">
-      <div class="row">
-        <div class="col-md-8">
-          <div class="about-section card">
-            <h2>Our Story</h2>
-            <p>Coffee Prism was born from a love of coffee and a desire to share knowledge. As a group of coffee enthusiasts, we discovered that coffee is like a prism, able to refract a rich spectrum of flavors, cultures, and experiences. Through this platform, we hope to help more people explore the wonderful world of coffee, from the cultivation of coffee beans to the perfect drop in your cup.</p>
-
-            <h2>Our Mission</h2>
-            <p>Our mission is to provide accurate, practical coffee knowledge and product recommendations to help coffee lovers brew better coffee at home. Whether you're a coffee novice or a seasoned enthusiast, we aim to offer valuable information and advice for your coffee journey.</p>
-          </div>
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>About Coffee Prism - Our Story and Mission</title>
+  <meta name="description" content="Learn about Coffee Prism's mission to make specialty coffee accessible to everyone through education, guides, and recommendations.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  
+  <!-- PWA Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3a2618">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Coffee Prism">
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="preload" href="/assets/js/main.js" as="script">
+  <link rel="preload" href="/assets/fonts/playfair-display-v30-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/montserrat-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="About Coffee Prism - Our Story and Mission">
+  <meta property="og:description" content="Learn about Coffee Prism's mission to make specialty coffee accessible to everyone through education, guides, and recommendations.">
+  <meta property="og:image" content="/assets/images/og-image.jpg">
+  <meta property="og:url" content="https://www.coffeeprism.com/about/">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="About Coffee Prism - Our Story and Mission">
+  <meta name="twitter:description" content="Learn about Coffee Prism's mission to make specialty coffee accessible to everyone through education, guides, and recommendations.">
+  <meta name="twitter:image" content="/assets/images/og-image.jpg">
+</head>
+<body>
+  <!-- Skip to main content for accessibility -->
+  <a href="#main-content" class="skip-link">Skip to main content</a>
+  
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <a href="/">
+            <img src="/assets/images/logo.png" alt="Coffee Prism Logo">
+            <span class="logo-text">Coffee Prism</span>
+          </a>
         </div>
         
-        <div class="col-md-4">
-          <div class="about-image card">
-            <img src="{{ '/assets/images/about-coffee.jpg' | relative_url }}" alt="Coffee brewing" class="img-responsive">
-          </div>
-        </div>
-      </div>
-      
-      <div class="about-section card">
-        <h2>Our Content</h2>
-        <div class="row">
-          <div class="col-md-6">
-            <div class="content-category">
-              <i class="fas fa-book"></i>
-              <h3>Coffee Knowledge</h3>
-              <p>Comprehensive information on growing, processing, roasting, and brewing coffee</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="content-category">
-              <i class="fas fa-globe-americas"></i>
-              <h3>Coffee Origin Guides</h3>
-              <p>Exploration of coffee regions around the world and their unique flavors</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="content-category">
-              <i class="fas fa-coffee"></i>
-              <h3>Equipment Reviews</h3>
-              <p>Objective evaluations of various coffee equipment</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="content-category">
-              <i class="fas fa-hand-paper"></i>
-              <h3>Brewing Techniques</h3>
-              <p>Detailed brewing guides and technique sharing</p>
-            </div>
-          </div>
-          <div class="col-md-6">
-            <div class="content-category">
-              <i class="fas fa-shopping-cart"></i>
-              <h3>Product Recommendations</h3>
-              <p>Carefully selected coffee and coffee equipment recommendations</p>
-            </div>
-          </div>
-        </div>
-      </div>
-      
-      <div class="about-section card">
-        <h2>About Amazon Associates</h2>
-        <p>To maintain the operation of our website, we have joined the Amazon Associates program. This means that when you purchase products through links on our website, we may earn a small commission at no additional cost to you. We only recommend products we truly believe in, and all reviews and recommendations are based on our genuine experience and research.</p>
-      </div>
-
-      <div class="row">
-        <div class="col-md-6">
-          <div class="about-section card">
-            <h2>Contact Us</h2>
-            <p>If you have any questions, suggestions, or cooperation intentions, please don't hesitate to contact us:</p>
-            <p><strong>Email:</strong> <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a></p>
-            <div class="contact-btn-container">
-              <a href="{{ '/contact/' | relative_url }}" class="btn">Contact Us</a>
-            </div>
-          </div>
-        </div>
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <i class="fas fa-bars"></i>
+        </button>
         
-        <div class="col-md-6">
-          <div class="about-section card">
-            <h2>Join Us</h2>
-            <p>We welcome writers who are passionate about coffee to join our team. If you're interested in contributing content to Coffee Prism, please contact us through the above methods.</p>
-            <div class="contact-btn-container">
-              <a href="{{ '/contact/' | relative_url }}" class="btn btn-secondary">Become a Contributor</a>
-            </div>
-          </div>
-        </div>
+        <nav>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/coffee/" class="nav-link">Coffee</a></li>
+            <li class="nav-item"><a href="/brewing/" class="nav-link">Brewing</a></li>
+            <li class="nav-item"><a href="/equipment/" class="nav-link">Equipment</a></li>
+            <li class="nav-item"><a href="/blog/" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="/about/" class="nav-link active">About</a></li>
+            <li class="nav-item"><a href="/contact/" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
       </div>
     </div>
-  </div>
-</div>
-
-<style>
-  .about-content {
-    margin-bottom: var(--spacing-xl);
-  }
+  </header>
   
-  .about-section {
-    margin-bottom: var(--spacing-lg);
-    padding: var(--spacing-lg);
-  }
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">About Coffee Prism</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">About</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    
+    <!-- Our Story Section -->
+    <section class="section">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-6 col-sm-12">
+            <div class="about-content slide-up">
+              <h2>Our Story</h2>
+              <p>Coffee Prism began in 2018 as a small blog dedicated to exploring the diverse world of specialty coffee. What started as a passion project by a group of coffee enthusiasts has grown into a comprehensive resource for coffee lovers of all experience levels.</p>
+              <p>Our name, "Coffee Prism," reflects our belief that coffee, like light through a prism, contains a spectrum of flavors, aromas, and experiences waiting to be discovered. We aim to help you see and appreciate all the colorful dimensions of this remarkable beverage.</p>
+              <p>Over the years, we've expanded our content to include brewing guides, equipment reviews, coffee bean recommendations, and educational resources about coffee origins and processing methods.</p>
+            </div>
+          </div>
+          
+          <div class="col col-md-6 col-sm-12">
+            <div class="about-image slide-up">
+              <img src="/assets/images/about-story.jpg" alt="Coffee Prism team at a coffee farm" class="rounded-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Our Mission Section -->
+    <section class="section bg-cream">
+      <div class="container">
+        <div class="row">
+          <div class="col col-md-6 col-sm-12 order-md-2">
+            <div class="about-content slide-up">
+              <h2>Our Mission</h2>
+              <p>At Coffee Prism, our mission is to make specialty coffee accessible to everyone through education, guides, and recommendations. We believe that great coffee should be approachable, not intimidating.</p>
+              <p>We strive to:</p>
+              <ul class="feature-list">
+                <li><i class="fas fa-check"></i> Demystify specialty coffee terminology and techniques</li>
+                <li><i class="fas fa-check"></i> Provide clear, practical brewing guides for all skill levels</li>
+                <li><i class="fas fa-check"></i> Highlight the stories of coffee producers around the world</li>
+                <li><i class="fas fa-check"></i> Offer honest, unbiased reviews of coffee equipment</li>
+                <li><i class="fas fa-check"></i> Foster a welcoming community for coffee enthusiasts</li>
+              </ul>
+            </div>
+          </div>
+          
+          <div class="col col-md-6 col-sm-12 order-md-1">
+            <div class="about-image slide-up">
+              <img src="/assets/images/about-mission.jpg" alt="Coffee cupping session" class="rounded-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Our Team Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Meet Our Team</h2>
+        
+        <div class="team-grid">
+          <div class="team-member fade-in">
+            <div class="team-image">
+              <img src="/assets/images/team-alex.jpg" alt="Alex Chen - Founder & Head Coffee Specialist">
+            </div>
+            <h3 class="team-name">Alex Chen</h3>
+            <p class="team-role">Founder & Head Coffee Specialist</p>
+            <p class="team-bio">Alex is a certified Q Grader with over 10 years of experience in the specialty coffee industry. They've worked as a barista, roaster, and coffee buyer before founding Coffee Prism.</p>
+            <div class="team-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          
+          <div class="team-member fade-in">
+            <div class="team-image">
+              <img src="/assets/images/team-maya.jpg" alt="Maya Rodriguez - Content Director">
+            </div>
+            <h3 class="team-name">Maya Rodriguez</h3>
+            <p class="team-role">Content Director</p>
+            <p class="team-bio">Maya brings her background in food journalism and passion for storytelling to Coffee Prism. She specializes in highlighting the human stories behind coffee production.</p>
+            <div class="team-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          
+          <div class="team-member fade-in">
+            <div class="team-image">
+              <img src="/assets/images/team-james.jpg" alt="James Kim - Equipment Specialist">
+            </div>
+            <h3 class="team-name">James Kim</h3>
+            <p class="team-role">Equipment Specialist</p>
+            <p class="team-bio">James is our resident gear expert with a background in mechanical engineering. He meticulously tests and reviews coffee equipment to help you make informed decisions.</p>
+            <div class="team-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+          
+          <div class="team-member fade-in">
+            <div class="team-image">
+              <img src="/assets/images/team-olivia.jpg" alt="Olivia Johnson - Brewing Expert">
+            </div>
+            <h3 class="team-name">Olivia Johnson</h3>
+            <p class="team-role">Brewing Expert</p>
+            <p class="team-bio">Olivia is a former barista champion who specializes in developing accessible brewing guides. She's passionate about helping people brew better coffee at home.</p>
+            <div class="team-social">
+              <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+              <a href="#" aria-label="LinkedIn"><i class="fab fa-linkedin-in"></i></a>
+              <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Values Section -->
+    <section class="section bg-cream">
+      <div class="container">
+        <h2 class="section-title">Our Values</h2>
+        
+        <div class="values-grid">
+          <div class="value-item slide-up">
+            <div class="value-icon">
+              <i class="fas fa-leaf"></i>
+            </div>
+            <h3>Sustainability</h3>
+            <p>We believe in promoting sustainable coffee practices that benefit farmers, consumers, and the environment.</p>
+          </div>
+          
+          <div class="value-item slide-up">
+            <div class="value-icon">
+              <i class="fas fa-handshake"></i>
+            </div>
+            <h3>Transparency</h3>
+            <p>We're committed to transparency in our content, reviews, and relationships with coffee producers and brands.</p>
+          </div>
+          
+          <div class="value-item slide-up">
+            <div class="value-icon">
+              <i class="fas fa-book-open"></i>
+            </div>
+            <h3>Education</h3>
+            <p>We strive to make coffee knowledge accessible to everyone, regardless of their experience level.</p>
+          </div>
+          
+          <div class="value-item slide-up">
+            <div class="value-icon">
+              <i class="fas fa-users"></i>
+            </div>
+            <h3>Community</h3>
+            <p>We foster an inclusive community where all coffee lovers can share their passion and learn from each other.</p>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Partners Section -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Our Partners</h2>
+        <p class="text-center mb-5">We're proud to collaborate with these organizations that share our values and commitment to quality coffee.</p>
+        
+        <div class="partners-grid">
+          <div class="partner-item">
+            <img src="/assets/images/partner-sca.png" alt="Specialty Coffee Association">
+          </div>
+          <div class="partner-item">
+            <img src="/assets/images/partner-fair-trade.png" alt="Fair Trade Certified">
+          </div>
+          <div class="partner-item">
+            <img src="/assets/images/partner-rainforest.png" alt="Rainforest Alliance">
+          </div>
+          <div class="partner-item">
+            <img src="/assets/images/partner-direct-trade.png" alt="Direct Trade Coffee">
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Contact CTA Section -->
+    <section class="section bg-dark-brown text-cream">
+      <div class="container">
+        <div class="cta-container text-center">
+          <h2>Get in Touch</h2>
+          <p class="mb-4">Have questions, feedback, or just want to chat about coffee? We'd love to hear from you!</p>
+          <a href="/contact/" class="btn btn-light">Contact Us</a>
+        </div>
+      </div>
+    </section>
+  </main>
   
-  .about-section h2 {
-    color: var(--primary-color);
-    margin-top: 0;
-    margin-bottom: var(--spacing-md);
-  }
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-4 col-sm-12">
+          <h4 class="footer-title">Coffee Prism</h4>
+          <p>Exploring the colorful world of specialty coffee, from bean to cup.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        
+        <div class="col col-md-4 col-sm-12">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/coffee/">Coffee</a></li>
+            <li><a href="/brewing/">Brewing Guides</a></li>
+            <li><a href="/equipment/">Equipment</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col col-md-4 col-sm-12">
+          <h4 class="footer-title">Contact Us</h4>
+          <ul class="footer-links">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Brew Street, Coffee Town</li>
+            <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Coffee Prism. All rights reserved.</p>
+        <p>
+          <a href="/privacy-policy/">Privacy Policy</a> | 
+          <a href="/terms-of-service/">Terms of Service</a> | 
+          <a href="/sitemap.xml">Sitemap</a>
+        </p>
+      </div>
+    </div>
+  </footer>
   
-  .about-image {
-    padding: 0;
-    overflow: hidden;
-    height: 100%;
-  }
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" aria-label="Toggle dark mode" data-tooltip="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+  </button>
   
-  .about-image img {
-    width: 100%;
-    height: 100%;
-    object-fit: cover;
-    transition: transform 0.3s ease;
-  }
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top" data-tooltip="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
   
-  .about-image:hover img {
-    transform: scale(1.05);
-  }
+  <!-- Scripts -->
+  <script src="/assets/js/main.js"></script>
   
-  .content-category {
-    text-align: center;
-    padding: var(--spacing-md);
-    margin-bottom: var(--spacing-lg);
-    transition: transform 0.3s ease;
-  }
-  
-  .content-category:hover {
-    transform: translateY(-5px);
-  }
-  
-  .content-category i {
-    font-size: 2.5rem;
-    color: var(--accent-color);
-    margin-bottom: var(--spacing-sm);
-  }
-  
-  .content-category h3 {
-    margin-top: var(--spacing-sm);
-    margin-bottom: var(--spacing-sm);
-    color: var(--secondary-color);
-  }
-  
-  .contact-btn-container {
-    margin-top: var(--spacing-md);
-    text-align: center;
-  }
-</style> 
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(registration => {
+            console.log('Service Worker registered successfully:', registration.scope);
+          })
+          .catch(error => {
+            console.log('Service Worker registration failed:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html> 

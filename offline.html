@@ -1,153 +1,287 @@
----
-layout: default
-title: Offline
-permalink: /offline.html
----
-
-<div class="offline-page">
-  <div class="container">
-    <div class="offline-content">
-      <i class="fas fa-wifi-slash offline-icon"></i>
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>You're Offline - Coffee Prism</title>
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3a2618">
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+  <style>
+    :root {
+      --color-dark-brown: #3a2618;
+      --color-medium-brown: #6b4423;
+      --color-light-brown: #a67c52;
+      --color-cream: #f5e8d6;
+      --color-beige: #e6d2b5;
+      --color-off-white: #f9f5f0;
+      --color-accent: #d4a26a;
+      --color-text: #2c1e14;
+      --font-primary: 'Playfair Display', Georgia, serif;
+      --font-secondary: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+      --spacing-sm: 0.5rem;
+      --spacing-md: 1rem;
+      --spacing-lg: 2rem;
+      --spacing-xl: 3rem;
+      --border-radius-md: 0.5rem;
+      --border-radius-lg: 1rem;
+      --shadow-md: 0 4px 8px rgba(0, 0, 0, 0.1);
+      --shadow-lg: 0 8px 16px rgba(0, 0, 0, 0.1);
+      --transition-fast: 0.2s ease;
+    }
+    
+    * {
+      box-sizing: border-box;
+      margin: 0;
+      padding: 0;
+    }
+    
+    body {
+      font-family: var(--font-secondary);
+      background-color: var(--color-off-white);
+      color: var(--color-text);
+      line-height: 1.6;
+      min-height: 100vh;
+      display: flex;
+      flex-direction: column;
+      align-items: center;
+      justify-content: center;
+      padding: var(--spacing-md);
+    }
+    
+    .offline-container {
+      max-width: 600px;
+      width: 100%;
+      background-color: #fff;
+      border-radius: var(--border-radius-lg);
+      box-shadow: var(--shadow-lg);
+      overflow: hidden;
+      text-align: center;
+    }
+    
+    .offline-header {
+      background-color: var(--color-dark-brown);
+      color: var(--color-cream);
+      padding: var(--spacing-lg) var(--spacing-md);
+      position: relative;
+    }
+    
+    .offline-header h1 {
+      font-family: var(--font-primary);
+      font-size: 2.5rem;
+      margin-bottom: var(--spacing-sm);
+    }
+    
+    .offline-header p {
+      font-size: 1.1rem;
+      opacity: 0.9;
+    }
+    
+    .coffee-cup {
+      width: 120px;
+      height: 120px;
+      margin: -60px auto 0;
+      background-color: var(--color-cream);
+      border-radius: 50%;
+      display: flex;
+      align-items: center;
+      justify-content: center;
+      box-shadow: var(--shadow-md);
+      position: relative;
+      z-index: 10;
+    }
+    
+    .coffee-cup svg {
+      width: 70px;
+      height: 70px;
+      fill: var(--color-dark-brown);
+    }
+    
+    .offline-content {
+      padding: var(--spacing-xl) var(--spacing-lg) var(--spacing-lg);
+    }
+    
+    .offline-content h2 {
+      font-family: var(--font-primary);
+      color: var(--color-dark-brown);
+      margin-bottom: var(--spacing-md);
+      font-size: 1.8rem;
+    }
+    
+    .offline-content p {
+      margin-bottom: var(--spacing-md);
+      color: var(--color-medium-brown);
+    }
+    
+    .offline-tips {
+      background-color: var(--color-beige);
+      padding: var(--spacing-md);
+      border-radius: var(--border-radius-md);
+      margin-bottom: var(--spacing-lg);
+    }
+    
+    .offline-tips h3 {
+      font-family: var(--font-primary);
+      color: var(--color-dark-brown);
+      margin-bottom: var(--spacing-sm);
+      font-size: 1.2rem;
+    }
+    
+    .offline-tips ul {
+      text-align: left;
+      padding-left: var(--spacing-lg);
+      margin-bottom: var(--spacing-sm);
+    }
+    
+    .offline-tips li {
+      margin-bottom: var(--spacing-sm);
+    }
+    
+    .btn {
+      display: inline-block;
+      background-color: var(--color-accent);
+      color: var(--color-dark-brown);
+      padding: 0.75rem 1.5rem;
+      border-radius: var(--border-radius-md);
+      font-weight: 600;
+      text-decoration: none;
+      transition: all var(--transition-fast);
+      border: 2px solid var(--color-accent);
+      cursor: pointer;
+    }
+    
+    .btn:hover {
+      background-color: var(--color-dark-brown);
+      color: var(--color-cream);
+      border-color: var(--color-dark-brown);
+    }
+    
+    .btn-outline {
+      background-color: transparent;
+      color: var(--color-accent);
+      border: 2px solid var(--color-accent);
+      margin-left: var(--spacing-md);
+    }
+    
+    .btn-outline:hover {
+      background-color: var(--color-accent);
+      color: var(--color-dark-brown);
+    }
+    
+    .offline-footer {
+      padding: var(--spacing-md);
+      border-top: 1px solid var(--color-beige);
+      color: var(--color-medium-brown);
+      font-size: 0.9rem;
+    }
+    
+    @media (max-width: 576px) {
+      .offline-header h1 {
+        font-size: 2rem;
+      }
+      
+      .coffee-cup {
+        width: 100px;
+        height: 100px;
+        margin-top: -50px;
+      }
+      
+      .coffee-cup svg {
+        width: 60px;
+        height: 60px;
+      }
+      
+      .offline-content {
+        padding: var(--spacing-lg) var(--spacing-md) var(--spacing-md);
+      }
+      
+      .btn, .btn-outline {
+        display: block;
+        margin: 0 0 var(--spacing-sm);
+      }
+    }
+    
+    /* Animation */
+    @keyframes steam {
+      0% { transform: translateY(0) scale(1); opacity: 0.8; }
+      50% { transform: translateY(-10px) scale(1.1); opacity: 0.5; }
+      100% { transform: translateY(-20px) scale(1.2); opacity: 0; }
+    }
+    
+    .steam {
+      position: absolute;
+      top: -15px;
+      left: 50%;
+      transform: translateX(-50%);
+      width: 8px;
+      height: 8px;
+      background-color: rgba(255, 255, 255, 0.8);
+      border-radius: 50%;
+      filter: blur(4px);
+      animation: steam 2s infinite;
+    }
+    
+    .steam:nth-child(1) { animation-delay: 0.2s; left: calc(50% - 10px); }
+    .steam:nth-child(2) { animation-delay: 0.6s; }
+    .steam:nth-child(3) { animation-delay: 1s; left: calc(50% + 10px); }
+  </style>
+</head>
+<body>
+  <div class="offline-container">
+    <div class="offline-header">
       <h1>You're Offline</h1>
-      <p>Sorry, but you appear to be offline and the page you requested has not been previously cached.</p>
-      <p>Try:</p>
-      <ul>
-        <li>Checking your internet connection</li>
-        <li>Refreshing the page when you're back online</li>
-        <li>Accessing previously visited pages (they might be cached)</li>
-      </ul>
+      <p>No internet connection available</p>
+    </div>
+    
+    <div class="coffee-cup">
+      <div class="steam"></div>
+      <div class="steam"></div>
+      <div class="steam"></div>
+      <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 24 24">
+        <path d="M2,21V19H20V21H2M20,8V5H18V8H20M20,3A2,2 0 0,1 22,5V8A2,2 0 0,1 20,10H18V13A4,4 0 0,1 14,17H8A4,4 0 0,1 4,13V3H20Z" />
+      </svg>
+    </div>
+    
+    <div class="offline-content">
+      <h2>Time for a Coffee Break</h2>
+      <p>It seems you're currently offline. Don't worry, you can still access previously visited pages that have been cached.</p>
+      
+      <div class="offline-tips">
+        <h3>While you wait for connection:</h3>
+        <ul>
+          <li>Check your internet connection</li>
+          <li>Try refreshing the page when you're back online</li>
+          <li>Explore any cached pages that might be available</li>
+        </ul>
+      </div>
+      
       <div class="offline-actions">
-        <button onclick="window.location.reload()" class="btn btn-primary">
-          <i class="fas fa-sync-alt"></i> Try Again
-        </button>
-        <a href="/" class="btn btn-secondary">
-          <i class="fas fa-home"></i> Go to Homepage
-        </a>
+        <button onclick="window.location.reload()" class="btn">Try Again</button>
+        <a href="/" class="btn btn-outline">Go to Homepage</a>
       </div>
     </div>
+    
+    <div class="offline-footer">
+      <p>Coffee Prism - Your guide to the world of specialty coffee</p>
+    </div>
   </div>
-</div>
-
-<style>
-.offline-page {
-  min-height: 100vh;
-  display: flex;
-  align-items: center;
-  justify-content: center;
-  padding: var(--spacing-xl) 0;
-  text-align: center;
-  background-color: var(--bg-color-alt);
-}
-
-.offline-content {
-  max-width: 600px;
-  margin: 0 auto;
-  padding: var(--spacing-xl);
-  background-color: var(--bg-color);
-  border-radius: var(--radius-lg);
-  box-shadow: var(--shadow-md);
-}
-
-.offline-icon {
-  font-size: 4rem;
-  color: var(--text-muted);
-  margin-bottom: var(--spacing-lg);
-}
-
-.offline-content h1 {
-  margin-bottom: var(--spacing-md);
-  color: var(--text-color);
-}
-
-.offline-content p {
-  margin-bottom: var(--spacing-md);
-  color: var(--text-muted);
-}
-
-.offline-content ul {
-  text-align: left;
-  margin-bottom: var(--spacing-lg);
-  color: var(--text-muted);
-}
-
-.offline-content li {
-  margin-bottom: var(--spacing-sm);
-}
-
-.offline-actions {
-  display: flex;
-  gap: var(--spacing-md);
-  justify-content: center;
-}
-
-.btn {
-  display: inline-flex;
-  align-items: center;
-  gap: var(--spacing-sm);
-  padding: var(--spacing-sm) var(--spacing-lg);
-  border: none;
-  border-radius: var(--radius-md);
-  font-size: 1rem;
-  cursor: pointer;
-  transition: all 0.3s ease;
-}
-
-.btn-primary {
-  background-color: var(--primary-color);
-  color: white;
-}
-
-.btn-primary:hover {
-  background-color: var(--primary-color-dark);
-  transform: translateY(-1px);
-}
-
-.btn-secondary {
-  background-color: var(--bg-color);
-  color: var(--text-color);
-  border: 1px solid var(--border-color);
-  text-decoration: none;
-}
-
-.btn-secondary:hover {
-  background-color: var(--bg-color-alt);
-  transform: translateY(-1px);
-}
-
-@media (max-width: 768px) {
-  .offline-actions {
-    flex-direction: column;
-  }
   
-  .btn {
-    width: 100%;
-    justify-content: center;
-  }
-}
-</style>
-
-<script>
-// Check connection status
-function updateOnlineStatus() {
-  const offlineContent = document.querySelector('.offline-content');
-  if (navigator.onLine) {
-    offlineContent.classList.add('fade-out');
-    setTimeout(() => {
+  <script>
+    // Check for online status changes
+    window.addEventListener('online', function() {
       window.location.reload();
-    }, 300);
-  }
-}
-
-window.addEventListener('online', updateOnlineStatus);
-window.addEventListener('offline', updateOnlineStatus);
-
-// Add fade-out animation
-const style = document.createElement('style');
-style.textContent = `
-  .fade-out {
-    opacity: 0;
-    transition: opacity 0.3s ease;
-  }
-`;
-document.head.appendChild(style);
-</script> 
+    });
+    
+    // Check if we have cached pages
+    if ('caches' in window) {
+      caches.keys().then(function(cacheNames) {
+        if (cacheNames.length > 0) {
+          document.querySelector('.offline-tips').innerHTML += `
+            <p>Good news! Some pages are available offline. Try navigating to the homepage.</p>
+          `;
+        }
+      });
+    }
+  </script>
+</body>
+</html> 
