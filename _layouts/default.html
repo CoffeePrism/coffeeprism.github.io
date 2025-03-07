@@ -1,10 +1,11 @@
 <!DOCTYPE html>
-<html lang="{{ page.lang | default: site.default_lang }}">
+<html lang="{{ page.lang | default: site.default_lang | default: 'zh' }}">
 <head>
   <meta charset="utf-8">
   <meta name="viewport" content="width=device-width, initial-scale=1">
-  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.i18n[page.lang].global.title }}</title>
-  <meta name="description" content="{{ page.excerpt | default: site.data.i18n[page.lang].global.description | strip_html | strip }}">
+  {% assign current_lang = page.lang | default: site.default_lang | default: 'zh' %}
+  <title>{% if page.title %}{{ page.title }} - {% endif %}{{ site.data.i18n[current_lang].global.title }}</title>
+  <meta name="description" content="{{ page.excerpt | default: site.data.i18n[current_lang].global.description | strip_html | strip }}">
   
   <link rel="stylesheet" href="{{ '/assets/css/main.css' | relative_url }}">
   <link rel="stylesheet" href="{{ '/assets/css/styles.css' | relative_url }}">
@@ -22,8 +23,8 @@
   <header class="site-header">
     <div class="header-wrapper">
       <div class="site-logo">
-        <a href="{{ page.lang | default: site.default_lang | prepend: '/' | relative_url }}">
-          <span class="logo-text">{{ site.data.i18n[page.lang].global.title }}</span>
+        <a href="{{ '/' | relative_url }}">
+          <span class="logo-text">{{ site.data.i18n[current_lang].global.title }}</span>
         </a>
       </div>
       
@@ -36,13 +37,12 @@
         </label>
 
         <div class="trigger">
-          {% assign lang_prefix = page.lang | default: site.default_lang | prepend: '/' %}
-          <a class="page-link" href="{{ lang_prefix | relative_url }}">{{ site.data.i18n[page.lang].nav.home }}</a>
-          <a class="page-link" href="{{ lang_prefix | append: '/categories/' | relative_url }}">{{ site.data.i18n[page.lang].nav.categories }}</a>
-          <a class="page-link" href="{{ lang_prefix | append: '/tags/' | relative_url }}">{{ site.data.i18n[page.lang].nav.tags }}</a>
-          <a class="page-link" href="{{ lang_prefix | append: '/search/' | relative_url }}">{{ site.data.i18n[page.lang].nav.search }}</a>
-          <a class="page-link" href="{{ lang_prefix | append: '/about/' | relative_url }}">{{ site.data.i18n[page.lang].nav.about }}</a>
-          <a class="page-link" href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ site.data.i18n[page.lang].nav.contact }}</a>
+          <a class="page-link" href="{{ '/' | relative_url }}">{{ site.data.i18n[current_lang].nav.home }}</a>
+          <a class="page-link" href="{{ '/categories/' | relative_url }}">{{ site.data.i18n[current_lang].nav.categories }}</a>
+          <a class="page-link" href="{{ '/tags/' | relative_url }}">{{ site.data.i18n[current_lang].nav.tags }}</a>
+          <a class="page-link" href="{{ '/search/' | relative_url }}">{{ site.data.i18n[current_lang].nav.search }}</a>
+          <a class="page-link" href="{{ '/about/' | relative_url }}">{{ site.data.i18n[current_lang].nav.about }}</a>
+          <a class="page-link" href="{{ '/contact/' | relative_url }}">{{ site.data.i18n[current_lang].nav.contact }}</a>
           
           {% include language-switcher.html %}
         </div>
@@ -60,31 +60,31 @@
     <div class="footer-wrapper">
       <div class="footer-col-wrapper">
         <div class="footer-col">
-          <h2 class="footer-heading">{{ site.data.i18n[page.lang].global.title }}</h2>
-          <p>{{ site.data.i18n[page.lang].global.description }}</p>
+          <h2 class="footer-heading">{{ site.data.i18n[current_lang].global.title }}</h2>
+          <p>{{ site.data.i18n[current_lang].global.description }}</p>
         </div>
         
         <div class="footer-col">
-          <h3>{{ site.data.i18n[page.lang].nav.categories }}</h3>
+          <h3>{{ site.data.i18n[current_lang].nav.categories }}</h3>
           <ul class="footer-links">
             {% for category in site.categories limit:5 %}
-              <li><a href="{{ lang_prefix | append: '/categories/#' | append: category[0] | slugify | relative_url }}">{{ category[0] }}</a></li>
+              <li><a href="{{ '/categories/#' | append: category[0] | slugify | relative_url }}">{{ category[0] }}</a></li>
             {% endfor %}
           </ul>
         </div>
         
         <div class="footer-col">
-          <h3>{{ site.data.i18n[page.lang].footer.about }}</h3>
+          <h3>{{ site.data.i18n[current_lang].footer.about }}</h3>
           <ul class="footer-links">
-            <li><a href="{{ lang_prefix | append: '/about/' | relative_url }}">{{ site.data.i18n[page.lang].nav.about }}</a></li>
-            <li><a href="{{ lang_prefix | append: '/contact/' | relative_url }}">{{ site.data.i18n[page.lang].nav.contact }}</a></li>
-            <li><a href="{{ lang_prefix | append: '/privacy/' | relative_url }}">{{ site.data.i18n[page.lang].footer.privacy }}</a></li>
+            <li><a href="{{ '/about/' | relative_url }}">{{ site.data.i18n[current_lang].nav.about }}</a></li>
+            <li><a href="{{ '/contact/' | relative_url }}">{{ site.data.i18n[current_lang].nav.contact }}</a></li>
+            <li><a href="{{ '/privacy/' | relative_url }}">{{ site.data.i18n[current_lang].footer.privacy }}</a></li>
           </ul>
         </div>
       </div>
       
       <div class="footer-bottom">
-        <p class="copyright">{{ site.data.i18n[page.lang].footer.copyright }} &copy; {{ site.time | date: '%Y' }}. {{ site.data.i18n[page.lang].footer.all_rights_reserved }}</p>
+        <p class="copyright">{{ site.data.i18n[current_lang].footer.copyright }} &copy; {{ site.time | date: '%Y' }}. {{ site.data.i18n[current_lang].footer.all_rights_reserved }}</p>
       </div>
     </div>
   </footer>
