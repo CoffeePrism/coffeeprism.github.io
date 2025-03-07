@@ -15,9 +15,6 @@ incremental: false
 languages: ["zh", "en"]
 default_lang: "zh"
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico", "assets"]
-language_data: data.i18n
-language_includes_dir: _i18n
-parallel_localization: true
 
 # 其他 GitHub Pages 相关配置
 domain: coffeeprism.com
@@ -114,7 +111,6 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-github-metadata
-  - jekyll-multiple-languages-plugin
 
 # Exclude from processing
 exclude:
