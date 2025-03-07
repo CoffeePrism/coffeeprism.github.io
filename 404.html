@@ -1,44 +1,47 @@
 ---
 layout: default
-title: 页面未找到
+title: Page Not Found
 permalink: /404.html
 ---
 
 <div class="error-page">
-  <div class="error-content">
-    <h1>404</h1>
-    <h2>页面未找到</h2>
-    <p>抱歉，您访问的页面不存在或已被移动。</p>
-    <p>也许是时候来一杯咖啡，然后再试试？</p>
-    
-    <div class="error-image">
-      {% if site.use_remote_images %}
-        <img src="{{ site.remote_image_base_url }}coffee,spill" alt="咖啡溅出">
-      {% else %}
-        <img src="{{ '/assets/images/coffee-spill.jpg' | relative_url }}" alt="咖啡溅出">
-      {% endif %}
-    </div>
-    
-    <div class="error-actions">
-      <a href="{{ '/' | relative_url }}" class="btn btn-primary">
-        <i class="fas fa-home"></i> 返回首页
-      </a>
-      <a href="{{ '/coffee/' | relative_url }}" class="btn btn-secondary">
-        <i class="fas fa-coffee"></i> 探索咖啡
-      </a>
-    </div>
-    
-    <div class="error-search">
-      <h3>或者尝试搜索：</h3>
-      <form action="https://www.google.com/search" method="get" target="_blank">
-        <input type="hidden" name="sitesearch" value="coffeeprism.com">
-        <div class="search-container">
-          <input type="text" name="q" placeholder="搜索..." class="search-input">
-          <button type="submit" class="search-button">
-            <i class="fas fa-search"></i>
-          </button>
+  <div class="container">
+    <div class="card">
+      <div class="error-content">
+        <h1>404</h1>
+        <h2>Page Not Found</h2>
+        <p>Sorry, the page you're looking for doesn't exist or has been moved.</p>
+        <p>Maybe it's time for a coffee break before trying again?</p>
+        
+        <div class="error-image">
+          {% if site.use_remote_images %}
+            <img src="{{ site.remote_image_base_url }}coffee,spill" alt="Coffee spill">
+          {% else %}
+            <img src="{{ '/assets/images/coffee-spill.jpg' | relative_url }}" alt="Coffee spill">
+          {% endif %}
         </div>
-      </form>
+        
+        <div class="error-actions">
+          <a href="{{ '/' | relative_url }}" class="btn">
+            <i class="fas fa-home"></i> Back to Home
+          </a>
+          <a href="{{ '/coffee/' | relative_url }}" class="btn btn-secondary">
+            <i class="fas fa-coffee"></i> Explore Coffee
+          </a>
+        </div>
+        
+        <div class="error-search">
+          <h3>Or try searching:</h3>
+          <form action="{{ '/search/' | relative_url }}" method="get">
+            <div class="search-container">
+              <input type="text" name="q" placeholder="Search..." class="form-control">
+              <button type="submit" class="btn">
+                <i class="fas fa-search"></i>
+              </button>
+            </div>
+          </form>
+        </div>
+      </div>
     </div>
   </div>
 </div>
@@ -46,7 +49,12 @@ permalink: /404.html
 <style>
   .error-page {
     text-align: center;
-    padding: 3rem 1rem;
+    padding: var(--spacing-xl) 0;
+    margin-bottom: var(--spacing-xl);
+  }
+  
+  .error-page .card {
+    padding: var(--spacing-xl);
     max-width: 600px;
     margin: 0 auto;
   }
@@ -54,34 +62,49 @@ permalink: /404.html
   .error-page h1 {
     font-size: 6rem;
     margin: 0;
-    color: var(--primary-color);
+    color: var(--accent-color);
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.1);
   }
   
   .error-page h2 {
     font-size: 2rem;
     margin-top: 0;
-    margin-bottom: 1.5rem;
+    margin-bottom: var(--spacing-lg);
+    color: var(--primary-color);
   }
   
   .error-image {
-    margin: 2rem 0;
+    margin: var(--spacing-lg) 0;
+    border-radius: 8px;
+    overflow: hidden;
   }
   
   .error-image img {
     max-width: 100%;
     border-radius: 8px;
-    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.1);
+    transition: transform 0.3s ease;
+  }
+  
+  .error-image:hover img {
+    transform: scale(1.03);
   }
   
   .error-actions {
-    margin: 2rem 0;
+    margin: var(--spacing-lg) 0;
     display: flex;
     justify-content: center;
-    gap: 1rem;
+    gap: var(--spacing-md);
+    flex-wrap: wrap;
   }
   
   .error-search {
-    margin-top: 2rem;
+    margin-top: var(--spacing-lg);
+  }
+  
+  .error-search h3 {
+    color: var(--secondary-color);
+    margin-bottom: var(--spacing-md);
   }
   
   .search-container {
@@ -90,21 +113,31 @@ permalink: /404.html
     margin: 0 auto;
   }
   
-  .search-input {
-    flex: 1;
-    padding: 0.8rem;
-    border: 1px solid var(--border-color);
-    border-right: none;
+  .search-container .form-control {
     border-radius: 4px 0 0 4px;
-    font-size: 1rem;
   }
   
-  .search-button {
-    background-color: var(--primary-color);
-    color: white;
-    border: none;
-    padding: 0 1rem;
+  .search-container .btn {
     border-radius: 0 4px 4px 0;
-    cursor: pointer;
+    padding: 0 var(--spacing-md);
+  }
+  
+  @media (max-width: 576px) {
+    .error-page h1 {
+      font-size: 4rem;
+    }
+    
+    .error-page h2 {
+      font-size: 1.5rem;
+    }
+    
+    .error-actions {
+      flex-direction: column;
+      gap: var(--spacing-sm);
+    }
+    
+    .error-actions .btn {
+      width: 100%;
+    }
   }
 </style> 
