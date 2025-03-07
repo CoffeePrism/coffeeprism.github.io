@@ -124,6 +124,42 @@
   <li>部署到 GitHub Pages</li>
 </ol>
 
+<h2 id="github-actions-工作流配置要求">GitHub Actions 工作流配置要求</h2>
+
+<p>为确保 GitHub Actions 工作流正常运行，必须满足以下要求：</p>
+
+<h3 id="必要的权限设置">必要的权限设置</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">permissions</span><span class="pi">:</span>
+  <span class="na">contents</span><span class="pi">:</span> <span class="s">write</span>  <span class="c1"># 允许工作流修改仓库内容</span>
+  <span class="na">pages</span><span class="pi">:</span> <span class="s">write</span>     <span class="c1"># 允许工作流操作 GitHub Pages</span>
+  <span class="na">id-token</span><span class="pi">:</span> <span class="s">write</span>  <span class="c1"># 允许工作流使用 OIDC 令牌</span>
+</code></pre></div></div>
+
+<h3 id="必要的环境配置">必要的环境配置</h3>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="na">environment</span><span class="pi">:</span>
+  <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
+  <span class="na">url</span><span class="pi">:</span> <span class="s">$</span>
+</code></pre></div></div>
+
+<h3 id="动作依赖关系">动作依赖关系</h3>
+
+<p>某些 GitHub Actions 动作依赖于其他动作。例如，<code class="language-plaintext highlighter-rouge">actions/upload-pages-artifact</code> 依赖于 <code class="language-plaintext highlighter-rouge">actions/upload-artifact</code>。确保包含所有必要的动作：</p>
+
+<div class="language-yaml highlighter-rouge"><div class="highlight"><pre class="highlight"><code><span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload artifact</span>
+  <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-artifact@v3</span>
+  <span class="na">with</span><span class="pi">:</span>
+    <span class="na">name</span><span class="pi">:</span> <span class="s">github-pages</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">./_site</span>
+    <span class="na">if-no-files-found</span><span class="pi">:</span> <span class="s">error</span>
+
+<span class="pi">-</span> <span class="na">name</span><span class="pi">:</span> <span class="s">Upload Pages artifact</span>
+  <span class="na">uses</span><span class="pi">:</span> <span class="s">actions/upload-pages-artifact@v2</span>
+  <span class="na">with</span><span class="pi">:</span>
+    <span class="na">path</span><span class="pi">:</span> <span class="s">./_site</span>
+</code></pre></div></div>
+
 <h2 id="监控构建状态">监控构建状态</h2>
 
 <h3 id="查看构建结果">查看构建结果</h3>
@@ -145,6 +181,26 @@
 <p>失败的构建会显示红色叉号。点击失败的工作流运行记录可以查看详细信息和错误日志。</p>
 
 <h2 id="常见错误类型及解决方案">常见错误类型及解决方案</h2>
+
+<h3 id="github-actions-配置错误">GitHub Actions 配置错误</h3>
+
+<p><strong>示例错误信息：</strong></p>
+<div class="language-plaintext highlighter-rouge"><div class="highlight"><pre class="highlight"><code>Error: Missing download info for actions/upload-artifact@v3
+</code></pre></div></div>
+
+<p><strong>可能原因：</strong></p>
+<ul>
+  <li>缺少必要的动作依赖</li>
+  <li>权限配置不正确</li>
+  <li>环境配置缺失</li>
+</ul>
+
+<p><strong>解决方法：</strong></p>
+<ol>
+  <li>确保包含所有必要的动作和依赖</li>
+  <li>设置正确的权限（contents, pages, id-token）</li>
+  <li>配置适当的环境（github-pages）</li>
+</ol>
 
 <h3 id="liquid-模板错误">Liquid 模板错误</h3>
 
@@ -272,6 +328,8 @@ bundle <span class="nb">exec </span>jekyll serve
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />文件路径错误</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />权限问题</li>
   <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />GitHub Pages 特定限制</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />GitHub Actions 工作流配置错误</li>
+  <li class="task-list-item"><input type="checkbox" class="task-list-item-checkbox" disabled="disabled" />缺少必要的动作依赖</li>
 </ul>
 
 <h2 id="结论">结论</h2>
