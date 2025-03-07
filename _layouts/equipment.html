@@ -9,19 +9,55 @@ layout: default
     <div class="equipment-meta">
       {% if page.brand %}
       <span class="equipment-brand">
-        <i class="fas fa-trademark"></i> 品牌: {{ page.brand }}
+        <i class="fas fa-trademark"></i> Brand: {{ page.brand }}
       </span>
       {% endif %}
       
       {% if page.type %}
       <span class="equipment-type">
-        <i class="fas fa-coffee"></i> 类型: {{ page.type }}
+        <i class="fas fa-coffee"></i> Type: {{ page.type }}
       </span>
       {% endif %}
       
       {% if page.price_range %}
       <span class="equipment-price">
-        <i class="fas fa-tag"></i> 价格范围: {{ page.price_range }}
+        <i class="fas fa-tag"></i> Price Range: {{ page.price_range }}
+      </span>
+      {% endif %}
+      
+      {% if page.rating %}
+      <span class="equipment-rating">
+        <i class="fas fa-star"></i> Rating: 
+        <span class="stars">
+          {% assign rating_int = page.rating | floor %}
+          {% assign rating_decimal = page.rating | minus: rating_int %}
+          
+          {% for i in (1..rating_int) %}
+            <i class="fas fa-star"></i>
+          {% endfor %}
+          
+          {% if rating_decimal >= 0.5 %}
+            <i class="fas fa-star-half-alt"></i>
+            {% assign half_star = true %}
+          {% else %}
+            {% assign half_star = false %}
+          {% endif %}
+          
+          {% assign empty_stars = 5 | minus: rating_int %}
+          {% if half_star %}
+            {% assign empty_stars = empty_stars | minus: 1 %}
+          {% endif %}
+          
+          {% for i in (1..empty_stars) %}
+            <i class="far fa-star"></i>
+          {% endfor %}
+        </span>
+      </span>
+      {% endif %}
+      
+      {% if page.difficulty %}
+      <span class="equipment-difficulty">
+        <i class="fas fa-sliders-h"></i> Difficulty: {{ page.difficulty }}
       </span>
       {% endif %}
       
@@ -91,6 +127,19 @@ layout: default
   </div>
   {% endif %}
 
+  {% if page.amazon_id %}
+  <div class="equipment-purchase">
+    <h2>Where to Buy</h2>
+    {% include product-card.html 
+      name=page.title 
+      image=page.featured_image
+      description=page.excerpt
+      amazon_id=page.amazon_id 
+      price=page.price_range
+    %}
+  </div>
+  {% endif %}
+
   <div class="equipment-navigation">
     <div class="equipment-navigation-prev">
       {% if page.previous.url %}
@@ -108,27 +157,32 @@ layout: default
     </div>
   </div>
 
+  {% if page.related_equipment and page.related_equipment.size > 0 %}
   <div class="related-equipment">
-    <h3>相关设备</h3>
-    <div class="equipment-grid">
-      {% assign related_equipment = site.equipment | where_exp: "item", "item.url != page.url" | sample: 3 %}
-      {% for equipment in related_equipment %}
-        <div class="equipment-card">
-          <a href="{{ equipment.url | relative_url }}">
-            {% if equipment.featured_image %}
-              {% if site.use_remote_images %}
-                {% assign image_name = equipment.featured_image | split: "/" | last | split: "." | first %}
-                {% assign search_term = image_name | replace: "-", "+" %}
-                <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee+equipment" alt="{{ equipment.title }}">
-              {% else %}
-                <img src="{{ equipment.featured_image | relative_url }}" alt="{{ equipment.title }}">
+    <h2>Related Equipment</h2>
+    <div class="related-equipment-list">
+      {% for equipment_id in page.related_equipment %}
+        {% assign related = site.equipment | where: "id", equipment_id | first %}
+        {% if related %}
+          <div class="related-equipment-item">
+            <a href="{{ related.url | relative_url }}" class="related-equipment-link">
+              {% if related.featured_image %}
+              <div class="related-equipment-image">
+                {% if site.use_remote_images %}
+                  {% assign image_name = related.featured_image | split: "/" | last | split: "." | first %}
+                  {% assign search_term = image_name | replace: "-", "+" %}
+                  <img src="{{ site.remote_image_base_url }}coffee,equipment,{{ search_term }}" alt="{{ related.title }}">
+                {% else %}
+                  <img src="{{ related.featured_image | relative_url }}" alt="{{ related.title }}">
+                {% endif %}
+              </div>
               {% endif %}
-            {% endif %}
-            <h4>{{ equipment.title }}</h4>
-            <p>{{ equipment.excerpt | strip_html | truncate: 100 }}</p>
-          </a>
-        </div>
+              <h3 class="related-equipment-title">{{ related.title }}</h3>
+            </a>
+          </div>
+        {% endif %}
       {% endfor %}
     </div>
   </div>
+  {% endif %}
 </article> 

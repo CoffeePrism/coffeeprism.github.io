@@ -1,43 +1,50 @@
 <footer class="site-footer">
-  <div class="footer-wrapper">
-    <div class="footer-col-wrapper">
-      <div class="footer-col">
+  <div class="container">
+    <div class="footer-content">
+      <div class="footer-about">
         <h2 class="footer-heading">Coffee Prism</h2>
         <p>{{ site.description }}</p>
+        <div class="social-links">
+          <a href="mailto:info@coffeeprism.com" aria-label="Email">
+            <i class="fas fa-envelope"></i>
+          </a>
+          <a href="#" aria-label="Facebook">
+            <i class="fab fa-facebook"></i>
+          </a>
+          <a href="#" aria-label="Instagram">
+            <i class="fab fa-instagram"></i>
+          </a>
+          <a href="#" aria-label="Twitter">
+            <i class="fab fa-twitter"></i>
+          </a>
+        </div>
       </div>
 
-      <div class="footer-col">
-        <h2>快速链接</h2>
+      <div class="footer-nav">
+        <h2>Quick Links</h2>
         <ul class="footer-links">
-          <li><a href="{{ '/' | relative_url }}">首页</a></li>
-          <li><a href="{{ '/coffee/' | relative_url }}">咖啡</a></li>
-          <li><a href="{{ '/equipment/' | relative_url }}">设备</a></li>
-          <li><a href="{{ '/categories/' | relative_url }}">分类</a></li>
-          <li><a href="{{ '/tags/' | relative_url }}">标签</a></li>
-          <li><a href="{{ '/search/' | relative_url }}">搜索</a></li>
-          <li><a href="{{ '/about/' | relative_url }}">关于我们</a></li>
-          <li><a href="{{ '/contact/' | relative_url }}">联系我们</a></li>
+          <li><a href="{{ '/' | relative_url }}">Home</a></li>
+          <li><a href="{{ '/coffee/' | relative_url }}">Coffee</a></li>
+          <li><a href="{{ '/equipment/' | relative_url }}">Equipment</a></li>
+          <li><a href="{{ '/categories/' | relative_url }}">Categories</a></li>
+          <li><a href="{{ '/tags/' | relative_url }}">Tags</a></li>
+          <li><a href="{{ '/search/' | relative_url }}">Search</a></li>
         </ul>
       </div>
 
-      <div class="footer-col">
-        <h2>联系我们</h2>
-        <ul class="social-media-list">
-          <li>
-            <a href="mailto:info@coffeeprism.com">
-              <i class="fas fa-envelope"></i> Email
-            </a>
-          </li>
+      <div class="footer-contact">
+        <h2>About</h2>
+        <ul class="footer-links">
+          <li><a href="{{ '/about/' | relative_url }}">About Us</a></li>
+          <li><a href="{{ '/contact/' | relative_url }}">Contact Us</a></li>
+          <li><a href="{{ '/privacy/' | relative_url }}">Privacy Policy</a></li>
         </ul>
       </div>
     </div>
 
     <div class="footer-bottom">
       <p>&copy; {{ 'now' | date: "%Y" }} Coffee Prism. All rights reserved.</p>
-      <p class="disclaimer">本网站包含亚马逊联盟链接，我们可能会从您的购买中获得佣金。</p>
-      <p class="footer-links-small">
-        <a href="{{ '/privacy/' | relative_url }}">隐私政策</a>
-      </p>
+      <p class="disclaimer">This website contains Amazon affiliate links. We may earn a commission from your purchases.</p>
     </div>
   </div>
 </footer> 
