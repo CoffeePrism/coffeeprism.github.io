@@ -8,20 +8,20 @@ lang: zh
   <!-- Hero Section -->
   <section class="hero">
     <div class="hero-content">
-      <h1>{% if page.lang == 'en' %}Exploring the World of Coffee{% else %}探索咖啡的世界{% endif %}</h1>
-      <p>{% if page.lang == 'en' %}From Coffee Beans to Coffee Cups, Discover Everything About Perfect Coffee{% else %}从咖啡豆到咖啡杯，发现完美咖啡的一切{% endif %}</p>
+      <h1>{{ site.data.i18n[page.lang].home.hero_title }}</h1>
+      <p>{{ site.data.i18n[page.lang].home.hero_subtitle }}</p>
       <div class="hero-buttons">
-        <a href="{{ '/categories/' | relative_url }}" class="btn btn-primary">{% if page.lang == 'en' %}Browse Categories{% else %}浏览分类{% endif %}</a>
-        <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">{% if page.lang == 'en' %}Browse Articles{% else %}浏览文章{% endif %}</a>
+        <a href="{{ '/categories/' | relative_url }}" class="btn btn-primary">{{ site.data.i18n[page.lang].home.browse_categories }}</a>
+        <a href="{{ '/blog/' | relative_url }}" class="btn btn-secondary">{{ site.data.i18n[page.lang].home.browse_articles }}</a>
       </div>
     </div>
   </section>
 
   <!-- Featured Section -->
   <section class="featured-section">
-    <h2 class="section-title">{% if page.lang == 'en' %}Featured Content{% else %}精选内容{% endif %}</h2>
+    <h2 class="section-title">{{ site.data.i18n[page.lang].home.featured_content }}</h2>
     <div class="featured-grid">
-      {% assign featured_posts = site.posts | where: "featured", true | limit: 3 %}
+      {% assign featured_posts = site.posts | where: "featured", true | where: "lang", page.lang | limit: 3 %}
       {% for post in featured_posts %}
       <div class="featured-card">
         <a href="{{ post.url | relative_url }}" class="featured-link">
@@ -29,16 +29,10 @@ lang: zh
             {% if site.use_smart_images %}
               {% include smart-image.html post=post class="img-fluid rounded shadow-sm" %}
             {% else %}
-              {% if site.use_remote_images %}
-                {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
-                {% assign search_term = image_name | replace: "-", "+" %}
-                <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+              {% if post.featured_image %}
+                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
               {% else %}
-                {% if post.featured_image %}
-                  <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
-                {% else %}
-                  <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
-                {% endif %}
+                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
               {% endif %}
             {% endif %}
           </div>
@@ -54,25 +48,20 @@ lang: zh
 
   <!-- Latest Articles -->
   <section class="latest-articles">
-    <h2 class="section-title">{% if page.lang == 'en' %}Latest Articles{% else %}最新文章{% endif %}</h2>
+    <h2 class="section-title">{{ site.data.i18n[page.lang].home.latest_articles }}</h2>
     <div class="articles-grid">
-      {% for post in site.posts limit:6 %}
+      {% assign latest_posts = site.posts | where: "lang", page.lang | limit: 6 %}
+      {% for post in latest_posts %}
       <div class="article-card">
         <a href="{{ post.url | relative_url }}" class="article-link">
           <div class="article-image">
             {% if site.use_smart_images %}
               {% include smart-image.html post=post class="img-fluid rounded shadow-sm" %}
             {% else %}
-              {% if site.use_remote_images %}
-                {% assign image_name = post.featured_image | split: "/" | last | split: "." | first %}
-                {% assign search_term = image_name | replace: "-", "+" %}
-                <img src="{{ site.remote_image_base_url }}{{ search_term }}+coffee" alt="{{ post.title }}">
+              {% if post.featured_image %}
+                <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
               {% else %}
-                {% if post.featured_image %}
-                  <img src="{{ post.featured_image | relative_url }}" alt="{{ post.title }}" onerror="this.src='{{ site.default_image | relative_url }}'">
-                {% else %}
-                  <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
-                {% endif %}
+                <img src="{{ site.default_image | relative_url }}" alt="{{ post.title }}">
               {% endif %}
             {% endif %}
           </div>
@@ -80,9 +69,9 @@ lang: zh
             <h3>{{ post.title }}</h3>
             <div class="article-meta">
               <span class="article-date">{{ post.date | date: "%Y-%m-%d" }}</span>
-              {% if post.categories.size > 0 %}
+              {% if post.categories.first %}
               <span class="article-category">
-                <i class="fas fa-folder"></i> {{ post.categories | first }}
+                <i class="fas fa-folder"></i> {{ post.categories.first }}
               </span>
               {% endif %}
             </div>
@@ -93,26 +82,27 @@ lang: zh
       {% endfor %}
     </div>
     <div class="view-all">
-      <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">{% if page.lang == 'en' %}View All{% else %}查看所有{% endif %}</a>
+      <a href="{{ '/blog/' | relative_url }}" class="btn btn-outline">{{ site.data.i18n[page.lang].home.view_all }}</a>
     </div>
   </section>
 
   <!-- Categories Section -->
   <section class="categories-section">
-    <h2 class="section-title">{% if page.lang == 'en' %}Browse by Category{% else %}分类浏览{% endif %}</h2>
+    <h2 class="section-title">{{ site.data.i18n[page.lang].home.categories_browse }}</h2>
     <div class="categories-grid">
-      {% assign categories = site.categories | sort %}
-      {% for category in categories limit:6 %}
-        {% assign category_name = category | first %}
-        {% assign category_slug = category_name | strip | slugify %}
-        <a href="{{ site.baseurl }}/categories/#{{ category_slug }}" class="category-card">
+      {% assign site_categories = site.categories | sort %}
+      {% for category_item in site_categories limit: 6 %}
+        {% assign category_name = category_item | first %}
+        {% assign posts = category_item | last %}
+        {% assign category_slug = category_name | slugify %}
+        <a href="{{ '/categories/#' | append: category_slug | relative_url }}" class="category-card">
           <h3>{{ category_name }}</h3>
-          <span class="category-count">{{ category | last | size }} {% if page.lang == 'en' %}articles{% else %}篇文章{% endif %}</span>
+          <span class="category-count">{{ posts.size }} {{ site.data.i18n[page.lang].home.articles }}</span>
         </a>
       {% endfor %}
     </div>
     <div class="view-all">
-      <a href="{{ '/categories/' | relative_url }}" class="btn btn-outline">{% if page.lang == 'en' %}View All{% else %}查看所有{% endif %}</a>
+      <a href="{{ '/categories/' | relative_url }}" class="btn btn-outline">{{ site.data.i18n[page.lang].home.view_all }}</a>
     </div>
   </section>
 </div> 
