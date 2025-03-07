@@ -12,13 +12,13 @@ reminder "GitHub Actions Verification" after git push {
 warning on save **/**.html if content matches /\{\{.*\|.*slugify.*\}\}/ {
   message: "⚠️ Slugify Filter Usage: Check that you're applying slugify to strings, not arrays"
   description: "The slugify filter only works on strings. Arrays must be processed before slugifying."
-  documentation: "docs/github-actions-guide.md#liquid-模板错误"
+  documentation: "docs/github-actions-guide.md#liquid-template-errors"
 }
 
 warning on save **/_posts/*.md if not content matches /^---\n.*layout:.*\n.*title:.*\n.*date:.*\n.*categories:.*\n/ {
   message: "⚠️ Blog Post Front Matter: Missing required YAML front matter"
   description: "Posts should include layout, title, date, and categories in front matter"
-  documentation: "README.md#添加博客文章"
+  documentation: "README.md#how-to-add-new-content"
 }
 
 # Liquid Syntax Checks
@@ -31,7 +31,7 @@ warning on save **/*.html if content matches /\{\{.*site\.categories\[\d+\].*\}\
 warning on save Gemfile if content matches /gem "jekyll-multiple-languages-plugin"/ {
   message: "⚠️ Unsupported Plugin: jekyll-multiple-languages-plugin is not supported by GitHub Pages"
   description: "This plugin won't work on GitHub Pages. Consider using a supported alternative."
-  documentation: "docs/github-actions-guide.md#插件兼容性问题"
+  documentation: "docs/github-actions-guide.md#plugin-compatibility-issues"
 }
 
 warning on save Gemfile if content matches /gem "jekyll"/ and not content matches /gem "github-pages"/ {
@@ -94,6 +94,23 @@ info on open {
 warning on save _config.yml if content matches /^(?!#).*jekyll-multiple-languages-plugin/ {
   message: "⚠️ Unsupported plugin in _config.yml"
   description: "GitHub Pages doesn't support jekyll-multiple-languages-plugin"
+}
+
+# Language settings check
+warning on save _config.yml if not content matches /default_lang: "en"/ {
+  message: "⚠️ Incorrect default language: default_lang should be set to 'en'"
+  description: "This site is configured for English content only"
+}
+
+warning on save _config.yml if content matches /languages:/ and not content matches /languages: \["en"\]/ {
+  message: "⚠️ Incorrect language configuration: languages should only include 'en'"
+  description: "This site is configured for English content only"
+}
+
+# Front matter language check
+warning on save **/_posts/*.md if content matches /lang: "zh"/ {
+  message: "⚠️ Incorrect language in front matter: lang should be set to 'en'"
+  description: "This site is configured for English content only"
 }
 
 # Reminder to update documentation

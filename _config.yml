@@ -11,12 +11,12 @@ safe: true
 lsi: false
 incremental: false
 
-# 多语言支持配置
-languages: ["zh", "en"]
-default_lang: "zh"
+# Language settings
+languages: ["en"]
+default_lang: "en"
 exclude_from_localizations: ["javascript", "images", "css", "scripts", "favicon.ico", "assets"]
 
-# 其他 GitHub Pages 相关配置
+# GitHub Pages related configuration
 domain: coffeeprism.com
 url: "https://www.coffeeprism.com"
 enforce_ssl: "www.coffeeprism.com"
@@ -42,7 +42,7 @@ use_remote_images: false
 default_image: "/assets/images/coffee-default.jpg"
 default_coffee_image: "/assets/images/coffee-beans-default.jpg"
 remote_image_base_url: "https://images.unsplash.com/photo-"
-# 默认图片集合（用于随机选择）
+# Default image collection (for random selection)
 default_images:
   - "/assets/images/defaults/coffee-default-1.jpg"
   - "/assets/images/defaults/coffee-default-2.jpg"
@@ -74,10 +74,6 @@ defaults:
       path: ""
     values:
       layout: "default"
-      lang: "zh"
-  - scope:
-      path: "en"
-    values:
       lang: "en"
   - scope:
       path: ""
