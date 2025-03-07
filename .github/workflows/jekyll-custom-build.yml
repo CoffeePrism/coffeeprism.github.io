@@ -11,8 +11,16 @@ jobs:
     runs-on: ubuntu-latest
     permissions:
       contents: write
+      pages: write
+      id-token: write
+    
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    
     steps:
-      - uses: actions/checkout@v3
+      - name: Checkout
+        uses: actions/checkout@v3
       
       - name: Setup Ruby
         uses: ruby/setup-ruby@v1
@@ -31,10 +39,18 @@ jobs:
           destination: ./_site
       
       - name: Upload artifact
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ./_site
+          if-no-files-found: error
+      
+      - name: Upload Pages artifact
         uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./_site
       
       - name: Deploy to GitHub Pages
+        id: deployment
         if: github.ref == 'refs/heads/main'
-        uses: actions/deploy-pages@v2
-        with:
-          token: ${{ secrets.GITHUB_TOKEN }} 
+        uses: actions/deploy-pages@v2 
