@@ -98,14 +98,15 @@ plugins:
   - jekyll-feed
   - jekyll-seo-tag
   - jekyll-github-metadata
+  - jekyll-multiple-languages-plugin
 
-# 多语言支持配置（当前禁用，通过 GitHub Actions 自定义构建时使用）
-# languages: ["zh", "en"]
-# default_lang: "zh"
-# exclude_from_localizations: ["assets", "images", "css", "README.md", "Gemfile", "Gemfile.lock", "CNAME"]
-# language_data: data.i18n
-# language_includes_dir: _i18n
-# parallel_localization: true
+# 多语言支持配置
+languages: ["zh", "en"]
+default_lang: "zh"
+exclude_from_localizations: ["assets", "images", "css", "README.md", "Gemfile", "Gemfile.lock", "CNAME"]
+language_data: data.i18n
+language_includes_dir: _i18n
+parallel_localization: true
 
 # Exclude from processing
 exclude:
