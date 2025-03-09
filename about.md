@@ -43,9 +43,6 @@
   <meta name="twitter:image" content="/assets/images/og-image.jpg">
 </head>
 <body>
-  <!-- Skip to main content for accessibility -->
-  <a href="#main-content" class="skip-link">Skip to main content</a>
-  
   <!-- Header -->
   <header class="site-header">
     <div class="container">
