@@ -1,0 +1,415 @@
+<!DOCTYPE html>
+<html lang="en" data-theme="light">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Coffee Beans - Coffee Prism</title>
+  <meta name="description" content="Explore our selection of premium coffee beans from around the world. Discover unique flavor profiles and brewing recommendations.">
+  
+  <!-- Favicon -->
+  <link rel="icon" type="image/png" href="/assets/images/favicon.png">
+  <link rel="apple-touch-icon" href="/assets/images/apple-touch-icon.png">
+  
+  <!-- PWA Support -->
+  <link rel="manifest" href="/manifest.json">
+  <meta name="theme-color" content="#3a2618">
+  <meta name="apple-mobile-web-app-capable" content="yes">
+  <meta name="apple-mobile-web-app-status-bar-style" content="black-translucent">
+  <meta name="apple-mobile-web-app-title" content="Coffee Prism">
+  
+  <!-- Preload Critical Resources -->
+  <link rel="preload" href="/assets/css/style.css" as="style">
+  <link rel="preload" href="/assets/js/main.js" as="script">
+  <link rel="preload" href="/assets/fonts/playfair-display-v30-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  <link rel="preload" href="/assets/fonts/montserrat-v25-latin-regular.woff2" as="font" type="font/woff2" crossorigin>
+  
+  <!-- Styles -->
+  <link rel="stylesheet" href="/assets/css/style.css">
+  
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css">
+  
+  <!-- Open Graph / Social Media -->
+  <meta property="og:title" content="Coffee Beans - Coffee Prism">
+  <meta property="og:description" content="Explore our selection of premium coffee beans from around the world. Discover unique flavor profiles and brewing recommendations.">
+  <meta property="og:image" content="/assets/images/og-image.jpg">
+  <meta property="og:url" content="https://www.coffeeprism.com/coffee/">
+  <meta property="og:type" content="website">
+  
+  <!-- Twitter Card -->
+  <meta name="twitter:card" content="summary_large_image">
+  <meta name="twitter:title" content="Coffee Beans - Coffee Prism">
+  <meta name="twitter:description" content="Explore our selection of premium coffee beans from around the world. Discover unique flavor profiles and brewing recommendations.">
+  <meta name="twitter:image" content="/assets/images/og-image.jpg">
+</head>
+<body>
+  <!-- Header -->
+  <header class="site-header">
+    <div class="container">
+      <div class="header-container">
+        <div class="logo">
+          <a href="/">
+            <img src="/assets/images/logo.png" alt="Coffee Prism Logo">
+            <span class="logo-text">Coffee Prism</span>
+          </a>
+        </div>
+        
+        <button class="mobile-menu-toggle" aria-label="Toggle navigation menu">
+          <i class="fas fa-bars"></i>
+        </button>
+        
+        <nav>
+          <ul class="nav-menu">
+            <li class="nav-item"><a href="/" class="nav-link">Home</a></li>
+            <li class="nav-item"><a href="/coffee/" class="nav-link active">Coffee</a></li>
+            <li class="nav-item"><a href="/brewing/" class="nav-link">Brewing</a></li>
+            <li class="nav-item"><a href="/equipment/" class="nav-link">Equipment</a></li>
+            <li class="nav-item"><a href="/blog/" class="nav-link">Blog</a></li>
+            <li class="nav-item"><a href="/about/" class="nav-link">About</a></li>
+            <li class="nav-item"><a href="/contact/" class="nav-link">Contact</a></li>
+          </ul>
+        </nav>
+      </div>
+    </div>
+  </header>
+  
+  <!-- Main Content -->
+  <main id="main-content">
+    <!-- Page Header -->
+    <section class="page-header">
+      <div class="container">
+        <h1 class="page-title">Our Coffee Collection</h1>
+        <nav aria-label="breadcrumb">
+          <ol class="breadcrumb">
+            <li class="breadcrumb-item"><a href="/">Home</a></li>
+            <li class="breadcrumb-item active" aria-current="page">Coffee</li>
+          </ol>
+        </nav>
+      </div>
+    </section>
+    
+    <!-- Coffee Categories -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Explore by Category</h2>
+        
+        <div class="category-grid">
+          <div class="category-card fade-in">
+            <div class="category-img">
+              <img src="/assets/images/coffee-single-origin.jpg" alt="Single Origin Coffee">
+            </div>
+            <div class="category-content">
+              <h3>Single Origin</h3>
+              <p>Coffee beans from a specific region, showcasing unique terroir and flavor characteristics.</p>
+              <a href="/coffee/single-origin/" class="btn">Explore Single Origin</a>
+            </div>
+          </div>
+          
+          <div class="category-card fade-in">
+            <div class="category-img">
+              <img src="/assets/images/coffee-blends.jpg" alt="Coffee Blends">
+            </div>
+            <div class="category-content">
+              <h3>Blends</h3>
+              <p>Carefully crafted combinations of beans for balanced and consistent flavor profiles.</p>
+              <a href="/coffee/blends/" class="btn">Explore Blends</a>
+            </div>
+          </div>
+          
+          <div class="category-card fade-in">
+            <div class="category-img">
+              <img src="/assets/images/coffee-espresso.jpg" alt="Espresso Coffee">
+            </div>
+            <div class="category-content">
+              <h3>Espresso</h3>
+              <p>Beans specifically roasted and blended for optimal espresso extraction.</p>
+              <a href="/coffee/espresso/" class="btn">Explore Espresso</a>
+            </div>
+          </div>
+          
+          <div class="category-card fade-in">
+            <div class="category-img">
+              <img src="/assets/images/coffee-decaf.jpg" alt="Decaf Coffee">
+            </div>
+            <div class="category-content">
+              <h3>Decaf</h3>
+              <p>All the flavor without the caffeine, perfect for evening enjoyment.</p>
+              <a href="/coffee/decaf/" class="btn">Explore Decaf</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Featured Coffee -->
+    <section class="section bg-cream">
+      <div class="container">
+        <h2 class="section-title">Featured Coffee Beans</h2>
+        
+        <div class="product-grid">
+          <div class="card product-card fade-in">
+            <div class="card-img-container">
+              <img src="/assets/images/coffee-ethiopia.jpg" alt="Ethiopian Yirgacheffe Coffee Beans">
+              <span class="product-badge">Best Seller</span>
+            </div>
+            <div class="card-body">
+              <span class="product-category">Single Origin</span>
+              <h3 class="card-title">Ethiopian Yirgacheffe</h3>
+              <p class="card-text">Bright and fruity with notes of citrus, bergamot, and floral undertones. A perfect morning coffee.</p>
+              <div class="product-meta">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star-half-alt"></i>
+                  <span>(4.5/5)</span>
+                </div>
+                <div class="product-price">$18.99</div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="/coffee/ethiopian-yirgacheffe/" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="card product-card fade-in">
+            <div class="card-img-container">
+              <img src="/assets/images/coffee-colombia.jpg" alt="Colombian Supremo Coffee Beans">
+            </div>
+            <div class="card-body">
+              <span class="product-category">Single Origin</span>
+              <h3 class="card-title">Colombian Supremo</h3>
+              <p class="card-text">Well-balanced with rich chocolate notes, caramel sweetness, and a hint of nuttiness.</p>
+              <div class="product-meta">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="far fa-star"></i>
+                  <span>(4.0/5)</span>
+                </div>
+                <div class="product-price">$16.99</div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="/coffee/colombian-supremo/" class="btn">View Details</a>
+            </div>
+          </div>
+          
+          <div class="card product-card fade-in">
+            <div class="card-img-container">
+              <img src="/assets/images/coffee-blend.jpg" alt="Morning Blend Coffee Beans">
+              <span class="product-badge">New</span>
+            </div>
+            <div class="card-body">
+              <span class="product-category">Blend</span>
+              <h3 class="card-title">Morning Blend</h3>
+              <p class="card-text">A smooth, medium-roast blend with notes of chocolate, caramel, and a clean finish.</p>
+              <div class="product-meta">
+                <div class="product-rating">
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <i class="fas fa-star"></i>
+                  <span>(5.0/5)</span>
+                </div>
+                <div class="product-price">$15.99</div>
+              </div>
+            </div>
+            <div class="card-footer">
+              <a href="/coffee/morning-blend/" class="btn">View Details</a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Coffee Origins -->
+    <section class="section">
+      <div class="container">
+        <h2 class="section-title">Coffee Origins</h2>
+        
+        <div class="origins-map">
+          <img src="/assets/images/coffee-map.jpg" alt="World Coffee Origins Map" class="responsive-img">
+        </div>
+        
+        <div class="origins-grid">
+          <div class="origin-item slide-up">
+            <div class="origin-flag">
+              <img src="/assets/images/flag-ethiopia.png" alt="Ethiopia Flag">
+            </div>
+            <h3>Ethiopia</h3>
+            <p>The birthplace of coffee, known for bright, fruity, and floral flavor profiles.</p>
+          </div>
+          
+          <div class="origin-item slide-up">
+            <div class="origin-flag">
+              <img src="/assets/images/flag-colombia.png" alt="Colombia Flag">
+            </div>
+            <h3>Colombia</h3>
+            <p>Famous for well-balanced coffees with chocolate notes and medium acidity.</p>
+          </div>
+          
+          <div class="origin-item slide-up">
+            <div class="origin-flag">
+              <img src="/assets/images/flag-brazil.png" alt="Brazil Flag">
+            </div>
+            <h3>Brazil</h3>
+            <p>The world's largest producer, offering nutty, chocolatey, low-acid coffees.</p>
+          </div>
+          
+          <div class="origin-item slide-up">
+            <div class="origin-flag">
+              <img src="/assets/images/flag-guatemala.png" alt="Guatemala Flag">
+            </div>
+            <h3>Guatemala</h3>
+            <p>Known for complex coffees with spicy, chocolatey notes and smoky undertones.</p>
+          </div>
+        </div>
+        
+        <div class="text-center mt-4">
+          <a href="/coffee/origins/" class="btn btn-outline">Learn More About Coffee Origins</a>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Coffee Processing -->
+    <section class="section bg-cream">
+      <div class="container">
+        <h2 class="section-title">Coffee Processing Methods</h2>
+        
+        <div class="row">
+          <div class="col col-md-6 col-sm-12">
+            <div class="processing-content slide-up">
+              <h3>How Processing Affects Flavor</h3>
+              <p>The way coffee cherries are processed after harvesting significantly impacts the final flavor profile of the beans. Different methods highlight different characteristics of the coffee.</p>
+              
+              <div class="processing-methods">
+                <div class="processing-method">
+                  <h4>Washed Process</h4>
+                  <p>Removes all fruit before drying, resulting in clean, bright flavors with higher acidity.</p>
+                </div>
+                
+                <div class="processing-method">
+                  <h4>Natural Process</h4>
+                  <p>Dries the whole cherry around the bean, creating fruity, sweet, and complex flavors.</p>
+                </div>
+                
+                <div class="processing-method">
+                  <h4>Honey Process</h4>
+                  <p>Removes the skin but leaves some fruit mucilage, balancing acidity and sweetness.</p>
+                </div>
+              </div>
+              
+              <a href="/coffee/processing/" class="btn">Learn More About Processing</a>
+            </div>
+          </div>
+          
+          <div class="col col-md-6 col-sm-12">
+            <div class="processing-image slide-up">
+              <img src="/assets/images/coffee-processing.jpg" alt="Coffee Processing Methods" class="rounded-image">
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    
+    <!-- Newsletter Section -->
+    <section class="section bg-dark-brown text-cream">
+      <div class="container">
+        <div class="newsletter">
+          <h2 class="section-title">Stay Updated</h2>
+          <p class="text-center mb-4">Subscribe to our newsletter for new coffee arrivals, brewing tips, and exclusive offers.</p>
+          
+          <form class="newsletter-form">
+            <div class="form-group">
+              <input type="email" class="form-control" placeholder="Your email address" required>
+              <button type="submit" class="btn">Subscribe</button>
+            </div>
+            <p class="form-text text-center">We respect your privacy and will never share your information.</p>
+          </form>
+        </div>
+      </div>
+    </section>
+  </main>
+  
+  <!-- Footer -->
+  <footer class="site-footer">
+    <div class="container">
+      <div class="row">
+        <div class="col col-md-4 col-sm-12">
+          <h4 class="footer-title">Coffee Prism</h4>
+          <p>Exploring the colorful world of specialty coffee, from bean to cup.</p>
+          <div class="social-links">
+            <a href="#" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a>
+            <a href="#" aria-label="Instagram"><i class="fab fa-instagram"></i></a>
+            <a href="#" aria-label="Twitter"><i class="fab fa-twitter"></i></a>
+            <a href="#" aria-label="Pinterest"><i class="fab fa-pinterest-p"></i></a>
+          </div>
+        </div>
+        
+        <div class="col col-md-4 col-sm-12">
+          <h4 class="footer-title">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="/coffee/">Coffee</a></li>
+            <li><a href="/brewing/">Brewing Guides</a></li>
+            <li><a href="/equipment/">Equipment</a></li>
+            <li><a href="/blog/">Blog</a></li>
+            <li><a href="/about/">About Us</a></li>
+            <li><a href="/contact/">Contact</a></li>
+          </ul>
+        </div>
+        
+        <div class="col col-md-4 col-sm-12">
+          <h4 class="footer-title">Contact Us</h4>
+          <ul class="footer-links">
+            <li><i class="fas fa-envelope"></i> <a href="mailto:info@coffeeprism.com">info@coffeeprism.com</a></li>
+            <li><i class="fas fa-map-marker-alt"></i> 123 Brew Street, Coffee Town</li>
+            <li><i class="fas fa-phone"></i> (123) 456-7890</li>
+          </ul>
+        </div>
+      </div>
+      
+      <div class="footer-bottom">
+        <p>&copy; <script>document.write(new Date().getFullYear())</script> Coffee Prism. All rights reserved.</p>
+        <p>
+          <a href="/privacy-policy/">Privacy Policy</a> | 
+          <a href="/terms-of-service/">Terms of Service</a> | 
+          <a href="/sitemap.xml">Sitemap</a>
+        </p>
+      </div>
+    </div>
+  </footer>
+  
+  <!-- Theme Toggle -->
+  <button class="theme-toggle" aria-label="Toggle dark mode" data-tooltip="Toggle dark mode">
+    <i class="fas fa-moon"></i>
+  </button>
+  
+  <!-- Back to Top Button -->
+  <button class="back-to-top" aria-label="Back to top" data-tooltip="Back to top">
+    <i class="fas fa-arrow-up"></i>
+  </button>
+  
+  <!-- Scripts -->
+  <script src="/assets/js/main.js"></script>
+  
+  <!-- Service Worker Registration -->
+  <script>
+    if ('serviceWorker' in navigator) {
+      window.addEventListener('load', () => {
+        navigator.serviceWorker.register('/service-worker.js')
+          .then(registration => {
+            console.log('Service Worker registered successfully:', registration.scope);
+          })
+          .catch(error => {
+            console.log('Service Worker registration failed:', error);
+          });
+      });
+    }
+  </script>
+</body>
+</html> 
