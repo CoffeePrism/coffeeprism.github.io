@@ -1,0 +1,114 @@
+baseURL = "https://www.coffeeprism.com/"
+languageCode = "zh-cn"
+title = "Coffee Prism"
+theme = "PaperMod"
+
+enableRobotsTXT = true
+buildDrafts = false
+buildFuture = false
+buildExpired = false
+googleAnalytics = ""
+
+[minify]
+  disableXML = true
+  minifyOutput = true
+
+[params]
+  env = "production"
+  title = "Coffee Prism"
+  description = "专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测"
+  keywords = ["咖啡", "咖啡豆", "咖啡冲泡", "咖啡装备"]
+  author = "Coffee Prism"
+  images = ["<link or path of image for opengraph, twitter-cards>"]
+  DateFormat = "2006-01-02"
+  defaultTheme = "auto"
+  disableThemeToggle = false
+  ShowReadingTime = true
+  ShowShareButtons = true
+  ShowPostNavLinks = true
+  ShowBreadCrumbs = true
+  ShowCodeCopyButtons = false
+  ShowWordCount = true
+  ShowRssButtonInSectionTermList = true
+  UseHugoToc = true
+  disableSpecial1stPost = false
+  disableScrollToTop = false
+  comments = false
+  hidemeta = false
+  hideSummary = false
+  showtoc = false
+  tocopen = false
+
+  [params.assets]
+    favicon = "/favicon.ico"
+    favicon16x16 = "/favicon-16x16.png"
+    favicon32x32 = "/favicon-32x32.png"
+    apple_touch_icon = "/apple-touch-icon.png"
+    safari_pinned_tab = "/safari-pinned-tab.svg"
+
+  [params.homeInfoParams]
+    Title = "咖啡棱镜 - 您的咖啡专业指南"
+    Content = "Coffee Prism 为您提供最专业的咖啡知识和装备推荐，包括咖啡豆种类、各种冲泡方法以及咖啡相关产品评测。"
+
+  [[params.socialIcons]]
+    name = "github"
+    url = "https://github.com/CoffeePrism/coffeeprism.github.io"
+
+  [params.cover]
+    hidden = false
+    hiddenInList = false
+    hiddenInSingle = false
+
+  [params.fuseOpts]
+    isCaseSensitive = false
+    shouldSort = true
+    location = 0
+    distance = 1000
+    threshold = 0.4
+    minMatchCharLength = 0
+    keys = ["title", "permalink", "summary", "content"]
+
+[[menu.main]]
+identifier = "categories"
+name = "分类"
+url = "/categories/"
+weight = 10
+
+[[menu.main]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 20
+
+[[menu.main]]
+identifier = "coffee-beans"
+name = "咖啡豆种类"
+url = "/coffee-beans/"
+weight = 30
+
+[[menu.main]]
+identifier = "brewing-methods"
+name = "冲泡方式"
+url = "/brewing-methods/"
+weight = 40
+
+[[menu.main]]
+identifier = "coffee-equipment"
+name = "咖啡产品"
+url = "/coffee-equipment/"
+weight = 50
+
+[[menu.main]]
+identifier = "about"
+name = "关于我们"
+url = "/about/"
+weight = 60
+
+[[menu.main]]
+identifier = "contact"
+name = "联系我们"
+url = "/contact/"
+weight = 70
+
+[outputs]
+home = ["HTML", "RSS", "JSON"]
