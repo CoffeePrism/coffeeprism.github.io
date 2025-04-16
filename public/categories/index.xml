@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>分类 on Coffee Prism</title>
+    <link>http://localhost:1313/categories/</link>
+    <description>Recent content in 分类 on Coffee Prism</description>
+    <image>
+      <title>Coffee Prism</title>
+      <url>http://localhost:1313/img/coffee-prism-og.jpg</url>
+      <link>http://localhost:1313/img/coffee-prism-og.jpg</link>
+    </image>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate><atom:link href="http://localhost:1313/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>冲泡方法</title>
+      <link>http://localhost:1313/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>咖啡装备</title>
+      <link>http://localhost:1313/categories/%E5%92%96%E5%95%A1%E8%A3%85%E5%A4%87/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%92%96%E5%95%A1%E8%A3%85%E5%A4%87/</guid>
+      <description></description>
+    </item>
+    
+    <item>
+      <title>咖啡豆</title>
+      <link>http://localhost:1313/categories/%E5%92%96%E5%95%A1%E8%B1%86/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/categories/%E5%92%96%E5%95%A1%E8%B1%86/</guid>
+      <description></description>
+    </item>
+    
+  </channel>
+</rss>
