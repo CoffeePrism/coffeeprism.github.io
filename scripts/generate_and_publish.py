@@ -7,6 +7,7 @@ import datetime
 import re
 import json
 import time
+import uuid
 from pathlib import Path
 import slugify
 
@@ -133,10 +134,12 @@ def save_article(article_content):
         # 提取标题
         title = extract_title(article_content)
         
-        # 创建文件名
+        # 创建文件名 - 添加时间戳和随机字符串确保唯一性
         today = datetime.date.today().strftime("%Y-%m-%d")
+        timestamp = datetime.datetime.now().strftime("%H%M%S")
+        unique_id = str(uuid.uuid4())[:8]  # 使用UUID的前8位作为唯一标识符
         slug = slugify.slugify(title, separator='-')
-        filename = f"{today}-{slug}.md"
+        filename = f"{today}-{timestamp}-{slug}-{unique_id}.md"
         filepath = content_dir / filename
         
         # 创建Front Matter
