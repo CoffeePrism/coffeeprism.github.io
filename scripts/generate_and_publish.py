@@ -14,9 +14,20 @@ import slugify
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
 NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 
+# 检查API密钥是否设置
+if not OPENAI_API_KEY:
+    print("错误: OPENAI_API_KEY 环境变量未设置。请设置后再运行此脚本。")
+    exit(1)
+    
+if not NEWSAPI_KEY:
+    print("错误: NEWSAPI_KEY 环境变量未设置。请设置后再运行此脚本。")
+    exit(1)
+
 def fetch_latest_coffee_news():
     """从NewsAPI获取最新的咖啡相关新闻"""
     print("正在获取最新咖啡新闻...")
+    print(f"使用 NewsAPI 密钥: {NEWSAPI_KEY[:5]}...{NEWSAPI_KEY[-5:] if NEWSAPI_KEY and len(NEWSAPI_KEY) > 10 else '密钥太短'}")
+    
     url = f"https://newsapi.org/v2/everything?q=coffee&sortBy=publishedAt&language=en&apiKey={NEWSAPI_KEY}"
     
     try:
@@ -39,6 +50,9 @@ def fetch_latest_coffee_news():
         
     except requests.exceptions.RequestException as e:
         print(f"请求NewsAPI时出错: {e}")
+        if hasattr(e, 'response') and e.response:
+            print(f"错误状态码: {e.response.status_code}")
+            print(f"错误响应: {e.response.text}")
         return None
 
 def generate_article_with_openai(news_summary):
