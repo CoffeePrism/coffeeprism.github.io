@@ -50,10 +50,6 @@ googleAnalytics = ""
     Title = "咖啡棱镜 - 您的咖啡专业指南"
     Content = "Coffee Prism 为您提供最专业的咖啡知识和装备推荐，包括咖啡豆种类、各种冲泡方法以及咖啡相关产品评测。"
 
-  [[params.socialIcons]]
-    name = "github"
-    url = "https://github.com/CoffeePrism/coffeeprism.github.io"
-
   [params.cover]
     hidden = false
     hiddenInList = false

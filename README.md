@@ -20,10 +20,9 @@ Coffee Prism 主要包含以下内容板块：
 本网站基于以下技术构建：
 
 - **静态网站生成器**: [Hugo](https://gohugo.io/)
-- **主题**: [PaperMod](https://github.com/adityatelange/hugo-PaperMod)
-- **托管**: [GitHub Pages](https://pages.github.com/)
+- **主题**: 基于PaperMod的定制主题
 - **自动化内容生成**: OpenAI API + NewsAPI
-- **工作流自动化**: GitHub Actions
+- **工作流自动化**: 自定义工作流脚本
 
 ## 本地开发
 
@@ -37,10 +36,10 @@ Coffee Prism 主要包含以下内容板块：
 
 ### 安装步骤
 
-1. 克隆仓库
+1. 克隆源代码仓库
    ```bash
-   git clone https://github.com/CoffeePrism/coffeeprism.github.io.git
-   cd coffeeprism.github.io
+   git clone <源代码仓库URL>
+   cd coffeeprism
    ```
 
 2. 初始化子模块 (获取 Hugo 主题)
@@ -86,7 +85,7 @@ Coffee Prism 利用 OpenAI API 和 NewsAPI 自动生成咖啡相关文章:
 3. 自动添加亚马逊推广链接 (跟踪 ID: coffeeprism-20)
 4. 生成的文章自动发布到网站
 
-通过 GitHub Actions 工作流 `.github/workflows/publish.yml` 实现每日自动运行。
+定时任务自动运行内容生成脚本。
 
 要手动运行内容生成:
 

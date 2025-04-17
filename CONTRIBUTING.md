@@ -8,8 +8,7 @@
 
 如果您是咖啡领域的专家或爱好者，并希望为网站贡献内容：
 
-1. 您可以直接通过Pull Request提交内容
-2. 或者通过电子邮件将您的内容发送至 submit@coffeeprism.com
+1. 您可以通过电子邮件将您的内容发送至 submit@coffeeprism.com
 
 内容贡献可以包括：
 - 咖啡豆评测
@@ -35,20 +34,14 @@ tags: ["标签1", "标签2"]
 
 ### 代码贡献
 
-如果您想要为网站的代码或自动化流程做出贡献：
-
-1. Fork 本仓库
-2. 创建您的功能分支 (`git checkout -b feature/amazing-feature`)
-3. 提交您的更改 (`git commit -m 'Add some amazing feature'`)
-4. 推送到分支 (`git push origin feature/amazing-feature`)
-5. 打开一个 Pull Request
+如果您想要为网站的代码或自动化流程做出贡献，请通过电子邮件联系我们：dev@coffeeprism.com
 
 ## 开发指南
 
 ### 目录结构
 
 ```
-coffeeprism.github.io/
+coffeeprism/
 ├── archetypes/      # 内容模板
 ├── assets/          # 原始资源文件
 ├── content/         # 网站内容
@@ -67,9 +60,9 @@ coffeeprism.github.io/
 ### 技术栈
 
 - **Hugo**: 静态网站生成器
-- **PaperMod**: Hugo主题
+- **定制主题**: 基于PaperMod的自定义主题
 - **Python**: 用于自动内容生成脚本
-- **GitHub Actions**: 用于自动化工作流程
+- **自动化工作流**: 用于自动化内容发布
 
 ### 代码规范
 
@@ -77,18 +70,11 @@ coffeeprism.github.io/
 - 保持代码简洁、可读
 - 添加适当的注释
 
-## Pull Request流程
-
-1. 确保您的PR描述清楚地说明了您所做的更改和原因
-2. 如果适用，包括相关的截图或示例
-3. 如果您的PR修复了一个已知问题，请引用相关issue
-4. 确保您的代码可以成功构建和运行
-
 ## 问题反馈
 
 如果您发现bug或有功能建议，请通过以下方式提交：
 
-1. 使用GitHub Issues系统
+1. 发送电子邮件至 feedback@coffeeprism.com
 2. 描述问题或建议，提供尽可能多的上下文信息
 3. 如果是bug报告，请提供复现步骤和环境信息
 
