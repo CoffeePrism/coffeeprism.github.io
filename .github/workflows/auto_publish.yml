@@ -1,0 +1,64 @@
+name: 自动文章生成与发布
+
+on:
+  schedule:
+    # 每天凌晨2点（UTC时间，根据需要调整）
+    - cron: '0 18 * * *'
+  workflow_dispatch:  # 允许手动触发
+
+jobs:
+  generate-and-publish:
+    runs-on: ubuntu-latest
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v3
+        with:
+          fetch-depth: 0
+
+      - name: 设置Python环境
+        uses: actions/setup-python@v4
+        with:
+          python-version: '3.10'
+          cache: 'pip'
+
+      - name: 安装Python依赖
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests python-slugify
+
+      - name: 设置Hugo
+        uses: peaceiris/actions-hugo@v2
+        with:
+          hugo-version: 'latest'
+          extended: true
+
+      - name: 配置Git
+        run: |
+          git config --global user.name "自动发布机器人"
+          git config --global user.email "autobot@coffeeprism.com"
+
+      - name: 创建备份目录
+        run: |
+          mkdir -p backups/$(date +%Y%m%d)
+          cp -r content backups/$(date +%Y%m%d)/ || echo "没有content目录可备份"
+
+      - name: 生成文章
+        env:
+          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+        run: python scripts/generate_and_publish.py
+
+      - name: 构建网站
+        run: hugo --minify
+
+      - name: 提交并推送更改
+        run: |
+          # 确认是否有更改
+          if [[ -z $(git status -s) ]]; then
+            echo "没有需要提交的更改"
+            exit 0
+          fi
+          
+          git add content public
+          git commit -m "自动发布: 添加新文章 - $(date +%Y-%m-%d)"
+          git push 

@@ -28,4 +28,33 @@ Desktop.ini
 *.sublime-workspace
 
 # Log files
-*.log 
+*.log
+scripts/auto_publish.log
+
+# Backup directories
+backups/
+
+# Executable binaries
+*.exe
+*.exe~
+*.dll
+*.so
+*.dylib
+
+# OS generated files
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+
+# Dependency directories
+node_modules/
+
+# Hugo default output directory
+public/
+
+# Generated files by hugo
+.hugo_build.lock
+
+# Environment variable files
+.env 
