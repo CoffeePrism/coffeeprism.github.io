@@ -1,6 +1,6 @@
 ---
 title: "关于我们"
-layout: "single"
+layout: "page"
 url: "/about/"
 summary: "关于Coffee Prism"
 ---
