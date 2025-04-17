@@ -54,12 +54,17 @@ jobs:
 
       - name: 提交并推送更改
         run: |
-          # 确认是否有更改
+          # 添加内容目录的更改
+          git add content
+          
+          # 强制添加public目录（被.gitignore忽略）
+          git add -f public
+          
+          # 检查是否有更改需要提交
           if [[ -z $(git status -s) ]]; then
             echo "没有需要提交的更改"
             exit 0
           fi
           
-          git add content public
           git commit -m "自动发布: 添加新文章 - $(date +%Y-%m-%d)"
           git push origin main 
