@@ -4,6 +4,9 @@ on:
   schedule:
     - cron: '0 2 * * *'  # 每天UTC 2点运行（北京时间10点）
   workflow_dispatch:     # 允许手动触发
+  push:
+    branches:
+      - main            # 当推送到main分支时也会触发
 
 jobs:
   publish_article:
