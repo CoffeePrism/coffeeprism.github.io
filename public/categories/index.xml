@@ -1,52 +1,54 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
   <channel>
     <title>分类 on Coffee Prism</title>
     <link>https://www.coffeeprism.com/categories/</link>
     <description>Recent content in 分类 on Coffee Prism</description>
-    <image>
-      <title>Coffee Prism</title>
-      <url>https://www.coffeeprism.com/img/coffee-prism-og.jpg</url>
-      <link>https://www.coffeeprism.com/img/coffee-prism-og.jpg</link>
-    </image>
-    <generator>Hugo -- gohugo.io</generator>
+    <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 16 Apr 2025 00:00:00 +0000</lastBuildDate><atom:link href="https://www.coffeeprism.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <lastBuildDate>Thu, 17 Apr 2025 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>咖啡旅行</title>
+      <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E6%97%85%E8%A1%8C/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E6%97%85%E8%A1%8C/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>咖啡设备与器具</title>
+      <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%AE%BE%E5%A4%87%E4%B8%8E%E5%99%A8%E5%85%B7/</link>
+      <pubDate>Thu, 17 Apr 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%AE%BE%E5%A4%87%E4%B8%8E%E5%99%A8%E5%85%B7/</guid>
+      <description></description>
+    </item>
     <item>
       <title>咖啡知识</title>
       <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%9F%A5%E8%AF%86/</link>
       <pubDate>Wed, 16 Apr 2025 00:00:00 +0000</pubDate>
-      
       <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%9F%A5%E8%AF%86/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>冲泡方法</title>
       <link>https://www.coffeeprism.com/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://www.coffeeprism.com/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>咖啡装备</title>
       <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%A3%85%E5%A4%87/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%A3%85%E5%A4%87/</guid>
       <description></description>
     </item>
-    
     <item>
       <title>咖啡豆</title>
       <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%B1%86/</link>
       <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      
       <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%B1%86/</guid>
       <description></description>
     </item>
-    
   </channel>
 </rss>
