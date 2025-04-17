@@ -1,3 +1,4 @@
+{{ define "partials/templates/opengraph.html" }}
 <meta property="og:title" content="{{ .Title }}" />
 <meta property="og:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary }}{{ else }}{{ with site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end }}" />
 <meta property="og:type" content="{{ if .IsPage }}article{{ else }}website{{ end }}" />
@@ -67,39 +68,6 @@
 <meta property="robots" content="noindex">
 {{- end }}
 
-{{- /* Twitter Card */ -}}
-<meta name="twitter:card" content="{{ if .IsHome }}summary{{ else }}summary_large_image{{ end }}">
-{{- $title := .Title }}
-{{- if .IsHome }}
-{{- $title = .Site.Title }}
-{{- end }}
-<meta name="twitter:title" content="{{ $title }}">
-<meta name="twitter:description" content="{{ with .Description }}{{ . }}{{ else }}{{if .IsPage}}{{ .Summary | default (printf "%s - %s" .Title  .Site.Title) }}{{ else }}{{ with .Site.Params.description }}{{ . }}{{ end }}{{ end }}{{ end -}}">
-{{- with .Site.Params.twitter }}
-<meta name="twitter:site" content="@{{ . }}">
-{{- end }}
-{{- with .Site.Params.Author }}
-<meta name="twitter:creator" content="@{{ . }}">
-{{- end }}
-
-{{- /* Images */ -}}
-{{- $images := $.Resources.ByType "image" }}
-{{- $featured := $images.GetMatch "*feature*" }}
-{{- if not $featured }}{{ $featured = $images.GetMatch "{*cover*,*thumbnail*}" }}{{ end }}
-{{- with $.Params.featuredImage }}
-{{- $featured = . }}
-{{- end }}
-
-{{- with $featured -}}
-<meta property="twitter:image" content="{{ . | absURL }}">
-<meta property="og:image" content="{{ . | absURL }}">
-{{- else }}
-{{- with $.Site.Params.images }}
-<meta property="twitter:image" content="{{ index . 0 | absURL }}">
-<meta property="og:image" content="{{ index . 0 | absURL }}">
-{{- end }}
-{{- end }}
-
 {{- /* search engine verification */ -}}
 {{ with .Site.Params.verification.google }}
 <meta name="google-site-verification" content="{{ . }}" />
@@ -123,4 +91,5 @@
 {{- /* alternative output formats */ -}}
 {{ range .AlternativeOutputFormats }}
 <link rel="{{ .Rel }}" type="{{ .MediaType.Type }}" href="{{ .Permalink | safeURL }}">
+{{ end }}
 {{ end }} 

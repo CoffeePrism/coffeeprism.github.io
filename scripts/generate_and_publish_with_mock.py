@@ -8,112 +8,155 @@ import re
 import json
 import time
 import uuid
+import random
 from pathlib import Path
 import slugify
 
 # API配置
 OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
-NEWSAPI_KEY = os.getenv("NEWSAPI_KEY")
 
-# 检查API密钥是否设置
-if not NEWSAPI_KEY:
-    print("错误: NEWSAPI_KEY 环境变量未设置。请设置后再运行此脚本。")
-    exit(1)
+# 咖啡主题列表
+COFFEE_TOPICS = [
+    {
+        "title": "咖啡文化",
+        "subtopics": [
+            "世界各地的咖啡仪式与传统",
+            "咖啡馆文化的历史与演变",
+            "第三波咖啡运动的影响",
+            "咖啡与艺术的交融",
+            "咖啡与社交媒体的关系",
+            "不同国家的咖啡饮用习惯",
+            "咖啡馆作为社交和工作空间的演变"
+        ]
+    },
+    {
+        "title": "咖啡豆种类",
+        "subtopics": [
+            "阿拉比卡与罗布斯塔的区别与特点",
+            "单一产地咖啡豆的风味特点",
+            "埃塞俄比亚咖啡豆的多样性",
+            "哥伦比亚咖啡豆的特色与历史",
+            "肯尼亚AA咖啡豆的独特风味",
+            "巴拿马翡翠庄园的瑰夏咖啡",
+            "爪哇咖啡的历史与风味特征",
+            "云南小粒咖啡的发展与特点",
+            "稀有咖啡品种及其价值"
+        ]
+    },
+    {
+        "title": "咖啡制作技巧",
+        "subtopics": [
+            "手冲咖啡的进阶技巧",
+            "意式浓缩的完美萃取",
+            "法压壶的最佳使用方法",
+            "爱乐压的创新玩法",
+            "冷萃咖啡的制作与风味特点",
+            "摩卡壶的传统与现代技巧",
+            "虹吸壶的科学与艺术",
+            "越南滴滤咖啡的独特魅力",
+            "土耳其咖啡的传统冲泡方法",
+            "拉花技巧与艺术表达"
+        ]
+    },
+    {
+        "title": "咖啡设备与器具",
+        "subtopics": [
+            "高级咖啡研磨器的对比与选择",
+            "专业咖啡机的功能与维护",
+            "手冲滤杯的种类与影响",
+            "精准温控壶的重要性",
+            "咖啡秤的应用与推荐",
+            "便携咖啡设备的创新与实用性",
+            "家用咖啡设备的最佳组合",
+            "复古咖啡器具的现代应用",
+            "高科技咖啡设备的发展趋势"
+        ]
+    },
+    {
+        "title": "咖啡烘焙",
+        "subtopics": [
+            "烘焙度对咖啡风味的影响",
+            "家庭咖啡烘焙入门指南",
+            "不同烘焙曲线的风味表现",
+            "单源咖啡的最佳烘焙方式",
+            "烘焙咖啡的保鲜与储存",
+            "烘焙技术的历史发展",
+            "直火vs热风烘焙的区别",
+            "识别完美烘焙的视觉与嗅觉线索"
+        ]
+    }
+]
 
-def fetch_latest_coffee_news():
-    """从NewsAPI获取最新的咖啡相关新闻"""
-    print("正在获取最新咖啡新闻...")
+def select_random_coffee_topics(count=2):
+    """随机选择指定数量的咖啡主题及子主题"""
+    selected_topics = []
+    # 从主题列表中随机选择不重复的主题
+    chosen_main_topics = random.sample(COFFEE_TOPICS, min(count, len(COFFEE_TOPICS)))
     
-    url = f"https://newsapi.org/v2/everything?q=coffee&sortBy=publishedAt&language=en&apiKey={NEWSAPI_KEY}"
+    for topic in chosen_main_topics:
+        # 从每个主题的子主题中随机选择一个
+        subtopic = random.choice(topic["subtopics"])
+        selected_topics.append({
+            "main_topic": topic["title"],
+            "specific_topic": subtopic
+        })
     
-    try:
-        response = requests.get(url)
-        response.raise_for_status()  # 检查请求是否成功
-        data = response.json()
-        
-        if data.get('status') != 'ok':
-            print(f"从NewsAPI获取数据失败: {data.get('message', '未知错误')}")
-            return None
-            
-        articles = data.get('articles', [])[:5]  # 获取前5条最新新闻
-        
-        if not articles:
-            print("未找到咖啡相关新闻")
-            return None
-            
-        print(f"成功获取 {len(articles)} 条咖啡新闻")
-        for i, article in enumerate(articles, 1):
-            print(f"新闻 {i}: {article['title']}")
-            
-        summaries = "\n\n".join([f"标题: {a['title']}\n摘要: {a['description']}\n链接: {a['url']}" for a in articles])
-        return summaries
-        
-    except requests.exceptions.RequestException as e:
-        print(f"请求NewsAPI时出错: {e}")
-        if hasattr(e, 'response') and e.response:
-            print(f"错误状态码: {e.response.status_code}")
-            print(f"错误响应: {e.response.text}")
-        return None
+    return selected_topics
 
-def mock_generate_article_with_openai(news_summary):
+def mock_generate_article(topic_info):
     """模拟使用OpenAI API生成咖啡相关文章"""
-    print("正在模拟使用OpenAI生成文章...")
-    print("使用真实的新闻数据，但模拟AI生成内容（因为API限流）")
+    main_topic = topic_info["main_topic"]
+    specific_topic = topic_info["specific_topic"]
     
-    # 从新闻摘要中提取标题用于文章标题
-    news_items = news_summary.split("\n\n")
-    titles = [item.split("\n")[0].replace("标题: ", "") for item in news_items if item.startswith("标题:")]
-    main_title = titles[0] if titles else "全球咖啡趋势分析"
+    print(f"正在模拟生成关于「{main_topic}：{specific_topic}」的文章...")
     
     # 模拟生成的文章
-    article_content = f"""# {main_title}
+    article_content = f"""# {main_topic}中的奥秘：{specific_topic}详解
 
-咖啡，这种全球最受欢迎的饮品之一，正在经历一场前所未有的变革。根据最新的行业数据和研究成果，以下是几个值得关注的咖啡行业趋势。
+在咖啡的世界里，{specific_topic}是一个充满魅力的话题。作为{main_topic}的重要组成部分，它不仅体现了咖啡文化的多样性，也展示了咖啡爱好者对品质的不懈追求。
 
-## 最新咖啡行业动态
+## {specific_topic}的历史背景
 
-根据最新的咖啡行业新闻，我们可以观察到以下几个主要趋势：
+{specific_topic}的起源可以追溯到几个世纪前。早在咖啡开始流行的年代，人们就已经开始关注这一领域。随着时间的推移，相关技术和理念不断发展，形成了今天我们所熟知的体系。
 
-"""
+## 为什么{specific_topic}如此重要
 
-    # 根据获取的真实新闻添加内容
-    for i, news_item in enumerate(news_items[:3], 1):
-        lines = news_item.split("\n")
-        title = lines[0].replace("标题: ", "") if len(lines) > 0 else f"趋势 {i}"
-        description = lines[1].replace("摘要: ", "") if len(lines) > 1 else "详细信息暂缺"
-        link = lines[2].replace("链接: ", "") if len(lines) > 2 else "#"
-        
-        article_content += f"### {title}\n\n{description}\n\n了解更多信息: [原文链接]({link})\n\n"
-    
-    # 添加一些通用的咖啡内容
-    article_content += """
-## 咖啡与健康
+对于真正的咖啡爱好者来说，了解{specific_topic}是必不可少的。它直接影响着咖啡的风味表现、质量和整体体验。无论是专业咖啡师还是家庭爱好者，掌握这方面的知识都能显著提升咖啡享受的层次。
 
-研究继续表明适量饮用咖啡与多种健康益处相关。咖啡中的抗氧化物质被认为是这些健康益处的主要来源。
+## {specific_topic}的关键要素
 
-特别是深度烘焙的咖啡豆中含有的某些化合物，如[埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/dp/B00LKT7UZ8?tag=coffeeprism-20)中特有的多酚类物质，展现出强大的抗炎和神经保护作用。
+在探讨{specific_topic}时，我们不能忽视以下几个关键因素：
 
-## 可持续发展成为核心关注点
+1. 原料品质：优质的咖啡豆是基础，如[埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/dp/B00LKT7UZ8?tag=coffeeprism-20)提供的独特风味。
 
-气候变化正严重威胁全球咖啡产业。面对这一挑战，咖啡行业正在积极转向更可持续的种植和生产方式。
+2. 工艺流程：精确的技术和适当的工具，比如使用[精准温控水壶](https://www.amazon.com/dp/B07DTMZL56?tag=coffeeprism-20)来控制水温。
 
-领先的咖啡品牌正在投资：
-- 耐气候变化的咖啡品种研发
-- 水资源保护技术
-- 有机和生态友好的种植方法
-- 公平贸易实践，确保种植者获得合理收入
+3. 个人体验：每个人对咖啡的感知和偏好各不相同，因此需要不断尝试和调整。
 
-## 创新冲泡方法的兴起
+## 实用技巧与建议
 
-咖啡冲泡技术也在不断创新。除了传统的滴滤和浓缩咖啡外，冷萃咖啡（Cold Brew）和氮气咖啡（Nitro Coffee）继续流行，特别是在年轻消费者中。
+基于多年的专业经验，我向咖啡爱好者提供以下建议：
 
-新型家用咖啡器具，如[Fellow Stagg EKG电子温控水壶](https://www.amazon.com/dp/B07DTMZL56?tag=coffeeprism-20)和[Origami咖啡滴滤杯](https://www.amazon.com/dp/B07Z8L64TF?tag=coffeeprism-20)，正帮助咖啡爱好者在家中实现专业级的冲泡体验。
+- 始终关注细节，细微的变化可能带来显著的风味差异
+- 保持开放的心态，尝试不同的方法和风格
+- 记录你的体验，建立个人的咖啡笔记
+- 与其他咖啡爱好者交流，分享经验和见解
+
+## 常见问题解答
+
+在探索{specific_topic}的过程中，人们经常遇到一些疑问。以下是一些最常见问题的解答：
+
+**问题1**：如何判断适合自己的{specific_topic}方式？
+**回答**：最好的方法是通过系统性尝试，记录每次体验，逐步找到最适合自己口味的方式。
+
+**问题2**：专业设备是否必要？
+**回答**：虽然专业设备能提供更精确的控制，但入门阶段可以从基础工具开始，如[基本款手冲滤杯](https://www.amazon.com/dp/B001W6Q53C?tag=coffeeprism-20)，随着经验积累再逐步升级。
 
 ## 结语
 
-咖啡行业正在经历一场以消费者健康意识增强、可持续发展需求和品质追求为特征的转型。作为咖啡爱好者，这是一个前所未有的激动人心的时期，我们有机会品尝到更多元、更高品质、更符合道德标准的咖啡产品。
+{specific_topic}是一个不断演变的领域，充满了探索和发现的乐趣。通过持续学习和实践，每位咖啡爱好者都能在这一领域找到属于自己的乐趣和见解。
 
-无论您是刚开始探索咖啡世界的新手，还是资深的咖啡鉴赏家，现在都是深入了解这一迷人饮品的绝佳时机。让我们共同期待咖啡行业的更多创新。"""
+让我们共同探索咖啡世界的奥秘，享受这一古老而现代的饮品带来的无尽魅力。"""
     
     return article_content
 
@@ -149,7 +192,7 @@ def add_amazon_tracking_ids(article_content):
     
     return re.sub(pattern, replace_link, article_content)
 
-def save_article(article_content):
+def save_article(article_content, topic_info):
     """保存生成的文章到Hugo内容目录"""
     if not article_content:
         print("错误: 没有要保存的文章内容")
@@ -171,13 +214,18 @@ def save_article(article_content):
         filename = f"{today}-{timestamp}-{slug}-{unique_id}.md"
         filepath = content_dir / filename
         
+        # 确定文章分类和标签
+        category = topic_info["main_topic"]
+        tags = [topic_info["specific_topic"].split("的")[0] if "的" in topic_info["specific_topic"] else topic_info["specific_topic"]]
+        
         # 创建Front Matter
         front_matter = f"""---
 title: "{title}"
 date: {today}
 draft: false
-categories: ["咖啡知识"]
-tags: ["咖啡新闻", "咖啡趋势"]
+categories: ["{category}"]
+tags: {json.dumps(tags, ensure_ascii=False)}
+description: "关于{topic_info['specific_topic']}的深度探讨，为咖啡爱好者提供专业知识和实用指南。"
 ---
 
 """
@@ -200,29 +248,35 @@ tags: ["咖啡新闻", "咖啡趋势"]
         return False
 
 def main():
-    print("开始自动文章生成流程（混合版 - 真实新闻 + 模拟AI生成）...")
+    print("开始自动文章生成流程（测试版）...")
     
-    # 1. 获取最新咖啡新闻（真实）
-    news_summary = fetch_latest_coffee_news()
-    if not news_summary:
-        print("无法获取咖啡新闻，流程终止")
-        return
+    # 设置随机种子，确保更好的随机性
+    random.seed(time.time())
     
-    # 2. 模拟使用OpenAI生成文章
-    article_content = mock_generate_article_with_openai(news_summary)
-    if not article_content:
-        print("无法生成文章，流程终止")
-        return
+    # 选择随机主题
+    topics = select_random_coffee_topics(2)  # 生成两篇不同主题的文章
     
-    # 3. 确保所有亚马逊链接都有跟踪ID
-    article_content = add_amazon_tracking_ids(article_content)
+    # 生成并保存文章
+    for i, topic in enumerate(topics, 1):
+        print(f"\n=== 生成第 {i} 篇测试文章 ===")
+        
+        # 生成文章
+        article_content = mock_generate_article(topic)
+        if not article_content:
+            print(f"无法生成关于「{topic['main_topic']}：{topic['specific_topic']}」的文章，跳过")
+            continue
+        
+        # 确保所有亚马逊链接都有跟踪ID
+        article_content = add_amazon_tracking_ids(article_content)
+        
+        # 保存文章
+        success = save_article(article_content, topic)
+        if success:
+            print(f"第 {i} 篇测试文章生成并保存成功")
+        else:
+            print(f"第 {i} 篇测试文章保存失败")
     
-    # 4. 保存文章
-    success = save_article(article_content)
-    if success:
-        print("文章生成并保存成功")
-    else:
-        print("文章保存失败")
+    print("\n自动文章生成完成！")
 
 if __name__ == "__main__":
     main() 
