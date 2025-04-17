@@ -1,6 +1,6 @@
 ---
 title: "联系我们"
-layout: "page"
+layout: "single"
 url: "/contact/"
 summary: "联系Coffee Prism"
 ---
