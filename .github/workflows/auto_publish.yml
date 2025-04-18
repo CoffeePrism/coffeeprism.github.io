@@ -62,7 +62,7 @@ jobs:
         run: python scripts/generate_and_publish.py
 
       - name: 构建网站
-        run: hugo --minify
+        run: hugo --minify -v
 
       - name: 提交并推送到main分支
         run: |
