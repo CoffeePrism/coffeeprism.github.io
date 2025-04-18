@@ -258,16 +258,71 @@ def generate_article_with_openai(topic_info):
         return None
 
 def extract_title(article_content):
-    """从文章内容中提取标题"""
+    """从文章内容中提取标题并返回标题和需要移除的行号列表"""
     lines = article_content.strip().split('\n')
     if not lines:
-        return "默认标题"
-        
-    title = lines[0].strip()
+        return "默认标题", []
+
+    # --- Updated Title Extraction Logic ---
+    title = "默认标题"
+    title_found = False
+    lines_to_remove_indices = [] # Indices of lines containing the title/marker
     
-    # --- Clean up logic ---
-    # Remove prefixes like "#", "**", "标题："
-    prefixes_to_remove = ["#", "**", "标题：", "标题:"]
+    # Scan first few lines (e.g., up to 5)
+    for i, line in enumerate(lines[:5]):
+        cleaned_line = line.strip()
+        if not cleaned_line: # Skip empty lines
+            continue
+
+        potential_title = cleaned_line
+        current_line_is_marker = False
+
+        # Check for markers like "**标题**" on the *current* line
+        title_markers = ["**标题**", "标题：", "标题:"]
+        for marker in title_markers:
+            if cleaned_line.startswith(marker):
+                # If marker found, the *next* non-empty line should be the title
+                current_line_is_marker = True
+                lines_to_remove_indices.append(i)
+                # Look at the next line (if it exists)
+                if i + 1 < len(lines):
+                    next_line_cleaned = lines[i+1].strip()
+                    if next_line_cleaned:
+                        potential_title = next_line_cleaned
+                        lines_to_remove_indices.append(i+1)
+                        title_found = True
+                        break # Found title on next line
+                break # Stop checking markers for this line
+
+        if title_found: # Already found title via marker on previous line
+            break
+            
+        if not current_line_is_marker:
+            # If no marker, treat this line as potential title
+            # Basic check: not too long, doesn't look like paragraph start
+            if len(cleaned_line) < 100 and cleaned_line == potential_title: # Ensure it hasn't been overwritten by marker logic
+                lines_to_remove_indices = [i] # Reset indices if we are taking this line
+                title_found = True
+                # No break here, continue scanning in case a better marker appears later?
+                # Let's break for simplicity: assume first plausible line is title if no marker found
+                break 
+
+    # If no title found in scan, fallback to first non-empty line
+    if not title_found:
+        for i, line in enumerate(lines):
+            cleaned_line = line.strip()
+            if cleaned_line:
+                potential_title = cleaned_line
+                lines_to_remove_indices = [i]
+                title_found = True
+                break
+        if not title_found: # Still no title found (e.g., empty content)
+             return "默认标题", []
+    
+    # --- Clean up the extracted title ---
+    title = potential_title
+    # Remove prefixes like "#", "**"
+    prefixes_to_remove = ["#", "**"]
     for prefix in prefixes_to_remove:
         if title.startswith(prefix):
             title = title[len(prefix):].strip()
@@ -276,19 +331,24 @@ def extract_title(article_content):
     if title.endswith("**"):
         title = title[:-2].strip()
         
+    # Remove surrounding quotes (", ')
+    if (title.startswith('"') and title.endswith('"')) or (title.startswith("'") and title.endswith("'")):
+        title = title[1:-1]
+        
+    # ---> NEW: Remove surrounding book title marks 《》
+    if title.startswith('《') and title.endswith('》'):
+        title = title[1:-1]
+        
     # Strip extra whitespace or markers again
     title = title.strip("* \t\n\r")
     # --- Clean up logic ends ---
     
-    # Remove surrounding quotes
-    if (title.startswith('"') and title.endswith('"')) or (title.startswith("'") and title.endswith("'")):
-        title = title[1:-1]
-        
     # Provide default title if empty after cleaning
     if not title:
-        return "默认标题"
+        return "默认标题", [] # Return empty list if we can't find a valid title
         
-    return title
+    # Return the cleaned title and the indices of the lines it came from
+    return title, lines_to_remove_indices
 
 def save_article(article_content, topic_info):
     """保存生成的文章到Hugo内容目录"""
@@ -301,8 +361,12 @@ def save_article(article_content, topic_info):
         content_dir = Path("content/posts")
         content_dir.mkdir(parents=True, exist_ok=True)
         
-        # Extract title
-        title = extract_title(article_content)
+        # --- UPDATED: Extract title and lines to remove ---
+        title, title_line_indices = extract_title(article_content)
+        if not title_line_indices and title == "默认标题":
+             print("警告：无法从内容中提取有效标题，将使用默认标题。")
+        elif not title_line_indices:
+             print(f"警告：提取到标题 \"{title}\" 但无法确定原始行号，可能无法从正文中正确移除标题行。")
         
         # Create filename - add timestamp and unique ID
         today = datetime.date.today().strftime("%Y-%m-%d")
@@ -335,14 +399,25 @@ description: "关于{topic_info['specific_topic']}的深度探讨，为咖啡爱
 
 """
         
-        # Process article content - remove original title line if present
+        # --- UPDATED: Process article content - remove original title line(s) based on index ---
         content_lines = article_content.strip().split('\n')
-        # Improve title removal logic: check if first line *is* the cleaned title or starts with '#'
-        cleaned_first_line = content_lines[0].strip()
-        if cleaned_first_line.lstrip('#').strip() == title or (cleaned_first_line.startswith('"') and cleaned_first_line.endswith('"') and cleaned_first_line[1:-1] == title):
-             content_lines = content_lines[1:]
-        processed_content = '\n'.join(content_lines).strip()
+        # Create the processed content by excluding the title lines
+        processed_content_lines = []
+        for i, line in enumerate(content_lines):
+            if i not in title_line_indices:
+                processed_content_lines.append(line)
         
+        processed_content = '\n'.join(processed_content_lines).strip()
+        # Add a check: If the first line of processed content STILL looks like the title, remove it (fallback)
+        if processed_content_lines:
+             first_processed_line_clean = processed_content_lines[0].strip().lstrip('#').strip("* \t\n\r")
+             # Also check variations like quotes or book marks if they weren't cleaned perfectly by extract_title
+             if first_processed_line_clean == title or \
+                (first_processed_line_clean.startswith('《') and first_processed_line_clean.endswith('》') and first_processed_line_clean[1:-1] == title) or \
+                (first_processed_line_clean.startswith('"') and first_processed_line_clean.endswith('"') and first_processed_line_clean[1:-1] == title):
+                  print(f"警告：检测到可能的重复标题行（\"{processed_content_lines[0]}\"），将额外移除。")
+                  processed_content = '\n'.join(processed_content_lines[1:]).strip()
+
         # Save the article
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(front_matter + processed_content)
