@@ -666,7 +666,7 @@ def validate_and_update_amazon_links(article_content):
 
     # Final pass for any non-product Amazon links missed by ASIN pattern
     print("正在为其他非产品 Amazon 链接添加跟踪 ID...")
-    misc_pattern = r'(\[([^\]]+)\]\((https?://(?:www\.)?amazon\.com/[^\s\)]+)\))') # Capture full MD link
+    misc_pattern = r'(\[([^\]]+)\]\((https?://(?:www\.)?amazon\.com/[^\s\)]+)\))' # Capture full MD link - FIXED
     def replace_misc_link_final(match):
         full_md_link = match.group(1)
         link_text = match.group(2)
