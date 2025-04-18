@@ -234,14 +234,29 @@ def generate_article_with_openai(topic_info):
             # max_tokens=3000 # Note: max_tokens might be handled differently or ignored by some models/OpenRouter
         )
 
+        # ---> 新增: 检查 API 响应
+        if completion is None:
+            print("错误: API 调用返回 None")
+            return None
+        if completion.choices is None or len(completion.choices) == 0:
+            print("错误: API 响应中缺少 choices 或 choices 为空")
+            print(f"完整响应: {completion}") # 打印完整响应以便调试
+            return None
+        if completion.choices[0].message is None or completion.choices[0].message.content is None:
+            print("错误: API 响应的第一个 choice 中缺少 message 或 content")
+            print(f"完整响应: {completion}") # 打印完整响应以便调试
+            return None
+            
         article_content = completion.choices[0].message.content
         return article_content
         
     except Exception as e:
-        print(f"调用 OpenRouter API 时出错: {e}")
-        # More detailed error logging might be helpful
-        # import traceback
-        # print(traceback.format_exc())
+        print(f"调用 OpenRouter API 时发生异常: {e}")
+        # ---> 新增: 打印详细的回溯信息
+        import traceback
+        print("-- Traceback --")
+        traceback.print_exc()
+        print("-- End Traceback --")
         return None
 
 def extract_title(article_content):
