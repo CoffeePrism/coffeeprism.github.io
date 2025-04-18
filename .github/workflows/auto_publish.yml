@@ -1,6 +1,9 @@
 name: 自动文章生成与发布
 
 on:
+  push:
+    branches:
+      - main
   schedule:
     # 每天凌晨2点（UTC时间，根据需要调整）
     - cron: '0 18 * * *'
