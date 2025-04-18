@@ -84,7 +84,7 @@ jobs:
         run: python scripts/generate_and_publish.py
 
       - name: 构建网站
-        run: hugo --minify --logLevel debug
+        run: hugo --logLevel debug --themesDir ./themes
 
       # ---> 新增：列出构建输出
       - name: 列出 public 目录内容
