@@ -81,7 +81,15 @@ jobs:
           git commit -m "自动发布: 添加新文章 - $(date +%Y-%m-%d)"
           git push origin main
 
-      - name: 上传构建产物
+      # 添加缺少的上传工件依赖
+      - name: 上传工件
+        uses: actions/upload-artifact@v3
+        with:
+          name: github-pages
+          path: ./public
+          if-no-files-found: error
+
+      - name: 上传页面工件
         uses: actions/upload-pages-artifact@v2
         with:
           path: ./public
