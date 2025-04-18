@@ -11,30 +11,28 @@ import uuid
 import random
 from pathlib import Path
 import slugify
-from openai import OpenAI # Import the new library
+from openai import OpenAI # Still use the openai library
 
 # --- Configuration ---
-# Use environment variables for keys and site info
-OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
-YOUR_SITE_URL = os.getenv("YOUR_SITE_URL", "https://www.coffeeprism.com") # Optional: Your site URL
-YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME", "Coffee Prism") # Optional: Your site name
+# Use environment variable for NVIDIA API key
+NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY")
+# Site info is not needed for NVIDIA API headers
+# YOUR_SITE_URL = os.getenv("YOUR_SITE_URL", "https://www.coffeeprism.com")
+# YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME", "Coffee Prism")
 
 # Check API key
-if not OPENROUTER_API_KEY:
-    print("错误: OPENROUTER_API_KEY 环境变量未设置。请设置后再运行此脚本。")
+if not NVIDIA_API_KEY:
+    print("错误: NVIDIA_API_KEY 环境变量未设置。请设置后再运行此脚本。")
     exit(1)
 
-# Initialize OpenRouter Client globally or within the function
-# Global initialization is fine if the script isn't too complex
+# Initialize OpenAI Client pointing to NVIDIA API
 client = OpenAI(
-  base_url="https://openrouter.ai/api/v1",
-  api_key=OPENROUTER_API_KEY,
+  base_url = "https://integrate.api.nvidia.com/v1",
+  api_key = NVIDIA_API_KEY
 )
 
-# Define the model to use
-# MODEL_NAME = "deepseek/deepseek-chat-v3-0324:free"
-# Or choose another model, e.g., a paid one if needed
-MODEL_NAME = "openai/gpt-4o" # Example using GPT-4o via OpenRouter
+# Define the NVIDIA model to use
+MODEL_NAME = "deepseek-ai/deepseek-r1" # Changed to NVIDIA model
 
 # 咖啡主题列表
 COFFEE_TOPICS = [
@@ -190,14 +188,14 @@ def select_random_coffee_topics(count=2):
     return selected_topics
 
 def generate_article_with_openai(topic_info):
-    """使用OpenRouter API生成咖啡相关文章"""
+    """使用 NVIDIA API 生成咖啡相关文章"""
     main_topic = topic_info["main_topic"]
     specific_topic = topic_info["specific_topic"]
     
     print(f"正在生成关于「{main_topic}：{specific_topic}」的文章 (使用模型: {MODEL_NAME})...")
     
-    if not OPENROUTER_API_KEY:
-        print("错误: 未设置OPENROUTER_API_KEY环境变量")
+    if not NVIDIA_API_KEY:
+        print("错误: 未设置NVIDIA_API_KEY环境变量")
         return None
     
     prompt = f"""你是一位资深咖啡专家和作家。请创作一篇关于「{main_topic}：{specific_topic}」的中文文章，内容约1200-1500字，并提供一个有吸引力的标题。文章应面向中国咖啡爱好者，风格清新专业。
@@ -221,37 +219,32 @@ def generate_article_with_openai(topic_info):
 """
 
     try:
-        # Use the initialized client to create completion
-        completion = client.chat.completions.create(
-            extra_headers={
-                "HTTP-Referer": YOUR_SITE_URL, # Optional: Your site URL
-                "X-Title": YOUR_SITE_NAME,     # Optional: Your site name
-            },
-            # extra_body={}, # Usually not needed unless specific OpenRouter features require it
+        # Use the initialized client to create completion with streaming
+        completion_stream = client.chat.completions.create(
             model=MODEL_NAME,
-            messages=[{"role": "user", "content": prompt}],
-            temperature=0.75,
-            # max_tokens=3000 # Note: max_tokens might be handled differently or ignored by some models/OpenRouter
+            messages=[{"role":"user","content": prompt}],
+            temperature=0.6, # Adjusted temperature
+            top_p=0.7,       # Adjusted top_p
+            max_tokens=4096, # Adjusted max_tokens
+            stream=True      # Enable streaming
         )
 
-        # ---> 新增: 检查 API 响应
-        if completion is None:
-            print("错误: API 调用返回 None")
-            return None
-        if completion.choices is None or len(completion.choices) == 0:
-            print("错误: API 响应中缺少 choices 或 choices 为空")
-            print(f"完整响应: {completion}") # 打印完整响应以便调试
-            return None
-        if completion.choices[0].message is None or completion.choices[0].message.content is None:
-            print("错误: API 响应的第一个 choice 中缺少 message 或 content")
-            print(f"完整响应: {completion}") # 打印完整响应以便调试
-            return None
-            
-        article_content = completion.choices[0].message.content
+        # Process the stream
+        article_content_parts = []
+        for chunk in completion_stream:
+            if chunk.choices[0].delta.content is not None:
+                article_content_parts.append(chunk.choices[0].delta.content)
+
+        article_content = "".join(article_content_parts)
+
+        if not article_content:
+             print("错误: API 流未返回任何内容")
+             return None
+
         return article_content
         
     except Exception as e:
-        print(f"调用 OpenRouter API 时发生异常: {e}")
+        print(f"调用 NVIDIA API 时发生异常: {e}")
         # ---> 新增: 打印详细的回溯信息
         import traceback
         print("-- Traceback --")
