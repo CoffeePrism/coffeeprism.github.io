@@ -58,6 +58,15 @@ jobs:
       - name: 安装 Dart Sass
         run: npm install -g sass
 
+      # ---> 新增：验证 Sass 安装和 PATH
+      - name: 验证 Sass 和 PATH
+        run: |
+          echo "--- Checking Sass --- "
+          which sass
+          sass --version
+          echo "--- Checking PATH ---"
+          echo $PATH
+
       - name: 配置Git
         run: |
           git config --global user.name "自动发布机器人"
@@ -76,6 +85,10 @@ jobs:
 
       - name: 构建网站
         run: hugo --minify --logLevel debug
+
+      # ---> 新增：列出构建输出
+      - name: 列出 public 目录内容
+        run: ls -lR public
 
       - name: 提交并推送到main分支
         run: |
