@@ -6,8 +6,20 @@ on:
     - cron: '0 18 * * *'
   workflow_dispatch:  # 允许手动触发
 
+# 设置权限
+permissions:
+  contents: write
+  pages: write
+  id-token: write
+
+# 允许一个并发部署
+concurrency:
+  group: "pages"
+  cancel-in-progress: false
+
 jobs:
-  generate-and-publish:
+  # 生成文章并构建页面
+  generate-and-build:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
@@ -69,35 +81,19 @@ jobs:
           git commit -m "自动发布: 添加新文章 - $(date +%Y-%m-%d)"
           git push origin main
 
-      - name: 部署到gh-pages分支
-        run: |
-          echo "正在部署到gh-pages分支..."
-          
-          # 获取当前提交的SHA
-          COMMIT_SHA=$(git rev-parse HEAD)
-          COMMIT_MESSAGE="从提交 ${COMMIT_SHA} 部署网站"
-          
-          # 创建并切换到gh-pages分支的临时分支
-          git checkout -b gh-pages-temp
-          
-          # 强制添加public目录所有内容
-          git add -f public/
-          
-          # 移动public目录内容到根目录
-          mkdir -p ../temp-public
-          cp -r public/* ../temp-public
-          git rm -rf .
-          cp -r ../temp-public/* .
-          rm -rf ../temp-public
-          
-          # 添加所有文件
-          git add .
-          
-          # 提交更改
-          git commit -m "${COMMIT_MESSAGE}"
-          
-          # 强制推送到gh-pages分支
-          git push -f origin gh-pages-temp:gh-pages
-          
-          # 切回main分支
-          git checkout main 
+      - name: 上传构建产物
+        uses: actions/upload-pages-artifact@v2
+        with:
+          path: ./public
+
+  # 部署到GitHub Pages
+  deploy:
+    environment:
+      name: github-pages
+      url: ${{ steps.deployment.outputs.page_url }}
+    runs-on: ubuntu-latest
+    needs: generate-and-build
+    steps:
+      - name: 部署到GitHub Pages
+        id: deployment
+        uses: actions/deploy-pages@v2 
