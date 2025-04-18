@@ -80,8 +80,11 @@ jobs:
 
       - name: 生成文章
         env:
-          OPENAI_API_KEY: ${{ secrets.OPENAI_API_KEY }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
           NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
+          # 可选：传递站点信息给脚本
+          # YOUR_SITE_URL: 'https://www.coffeeprism.com'
+          # YOUR_SITE_NAME: 'Coffee Prism'
         run: python scripts/generate_and_publish.py
 
       - name: 构建网站
