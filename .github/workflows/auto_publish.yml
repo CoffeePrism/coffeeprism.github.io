@@ -48,6 +48,16 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
+      # ---> 新增：设置 Node.js 环境
+      - name: 设置 Node.js
+        uses: actions/setup-node@v4
+        with:
+          node-version: '20' # 使用一个 LTS 版本
+
+      # ---> 新增：安装 Dart Sass
+      - name: 安装 Dart Sass
+        run: npm install -g sass
+
       - name: 配置Git
         run: |
           git config --global user.name "自动发布机器人"
