@@ -38,15 +38,19 @@ jobs:
           # cache: 'pip' # Temporarily disable cache for debugging
           cache-dependency-path: 'requirements.txt'
           
-      # ---> NEW: Clear pip cache <---
-      - name: 清除pip缓存
-        run: pip cache purge
-
-      - name: 安装Python依赖
+      # ---> Install PA API SDK Manually <---
+      - name: 下载 PA API Python SDK
+        run: curl -L -o paapi5-python-sdk-example.zip https://webservices.amazon.com/paapi5/documentation/assets/archives/paapi5-python-sdk-example.zip
+        
+      - name: 解压 PA API Python SDK
+        run: unzip paapi5-python-sdk-example.zip
+        
+      - name: 安装 PA API Python SDK
         run: |
-          set -e # Exit immediately if a command exits with a non-zero status.
-          python -m pip install --upgrade pip
-          pip install -v -r requirements.txt # Add -v for verbose output
+         python -m pip install --upgrade pip
+         cd paapi5-python-sdk-example
+         python setup.py install
+         cd .. # Go back to the root directory
 
       - name: 设置Hugo
         uses: peaceiris/actions-hugo@v2
