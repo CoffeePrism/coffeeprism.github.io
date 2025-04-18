@@ -83,7 +83,7 @@ jobs:
 
       # 添加缺少的上传工件依赖
       - name: 上传工件
-        uses: actions/upload-artifact@v3
+        uses: actions/upload-artifact@v2
         with:
           name: github-pages
           path: ./public
