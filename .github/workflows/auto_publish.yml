@@ -83,6 +83,18 @@ jobs:
           mkdir -p backups/$(date +%Y%m%d)
           cp -r content backups/$(date +%Y%m%d)/ || echo "没有content目录可备份"
 
+      # ---> NEW: Debug Python environment before running script <---
+      - name: 检查Python环境和包
+        run: |
+          echo "--- Python Executable ---"
+          which python
+          echo "--- Python Version ---"
+          python --version
+          echo "--- Python Sys Path ---"
+          python -c "import sys; print(sys.path)"
+          echo "--- Pip Freeze Output ---"
+          pip freeze
+
       - name: 生成文章
         env:
           NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
