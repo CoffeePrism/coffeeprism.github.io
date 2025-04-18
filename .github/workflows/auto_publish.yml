@@ -52,6 +52,12 @@ jobs:
          python setup.py install
          cd .. # Go back to the root directory
 
+      # ---> Re-add installation of other dependencies <---
+      - name: 安装其他Python依赖
+        run: |
+          set -e # Exit immediately if a command exits with a non-zero status.
+          pip install -v -r requirements.txt # Add -v for verbose output
+
       - name: 设置Hugo
         uses: peaceiris/actions-hugo@v2
         with:
