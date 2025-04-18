@@ -2,7 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
-import requests
+# import requests # No longer needed for API call
 import datetime
 import re
 import json
@@ -11,14 +11,30 @@ import uuid
 import random
 from pathlib import Path
 import slugify
+from openai import OpenAI # Import the new library
 
-# API配置
-OPENAI_API_KEY = os.getenv("OPENAI_API_KEY")
+# --- Configuration ---
+# Use environment variables for keys and site info
+OPENROUTER_API_KEY = os.getenv("OPENROUTER_API_KEY")
+YOUR_SITE_URL = os.getenv("YOUR_SITE_URL", "https://www.coffeeprism.com") # Optional: Your site URL
+YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME", "Coffee Prism") # Optional: Your site name
 
-# 检查API密钥是否设置
-if not OPENAI_API_KEY:
-    print("错误: OPENAI_API_KEY 环境变量未设置。请设置后再运行此脚本。")
+# Check API key
+if not OPENROUTER_API_KEY:
+    print("错误: OPENROUTER_API_KEY 环境变量未设置。请设置后再运行此脚本。")
     exit(1)
+
+# Initialize OpenRouter Client globally or within the function
+# Global initialization is fine if the script isn't too complex
+client = OpenAI(
+  base_url="https://openrouter.ai/api/v1",
+  api_key=OPENROUTER_API_KEY,
+)
+
+# Define the model to use
+# MODEL_NAME = "deepseek/deepseek-chat-v3-0324:free"
+# Or choose another model, e.g., a paid one if needed
+MODEL_NAME = "openai/gpt-4o" # Example using GPT-4o via OpenRouter
 
 # 咖啡主题列表
 COFFEE_TOPICS = [
@@ -174,20 +190,15 @@ def select_random_coffee_topics(count=2):
     return selected_topics
 
 def generate_article_with_openai(topic_info):
-    """使用OpenAI API生成咖啡相关文章"""
+    """使用OpenRouter API生成咖啡相关文章"""
     main_topic = topic_info["main_topic"]
     specific_topic = topic_info["specific_topic"]
     
-    print(f"正在生成关于「{main_topic}：{specific_topic}」的文章...")
+    print(f"正在生成关于「{main_topic}：{specific_topic}」的文章 (使用模型: {MODEL_NAME})...")
     
-    if not OPENAI_API_KEY:
-        print("错误: 未设置OPENAI_API_KEY环境变量")
+    if not OPENROUTER_API_KEY:
+        print("错误: 未设置OPENROUTER_API_KEY环境变量")
         return None
-    
-    headers = {
-        "Authorization": f"Bearer {OPENAI_API_KEY}",
-        "Content-Type": "application/json"
-    }
     
     prompt = f"""你是一位资深咖啡专家和作家。请创作一篇关于「{main_topic}：{specific_topic}」的中文文章，内容约1200-1500字，并提供一个有吸引力的标题。文章应面向中国咖啡爱好者，风格清新专业。
 
@@ -209,25 +220,28 @@ def generate_article_with_openai(topic_info):
 4. 不要过多使用列表，而应该有深入的段落式讨论
 """
 
-    data = {
-        "model": "gpt-4o",
-        "messages": [{"role": "user", "content": prompt}],
-        "temperature": 0.75,
-        "max_tokens": 3000
-    }
-    
     try:
-        response = requests.post("https://api.openai.com/v1/chat/completions", headers=headers, json=data)
-        response.raise_for_status()
-        
-        result = response.json()
-        article_content = result['choices'][0]['message']['content']
+        # Use the initialized client to create completion
+        completion = client.chat.completions.create(
+            extra_headers={
+                "HTTP-Referer": YOUR_SITE_URL, # Optional: Your site URL
+                "X-Title": YOUR_SITE_NAME,     # Optional: Your site name
+            },
+            # extra_body={}, # Usually not needed unless specific OpenRouter features require it
+            model=MODEL_NAME,
+            messages=[{"role": "user", "content": prompt}],
+            temperature=0.75,
+            # max_tokens=3000 # Note: max_tokens might be handled differently or ignored by some models/OpenRouter
+        )
+
+        article_content = completion.choices[0].message.content
         return article_content
         
     except Exception as e:
-        print(f"调用OpenAI API时出错: {e}")
-        if hasattr(e, 'response') and hasattr(e.response, 'text'):
-            print(f"错误详情: {e.response.text}")
+        print(f"调用 OpenRouter API 时出错: {e}")
+        # More detailed error logging might be helpful
+        # import traceback
+        # print(traceback.format_exc())
         return None
 
 def extract_title(article_content):
@@ -238,26 +252,26 @@ def extract_title(article_content):
         
     title = lines[0].strip()
     
-    # --- 新增清理逻辑 ---
-    # 移除开头的"#"、"**"、"标题："等前缀
+    # --- Clean up logic ---
+    # Remove prefixes like "#", "**", "标题："
     prefixes_to_remove = ["#", "**", "标题：", "标题:"]
     for prefix in prefixes_to_remove:
         if title.startswith(prefix):
             title = title[len(prefix):].strip()
             
-    # 移除结尾的"**"
+    # Remove trailing "**"
     if title.endswith("**"):
         title = title[:-2].strip()
         
-    # 再次移除可能因上述操作产生的多余空格或标记
-    title = title.strip("* 	\n\r")
-    # --- 清理逻辑结束 ---
+    # Strip extra whitespace or markers again
+    title = title.strip("* \t\n\r")
+    # --- Clean up logic ends ---
     
-    # 如果标题被引号包围，移除引号
+    # Remove surrounding quotes
     if (title.startswith('"') and title.endswith('"')) or (title.startswith("'") and title.endswith("'")):
         title = title[1:-1]
         
-    # 如果清理后标题为空，提供默认标题
+    # Provide default title if empty after cleaning
     if not title:
         return "默认标题"
         
@@ -270,26 +284,33 @@ def save_article(article_content, topic_info):
         return False
     
     try:
-        # 创建内容目录（如果不存在）
+        # Create content directory if it doesn't exist
         content_dir = Path("content/posts")
         content_dir.mkdir(parents=True, exist_ok=True)
         
-        # 提取标题
+        # Extract title
         title = extract_title(article_content)
         
-        # 创建文件名 - 添加时间戳和随机字符串确保唯一性
+        # Create filename - add timestamp and unique ID
         today = datetime.date.today().strftime("%Y-%m-%d")
         timestamp = datetime.datetime.now().strftime("%H%M%S")
-        unique_id = str(uuid.uuid4())[:8]  # 使用UUID的前8位作为唯一标识符
-        slug = slugify.slugify(title, separator='-')
+        unique_id = str(uuid.uuid4())[:8] # Use first 8 chars of UUID
+        # Slugify handles potential unsafe characters in title for filename
+        slug = slugify.slugify(title, separator='-', max_length=50) # Limit slug length
+        if not slug: # Handle cases where title results in empty slug
+             slug = "article"
         filename = f"{today}-{timestamp}-{slug}-{unique_id}.md"
         filepath = content_dir / filename
         
-        # 确定文章分类和标签
+        # Determine category and tags
         category = topic_info["main_topic"]
-        tags = [topic_info["specific_topic"].split("的")[0] if "的" in topic_info["specific_topic"] else topic_info["specific_topic"]]
+        # Attempt to extract a more relevant tag, fallback to specific topic
+        potential_tag = topic_info["specific_topic"].split("的")[0] if "的" in topic_info["specific_topic"] else topic_info["specific_topic"]
+        potential_tag = potential_tag.split("与")[0] if "与" in potential_tag else potential_tag # Handle "A与B" cases
+        tags = [potential_tag.strip()]
         
-        # 创建Front Matter
+        # Create Front Matter
+        # Use ensure_ascii=False for Chinese characters in tags JSON
         front_matter = f"""---
 title: "{title}"
 date: {today}
@@ -301,13 +322,15 @@ description: "关于{topic_info['specific_topic']}的深度探讨，为咖啡爱
 
 """
         
-        # 处理文章内容 - 移除原始标题，因为我们已经在Front Matter中指定了标题
+        # Process article content - remove original title line if present
         content_lines = article_content.strip().split('\n')
-        if content_lines[0].strip().startswith('#') or content_lines[0].strip() == title:
-            content_lines = content_lines[1:]
+        # Improve title removal logic: check if first line *is* the cleaned title or starts with '#'
+        cleaned_first_line = content_lines[0].strip()
+        if cleaned_first_line.lstrip('#').strip() == title or (cleaned_first_line.startswith('"') and cleaned_first_line.endswith('"') and cleaned_first_line[1:-1] == title):
+             content_lines = content_lines[1:]
         processed_content = '\n'.join(content_lines).strip()
         
-        # 将文章保存到文件
+        # Save the article
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(front_matter + processed_content)
         
@@ -316,20 +339,27 @@ description: "关于{topic_info['specific_topic']}的深度探讨，为咖啡爱
         
     except Exception as e:
         print(f"保存文章时出错: {e}")
+        # import traceback
+        # print(traceback.format_exc()) # Uncomment for detailed stack trace
         return False
 
 def add_amazon_tracking_ids(article_content):
     """添加Amazon跟踪ID到文章中的亚马逊链接"""
-    # 查找亚马逊链接并添加跟踪ID
+    # Find Amazon links and add tracking ID
     pattern = r'https?://(?:www\.)?amazon\.com/[^\s)"]+'
     
     def replace_link(match):
         url = match.group(0)
-        if '?tag=' not in url and '&tag=' not in url:
-            if '?' in url:
-                url += '&tag=coffeeprism-20'
-            else:
-                url += '?tag=coffeeprism-20'
+        # Avoid adding tag if already present
+        if 'tag=coffeeprism-20' not in url:
+             if '?' in url:
+                 # Check if there are already params, add with &
+                 if url.split('?')[-1]:
+                     url += '&tag=coffeeprism-20'
+                 else: # Handle case like "url?"
+                     url += 'tag=coffeeprism-20'
+             else:
+                 url += '?tag=coffeeprism-20'
         return url
     
     return re.sub(pattern, replace_link, article_content)
@@ -337,33 +367,38 @@ def add_amazon_tracking_ids(article_content):
 def main():
     print("开始自动文章生成流程...")
     
-    # 设置随机种子，确保更好的随机性
+    # Set random seed
     random.seed(time.time())
     
-    # 选择随机主题
-    topics = select_random_coffee_topics(2)  # 生成两篇不同主题的文章
+    # Select random topics
+    topics = select_random_coffee_topics(2) # Generate 2 articles
     
-    # 生成并保存文章
+    # Generate and save articles
+    articles_saved = 0
     for i, topic in enumerate(topics, 1):
         print(f"\n=== 生成第 {i} 篇文章 ===")
         
-        # 生成文章
+        # Generate article
         article_content = generate_article_with_openai(topic)
         if not article_content:
             print(f"无法生成关于「{topic['main_topic']}：{topic['specific_topic']}」的文章，跳过")
             continue
         
-        # 确保所有亚马逊链接都有跟踪ID
-        article_content = add_amazon_tracking_ids(article_content)
+        # Ensure Amazon links have tracking ID (Best effort)
+        try:
+             article_content = add_amazon_tracking_ids(article_content)
+        except Exception as e:
+             print(f"添加 Amazon tracking ID 时出错 (非致命): {e}")
         
-        # 保存文章
+        # Save article
         success = save_article(article_content, topic)
         if success:
             print(f"第 {i} 篇文章生成并保存成功")
+            articles_saved += 1
         else:
             print(f"第 {i} 篇文章保存失败")
     
-    print("\n自动文章生成完成！")
+    print(f"\n自动文章生成完成！成功保存 {articles_saved} 篇文章。")
 
 if __name__ == "__main__":
     main() 
