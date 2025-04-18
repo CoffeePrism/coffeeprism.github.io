@@ -7,62 +7,50 @@ enableRobotsTXT = true
 buildDrafts = false
 buildFuture = false
 buildExpired = false
-googleAnalytics = ""
 
 [minify]
   disableXML = true
   minifyOutput = true
 
-[params]
-  env = "production"
-  title = "Coffee Prism"
+[Author]
+  name = "Coffee Prism"
+  bio = "专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测"
+
+[Params]
   description = "专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测"
-  keywords = ["咖啡", "咖啡豆", "咖啡冲泡", "咖啡装备"]
-  author = "Coffee Prism"
-  images = ["/img/coffee-prism-og.jpg"]
-  DateFormat = "2006-01-02"
-  defaultTheme = "auto"
-  disableThemeToggle = false
-  ShowReadingTime = true
-  ShowShareButtons = true
-  ShowPostNavLinks = true
-  ShowBreadCrumbs = true
-  ShowCodeCopyButtons = false
-  ShowWordCount = true
-  ShowRssButtonInSectionTermList = true
-  UseHugoToc = true
-  disableSpecial1stPost = false
-  disableScrollToTop = false
-  comments = false
-  hidemeta = false
-  hideSummary = false
-  showtoc = false
-  tocopen = false
+  copyright = "Coffee Prism"
+  readmore = true
+  authorbox = true
+  toc = true
+  pager = true
+  post_meta = ["author", "date", "categories", "tags"]
+  mainSections = ["posts"]
+  dateformat = "2006-01-02"
+  opengraph = true
+  schema = true
+  twitter_cards = true
 
-  [params.assets]
-    favicon = "/favicon.ico"
-    favicon16x16 = "/favicon-16x16.png"
-    favicon32x32 = "/favicon-32x32.png"
-    apple_touch_icon = "/apple-touch-icon.png"
-    safari_pinned_tab = "/safari-pinned-tab.svg"
+  [Params.style.vars]
 
-  [params.homeInfoParams]
-    Title = "咖啡棱镜 - 您的咖啡专业指南"
-    Content = "Coffee Prism 为您提供最专业的咖啡知识和装备推荐，包括咖啡豆种类、各种冲泡方法以及咖啡相关产品评测。"
+  [Params.logo]
+    title = "Coffee Prism"
+    subtitle = "您的咖啡专业指南"
 
-  [params.cover]
-    hidden = false
-    hiddenInList = false
-    hiddenInSingle = false
+  [Params.thumbnail]
+    visibility = ["list", "post"]
 
-  [params.fuseOpts]
-    isCaseSensitive = false
-    shouldSort = true
-    location = 0
-    distance = 1000
-    threshold = 0.4
-    minMatchCharLength = 0
-    keys = ["title", "permalink", "summary", "content"]
+  [Params.sidebar]
+    home = "right"
+    list = "right"
+    single = "right"
+    widgets = ["search", "recent", "categories", "taglist", "social"]
+
+  [Params.widgets]
+    recent_num = 5
+    categories_counter = true
+    tags_counter = true
+
+  [Params.widgets.social]
 
 [[menu.main]]
 identifier = "categories"
@@ -107,4 +95,8 @@ url = "/contact/"
 weight = 70
 
 [outputs]
-home = ["HTML", "RSS", "JSON"]
+home = ["HTML", "RSS"]
+
+# 添加新的分页配置
+[pagination]
+  pagerSize = 10
