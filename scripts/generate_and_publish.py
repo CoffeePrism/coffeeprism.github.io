@@ -13,12 +13,32 @@ from pathlib import Path
 import slugify
 from openai import OpenAI # Still use the openai library
 
+# ---> ADD: Import re if not already implicitly imported earlier in a real scenario
+# (Though it seems already used later, ensure it's available early)
+import re 
+
+# ---> ADD: PA API library imports (needs installation: pip install python-amazon-paapi)
+from paapi5_python_sdk.api.default_api import DefaultApi
+from paapi5_python_sdk.models.get_items_request import GetItemsRequest
+from paapi5_python_sdk.models.get_items_resource import GetItemsResource
+from paapi5_python_sdk.models.partner_type import PartnerType
+from paapi5_python_sdk.models.condition import Condition
+from paapi5_python_sdk.rest import ApiException
+
 # --- Configuration ---
 # Use environment variable for NVIDIA API key
 NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY")
 # Site info is not needed for NVIDIA API headers
 # YOUR_SITE_URL = os.getenv("YOUR_SITE_URL", "https://www.coffeeprism.com")
 # YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME", "Coffee Prism")
+
+# ---> ADD: PA API Credentials (Fetch from environment variables)
+AMAZON_ACCESS_KEY = os.getenv("AMAZON_ACCESS_KEY")
+AMAZON_SECRET_KEY = os.getenv("AMAZON_SECRET_KEY")
+AMAZON_ASSOCIATE_TAG = os.getenv("AMAZON_ASSOCIATE_TAG") # e.g., "coffeeprism-20"
+AMAZON_MARKETPLACE = "www.amazon.com" # Or the specific marketplace (e.g., "www.amazon.co.uk")
+AMAZON_HOST = "webservices.amazon.com" # Adjust if needed based on marketplace region
+AMAZON_REGION = "us-east-1"         # Adjust if needed based on marketplace region
 
 # Check API key
 if not NVIDIA_API_KEY:
@@ -445,7 +465,7 @@ def add_amazon_tracking_ids(url):
              url += '?tag=coffeeprism-20' # Replace with AMAZON_ASSOCIATE_TAG variable if implemented
     return url
 
-# ---> NEW: Function for validating and updating Amazon links using PA API
+# ---> ADD: NEW Function for validating and updating Amazon links using PA API
 def validate_and_update_amazon_links(article_content):
     """
     Parses article content for Amazon links, validates ASINs using PA API,
@@ -453,6 +473,55 @@ def validate_and_update_amazon_links(article_content):
     Requires PA API credentials and library setup.
     """
     print("正在验证和更新 Amazon 链接...")
+
+    # ---> Check if PA API credentials are set
+    if not all([AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOCIATE_TAG]):
+        print("警告: Amazon PA API 凭证 (AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOCIATE_TAG) 未完全设置。")
+        print("将跳过链接验证，仅尝试添加跟踪ID（如果 Associate Tag 已设置）。")
+        # Fallback to just adding tracking IDs without validation
+        pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))' # Capture the whole markdown link part
+        def replace_link_simple(match):
+            url_part = match.group(1)
+            original_url = url_part[1:-1] # Remove parentheses
+            # Only add tag if associate tag is available
+            updated_url = add_amazon_tracking_ids(original_url) if AMAZON_ASSOCIATE_TAG else original_url
+            return f"({updated_url})"
+        return re.sub(pattern, replace_link_simple, article_content)
+        
+    # ---> Initialize PA API Client
+    api_client = None
+    api_instance = None
+    try:
+        # Note: The paapi5_python_sdk might not have a direct way to initialize
+        # the client like this. Refer to its specific documentation if this causes issues.
+        # We are configuring it manually based on typical SDK patterns.
+        # It might require setting configuration on a global object instead.
+        
+        # Basic configuration structure (adapt based on actual SDK requirements)
+        from paapi5_python_sdk.configuration import Configuration
+        from paapi5_python_sdk.api_client import ApiClient
+
+        config = Configuration()
+        config.access_key = AMAZON_ACCESS_KEY
+        config.secret_key = AMAZON_SECRET_KEY
+        config.host = AMAZON_HOST 
+        config.region = AMAZON_REGION
+        
+        api_client = ApiClient(configuration=config)
+        api_instance = DefaultApi(api_client=api_client)
+        print("Amazon PA API 客户端初始化成功。")
+
+    except Exception as e:
+        print(f"错误: 无法初始化 Amazon PA API 客户端: {e}")
+        print("将跳过链接验证，仅尝试添加跟踪ID。")
+        # Fallback logic as above
+        pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))'
+        def replace_link_simple_fallback(match):
+            url_part = match.group(1)
+            original_url = url_part[1:-1] # Remove parentheses
+            updated_url = add_amazon_tracking_ids(original_url)
+            return f"({updated_url})"
+        return re.sub(pattern, replace_link_simple_fallback, article_content)
 
     updated_article_content = article_content
     
@@ -490,101 +559,140 @@ def validate_and_update_amazon_links(article_content):
 
     print(f"找到 {len(asins_to_check)} 个独特的 ASIN 需要通过 PA API 验证: {list(asins_to_check.keys())}")
 
-    # ---> Placeholder: PA API Call Implementation
-    # try:
-    #     # Prepare GetItems request for all unique ASINs
-    #     get_items_request = GetItemsRequest(
-    #         partner_tag=AMAZON_ASSOCIATE_TAG,
-    #         partner_type=PartnerType.ASSOCIATES,
-    #         marketplace=AMAZON_MARKETPLACE,
-    #         condition=Condition.NEW, # Or desired condition
-    #         item_ids=list(asins_to_check.keys()),
-    #         resources=[
-    #             GetItemsResource.ITEMINFO_TITLE, # Get title for verification
-    #             GetItemsResource.OFFERS_LISTINGS_PRICE, # Check availability/price
-    #             GetItemsResource.IMAGES_PRIMARY_SMALL # Optional: Get image
-    #             # Add more resources as needed
-    #         ]
-    #     )
-    #     
-    #     api_response = api_instance.get_items(get_items_request)
-    #     
-    #     valid_items = {}
-    #     if api_response.items_result and api_response.items_result.items:
-    #         for item in api_response.items_result.items:
-    #             # Basic validation: Check if item has a title and price/offer info
-    #             if item.item_info and item.item_info.title and item.offers and item.offers.listings:
-    #                 valid_items[item.asin] = {"url": item.detail_page_url} # Store valid URL
-    #             else:
-    #                 print(f"警告: ASIN {item.asin} 在 PA API 响应中信息不完整或无货。")
-    #     
-    #     if api_response.errors:
-    #        for error in api_response.errors:
-    #            print(f"PA API 错误: Code={error.code}, Message={error.message}")
-    #            # Decide how to handle ASINs associated with errors
-    #
-    # except ApiException as e:
-    #     print(f"调用 Amazon PA API 时发生错误: {e}")
-    #     print("无法验证链接，将仅尝试添加跟踪ID。")
-    #     # Fallback logic
-    #     pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))'
-    #     def replace_link_simple_error(match):
-    #         url_part = match.group(1)
-    #         original_url = url_part[1:-1]
-    #         updated_url = add_amazon_tracking_ids(original_url)
-    #         return f"({updated_url})"
-    #     return re.sub(pattern, replace_link_simple_error, article_content)
-    #
-    # except Exception as e:
-    #     print(f"处理 PA API 响应时发生未知错误: {e}")
-    #     # Fallback logic might be needed here too
+    # ---> PA API Call Implementation
+    valid_items = {} # Store {asin: {"url": detail_page_url}}
+    try:
+        # Prepare GetItems request for all unique ASINs
+        get_items_request = GetItemsRequest(
+            partner_tag=AMAZON_ASSOCIATE_TAG,
+            partner_type=PartnerType.ASSOCIATES,
+            marketplace=AMAZON_MARKETPLACE,
+            condition=Condition.NEW, # Or desired condition
+            item_ids=list(asins_to_check.keys()),
+            resources=[
+                # GetItemsResource.ITEMINFO_TITLE, # Get title for verification (optional)
+                GetItemsResource.OFFERS_LISTINGS_PRICE, # Check availability/price
+                GetItemsResource.ITEMINFO_BYLINEINFO, # Basic check for existence
+                # Add more resources as needed, e.g., GetItemsResource.DETAILPAGEURL
+                # Note: DetailPageURL might not be explicitly needed if the SDK provides it
+            ]
+        )
+        
+        print("正在调用 Amazon PA API GetItems...")
+        api_response = api_instance.get_items(get_items_request)
+        print("PA API 调用完成。")
+        
+        if api_response.items_result and api_response.items_result.items:
+            for item in api_response.items_result.items:
+                # Basic validation: Check if item has some info and offers/listings
+                # Using ByLineInfo as a simple check for item validity, and offers for availability.
+                if item.asin and item.detail_page_url and item.item_info and item.item_info.by_line_info:
+                     # Check if there are offers (indicates availability)
+                     is_available = item.offers and item.offers.listings and len(item.offers.listings) > 0
+                     if is_available:
+                         valid_items[item.asin] = {"url": item.detail_page_url} # Store valid URL
+                         print(f"ASIN {item.asin} 验证通过，获取到 URL: {item.detail_page_url}")
+                     else:
+                         print(f"警告: ASIN {item.asin} 在 PA API 响应中似乎无货 (无有效 listing)。")
+                else:
+                     # This case might occur if the ASIN exists but lacks certain info we requested
+                     # or if the API response structure is unexpected.
+                     print(f"警告: ASIN {item.asin} 在 PA API 响应中信息不完整或结构意外。 URL: {getattr(item, 'detail_page_url', 'N/A')}")
+        else:
+             print("警告: PA API GetItems 未返回有效的 items_result 或 items 列表。")
+        
+        # Handle specific errors reported by the API for certain items
+        if api_response.errors:
+           print("PA API 返回了错误信息:")
+           for error in api_response.errors:
+               print(f"  - Code: {getattr(error, 'code', 'N/A')}, Message: {getattr(error, 'message', 'N/A')}")
+               # You might want to map error codes back to ASINs if the SDK provides that info
+               # For now, any ASIN not in `valid_items` will be treated as invalid.
 
-    # ---> Placeholder: Update links in the article based on validation results
+    except ApiException as e:
+        print(f"调用 Amazon PA API 时发生错误 (ApiException): {e.body}") # Print body for details
+        print("无法验证链接，将仅尝试添加跟踪ID。")
+        # Fallback logic
+        pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))'
+        def replace_link_simple_error(match):
+            url_part = match.group(1)
+            original_url = url_part[1:-1]
+            updated_url = add_amazon_tracking_ids(original_url)
+            return f"({updated_url})"
+        return re.sub(pattern, replace_link_simple_error, article_content)
+    
+    except Exception as e:
+        print(f"处理 PA API 响应时发生未知错误: {e}")
+        import traceback
+        traceback.print_exc() # Print stack trace for debugging
+        # Fallback logic might be needed here too, similar to above
+        print("将仅尝试添加跟踪ID。")
+        pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))'
+        def replace_link_simple_unknown_error(match):
+            url_part = match.group(1)
+            original_url = url_part[1:-1]
+            updated_url = add_amazon_tracking_ids(original_url)
+            return f"({updated_url})"
+        return re.sub(pattern, replace_link_simple_unknown_error, article_content)
+
+    # ---> Update links in the article based on validation results
+    print("正在根据 PA API 验证结果更新文章内容...")
     for asin, link_infos in asins_to_check.items():
         for link_info in link_infos:
             full_markdown_link = link_info["full_link"]
             original_url = link_info["original_url"]
             
-            # ---> Placeholder: Use 'valid_items' from API call
-            # if asin in valid_items:
-            #     # ASIN is valid, use the URL from PA API (which should be correct)
-            #     validated_url = valid_items[asin]['url']
-            #     # Ensure tracking tag is added to the validated URL
-            #     final_url = add_amazon_tracking_ids(validated_url)
-            #     # Replace the original URL part within the full markdown link
-            #     updated_markdown_link = full_markdown_link.replace(original_url, final_url)
-            #     updated_article_content = updated_article_content.replace(full_markdown_link, updated_markdown_link)
-            #     print(f"已验证并更新 ASIN {asin} 的链接。")
-            # else:
-            #     # ASIN is invalid, unavailable, or caused an error
-            #     print(f"警告: ASIN {asin} 无效或不可用。从文章中移除链接: {full_markdown_link}")
-            #     # Option 1: Remove the whole markdown link
-            #     updated_article_content = updated_article_content.replace(full_markdown_link, f"[链接失效: {asin}]") # Or just remove entirely
-            #     # Option 2: Keep the link but maybe add a note (less ideal for 404s)
-            #     # final_url = add_amazon_tracking_ids(original_url) # Add tag anyway
-            #     # updated_markdown_link = full_markdown_link.replace(original_url, final_url + " (可能失效)")
-            #     # updated_article_content = updated_article_content.replace(full_markdown_link, updated_markdown_link)
-
-            # ---> Fallback/Demo logic (REMOVE THIS WHEN PA API IS IMPLEMENTED):
-            # Just add tracking ID without validation for now
-            print(f"注意：PA API 验证未实现。仅为 ASIN {asin} 添加跟踪 ID。")
-            final_url = add_amazon_tracking_ids(original_url)
-            if final_url != original_url:
+            if asin in valid_items:
+                # ASIN is valid, use the URL from PA API (which should be correct)
+                validated_url = valid_items[asin]['url']
+                # Ensure tracking tag is added to the validated URL
+                final_url = add_amazon_tracking_ids(validated_url)
+                # Replace the original URL part within the full markdown link
                 updated_markdown_link = full_markdown_link.replace(original_url, final_url)
-                updated_article_content = updated_article_content.replace(full_markdown_link, updated_markdown_link)
-            # --- End Fallback ---
+                # Make sure we replace only the specific instance in case the same link appears multiple times
+                updated_article_content = updated_article_content.replace(full_markdown_link, updated_markdown_link, 1)
+                print(f"已验证并更新 ASIN {asin} 的链接。")
+            else:
+                # ASIN is invalid, unavailable, or caused an error
+                print(f"警告: ASIN {asin} 未通过验证或不可用。将从文章中移除链接: {full_markdown_link}")
+                # Option 1: Replace the link with a note
+                # updated_article_content = updated_article_content.replace(full_markdown_link, f"[链接失效: {asin}]", 1)
+                # Option 2: Remove the link text and URL entirely (more aggressive)
+                link_text_match = re.search(r'\[([^\]]+)\]', full_markdown_link)
+                link_text = link_text_match.group(1) if link_text_match else f"[失效链接: {asin}]"
+                updated_article_content = updated_article_content.replace(full_markdown_link, link_text, 1) # Replace link with just the text
+                
+            # ---> REMOVED Fallback/Demo logic 
 
-    # Final pass for any non-product Amazon links missed
-    misc_pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))' 
+    # Final pass for any non-product Amazon links missed by ASIN pattern
+    print("正在为其他非产品 Amazon 链接添加跟踪 ID...")
+    misc_pattern = r'(\[([^\]]+)\]\((https?://(?:www\.)?amazon\.com/[^\s\)]+)\))') # Capture full MD link
     def replace_misc_link_final(match):
-        url_part = match.group(1)
-        original_url = url_part[1:-1]
-        if '/dp/' in original_url and any(asin in original_url for asin in asins_to_check): # Avoid reprocessing validated links
-             return url_part 
+        full_md_link = match.group(1)
+        link_text = match.group(2)
+        original_url = match.group(3)
+        
+        # Avoid reprocessing product links that might have been handled (or removed)
+        if '/dp/' in original_url and any(asin in original_url for asin in asins_to_check):
+            # If it wasn't validated, it might have been removed or turned into plain text.
+            # If it *was* validated, it should already have the tag.
+            # Check if the current state in updated_article_content still contains the full original link;
+            # if not, it was likely processed/removed, so don't touch it again.
+            if full_md_link not in updated_article_content:
+                 return link_text # Return just text if link was removed
+            # If the full link *is* still there, it might be a valid one we already tagged,
+            # or one that failed validation but wasn't removed. Let add_amazon_tracking_ids handle idempotent tagging.
+                 
         updated_url = add_amazon_tracking_ids(original_url)
-        return f"({updated_url})"
+        if updated_url != original_url:
+             return f"[{link_text}]({updated_url})"
+        else:
+             return full_md_link # Return original if no change
+
+    # Use re.sub with the function on the potentially modified content
     updated_article_content = re.sub(misc_pattern, replace_misc_link_final, updated_article_content)
 
+    print("Amazon 链接处理完成。")
     return updated_article_content
 # --- End NEW Function ---
 
