@@ -52,7 +52,7 @@ jobs:
       - name: 构建网站
         run: hugo --minify
 
-      - name: 提交并推送更改
+      - name: 提交并推送到main分支
         run: |
           # 添加内容目录的更改
           git add content
@@ -67,4 +67,37 @@ jobs:
           fi
           
           git commit -m "自动发布: 添加新文章 - $(date +%Y-%m-%d)"
-          git push origin main 
+          git push origin main
+
+      - name: 部署到gh-pages分支
+        run: |
+          echo "正在部署到gh-pages分支..."
+          
+          # 获取当前提交的SHA
+          COMMIT_SHA=$(git rev-parse HEAD)
+          COMMIT_MESSAGE="从提交 ${COMMIT_SHA} 部署网站"
+          
+          # 创建并切换到gh-pages分支的临时分支
+          git checkout -b gh-pages-temp
+          
+          # 强制添加public目录所有内容
+          git add -f public/
+          
+          # 移动public目录内容到根目录
+          mkdir -p ../temp-public
+          cp -r public/* ../temp-public
+          git rm -rf .
+          cp -r ../temp-public/* .
+          rm -rf ../temp-public
+          
+          # 添加所有文件
+          git add .
+          
+          # 提交更改
+          git commit -m "${COMMIT_MESSAGE}"
+          
+          # 强制推送到gh-pages分支
+          git push -f origin gh-pages-temp:gh-pages
+          
+          # 切回main分支
+          git checkout main 
