@@ -241,6 +241,11 @@ def generate_article_with_openai(topic_info):
              print("错误: API 流未返回任何内容")
              return None
 
+        # --- NEW: Remove <think> blocks ---
+        # Use re.DOTALL so '.' matches newline characters as well
+        article_content = re.sub(r'<think>.*?</think>', '', article_content, flags=re.DOTALL).strip() 
+        # --- End NEW ---
+
         return article_content
         
     except Exception as e:
@@ -351,26 +356,162 @@ description: "关于{topic_info['specific_topic']}的深度探讨，为咖啡爱
         # print(traceback.format_exc()) # Uncomment for detailed stack trace
         return False
 
-def add_amazon_tracking_ids(article_content):
-    """添加Amazon跟踪ID到文章中的亚马逊链接"""
-    # Find Amazon links and add tracking ID
-    pattern = r'https?://(?:www\.)?amazon\.com/[^\s)"]+'
+def add_amazon_tracking_ids(url):
+    """Adds the Amazon tracking ID to a single URL if not present."""
+    # Avoid adding tag if already present
+    if 'tag=coffeeprism-20' not in url: # Replace with AMAZON_ASSOCIATE_TAG variable if implemented
+         if '?' in url:
+             # Check if there are already params, add with &
+             if url.split('?')[-1]:
+                 url += '&tag=coffeeprism-20' # Replace with AMAZON_ASSOCIATE_TAG variable if implemented
+             else: # Handle case like "url?"
+                 url += 'tag=coffeeprism-20' # Replace with AMAZON_ASSOCIATE_TAG variable if implemented
+         else:
+             url += '?tag=coffeeprism-20' # Replace with AMAZON_ASSOCIATE_TAG variable if implemented
+    return url
+
+# ---> NEW: Function for validating and updating Amazon links using PA API
+def validate_and_update_amazon_links(article_content):
+    """
+    Parses article content for Amazon links, validates ASINs using PA API,
+    and updates links accordingly. Adds tracking tags.
+    Requires PA API credentials and library setup.
+    """
+    print("正在验证和更新 Amazon 链接...")
+
+    updated_article_content = article_content
     
-    def replace_link(match):
-        url = match.group(0)
-        # Avoid adding tag if already present
-        if 'tag=coffeeprism-20' not in url:
-             if '?' in url:
-                 # Check if there are already params, add with &
-                 if url.split('?')[-1]:
-                     url += '&tag=coffeeprism-20'
-                 else: # Handle case like "url?"
-                     url += 'tag=coffeeprism-20'
-             else:
-                 url += '?tag=coffeeprism-20'
-        return url
-    
-    return re.sub(pattern, replace_link, article_content)
+    # Regex to find Markdown links pointing to Amazon product pages (extract ASIN)
+    # Example: [Product Name](https://www.amazon.com/dp/B0EXAMPLE1/...)
+    # Example: [Product Name](https://www.amazon.com/Some-Product-Name/dp/B0EXAMPLE2?...)
+    amazon_link_pattern = re.compile(r'(\[([^\]]+)\]\((https?://(?:www\.)?amazon\.com/(?:[^/]+/)?dp/([A-Z0-9]{10})[^\s\)]*)\))')
+
+    links_to_process = amazon_link_pattern.finditer(article_content)
+    asins_to_check = {} # Store {asin: [list_of_full_markdown_links]}
+
+    for match in links_to_process:
+        full_markdown_link = match.group(1)
+        # product_name = match.group(2) # Can be used if needed
+        original_url = match.group(3)
+        asin = match.group(4)
+        
+        if asin not in asins_to_check:
+            asins_to_check[asin] = []
+        asins_to_check[asin].append({"full_link": full_markdown_link, "original_url": original_url})
+
+    if not asins_to_check:
+        print("未在文章中找到需要验证的 Amazon 产品链接。")
+        # Still ensure non-product Amazon links get tracking ID
+        misc_pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))' # Generic Amazon link
+        def replace_misc_link(match):
+            url_part = match.group(1)
+            original_url = url_part[1:-1]
+            # Avoid processing product links again if pattern overlaps
+            if '/dp/' in original_url: 
+                return url_part 
+            updated_url = add_amazon_tracking_ids(original_url)
+            return f"({updated_url})"
+        return re.sub(misc_pattern, replace_misc_link, article_content)
+
+    print(f"找到 {len(asins_to_check)} 个独特的 ASIN 需要通过 PA API 验证: {list(asins_to_check.keys())}")
+
+    # ---> Placeholder: PA API Call Implementation
+    # try:
+    #     # Prepare GetItems request for all unique ASINs
+    #     get_items_request = GetItemsRequest(
+    #         partner_tag=AMAZON_ASSOCIATE_TAG,
+    #         partner_type=PartnerType.ASSOCIATES,
+    #         marketplace=AMAZON_MARKETPLACE,
+    #         condition=Condition.NEW, # Or desired condition
+    #         item_ids=list(asins_to_check.keys()),
+    #         resources=[
+    #             GetItemsResource.ITEMINFO_TITLE, # Get title for verification
+    #             GetItemsResource.OFFERS_LISTINGS_PRICE, # Check availability/price
+    #             GetItemsResource.IMAGES_PRIMARY_SMALL # Optional: Get image
+    #             # Add more resources as needed
+    #         ]
+    #     )
+    #     
+    #     api_response = api_instance.get_items(get_items_request)
+    #     
+    #     valid_items = {}
+    #     if api_response.items_result and api_response.items_result.items:
+    #         for item in api_response.items_result.items:
+    #             # Basic validation: Check if item has a title and price/offer info
+    #             if item.item_info and item.item_info.title and item.offers and item.offers.listings:
+    #                 valid_items[item.asin] = {"url": item.detail_page_url} # Store valid URL
+    #             else:
+    #                 print(f"警告: ASIN {item.asin} 在 PA API 响应中信息不完整或无货。")
+    #     
+    #     if api_response.errors:
+    #        for error in api_response.errors:
+    #            print(f"PA API 错误: Code={error.code}, Message={error.message}")
+    #            # Decide how to handle ASINs associated with errors
+    #
+    # except ApiException as e:
+    #     print(f"调用 Amazon PA API 时发生错误: {e}")
+    #     print("无法验证链接，将仅尝试添加跟踪ID。")
+    #     # Fallback logic
+    #     pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))'
+    #     def replace_link_simple_error(match):
+    #         url_part = match.group(1)
+    #         original_url = url_part[1:-1]
+    #         updated_url = add_amazon_tracking_ids(original_url)
+    #         return f"({updated_url})"
+    #     return re.sub(pattern, replace_link_simple_error, article_content)
+    #
+    # except Exception as e:
+    #     print(f"处理 PA API 响应时发生未知错误: {e}")
+    #     # Fallback logic might be needed here too
+
+    # ---> Placeholder: Update links in the article based on validation results
+    for asin, link_infos in asins_to_check.items():
+        for link_info in link_infos:
+            full_markdown_link = link_info["full_link"]
+            original_url = link_info["original_url"]
+            
+            # ---> Placeholder: Use 'valid_items' from API call
+            # if asin in valid_items:
+            #     # ASIN is valid, use the URL from PA API (which should be correct)
+            #     validated_url = valid_items[asin]['url']
+            #     # Ensure tracking tag is added to the validated URL
+            #     final_url = add_amazon_tracking_ids(validated_url)
+            #     # Replace the original URL part within the full markdown link
+            #     updated_markdown_link = full_markdown_link.replace(original_url, final_url)
+            #     updated_article_content = updated_article_content.replace(full_markdown_link, updated_markdown_link)
+            #     print(f"已验证并更新 ASIN {asin} 的链接。")
+            # else:
+            #     # ASIN is invalid, unavailable, or caused an error
+            #     print(f"警告: ASIN {asin} 无效或不可用。从文章中移除链接: {full_markdown_link}")
+            #     # Option 1: Remove the whole markdown link
+            #     updated_article_content = updated_article_content.replace(full_markdown_link, f"[链接失效: {asin}]") # Or just remove entirely
+            #     # Option 2: Keep the link but maybe add a note (less ideal for 404s)
+            #     # final_url = add_amazon_tracking_ids(original_url) # Add tag anyway
+            #     # updated_markdown_link = full_markdown_link.replace(original_url, final_url + " (可能失效)")
+            #     # updated_article_content = updated_article_content.replace(full_markdown_link, updated_markdown_link)
+
+            # ---> Fallback/Demo logic (REMOVE THIS WHEN PA API IS IMPLEMENTED):
+            # Just add tracking ID without validation for now
+            print(f"注意：PA API 验证未实现。仅为 ASIN {asin} 添加跟踪 ID。")
+            final_url = add_amazon_tracking_ids(original_url)
+            if final_url != original_url:
+                updated_markdown_link = full_markdown_link.replace(original_url, final_url)
+                updated_article_content = updated_article_content.replace(full_markdown_link, updated_markdown_link)
+            # --- End Fallback ---
+
+    # Final pass for any non-product Amazon links missed
+    misc_pattern = r'(\(https?://(?:www\.)?amazon\.com/[^\s\)]+\))' 
+    def replace_misc_link_final(match):
+        url_part = match.group(1)
+        original_url = url_part[1:-1]
+        if '/dp/' in original_url and any(asin in original_url for asin in asins_to_check): # Avoid reprocessing validated links
+             return url_part 
+        updated_url = add_amazon_tracking_ids(original_url)
+        return f"({updated_url})"
+    updated_article_content = re.sub(misc_pattern, replace_misc_link_final, updated_article_content)
+
+    return updated_article_content
+# --- End NEW Function ---
 
 def main():
     print("开始自动文章生成流程...")
@@ -392,11 +533,14 @@ def main():
             print(f"无法生成关于「{topic['main_topic']}：{topic['specific_topic']}」的文章，跳过")
             continue
         
-        # Ensure Amazon links have tracking ID (Best effort)
+        # --- UPDATED: Validate links and add tracking ID ---
         try:
-             article_content = add_amazon_tracking_ids(article_content)
+             # Replace call to add_amazon_tracking_ids
+             article_content = validate_and_update_amazon_links(article_content)
         except Exception as e:
-             print(f"添加 Amazon tracking ID 时出错 (非致命): {e}")
+             print(f"验证/更新 Amazon 链接时出错 (非致命): {e}")
+             # Optionally, add a fallback or just log
+        # --- End UPDATED ---
         
         # Save article
         success = save_article(article_content, topic)
