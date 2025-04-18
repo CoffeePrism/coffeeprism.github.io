@@ -1,12 +1,12 @@
 ---
-title: "**咖啡与科学：夜间实验室能否助您安眠？**"
+title: "咖啡与科学：夜间实验室能否助您安眠？"
 date: 2025-04-16
 draft: false
 categories: ["咖啡知识"]
 tags: ["咖啡新闻", "咖啡趋势"]
 ---
 
-随着生活节奏的加快，许多人开始关注咖啡对睡眠的影响。尤其是在中国，咖啡文化正处于蓬勃发展的阶段，越来越多的人选择在下午或晚上享用一杯浓醇的咖啡，然而，这也引发了对睡眠质量的担忧。最近一则新闻引起了我的注意，标题为“Can a night in a laboratory help me sleep better?”，这促使我们思考，科学能否帮助咖啡爱好者在享受咖啡的同时，获得更好的睡眠？
+随着生活节奏的加快，许多人开始关注咖啡对睡眠的影响。尤其是在中国，咖啡文化正处于蓬勃发展的阶段，越来越多的人选择在下午或晚上享用一杯浓醇的咖啡，然而，这也引发了对睡眠质量的担忧。最近一则新闻引起了我的注意，标题为"Can a night in a laboratory help me sleep better?"，这促使我们思考，科学能否帮助咖啡爱好者在享受咖啡的同时，获得更好的睡眠？
 
 ### 科学与咖啡：寻找平衡点
 
@@ -16,7 +16,7 @@ tags: ["咖啡新闻", "咖啡趋势"]
 
 ### 咖啡与巧克力：完美的搭配
 
-在我们探讨咖啡与睡眠的同时，不妨也来看看咖啡与巧克力的关系。另一则新闻“Love and Easter eggs: How one couple turned their passion into a thriving chocolate business”中，Daniel Linehan和Georgia Quealy通过巧克力事业找到了自己的幸福。这也启发我们，咖啡与巧克力的结合，不仅能带来味觉上的享受，还能让生活更加甜蜜。
+在我们探讨咖啡与睡眠的同时，不妨也来看看咖啡与巧克力的关系。另一则新闻"Love and Easter eggs: How one couple turned their passion into a thriving chocolate business"中，Daniel Linehan和Georgia Quealy通过巧克力事业找到了自己的幸福。这也启发我们，咖啡与巧克力的结合，不仅能带来味觉上的享受，还能让生活更加甜蜜。
 
 咖啡和巧克力都是天然的快乐源泉，两者结合如同天作之合。无论是一杯加了巧克力糖浆的摩卡，还是一块浓郁的黑巧克力搭配一杯意式浓缩，都能在寒冷的夜晚带来温暖的体验。
 

@@ -232,18 +232,35 @@ def generate_article_with_openai(topic_info):
 
 def extract_title(article_content):
     """从文章内容中提取标题"""
-    # 尝试从第一行提取标题
     lines = article_content.strip().split('\n')
+    if not lines:
+        return "默认标题"
+        
     title = lines[0].strip()
     
-    # 如果标题以"#"开头，移除它
-    if title.startswith('#'):
-        title = title.lstrip('#').strip()
+    # --- 新增清理逻辑 ---
+    # 移除开头的"#"、"**"、"标题："等前缀
+    prefixes_to_remove = ["#", "**", "标题：", "标题:"]
+    for prefix in prefixes_to_remove:
+        if title.startswith(prefix):
+            title = title[len(prefix):].strip()
+            
+    # 移除结尾的"**"
+    if title.endswith("**"):
+        title = title[:-2].strip()
+        
+    # 再次移除可能因上述操作产生的多余空格或标记
+    title = title.strip("* 	\n\r")
+    # --- 清理逻辑结束 ---
     
     # 如果标题被引号包围，移除引号
     if (title.startswith('"') and title.endswith('"')) or (title.startswith("'") and title.endswith("'")):
         title = title[1:-1]
-    
+        
+    # 如果清理后标题为空，提供默认标题
+    if not title:
+        return "默认标题"
+        
     return title
 
 def save_article(article_content, topic_info):
