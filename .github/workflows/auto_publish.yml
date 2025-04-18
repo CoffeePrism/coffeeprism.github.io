@@ -44,8 +44,9 @@ jobs:
 
       - name: 安装Python依赖
         run: |
+          set -e # Exit immediately if a command exits with a non-zero status.
           python -m pip install --upgrade pip
-          pip install -r requirements.txt
+          pip install -v -r requirements.txt # Add -v for verbose output
 
       - name: 设置Hugo
         uses: peaceiris/actions-hugo@v2
