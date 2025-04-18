@@ -1,0 +1,24 @@
+{{- /* Override: Check if authorbox should be shown for this page */}}
+{{- if .Params.authorbox | default (.Site.Params.authorbox | default false) -}}
+{{- /* Override: Use .Site.Params.Author instead of deprecated .Site.Author */}}
+{{- /* Override: Check if any author info is actually defined in Site Params */}}
+{{- if or .Site.Params.Author.avatar .Site.Params.Author.name .Site.Params.Author.bio -}}
+<div class="authorbox clearfix">
+	{{- with .Site.Params.Author.avatar -}}
+	<figure class="authorbox__avatar">
+		<img alt="{{ $.Site.Params.Author.name | default "Author" }} avatar" src="{{ . | relURL }}" class="avatar" height="90" width="90">
+	</figure>
+	{{- end }}
+	{{- with .Site.Params.Author.name -}}
+	<div class="authorbox__header">
+		<span class="authorbox__name">{{ T "authorLabel" | default "About" }} <a class="authorbox__link" href="{{ $.Site.BaseURL }}">{{ . }}</a></span>
+	</div>
+	{{- end }}
+	{{- with .Site.Params.Author.bio -}}
+	<div class="authorbox__description">
+		{{ . | markdownify }}
+	</div>
+	{{- end }}
+</div>
+{{- end }}
+{{- end -}} 

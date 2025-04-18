@@ -1,0 +1,7 @@
+{{- /* Override: Use .Site.Params.Author instead of deprecated .Site.Author */}}
+{{- with .Site.Params.Author.name -}}
+	<span class="meta__item-author meta__item">
+		{{ partial "svg/user.svg" (dict "class" "meta__icon") }}
+		<span class="meta__text">{{ . }}</span>
+	</span>
+{{- end -}} 
