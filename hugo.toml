@@ -1,7 +1,7 @@
 baseURL = "https://www.coffeeprism.com/"
 languageCode = "zh-cn"
 title = "Coffee Prism"
-theme = "PaperMod"
+theme = "Mainroad"
 
 enableRobotsTXT = true
 buildDrafts = false
