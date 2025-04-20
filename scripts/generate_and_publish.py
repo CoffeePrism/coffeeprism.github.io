@@ -363,6 +363,49 @@ def extract_title(article_content):
     title = title.strip("* \t\n\r")
     # --- Clean up logic ends ---
     
+    # ---> NEW: Handle specific "---" title case <---
+    if title == "---":
+        print("警告：检测到无效标题 '---'，将尝试在正文中查找标题。")
+        title = "默认标题" # Reset to default
+        title_found = False # Reset found flag
+        lines_to_remove_indices = [] # Reset indices
+        # Re-scan lines specifically looking for marker or H1
+        for i, line in enumerate(lines[:10]): # Scan a bit further
+            cleaned_line = line.strip()
+            if not cleaned_line:
+                continue
+            
+            # Check for marker first
+            title_markers = ["**标题**", "标题：", "标题:"]
+            for marker in title_markers:
+                 if cleaned_line.startswith(marker):
+                    lines_to_remove_indices.append(i)
+                    if i + 1 < len(lines):
+                        next_line_cleaned = lines[i+1].strip()
+                        if next_line_cleaned:
+                            title = next_line_cleaned # Found the real title
+                            lines_to_remove_indices.append(i+1)
+                            title_found = True
+                            break
+                    break # Stop checking markers
+            if title_found: break
+            
+            # Check for H1 markdown
+            if cleaned_line.startswith('# '):
+                 title = cleaned_line[2:].strip()
+                 lines_to_remove_indices = [i]
+                 title_found = True
+                 break
+                 
+        if title_found:
+             # Re-apply cleaning to the newly found title
+             if title.startswith('《') and title.endswith('》'): title = title[1:-1]
+             title = title.strip("* \t\n\r")
+        else:
+             print("警告：无法在 '---' 标题后找到替代标题，将使用默认标题。")
+             title = "默认标题"
+             lines_to_remove_indices = [] # Cannot remove anything if we didn't find it
+
     # Provide default title if empty after cleaning
     if not title:
         return "默认标题", [] # Return empty list if we can't find a valid title
