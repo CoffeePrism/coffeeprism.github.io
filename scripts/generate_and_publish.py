@@ -587,7 +587,7 @@ def validate_and_update_amazon_links(article_content):
                 item_count=1, # We only need the most relevant item
                 resources=[ # Request resources needed for the link
                     SearchItemsResource.ITEMINFO_TITLE,
-                    SearchItemsResource.DETAILPAGEURL, # Ensure we get the URL
+                    SearchItemsResource.DetailPageURL, # Ensure we get the URL
                     # SearchItemsResource.OFFERS_LISTINGS_PRICE, # Optional: check price/availability?
                 ]
             )
