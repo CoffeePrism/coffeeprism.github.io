@@ -492,22 +492,16 @@ def validate_and_update_amazon_links(article_content):
     api_client = None
     api_instance = None
     try:
-        # Note: The paapi5_python_sdk might not have a direct way to initialize
-        # the client like this. Refer to its specific documentation if this causes issues.
-        # We are configuring it manually based on typical SDK patterns.
-        # It might require setting configuration on a global object instead.
-        
-        # Basic configuration structure (adapt based on actual SDK requirements)
-        from paapi5_python_sdk.configuration import Configuration
+        # ---> CORRECTED Initialization <--- 
+        # Pass credentials directly to ApiClient constructor
         from paapi5_python_sdk.api_client import ApiClient
 
-        config = Configuration()
-        config.access_key = AMAZON_ACCESS_KEY
-        config.secret_key = AMAZON_SECRET_KEY
-        config.host = AMAZON_HOST 
-        config.region = AMAZON_REGION
-        
-        api_client = ApiClient(configuration=config)
+        api_client = ApiClient(
+            access_key=AMAZON_ACCESS_KEY, 
+            secret_key=AMAZON_SECRET_KEY, 
+            host=AMAZON_HOST, 
+            region=AMAZON_REGION
+        )
         api_instance = DefaultApi(api_client=api_client)
         print("Amazon PA API 客户端初始化成功。")
 
