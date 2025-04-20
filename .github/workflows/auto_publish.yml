@@ -31,6 +31,12 @@ jobs:
           fetch-depth: 0
           submodules: true
 
+      # ---> NEW: Print Git Commit Hash <---
+      - name: 显示检出的提交哈希
+        run: |
+          echo "Checked out commit:"
+          git rev-parse HEAD
+
       - name: 设置Python环境
         uses: actions/setup-python@v4
         with:
