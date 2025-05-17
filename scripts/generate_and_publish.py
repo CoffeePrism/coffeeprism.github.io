@@ -2,7 +2,6 @@
 # -*- coding: utf-8 -*-
 
 import os
-# import requests # No longer needed for API call
 import datetime
 import re
 import json
@@ -11,34 +10,13 @@ import uuid
 import random
 from pathlib import Path
 import slugify
-from openai import OpenAI # Still use the openai library
-
-# ---> ADD: Import re if not already implicitly imported earlier in a real scenario
-# (Though it seems already used later, ensure it's available early)
-import re 
-
-# ---> ADD: PA API library imports (needs installation: pip install python-amazon-paapi)
-from paapi5_python_sdk.api.default_api import DefaultApi
-from paapi5_python_sdk.api_client import ApiClient
-from paapi5_python_sdk.models.search_items_request import SearchItemsRequest
-from paapi5_python_sdk.models.search_items_resource import SearchItemsResource
-from paapi5_python_sdk.models.partner_type import PartnerType
-from paapi5_python_sdk.rest import ApiException
+from openai import OpenAI
 
 # --- Configuration ---
 # Use environment variable for NVIDIA API key
 NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY")
-# Site info is not needed for NVIDIA API headers
-# YOUR_SITE_URL = os.getenv("YOUR_SITE_URL", "https://www.coffeeprism.com")
-# YOUR_SITE_NAME = os.getenv("YOUR_SITE_NAME", "Coffee Prism")
-
-# ---> ADD: PA API Credentials (Fetch from environment variables)
-AMAZON_ACCESS_KEY = os.getenv("AMAZON_ACCESS_KEY")
-AMAZON_SECRET_KEY = os.getenv("AMAZON_SECRET_KEY")
-AMAZON_ASSOCIATE_TAG = os.getenv("AMAZON_ASSOCIATE_TAG") # e.g., "coffeeprism-20"
-AMAZON_MARKETPLACE = "www.amazon.com" # Or the specific marketplace (e.g., "www.amazon.co.uk")
-AMAZON_HOST = "webservices.amazon.com" # Adjust if needed based on marketplace region
-AMAZON_REGION = "us-east-1"         # Adjust if needed based on marketplace region
+# 使用环境变量获取Amazon Associate Tag
+AMAZON_ASSOCIATE_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "coffeeprism-20")
 
 # Check API key
 if not NVIDIA_API_KEY:
@@ -222,7 +200,7 @@ def generate_article_with_openai(topic_info):
 
 这应该是一篇高质量的niche文章，内容深入、专业且具有教育意义。请确保文章是原创的、信息丰富的，并且对咖啡爱好者有实际价值。
 
-如果文章中涉及到具体的咖啡产品（如咖啡机、咖啡豆、咖啡杯等），请适当添加亚马逊链接，格式为[产品名称](https://www.amazon.com/dp/[ASIN]?tag=coffeeprism-20)。每篇文章可以包含2-3个相关产品推荐。
+如果文章中涉及到具体的咖啡产品（如咖啡机、咖啡豆、咖啡杯等），请适当添加亚马逊链接，格式为[产品名称](https://www.amazon.com/s?k=产品名称)。每篇文章可以包含2-3个相关产品推荐。注意不要使用ASIN直接链接，而是使用搜索链接。
 
 请确保添加以下内容要素:
 1. 引人入胜的标题（含有主题关键词）
@@ -508,65 +486,36 @@ def add_amazon_tracking_ids(url):
              url += '?tag=coffeeprism-20' # Replace with AMAZON_ASSOCIATE_TAG variable if implemented
     return url
 
-# ---> REFACTOR: Entire function to use SearchItems API <---
+# ---> UPDATED: 修改为使用搜索链接 <---
 def validate_and_update_amazon_links(article_content):
     """
-    Parses article content for potential Amazon product mentions (in Markdown links),
-    searches for them using PA API SearchItems, updates links with valid URLs + tracking tag,
-    or removes the link structure if search fails.
-    Requires PA API credentials and library setup.
+    解析文章内容中的潜在Amazon产品提及（在Markdown链接中），
+    创建Amazon搜索链接（带有affiliate tag），替换原有链接。
+    不再调用PA API。
     """
-    print("正在使用 SearchItems 查找和更新 Amazon 链接...")
-
-    # ---> Check if PA API credentials are set
-    if not all([AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOCIATE_TAG]):
-        print("警告: Amazon PA API 凭证 (AMAZON_ACCESS_KEY, AMAZON_SECRET_KEY, AMAZON_ASSOCIATE_TAG) 未完全设置。")
-        print("将跳过 Amazon 链接处理。")
-        return article_content # Return original content if no credentials
-
-    # ---> Initialize PA API Client (Using ApiClient approach)
-    api_client = None
-    api_instance = None
-    try:
-        api_client = ApiClient(
-            access_key=AMAZON_ACCESS_KEY,
-            secret_key=AMAZON_SECRET_KEY,
-            host=AMAZON_HOST,
-            region=AMAZON_REGION
-        )
-        api_instance = DefaultApi(api_client=api_client)
-        print("Amazon PA API 客户端初始化成功。")
-
-    except Exception as e:
-        print(f"错误: 无法初始化 Amazon PA API 客户端: {e}")
-        print("将跳过 Amazon 链接处理。")
-        return article_content # Return original content if client fails
+    print("正在更新文章中的Amazon链接为搜索链接...")
 
     updated_article_content = article_content
     links_processed = 0
 
-    # Regex to find Markdown links potentially pointing to Amazon
-    # It captures the full link, the link text (potential keywords), and the URL
-    # It's broad to catch links the AI might generate, even malformed ones.
-    # We primarily care about the link text `([^\]]+)` as keywords.
+    # 正则表达式匹配Markdown格式的Amazon链接
+    # 捕获完整链接、链接文本（产品关键词）和URL
     amazon_link_pattern = re.compile(r'(\[([^\]]+)\]\((https?://(?:www\.)?amazon\.com[^\s\)]*)\))')
 
-    # Find all potential link matches *before* modifying the content
+    # 在修改内容前查找所有匹配项
     matches = list(amazon_link_pattern.finditer(article_content))
     
     if not matches:
-        print("未在文章中找到符合模式的 Amazon 链接占位符。")
-        # Optional: Add search for bracketed text without URL? E.g., `\[([^\]]+)\]`
-        # For now, we only process markdown links explicitly pointing to amazon.com
-        return article_content # No links found to process
+        print("未在文章中找到符合模式的Amazon链接占位符。")
+        return article_content # 没有找到链接需要处理
 
-    print(f"找到 {len(matches)} 个潜在的 Amazon 链接占位符需要处理。")
+    print(f"找到 {len(matches)} 个潜在的Amazon链接需要处理。")
 
-    # Process matches one by one to avoid issues with indices changing after replacements
+    # 逐个处理匹配项，避免索引变化后的问题
     for match in matches:
         full_markdown_link = match.group(1)
-        link_text = match.group(2).strip() # Use link text as keywords
-        original_url = match.group(3) # Keep original URL for context, though we replace it
+        link_text = match.group(2).strip() # 使用链接文本作为关键词
+        original_url = match.group(3) # 保留原始URL以供参考
 
         print(f"\n处理链接文本: '{link_text}' (来自: {original_url})")
 
@@ -574,106 +523,32 @@ def validate_and_update_amazon_links(article_content):
             print("警告: 链接文本为空，跳过此占位符。")
             continue
 
-        # ---> PA API SearchItems Call Implementation <---
-        search_result_item = None
+        # 创建Amazon搜索链接
         try:
-            # Prepare SearchItems request
-            search_items_request = SearchItemsRequest(
-                partner_tag=AMAZON_ASSOCIATE_TAG,
-                partner_type=PartnerType.ASSOCIATES,
-                keywords=link_text, # Use the extracted link text as keywords
-                marketplace=AMAZON_MARKETPLACE,
-                search_index="All", # Or a more specific index if possible
-                item_count=1, # We only need the most relevant item
-                resources=[ # Request resources needed for the link
-                    SearchItemsResource.ITEMINFO_TITLE,
-                    SearchItemsResource.DetailPageURL, # Ensure we get the URL
-                    # SearchItemsResource.OFFERS_LISTINGS_PRICE, # Optional: check price/availability?
-                ]
-            )
-
-            print(f"正在为关键词 '{link_text}' 调用 Amazon PA API SearchItems...")
-            api_response = api_instance.search_items(search_items_request)
-            # print("PA API SearchItems 调用完成。原始响应:", api_response) # Debugging
-
-            # Process response
-            if api_response.search_result and api_response.search_result.items and len(api_response.search_result.items) > 0:
-                # Check if the first item is valid and has the necessary info
-                item = api_response.search_result.items[0]
-                if item and item.asin and item.detail_page_url and item.item_info and item.item_info.title and item.item_info.title.display_value:
-                    search_result_item = item # Store the valid item
-                    print(f"成功找到匹配项: ASIN {item.asin}, Title: '{item.item_info.title.display_value}', URL: {item.detail_page_url}")
-                else:
-                    print(f"警告: 找到的第一个项目信息不完整或无效。")
-                    if item:
-                         print(f"  - ASIN: {getattr(item, 'asin', 'N/A')}")
-                         print(f"  - URL: {getattr(item, 'detail_page_url', 'N/A')}")
-                         print(f"  - Title: {getattr(getattr(item.item_info, 'title', None), 'display_value', 'N/A') if getattr(item, 'item_info', None) else 'N/A'}")
-
-
-            elif api_response.errors:
-                print(f"PA API 为关键词 '{link_text}' 返回了错误:")
-                for error in api_response.errors:
-                   print(f"  - Code: {getattr(error, 'code', 'N/A')}, Message: {getattr(error, 'message', 'N/A')}")
-            else:
-                 print(f"未找到关键词 '{link_text}' 的有效搜索结果。")
-
-        except ApiException as e:
-            print(f"为关键词 '{link_text}' 调用 Amazon PA API 时发生错误 (ApiException):")
-            # Attempt to parse the error body if it's JSON
-            try:
-                error_body = json.loads(e.body)
-                print(f"  Status: {e.status}")
-                print(f"  Errors: {error_body.get('errors', 'N/A')}")
-                print(f"  Request ID: {e.headers.get('x-amzn-RequestId', 'N/A')}")
-            except json.JSONDecodeError:
-                 print(f"  Status: {e.status}")
-                 print(f"  Body: {e.body}") # Print raw body if not JSON
-                 print(f"  Headers: {e.headers}")
-            # Continue to next link on API error
+            # 对产品名称进行URL编码
+            import urllib.parse
+            encoded_product_name = urllib.parse.quote(link_text)
             
-        except Exception as e:
-            print(f"处理关键词 '{link_text}' 时发生未知错误: {e}")
-            import traceback
-            traceback.print_exc() # Print stack trace for debugging
-            # Continue to next link
-
-        # ---> Update content based on search result ---
-        # Use updated_article_content for replacements to handle cumulative changes
-        if search_result_item:
-            # Found a valid item, construct the new link
-            validated_url = search_result_item.detail_page_url
-            api_title = search_result_item.item_info.title.display_value
+            # 创建带有affiliate tag的搜索链接
+            search_url = f"https://www.amazon.com/s?k={encoded_product_name}&tag={AMAZON_ASSOCIATE_TAG}"
             
-            # Add tracking tag
-            final_url = add_amazon_tracking_ids(validated_url) # Use existing helper
+            # 创建新的markdown链接
+            new_markdown_link = f"[{link_text}]({search_url})"
             
-            # Create the new markdown link using API title and tagged URL
-            new_markdown_link = f"[{api_title}]({final_url})"
-            
-            # Replace the *original* full markdown link with the new one
-            # Use count=1 to replace only the first occurrence found in the current state
-            # This assumes the original full_markdown_link is unique enough
+            # 替换原始链接
             if full_markdown_link in updated_article_content:
                 updated_article_content = updated_article_content.replace(full_markdown_link, new_markdown_link, 1)
-                print(f"已将占位符更新为: {new_markdown_link}")
+                print(f"已将链接更新为: {new_markdown_link}")
                 links_processed += 1
             else:
-                 print(f"警告: 无法在当前内容中找到原始链接 '{full_markdown_link}' 进行替换。可能已被先前操作修改。")
+                print(f"警告: 无法在当前内容中找到原始链接 '{full_markdown_link}' 进行替换。可能已被先前操作修改。")
+                
+        except Exception as e:
+            print(f"处理链接 '{link_text}' 时发生错误: {e}")
+            # 继续处理下一个链接
 
-        else:
-            # Search failed or no valid item found, replace link with just the text
-            print(f"搜索失败或未找到 '{link_text}' 的有效产品。将移除链接结构，保留文本。")
-            if full_markdown_link in updated_article_content:
-                 updated_article_content = updated_article_content.replace(full_markdown_link, link_text, 1) # Replace link with just its text
-                 links_processed += 1
-            else:
-                 print(f"警告: 无法在当前内容中找到原始链接 '{full_markdown_link}' 进行移除。可能已被先前操作修改。")
-
-
-    print(f"\nAmazon 链接处理完成。共处理/尝试更新 {links_processed} 个链接。")
+    print(f"\nAmazon链接处理完成。共处理/更新 {links_processed} 个链接。")
     return updated_article_content
-# --- End REFACTOR ---
 
 def main():
     print("开始自动文章生成流程...")
