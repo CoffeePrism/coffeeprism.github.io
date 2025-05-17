@@ -21,7 +21,7 @@ description: "关于咖啡产业的碳足迹与减排策略的深度探讨，为
 
 3. **烘焙与消费阶段**
 
-烘焙是咖啡制作过程中能耗最高的环节之一。使用节能型烘焙机可以显著降低能源消耗。例如，[Behmor 5400 1600 Plus](https://www.amazon.com/dp/B00KY45G8U?tag=coffeeprism-20)这款家用烘焙机，采用了新型节能技术，为消费者提供了更环保的选择。
+烘焙是咖啡制作过程中能耗最高的环节之一。使用节能型烘焙机可以显著降低能源消耗。例如，[Behmor 5400 1600 Plus](https://www.amazon.com/s?k=Behmor%205400%201600%20Plus&tag=coffeeprism-20)这款家用烘焙机，采用了新型节能技术，为消费者提供了更环保的选择。
 
 ### 二、减少咖啡碳足迹的策略
 
@@ -35,7 +35,7 @@ description: "关于咖啡产业的碳足迹与减排策略的深度探讨，为
 
 3. **使用可重复使用的咖啡杯与配件**
 
-使用可重复使用的咖啡杯，如[KeepCup Reusable Coffee Cup](https://www.amazon.com/dp/B009R3GTSG?tag=coffeeprism-20)，不仅能减少一次性纸杯和塑料盖的废弃物，还能减少个人的碳足迹。许多咖啡店也提供使用自带杯子的折扣，进一步鼓励这种环保行为。
+使用可重复使用的咖啡杯，如[KeepCup Reusable Coffee Cup](https://www.amazon.com/s?k=KeepCup%20Reusable%20Coffee%20Cup&tag=coffeeprism-20)，不仅能减少一次性纸杯和塑料盖的废弃物，还能减少个人的碳足迹。许多咖啡店也提供使用自带杯子的折扣，进一步鼓励这种环保行为。
 
 ### 三、中国咖啡爱好者的环保选择
 

@@ -31,11 +31,11 @@ description: "关于咖啡创业者的成功故事的深度探讨，为咖啡爱
 
 对于咖啡爱好者来说，选择适合自己的咖啡装备是提升咖啡体验的重要一环。以下是一些推荐：
 
-- **咖啡机**：如果您追求一台高性能的家用咖啡机，[Breville BES870XL Barista Express](https://www.amazon.com/dp/B00CH9QWOU?tag=coffeeprism-20)是个不错的选择。它结合了磨豆机和意式浓缩咖啡机的功能，非常适合初学者和咖啡爱好者。
+- **咖啡机**：如果您追求一台高性能的家用咖啡机，[Breville BES870XL Barista Express](https://www.amazon.com/s?k=Breville%20BES870XL%20Barista%20Express&tag=coffeeprism-20)是个不错的选择。它结合了磨豆机和意式浓缩咖啡机的功能，非常适合初学者和咖啡爱好者。
 
-- **咖啡豆**：选择优质的咖啡豆至关重要，对此，[Lavazza Super Crema Espresso](https://www.amazon.com/dp/B000SDKDM4?tag=coffeeprism-20)提供了香醇浓郁的口味，适合喜欢浓缩咖啡的朋友。
+- **咖啡豆**：选择优质的咖啡豆至关重要，对此，[Lavazza Super Crema Espresso](https://www.amazon.com/s?k=Lavazza%20Super%20Crema%20Espresso&tag=coffeeprism-20)提供了香醇浓郁的口味，适合喜欢浓缩咖啡的朋友。
 
-- **咖啡杯**：一只好的咖啡杯可以提升饮用体验，[Le Creuset Stoneware Mug](https://www.amazon.com/dp/B00C6E9UTK?tag=coffeeprism-20)不仅设计优雅，保温效果也非常出色。
+- **咖啡杯**：一只好的咖啡杯可以提升饮用体验，[Le Creuset Stoneware Mug](https://www.amazon.com/s?k=Le%20Creuset%20Stoneware%20Mug&tag=coffeeprism-20)不仅设计优雅，保温效果也非常出色。
 
 #### 本地化思考：如何在中国市场取得成功
 

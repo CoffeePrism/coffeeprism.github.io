@@ -13,10 +13,10 @@ description: "关于土耳其咖啡的传统冲泡方法的深度探讨，为咖
 ## 传统器具的智慧结晶
 土耳其咖啡的核心器具是被称为"cezve"的黄铜长柄壶，其锥形设计绝非偶然：宽底便于均匀受热，细颈控制泡沫生成，长柄确保操作安全。我收藏的19世纪古董cezve至今仍在使用，其内壁经年累月形成的咖啡脂包浆，正是风味传承的最佳见证。
 
-对于现代爱好者，推荐选择容量150ml左右的[Kurukahveci Mehmet Efendi手工铜壶](https://www.amazon.com/dp/B07H5QY2H6?tag=coffeeprism-20)，其符合人体工学的檀木手柄和0.8mm铜壁厚度，能完美复刻传统热传导效果。搭配的专用咖啡杯组建议选用骨质瓷材质，如[Turkish Coffee Cup Set](https://www.amazon.com/dp/B08PDT7K7Y?tag=coffeeprism-20)，其杯壁厚度恰好平衡保温与散热需求。
+对于现代爱好者，推荐选择容量150ml左右的[Kurukahveci Mehmet Efendi手工铜壶](https://www.amazon.com/s?k=Kurukahveci%20Mehmet%20Efendi%E6%89%8B%E5%B7%A5%E9%93%9C%E5%A3%B6&tag=coffeeprism-20)，其符合人体工学的檀木手柄和0.8mm铜壁厚度，能完美复刻传统热传导效果。搭配的专用咖啡杯组建议选用骨质瓷材质，如[Turkish Coffee Cup Set](https://www.amazon.com/s?k=Turkish%20Coffee%20Cup%20Set&tag=coffeeprism-20)，其杯壁厚度恰好平衡保温与散热需求。
 
 ## 五感调和的冲泡仪式
-**选豆准则**：传统使用阿拉伯小粒种，但中国爱好者可尝试云南保山铁皮卡，其坚果尾韵与土耳其技法相得益彰。关键在研磨度——必须达到面粉般的超细粉末（粒径<100μm），家用磨豆机难以实现，建议直接选购专业研磨的[Kurukahveci预磨咖啡粉](https://www.amazon.com/dp/B00J5J9D5Y?tag=coffeeprism-20)。
+**选豆准则**：传统使用阿拉伯小粒种，但中国爱好者可尝试云南保山铁皮卡，其坚果尾韵与土耳其技法相得益彰。关键在研磨度——必须达到面粉般的超细粉末（粒径<100μm），家用磨豆机难以实现，建议直接选购专业研磨的[Kurukahveci预磨咖啡粉](https://www.amazon.com/s?k=Kurukahveci%E9%A2%84%E7%A3%A8%E5%92%96%E5%95%A1%E7%B2%89&tag=coffeeprism-20)。
 
 **水温玄机**：以山泉水为佳，每杯（60ml）对应7g咖啡粉。冷水入壶的瞬间，咖啡粉应如黑沙沉入海底般缓缓沉降。文火加热时需全神贯注：当边缘泛起金圈时轻搅三圈，待"黑眼"（kaymak）泡沫涌起时离火静置，如此反复三次。这个过程需要调动视觉（观察泡沫形态）、听觉（捕捉细微沸腾声）、触觉（感知壶体温度）的全方位感知。
 

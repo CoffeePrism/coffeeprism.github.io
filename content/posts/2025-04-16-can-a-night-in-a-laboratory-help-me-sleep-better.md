@@ -35,7 +35,7 @@ It’s a risk, but buying a house with a life interest on it can pay off
 
 研究继续表明适量饮用咖啡与多种健康益处相关。咖啡中的抗氧化物质被认为是这些健康益处的主要来源。
 
-特别是深度烘焙的咖啡豆中含有的某些化合物，如[埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/dp/B00LKT7UZ8?tag=coffeeprism-20)中特有的多酚类物质，展现出强大的抗炎和神经保护作用。
+特别是深度烘焙的咖啡豆中含有的某些化合物，如[埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/s?k=%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E8%80%B6%E5%8A%A0%E9%9B%AA%E8%8F%B2%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)中特有的多酚类物质，展现出强大的抗炎和神经保护作用。
 
 ## 可持续发展成为核心关注点
 
@@ -51,7 +51,7 @@ It’s a risk, but buying a house with a life interest on it can pay off
 
 咖啡冲泡技术也在不断创新。除了传统的滴滤和浓缩咖啡外，冷萃咖啡（Cold Brew）和氮气咖啡（Nitro Coffee）继续流行，特别是在年轻消费者中。
 
-新型家用咖啡器具，如[Fellow Stagg EKG电子温控水壶](https://www.amazon.com/dp/B07DTMZL56?tag=coffeeprism-20)和[Origami咖啡滴滤杯](https://www.amazon.com/dp/B07Z8L64TF?tag=coffeeprism-20)，正帮助咖啡爱好者在家中实现专业级的冲泡体验。
+新型家用咖啡器具，如[Fellow Stagg EKG电子温控水壶](https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%E7%94%B5%E5%AD%90%E6%B8%A9%E6%8E%A7%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)和[Origami咖啡滴滤杯](https://www.amazon.com/s?k=Origami%E5%92%96%E5%95%A1%E6%BB%B4%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)，正帮助咖啡爱好者在家中实现专业级的冲泡体验。
 
 ## 结语
 

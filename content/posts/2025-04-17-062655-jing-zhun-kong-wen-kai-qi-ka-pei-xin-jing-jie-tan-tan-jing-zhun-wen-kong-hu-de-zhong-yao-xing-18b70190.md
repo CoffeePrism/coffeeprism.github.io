@@ -37,7 +37,7 @@ description: "关于精准温控壶的重要性的深度探讨，为咖啡爱好
 
    壶体材质对水质和使用寿命有直接影响。不锈钢是常见的选择，因其耐用且不易生锈。设计上则需考虑壶嘴的形状，细长嘴设计能提供更好的注水控制。
 
-推荐产品：[Fellow Stagg EKG 电热温控壶](https://www.amazon.com/dp/B077JBQZPX?tag=coffeeprism-20)
+推荐产品：[Fellow Stagg EKG 电热温控壶](https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%20%E7%94%B5%E7%83%AD%E6%B8%A9%E6%8E%A7%E5%A3%B6&tag=coffeeprism-20)
 
 #### 三、精准温控壶在不同咖啡冲泡法中的应用
 
@@ -55,7 +55,7 @@ description: "关于精准温控壶的重要性的深度探讨，为咖啡爱好
 
    虽然冷萃咖啡不需要加热水，但在制作冷萃浓缩液时，精准温控壶可以帮助控制水温，提升萃取效率。
 
-推荐产品：[Bonavita BV382510V 温控电热壶](https://www.amazon.com/dp/B005YR0F40?tag=coffeeprism-20)
+推荐产品：[Bonavita BV382510V 温控电热壶](https://www.amazon.com/s?k=Bonavita%20BV382510V%20%E6%B8%A9%E6%8E%A7%E7%94%B5%E7%83%AD%E5%A3%B6&tag=coffeeprism-20)
 
 #### 四、个人观点与建议
 

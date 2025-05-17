@@ -19,7 +19,7 @@ description: "关于哥伦比亚咖啡豆的特色与历史的深度探讨，为
 
 ### 个人推荐
 
-对于想要在家制作高品质哥伦比亚咖啡的爱好者，我推荐尝试使用[Breville BES870XL Barista Express Espresso Machine](https://www.amazon.com/dp/B00CH9QWOU?tag=coffeeprism-20)，这款咖啡机能够提供精准的温度控制和稳定的压力，确保您每一杯咖啡的完美萃取。
+对于想要在家制作高品质哥伦比亚咖啡的爱好者，我推荐尝试使用[Breville BES870XL Barista Express Espresso Machine](https://www.amazon.com/s?k=Breville%20BES870XL%20Barista%20Express%20Espresso%20Machine&tag=coffeeprism-20)，这款咖啡机能够提供精准的温度控制和稳定的压力，确保您每一杯咖啡的完美萃取。
 
 ## 哥伦比亚咖啡豆的历史沿革
 
@@ -43,7 +43,7 @@ description: "关于哥伦比亚咖啡豆的特色与历史的深度探讨，为
 
 ### 本地化建议
 
-对于中国的咖啡爱好者而言，购买哥伦比亚咖啡豆时，建议选择中度烘焙的豆子，能够更好地品味其丰富的风味层次。使用[Hario V60 Coffee Dripper](https://www.amazon.com/dp/B001RBTSMM?tag=coffeeprism-20)手冲咖啡器具，可以更好地展现哥伦比亚咖啡的香气和口感。
+对于中国的咖啡爱好者而言，购买哥伦比亚咖啡豆时，建议选择中度烘焙的豆子，能够更好地品味其丰富的风味层次。使用[Hario V60 Coffee Dripper](https://www.amazon.com/s?k=Hario%20V60%20Coffee%20Dripper&tag=coffeeprism-20)手冲咖啡器具，可以更好地展现哥伦比亚咖啡的香气和口感。
 
 ## 专家观点与建议
 

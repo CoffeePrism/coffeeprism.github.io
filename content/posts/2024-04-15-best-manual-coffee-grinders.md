@@ -24,7 +24,7 @@ tags: ["咖啡研磨器", "手动研磨器", "咖啡器具"]
 
 ### 1. Timemore C2 MAX
 
-[Timemore C2 MAX手动咖啡研磨器](https://www.amazon.com/dp/B0966WJ82X?tag=coffeeprism-20)是一款性价比极高的选择。作为Timemore家族的入门款，C2 MAX保持了品牌一贯的优良设计和制造工艺，同时价格更加亲民。
+[Timemore C2 MAX手动咖啡研磨器](https://www.amazon.com/s?k=Timemore%20C2%20MAX%E6%89%8B%E5%8A%A8%E5%92%96%E5%95%A1%E7%A0%94%E7%A3%A8%E5%99%A8&tag=coffeeprism-20)是一款性价比极高的选择。作为Timemore家族的入门款，C2 MAX保持了品牌一贯的优良设计和制造工艺，同时价格更加亲民。
 
 **优点：**
 - 铝合金机身，轻巧坚固
@@ -39,7 +39,7 @@ tags: ["咖啡研磨器", "手动研磨器", "咖啡器具"]
 
 ### 2. 1Zpresso JX-Pro
 
-如果您正在寻找一款能胜任各种冲泡方法的高性能研磨器，[1Zpresso JX-Pro](https://www.amazon.com/dp/B08SSDL4KT?tag=coffeeprism-20)绝对是一个出色的选择。
+如果您正在寻找一款能胜任各种冲泡方法的高性能研磨器，[1Zpresso JX-Pro](https://www.amazon.com/s?k=1Zpresso%20JX-Pro&tag=coffeeprism-20)绝对是一个出色的选择。
 
 **优点：**
 - 48mm锥形刀盘，研磨速度快
@@ -54,7 +54,7 @@ tags: ["咖啡研磨器", "手动研磨器", "咖啡器具"]
 
 ### 3. Comandante C40 MK4
 
-[Comandante C40 MK4](https://www.amazon.com/dp/B09MYPM4V9?tag=coffeeprism-20)被许多咖啡专业人士视为手动研磨器的巅峰之作。德国制造的精密性和独特的刀盘设计使其在高端市场上占有一席之地。
+[Comandante C40 MK4](https://www.amazon.com/s?k=Comandante%20C40%20MK4&tag=coffeeprism-20)被许多咖啡专业人士视为手动研磨器的巅峰之作。德国制造的精密性和独特的刀盘设计使其在高端市场上占有一席之地。
 
 **优点：**
 - 专利研磨刀盘，研磨一致性极佳
@@ -81,9 +81,9 @@ tags: ["咖啡研磨器", "手动研磨器", "咖啡器具"]
 
 手动咖啡研磨器是提升家庭咖啡品质的重要工具。根据您的具体需求和预算，上述三款研磨器都能提供优质的研磨体验。
 
-- **预算有限**：选择 [Timemore C2 MAX](https://www.amazon.com/dp/B0966WJ82X?tag=coffeeprism-20)
-- **追求全能性**：选择 [1Zpresso JX-Pro](https://www.amazon.com/dp/B08SSDL4KT?tag=coffeeprism-20)
-- **追求极致**：选择 [Comandante C40 MK4](https://www.amazon.com/dp/B09MYPM4V9?tag=coffeeprism-20)
+- **预算有限**：选择 [Timemore C2 MAX](https://www.amazon.com/s?k=Timemore%20C2%20MAX&tag=coffeeprism-20)
+- **追求全能性**：选择 [1Zpresso JX-Pro](https://www.amazon.com/s?k=1Zpresso%20JX-Pro&tag=coffeeprism-20)
+- **追求极致**：选择 [Comandante C40 MK4](https://www.amazon.com/s?k=Comandante%20C40%20MK4&tag=coffeeprism-20)
 
 无论您选择哪一款，均匀的研磨颗粒都将为您带来更美味的咖啡体验。
 

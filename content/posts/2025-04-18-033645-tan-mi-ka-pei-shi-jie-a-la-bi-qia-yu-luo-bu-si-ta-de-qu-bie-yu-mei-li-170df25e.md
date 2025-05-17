@@ -37,13 +37,13 @@ description: "关于阿拉比卡与罗布斯塔的区别与特点的深度探讨
 
 如果您已经是一位资深的咖啡爱好者，或者喜欢更加强烈的咖啡体验，不妨尝试混合阿拉比卡和罗布斯塔的咖啡豆。这种组合可以带来丰富的层次感，兼具阿拉比卡的香气和罗布斯塔的浓烈。
 
-在器具选择上，使用优质的咖啡机和磨豆机可以最大程度地发挥咖啡豆的潜力。例如，您可以考虑使用[Breville咖啡机](https://www.amazon.com/dp/B077QNM7Q3?tag=coffeeprism-20)来制作一杯完美的意式浓缩咖啡，或者选择[Baratza磨豆机](https://www.amazon.com/dp/B07B9R67WR?tag=coffeeprism-20)来确保磨豆的均匀和品质。
+在器具选择上，使用优质的咖啡机和磨豆机可以最大程度地发挥咖啡豆的潜力。例如，您可以考虑使用[Breville咖啡机](https://www.amazon.com/s?k=Breville%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)来制作一杯完美的意式浓缩咖啡，或者选择[Baratza磨豆机](https://www.amazon.com/s?k=Baratza%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)来确保磨豆的均匀和品质。
 
 ## 对中国咖啡爱好者的特别提示
 
 在中国，咖啡文化正处于快速发展阶段。越来越多的咖啡馆和精品咖啡品牌涌现，为消费者提供了丰富的选择。对于中国的咖啡爱好者，我建议多参与本地的咖啡品鉴活动，了解不同产地和制作方法的咖啡差异。这不仅能提升您的咖啡品味，还能更好地享受咖啡带来的乐趣。
 
-此外，您还可以通过在线平台购买来自世界各地的优质咖啡豆，如[Blue Bottle咖啡豆](https://www.amazon.com/dp/B07JB3D6D9?tag=coffeeprism-20)，体验不同产地的风味。
+此外，您还可以通过在线平台购买来自世界各地的优质咖啡豆，如[Blue Bottle咖啡豆](https://www.amazon.com/s?k=Blue%20Bottle%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)，体验不同产地的风味。
 
 ## 结论
 

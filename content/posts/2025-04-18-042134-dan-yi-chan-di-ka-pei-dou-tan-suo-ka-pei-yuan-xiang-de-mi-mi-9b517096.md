@@ -51,11 +51,11 @@ description: "关于单一产地咖啡豆的风味特点的深度探讨，为咖
 
 如果你想要更好地享受单一产地咖啡豆的魅力，选择适合的工具和豆子非常重要。以下是一些推荐的产品：
 
-- [Breville Bambino Plus Espresso Machine](https://www.amazon.com/dp/B07P76VQDJ?tag=coffeeprism-20)：这款咖啡机适合家庭使用，能够很好地萃取单一产地咖啡豆的精华。
+- [Breville Bambino Plus Espresso Machine](https://www.amazon.com/s?k=Breville%20Bambino%20Plus%20Espresso%20Machine&tag=coffeeprism-20)：这款咖啡机适合家庭使用，能够很好地萃取单一产地咖啡豆的精华。
 
-- [Hario V60 Coffee Dripper](https://www.amazon.com/dp/B000P4D5HG?tag=coffeeprism-20)：这款手冲滤杯能够展现咖啡的细腻风味，非常适合用于品鉴单一产地咖啡豆。
+- [Hario V60 Coffee Dripper](https://www.amazon.com/s?k=Hario%20V60%20Coffee%20Dripper&tag=coffeeprism-20)：这款手冲滤杯能够展现咖啡的细腻风味，非常适合用于品鉴单一产地咖啡豆。
 
-- [Ethiopian Yirgacheffe Coffee Beans](https://www.amazon.com/dp/B07P4M9N3M?tag=coffeeprism-20)：作为埃塞俄比亚的代表性咖啡豆，它将带你领略独特的花香和果香。
+- [Ethiopian Yirgacheffe Coffee Beans](https://www.amazon.com/s?k=Ethiopian%20Yirgacheffe%20Coffee%20Beans&tag=coffeeprism-20)：作为埃塞俄比亚的代表性咖啡豆，它将带你领略独特的花香和果香。
 
 #### 结语
 
