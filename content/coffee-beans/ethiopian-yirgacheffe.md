@@ -57,19 +57,19 @@ tags: ["埃塞俄比亚", "耶加雪菲", "精品咖啡"]
 
 如果您想尝试正宗的耶加雪菲咖啡豆，以下是几个值得推荐的品牌：
 
-1. [Fresh Roasted Coffee LLC 埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/dp/B00LKT7UZ8?tag=coffeeprism-20)：中度烘焙，平衡的风味，适合初次尝试耶加雪菲的咖啡爱好者。
+1. [Fresh Roasted Coffee LLC 埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/s?k=Fresh%20Roasted%20Coffee%20LLC%20%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E8%80%B6%E5%8A%A0%E9%9B%AA%E8%8F%B2%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)：中度烘焙，平衡的风味，适合初次尝试耶加雪菲的咖啡爱好者。
 
-2. [Volcanica 埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/dp/B003YA8O1I?tag=coffeeprism-20)：精品咖啡豆，风味丰富，有机认证。
+2. [Volcanica 埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/s?k=Volcanica%20%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E8%80%B6%E5%8A%A0%E9%9B%AA%E8%8F%B2%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)：精品咖啡豆，风味丰富，有机认证。
 
-3. [Cooper's Cask Coffee 埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/dp/B07DMMZ95Y?tag=coffeeprism-20)：小批量烘焙，保证新鲜度，风味出众。
+3. [Cooper's Cask Coffee 埃塞俄比亚耶加雪菲咖啡豆](https://www.amazon.com/s?k=Cooper%27s%20Cask%20Coffee%20%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E8%80%B6%E5%8A%A0%E9%9B%AA%E8%8F%B2%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)：小批量烘焙，保证新鲜度，风味出众。
 
 ## 最佳冲泡方式
 
 耶加雪菲咖啡豆的精致风味，最适合通过以下方式冲泡：
 
-1. **手冲滴滤**：推荐使用[Hario V60](https://www.amazon.com/dp/B000P4D5HG?tag=coffeeprism-20)或[Kalita Wave](https://www.amazon.com/dp/B000X1AM0Y?tag=coffeeprism-20)，能最大程度展现其花香和明亮的酸度。
+1. **手冲滴滤**：推荐使用[Hario V60](https://www.amazon.com/s?k=Hario%20V60&tag=coffeeprism-20)或[Kalita Wave](https://www.amazon.com/s?k=Kalita%20Wave&tag=coffeeprism-20)，能最大程度展现其花香和明亮的酸度。
 
-2. **爱乐压（AeroPress）**：使用[爱乐压咖啡机](https://www.amazon.com/dp/B0047BIWSK?tag=coffeeprism-20)可以冲泡出浓郁而平衡的耶加雪菲。
+2. **爱乐压（AeroPress）**：使用[爱乐压咖啡机](https://www.amazon.com/s?k=%E7%88%B1%E4%B9%90%E5%8E%8B%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)可以冲泡出浓郁而平衡的耶加雪菲。
 
 3. **虹吸式（Siphon）**：复杂的虹吸壶冲泡方式能充分展现耶加雪菲的层次感。
 

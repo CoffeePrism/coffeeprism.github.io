@@ -16,7 +16,7 @@ Timemore是一个来自中国的咖啡器具品牌，以其优秀的设计、制
 
 ## 外观与设计
 
-[Timemore C2 手动咖啡研磨器](https://www.amazon.com/dp/B083FC3X5P?tag=coffeeprism-20)采用了简约现代的设计风格：
+[Timemore C2 手动咖啡研磨器](https://www.amazon.com/s?k=Timemore%20C2%20%E6%89%8B%E5%8A%A8%E5%92%96%E5%95%A1%E7%A0%94%E7%A3%A8%E5%99%A8&tag=coffeeprism-20)采用了简约现代的设计风格：
 
 - **尺寸**：整体高度约18厘米，直径约5厘米，便于手持
 - **材质**：铝合金主体，不锈钢研磨刀盘，CNC精密加工
@@ -88,7 +88,7 @@ Timemore C2最适合以下冲泡方式的研磨需求：
 
 Timemore C2与同价位的几款热门手动研磨器对比：
 
-| 特性 | [Timemore C2](https://www.amazon.com/dp/B083FC3X5P?tag=coffeeprism-20) | [Hario Skerton Pro](https://www.amazon.com/dp/B01MXJI90M?tag=coffeeprism-20) | [Porlex Mini](https://www.amazon.com/dp/B0044ZA066?tag=coffeeprism-20) |
+| 特性 | [Timemore C2](https://www.amazon.com/s?k=Timemore%20C2&tag=coffeeprism-20) | [Hario Skerton Pro](https://www.amazon.com/s?k=Hario%20Skerton%20Pro&tag=coffeeprism-20) | [Porlex Mini](https://www.amazon.com/s?k=Porlex%20Mini&tag=coffeeprism-20) |
 |------|------------|-------------------|-------------|
 | 价格 | $ | $ | $$ |
 | 刀盘尺寸 | 38mm不锈钢 | 28mm陶瓷 | 25mm不锈钢 |
@@ -102,7 +102,7 @@ Timemore C2与同价位的几款热门手动研磨器对比：
 
 Timemore C2在同价位研磨器中提供了卓越的性价比：
 
-- **价格**：约50-60美元区间，[Amazon链接](https://www.amazon.com/dp/B083FC3X5P?tag=coffeeprism-20)
+- **价格**：约50-60美元区间，[Amazon链接](https://www.amazon.com/s?k=Amazon%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
 - **性能回报**：研磨性能接近一些100美元以上的手动研磨器
 - **长期投资**：耐用设计意味着较长使用寿命，长期成本更低
 
@@ -136,6 +136,6 @@ Timemore C2最适合以下咖啡爱好者：
 
 Timemore C2手动咖啡研磨器提供了入门精品咖啡世界的绝佳门票。它在保持亲民价格的同时，提供了接近高端研磨器的性能体验。研磨均匀度、构造质量和使用体验都远超其价格区间的预期。
 
-对于希望提升家庭咖啡品质又不想投入过多预算的咖啡爱好者来说，[Timemore C2](https://www.amazon.com/dp/B083FC3X5P?tag=coffeeprism-20)无疑是一个值得考虑的优质选择。它不仅能帮助您冲泡出更美味的咖啡，还能让您更深入地了解和掌控咖啡萃取过程中的关键变量。
+对于希望提升家庭咖啡品质又不想投入过多预算的咖啡爱好者来说，[Timemore C2](https://www.amazon.com/s?k=Timemore%20C2&tag=coffeeprism-20)无疑是一个值得考虑的优质选择。它不仅能帮助您冲泡出更美味的咖啡，还能让您更深入地了解和掌控咖啡萃取过程中的关键变量。
 
 您是否正在使用Timemore C2或其他手动研磨器？欢迎在评论区分享您的经验和看法！ 

@@ -23,11 +23,11 @@ V60独特的设计具有几个关键特点：
 
 要冲泡一杯完美的V60咖啡，您需要以下器材：
 
-1. [Hario V60滤杯](https://www.amazon.com/dp/B000P4D5HG?tag=coffeeprism-20)（陶瓷、塑料或金属均可）
-2. [Hario专用滤纸](https://www.amazon.com/dp/B001O0R46I?tag=coffeeprism-20)
-3. [手冲壶](https://www.amazon.com/dp/B08BL9JCPJ?tag=coffeeprism-20)（细长壶嘴设计）
-4. [咖啡研磨器](https://www.amazon.com/dp/B08SSDL4KT?tag=coffeeprism-20)（能提供均匀中细研磨）
-5. [精确咖啡秤](https://www.amazon.com/dp/B07XQS8JL6?tag=coffeeprism-20)（最好带计时功能）
+1. [Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)（陶瓷、塑料或金属均可）
+2. [Hario专用滤纸](https://www.amazon.com/s?k=Hario%E4%B8%93%E7%94%A8%E6%BB%A4%E7%BA%B8&tag=coffeeprism-20)
+3. [手冲壶](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)（细长壶嘴设计）
+4. [咖啡研磨器](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A0%94%E7%A3%A8%E5%99%A8&tag=coffeeprism-20)（能提供均匀中细研磨）
+5. [精确咖啡秤](https://www.amazon.com/s?k=%E7%B2%BE%E7%A1%AE%E5%92%96%E5%95%A1%E7%A7%A4&tag=coffeeprism-20)（最好带计时功能）
 6. 新鲜烘焙的咖啡豆
 7. 优质热水（90-96°C）
 
@@ -89,7 +89,7 @@ V60独特的设计具有几个关键特点：
 - **太粗**：萃取不足，酸涩或平淡
 - **理想**：中细研磨，平衡的风味
 
-推荐使用[1Zpresso JX-Pro研磨器](https://www.amazon.com/dp/B08SSDL4KT?tag=coffeeprism-20)获得一致的研磨颗粒。
+推荐使用[1Zpresso JX-Pro研磨器](https://www.amazon.com/s?k=1Zpresso%20JX-Pro%E7%A0%94%E7%A3%A8%E5%99%A8&tag=coffeeprism-20)获得一致的研磨颗粒。
 
 ### 2. 水温
 
@@ -131,10 +131,10 @@ V60独特的设计具有几个关键特点：
 
 以下是我们推荐的V60冲泡设备：
 
-1. **滤杯**：[Hario V60陶瓷滤杯02号](https://www.amazon.com/dp/B000P4D5HG?tag=coffeeprism-20)
-2. **手冲壶**：[Fellow Stagg EKG电控温水壶](https://www.amazon.com/dp/B077JBQZPX?tag=coffeeprism-20)
-3. **咖啡秤**：[Timemore黑镜咖啡秤](https://www.amazon.com/dp/B07XQS8JL6?tag=coffeeprism-20)
-4. **研磨器**：[1Zpresso JX-Pro手动研磨器](https://www.amazon.com/dp/B08SSDL4KT?tag=coffeeprism-20)
+1. **滤杯**：[Hario V60陶瓷滤杯02号](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF02%E5%8F%B7&tag=coffeeprism-20)
+2. **手冲壶**：[Fellow Stagg EKG电控温水壶](https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%E7%94%B5%E6%8E%A7%E6%B8%A9%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)
+3. **咖啡秤**：[Timemore黑镜咖啡秤](https://www.amazon.com/s?k=Timemore%E9%BB%91%E9%95%9C%E5%92%96%E5%95%A1%E7%A7%A4&tag=coffeeprism-20)
+4. **研磨器**：[1Zpresso JX-Pro手动研磨器](https://www.amazon.com/s?k=1Zpresso%20JX-Pro%E6%89%8B%E5%8A%A8%E7%A0%94%E7%A3%A8%E5%99%A8&tag=coffeeprism-20)
 
 ## 结语
 
