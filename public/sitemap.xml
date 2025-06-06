@@ -3,21 +3,39 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.coffeeprism.com/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/categories/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E5%8C%97%E6%AC%A7%E5%92%96%E5%95%A1%E6%96%87%E5%8C%96/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/posts/2025-06-06-181819-bei-ou-ji-jian-zhu-yi-yu-ka-pei-zhe-xue-tan-xun-si-0ecfb3cc/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E5%93%81%E7%89%8C%E4%B8%8E%E6%95%85%E4%BA%8B/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E6%96%87%E5%8C%96/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E7%AC%AC%E4%B8%89%E6%B3%A2%E5%92%96%E5%95%A1%E8%BF%90%E5%8A%A8/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
+  </url><url>
+    <loc>https://www.coffeeprism.com/posts/2025-06-06-181853-mo-ren-biao-ti-a95e42e5/</loc>
+    <lastmod>2025-06-06T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/2025-06-04-181907-cong-sheng-dou-dao-chun-xiang-zhong-guo-jia-ting-k-2f27a476/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.coffeeprism.com/categories/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.coffeeprism.com/posts/2025-06-04-181823-jiang-hun-cui-lian-jie-ma-ri-ben-ka-pei-pin-pai-de-a4acc91a/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E5%93%81%E7%89%8C%E4%B8%8E%E6%95%85%E4%BA%8B/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%98%E7%84%99/</loc>
@@ -27,9 +45,6 @@
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/tags/%E6%97%A5%E6%9C%AC%E5%92%96%E5%95%A1%E5%93%81%E7%89%8C/</loc>
-    <lastmod>2025-06-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/</loc>
     <lastmod>2025-06-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1/</loc>
@@ -57,9 +72,6 @@
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/tags/%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%92%96%E5%95%A1%E5%8C%85%E8%A3%85/</loc>
-    <lastmod>2025-06-02T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E6%96%87%E5%8C%96/</loc>
     <lastmod>2025-06-02T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/2025-06-02-182038-ka-pei-wen-ming-xun-li-jie-ma-quan-qiu-wu-da-ka-pe-f5c22481/</loc>
@@ -254,9 +266,6 @@
     <loc>https://www.coffeeprism.com/tags/%E6%8B%89%E8%8A%B1%E6%8A%80%E5%B7%A7/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E7%AC%AC%E4%B8%89%E6%B3%A2%E5%92%96%E5%95%A1%E8%BF%90%E5%8A%A8/</loc>
-    <lastmod>2025-05-17T00:00:00+00:00</lastmod>
-  </url><url>
     <loc>https://www.coffeeprism.com/tags/%E8%AF%86%E5%88%AB%E5%AE%8C%E7%BE%8E%E7%83%98%E7%84%99/</loc>
     <lastmod>2025-05-17T00:00:00+00:00</lastmod>
   </url><url>
@@ -375,9 +384,6 @@
     <lastmod>2025-05-05T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/2025-05-04-181604-cong-peng-you-quan-dao-ka-pei-quan-she-jiao-mei-ti-5cc59b6c/</loc>
-    <lastmod>2025-05-04T00:00:00+00:00</lastmod>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E5%8C%97%E6%AC%A7%E5%92%96%E5%95%A1%E6%96%87%E5%8C%96/</loc>
     <lastmod>2025-05-04T00:00:00+00:00</lastmod>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/2025-05-04-181715-ji-jian-mei-xue-yu-man-bei-zhe-xue-jie-ma-bei-ou-k-12de9615/</loc>
