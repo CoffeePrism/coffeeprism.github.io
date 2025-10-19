@@ -186,45 +186,132 @@ def select_random_coffee_topics(count=2):
     return selected_topics
 
 def generate_article_with_openai(topic_info):
-    """使用 NVIDIA API 生成咖啡相关文章"""
+    """使用 NVIDIA API 生成咖啡相关文章 - SEO优化版本"""
     main_topic = topic_info["main_topic"]
     specific_topic = topic_info["specific_topic"]
     
-    print(f"正在生成关于「{main_topic}：{specific_topic}」的文章 (使用模型: {MODEL_NAME})...")
+    print(f"正在生成关于「{main_topic}：{specific_topic}」的SEO优化文章 (使用模型: {MODEL_NAME})...")
     
     if not NVIDIA_API_KEY:
         print("错误: 未设置NVIDIA_API_KEY环境变量")
         return None
     
-    prompt = f"""你是一位资深咖啡专家和作家。请创作一篇关于「{main_topic}：{specific_topic}」的中文文章，内容约1200-1500字，并提供一个有吸引力的标题。文章应面向中国咖啡爱好者，风格清新专业。
+    # SEO优化的prompt - 更详细和结构化
+    prompt = f"""你是一位资深咖啡专家、SEO内容专家和专业作家。请创作一篇关于「{specific_topic}」的高质量SEO优化中文文章。
 
-这应该是一篇高质量的niche文章，内容深入、专业且具有教育意义。请确保文章是原创的、信息丰富的，并且对咖啡爱好者有实际价值。
+## 核心要求：
+- **字数**：2500-3500字（充实的长篇内容对SEO更有利）
+- **目标受众**：中国咖啡爱好者、从入门到进阶的学习者
+- **写作风格**：专业但易懂，既有深度又有实用性
+- **搜索意图**：满足信息性搜索（学习知识）和交易性搜索（购买产品）
 
-如果文章中涉及到具体的咖啡产品（如咖啡机、咖啡豆、咖啡杯等），请适当添加亚马逊链接，格式为[产品名称](https://www.amazon.com/s?k=产品名称)。每篇文章可以包含2-3个相关产品推荐。注意不要使用ASIN直接链接，而是使用搜索链接。
+## 文章结构要求（严格遵循）：
 
-请确保添加以下内容要素:
-1. 引人入胜的标题（含有主题关键词）
-2. 清晰的内容结构，包括小标题和段落划分
-3. 专业且实用的咖啡知识
-4. 适当的个人观点和专家建议
-5. 对中国咖啡爱好者的特别考虑和本地化内容
+### 1. 标题（H1）
+- 必须包含主要关键词「{specific_topic}」
+- 长度控制在15-30个字符
+- 吸引点击，但不做标题党
+- 示例格式："深度解析：{specific_topic}的完整指南"或"{specific_topic}：从入门到精通的实用宝典"
 
-请避免以下问题:
-1. 不要使用过多的营销语言
-2. 不要包含虚假或未经验证的信息
-3. 不要抄袭已有内容
-4. 不要过多使用列表，而应该有深入的段落式讨论
-"""
+### 2. 引言段落（200-300字）
+- 第一段必须在前100字内自然出现2-3次主要关键词
+- 用一个引人入胜的开场白或问题开始
+- 简要说明文章将涵盖的内容
+- 提出读者的痛点和本文解决方案
+
+### 3. 主体内容（使用清晰的H2和H3结构）
+
+至少包含5-7个H2章节，每个H2下包含2-3个H3小节：
+
+**H2章节建议：**
+- 什么是{specific_topic}？基础概念解析
+- {specific_topic}的历史渊源与发展
+- {specific_topic}的核心要素/关键技巧
+- 如何正确进行{specific_topic}？步骤详解
+- {specific_topic}的常见误区与解决方案
+- 专业咖啡师的进阶建议
+- 推荐产品与工具（如适用）
+
+**每个章节要求：**
+- H2标题包含长尾关键词
+- 每个段落150-250字
+- 使用具体例子、数据、对比
+- 适当使用**加粗**强调重点术语
+- 自然融入相关关键词（不要堆砌）
+
+### 4. FAQ部分（必须包含）
+创建一个"常见问题解答"H2章节，包含5-7个与主题相关的问题：
+- 使用H3作为问题标题
+- 每个问答100-150字
+- 问题应该是用户真实会搜索的长尾关键词
+- 示例："初学者如何开始{specific_topic}？"、"{specific_topic}需要哪些工具？"
+
+### 5. 总结段落（200-250字）
+- 总结文章要点
+- 给出实用的行动建议
+- 自然重复1-2次主要关键词
+- 鼓励读者留言或分享经验
+
+## SEO关键优化点：
+
+1. **关键词策略**：
+   - 主关键词「{specific_topic}」自然出现8-12次
+   - 使用语义相关词和同义词
+   - 长尾关键词（如"如何...{specific_topic}"、"{specific_topic}的最佳方法"）
+   - 关键词密度控制在1-1.5%
+
+2. **可读性优化**：
+   - 每段3-5句话
+   - 使用短句和过渡词
+   - 避免专业术语堆砌，必要时解释
+   - 使用具体数字、例子、对比
+
+3. **内容深度**：
+   - 提供独特见解和个人经验
+   - 引用具体案例或实验结果
+   - 对比不同方法的优劣
+   - 包含实用技巧和专业建议
+
+4. **产品推荐**（如相关）：
+   - 在合适位置推荐2-4个相关产品
+   - 使用格式：[产品名称](https://www.amazon.com/s?k=产品英文名称)
+   - 产品推荐要自然融入内容，不要强行植入
+   - 说明为什么推荐该产品
+
+5. **中国本地化**：
+   - 考虑中国咖啡市场特点
+   - 提及国内可获得的替代品或渠道
+   - 使用中国读者熟悉的例子和品牌
+   - 考虑价格敏感度和实用性
+
+## 禁止事项：
+❌ 不要使用营销话术和夸张宣传
+❌ 不要关键词堆砌（保持自然）
+❌ 不要抄袭或重复已有内容
+❌ 不要使用空洞的陈词滥调
+❌ 不要过度使用bullet points（60%以上应该是段落）
+❌ 不要包含虚假或未经验证的信息
+❌ 不要在开头或结尾说"在本文中"、"总而言之"等元语言
+
+## 写作调性：
+✅ 专业但友好，像咖啡师朋友在分享经验
+✅ 用故事化方式讲解技术内容
+✅ 提供具体可执行的步骤
+✅ 保持客观，既说优点也说挑战
+✅ 激发读者的兴趣和探索欲望
+
+现在，请创作这篇关于「{specific_topic}」的高质量SEO文章。记住：内容质量和用户价值永远是第一位的。"""
 
     try:
         # Use the initialized client to create completion with streaming
+        # 优化参数以生成更高质量、更有创意的内容
         completion_stream = client.chat.completions.create(
             model=MODEL_NAME,
             messages=[{"role":"user","content": prompt}],
-            temperature=0.6, # Adjusted temperature
-            top_p=0.7,       # Adjusted top_p
-            max_tokens=4096, # Adjusted max_tokens
-            stream=True      # Enable streaming
+            temperature=0.7,  # 提高温度以增加创意性和多样性
+            top_p=0.8,        # 提高top_p以获得更自然的语言
+            max_tokens=8192,  # 增加token限制以支持更长的文章（2500-3500字）
+            stream=True       # Enable streaming
         )
 
         # Process the stream
@@ -254,6 +341,78 @@ def generate_article_with_openai(topic_info):
         traceback.print_exc()
         print("-- End Traceback --")
         return None
+
+def generate_seo_description(title, specific_topic, article_content):
+    """生成SEO优化的meta description"""
+    # 尝试从文章第一段提取关键信息
+    lines = article_content.strip().split('\n')
+    first_paragraph = ""
+    
+    for line in lines:
+        clean_line = line.strip()
+        # 跳过标题行和空行
+        if clean_line and not clean_line.startswith('#') and len(clean_line) > 50:
+            first_paragraph = clean_line[:150]
+            break
+    
+    # 如果找到了有效段落，使用它；否则生成默认描述
+    if first_paragraph:
+        # 确保描述在120-160字符之间（最佳SEO长度）
+        description = first_paragraph[:147] + "..." if len(first_paragraph) > 147 else first_paragraph
+    else:
+        # 生成包含关键词的默认描述
+        description = f"深入探讨{specific_topic}的专业指南。从基础概念到实战技巧，为咖啡爱好者提供全面的知识和实用建议。立即阅读了解更多！"
+    
+    # 确保描述长度符合SEO最佳实践（120-160字符）
+    if len(description) < 120:
+        description += f"详细了解{specific_topic}的各个方面。"
+    
+    return description[:160]  # 限制最大长度
+
+def extract_keywords_from_content(article_content, specific_topic):
+    """从文章内容中智能提取关键词作为标签"""
+    # 咖啡相关的常见关键词列表
+    coffee_keywords = [
+        "咖啡", "咖啡豆", "手冲", "意式", "浓缩", "拉花", "烘焙", "研磨",
+        "冲泡", "萃取", "风味", "酸度", "醇厚度", "咖啡机", "磨豆机",
+        "V60", "法压壶", "爱乐压", "摩卡壶", "虹吸壶", "滴滤", "冷萃",
+        "阿拉比卡", "罗布斯塔", "埃塞俄比亚", "哥伦比亚", "肯尼亚",
+        "耶加雪菲", "瑰夏", "蓝山", "曼特宁", "精品咖啡", "单品咖啡",
+        "咖啡文化", "咖啡师", "拿铁", "卡布奇诺", "美式", "咖啡馆",
+        "咖啡器具", "咖啡设备", "咖啡技巧", "咖啡知识", "咖啡制作"
+    ]
+    
+    # 从内容中查找出现的关键词
+    found_keywords = []
+    content_lower = article_content.lower()
+    
+    for keyword in coffee_keywords:
+        if keyword in article_content and keyword != "咖啡":  # "咖啡"太通用了
+            found_keywords.append(keyword)
+    
+    # 从specific_topic中提取关键部分
+    topic_keywords = []
+    # 处理各种分隔符
+    for separator in ["的", "与", "和", "：", ":", "、", "及"]:
+        if separator in specific_topic:
+            parts = specific_topic.split(separator)
+            topic_keywords.extend([p.strip() for p in parts if len(p.strip()) > 2])
+    
+    # 如果没有分隔符，直接使用topic本身
+    if not topic_keywords:
+        topic_keywords = [specific_topic]
+    
+    # 合并并去重，优先保留topic相关关键词
+    all_tags = topic_keywords[:2]  # 先取主题关键词
+    for kw in found_keywords:
+        if kw not in all_tags and len(all_tags) < 5:  # 限制最多5个标签
+            all_tags.append(kw)
+    
+    # 如果标签太少，添加通用标签
+    if len(all_tags) < 3:
+        all_tags.append("咖啡")
+    
+    return all_tags[:5]  # 最多返回5个标签
 
 def extract_title(article_content):
     """从文章内容中提取标题并返回标题和需要移除的行号列表"""
@@ -420,14 +579,16 @@ def save_article(article_content, topic_info):
         filename = f"{today}-{timestamp}-{slug}-{unique_id}.md"
         filepath = content_dir / filename
         
-        # Determine category and tags
+        # Determine category and tags using improved extraction
         category = topic_info["main_topic"]
-        # Attempt to extract a more relevant tag, fallback to specific topic
-        potential_tag = topic_info["specific_topic"].split("的")[0] if "的" in topic_info["specific_topic"] else topic_info["specific_topic"]
-        potential_tag = potential_tag.split("与")[0] if "与" in potential_tag else potential_tag # Handle "A与B" cases
-        tags = [potential_tag.strip()]
         
-        # Create Front Matter
+        # Use the new intelligent keyword extraction for tags
+        tags = extract_keywords_from_content(article_content, topic_info["specific_topic"])
+        
+        # Generate SEO-optimized meta description
+        seo_description = generate_seo_description(title, topic_info["specific_topic"], article_content)
+        
+        # Create Front Matter with SEO optimization
         # Use ensure_ascii=False for Chinese characters in tags JSON
         front_matter = f"""---
 title: "{title}"
@@ -435,7 +596,9 @@ date: {today}
 draft: false
 categories: ["{category}"]
 tags: {json.dumps(tags, ensure_ascii=False)}
-description: "关于{topic_info['specific_topic']}的深度探讨，为咖啡爱好者提供专业知识和实用指南。"
+description: "{seo_description}"
+keywords: {json.dumps(tags[:5], ensure_ascii=False)}
+author: "Coffee Prism"
 ---
 
 """
@@ -471,6 +634,94 @@ description: "关于{topic_info['specific_topic']}的深度探讨，为咖啡爱
         # import traceback
         # print(traceback.format_exc()) # Uncomment for detailed stack trace
         return False
+
+def check_content_quality(article_content, title, specific_topic):
+    """检查文章内容质量，提供SEO和可读性反馈"""
+    print("\n=== 内容质量检查 ===")
+    
+    issues = []
+    warnings = []
+    
+    # 1. 检查文章长度
+    word_count = len(article_content)
+    char_count = len(article_content.replace(' ', '').replace('\n', ''))
+    print(f"📊 文章长度: {char_count} 字符")
+    
+    if char_count < 2000:
+        issues.append(f"⚠️  文章过短 ({char_count}字)，建议至少2500字以上")
+    elif char_count < 2500:
+        warnings.append(f"⚡ 文章略短 ({char_count}字)，建议增加到2500-3500字")
+    else:
+        print(f"✅ 文章长度良好 ({char_count}字)")
+    
+    # 2. 检查标题中的关键词
+    if specific_topic in title:
+        print(f"✅ 标题包含主关键词「{specific_topic}」")
+    else:
+        issues.append(f"⚠️  标题未包含主关键词「{specific_topic}」")
+    
+    # 3. 检查关键词密度
+    keyword_count = article_content.count(specific_topic)
+    keyword_density = (keyword_count * len(specific_topic) / char_count) * 100 if char_count > 0 else 0
+    print(f"📈 关键词「{specific_topic}」出现 {keyword_count} 次，密度: {keyword_density:.2f}%")
+    
+    if keyword_count < 5:
+        issues.append(f"⚠️  关键词出现次数过少 ({keyword_count}次)，建议8-12次")
+    elif keyword_count > 20:
+        warnings.append(f"⚡ 关键词可能过多 ({keyword_count}次)，注意避免堆砌")
+    else:
+        print(f"✅ 关键词频率合理")
+    
+    # 4. 检查标题结构 (H2, H3)
+    h2_count = article_content.count('\n## ')
+    h3_count = article_content.count('\n### ')
+    print(f"📋 标题结构: {h2_count} 个H2标题, {h3_count} 个H3标题")
+    
+    if h2_count < 4:
+        issues.append(f"⚠️  H2标题过少 ({h2_count}个)，建议至少5-7个主要章节")
+    else:
+        print(f"✅ 标题结构良好")
+    
+    # 5. 检查是否包含FAQ
+    has_faq = any(keyword in article_content for keyword in ["常见问题", "FAQ", "问答", "Q&A", "疑问解答"])
+    if has_faq:
+        print("✅ 包含FAQ部分")
+    else:
+        warnings.append("⚡ 建议添加FAQ部分以提升SEO")
+    
+    # 6. 检查段落数量
+    paragraphs = [p for p in article_content.split('\n\n') if len(p.strip()) > 50]
+    print(f"📝 有效段落数: {len(paragraphs)}")
+    
+    if len(paragraphs) < 10:
+        warnings.append(f"⚡ 段落较少 ({len(paragraphs)}个)，建议增加内容深度")
+    
+    # 7. 检查产品链接
+    amazon_links = article_content.count('amazon.com')
+    print(f"🔗 Amazon产品链接: {amazon_links} 个")
+    
+    if amazon_links == 0:
+        warnings.append("⚡ 未发现Amazon产品链接，可适当添加2-4个相关产品推荐")
+    elif amazon_links > 5:
+        warnings.append(f"⚡ Amazon链接较多 ({amazon_links}个)，避免过度商业化")
+    
+    # 输出结果
+    if issues:
+        print("\n❌ 发现以下问题:")
+        for issue in issues:
+            print(f"  {issue}")
+    
+    if warnings:
+        print("\n⚠️  优化建议:")
+        for warning in warnings:
+            print(f"  {warning}")
+    
+    if not issues and not warnings:
+        print("\n🎉 内容质量优秀！符合SEO最佳实践。")
+    
+    print("=" * 50)
+    
+    return len(issues) == 0  # 返回True如果没有严重问题
 
 def add_amazon_tracking_ids(url):
     """Adds the Amazon tracking ID to a single URL if not present."""
@@ -562,30 +813,45 @@ def main():
     # Generate and save articles
     articles_saved = 0
     for i, topic in enumerate(topics, 1):
-        print(f"\n=== 生成第 {i} 篇文章 ===")
+        print(f"\n{'='*60}")
+        print(f"=== 生成第 {i} 篇文章 ===")
+        print(f"主题: {topic['main_topic']} - {topic['specific_topic']}")
+        print(f"{'='*60}")
         
         # Generate article
         article_content = generate_article_with_openai(topic)
         if not article_content:
-            print(f"无法生成关于「{topic['main_topic']}：{topic['specific_topic']}」的文章，跳过")
+            print(f"❌ 无法生成关于「{topic['main_topic']}：{topic['specific_topic']}」的文章，跳过")
             continue
+        
+        print(f"\n✅ 文章生成成功！开始后处理...")
+        
+        # Extract title for quality check
+        title, _ = extract_title(article_content)
+        
+        # --- NEW: Content Quality Check ---
+        try:
+            check_content_quality(article_content, title, topic['specific_topic'])
+        except Exception as e:
+            print(f"⚠️  质量检查时出错 (非致命): {e}")
+        # --- End NEW ---
         
         # --- UPDATED: Validate links and add tracking ID ---
         try:
-             # Replace call to add_amazon_tracking_ids
+             print("\n🔗 处理Amazon链接...")
              article_content = validate_and_update_amazon_links(article_content)
         except Exception as e:
-             print(f"验证/更新 Amazon 链接时出错 (非致命): {e}")
-             # Optionally, add a fallback or just log
+             print(f"⚠️  验证/更新 Amazon 链接时出错 (非致命): {e}")
         # --- End UPDATED ---
         
         # Save article
+        print("\n💾 保存文章...")
         success = save_article(article_content, topic)
         if success:
-            print(f"第 {i} 篇文章生成并保存成功")
+            print(f"✅ 第 {i} 篇文章生成并保存成功！")
             articles_saved += 1
         else:
-            print(f"第 {i} 篇文章保存失败")
+            print(f"❌ 第 {i} 篇文章保存失败")
     
     print(f"\n自动文章生成完成！成功保存 {articles_saved} 篇文章。")
 
