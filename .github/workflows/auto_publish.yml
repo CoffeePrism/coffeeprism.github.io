@@ -28,38 +28,15 @@ jobs:
           fetch-depth: 0
           submodules: true
 
-      # ---> NEW: Print Git Commit Hash <---
-      - name: 显示检出的提交哈希
-        run: |
-          echo "Checked out commit:"
-          git rev-parse HEAD
-
       - name: 设置Python环境
         uses: actions/setup-python@v4
         with:
           python-version: '3.10'
-          # cache: 'pip' # Temporarily disable cache for debugging
+          cache: 'pip'
           cache-dependency-path: 'requirements.txt'
-          
-      # ---> Install PA API SDK Manually <---
-      - name: 下载 PA API Python SDK
-        run: curl -L -o paapi5-python-sdk-example.zip https://webservices.amazon.com/paapi5/documentation/assets/archives/paapi5-python-sdk-example.zip
-        
-      - name: 解压 PA API Python SDK
-        run: unzip paapi5-python-sdk-example.zip
-        
-      - name: 安装 PA API Python SDK
-        run: |
-         python -m pip install --upgrade pip
-         cd paapi5-python-sdk-example
-         python setup.py install
-         cd .. # Go back to the root directory
 
-      # ---> Re-add installation of other dependencies <---
-      - name: 安装其他Python依赖
-        run: |
-          set -e # Exit immediately if a command exits with a non-zero status.
-          pip install -v -r requirements.txt # Add -v for verbose output
+      - name: 安装Python依赖
+        run: pip install -r requirements.txt
 
       - name: 设置Hugo
         uses: peaceiris/actions-hugo@v2
@@ -67,46 +44,18 @@ jobs:
           hugo-version: 'latest'
           extended: true
 
-      # ---> 新增：设置 Node.js 环境
       - name: 设置 Node.js
         uses: actions/setup-node@v4
         with:
-          node-version: '20' # 使用一个 LTS 版本
+          node-version: '20'
 
-      # ---> 新增：安装 Dart Sass
       - name: 安装 Dart Sass
         run: npm install -g sass
-
-      # ---> 新增：验证 Sass 安装和 PATH
-      - name: 验证 Sass 和 PATH
-        run: |
-          echo "--- Checking Sass --- "
-          which sass
-          sass --version
-          echo "--- Checking PATH ---"
-          echo $PATH
 
       - name: 配置Git
         run: |
           git config --global user.name "自动发布机器人"
           git config --global user.email "autobot@coffeeprism.com"
-
-      - name: 创建备份目录
-        run: |
-          mkdir -p backups/$(date +%Y%m%d)
-          cp -r content backups/$(date +%Y%m%d)/ || echo "没有content目录可备份"
-
-      # ---> NEW: Debug Python environment before running script <---
-      - name: 检查Python环境和包
-        run: |
-          echo "--- Python Executable ---"
-          which python
-          echo "--- Python Version ---"
-          python --version
-          echo "--- Python Sys Path ---"
-          python -c "import sys; print(sys.path)"
-          echo "--- Pip Freeze Output ---"
-          pip freeze
 
       - name: 生成文章
         env:
@@ -118,11 +67,7 @@ jobs:
         run: python scripts/generate_and_publish.py
 
       - name: 构建网站
-        run: hugo --logLevel debug --themesDir ./themes
-
-      # ---> 新增：列出构建输出
-      - name: 列出 public 目录内容
-        run: ls -lR public
+        run: hugo --themesDir ./themes
 
       - name: 提交并推送到main分支
         run: |
