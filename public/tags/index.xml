@@ -9,6 +9,20 @@
     <lastBuildDate>Wed, 22 Oct 2025 00:00:00 +0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
+      <title>不同咖啡</title>
+      <link>https://www.coffeeprism.com/tags/%E4%B8%8D%E5%90%8C%E5%92%96%E5%95%A1/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E4%B8%8D%E5%90%8C%E5%92%96%E5%95%A1/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>不同咖啡与乳制品</title>
+      <link>https://www.coffeeprism.com/tags/%E4%B8%8D%E5%90%8C%E5%92%96%E5%95%A1%E4%B8%8E%E4%B9%B3%E5%88%B6%E5%93%81/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E4%B8%8D%E5%90%8C%E5%92%96%E5%95%A1%E4%B8%8E%E4%B9%B3%E5%88%B6%E5%93%81/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>世界各地</title>
       <link>https://www.coffeeprism.com/tags/%E4%B8%96%E7%95%8C%E5%90%84%E5%9C%B0/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
@@ -51,10 +65,31 @@
       <description></description>
     </item>
     <item>
+      <title>拉花技巧</title>
+      <link>https://www.coffeeprism.com/tags/%E6%8B%89%E8%8A%B1%E6%8A%80%E5%B7%A7/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E6%8B%89%E8%8A%B1%E6%8A%80%E5%B7%A7/</guid>
+      <description></description>
+    </item>
+    <item>
       <title>最佳组合</title>
       <link>https://www.coffeeprism.com/tags/%E6%9C%80%E4%BD%B3%E7%BB%84%E5%90%88/</link>
       <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E6%9C%80%E4%BD%B3%E7%BB%84%E5%90%88/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>浓缩</title>
+      <link>https://www.coffeeprism.com/tags/%E6%B5%93%E7%BC%A9/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E6%B5%93%E7%BC%A9/</guid>
+      <description></description>
+    </item>
+    <item>
+      <title>艺术表达</title>
+      <link>https://www.coffeeprism.com/tags/%E8%89%BA%E6%9C%AF%E8%A1%A8%E8%BE%BE/</link>
+      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E8%89%BA%E6%9C%AF%E8%A1%A8%E8%BE%BE/</guid>
       <description></description>
     </item>
     <item>
@@ -132,13 +167,6 @@
       <link>https://www.coffeeprism.com/tags/%E9%A3%8E%E5%91%B3%E7%89%B9%E7%82%B9/</link>
       <pubDate>Mon, 20 Oct 2025 00:00:00 +0000</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E9%A3%8E%E5%91%B3%E7%89%B9%E7%82%B9/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>浓缩</title>
-      <link>https://www.coffeeprism.com/tags/%E6%B5%93%E7%BC%A9/</link>
-      <pubDate>Sun, 19 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E6%B5%93%E7%BC%A9/</guid>
       <description></description>
     </item>
     <item>
@@ -541,24 +569,10 @@
       <description></description>
     </item>
     <item>
-      <title>不同咖啡</title>
-      <link>https://www.coffeeprism.com/tags/%E4%B8%8D%E5%90%8C%E5%92%96%E5%95%A1/</link>
-      <pubDate>Sat, 05 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E4%B8%8D%E5%90%8C%E5%92%96%E5%95%A1/</guid>
-      <description></description>
-    </item>
-    <item>
       <title>稀有咖啡品种及其价值</title>
       <link>https://www.coffeeprism.com/tags/%E7%A8%80%E6%9C%89%E5%92%96%E5%95%A1%E5%93%81%E7%A7%8D%E5%8F%8A%E5%85%B6%E4%BB%B7%E5%80%BC/</link>
       <pubDate>Sun, 29 Jun 2025 00:00:00 +0000</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E7%A8%80%E6%9C%89%E5%92%96%E5%95%A1%E5%93%81%E7%A7%8D%E5%8F%8A%E5%85%B6%E4%BB%B7%E5%80%BC/</guid>
-      <description></description>
-    </item>
-    <item>
-      <title>拉花技巧</title>
-      <link>https://www.coffeeprism.com/tags/%E6%8B%89%E8%8A%B1%E6%8A%80%E5%B7%A7/</link>
-      <pubDate>Wed, 25 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E6%8B%89%E8%8A%B1%E6%8A%80%E5%B7%A7/</guid>
       <description></description>
     </item>
     <item>
