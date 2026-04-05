@@ -1,1 +1,18 @@
 User-agent: *
+Allow: /
+Disallow: /tags/
+Disallow: /categories/
+
+User-agent: GPTBot
+Allow: /
+
+User-agent: ClaudeBot
+Allow: /
+
+User-agent: PerplexityBot
+Allow: /
+
+User-agent: Google-Extended
+Allow: /
+
+Sitemap: https://www.coffeeprism.com/sitemap.xml
