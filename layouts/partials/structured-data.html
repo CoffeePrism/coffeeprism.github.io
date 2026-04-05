@@ -1,0 +1,114 @@
+{{- if .IsHome -}}
+{{/* WebSite Schema with SearchAction for homepage */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "WebSite",
+  "name": "Coffee Prism",
+  "url": "https://www.coffeeprism.com/",
+  "description": {{ .Site.Params.description | jsonify }},
+  "potentialAction": {
+    "@type": "SearchAction",
+    "target": "https://www.coffeeprism.com/search/?q={search_term_string}",
+    "query-input": "required name=search_term_string"
+  }
+}
+</script>
+{{- end -}}
+
+{{- if .IsPage -}}
+{{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+
+{{/* Article Schema */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Article",
+  "headline": {{ .Title | jsonify }},
+  "description": {{ .Description | default .Summary | plainify | truncate 160 | jsonify }},
+  "url": {{ .Permalink | jsonify }},
+  "datePublished": {{ .PublishDate.Format $iso8601 | jsonify }},
+  "dateModified": {{ .Lastmod.Format $iso8601 | jsonify }},
+  "author": {
+    "@type": "Organization",
+    "name": "Coffee Prism",
+    "url": "https://www.coffeeprism.com"
+  },
+  "publisher": {
+    "@type": "Organization",
+    "name": "Coffee Prism",
+    "url": "https://www.coffeeprism.com",
+    "logo": {
+      "@type": "ImageObject",
+      "url": "https://www.coffeeprism.com/favicon.ico"
+    }
+  },
+  "mainEntityOfPage": {
+    "@type": "WebPage",
+    "@id": {{ .Permalink | jsonify }}
+  }
+  {{- with .Params.categories }},
+  "articleSection": {{ index . 0 | jsonify }}
+  {{- end }}
+  {{- with .Params.tags }},
+  "keywords": {{ . | jsonify }}
+  {{- end }}
+}
+</script>
+
+{{/* FAQ Schema - from frontmatter faq field */}}
+{{- with .Params.faq -}}
+{{- if gt (len .) 0 -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "FAQPage",
+  "mainEntity": [
+    {{- range $i, $item := . -}}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "Question",
+      "name": {{ $item.q | jsonify }},
+      "acceptedAnswer": {
+        "@type": "Answer",
+        "text": {{ $item.a | jsonify }}
+      }
+    }
+    {{- end }}
+  ]
+}
+</script>
+{{- end -}}
+{{- end -}}
+
+{{/* BreadcrumbList Schema */}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "BreadcrumbList",
+  "itemListElement": [
+    {
+      "@type": "ListItem",
+      "position": 1,
+      "name": "首页",
+      "item": "https://www.coffeeprism.com/"
+    }
+    {{- with .Params.categories -}}
+    {{- $cat := index . 0 -}}
+    ,{
+      "@type": "ListItem",
+      "position": 2,
+      "name": {{ $cat | jsonify }},
+      "item": {{ printf "https://www.coffeeprism.com/categories/%s/" ($cat | urlize) | jsonify }}
+    }
+    {{- end }},
+    {
+      "@type": "ListItem",
+      "position": {{ if .Params.categories }}3{{ else }}2{{ end }},
+      "name": {{ .Title | jsonify }},
+      "item": {{ .Permalink | jsonify }}
+    }
+  ]
+}
+</script>
+{{- end -}}

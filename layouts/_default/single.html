@@ -1,18 +1,31 @@
 {{ define "main" }}
 <main class="main" role="main">
-	<article class="post">
+	<article class="post" itemscope itemtype="https://schema.org/Article">
 		<header class="post__header">
-			<h1 class="post__title">{{ .Title }}</h1>
+			<h1 class="post__title" itemprop="headline">{{ .Title }}</h1>
 			{{- with .Params.lead }}
 			<p class="post__lead">{{ . }}</p>
 			{{- end }}
 			{{ with partial "post_meta.html" . -}}
-			<div class="post__meta meta">{{ . }}</div>
+			<div class="post__meta meta">{{ . }}
+				<span class="post__reading-time">{{ .ReadingTime }} 分钟阅读</span>
+			</div>
 			{{- end }}
 		</header>
+		{{/* Breadcrumb navigation */}}
+		<nav class="breadcrumb" aria-label="breadcrumb">
+			<ol>
+				<li><a href="/">首页</a></li>
+				{{- with .Params.categories }}
+				{{- $cat := index . 0 }}
+				<li><a href="/categories/{{ $cat | urlize }}/">{{ $cat }}</a></li>
+				{{- end }}
+				<li aria-current="page">{{ .Title | truncate 30 }}</li>
+			</ol>
+		</nav>
 		{{ partial "post_thumbnail.html" (dict "class" "post" "page" .) }}
 		{{- partial "post_toc.html" . -}}
-		<div class="content post__content clearfix">
+		<div class="content post__content clearfix" itemprop="articleBody">
 			{{ .Content }}
 		</div>
 		{{- if .Params.tags }}

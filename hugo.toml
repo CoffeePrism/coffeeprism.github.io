@@ -30,6 +30,8 @@ buildExpired = false
   schema = true
   twitter_cards = true
 
+  customCSS = ["/css/custom.css"]
+
   [Params.style.vars]
 
   [Params.logo]
@@ -83,6 +85,12 @@ url = "/coffee-equipment/"
 weight = 50
 
 [[menu.main]]
+identifier = "trending"
+name = "热点分析"
+url = "/categories/咖啡热点分析/"
+weight = 55
+
+[[menu.main]]
 identifier = "about"
 name = "关于我们"
 url = "/about/"
@@ -95,8 +103,12 @@ url = "/contact/"
 weight = 70
 
 [outputs]
-home = ["HTML", "RSS"]
+home = ["HTML", "RSS", "JSON"]
 
-# 添加新的分页配置
+[sitemap]
+  changeFreq = "weekly"
+  priority = 0.5
+  filename = "sitemap.xml"
+
 [pagination]
   pagerSize = 10

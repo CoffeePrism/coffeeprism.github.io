@@ -2,36 +2,32 @@ name: 自动文章生成与发布
 
 on:
   schedule:
-    # 每天凌晨2点（UTC时间，根据需要调整）
     - cron: '0 18 * * *'
-  workflow_dispatch:  # 允许手动触发
+  workflow_dispatch:
 
-# 设置权限
 permissions:
   contents: write
   pages: write
   id-token: write
 
-# 允许一个并发部署
 concurrency:
   group: "pages"
   cancel-in-progress: false
 
 jobs:
-  # 生成文章并构建页面
   generate-and-build:
     runs-on: ubuntu-latest
     steps:
       - name: 检出代码
-        uses: actions/checkout@v3
+        uses: actions/checkout@v4
         with:
           fetch-depth: 0
           submodules: true
 
       - name: 设置Python环境
-        uses: actions/setup-python@v4
+        uses: actions/setup-python@v5
         with:
-          python-version: '3.10'
+          python-version: '3.12'
           cache: 'pip'
           cache-dependency-path: 'requirements.txt'
 
@@ -39,18 +35,10 @@ jobs:
         run: pip install -r requirements.txt
 
       - name: 设置Hugo
-        uses: peaceiris/actions-hugo@v2
+        uses: peaceiris/actions-hugo@v3
         with:
           hugo-version: 'latest'
           extended: true
-
-      - name: 设置 Node.js
-        uses: actions/setup-node@v4
-        with:
-          node-version: '20'
-
-      - name: 安装 Dart Sass
-        run: npm install -g sass
 
       - name: 配置Git
         run: |
@@ -59,30 +47,22 @@ jobs:
 
       - name: 生成文章
         env:
-          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
-          NEWSAPI_KEY: ${{ secrets.NEWSAPI_KEY }}
-          AMAZON_ACCESS_KEY: ${{ secrets.AMAZON_ACCESS_KEY }}
-          AMAZON_SECRET_KEY: ${{ secrets.AMAZON_SECRET_KEY }}
           AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
         run: python scripts/generate_and_publish.py
 
       - name: 构建网站
-        run: hugo --themesDir ./themes
+        run: hugo --minify --themesDir ./themes
 
       - name: 提交并推送到main分支
         run: |
-          # 添加内容目录的更改
           git add content
-          
-          # 强制添加public目录（被.gitignore忽略）
           git add -f public
-          
-          # 检查是否有更改需要提交
+
           if [[ -z $(git status -s) ]]; then
             echo "没有需要提交的更改"
             exit 0
           fi
-          
+
           git commit -m "自动发布: 添加新文章 - $(date +%Y-%m-%d)"
           git push origin main
 
@@ -91,7 +71,6 @@ jobs:
         with:
           path: ./public
 
-  # 部署到GitHub Pages
   deploy:
     environment:
       name: github-pages
@@ -101,4 +80,4 @@ jobs:
     steps:
       - name: 部署到GitHub Pages
         id: deployment
-        uses: actions/deploy-pages@v4 
+        uses: actions/deploy-pages@v4

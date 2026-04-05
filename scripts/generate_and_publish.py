@@ -8,29 +8,38 @@ import json
 import time
 import uuid
 import random
+import urllib.parse
+import traceback
+import xml.etree.ElementTree as ET
 from pathlib import Path
 import slugify
-from openai import OpenAI
+import requests
 
 # --- Configuration ---
-# Use environment variable for NVIDIA API key
-NVIDIA_API_KEY = os.getenv("NVIDIA_API_KEY")
+# linq.ai proxy API (no auth required)
+LINQAI_API_URL = "https://x.linq.ai/api/ai"
+MODEL_NAME = "gpt-5.4"
+
 # 使用环境变量获取Amazon Associate Tag
 AMAZON_ASSOCIATE_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "coffeeprism-20")
 
-# Check API key
-if not NVIDIA_API_KEY:
-    print("错误: NVIDIA_API_KEY 环境变量未设置。请设置后再运行此脚本。")
-    exit(1)
 
-# Initialize OpenAI Client pointing to NVIDIA API
-client = OpenAI(
-  base_url = "https://integrate.api.nvidia.com/v1",
-  api_key = NVIDIA_API_KEY
-)
-
-# Define the NVIDIA model to use
-MODEL_NAME = "deepseek-ai/deepseek-r1" # Changed to NVIDIA model
+def call_linqai(messages, model=MODEL_NAME, max_retries=3):
+    """调用 linq.ai API，支持重试"""
+    for attempt in range(max_retries):
+        try:
+            resp = requests.post(LINQAI_API_URL, json={
+                "messages": messages,
+                "model": model
+            }, timeout=120)
+            resp.raise_for_status()
+            data = resp.json()
+            return data.get("response", "")
+        except Exception as e:
+            print(f"  API调用失败 (尝试 {attempt+1}/{max_retries}): {e}")
+            if attempt < max_retries - 1:
+                time.sleep(5 * (attempt + 1))
+    return None
 
 # 咖啡主题列表
 COFFEE_TOPICS = [
@@ -185,162 +194,134 @@ def select_random_coffee_topics(count=2):
     
     return selected_topics
 
-def generate_article_with_openai(topic_info):
-    """使用 NVIDIA API 生成咖啡相关文章 - SEO优化版本"""
+def get_system_prompt():
+    """SEO/AEO/GEO 优化的系统提示词"""
+    return """你是 Coffee Prism 的首席内容策略师，同时精通咖啡专业知识、搜索引擎优化（SEO）、答案引擎优化（AEO）和生成式引擎优化（GEO）。
+
+你的核心使命：创作能被 Google、百度、ChatGPT、Perplexity、Google AI Overview 等引擎优先引用的高质量中文咖啡内容。
+
+## 你的专业身份
+- 10年以上咖啡行业经验的SCA认证咖啡师
+- 深入了解中国咖啡市场（瑞幸、Manner、M Stand、Seesaw等品牌生态）
+- 熟悉全球咖啡产区、处理法、烘焙与冲泡科学
+
+## 写作原则
+
+### E-E-A-T 信号（Google核心排名因素）
+- **Experience（经验）**：融入第一人称实操经验，如"我在使用V60冲泡时发现..."
+- **Expertise（专业）**：引用具体数据、研究和行业标准（SCA标准、CQI评分等）
+- **Authoritativeness（权威）**：引用可验证的来源（学术论文、行业报告、权威机构）
+- **Trustworthiness（可信）**：客观公正，优缺点并述，标注信息来源
+
+### AEO/GEO 优化（面向AI引擎）
+- 每个H2章节的开头用1-2句话直接回答该节的核心问题（AI引擎会优先提取这些"直答"）
+- FAQ部分的每个回答都以简洁的定义句开头，再展开详细解释
+- 使用清晰的因果逻辑和对比结构，便于AI理解和引用
+- 在合适的位置使用编号列表、表格对比、步骤说明等结构化格式
+- 包含具体的数字、比例、温度、时间等可被AI直接引用的精确数据
+
+### 内容质量标准
+- 每篇文章3000-4000字，内容必须深入透彻
+- 70%段落叙述 + 30%结构化元素（列表、表格、步骤）
+- 每段3-5句话，使用短句和过渡词
+- 提供独创观点和实用建议，而非泛泛而谈
+- 关键术语首次出现时用**加粗**标注，并给出简要解释"""
+
+
+def get_article_prompt(specific_topic, main_topic):
+    """生成针对特定主题的文章提示词"""
+    return f"""请为 Coffee Prism 网站创作一篇关于「{specific_topic}」（所属类目：{main_topic}）的深度文章。
+
+## 输出格式要求（严格遵循）
+
+### 第一行：文章标题
+- 以 `# ` 开头（H1 Markdown格式）
+- 包含核心关键词「{specific_topic}」
+- 15-35个中文字符
+- 使用 "指南"、"技巧"、"深度解析"、"完全攻略" 等高点击率词
+- 不要使用书名号《》
+
+### 正文结构
+
+**引言（200-300字）**
+- 以一个引人入胜的场景、问题或数据开头
+- 前100字内自然包含2次主关键词
+- 明确本文的价值承诺（读者能获得什么）
+
+**主体内容（5-7个H2章节，每个含2-3个H3）**
+
+每个H2章节要求：
+1. 标题包含长尾关键词变体
+2. 开头1-2句话直接给出该节核心结论（AEO优化关键）
+3. 然后展开详细论述，包含数据、案例、对比
+4. 自然融入相关产品推荐（使用格式：[产品名英文](https://www.amazon.com/s?k=产品英文搜索词)）
+
+建议的H2框架：
+- {specific_topic}的基础概念与核心原理
+- {specific_topic}的历史演变与发展趋势
+- {specific_topic}的关键技巧与实操步骤（含精确参数）
+- {specific_topic}的常见误区与专家建议
+- {specific_topic}的产品/工具推荐与选购指南
+- 进阶玩家的{specific_topic}高阶技巧
+
+**常见问题解答（FAQ）** —— 这部分非常重要！
+- 独立的H2章节，标题为"## 常见问题解答"
+- 包含5-7个H3问题
+- 问题使用自然语言长尾关键词格式，如"如何选择适合{specific_topic}的工具？"
+- 每个回答80-150字：先给出直接答案，再补充细节
+- 这些FAQ将被用于生成 JSON-LD FAQ Schema
+
+**总结段落（150-200字）**
+- 总结3-5个核心要点
+- 给出具体的行动建议
+- 以鼓励探索的语气结尾
+
+## SEO关键词策略
+- 主关键词「{specific_topic}」自然出现8-15次
+- 使用LSI语义相关词（同义词、相关概念）
+- 长尾关键词变体（如"如何{specific_topic}"、"{specific_topic}教程"、"{specific_topic}推荐"）
+- 关键词密度1-2%，严禁堆砌
+
+## 中国市场本地化
+- 引用中国咖啡市场数据和趋势
+- 提及国内知名咖啡品牌和获取渠道
+- 考虑价格区间用人民币
+- 提供淘宝/京东等国内平台的替代方案说明
+
+## 禁止事项
+- 不要使用"在本文中"、"总而言之"、"综上所述"等元语言
+- 不要使用过度营销的话术
+- 不要编造不存在的数据或研究（宁可不引也不要编）
+- 不要在正文开头输出 `---`（front matter分隔符）
+- 不要输出任何front matter，只输出纯Markdown文章内容
+
+现在请创作这篇文章。"""
+
+
+def generate_article(topic_info):
+    """使用 linq.ai GPT-5 生成咖啡文章"""
     main_topic = topic_info["main_topic"]
     specific_topic = topic_info["specific_topic"]
-    
-    print(f"正在生成关于「{main_topic}：{specific_topic}」的SEO优化文章 (使用模型: {MODEL_NAME})...")
-    
-    if not NVIDIA_API_KEY:
-        print("错误: 未设置NVIDIA_API_KEY环境变量")
+
+    print(f"正在生成关于「{main_topic}：{specific_topic}」的文章 (模型: {MODEL_NAME})...")
+
+    messages = [
+        {"role": "system", "content": get_system_prompt()},
+        {"role": "user", "content": get_article_prompt(specific_topic, main_topic)}
+    ]
+
+    article_content = call_linqai(messages)
+
+    if not article_content:
+        print("错误: API 未返回任何内容")
         return None
-    
-    # SEO优化的prompt - 更详细和结构化
-    prompt = f"""你是一位资深咖啡专家、SEO内容专家和专业作家。请创作一篇关于「{specific_topic}」的高质量SEO优化中文文章。
 
-## 核心要求：
-- **字数**：2500-3500字（充实的长篇内容对SEO更有利）
-- **目标受众**：中国咖啡爱好者、从入门到进阶的学习者
-- **写作风格**：专业但易懂，既有深度又有实用性
-- **搜索意图**：满足信息性搜索（学习知识）和交易性搜索（购买产品）
+    # 清理可能的思考标签
+    article_content = re.sub(r'<think>.*?</think>', '', article_content, flags=re.DOTALL).strip()
+    # 清理开头可能误生成的 front matter
+    article_content = re.sub(r'^---\s*\n.*?\n---\s*\n', '', article_content, flags=re.DOTALL).strip()
 
-## 文章结构要求（严格遵循）：
-
-### 1. 标题（H1）
-- 必须包含主要关键词「{specific_topic}」
-- 长度控制在15-30个字符
-- 吸引点击，但不做标题党
-- 示例格式："深度解析：{specific_topic}的完整指南"或"{specific_topic}：从入门到精通的实用宝典"
-
-### 2. 引言段落（200-300字）
-- 第一段必须在前100字内自然出现2-3次主要关键词
-- 用一个引人入胜的开场白或问题开始
-- 简要说明文章将涵盖的内容
-- 提出读者的痛点和本文解决方案
-
-### 3. 主体内容（使用清晰的H2和H3结构）
-
-至少包含5-7个H2章节，每个H2下包含2-3个H3小节：
-
-**H2章节建议：**
-- 什么是{specific_topic}？基础概念解析
-- {specific_topic}的历史渊源与发展
-- {specific_topic}的核心要素/关键技巧
-- 如何正确进行{specific_topic}？步骤详解
-- {specific_topic}的常见误区与解决方案
-- 专业咖啡师的进阶建议
-- 推荐产品与工具（如适用）
-
-**每个章节要求：**
-- H2标题包含长尾关键词
-- 每个段落150-250字
-- 使用具体例子、数据、对比
-- 适当使用**加粗**强调重点术语
-- 自然融入相关关键词（不要堆砌）
-
-### 4. FAQ部分（必须包含）
-创建一个"常见问题解答"H2章节，包含5-7个与主题相关的问题：
-- 使用H3作为问题标题
-- 每个问答100-150字
-- 问题应该是用户真实会搜索的长尾关键词
-- 示例："初学者如何开始{specific_topic}？"、"{specific_topic}需要哪些工具？"
-
-### 5. 总结段落（200-250字）
-- 总结文章要点
-- 给出实用的行动建议
-- 自然重复1-2次主要关键词
-- 鼓励读者留言或分享经验
-
-## SEO关键优化点：
-
-1. **关键词策略**：
-   - 主关键词「{specific_topic}」自然出现8-12次
-   - 使用语义相关词和同义词
-   - 长尾关键词（如"如何...{specific_topic}"、"{specific_topic}的最佳方法"）
-   - 关键词密度控制在1-1.5%
-
-2. **可读性优化**：
-   - 每段3-5句话
-   - 使用短句和过渡词
-   - 避免专业术语堆砌，必要时解释
-   - 使用具体数字、例子、对比
-
-3. **内容深度**：
-   - 提供独特见解和个人经验
-   - 引用具体案例或实验结果
-   - 对比不同方法的优劣
-   - 包含实用技巧和专业建议
-
-4. **产品推荐**（如相关）：
-   - 在合适位置推荐2-4个相关产品
-   - 使用格式：[产品名称](https://www.amazon.com/s?k=产品英文名称)
-   - 产品推荐要自然融入内容，不要强行植入
-   - 说明为什么推荐该产品
-
-5. **中国本地化**：
-   - 考虑中国咖啡市场特点
-   - 提及国内可获得的替代品或渠道
-   - 使用中国读者熟悉的例子和品牌
-   - 考虑价格敏感度和实用性
-
-## 禁止事项：
-❌ 不要使用营销话术和夸张宣传
-❌ 不要关键词堆砌（保持自然）
-❌ 不要抄袭或重复已有内容
-❌ 不要使用空洞的陈词滥调
-❌ 不要过度使用bullet points（60%以上应该是段落）
-❌ 不要包含虚假或未经验证的信息
-❌ 不要在开头或结尾说"在本文中"、"总而言之"等元语言
-
-## 写作调性：
-✅ 专业但友好，像咖啡师朋友在分享经验
-✅ 用故事化方式讲解技术内容
-✅ 提供具体可执行的步骤
-✅ 保持客观，既说优点也说挑战
-✅ 激发读者的兴趣和探索欲望
-
-现在，请创作这篇关于「{specific_topic}」的高质量SEO文章。记住：内容质量和用户价值永远是第一位的。"""
-
-    try:
-        # Use the initialized client to create completion with streaming
-        # 优化参数以生成更高质量、更有创意的内容
-        completion_stream = client.chat.completions.create(
-            model=MODEL_NAME,
-            messages=[{"role":"user","content": prompt}],
-            temperature=0.7,  # 提高温度以增加创意性和多样性
-            top_p=0.8,        # 提高top_p以获得更自然的语言
-            max_tokens=8192,  # 增加token限制以支持更长的文章（2500-3500字）
-            stream=True       # Enable streaming
-        )
-
-        # Process the stream
-        article_content_parts = []
-        for chunk in completion_stream:
-            if chunk.choices[0].delta.content is not None:
-                article_content_parts.append(chunk.choices[0].delta.content)
-
-        article_content = "".join(article_content_parts)
-
-        if not article_content:
-             print("错误: API 流未返回任何内容")
-             return None
-
-        # --- NEW: Remove <think> blocks ---
-        # Use re.DOTALL so '.' matches newline characters as well
-        article_content = re.sub(r'<think>.*?</think>', '', article_content, flags=re.DOTALL).strip() 
-        # --- End NEW ---
-
-        return article_content
-        
-    except Exception as e:
-        print(f"调用 NVIDIA API 时发生异常: {e}")
-        # ---> 新增: 打印详细的回溯信息
-        import traceback
-        print("-- Traceback --")
-        traceback.print_exc()
-        print("-- End Traceback --")
-        return None
+    return article_content
 
 def generate_seo_description(title, specific_topic, article_content):
     """生成SEO优化的meta description"""
@@ -550,6 +531,51 @@ def extract_title(article_content):
     # Return the cleaned title and the indices of the lines it came from
     return title, lines_to_remove_indices
 
+def extract_faq_from_content(article_content):
+    """从文章中提取FAQ问答对，用于生成JSON-LD FAQ Schema"""
+    faq_items = []
+    lines = article_content.split('\n')
+    in_faq_section = False
+    current_question = None
+    current_answer_lines = []
+
+    for line in lines:
+        stripped = line.strip()
+        # 检测FAQ章节开始
+        if re.match(r'^##\s+.*(常见问题|FAQ|问答|Q\s*&\s*A)', stripped, re.IGNORECASE):
+            in_faq_section = True
+            continue
+        # 如果在FAQ章节中遇到新的H2，结束FAQ
+        if in_faq_section and re.match(r'^##\s+', stripped) and not re.match(r'^###', stripped):
+            if current_question and current_answer_lines:
+                answer = ' '.join(current_answer_lines).strip()
+                if answer:
+                    faq_items.append({"q": current_question, "a": answer})
+            break
+        # 在FAQ章节中，H3是问题
+        if in_faq_section and re.match(r'^###\s+', stripped):
+            # 保存之前的问答
+            if current_question and current_answer_lines:
+                answer = ' '.join(current_answer_lines).strip()
+                if answer:
+                    faq_items.append({"q": current_question, "a": answer})
+            current_question = re.sub(r'^###\s+', '', stripped).strip()
+            current_answer_lines = []
+        elif in_faq_section and current_question and stripped:
+            # 跳过分隔线
+            if stripped == '---':
+                continue
+            current_answer_lines.append(stripped)
+
+    # 保存最后一个问答
+    if current_question and current_answer_lines:
+        answer = ' '.join(current_answer_lines).strip()
+        if answer:
+            faq_items.append({"q": current_question, "a": answer})
+
+    return faq_items[:7]  # 最多7个FAQ
+
+
 def save_article(article_content, topic_info):
     """保存生成的文章到Hugo内容目录"""
     if not article_content:
@@ -588,17 +614,24 @@ def save_article(article_content, topic_info):
         # Generate SEO-optimized meta description
         seo_description = generate_seo_description(title, topic_info["specific_topic"], article_content)
         
+        # 从文章中提取FAQ用于结构化数据
+        faq_items = extract_faq_from_content(article_content)
+
         # Create Front Matter with SEO optimization
-        # Use ensure_ascii=False for Chinese characters in tags JSON
+        faq_json = json.dumps(faq_items, ensure_ascii=False) if faq_items else "[]"
         front_matter = f"""---
 title: "{title}"
-date: {today}
+date: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
+lastmod: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
 draft: false
 categories: ["{category}"]
 tags: {json.dumps(tags, ensure_ascii=False)}
 description: "{seo_description}"
 keywords: {json.dumps(tags[:5], ensure_ascii=False)}
 author: "Coffee Prism"
+faq: {faq_json}
+slug: "{slug}"
+canonicalURL: "https://www.coffeeprism.com/posts/{slug}/"
 ---
 
 """
@@ -776,8 +809,6 @@ def validate_and_update_amazon_links(article_content):
 
         # 创建Amazon搜索链接
         try:
-            # 对产品名称进行URL编码
-            import urllib.parse
             encoded_product_name = urllib.parse.quote(link_text)
             
             # 创建带有affiliate tag的搜索链接
@@ -801,59 +832,407 @@ def validate_and_update_amazon_links(article_content):
     print(f"\nAmazon链接处理完成。共处理/更新 {links_processed} 个链接。")
     return updated_article_content
 
+##############################################################################
+# 热点新闻抓取与分析文章生成
+##############################################################################
+
+# 多源新闻抓取关键词（中英文覆盖全球咖啡热点）
+NEWS_QUERIES = [
+    "coffee",
+    "咖啡",
+    "Starbucks OR 星巴克",
+    "coffee beans price",
+    "barista championship",
+]
+
+
+def fetch_google_news_rss(query, lang="en", max_items=10):
+    """从 Google News RSS 抓取新闻（免费，无需API key）"""
+    encoded_q = urllib.parse.quote(query)
+    url = f"https://news.google.com/rss/search?q={encoded_q}&hl={lang}&gl=US&ceid=US:{lang}"
+    if lang == "zh":
+        url = f"https://news.google.com/rss/search?q={encoded_q}&hl=zh-CN&gl=CN&ceid=CN:zh-Hans"
+
+    try:
+        resp = requests.get(url, timeout=15, headers={
+            "User-Agent": "Mozilla/5.0 (compatible; CoffeePrism/1.0)"
+        })
+        resp.raise_for_status()
+        root = ET.fromstring(resp.content)
+
+        items = []
+        for item in root.findall(".//item")[:max_items]:
+            title = item.findtext("title", "")
+            link = item.findtext("link", "")
+            pub_date = item.findtext("pubDate", "")
+            description = item.findtext("description", "")
+            # 清理HTML标签
+            description = re.sub(r'<[^>]+>', '', description).strip()
+            items.append({
+                "title": title,
+                "link": link,
+                "date": pub_date,
+                "summary": description[:300]
+            })
+        return items
+    except Exception as e:
+        print(f"  抓取Google News失败 ({query}): {e}")
+        return []
+
+
+def fetch_coffee_news():
+    """从多个来源汇总咖啡相关新闻"""
+    print("\n📰 正在从多个来源抓取咖啡新闻...")
+    all_news = []
+    seen_titles = set()
+
+    for query in NEWS_QUERIES:
+        # 英文新闻
+        items = fetch_google_news_rss(query, lang="en", max_items=8)
+        for item in items:
+            if item["title"] not in seen_titles:
+                seen_titles.add(item["title"])
+                all_news.append(item)
+
+    # 中文新闻单独抓取
+    for query in ["咖啡 新闻", "咖啡 行业", "瑞幸 星巴克"]:
+        items = fetch_google_news_rss(query, lang="zh", max_items=5)
+        for item in items:
+            if item["title"] not in seen_titles:
+                seen_titles.add(item["title"])
+                all_news.append(item)
+
+    print(f"  共抓取 {len(all_news)} 条不重复新闻")
+    return all_news
+
+
+def evaluate_news_worthiness(news_items):
+    """用 GPT-5.4 评估哪条新闻值得写深度分析，返回最佳候选或 None"""
+    if not news_items:
+        return None
+
+    # 构建新闻摘要列表供AI评估
+    news_digest = ""
+    for i, item in enumerate(news_items[:30], 1):  # 最多评估30条
+        news_digest += f"{i}. [{item['date'][:16] if item['date'] else 'N/A'}] {item['title']}\n   {item['summary'][:150]}\n\n"
+
+    today = datetime.date.today().strftime("%Y-%m-%d")
+
+    prompt = f"""你是一位资深咖啡行业分析师和内容策略专家。今天是 {today}。
+
+以下是最新的咖啡相关新闻列表：
+
+{news_digest}
+
+请从中筛选出最适合写深度分析文章的**1条新闻**。筛选标准：
+1. **时效性**：最近1-3天内的热点事件优先
+2. **影响力**：对咖啡行业/消费者有重大影响的事件（价格波动、政策变化、品牌大事件、行业趋势）
+3. **深度空间**：能从多个角度展开分析（经济、文化、技术、消费者影响）
+4. **读者兴趣**：中国咖啡爱好者会关注的话题
+
+如果没有值得深度分析的新闻（比如都是普通的产品发布或泛泛的行业报道），请直接回复：
+SKIP
+
+如果找到值得分析的新闻，请按以下JSON格式回复（不要添加任何其他文字）：
+{{"news_index": 编号, "headline": "新闻标题", "angle": "建议的分析角度（一句话）", "why_trending": "为什么这是热点（一句话）", "target_keywords": ["关键词1", "关键词2", "关键词3"]}}"""
+
+    print("  正在用 GPT-5.4 评估新闻热度...")
+    result = call_linqai([
+        {"role": "system", "content": "你是咖啡行业分析专家。只按要求的格式回复，不要多余解释。"},
+        {"role": "user", "content": prompt}
+    ])
+
+    if not result:
+        print("  AI评估失败")
+        return None
+
+    result = result.strip()
+
+    # 检查是否跳过
+    if "SKIP" in result.upper():
+        print("  AI判断：当前无值得深度分析的热点新闻")
+        return None
+
+    # 解析JSON
+    try:
+        # 提取JSON部分（处理可能的多余文字）
+        json_match = re.search(r'\{.*\}', result, re.DOTALL)
+        if not json_match:
+            print(f"  无法解析AI回复: {result[:200]}")
+            return None
+
+        evaluation = json.loads(json_match.group())
+        news_idx = evaluation.get("news_index", 1) - 1
+
+        if 0 <= news_idx < len(news_items):
+            selected = news_items[news_idx]
+            selected["angle"] = evaluation.get("angle", "")
+            selected["why_trending"] = evaluation.get("why_trending", "")
+            selected["target_keywords"] = evaluation.get("target_keywords", [])
+            print(f"  选中热点: {selected['title']}")
+            print(f"  分析角度: {selected['angle']}")
+            return selected
+
+        print(f"  新闻索引越界: {news_idx}")
+        return None
+
+    except (json.JSONDecodeError, KeyError) as e:
+        print(f"  解析AI评估结果失败: {e}")
+        print(f"  原始回复: {result[:300]}")
+        return None
+
+
+def get_trending_article_prompt(news_item):
+    """生成热点分析文章的提示词"""
+    return f"""请为 Coffee Prism 网站撰写一篇针对以下咖啡行业热点新闻的**深度分析文章**。
+
+## 新闻信息
+- **标题**: {news_item['title']}
+- **摘要**: {news_item['summary']}
+- **来源链接**: {news_item['link']}
+- **建议分析角度**: {news_item.get('angle', '多角度深度分析')}
+- **目标关键词**: {', '.join(news_item.get('target_keywords', []))}
+
+## 文章要求
+
+这是一篇**热点深度分析**文章，不同于常规知识科普。要求：
+
+### 输出格式
+- 第一行以 `# ` 开头的标题（包含核心关键词，吸引眼球但不标题党）
+- 不要输出 front matter 或 `---`
+
+### 结构框架（3500-5000字）
+
+**开篇速报（200字）**
+- 用2-3句话概述新闻事件核心
+- 立即点明这件事为什么重要，对谁有影响
+
+**事件回顾与背景（400-600字）**
+- 完整还原事件经过
+- 补充必要的背景信息和行业上下文
+- 引用具体数据和来源
+
+**多角度深度分析（1500-2000字，3-4个H2章节）**
+- 每个角度用独立的H2章节
+- 分析角度建议：经济/市场影响、行业格局变化、消费者影响、中国市场关联
+- 每个分析点都要有论据支撑（数据、案例、对比）
+- 给出你的专业判断，不要只是罗列信息
+
+**对中国咖啡市场/消费者的影响（400-600字）**
+- 这条新闻对国内咖啡行业意味着什么
+- 消费者应该关注什么
+- 引用国内品牌（瑞幸、Manner、Seesaw、M Stand等）作为分析参照
+
+**未来展望与预测（300-400字）**
+- 基于当前趋势的合理预测
+- 给出2-3个可能的发展场景
+
+**常见问题解答（FAQ）**
+- 4-6个问题，以H3格式
+- 问题围绕读者最关心的实际影响
+- 每个回答80-150字，先直答再展开
+
+**专家观点/编辑点评（150-200字）**
+- 以Coffee Prism编辑身份给出总结性观点
+
+### 写作风格
+- 新闻分析的专业语气，不是知识科普的轻松语气
+- 有观点、有判断、有预测，而非四平八稳的报道
+- 数据驱动，避免空泛的形容词
+- 适当使用产品推荐链接（格式：[产品名](https://www.amazon.com/s?k=英文产品名)），但不要生硬
+
+### 禁止事项
+- 不要编造不存在的数据或引用来源
+- 不要在标题中使用"震惊"、"重磅"等低质词
+- 不要输出 front matter
+
+现在请撰写这篇热点深度分析文章。"""
+
+
+def generate_trending_article(news_item):
+    """生成热点分析文章"""
+    print(f"\n🔥 正在生成热点分析文章: {news_item['title'][:50]}...")
+
+    messages = [
+        {"role": "system", "content": get_system_prompt() + "\n\n你现在的角色是咖啡行业热点分析师，擅长将新闻事件转化为有深度、有洞察的分析文章。你的分析应该体现出专业的行业理解和独到的视角。"},
+        {"role": "user", "content": get_trending_article_prompt(news_item)}
+    ]
+
+    article_content = call_linqai(messages)
+    if not article_content:
+        print("  热点文章生成失败")
+        return None
+
+    # 清理
+    article_content = re.sub(r'<think>.*?</think>', '', article_content, flags=re.DOTALL).strip()
+    article_content = re.sub(r'^---\s*\n.*?\n---\s*\n', '', article_content, flags=re.DOTALL).strip()
+
+    return article_content
+
+
+def save_trending_article(article_content, news_item):
+    """保存热点分析文章，使用专门的分类和标签"""
+    if not article_content:
+        return False
+
+    # 构造一个与常规文章兼容的 topic_info
+    keywords = news_item.get("target_keywords", ["咖啡", "行业分析"])
+    topic_info = {
+        "main_topic": "咖啡热点分析",
+        "specific_topic": news_item["title"][:50]
+    }
+
+    # 复用 save_article，但在保存前修改一下分类
+    title, title_line_indices = extract_title(article_content)
+    if title == "默认标题":
+        title = news_item["title"][:60]
+
+    today = datetime.date.today().strftime("%Y-%m-%d")
+    timestamp = datetime.datetime.now().strftime("%H%M%S")
+    unique_id = str(uuid.uuid4())[:8]
+    slug = slugify.slugify(title, separator='-', max_length=50)
+    if not slug:
+        slug = "trending-analysis"
+    filename = f"{today}-{timestamp}-trending-{slug}-{unique_id}.md"
+
+    content_dir = Path("content/posts")
+    content_dir.mkdir(parents=True, exist_ok=True)
+    filepath = content_dir / filename
+
+    # 从文章提取FAQ和描述
+    faq_items = extract_faq_from_content(article_content)
+    seo_description = generate_seo_description(title, topic_info["specific_topic"], article_content)
+
+    # 标签：使用AI建议的关键词 + 通用标签
+    tags = keywords[:3] + ["咖啡热点", "行业分析"]
+    tags = list(dict.fromkeys(tags))[:6]  # 去重，最多6个
+
+    faq_json = json.dumps(faq_items, ensure_ascii=False) if faq_items else "[]"
+
+    front_matter = f"""---
+title: "{title}"
+date: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
+lastmod: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
+draft: false
+categories: ["咖啡热点分析"]
+tags: {json.dumps(tags, ensure_ascii=False)}
+description: "{seo_description}"
+keywords: {json.dumps(tags[:5], ensure_ascii=False)}
+author: "Coffee Prism"
+faq: {faq_json}
+slug: "{slug}"
+canonicalURL: "https://www.coffeeprism.com/posts/{slug}/"
+trending: true
+news_source: "{news_item.get('link', '')}"
+---
+
+"""
+
+    # 处理正文
+    content_lines = article_content.strip().split('\n')
+    processed_lines = [line for i, line in enumerate(content_lines) if i not in title_line_indices]
+    processed_content = '\n'.join(processed_lines).strip()
+
+    try:
+        with open(filepath, "w", encoding="utf-8") as f:
+            f.write(front_matter + processed_content)
+        print(f"  热点文章已保存至: {filepath}")
+        return True
+    except Exception as e:
+        print(f"  保存热点文章失败: {e}")
+        return False
+
+
+def process_and_save_article(article_content, topic, label=""):
+    """文章后处理通用流程：质量检查 -> Amazon链接 -> 保存"""
+    title, _ = extract_title(article_content)
+
+    try:
+        check_content_quality(article_content, title, topic['specific_topic'])
+    except Exception as e:
+        print(f"⚠️  质量检查时出错 (非致命): {e}")
+
+    try:
+        print("\n🔗 处理Amazon链接...")
+        article_content = validate_and_update_amazon_links(article_content)
+    except Exception as e:
+        print(f"⚠️  验证/更新 Amazon 链接时出错 (非致命): {e}")
+
+    print("\n💾 保存文章...")
+    success = save_article(article_content, topic)
+    if success:
+        print(f"✅ {label}文章生成并保存成功！")
+    else:
+        print(f"❌ {label}文章保存失败")
+    return success
+
+
 def main():
     print("开始自动文章生成流程...")
-    
-    # Set random seed
+
     random.seed(time.time())
-    
-    # Select random topics
-    topics = select_random_coffee_topics(2) # Generate 2 articles
-    
-    # Generate and save articles
     articles_saved = 0
+
+    # ========== 第一阶段：热点新闻分析 ==========
+    print("\n" + "=" * 60)
+    print("=== 第一阶段：热点新闻抓取与分析 ===")
+    print("=" * 60)
+
+    try:
+        news_items = fetch_coffee_news()
+        trending = evaluate_news_worthiness(news_items)
+
+        if trending:
+            print(f"\n🔥 发现值得分析的热点: {trending['title'][:60]}")
+            trending_content = generate_trending_article(trending)
+
+            if trending_content:
+                # 处理Amazon链接
+                try:
+                    trending_content = validate_and_update_amazon_links(trending_content)
+                except Exception as e:
+                    print(f"⚠️  处理热点文章链接时出错 (非致命): {e}")
+
+                # 保存热点文章
+                if save_trending_article(trending_content, trending):
+                    articles_saved += 1
+                    print("✅ 热点分析文章发布成功！")
+                else:
+                    print("❌ 热点文章保存失败")
+            else:
+                print("❌ 热点文章生成失败")
+        else:
+            print("\n📋 今日无重大热点，跳过热点分析")
+
+    except Exception as e:
+        print(f"⚠️  热点新闻流程出错 (非致命): {e}")
+        traceback.print_exc()
+
+    # ========== 第二阶段：常规主题文章 ==========
+    print("\n" + "=" * 60)
+    print("=== 第二阶段：常规主题文章生成 ===")
+    print("=" * 60)
+
+    topics = select_random_coffee_topics(2)
+
     for i, topic in enumerate(topics, 1):
         print(f"\n{'='*60}")
-        print(f"=== 生成第 {i} 篇文章 ===")
+        print(f"--- 生成第 {i} 篇常规文章 ---")
         print(f"主题: {topic['main_topic']} - {topic['specific_topic']}")
         print(f"{'='*60}")
-        
-        # Generate article
-        article_content = generate_article_with_openai(topic)
+
+        article_content = generate_article(topic)
         if not article_content:
             print(f"❌ 无法生成关于「{topic['main_topic']}：{topic['specific_topic']}」的文章，跳过")
             continue
-        
+
         print(f"\n✅ 文章生成成功！开始后处理...")
-        
-        # Extract title for quality check
-        title, _ = extract_title(article_content)
-        
-        # --- NEW: Content Quality Check ---
-        try:
-            check_content_quality(article_content, title, topic['specific_topic'])
-        except Exception as e:
-            print(f"⚠️  质量检查时出错 (非致命): {e}")
-        # --- End NEW ---
-        
-        # --- UPDATED: Validate links and add tracking ID ---
-        try:
-             print("\n🔗 处理Amazon链接...")
-             article_content = validate_and_update_amazon_links(article_content)
-        except Exception as e:
-             print(f"⚠️  验证/更新 Amazon 链接时出错 (非致命): {e}")
-        # --- End UPDATED ---
-        
-        # Save article
-        print("\n💾 保存文章...")
-        success = save_article(article_content, topic)
-        if success:
-            print(f"✅ 第 {i} 篇文章生成并保存成功！")
+        if process_and_save_article(article_content, topic, label=f"第{i}篇"):
             articles_saved += 1
-        else:
-            print(f"❌ 第 {i} 篇文章保存失败")
-    
-    print(f"\n自动文章生成完成！成功保存 {articles_saved} 篇文章。")
+
+    print(f"\n{'='*60}")
+    print(f"自动文章生成完成！共保存 {articles_saved} 篇文章。")
+    print(f"{'='*60}")
 
 if __name__ == "__main__":
     main() 
