@@ -8,7 +8,7 @@
 			{{- end }}
 			{{ with partial "post_meta.html" . -}}
 			<div class="post__meta meta">{{ . }}
-				<span class="post__reading-time">{{ .ReadingTime }} 分钟阅读</span>
+				<span class="post__reading-time">{{ $.ReadingTime }} 分钟阅读</span>
 			</div>
 			{{- end }}
 		</header>
