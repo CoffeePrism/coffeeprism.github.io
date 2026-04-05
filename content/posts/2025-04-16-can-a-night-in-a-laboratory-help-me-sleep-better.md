@@ -1,5 +1,6 @@
 ---
 title: "Can a night in a laboratory help me sleep better?"
+description: "在实验室过一夜，可能帮助你更准确找出失眠原因并改善睡眠质量。聚焦咖啡知识与行业动态，这篇文章从新手爸爸Robby West的睡眠测试切入，带你了解科学助眠思路及相关趋势，了解更多。"
 date: 2025-04-16
 draft: false
 categories: ["咖啡知识"]
