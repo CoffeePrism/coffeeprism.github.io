@@ -98,6 +98,15 @@ export NEWSAPI_KEY="your-newsapi-key"
 python scripts/generate_and_publish.py
 ```
 
+## 关联项目
+
+🔗 **[FindPicked.com](https://findpicked.com)** — 我们的合作站点，提供 60+ 免费在线工具：
+- [AI工具集合](https://findpicked.com/tools/) — 24个AI驱动的免费工具
+- [开发者工具](https://findpicked.com/webtools/) — 38个前端在线工具
+- [产品评测对比](https://findpicked.com/picks/) — 独立产品评测
+- [MCP服务器目录](https://findpicked.com/mcp/) — 70+ 精选MCP服务器
+- [Claude技能目录](https://findpicked.com/skill/) — 60+ 精选Claude Code技能
+
 ## 贡献指南
 
 我们欢迎社区贡献! 请参阅 [CONTRIBUTING.md](CONTRIBUTING.md) 了解如何参与该项目。
