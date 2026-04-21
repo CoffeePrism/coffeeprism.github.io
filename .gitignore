@@ -57,4 +57,4 @@ public/
 .hugo_build.lock
 
 # Environment variable files
-.env 
+.env products/*_debug.html

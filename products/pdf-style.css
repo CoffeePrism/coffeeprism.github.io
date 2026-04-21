@@ -1,17 +1,37 @@
 /* Coffee Prism PDF Style - Coffee-themed elegant typography */
 
+/* ==== Embed Noto Sans SC (open source, full CJK support) ==== */
+@font-face {
+  font-family: "Noto Sans SC";
+  font-weight: 300;
+  font-style: normal;
+  src: url("fonts/noto-light.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Noto Sans SC";
+  font-weight: 400;
+  font-style: normal;
+  src: url("fonts/noto-regular.woff2") format("woff2");
+}
+@font-face {
+  font-family: "Noto Sans SC";
+  font-weight: 700;
+  font-style: normal;
+  src: url("fonts/noto-bold.woff2") format("woff2");
+}
+
 @page {
   size: A4;
   margin: 2.5cm 2cm;
   @bottom-center {
     content: "Coffee Prism · coffeeprism.com";
-    font-family: "PingFang SC", "Helvetica Neue", sans-serif;
+    font-family: "Noto Sans SC", "PingFang SC", "Helvetica Neue", sans-serif;
     font-size: 9pt;
     color: #8b6f47;
   }
   @bottom-right {
     content: counter(page);
-    font-family: "PingFang SC", serif;
+    font-family: "Noto Sans SC", "PingFang SC", serif;
     font-size: 9pt;
     color: #6b4423;
   }
@@ -45,7 +65,7 @@
 }
 
 html, body {
-  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  font-family: "Noto Sans SC", "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
   font-size: 10.5pt;
   line-height: 1.75;
   color: var(--coffee-darkest);

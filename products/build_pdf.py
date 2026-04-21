@@ -6,6 +6,7 @@ import re
 from pathlib import Path
 import markdown
 from weasyprint import HTML, CSS
+from weasyprint.text.fonts import FontConfiguration
 
 PROJECT_DIR = Path(__file__).parent
 STYLE = PROJECT_DIR / "pdf-style.css"
@@ -121,9 +122,11 @@ def build_book(source_files, output_pdf, cover_config=None, has_back_cover=True)
     debug_html.write_text(html, encoding="utf-8")
 
     print(f"  Rendering {output_pdf.name}...")
+    font_config = FontConfiguration()
     HTML(string=html, base_url=str(PROJECT_DIR)).write_pdf(
         output_pdf,
-        stylesheets=[CSS(filename=str(STYLE))]
+        stylesheets=[CSS(filename=str(STYLE), font_config=font_config)],
+        font_config=font_config,
     )
     print(f"  ✓ {output_pdf.name} ({output_pdf.stat().st_size // 1024} KB)")
 
