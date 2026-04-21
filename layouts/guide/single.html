@@ -1,0 +1,490 @@
+{{ define "main" }}
+<main class="main guide-page" role="main" style="max-width:880px;margin:0 auto;padding:0 1rem;">
+  <article class="guide-landing">
+    {{/* HERO */}}
+    <section class="guide-hero">
+      <div class="guide-hero-inner">
+        <div class="guide-badge">{{ .Params.badge | default "📘 精品电子书" }}</div>
+        <h1 class="guide-title">{{ .Title }}</h1>
+        <p class="guide-tagline">{{ .Params.tagline }}</p>
+        <div class="guide-price-row">
+          <div class="guide-price-box">
+            <span class="guide-price-label">限时特价</span>
+            <span class="guide-price-now">¥{{ .Params.price }}</span>
+            {{- with .Params.price_original }}
+            <span class="guide-price-old">¥{{ . }}</span>
+            {{- end }}
+          </div>
+          <a href="{{ .Params.checkout_url | default "#" }}" class="guide-cta-primary">
+            立即购买 →
+          </a>
+        </div>
+        <div class="guide-trust-row">
+          <span>✓ 一次购买，终身下载</span>
+          <span>✓ PDF 格式，支持所有设备</span>
+          <span>✓ Stripe 国际支付</span>
+        </div>
+      </div>
+    </section>
+
+    {{/* Key Stats */}}
+    <section class="guide-stats">
+      {{ range .Params.stats }}
+      <div class="guide-stat">
+        <div class="guide-stat-num">{{ .num }}</div>
+        <div class="guide-stat-label">{{ .label }}</div>
+      </div>
+      {{ end }}
+    </section>
+
+    {{/* What you'll learn */}}
+    <section class="guide-section">
+      <h2>你将学到什么</h2>
+      <div class="guide-learn-grid">
+        {{ range .Params.learn_items }}
+        <div class="guide-learn-item">
+          <div class="guide-learn-icon">{{ .icon }}</div>
+          <h3>{{ .title }}</h3>
+          <p>{{ .desc }}</p>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+
+    {{/* Table of Contents */}}
+    <section class="guide-section">
+      <h2>目录预览</h2>
+      <ol class="guide-toc">
+        {{ range .Params.toc_items }}
+        <li>
+          <span class="guide-toc-num">{{ .ch }}</span>
+          <div>
+            <strong>{{ .title }}</strong>
+            {{- with .desc }}<span class="guide-toc-desc">{{ . }}</span>{{ end }}
+          </div>
+        </li>
+        {{ end }}
+      </ol>
+    </section>
+
+    {{/* Body content from markdown */}}
+    <section class="guide-section guide-content">
+      {{ .Content }}
+    </section>
+
+    {{/* For whom */}}
+    {{- with .Params.for_whom }}
+    <section class="guide-section">
+      <h2>这本书适合谁</h2>
+      <div class="guide-forwhom-grid">
+        {{ range . }}
+        <div class="guide-forwhom">
+          <div class="guide-forwhom-icon">{{ .icon }}</div>
+          <div>
+            <strong>{{ .who }}</strong>
+            <p>{{ .why }}</p>
+          </div>
+        </div>
+        {{ end }}
+      </div>
+    </section>
+    {{- end }}
+
+    {{/* FAQ */}}
+    {{- with .Params.faq }}
+    <section class="guide-section">
+      <h2>常见问题</h2>
+      <div class="guide-faq">
+        {{ range . }}
+        <details>
+          <summary>{{ .q }}</summary>
+          <p>{{ .a | safeHTML }}</p>
+        </details>
+        {{ end }}
+      </div>
+    </section>
+    {{- end }}
+
+    {{/* Final CTA */}}
+    <section class="guide-final-cta">
+      <h2>准备好开始了吗？</h2>
+      <p>一次购买，终身拥有。从今天起，你做的每一杯咖啡都会有提升。</p>
+      <div class="guide-price-row centered">
+        <div class="guide-price-box">
+          <span class="guide-price-label">限时特价</span>
+          <span class="guide-price-now">¥{{ .Params.price }}</span>
+          {{- with .Params.price_original }}
+          <span class="guide-price-old">¥{{ . }}</span>
+          {{- end }}
+        </div>
+        <a href="{{ .Params.checkout_url | default "#" }}" class="guide-cta-primary">
+          立即购买 →
+        </a>
+      </div>
+      <p class="guide-small">Stripe 安全支付 · 信用卡 / Apple Pay / Google Pay · 购买后自动邮件发送下载链接</p>
+    </section>
+
+    {{/* Related */}}
+    {{- with .Params.related_guides }}
+    <section class="guide-section">
+      <h2>你可能还喜欢</h2>
+      <div class="guide-related-grid">
+        {{ range . }}
+        <a href="{{ .url }}" class="guide-related-card">
+          <div class="guide-related-badge">{{ .badge }}</div>
+          <h3>{{ .title }}</h3>
+          <p>{{ .desc }}</p>
+          <div class="guide-related-price">¥{{ .price }}</div>
+        </a>
+        {{ end }}
+      </div>
+    </section>
+    {{- end }}
+  </article>
+</main>
+
+<style>
+/* ====== GUIDE LANDING PAGE STYLES ====== */
+.guide-page { padding: 0 1rem; }
+.guide-landing {
+  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
+  color: #2d1b0e;
+  line-height: 1.75;
+}
+
+/* Hero */
+.guide-hero {
+  background: linear-gradient(135deg, #2d1b0e 0%, #3d2817 50%, #6b4423 100%);
+  color: #faf7f2;
+  border-radius: 16px;
+  padding: 3.5rem 2.5rem;
+  margin: 2rem 0;
+  position: relative;
+  overflow: hidden;
+}
+.guide-hero::before {
+  content: "";
+  position: absolute;
+  top: -50%; right: -30%;
+  width: 120%; height: 200%;
+  background: radial-gradient(circle, rgba(212,165,116,0.18) 0%, transparent 50%);
+  pointer-events: none;
+}
+.guide-hero-inner { position: relative; }
+.guide-badge {
+  display: inline-block;
+  background: rgba(212,165,116,0.2);
+  color: #f4c430;
+  font-size: 0.8rem;
+  font-weight: 700;
+  padding: 0.4rem 1rem;
+  border-radius: 20px;
+  letter-spacing: 1px;
+  margin-bottom: 1.25rem;
+}
+.guide-title {
+  font-size: 2.4rem;
+  font-weight: 800;
+  line-height: 1.15;
+  margin-bottom: 0.8rem;
+  color: #faf7f2 !important;
+}
+.guide-tagline {
+  font-size: 1.1rem;
+  color: #e8d5b7;
+  max-width: 600px;
+  line-height: 1.6;
+  margin-bottom: 1.75rem;
+}
+.guide-price-row {
+  display: flex;
+  gap: 1rem;
+  align-items: center;
+  flex-wrap: wrap;
+  margin-bottom: 1rem;
+}
+.guide-price-row.centered { justify-content: center; }
+.guide-price-box {
+  background: rgba(255,255,255,0.1);
+  border: 1px solid rgba(212,165,116,0.4);
+  border-radius: 10px;
+  padding: 0.75rem 1.25rem;
+  display: flex;
+  align-items: baseline;
+  gap: 0.5rem;
+}
+.guide-price-label {
+  font-size: 0.7rem;
+  text-transform: uppercase;
+  letter-spacing: 1.5px;
+  color: #d4a574;
+  margin-right: 0.25rem;
+}
+.guide-price-now {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #f4c430;
+}
+.guide-price-old {
+  font-size: 1rem;
+  color: #c9b89a;
+  text-decoration: line-through;
+  opacity: 0.7;
+}
+.guide-cta-primary {
+  background: #f4c430;
+  color: #2d1b0e !important;
+  padding: 1rem 2rem;
+  border-radius: 10px;
+  font-size: 1.1rem;
+  font-weight: 700;
+  text-decoration: none !important;
+  transition: transform 0.15s, box-shadow 0.2s;
+  box-shadow: 0 4px 14px rgba(244,196,48,0.35);
+  white-space: nowrap;
+}
+.guide-cta-primary:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 20px rgba(244,196,48,0.5);
+  text-decoration: none !important;
+}
+.guide-trust-row {
+  display: flex;
+  gap: 1.5rem;
+  margin-top: 1.5rem;
+  font-size: 0.85rem;
+  color: #c9b89a;
+  flex-wrap: wrap;
+}
+
+/* Stats */
+.guide-stats {
+  display: grid;
+  grid-template-columns: repeat(4, 1fr);
+  gap: 1rem;
+  margin: 2rem 0;
+}
+.guide-stat {
+  background: #faf7f2;
+  border: 1px solid #e8d5b7;
+  border-radius: 12px;
+  padding: 1.5rem 1rem;
+  text-align: center;
+}
+.guide-stat-num {
+  font-size: 2rem;
+  font-weight: 800;
+  color: #6b4423;
+  line-height: 1;
+}
+.guide-stat-label {
+  font-size: 0.82rem;
+  color: #8b6f47;
+  margin-top: 0.25rem;
+  letter-spacing: 0.5px;
+}
+
+/* Sections */
+.guide-section { margin: 3rem 0; }
+.guide-section h2 {
+  font-size: 1.8rem;
+  font-weight: 800;
+  color: #3d2817;
+  margin-bottom: 1.25rem;
+  padding-bottom: 0.5rem;
+  border-bottom: 2px solid #d4a574;
+}
+
+/* Learn grid */
+.guide-learn-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.guide-learn-item {
+  background: #fff;
+  border: 1px solid #e8d5b7;
+  border-radius: 12px;
+  padding: 1.25rem;
+}
+.guide-learn-icon { font-size: 1.75rem; margin-bottom: 0.4rem; }
+.guide-learn-item h3 {
+  font-size: 1.05rem;
+  margin-bottom: 0.35rem;
+  color: #3d2817;
+}
+.guide-learn-item p { font-size: 0.9rem; color: #6b4423; margin: 0; }
+
+/* TOC */
+.guide-toc {
+  list-style: none;
+  padding: 0;
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 0.5rem 1rem;
+}
+.guide-toc li {
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+  padding: 0.75rem 1rem;
+  background: #faf7f2;
+  border-radius: 8px;
+  border-left: 3px solid #b5651d;
+}
+.guide-toc-num {
+  background: #6b4423;
+  color: #f4c430;
+  font-weight: 700;
+  font-size: 0.85rem;
+  padding: 2px 8px;
+  border-radius: 4px;
+  min-width: 36px;
+  text-align: center;
+}
+.guide-toc li strong {
+  display: block;
+  color: #3d2817;
+  font-size: 0.95rem;
+  margin-bottom: 0.15rem;
+}
+.guide-toc-desc {
+  font-size: 0.82rem;
+  color: #8b6f47;
+  line-height: 1.5;
+}
+
+/* For whom */
+.guide-forwhom-grid {
+  display: grid;
+  grid-template-columns: repeat(3, 1fr);
+  gap: 1rem;
+}
+.guide-forwhom {
+  background: #fff;
+  border: 1px solid #e8d5b7;
+  border-radius: 12px;
+  padding: 1.25rem;
+  display: flex;
+  gap: 0.75rem;
+  align-items: flex-start;
+}
+.guide-forwhom-icon { font-size: 1.6rem; }
+.guide-forwhom strong { color: #3d2817; font-size: 0.95rem; }
+.guide-forwhom p { font-size: 0.85rem; color: #6b4423; margin: 0.2rem 0 0; }
+
+/* FAQ */
+.guide-faq details {
+  background: #faf7f2;
+  border: 1px solid #e8d5b7;
+  border-radius: 10px;
+  padding: 0;
+  margin-bottom: 0.5rem;
+  transition: all 0.2s;
+}
+.guide-faq summary {
+  padding: 1rem 1.25rem;
+  font-weight: 600;
+  color: #3d2817;
+  cursor: pointer;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.guide-faq summary::after {
+  content: "+";
+  font-size: 1.4rem;
+  color: #8b6f47;
+  transition: transform 0.2s;
+}
+.guide-faq details[open] summary::after { transform: rotate(45deg); }
+.guide-faq details p {
+  padding: 0 1.25rem 1rem;
+  color: #6b4423;
+  margin: 0;
+}
+
+/* Final CTA */
+.guide-final-cta {
+  background: linear-gradient(135deg, #faf7f2 0%, #f0e8dc 100%);
+  border: 2px solid #d4a574;
+  border-radius: 16px;
+  padding: 3rem 2rem;
+  text-align: center;
+  margin: 3rem 0;
+}
+.guide-final-cta h2 {
+  border: none;
+  padding: 0;
+  margin-bottom: 0.75rem;
+  font-size: 1.8rem;
+}
+.guide-final-cta > p {
+  color: #6b4423;
+  margin-bottom: 1.5rem;
+  font-size: 1.05rem;
+}
+.guide-small {
+  font-size: 0.8rem;
+  color: #8b6f47;
+  margin-top: 1rem;
+}
+
+/* Related */
+.guide-related-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+}
+.guide-related-card {
+  background: #fff;
+  border: 1px solid #e8d5b7;
+  border-radius: 12px;
+  padding: 1.25rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+  transition: transform 0.15s, box-shadow 0.2s;
+}
+.guide-related-card:hover {
+  transform: translateY(-2px);
+  box-shadow: 0 6px 18px rgba(107,68,35,0.15);
+  border-color: #b5651d;
+}
+.guide-related-badge {
+  display: inline-block;
+  background: #6b4423;
+  color: #f4c430;
+  font-size: 0.7rem;
+  font-weight: 700;
+  padding: 2px 10px;
+  border-radius: 4px;
+  margin-bottom: 0.5rem;
+  letter-spacing: 0.5px;
+}
+.guide-related-card h3 { font-size: 1.05rem; color: #3d2817; margin-bottom: 0.25rem; }
+.guide-related-card p { font-size: 0.85rem; color: #6b4423; margin-bottom: 0.5rem; }
+.guide-related-price { font-size: 1.2rem; font-weight: 800; color: #b5651d; }
+
+/* Guide content (from markdown) */
+.guide-content { color: #3d2817; }
+.guide-content h3 { color: #6b4423; font-size: 1.2rem; margin: 1.25rem 0 0.4rem; }
+.guide-content p { margin-bottom: 0.75rem; }
+.guide-content ul { margin-left: 1.25rem; }
+
+/* Responsive */
+@media (max-width: 768px) {
+  .guide-title { font-size: 1.75rem; }
+  .guide-hero { padding: 2rem 1.25rem; }
+  .guide-stats { grid-template-columns: repeat(2, 1fr); }
+  .guide-learn-grid,
+  .guide-toc,
+  .guide-forwhom-grid,
+  .guide-related-grid { grid-template-columns: 1fr; }
+  .guide-price-row { flex-direction: column; align-items: stretch; }
+  .guide-cta-primary { text-align: center; }
+  .guide-trust-row { flex-direction: column; gap: 0.5rem; }
+}
+</style>
+{{ end }}

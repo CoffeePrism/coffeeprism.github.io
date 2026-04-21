@@ -1,0 +1,58 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 800 420" font-family="-apple-system, 'PingFang SC', sans-serif">
+  <rect width="800" height="420" fill="#faf7f2"/>
+  <text x="400" y="34" text-anchor="middle" font-size="20" font-weight="700" fill="#3d2817">萃取平衡模型</text>
+  <text x="400" y="54" text-anchor="middle" font-size="12" fill="#8b6f47">Extraction Balance: 酸 → 甜 → 苦</text>
+
+  <!-- Timeline bar -->
+  <defs>
+    <linearGradient id="extract" x1="0%" y1="0%" x2="100%" y2="0%">
+      <stop offset="0%" stop-color="#f4c430"/>
+      <stop offset="33%" stop-color="#e8a04a"/>
+      <stop offset="66%" stop-color="#b5651d"/>
+      <stop offset="100%" stop-color="#3d2817"/>
+    </linearGradient>
+  </defs>
+
+  <rect x="80" y="120" width="640" height="60" fill="url(#extract)" rx="4"/>
+
+  <!-- Stage labels -->
+  <text x="160" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#b8860b">明亮酸质</text>
+  <text x="160" y="210" text-anchor="middle" font-size="12" fill="#8b6f47">Under-extracted</text>
+  <text x="160" y="230" text-anchor="middle" font-size="11" fill="#6b4423">柠檬 / 青苹果 / 刺激</text>
+
+  <text x="320" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#cd853f">甜感</text>
+  <text x="320" y="210" text-anchor="middle" font-size="12" fill="#8b6f47">Sweetness peak</text>
+  <text x="320" y="230" text-anchor="middle" font-size="11" fill="#6b4423">焦糖 / 蜂蜜 / 圆润</text>
+
+  <text x="480" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#8b4513">理想平衡</text>
+  <text x="480" y="210" text-anchor="middle" font-size="12" fill="#8b6f47">Ideal (18-22% EY)</text>
+  <text x="480" y="230" text-anchor="middle" font-size="11" fill="#6b4423">巧克力 / 焦糖 / 平衡</text>
+
+  <text x="640" y="110" text-anchor="middle" font-size="14" font-weight="700" fill="#3d2817">苦与涩</text>
+  <text x="640" y="210" text-anchor="middle" font-size="12" fill="#8b6f47">Over-extracted</text>
+  <text x="640" y="230" text-anchor="middle" font-size="11" fill="#6b4423">烧焦 / 木质 / 干涩</text>
+
+  <!-- Pointer to ideal -->
+  <polygon points="480,180 475,195 485,195" fill="#1f8a3c"/>
+  <text x="480" y="270" text-anchor="middle" font-size="13" font-weight="700" fill="#1f8a3c">✓ 目标区域</text>
+
+  <!-- Axis -->
+  <line x1="80" y1="200" x2="720" y2="200" stroke="#8b6f47" stroke-width="1"/>
+  <text x="80" y="310" font-size="11" fill="#8b6f47">萃取率 Extraction Yield →</text>
+  <text x="80" y="325" font-size="11" fill="#8b6f47">14%</text>
+  <text x="240" y="325" font-size="11" fill="#8b6f47">17%</text>
+  <text x="400" y="325" font-size="11" fill="#8b6f47">20%</text>
+  <text x="560" y="325" font-size="11" fill="#8b6f47">23%</text>
+  <text x="720" y="325" font-size="11" text-anchor="end" fill="#8b6f47">26%</text>
+
+  <!-- Diagnostic rules -->
+  <g transform="translate(80, 355)">
+    <rect width="640" height="42" fill="#fff8e8" stroke="#d4a574" rx="6"/>
+    <text x="20" y="18" font-size="12" font-weight="700" fill="#3d2817">诊断速查：</text>
+    <text x="100" y="18" font-size="11" fill="#6b4423">太酸 → 研磨更细 / 水温更高 / 时间更长</text>
+    <text x="380" y="18" font-size="11" fill="#6b4423">太苦 → 研磨更粗 / 水温更低 / 时间更短</text>
+    <text x="20" y="35" font-size="11" fill="#8b6f47" font-style="italic">* 同一杯咖啡，酸甜苦按先后顺序被萃取出来</text>
+  </g>
+
+  <text x="400" y="410" text-anchor="middle" font-size="10" fill="#a08060" font-style="italic">Coffee Prism</text>
+</svg>

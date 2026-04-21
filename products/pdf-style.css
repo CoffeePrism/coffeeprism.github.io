@@ -1,0 +1,328 @@
+/* Coffee Prism PDF Style - Coffee-themed elegant typography */
+
+@page {
+  size: A4;
+  margin: 2.5cm 2cm;
+  @bottom-center {
+    content: "Coffee Prism · coffeeprism.com";
+    font-family: "PingFang SC", "Helvetica Neue", sans-serif;
+    font-size: 9pt;
+    color: #8b6f47;
+  }
+  @bottom-right {
+    content: counter(page);
+    font-family: "PingFang SC", serif;
+    font-size: 9pt;
+    color: #6b4423;
+  }
+}
+
+@page :first {
+  margin: 0;
+  @bottom-center { content: ""; }
+  @bottom-right { content: ""; }
+}
+
+@page chapter-start {
+  margin-top: 4cm;
+}
+
+:root {
+  --coffee-darkest: #2d1b0e;
+  --coffee-dark: #3d2817;
+  --coffee-medium: #6b4423;
+  --coffee-light: #8b6f47;
+  --cream: #faf7f2;
+  --cream-dark: #f0e8dc;
+  --accent-gold: #d4a574;
+  --accent-amber: #b5651d;
+}
+
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+html, body {
+  font-family: "PingFang SC", "Hiragino Sans GB", "Microsoft YaHei", "Helvetica Neue", sans-serif;
+  font-size: 10.5pt;
+  line-height: 1.75;
+  color: var(--coffee-darkest);
+  background: white;
+}
+
+/* ============ COVER PAGE ============ */
+.cover {
+  page-break-after: always;
+  width: 100%;
+  height: 100vh;
+  background: linear-gradient(135deg, #2d1b0e 0%, #3d2817 50%, #6b4423 100%);
+  color: var(--cream);
+  padding: 5cm 3cm;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  position: relative;
+}
+.cover::before {
+  content: "";
+  position: absolute;
+  top: 0; left: 0; right: 0; bottom: 0;
+  background-image: radial-gradient(circle at 20% 30%, rgba(212,165,116,0.15) 0%, transparent 40%),
+                    radial-gradient(circle at 80% 70%, rgba(212,165,116,0.1) 0%, transparent 40%);
+  pointer-events: none;
+}
+.cover-top {
+  font-size: 11pt;
+  letter-spacing: 4px;
+  color: var(--accent-gold);
+  text-transform: uppercase;
+}
+.cover-title {
+  font-size: 42pt;
+  font-weight: 700;
+  line-height: 1.1;
+  letter-spacing: -0.5px;
+  margin: 2cm 0 1cm;
+}
+.cover-subtitle {
+  font-size: 14pt;
+  font-weight: 300;
+  color: var(--cream-dark);
+  line-height: 1.5;
+  margin-bottom: 2cm;
+}
+.cover-divider {
+  width: 80px;
+  height: 3px;
+  background: var(--accent-gold);
+  margin-bottom: 1cm;
+}
+.cover-meta {
+  font-size: 10pt;
+  color: var(--cream-dark);
+  opacity: 0.85;
+  line-height: 1.8;
+}
+.cover-brand {
+  font-size: 10pt;
+  letter-spacing: 2px;
+  color: var(--accent-gold);
+  margin-top: auto;
+}
+
+/* ============ HEADINGS ============ */
+h1 {
+  page-break-before: always;
+  font-size: 28pt;
+  font-weight: 700;
+  color: var(--coffee-dark);
+  margin: 1.5cm 0 0.8cm;
+  padding-bottom: 0.4cm;
+  border-bottom: 3px solid var(--accent-gold);
+  line-height: 1.2;
+}
+h1::before {
+  content: "";
+  display: block;
+  width: 40px;
+  height: 3px;
+  background: var(--coffee-medium);
+  margin-bottom: 0.5cm;
+}
+
+h2 {
+  font-size: 18pt;
+  font-weight: 700;
+  color: var(--coffee-medium);
+  margin: 1.2cm 0 0.4cm;
+  padding-left: 0.4cm;
+  border-left: 4px solid var(--accent-amber);
+  line-height: 1.3;
+}
+
+h3 {
+  font-size: 13pt;
+  font-weight: 600;
+  color: var(--coffee-dark);
+  margin: 0.8cm 0 0.3cm;
+  line-height: 1.4;
+}
+
+h4 {
+  font-size: 11pt;
+  font-weight: 600;
+  color: var(--coffee-medium);
+  margin: 0.5cm 0 0.2cm;
+}
+
+/* ============ TEXT ============ */
+p {
+  margin-bottom: 0.5cm;
+  text-align: justify;
+  hyphens: auto;
+  orphans: 2;
+  widows: 2;
+}
+
+strong {
+  color: var(--coffee-dark);
+  font-weight: 700;
+}
+
+em { font-style: italic; color: var(--coffee-medium); }
+
+/* First paragraph after h1 is larger */
+h1 + p {
+  font-size: 12pt;
+  color: var(--coffee-medium);
+  line-height: 1.8;
+  margin-bottom: 0.8cm;
+}
+
+/* ============ LISTS ============ */
+ul, ol {
+  margin: 0.4cm 0 0.6cm 0.8cm;
+  padding-left: 0.4cm;
+}
+li {
+  margin-bottom: 0.2cm;
+  line-height: 1.7;
+}
+ul li::marker {
+  color: var(--accent-amber);
+}
+
+/* ============ TABLES ============ */
+table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 0.6cm 0;
+  font-size: 9.5pt;
+  page-break-inside: avoid;
+  background: var(--cream);
+  border-radius: 4px;
+  overflow: hidden;
+}
+th {
+  background: var(--coffee-dark);
+  color: var(--cream);
+  padding: 0.3cm 0.4cm;
+  text-align: left;
+  font-weight: 600;
+  font-size: 10pt;
+  letter-spacing: 0.3px;
+}
+td {
+  padding: 0.25cm 0.4cm;
+  border-bottom: 1px solid var(--cream-dark);
+  vertical-align: top;
+}
+tr:last-child td { border-bottom: none; }
+tr:nth-child(even) { background: rgba(250, 247, 242, 0.6); }
+
+/* ============ BLOCKQUOTE ============ */
+blockquote {
+  margin: 0.5cm 0;
+  padding: 0.4cm 0.7cm;
+  border-left: 4px solid var(--accent-amber);
+  background: var(--cream);
+  color: var(--coffee-medium);
+  font-style: italic;
+  border-radius: 0 4px 4px 0;
+  page-break-inside: avoid;
+}
+blockquote p { margin-bottom: 0.2cm; }
+blockquote p:last-child { margin-bottom: 0; }
+
+/* ============ CODE ============ */
+code {
+  font-family: "SF Mono", "Menlo", monospace;
+  background: var(--cream-dark);
+  color: var(--coffee-dark);
+  padding: 1px 5px;
+  border-radius: 3px;
+  font-size: 0.9em;
+}
+pre {
+  background: var(--coffee-darkest);
+  color: var(--cream);
+  padding: 0.5cm;
+  border-radius: 4px;
+  overflow-x: auto;
+  font-size: 9pt;
+  margin: 0.4cm 0;
+}
+pre code {
+  background: transparent;
+  color: inherit;
+  padding: 0;
+}
+
+/* ============ IMAGES ============ */
+img, svg {
+  max-width: 100%;
+  height: auto;
+  display: block;
+  margin: 0.6cm auto;
+  border-radius: 4px;
+  page-break-inside: avoid;
+}
+figure {
+  margin: 0.6cm 0;
+  text-align: center;
+  page-break-inside: avoid;
+}
+figcaption {
+  font-size: 9pt;
+  color: var(--coffee-light);
+  font-style: italic;
+  margin-top: 0.2cm;
+}
+
+/* ============ HR ============ */
+hr {
+  border: none;
+  height: 1px;
+  background: linear-gradient(to right, transparent, var(--accent-gold), transparent);
+  margin: 0.8cm 0;
+}
+
+/* ============ CHAPTER SUMMARY BOX ============ */
+.chapter-summary,
+p:has(strong:first-child:contains("本章要点")),
+h2 + p + ul:last-of-type {
+  /* Styled via markdown convention: "**本章要点**" paragraph is followed by bullet list */
+}
+
+/* ============ LINKS ============ */
+a {
+  color: var(--accent-amber);
+  text-decoration: none;
+  border-bottom: 1px solid var(--accent-gold);
+}
+a:hover { color: var(--coffee-dark); }
+
+/* ============ BACK COVER ============ */
+.back-cover {
+  page-break-before: always;
+  background: var(--coffee-dark);
+  color: var(--cream);
+  padding: 5cm 3cm;
+  min-height: 90vh;
+  text-align: center;
+}
+.back-cover h2 {
+  color: var(--cream);
+  border: none;
+  padding: 0;
+  font-size: 22pt;
+  margin-bottom: 1cm;
+}
+.back-cover p {
+  color: var(--cream-dark);
+  font-size: 11pt;
+  max-width: 12cm;
+  margin: 0 auto 0.5cm;
+}

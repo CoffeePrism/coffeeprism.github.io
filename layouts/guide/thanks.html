@@ -1,0 +1,88 @@
+{{ define "main" }}
+<main class="main" role="main" style="max-width:800px;margin:0 auto;padding:2rem 1rem;">
+  <article class="thanks-page">
+    <h1 style="font-size:2rem;color:#3d2817;margin-bottom:1rem;text-align:center;">{{ .Title }}</h1>
+    <div class="thanks-content">
+      {{ .Content }}
+    </div>
+  </article>
+</main>
+
+<style>
+.thanks-page {
+  font-family: -apple-system, "PingFang SC", sans-serif;
+  color: #3d2817;
+  line-height: 1.75;
+}
+.thanks-content h2 {
+  color: #6b4423;
+  margin: 2rem 0 1rem;
+  font-size: 1.5rem;
+  padding-bottom: 0.4rem;
+  border-bottom: 2px solid #d4a574;
+}
+.thanks-content h3 {
+  color: #3d2817;
+  margin: 1.5rem 0 0.75rem;
+  font-size: 1.15rem;
+}
+.download-grid {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 1rem;
+  margin: 1.5rem 0;
+}
+.download-card {
+  background: linear-gradient(135deg, #faf7f2 0%, #f0e8dc 100%);
+  border: 2px solid #d4a574;
+  border-radius: 16px;
+  padding: 1.5rem;
+  text-decoration: none !important;
+  color: inherit !important;
+  display: block;
+  transition: transform 0.15s, box-shadow 0.2s;
+}
+.download-card:hover {
+  transform: translateY(-3px);
+  box-shadow: 0 8px 24px rgba(181,101,29,0.2);
+  border-color: #b5651d;
+  text-decoration: none !important;
+}
+.download-icon { font-size: 2.5rem; margin-bottom: 0.5rem; }
+.download-card h3 {
+  color: #3d2817;
+  font-size: 1.05rem;
+  margin: 0 0 0.4rem !important;
+  padding: 0 !important;
+  border: none !important;
+}
+.download-card p {
+  color: #8b6f47;
+  font-size: 0.85rem;
+  margin: 0 0 1rem;
+}
+.download-btn {
+  display: inline-block;
+  background: #b5651d;
+  color: #fff;
+  padding: 0.5rem 1rem;
+  border-radius: 6px;
+  font-weight: 600;
+  font-size: 0.9rem;
+}
+.thanks-content ol, .thanks-content ul {
+  margin-left: 1.25rem;
+}
+.thanks-content ol li, .thanks-content ul li {
+  margin-bottom: 0.4rem;
+}
+.thanks-content a:not(.download-card) {
+  color: #b5651d;
+  text-decoration: none;
+  border-bottom: 1px solid #d4a574;
+}
+@media (max-width: 640px) {
+  .download-grid { grid-template-columns: 1fr; }
+}
+</style>
+{{ end }}
