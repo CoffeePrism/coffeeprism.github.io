@@ -272,11 +272,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.coffeeprism.com/guide/</loc>
-    <lastmod>2026-04-20T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.coffeeprism.com/guide/comprehensive/</loc>
     <lastmod>2026-04-20T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -4338,10 +4333,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/about/</loc>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/guide/thanks/</loc>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>

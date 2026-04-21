@@ -1,490 +1,668 @@
-{{ define "main" }}
-<main class="main guide-page" role="main" style="max-width:880px;margin:0 auto;padding:0 1rem;">
-  <article class="guide-landing">
-    {{/* HERO */}}
-    <section class="guide-hero">
-      <div class="guide-hero-inner">
-        <div class="guide-badge">{{ .Params.badge | default "📘 精品电子书" }}</div>
-        <h1 class="guide-title">{{ .Title }}</h1>
-        <p class="guide-tagline">{{ .Params.tagline }}</p>
-        <div class="guide-price-row">
-          <div class="guide-price-box">
-            <span class="guide-price-label">限时特价</span>
-            <span class="guide-price-now">¥{{ .Params.price }}</span>
-            {{- with .Params.price_original }}
-            <span class="guide-price-old">¥{{ . }}</span>
-            {{- end }}
-          </div>
-          <a href="{{ .Params.checkout_url | default "#" }}" class="guide-cta-primary">
-            立即购买 →
-          </a>
-        </div>
-        <div class="guide-trust-row">
-          <span>✓ 一次购买，终身下载</span>
-          <span>✓ PDF 格式，支持所有设备</span>
-          <span>✓ Stripe 国际支付</span>
-        </div>
-      </div>
-    </section>
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<title>{{ .Title }} · Coffee Prism</title>
+<meta name="description" content="{{ .Params.description }}">
+<link rel="canonical" href="{{ .Permalink }}">
+<meta property="og:type" content="product">
+<meta property="og:title" content="{{ .Title }}">
+<meta property="og:description" content="{{ .Params.description }}">
+<meta property="og:url" content="{{ .Permalink }}">
+<meta property="og:site_name" content="Coffee Prism">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="{{ .Title }}">
+<meta name="twitter:description" content="{{ .Params.description }}">
+<link rel="shortcut icon" href="/favicon.ico">
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "Product",
+  "name": "{{ .Title }}",
+  "description": "{{ .Params.description }}",
+  "brand": { "@type": "Brand", "name": "Coffee Prism" },
+  "offers": {
+    "@type": "Offer",
+    "price": "{{ .Params.price }}",
+    "priceCurrency": "CNY",
+    "availability": "https://schema.org/InStock",
+    "url": "{{ .Permalink }}"
+  }
+}
+</script>
+{{- with site.Params.googleAnalyticsID | default "G-6E0PTCEWEX" }}
+<script async src="https://www.googletagmanager.com/gtag/js?id={{ . }}"></script>
+<script>window.dataLayer=window.dataLayer||[];function gtag(){dataLayer.push(arguments);}gtag('js',new Date());gtag('config','{{ . }}');</script>
+{{- end }}
+<style>
+  *,*::before,*::after{box-sizing:border-box}
+  html,body{margin:0;padding:0}
+  body{
+    font-family:-apple-system,BlinkMacSystemFont,"PingFang SC","Microsoft YaHei","Helvetica Neue",sans-serif;
+    color:#2d1b0e;
+    line-height:1.75;
+    background:#fcfaf6;
+    -webkit-font-smoothing:antialiased;
+  }
+  a{color:#b5651d;text-decoration:none}
+  a:hover{text-decoration:underline}
+  img{max-width:100%;height:auto}
 
-    {{/* Key Stats */}}
-    <section class="guide-stats">
-      {{ range .Params.stats }}
-      <div class="guide-stat">
-        <div class="guide-stat-num">{{ .num }}</div>
-        <div class="guide-stat-label">{{ .label }}</div>
+  /* === Minimal top bar === */
+  .topbar{
+    background:#fff;
+    border-bottom:1px solid #e8d5b7;
+    padding:0.9rem 1.5rem;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:0.9rem;
+  }
+  .topbar-logo{
+    color:#3d2817;
+    font-weight:700;
+    font-size:1.05rem;
+    text-decoration:none;
+    letter-spacing:0.5px;
+  }
+  .topbar-logo:hover{color:#6b4423;text-decoration:none}
+  .topbar-logo span{color:#b5651d;margin-right:0.35rem}
+  .topbar-back{color:#8b6f47;font-size:0.85rem}
+  .topbar-back:hover{color:#3d2817;text-decoration:none}
+
+  /* === Container === */
+  .wrap{max-width:960px;margin:0 auto;padding:0 1.25rem}
+
+  /* === Hero === */
+  .hero{
+    background:linear-gradient(135deg,#2d1b0e 0%,#3d2817 45%,#6b4423 100%);
+    color:#faf7f2;
+    border-radius:20px;
+    padding:4rem 3rem;
+    margin:2.5rem 0 2rem;
+    position:relative;
+    overflow:hidden;
+    box-shadow:0 20px 60px rgba(61,40,23,0.25);
+  }
+  .hero::before{
+    content:"";
+    position:absolute;
+    top:-60%;right:-25%;
+    width:110%;height:210%;
+    background:radial-gradient(circle,rgba(212,165,116,0.22) 0%,transparent 55%);
+    pointer-events:none;
+  }
+  .hero::after{
+    content:"☕";
+    position:absolute;
+    right:2rem;bottom:-1rem;
+    font-size:12rem;
+    opacity:0.06;
+    pointer-events:none;
+  }
+  .hero-inner{position:relative;z-index:1}
+  .hero-badge{
+    display:inline-block;
+    background:rgba(244,196,48,0.15);
+    color:#f4c430;
+    font-size:0.78rem;
+    font-weight:700;
+    padding:0.45rem 1.1rem;
+    border-radius:99px;
+    letter-spacing:1.5px;
+    margin-bottom:1.5rem;
+    border:1px solid rgba(244,196,48,0.3);
+  }
+  .hero-title{
+    font-size:2.8rem;
+    font-weight:800;
+    line-height:1.12;
+    margin:0 0 0.9rem;
+    color:#faf7f2;
+    letter-spacing:-0.5px;
+  }
+  .hero-tagline{
+    font-size:1.15rem;
+    color:#e8d5b7;
+    max-width:640px;
+    line-height:1.6;
+    margin:0 0 2rem;
+  }
+  .price-row{
+    display:flex;
+    gap:1.25rem;
+    align-items:center;
+    flex-wrap:wrap;
+    margin-bottom:1.5rem;
+  }
+  .price-row.centered{justify-content:center}
+  .price-box{
+    background:rgba(255,255,255,0.08);
+    border:1px solid rgba(212,165,116,0.35);
+    border-radius:12px;
+    padding:0.8rem 1.4rem;
+    display:flex;
+    align-items:baseline;
+    gap:0.6rem;
+    backdrop-filter:blur(8px);
+  }
+  .price-label{
+    font-size:0.68rem;
+    text-transform:uppercase;
+    letter-spacing:2px;
+    color:#d4a574;
+  }
+  .price-now{
+    font-size:2.2rem;
+    font-weight:800;
+    color:#f4c430;
+    line-height:1;
+  }
+  .price-old{
+    font-size:1rem;
+    color:#c9b89a;
+    text-decoration:line-through;
+    opacity:0.7;
+  }
+  .cta-primary{
+    display:inline-block;
+    background:linear-gradient(135deg,#f4c430 0%,#d4a574 100%);
+    color:#2d1b0e;
+    padding:1.1rem 2.2rem;
+    border-radius:12px;
+    font-size:1.1rem;
+    font-weight:700;
+    text-decoration:none;
+    box-shadow:0 6px 20px rgba(244,196,48,0.4);
+    transition:transform 0.15s,box-shadow 0.2s;
+    white-space:nowrap;
+  }
+  .cta-primary:hover{
+    transform:translateY(-2px);
+    box-shadow:0 10px 26px rgba(244,196,48,0.55);
+    text-decoration:none;
+    color:#2d1b0e;
+  }
+  .trust-row{
+    display:flex;
+    gap:1.75rem;
+    margin-top:1.75rem;
+    font-size:0.88rem;
+    color:#c9b89a;
+    flex-wrap:wrap;
+  }
+
+  /* === Stats === */
+  .stats{
+    display:grid;
+    grid-template-columns:repeat(4,1fr);
+    gap:1rem;
+    margin:2.5rem 0;
+  }
+  .stat{
+    background:#fff;
+    border:1px solid #e8d5b7;
+    border-radius:14px;
+    padding:1.75rem 1rem;
+    text-align:center;
+    box-shadow:0 2px 8px rgba(107,68,35,0.04);
+  }
+  .stat-num{
+    font-size:2.2rem;
+    font-weight:800;
+    color:#6b4423;
+    line-height:1;
+    letter-spacing:-0.5px;
+  }
+  .stat-label{
+    font-size:0.82rem;
+    color:#8b6f47;
+    margin-top:0.4rem;
+    letter-spacing:0.5px;
+  }
+
+  /* === Sections === */
+  .section{margin:3.5rem 0}
+  .section h2{
+    font-size:1.9rem;
+    font-weight:800;
+    color:#3d2817;
+    margin:0 0 1.5rem;
+    padding-bottom:0.6rem;
+    border-bottom:2px solid #d4a574;
+    letter-spacing:-0.3px;
+  }
+  .section h3{
+    color:#6b4423;
+    font-size:1.2rem;
+    margin:1.5rem 0 0.5rem;
+  }
+  .section p{margin:0 0 0.9rem}
+  .section ul,.section ol{margin:0.5rem 0 1rem 1.5rem;padding:0}
+  .section li{margin-bottom:0.4rem}
+
+  /* === Learn grid === */
+  .learn-grid{
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:1.1rem;
+  }
+  .learn-item{
+    background:#fff;
+    border:1px solid #e8d5b7;
+    border-radius:14px;
+    padding:1.5rem;
+    transition:transform 0.15s,box-shadow 0.2s;
+  }
+  .learn-item:hover{
+    transform:translateY(-2px);
+    box-shadow:0 8px 20px rgba(107,68,35,0.08);
+    border-color:#d4a574;
+  }
+  .learn-icon{font-size:1.9rem;margin-bottom:0.6rem}
+  .learn-item h3{
+    font-size:1.1rem;
+    margin:0 0 0.5rem;
+    color:#3d2817;
+  }
+  .learn-item p{
+    font-size:0.92rem;
+    color:#6b4423;
+    margin:0;
+    line-height:1.65;
+  }
+
+  /* === TOC === */
+  .toc{
+    list-style:none;
+    padding:0;
+    display:grid;
+    grid-template-columns:repeat(2,1fr);
+    gap:0.6rem 1rem;
+    margin:0;
+  }
+  .toc li{
+    display:flex;
+    gap:0.9rem;
+    align-items:flex-start;
+    padding:0.9rem 1.1rem;
+    background:#fff;
+    border-radius:10px;
+    border-left:3px solid #b5651d;
+    border-top:1px solid #f0e8dc;
+    border-right:1px solid #f0e8dc;
+    border-bottom:1px solid #f0e8dc;
+  }
+  .toc-num{
+    background:#6b4423;
+    color:#f4c430;
+    font-weight:700;
+    font-size:0.8rem;
+    padding:3px 10px;
+    border-radius:5px;
+    min-width:42px;
+    text-align:center;
+    flex-shrink:0;
+  }
+  .toc li strong{
+    display:block;
+    color:#3d2817;
+    font-size:0.95rem;
+    margin-bottom:0.2rem;
+  }
+  .toc-desc{
+    font-size:0.82rem;
+    color:#8b6f47;
+    line-height:1.5;
+  }
+
+  /* === For whom === */
+  .forwhom-grid{
+    display:grid;
+    grid-template-columns:repeat(3,1fr);
+    gap:1.1rem;
+  }
+  .forwhom{
+    background:#fff;
+    border:1px solid #e8d5b7;
+    border-radius:14px;
+    padding:1.5rem;
+    display:flex;
+    gap:0.85rem;
+    align-items:flex-start;
+  }
+  .forwhom-icon{font-size:1.75rem;flex-shrink:0}
+  .forwhom strong{color:#3d2817;font-size:1rem;display:block;margin-bottom:0.3rem}
+  .forwhom p{font-size:0.88rem;color:#6b4423;margin:0;line-height:1.6}
+
+  /* === FAQ === */
+  .faq details{
+    background:#fff;
+    border:1px solid #e8d5b7;
+    border-radius:12px;
+    margin-bottom:0.65rem;
+    transition:all 0.2s;
+  }
+  .faq details[open]{border-color:#d4a574;box-shadow:0 4px 12px rgba(107,68,35,0.06)}
+  .faq summary{
+    padding:1.1rem 1.35rem;
+    font-weight:600;
+    color:#3d2817;
+    cursor:pointer;
+    list-style:none;
+    display:flex;
+    justify-content:space-between;
+    align-items:center;
+    font-size:0.98rem;
+  }
+  .faq summary::-webkit-details-marker{display:none}
+  .faq summary::after{
+    content:"+";
+    font-size:1.5rem;
+    color:#b5651d;
+    font-weight:300;
+    transition:transform 0.2s;
+    margin-left:1rem;
+  }
+  .faq details[open] summary::after{transform:rotate(45deg)}
+  .faq details p{
+    padding:0 1.35rem 1.1rem;
+    color:#6b4423;
+    margin:0;
+    line-height:1.7;
+  }
+
+  /* === Final CTA === */
+  .final-cta{
+    background:linear-gradient(135deg,#faf7f2 0%,#f0e8dc 100%);
+    border:2px solid #d4a574;
+    border-radius:20px;
+    padding:3.5rem 2rem;
+    text-align:center;
+    margin:4rem 0;
+    position:relative;
+    overflow:hidden;
+  }
+  .final-cta::before{
+    content:"☕";
+    position:absolute;
+    right:-2rem;top:-2rem;
+    font-size:8rem;
+    opacity:0.05;
+  }
+  .final-cta h2{
+    border:none;
+    padding:0;
+    margin:0 0 0.85rem;
+    font-size:2rem;
+    color:#3d2817;
+  }
+  .final-cta > p{
+    color:#6b4423;
+    margin:0 0 1.75rem;
+    font-size:1.08rem;
+  }
+  .small-print{
+    font-size:0.82rem;
+    color:#8b6f47;
+    margin-top:1.25rem;
+  }
+
+  /* === Related === */
+  .related-card{
+    background:#fff;
+    border:1px solid #e8d5b7;
+    border-radius:14px;
+    padding:1.5rem;
+    text-decoration:none;
+    color:inherit;
+    display:block;
+    max-width:420px;
+    margin:0 auto;
+    transition:transform 0.15s,box-shadow 0.2s;
+  }
+  .related-card:hover{
+    transform:translateY(-3px);
+    box-shadow:0 10px 24px rgba(107,68,35,0.12);
+    border-color:#b5651d;
+    text-decoration:none;
+  }
+  .related-badge{
+    display:inline-block;
+    background:#6b4423;
+    color:#f4c430;
+    font-size:0.7rem;
+    font-weight:700;
+    padding:3px 12px;
+    border-radius:5px;
+    margin-bottom:0.6rem;
+    letter-spacing:1px;
+  }
+  .related-card h3{
+    font-size:1.15rem;
+    color:#3d2817;
+    margin:0 0 0.4rem;
+  }
+  .related-card p{
+    font-size:0.9rem;
+    color:#6b4423;
+    margin:0 0 0.75rem;
+  }
+  .related-price{
+    font-size:1.3rem;
+    font-weight:800;
+    color:#b5651d;
+  }
+
+  /* === Body content (from markdown) === */
+  .body-content{
+    color:#3d2817;
+    font-size:1.02rem;
+  }
+  .body-content h3{
+    color:#6b4423;
+    font-size:1.25rem;
+    margin:1.75rem 0 0.6rem;
+  }
+  .body-content strong{color:#3d2817}
+  .body-content ul{margin-left:1.5rem}
+
+  /* === Footer === */
+  .footer{
+    background:#3d2817;
+    color:#c9b89a;
+    padding:2.5rem 1.5rem;
+    text-align:center;
+    margin-top:4rem;
+  }
+  .footer a{color:#d4a574;margin:0 0.75rem}
+  .footer a:hover{color:#f4c430}
+  .footer-brand{
+    color:#f4c430;
+    font-weight:700;
+    letter-spacing:2px;
+    margin-bottom:0.5rem;
+  }
+  .footer-small{
+    font-size:0.8rem;
+    opacity:0.7;
+    margin-top:0.75rem;
+  }
+
+  /* === Responsive === */
+  @media (max-width:768px){
+    .hero{padding:2.5rem 1.5rem;border-radius:14px}
+    .hero-title{font-size:2rem}
+    .hero-tagline{font-size:1rem}
+    .stats{grid-template-columns:repeat(2,1fr)}
+    .learn-grid,.toc,.forwhom-grid{grid-template-columns:1fr}
+    .price-row{flex-direction:column;align-items:stretch}
+    .price-box{justify-content:center}
+    .cta-primary{text-align:center}
+    .trust-row{flex-direction:column;gap:0.6rem}
+    .section h2{font-size:1.55rem}
+    .final-cta{padding:2.5rem 1.25rem}
+    .final-cta h2{font-size:1.55rem}
+  }
+</style>
+</head>
+<body>
+
+<header class="topbar">
+  <a href="/" class="topbar-logo"><span>☕</span>Coffee Prism</a>
+  <a href="/" class="topbar-back">← 返回主站</a>
+</header>
+
+<main class="wrap">
+
+  {{/* HERO */}}
+  <section class="hero">
+    <div class="hero-inner">
+      <div class="hero-badge">{{ .Params.badge | default "📘 精品电子书 · PDF" }}</div>
+      <h1 class="hero-title">{{ .Title }}</h1>
+      <p class="hero-tagline">{{ .Params.tagline }}</p>
+      <div class="price-row">
+        <div class="price-box">
+          <span class="price-label">限时特价</span>
+          <span class="price-now">¥{{ .Params.price }}</span>
+          {{- with .Params.price_original }}<span class="price-old">¥{{ . }}</span>{{- end }}
+        </div>
+        <a href="{{ .Params.checkout_url | default "#" }}" class="cta-primary" {{ if eq (.Params.checkout_url | default "#") "#" }}onclick="alert('支付通道即将开通，敬请期待！');return false;"{{ end }}>立即购买 →</a>
+      </div>
+      <div class="trust-row">
+        <span>✓ 一次购买，终身下载</span>
+        <span>✓ 所有设备通用</span>
+        <span>✓ Stripe 安全支付</span>
+      </div>
+    </div>
+  </section>
+
+  {{/* Stats */}}
+  {{- with .Params.stats }}
+  <section class="stats">
+    {{ range . }}
+    <div class="stat">
+      <div class="stat-num">{{ .num }}</div>
+      <div class="stat-label">{{ .label }}</div>
+    </div>
+    {{ end }}
+  </section>
+  {{- end }}
+
+  {{/* Learn */}}
+  {{- with .Params.learn_items }}
+  <section class="section">
+    <h2>你将学到什么</h2>
+    <div class="learn-grid">
+      {{ range . }}
+      <div class="learn-item">
+        <div class="learn-icon">{{ .icon }}</div>
+        <h3>{{ .title }}</h3>
+        <p>{{ .desc }}</p>
       </div>
       {{ end }}
-    </section>
+    </div>
+  </section>
+  {{- end }}
 
-    {{/* What you'll learn */}}
-    <section class="guide-section">
-      <h2>你将学到什么</h2>
-      <div class="guide-learn-grid">
-        {{ range .Params.learn_items }}
-        <div class="guide-learn-item">
-          <div class="guide-learn-icon">{{ .icon }}</div>
-          <h3>{{ .title }}</h3>
-          <p>{{ .desc }}</p>
+  {{/* TOC */}}
+  {{- with .Params.toc_items }}
+  <section class="section">
+    <h2>目录预览</h2>
+    <ol class="toc">
+      {{ range . }}
+      <li>
+        <span class="toc-num">{{ .ch }}</span>
+        <div>
+          <strong>{{ .title }}</strong>
+          {{- with .desc }}<span class="toc-desc">{{ . }}</span>{{ end }}
         </div>
-        {{ end }}
-      </div>
-    </section>
+      </li>
+      {{ end }}
+    </ol>
+  </section>
+  {{- end }}
 
-    {{/* Table of Contents */}}
-    <section class="guide-section">
-      <h2>目录预览</h2>
-      <ol class="guide-toc">
-        {{ range .Params.toc_items }}
-        <li>
-          <span class="guide-toc-num">{{ .ch }}</span>
-          <div>
-            <strong>{{ .title }}</strong>
-            {{- with .desc }}<span class="guide-toc-desc">{{ . }}</span>{{ end }}
-          </div>
-        </li>
-        {{ end }}
-      </ol>
-    </section>
+  {{/* Body content */}}
+  <section class="section body-content">
+    {{ .Content }}
+  </section>
 
-    {{/* Body content from markdown */}}
-    <section class="guide-section guide-content">
-      {{ .Content }}
-    </section>
-
-    {{/* For whom */}}
-    {{- with .Params.for_whom }}
-    <section class="guide-section">
-      <h2>这本书适合谁</h2>
-      <div class="guide-forwhom-grid">
-        {{ range . }}
-        <div class="guide-forwhom">
-          <div class="guide-forwhom-icon">{{ .icon }}</div>
-          <div>
-            <strong>{{ .who }}</strong>
-            <p>{{ .why }}</p>
-          </div>
+  {{/* For whom */}}
+  {{- with .Params.for_whom }}
+  <section class="section">
+    <h2>这本书适合谁</h2>
+    <div class="forwhom-grid">
+      {{ range . }}
+      <div class="forwhom">
+        <div class="forwhom-icon">{{ .icon }}</div>
+        <div>
+          <strong>{{ .who }}</strong>
+          <p>{{ .why }}</p>
         </div>
-        {{ end }}
       </div>
-    </section>
-    {{- end }}
+      {{ end }}
+    </div>
+  </section>
+  {{- end }}
 
-    {{/* FAQ */}}
-    {{- with .Params.faq }}
-    <section class="guide-section">
-      <h2>常见问题</h2>
-      <div class="guide-faq">
-        {{ range . }}
-        <details>
-          <summary>{{ .q }}</summary>
-          <p>{{ .a | safeHTML }}</p>
-        </details>
-        {{ end }}
-      </div>
-    </section>
-    {{- end }}
+  {{/* FAQ */}}
+  {{- with .Params.faq }}
+  <section class="section">
+    <h2>常见问题</h2>
+    <div class="faq">
+      {{ range . }}
+      <details>
+        <summary>{{ .q }}</summary>
+        <p>{{ .a | safeHTML }}</p>
+      </details>
+      {{ end }}
+    </div>
+  </section>
+  {{- end }}
 
-    {{/* Final CTA */}}
-    <section class="guide-final-cta">
-      <h2>准备好开始了吗？</h2>
-      <p>一次购买，终身拥有。从今天起，你做的每一杯咖啡都会有提升。</p>
-      <div class="guide-price-row centered">
-        <div class="guide-price-box">
-          <span class="guide-price-label">限时特价</span>
-          <span class="guide-price-now">¥{{ .Params.price }}</span>
-          {{- with .Params.price_original }}
-          <span class="guide-price-old">¥{{ . }}</span>
-          {{- end }}
-        </div>
-        <a href="{{ .Params.checkout_url | default "#" }}" class="guide-cta-primary">
-          立即购买 →
-        </a>
+  {{/* Final CTA */}}
+  <section class="final-cta">
+    <h2>准备好开始了吗？</h2>
+    <p>一次购买，终身拥有。从今天起，你做的每一杯咖啡都会有提升。</p>
+    <div class="price-row centered">
+      <div class="price-box">
+        <span class="price-label">限时特价</span>
+        <span class="price-now">¥{{ .Params.price }}</span>
+        {{- with .Params.price_original }}<span class="price-old">¥{{ . }}</span>{{- end }}
       </div>
-      <p class="guide-small">Stripe 安全支付 · 信用卡 / Apple Pay / Google Pay · 购买后自动邮件发送下载链接</p>
-    </section>
+      <a href="{{ .Params.checkout_url | default "#" }}" class="cta-primary" {{ if eq (.Params.checkout_url | default "#") "#" }}onclick="alert('支付通道即将开通，敬请期待！');return false;"{{ end }}>立即购买 →</a>
+    </div>
+    <p class="small-print">Stripe 安全支付 · 信用卡 / Apple Pay / Google Pay · 付款后自动邮件发送 PDF 下载链接</p>
+  </section>
 
-    {{/* Related */}}
-    {{- with .Params.related_guides }}
-    <section class="guide-section">
-      <h2>你可能还喜欢</h2>
-      <div class="guide-related-grid">
-        {{ range . }}
-        <a href="{{ .url }}" class="guide-related-card">
-          <div class="guide-related-badge">{{ .badge }}</div>
-          <h3>{{ .title }}</h3>
-          <p>{{ .desc }}</p>
-          <div class="guide-related-price">¥{{ .price }}</div>
-        </a>
-        {{ end }}
-      </div>
-    </section>
-    {{- end }}
-  </article>
+  {{/* Related */}}
+  {{- with .Params.related_guides }}
+  <section class="section">
+    <h2>你可能还喜欢</h2>
+    {{ range . }}
+    <a href="{{ .url }}" class="related-card">
+      <div class="related-badge">{{ .badge }}</div>
+      <h3>{{ .title }}</h3>
+      <p>{{ .desc }}</p>
+      <div class="related-price">¥{{ .price }}</div>
+    </a>
+    {{ end }}
+  </section>
+  {{- end }}
+
 </main>
 
-<style>
-/* ====== GUIDE LANDING PAGE STYLES ====== */
-.guide-page { padding: 0 1rem; }
-.guide-landing {
-  font-family: -apple-system, "PingFang SC", "Microsoft YaHei", sans-serif;
-  color: #2d1b0e;
-  line-height: 1.75;
-}
+<footer class="footer">
+  <div class="footer-brand">COFFEEPRISM.COM</div>
+  <div>
+    <a href="/">首页</a>
+    <a href="/about/">关于我们</a>
+    <a href="/contact/">联系我们</a>
+  </div>
+  <div class="footer-small">© 2026 Coffee Prism · 用科学理解咖啡，用实操掌握它</div>
+</footer>
 
-/* Hero */
-.guide-hero {
-  background: linear-gradient(135deg, #2d1b0e 0%, #3d2817 50%, #6b4423 100%);
-  color: #faf7f2;
-  border-radius: 16px;
-  padding: 3.5rem 2.5rem;
-  margin: 2rem 0;
-  position: relative;
-  overflow: hidden;
-}
-.guide-hero::before {
-  content: "";
-  position: absolute;
-  top: -50%; right: -30%;
-  width: 120%; height: 200%;
-  background: radial-gradient(circle, rgba(212,165,116,0.18) 0%, transparent 50%);
-  pointer-events: none;
-}
-.guide-hero-inner { position: relative; }
-.guide-badge {
-  display: inline-block;
-  background: rgba(212,165,116,0.2);
-  color: #f4c430;
-  font-size: 0.8rem;
-  font-weight: 700;
-  padding: 0.4rem 1rem;
-  border-radius: 20px;
-  letter-spacing: 1px;
-  margin-bottom: 1.25rem;
-}
-.guide-title {
-  font-size: 2.4rem;
-  font-weight: 800;
-  line-height: 1.15;
-  margin-bottom: 0.8rem;
-  color: #faf7f2 !important;
-}
-.guide-tagline {
-  font-size: 1.1rem;
-  color: #e8d5b7;
-  max-width: 600px;
-  line-height: 1.6;
-  margin-bottom: 1.75rem;
-}
-.guide-price-row {
-  display: flex;
-  gap: 1rem;
-  align-items: center;
-  flex-wrap: wrap;
-  margin-bottom: 1rem;
-}
-.guide-price-row.centered { justify-content: center; }
-.guide-price-box {
-  background: rgba(255,255,255,0.1);
-  border: 1px solid rgba(212,165,116,0.4);
-  border-radius: 10px;
-  padding: 0.75rem 1.25rem;
-  display: flex;
-  align-items: baseline;
-  gap: 0.5rem;
-}
-.guide-price-label {
-  font-size: 0.7rem;
-  text-transform: uppercase;
-  letter-spacing: 1.5px;
-  color: #d4a574;
-  margin-right: 0.25rem;
-}
-.guide-price-now {
-  font-size: 2rem;
-  font-weight: 800;
-  color: #f4c430;
-}
-.guide-price-old {
-  font-size: 1rem;
-  color: #c9b89a;
-  text-decoration: line-through;
-  opacity: 0.7;
-}
-.guide-cta-primary {
-  background: #f4c430;
-  color: #2d1b0e !important;
-  padding: 1rem 2rem;
-  border-radius: 10px;
-  font-size: 1.1rem;
-  font-weight: 700;
-  text-decoration: none !important;
-  transition: transform 0.15s, box-shadow 0.2s;
-  box-shadow: 0 4px 14px rgba(244,196,48,0.35);
-  white-space: nowrap;
-}
-.guide-cta-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 20px rgba(244,196,48,0.5);
-  text-decoration: none !important;
-}
-.guide-trust-row {
-  display: flex;
-  gap: 1.5rem;
-  margin-top: 1.5rem;
-  font-size: 0.85rem;
-  color: #c9b89a;
-  flex-wrap: wrap;
-}
-
-/* Stats */
-.guide-stats {
-  display: grid;
-  grid-template-columns: repeat(4, 1fr);
-  gap: 1rem;
-  margin: 2rem 0;
-}
-.guide-stat {
-  background: #faf7f2;
-  border: 1px solid #e8d5b7;
-  border-radius: 12px;
-  padding: 1.5rem 1rem;
-  text-align: center;
-}
-.guide-stat-num {
-  font-size: 2rem;
-  font-weight: 800;
-  color: #6b4423;
-  line-height: 1;
-}
-.guide-stat-label {
-  font-size: 0.82rem;
-  color: #8b6f47;
-  margin-top: 0.25rem;
-  letter-spacing: 0.5px;
-}
-
-/* Sections */
-.guide-section { margin: 3rem 0; }
-.guide-section h2 {
-  font-size: 1.8rem;
-  font-weight: 800;
-  color: #3d2817;
-  margin-bottom: 1.25rem;
-  padding-bottom: 0.5rem;
-  border-bottom: 2px solid #d4a574;
-}
-
-/* Learn grid */
-.guide-learn-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-.guide-learn-item {
-  background: #fff;
-  border: 1px solid #e8d5b7;
-  border-radius: 12px;
-  padding: 1.25rem;
-}
-.guide-learn-icon { font-size: 1.75rem; margin-bottom: 0.4rem; }
-.guide-learn-item h3 {
-  font-size: 1.05rem;
-  margin-bottom: 0.35rem;
-  color: #3d2817;
-}
-.guide-learn-item p { font-size: 0.9rem; color: #6b4423; margin: 0; }
-
-/* TOC */
-.guide-toc {
-  list-style: none;
-  padding: 0;
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 0.5rem 1rem;
-}
-.guide-toc li {
-  display: flex;
-  gap: 0.75rem;
-  align-items: flex-start;
-  padding: 0.75rem 1rem;
-  background: #faf7f2;
-  border-radius: 8px;
-  border-left: 3px solid #b5651d;
-}
-.guide-toc-num {
-  background: #6b4423;
-  color: #f4c430;
-  font-weight: 700;
-  font-size: 0.85rem;
-  padding: 2px 8px;
-  border-radius: 4px;
-  min-width: 36px;
-  text-align: center;
-}
-.guide-toc li strong {
-  display: block;
-  color: #3d2817;
-  font-size: 0.95rem;
-  margin-bottom: 0.15rem;
-}
-.guide-toc-desc {
-  font-size: 0.82rem;
-  color: #8b6f47;
-  line-height: 1.5;
-}
-
-/* For whom */
-.guide-forwhom-grid {
-  display: grid;
-  grid-template-columns: repeat(3, 1fr);
-  gap: 1rem;
-}
-.guide-forwhom {
-  background: #fff;
-  border: 1px solid #e8d5b7;
-  border-radius: 12px;
-  padding: 1.25rem;
-  display: flex;
-  gap: 0.75rem;
-  align-items: flex-start;
-}
-.guide-forwhom-icon { font-size: 1.6rem; }
-.guide-forwhom strong { color: #3d2817; font-size: 0.95rem; }
-.guide-forwhom p { font-size: 0.85rem; color: #6b4423; margin: 0.2rem 0 0; }
-
-/* FAQ */
-.guide-faq details {
-  background: #faf7f2;
-  border: 1px solid #e8d5b7;
-  border-radius: 10px;
-  padding: 0;
-  margin-bottom: 0.5rem;
-  transition: all 0.2s;
-}
-.guide-faq summary {
-  padding: 1rem 1.25rem;
-  font-weight: 600;
-  color: #3d2817;
-  cursor: pointer;
-  list-style: none;
-  display: flex;
-  justify-content: space-between;
-  align-items: center;
-}
-.guide-faq summary::after {
-  content: "+";
-  font-size: 1.4rem;
-  color: #8b6f47;
-  transition: transform 0.2s;
-}
-.guide-faq details[open] summary::after { transform: rotate(45deg); }
-.guide-faq details p {
-  padding: 0 1.25rem 1rem;
-  color: #6b4423;
-  margin: 0;
-}
-
-/* Final CTA */
-.guide-final-cta {
-  background: linear-gradient(135deg, #faf7f2 0%, #f0e8dc 100%);
-  border: 2px solid #d4a574;
-  border-radius: 16px;
-  padding: 3rem 2rem;
-  text-align: center;
-  margin: 3rem 0;
-}
-.guide-final-cta h2 {
-  border: none;
-  padding: 0;
-  margin-bottom: 0.75rem;
-  font-size: 1.8rem;
-}
-.guide-final-cta > p {
-  color: #6b4423;
-  margin-bottom: 1.5rem;
-  font-size: 1.05rem;
-}
-.guide-small {
-  font-size: 0.8rem;
-  color: #8b6f47;
-  margin-top: 1rem;
-}
-
-/* Related */
-.guide-related-grid {
-  display: grid;
-  grid-template-columns: repeat(2, 1fr);
-  gap: 1rem;
-}
-.guide-related-card {
-  background: #fff;
-  border: 1px solid #e8d5b7;
-  border-radius: 12px;
-  padding: 1.25rem;
-  text-decoration: none !important;
-  color: inherit !important;
-  display: block;
-  transition: transform 0.15s, box-shadow 0.2s;
-}
-.guide-related-card:hover {
-  transform: translateY(-2px);
-  box-shadow: 0 6px 18px rgba(107,68,35,0.15);
-  border-color: #b5651d;
-}
-.guide-related-badge {
-  display: inline-block;
-  background: #6b4423;
-  color: #f4c430;
-  font-size: 0.7rem;
-  font-weight: 700;
-  padding: 2px 10px;
-  border-radius: 4px;
-  margin-bottom: 0.5rem;
-  letter-spacing: 0.5px;
-}
-.guide-related-card h3 { font-size: 1.05rem; color: #3d2817; margin-bottom: 0.25rem; }
-.guide-related-card p { font-size: 0.85rem; color: #6b4423; margin-bottom: 0.5rem; }
-.guide-related-price { font-size: 1.2rem; font-weight: 800; color: #b5651d; }
-
-/* Guide content (from markdown) */
-.guide-content { color: #3d2817; }
-.guide-content h3 { color: #6b4423; font-size: 1.2rem; margin: 1.25rem 0 0.4rem; }
-.guide-content p { margin-bottom: 0.75rem; }
-.guide-content ul { margin-left: 1.25rem; }
-
-/* Responsive */
-@media (max-width: 768px) {
-  .guide-title { font-size: 1.75rem; }
-  .guide-hero { padding: 2rem 1.25rem; }
-  .guide-stats { grid-template-columns: repeat(2, 1fr); }
-  .guide-learn-grid,
-  .guide-toc,
-  .guide-forwhom-grid,
-  .guide-related-grid { grid-template-columns: 1fr; }
-  .guide-price-row { flex-direction: column; align-items: stretch; }
-  .guide-cta-primary { text-align: center; }
-  .guide-trust-row { flex-direction: column; gap: 0.5rem; }
-}
-</style>
-{{ end }}
+</body>
+</html>
