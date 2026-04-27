@@ -2,23 +2,24 @@
 title: "咖啡冲煮完全指南 2026"
 tagline: "从零基础到进阶——一本让你真正做出好咖啡的实战手册"
 badge: "📘 精品电子书 · PDF"
-price: 29
-price_original: 49
-checkout_url: "#"
+price: 3.99
+price_original: 5.99
+currency: "USD"
+checkout_url: "https://buy.stripe.com/dRmdR8execIh9CFfaTaEE00"
 date: 2026-04-20
-lastmod: 2026-04-20
-description: "Coffee Prism 精品电子书：25000字、60页、7张原创图表。覆盖咖啡豆、烘焙、萃取科学、5大冲煮方法、故障排查。一次购买，终身下载。¥29。"
+lastmod: 2026-04-27
+description: "Coffee Prism 精品电子书：25000 字、75 页、7 张原创图表。覆盖咖啡豆、烘焙、萃取科学、5 大冲煮方法、故障排查。一次购买，终身下载。$3.99。"
 slug: "comprehensive"
 layout: "single"
 type: "guide"
 
 stats:
-  - num: "60+"
+  - num: "75"
     label: "页数"
   - num: "25k"
     label: "字数"
-  - num: "10"
-    label: "冲煮方法"
+  - num: "13"
+    label: "章节"
   - num: "7"
     label: "原创图表"
 
@@ -81,14 +82,32 @@ faq:
   - q: "可以退款吗？"
     a: "数字产品性质特殊，下载后原则上不支持退款。如果你在购买 7 天内发现严重内容问题，请联系我们协商。"
   - q: "有专精型手冲指南吗？"
-    a: "有。《手冲咖啡大师之路》专门深入讲手冲（¥49），包括冠军配方、进阶参数、故障诊断。如果你只对手冲感兴趣，那本更对口。"
+    a: "有。《手冲咖啡大师之路》专门深入讲手冲（$4.99），包括冠军配方、进阶参数、故障诊断。如果你只对手冲感兴趣，那本更对口。"
+  - q: "如果不满意可以退款吗？"
+    a: "**7 天无理由退款**。下载后试读如果觉得内容不值这个价，邮件给我们订单号即可全额退回。我们认可咖啡知识应该有客观的价值评判。"
+
+guarantee: "7 天无理由退款 · 满意后再付费"
+
+author:
+  name: "Coffee Prism 编辑部"
+  bio: "我们是一群在中国做了 5 年精品咖啡内容的人。运营 coffeeprism.com 至今写过 500+ 篇文章，跨专业咖啡烘焙、手冲、家用 espresso、可持续咖啡、产区文化等领域。每一个推荐的器具都自己测过，每一个参数都至少交叉验证 2 个独立来源。"
+  signals:
+    - "📝 500+ 篇深度咖啡文章"
+    - "☕ 测试过 30+ 台磨豆机和滤杯"
+    - "🌍 走访过埃塞俄比亚、巴拿马、云南产区"
+    - "🔬 所有 SCA 标准均交叉核对"
+
+compare_block:
+  enable: true
+  current: "comprehensive"
 
 related_guides:
   - url: "/guide/pourover/"
     badge: "专精型"
     title: "手冲咖啡大师之路"
     desc: "冠军配方详解、进阶技术、感官训练——只给手冲爱好者"
-    price: 49
+    price: 4.99
+    currency: "USD"
 ---
 
 ## 为什么做这本书

@@ -15,6 +15,9 @@
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Params.description }}">
 <link rel="shortcut icon" href="/favicon.ico">
+{{- $currency := .Params.currency | default "USD" -}}
+{{- $sym := "$" -}}
+{{- if eq $currency "CNY" }}{{ $sym = "¥" }}{{ end -}}
 <script type="application/ld+json">
 {
   "@context": "https://schema.org",
@@ -25,7 +28,7 @@
   "offers": {
     "@type": "Offer",
     "price": "{{ .Params.price }}",
-    "priceCurrency": "CNY",
+    "priceCurrency": "{{ $currency }}",
     "availability": "https://schema.org/InStock",
     "url": "{{ .Permalink }}"
   }
@@ -44,12 +47,13 @@
     line-height:1.75;
     background:#fcfaf6;
     -webkit-font-smoothing:antialiased;
+    padding-bottom:0;
   }
   a{color:#b5651d;text-decoration:none}
   a:hover{text-decoration:underline}
   img{max-width:100%;height:auto}
 
-  /* === Minimal top bar === */
+  /* === Top bar === */
   .topbar{
     background:#fff;
     border-bottom:1px solid #e8d5b7;
@@ -71,7 +75,6 @@
   .topbar-back{color:#8b6f47;font-size:0.85rem}
   .topbar-back:hover{color:#3d2817;text-decoration:none}
 
-  /* === Container === */
   .wrap{max-width:960px;margin:0 auto;padding:0 1.25rem}
 
   /* === Hero === */
@@ -165,6 +168,12 @@
     text-decoration:line-through;
     opacity:0.7;
   }
+  .price-hint{
+    color:#c9b89a;
+    font-size:0.78rem;
+    letter-spacing:0.5px;
+    margin-left:0.25rem;
+  }
   .cta-primary{
     display:inline-block;
     background:linear-gradient(135deg,#f4c430 0%,#d4a574 100%);
@@ -191,6 +200,31 @@
     font-size:0.88rem;
     color:#c9b89a;
     flex-wrap:wrap;
+  }
+
+  /* === Guarantee badge === */
+  .guarantee{
+    display:flex;
+    align-items:center;
+    gap:0.75rem;
+    margin-top:1.5rem;
+    padding:0.85rem 1.1rem;
+    background:rgba(244,196,48,0.08);
+    border:1px solid rgba(244,196,48,0.3);
+    border-radius:10px;
+    font-size:0.92rem;
+    color:#e8d5b7;
+  }
+  .guarantee-icon{
+    flex-shrink:0;
+    width:32px;height:32px;
+    background:linear-gradient(135deg,#f4c430,#d4a574);
+    color:#2d1b0e;
+    border-radius:50%;
+    display:inline-flex;
+    align-items:center;
+    justify-content:center;
+    font-weight:800;
   }
 
   /* === Stats === */
@@ -317,6 +351,59 @@
     line-height:1.5;
   }
 
+  /* === Comparison === */
+  .compare{
+    background:#fff;
+    border:1px solid #e8d5b7;
+    border-radius:16px;
+    padding:1rem;
+    overflow-x:auto;
+    box-shadow:0 4px 14px rgba(107,68,35,0.06);
+  }
+  .compare table{
+    width:100%;
+    border-collapse:collapse;
+    min-width:560px;
+  }
+  .compare th,.compare td{
+    padding:0.85rem 1rem;
+    text-align:left;
+    border-bottom:1px solid #f0e8dc;
+    font-size:0.95rem;
+    vertical-align:top;
+  }
+  .compare th{
+    background:#faf7f2;
+    color:#3d2817;
+    font-weight:700;
+    font-size:0.95rem;
+  }
+  .compare th.this{
+    background:linear-gradient(135deg,#3d2817,#6b4423);
+    color:#f4c430;
+    border-radius:8px 8px 0 0;
+    position:relative;
+  }
+  .compare th.this::after{
+    content:"你正在看的这本";
+    position:absolute;
+    top:-9px;right:8px;
+    background:#f4c430;
+    color:#2d1b0e;
+    font-size:0.62rem;
+    font-weight:800;
+    padding:2px 8px;
+    border-radius:99px;
+    letter-spacing:0.5px;
+  }
+  .compare td.this{background:#faf7f2}
+  .compare td.metric{
+    font-weight:600;
+    color:#6b4423;
+    width:30%;
+  }
+  .compare tr:last-child td{border-bottom:none}
+
   /* === For whom === */
   .forwhom-grid{
     display:grid;
@@ -335,6 +422,54 @@
   .forwhom-icon{font-size:1.75rem;flex-shrink:0}
   .forwhom strong{color:#3d2817;font-size:1rem;display:block;margin-bottom:0.3rem}
   .forwhom p{font-size:0.88rem;color:#6b4423;margin:0;line-height:1.6}
+
+  /* === Author === */
+  .author{
+    background:linear-gradient(135deg,#faf7f2 0%,#fff 100%);
+    border:1px solid #e8d5b7;
+    border-radius:16px;
+    padding:2rem;
+    display:grid;
+    grid-template-columns:80px 1fr;
+    gap:1.5rem;
+    align-items:start;
+  }
+  .author-avatar{
+    width:80px;height:80px;
+    border-radius:50%;
+    background:linear-gradient(135deg,#3d2817,#6b4423);
+    color:#f4c430;
+    font-size:2.4rem;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+    flex-shrink:0;
+  }
+  .author-name{
+    color:#3d2817;
+    font-size:1.15rem;
+    font-weight:700;
+    margin:0 0 0.5rem;
+  }
+  .author-bio{
+    color:#6b4423;
+    font-size:0.95rem;
+    line-height:1.7;
+    margin:0 0 1rem;
+  }
+  .author-signals{
+    display:flex;
+    flex-wrap:wrap;
+    gap:0.5rem;
+  }
+  .author-signals span{
+    background:#fff;
+    border:1px solid #e8d5b7;
+    color:#6b4423;
+    padding:0.35rem 0.75rem;
+    border-radius:99px;
+    font-size:0.8rem;
+  }
 
   /* === FAQ === */
   .faq details{
@@ -455,18 +590,14 @@
     color:#b5651d;
   }
 
-  /* === Body content (from markdown) === */
-  .body-content{
-    color:#3d2817;
-    font-size:1.02rem;
-  }
-  .body-content h3{
-    color:#6b4423;
-    font-size:1.25rem;
-    margin:1.75rem 0 0.6rem;
-  }
+  /* === Body content === */
+  .body-content{color:#3d2817;font-size:1.02rem}
+  .body-content h3{color:#6b4423;font-size:1.25rem;margin:1.75rem 0 0.6rem}
   .body-content strong{color:#3d2817}
   .body-content ul{margin-left:1.5rem}
+  .body-content table{width:100%;border-collapse:collapse;margin:1rem 0}
+  .body-content th,.body-content td{border:1px solid #e8d5b7;padding:0.5rem 0.85rem;text-align:left}
+  .body-content th{background:#faf7f2}
 
   /* === Footer === */
   .footer{
@@ -484,14 +615,55 @@
     letter-spacing:2px;
     margin-bottom:0.5rem;
   }
-  .footer-small{
-    font-size:0.8rem;
-    opacity:0.7;
-    margin-top:0.75rem;
+  .footer-small{font-size:0.8rem;opacity:0.7;margin-top:0.75rem}
+
+  /* === Sticky mobile CTA === */
+  .sticky-cta{
+    display:none;
+    position:fixed;
+    bottom:0;left:0;right:0;
+    background:#fff;
+    border-top:1px solid #e8d5b7;
+    padding:0.85rem 1rem;
+    z-index:100;
+    box-shadow:0 -4px 16px rgba(0,0,0,0.08);
+    align-items:center;
+    justify-content:space-between;
+    gap:0.75rem;
   }
+  .sticky-cta-price{
+    display:flex;
+    flex-direction:column;
+    align-items:flex-start;
+  }
+  .sticky-cta-price .now{
+    font-size:1.3rem;
+    font-weight:800;
+    color:#b5651d;
+    line-height:1;
+  }
+  .sticky-cta-price .old{
+    font-size:0.78rem;
+    color:#8b6f47;
+    text-decoration:line-through;
+  }
+  .sticky-cta-btn{
+    flex:1;
+    text-align:center;
+    background:linear-gradient(135deg,#f4c430,#d4a574);
+    color:#2d1b0e;
+    padding:0.9rem 1rem;
+    border-radius:10px;
+    font-weight:700;
+    text-decoration:none;
+    font-size:0.98rem;
+    box-shadow:0 4px 12px rgba(244,196,48,0.35);
+  }
+  .sticky-cta-btn:hover{text-decoration:none;color:#2d1b0e}
 
   /* === Responsive === */
   @media (max-width:768px){
+    body{padding-bottom:78px}
     .hero{padding:2.5rem 1.5rem;border-radius:14px}
     .hero-title{font-size:2rem}
     .hero-tagline{font-size:1rem}
@@ -504,6 +676,10 @@
     .section h2{font-size:1.55rem}
     .final-cta{padding:2.5rem 1.25rem}
     .final-cta h2{font-size:1.55rem}
+    .author{grid-template-columns:1fr;text-align:center}
+    .author-avatar{margin:0 auto}
+    .author-signals{justify-content:center}
+    .sticky-cta{display:flex}
   }
 </style>
 </head>
@@ -511,7 +687,7 @@
 
 <header class="topbar">
   <a href="/" class="topbar-logo"><span>☕</span>Coffee Prism</a>
-  <a href="/" class="topbar-back">← 返回主站</a>
+  <a href="/" class="topbar-back">查看免费博客 →</a>
 </header>
 
 <main class="wrap">
@@ -524,17 +700,24 @@
       <p class="hero-tagline">{{ .Params.tagline }}</p>
       <div class="price-row">
         <div class="price-box">
-          <span class="price-label">限时特价</span>
-          <span class="price-now">¥{{ .Params.price }}</span>
-          {{- with .Params.price_original }}<span class="price-old">¥{{ . }}</span>{{- end }}
+          <span class="price-label">首发价</span>
+          <span class="price-now">{{ $sym }}{{ .Params.price }}</span>
+          {{- with .Params.price_original }}<span class="price-old">{{ $sym }}{{ . }}</span>{{- end }}
+          <span class="price-hint">{{ $currency }}</span>
         </div>
-        <a href="{{ .Params.checkout_url | default "#" }}" class="cta-primary" {{ if eq (.Params.checkout_url | default "#") "#" }}onclick="alert('支付通道即将开通，敬请期待！');return false;"{{ end }}>立即购买 →</a>
+        <a href="{{ .Params.checkout_url }}" class="cta-primary" data-cta="hero" target="_top">立即购买 →</a>
       </div>
       <div class="trust-row">
         <span>✓ 一次购买，终身下载</span>
         <span>✓ 所有设备通用</span>
-        <span>✓ Stripe 安全支付</span>
+        <span>✓ 支付宝 / 信用卡 / Apple Pay</span>
       </div>
+      {{- with .Params.guarantee }}
+      <div class="guarantee">
+        <span class="guarantee-icon">✓</span>
+        <span><strong>{{ . }}</strong> · 数字产品里的少数承诺</span>
+      </div>
+      {{- end }}
     </div>
   </section>
 
@@ -584,6 +767,60 @@
   </section>
   {{- end }}
 
+  {{/* Comparison block */}}
+  {{- if .Params.compare_block }}{{ if .Params.compare_block.enable }}
+  {{- $cur := .Params.compare_block.current }}
+  <section class="section">
+    <h2>哪本适合我？</h2>
+    <div class="compare">
+      <table>
+        <thead>
+          <tr>
+            <th></th>
+            <th class="{{ if eq $cur "comprehensive" }}this{{ end }}">📘 完全指南 $3.99</th>
+            <th class="{{ if eq $cur "pourover" }}this{{ end }}">⚡ 大师之路 $4.99</th>
+          </tr>
+        </thead>
+        <tbody>
+          <tr>
+            <td class="metric">适合</td>
+            <td{{ if eq $cur "comprehensive" }} class="this"{{ end }}>新手 / 想覆盖所有方法</td>
+            <td{{ if eq $cur "pourover" }} class="this"{{ end }}>主玩手冲 / 已掌握基础</td>
+          </tr>
+          <tr>
+            <td class="metric">主线内容</td>
+            <td{{ if eq $cur "comprehensive" }} class="this"{{ end }}>豆 → 烘 → 萃 → 5 大方法 → 故障排查</td>
+            <td{{ if eq $cur "pourover" }} class="this"{{ end }}>萃取动力学 + 6 个 WBrC 冠军配方</td>
+          </tr>
+          <tr>
+            <td class="metric">手冲深度</td>
+            <td{{ if eq $cur "comprehensive" }} class="this"{{ end }}>1 章（V60/Kalita 标准配方）</td>
+            <td{{ if eq $cur "pourover" }} class="this"{{ end }}>整本（PSD / 通道效应 / 折光仪实战）</td>
+          </tr>
+          <tr>
+            <td class="metric">字数</td>
+            <td{{ if eq $cur "comprehensive" }} class="this"{{ end }}>25,000 字</td>
+            <td{{ if eq $cur "pourover" }} class="this"{{ end }}>22,000 字</td>
+          </tr>
+          <tr>
+            <td class="metric">页数</td>
+            <td{{ if eq $cur "comprehensive" }} class="this"{{ end }}>75 页</td>
+            <td{{ if eq $cur "pourover" }} class="this"{{ end }}>58 页</td>
+          </tr>
+          <tr>
+            <td class="metric">读者门槛</td>
+            <td{{ if eq $cur "comprehensive" }} class="this"{{ end }}>零基础也行</td>
+            <td{{ if eq $cur "pourover" }} class="this"{{ end }}>已能稳定冲出"能喝"的手冲</td>
+          </tr>
+        </tbody>
+      </table>
+    </div>
+    <p style="text-align:center;font-size:0.92rem;color:#6b4423;margin-top:1rem">
+      不确定？先选 <a href="/guide/comprehensive/"><strong>$3.99 完全指南</strong></a> 入门，喜欢再升级专精版。
+    </p>
+  </section>
+  {{- end }}{{ end }}
+
   {{/* Body content */}}
   <section class="section body-content">
     {{ .Content }}
@@ -607,6 +844,25 @@
   </section>
   {{- end }}
 
+  {{/* Author */}}
+  {{- with .Params.author }}
+  <section class="section">
+    <h2>关于作者</h2>
+    <div class="author">
+      <div class="author-avatar">☕</div>
+      <div>
+        <h3 class="author-name">{{ .name }}</h3>
+        <p class="author-bio">{{ .bio }}</p>
+        {{- with .signals }}
+        <div class="author-signals">
+          {{ range . }}<span>{{ . }}</span>{{ end }}
+        </div>
+        {{- end }}
+      </div>
+    </div>
+  </section>
+  {{- end }}
+
   {{/* FAQ */}}
   {{- with .Params.faq }}
   <section class="section">
@@ -615,7 +871,7 @@
       {{ range . }}
       <details>
         <summary>{{ .q }}</summary>
-        <p>{{ .a | safeHTML }}</p>
+        <p>{{ .a | markdownify }}</p>
       </details>
       {{ end }}
     </div>
@@ -628,13 +884,16 @@
     <p>一次购买，终身拥有。从今天起，你做的每一杯咖啡都会有提升。</p>
     <div class="price-row centered">
       <div class="price-box">
-        <span class="price-label">限时特价</span>
-        <span class="price-now">¥{{ .Params.price }}</span>
-        {{- with .Params.price_original }}<span class="price-old">¥{{ . }}</span>{{- end }}
+        <span class="price-label">首发价</span>
+        <span class="price-now">{{ $sym }}{{ .Params.price }}</span>
+        {{- with .Params.price_original }}<span class="price-old">{{ $sym }}{{ . }}</span>{{- end }}
       </div>
-      <a href="{{ .Params.checkout_url | default "#" }}" class="cta-primary" {{ if eq (.Params.checkout_url | default "#") "#" }}onclick="alert('支付通道即将开通，敬请期待！');return false;"{{ end }}>立即购买 →</a>
+      <a href="{{ .Params.checkout_url }}" class="cta-primary" data-cta="final" target="_top">立即购买 →</a>
     </div>
-    <p class="small-print">Stripe 安全支付 · 信用卡 / Apple Pay / Google Pay · 付款后自动邮件发送 PDF 下载链接</p>
+    {{- with .Params.guarantee }}
+    <p class="small-print" style="margin-top:1.5rem;font-weight:600;color:#6b4423">✓ {{ . }}</p>
+    {{- end }}
+    <p class="small-print">Stripe 安全支付 · 信用卡 / Apple Pay / Google Pay / 支付宝国际版 · 付款后自动邮件发送 PDF</p>
   </section>
 
   {{/* Related */}}
@@ -642,17 +901,26 @@
   <section class="section">
     <h2>你可能还喜欢</h2>
     {{ range . }}
+    {{- $rsym := "$" }}{{ if eq (.currency | default "USD") "CNY" }}{{ $rsym = "¥" }}{{ end -}}
     <a href="{{ .url }}" class="related-card">
       <div class="related-badge">{{ .badge }}</div>
       <h3>{{ .title }}</h3>
       <p>{{ .desc }}</p>
-      <div class="related-price">¥{{ .price }}</div>
+      <div class="related-price">{{ $rsym }}{{ .price }}</div>
     </a>
     {{ end }}
   </section>
   {{- end }}
 
 </main>
+
+<aside class="sticky-cta">
+  <div class="sticky-cta-price">
+    <span class="now">{{ $sym }}{{ .Params.price }}</span>
+    {{- with .Params.price_original }}<span class="old">{{ $sym }}{{ . }}</span>{{- end }}
+  </div>
+  <a href="{{ .Params.checkout_url }}" class="sticky-cta-btn" data-cta="sticky" target="_top">立即购买 →</a>
+</aside>
 
 <footer class="footer">
   <div class="footer-brand">COFFEEPRISM.COM</div>
@@ -663,6 +931,16 @@
   </div>
   <div class="footer-small">© 2026 Coffee Prism · 用科学理解咖啡，用实操掌握它</div>
 </footer>
+
+{{- with site.Params.googleAnalyticsID | default "G-6E0PTCEWEX" }}
+<script>
+  document.querySelectorAll('a[data-cta]').forEach(function(el){
+    el.addEventListener('click',function(){
+      try{ gtag('event','begin_checkout',{cta_position:el.dataset.cta,product:'{{ $.Params.slug }}'}); }catch(e){}
+    });
+  });
+</script>
+{{- end }}
 
 </body>
 </html>

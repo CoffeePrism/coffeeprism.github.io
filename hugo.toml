@@ -32,6 +32,11 @@ buildExpired = false
 
   customCSS = ["/css/custom.css"]
 
+  # Cloudflare Worker that verifies Stripe sessions and signs PDF download URLs.
+  # After running `wrangler deploy` in worker/, update this to your workers.dev URL
+  # (or your custom subdomain like https://api.coffeeprism.com).
+  fulfillmentWorkerUrl = "https://coffeeprism-fulfillment.workers.dev"
+
   [Params.style.vars]
 
   [Params.logo]

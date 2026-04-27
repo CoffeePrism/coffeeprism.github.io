@@ -1,0 +1,18 @@
+name = "coffeeprism-fulfillment"
+main = "src/index.js"
+compatibility_date = "2026-04-01"
+workers_dev = true
+
+# R2 bucket holding the PDFs (created via `wrangler r2 bucket create coffeeprism-pdfs`)
+[[r2_buckets]]
+binding = "PDFS"
+bucket_name = "coffeeprism-pdfs"
+
+# Custom route (optional — uncomment after DNS is set up)
+# routes = [
+#   { pattern = "api.coffeeprism.com/*", zone_name = "coffeeprism.com" }
+# ]
+
+# Non-secret config goes in [vars]; secrets via `wrangler secret put` (see README.md)
+[vars]
+# Empty placeholders — fill via secrets, not committed to repo

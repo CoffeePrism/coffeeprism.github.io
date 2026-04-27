@@ -57,4 +57,12 @@ public/
 .hugo_build.lock
 
 # Environment variable files
-.env products/*_debug.html
+.env
+
+# Build artifacts (PDF render debug HTML)
+products/*_debug.html
+
+# Cloudflare Worker artifacts
+worker/node_modules/
+worker/.wrangler/
+worker/.dev.vars
