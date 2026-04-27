@@ -1,0 +1,101 @@
+{{/*
+  Top promo banner for PDF e-books.
+  - Server-rendered (no FOUC), single line, dismissible via JS + localStorage.
+  - Hides itself on /guide/* pages (the landing pages already pitch).
+  - On mobile, collapses to short copy.
+*/}}
+{{- $isGuide := hasPrefix .RelPermalink "/guide/" -}}
+{{- if not $isGuide }}
+<aside id="promo-banner" class="promo-banner" role="region" aria-label="电子书促销">
+  <a class="promo-banner-link" href="/guide/comprehensive/" data-cta="banner-comp">
+    <span class="promo-banner-emoji">📘</span>
+    <span class="promo-banner-text">
+      <strong>新书首发</strong>
+      <span class="promo-banner-divider">·</span>
+      《咖啡冲煮完全指南 2026》<span class="promo-banner-price"> $3.99</span>
+      <span class="promo-banner-hide-mobile">
+        <span class="promo-banner-divider">·</span>
+        《手冲咖啡大师之路》$4.99
+      </span>
+      <span class="promo-banner-divider">·</span>
+      <span class="promo-banner-hide-mobile">7 天无理由退款 </span>
+      <span class="promo-banner-arrow">立即查看 →</span>
+    </span>
+  </a>
+  <button class="promo-banner-close" aria-label="关闭横幅" type="button" onclick="(function(b){b.style.display='none';try{localStorage.setItem('promo-banner-closed','2026-04-27');}catch(e){}})(this.parentElement);return false;">×</button>
+</aside>
+<style>
+  .promo-banner{
+    position:relative;
+    background:linear-gradient(90deg,#2d1b0e 0%,#3d2817 50%,#6b4423 100%);
+    color:#faf7f2;
+    padding:0.6rem 2.5rem 0.6rem 1rem;
+    text-align:center;
+    font-size:0.92rem;
+    line-height:1.5;
+    border-bottom:1px solid #1a0f08;
+    display:flex;
+    align-items:center;
+    justify-content:center;
+  }
+  .promo-banner::before{
+    content:"";
+    position:absolute;
+    inset:0;
+    background:radial-gradient(ellipse at center top,rgba(212,165,116,0.18) 0%,transparent 60%);
+    pointer-events:none;
+  }
+  .promo-banner-link{
+    color:#faf7f2 !important;
+    text-decoration:none !important;
+    display:inline-flex;
+    align-items:center;
+    gap:0.55rem;
+    z-index:1;
+    transition:opacity .15s;
+  }
+  .promo-banner-link:hover{opacity:0.92;text-decoration:none !important;color:#faf7f2 !important}
+  .promo-banner-link:hover .promo-banner-arrow{transform:translateX(2px)}
+  .promo-banner-emoji{font-size:1.05rem;flex-shrink:0}
+  .promo-banner-text{display:inline}
+  .promo-banner-text strong{color:#f4c430;letter-spacing:0.5px}
+  .promo-banner-divider{color:#8b6f47;margin:0 0.35rem;opacity:0.75}
+  .promo-banner-price{color:#f4c430;font-weight:700}
+  .promo-banner-arrow{
+    color:#f4c430;
+    font-weight:600;
+    margin-left:0.25rem;
+    transition:transform .15s;
+    display:inline-block;
+  }
+  .promo-banner-close{
+    position:absolute;
+    right:0.6rem;
+    top:50%;
+    transform:translateY(-50%);
+    background:transparent;
+    border:none;
+    color:#c9b89a;
+    font-size:1.4rem;
+    line-height:1;
+    cursor:pointer;
+    padding:0.25rem 0.5rem;
+    z-index:2;
+  }
+  .promo-banner-close:hover{color:#f4c430}
+  @media (max-width:640px){
+    .promo-banner{font-size:0.82rem;padding:0.55rem 2.25rem 0.55rem 0.6rem}
+    .promo-banner-hide-mobile{display:none}
+  }
+</style>
+<script>
+  (function(){
+    try{
+      if(localStorage.getItem('promo-banner-closed')){
+        var el=document.getElementById('promo-banner');
+        if(el) el.style.display='none';
+      }
+    }catch(e){}
+  })();
+</script>
+{{- end }}
