@@ -146,7 +146,7 @@ def build_comprehensive():
     cover = {
         "title": "咖啡冲煮<br>完全指南",
         "subtitle": "从零基础到进阶：一本让你真正做出好咖啡的实战手册",
-        "cover_image": "assets/cover-comprehensive.jpg",
+        "cover_image": "assets/cover-comprehensive.png",
         "meta_lines": [
             "2026 年 4 月 · 修订版 1.0",
             "作者：Coffee Prism 编辑部",
@@ -170,7 +170,7 @@ def build_pourover():
     cover = {
         "title": "手冲咖啡<br>大师之路",
         "subtitle": "从参数到感官：深度剖析手冲的每一个细节",
-        "cover_image": "assets/cover-pourover.png",
+        "cover_image": "assets/cover-pourover.jpg",
         "meta_lines": [
             "2026 年 4 月 · 第一版",
             "作者：Coffee Prism 编辑部",
