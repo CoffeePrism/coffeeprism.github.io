@@ -11,9 +11,17 @@
 <meta property="og:description" content="{{ .Params.description }}">
 <meta property="og:url" content="{{ .Permalink }}">
 <meta property="og:site_name" content="Coffee Prism">
+{{- with .Params.cover_image }}
+<meta property="og:image" content="{{ . | absURL }}">
+<meta property="og:image:width" content="826">
+<meta property="og:image:height" content="1169">
+{{- end }}
 <meta name="twitter:card" content="summary_large_image">
 <meta name="twitter:title" content="{{ .Title }}">
 <meta name="twitter:description" content="{{ .Params.description }}">
+{{- with .Params.cover_image }}
+<meta name="twitter:image" content="{{ . | absURL }}">
+{{- end }}
 <link rel="shortcut icon" href="/favicon.ico">
 {{- $currency := .Params.currency | default "USD" -}}
 {{- $sym := "$" -}}
@@ -96,7 +104,44 @@
     background:radial-gradient(circle,rgba(212,165,116,0.22) 0%,transparent 55%);
     pointer-events:none;
   }
-  .hero::after{
+  .hero-inner{
+    position:relative;z-index:1;
+    display:grid;
+    grid-template-columns:1fr auto;
+    gap:3rem;
+    align-items:center;
+  }
+  .hero-text{min-width:0}
+  .hero-cover{
+    flex-shrink:0;
+    width:280px;
+    perspective:1200px;
+  }
+  .hero-cover img{
+    display:block;
+    width:100%;
+    height:auto;
+    border-radius:6px;
+    box-shadow:
+      0 30px 60px rgba(0,0,0,0.45),
+      0 12px 28px rgba(0,0,0,0.35),
+      -8px 0 16px rgba(0,0,0,0.18) inset,
+      8px 0 16px rgba(255,255,255,0.04) inset;
+    transform:rotateY(-9deg) rotateX(2deg);
+    transition:transform 0.4s ease;
+  }
+  .hero-cover img:hover{
+    transform:rotateY(-3deg) rotateX(0deg) scale(1.02);
+  }
+  .hero-cover-badge{
+    margin-top:1rem;
+    text-align:center;
+    color:#d4a574;
+    font-size:0.78rem;
+    letter-spacing:1px;
+  }
+  .hero-no-cover .hero-inner{grid-template-columns:1fr}
+  .hero-no-cover::after{
     content:"☕";
     position:absolute;
     right:2rem;bottom:-1rem;
@@ -104,7 +149,6 @@
     opacity:0.06;
     pointer-events:none;
   }
-  .hero-inner{position:relative;z-index:1}
   .hero-badge{
     display:inline-block;
     background:rgba(244,196,48,0.15);
@@ -662,11 +706,28 @@
   .sticky-cta-btn:hover{text-decoration:none;color:#2d1b0e}
 
   /* === Responsive === */
+  @media (max-width:900px){
+    .hero-inner{
+      grid-template-columns:1fr;
+      gap:2rem;
+      text-align:center;
+    }
+    .hero-cover{
+      width:200px;
+      margin:0 auto;
+      order:-1;
+    }
+    .hero-cover img{transform:none}
+    .price-row{justify-content:center}
+    .trust-row{justify-content:center}
+    .guarantee{text-align:left}
+  }
   @media (max-width:768px){
     body{padding-bottom:78px}
     .hero{padding:2.5rem 1.5rem;border-radius:14px}
     .hero-title{font-size:2rem}
     .hero-tagline{font-size:1rem}
+    .hero-cover{width:170px}
     .stats{grid-template-columns:repeat(2,1fr)}
     .learn-grid,.toc,.forwhom-grid{grid-template-columns:1fr}
     .price-row{flex-direction:column;align-items:stretch}
@@ -693,29 +754,37 @@
 <main class="wrap">
 
   {{/* HERO */}}
-  <section class="hero">
+  <section class="hero{{ if not .Params.cover_image }} hero-no-cover{{ end }}">
     <div class="hero-inner">
-      <div class="hero-badge">{{ .Params.badge | default "📘 精品电子书 · PDF" }}</div>
-      <h1 class="hero-title">{{ .Title }}</h1>
-      <p class="hero-tagline">{{ .Params.tagline }}</p>
-      <div class="price-row">
-        <div class="price-box">
-          <span class="price-label">首发价</span>
-          <span class="price-now">{{ $sym }}{{ .Params.price }}</span>
-          {{- with .Params.price_original }}<span class="price-old">{{ $sym }}{{ . }}</span>{{- end }}
-          <span class="price-hint">{{ $currency }}</span>
+      <div class="hero-text">
+        <div class="hero-badge">{{ .Params.badge | default "📘 精品电子书 · PDF" }}</div>
+        <h1 class="hero-title">{{ .Title }}</h1>
+        <p class="hero-tagline">{{ .Params.tagline }}</p>
+        <div class="price-row">
+          <div class="price-box">
+            <span class="price-label">首发价</span>
+            <span class="price-now">{{ $sym }}{{ .Params.price }}</span>
+            {{- with .Params.price_original }}<span class="price-old">{{ $sym }}{{ . }}</span>{{- end }}
+            <span class="price-hint">{{ $currency }}</span>
+          </div>
+          <a href="{{ .Params.checkout_url }}" class="cta-primary" data-cta="hero" target="_top">立即购买 →</a>
         </div>
-        <a href="{{ .Params.checkout_url }}" class="cta-primary" data-cta="hero" target="_top">立即购买 →</a>
+        <div class="trust-row">
+          <span>✓ 一次购买，终身下载</span>
+          <span>✓ 所有设备通用</span>
+          <span>✓ 支付宝 / 信用卡 / Apple Pay</span>
+        </div>
+        {{- with .Params.guarantee }}
+        <div class="guarantee">
+          <span class="guarantee-icon">✓</span>
+          <span><strong>{{ . }}</strong> · 数字产品里的少数承诺</span>
+        </div>
+        {{- end }}
       </div>
-      <div class="trust-row">
-        <span>✓ 一次购买，终身下载</span>
-        <span>✓ 所有设备通用</span>
-        <span>✓ 支付宝 / 信用卡 / Apple Pay</span>
-      </div>
-      {{- with .Params.guarantee }}
-      <div class="guarantee">
-        <span class="guarantee-icon">✓</span>
-        <span><strong>{{ . }}</strong> · 数字产品里的少数承诺</span>
+      {{- with .Params.cover_image }}
+      <div class="hero-cover">
+        <img src="{{ . }}" alt="{{ $.Params.cover_alt | default $.Title }}" loading="eager">
+        <div class="hero-cover-badge">↑ 完整封面预览</div>
       </div>
       {{- end }}
     </div>

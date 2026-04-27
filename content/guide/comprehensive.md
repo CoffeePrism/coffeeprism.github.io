@@ -12,6 +12,8 @@ description: "Coffee Prism 精品电子书：25000 字、75 页、7 张原创图
 slug: "comprehensive"
 layout: "single"
 type: "guide"
+cover_image: "/images/guide/cover-comprehensive.jpg"
+cover_alt: "《咖啡冲煮完全指南 2026》PDF 电子书封面"
 
 stats:
   - num: "75"

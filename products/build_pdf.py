@@ -13,8 +13,18 @@ STYLE = PROJECT_DIR / "pdf-style.css"
 ASSETS_DIR = PROJECT_DIR / "assets"
 
 
-def render_cover(title, subtitle, meta_lines):
-    """Render the cover page HTML."""
+def render_cover(title, subtitle, meta_lines, cover_image=None):
+    """Render the cover page HTML.
+
+    If cover_image is provided (path relative to products/), render a
+    full-bleed image cover. Otherwise fall back to the gradient text cover.
+    """
+    if cover_image:
+        cover_path = (PROJECT_DIR / cover_image).resolve()
+        if cover_path.exists():
+            return f'<div class="cover-image"><img src="{cover_path.as_uri()}" alt="cover"></div>'
+        print(f"  WARNING: cover image not found: {cover_path}")
+
     meta_html = "<br>".join(meta_lines)
     return f"""
 <div class="cover">
@@ -136,10 +146,11 @@ def build_comprehensive():
     cover = {
         "title": "咖啡冲煮<br>完全指南",
         "subtitle": "从零基础到进阶：一本让你真正做出好咖啡的实战手册",
+        "cover_image": "assets/cover-comprehensive.jpg",
         "meta_lines": [
             "2026 年 4 月 · 修订版 1.0",
             "作者：Coffee Prism 编辑部",
-            "字数：约 25,000 字 · 页数：约 60 页",
+            "字数：约 25,000 字 · 页数：约 75 页",
         ]
     }
 
@@ -159,11 +170,12 @@ def build_pourover():
     cover = {
         "title": "手冲咖啡<br>大师之路",
         "subtitle": "从参数到感官：深度剖析手冲的每一个细节",
+        "cover_image": "assets/cover-pourover.png",
         "meta_lines": [
             "2026 年 4 月 · 第一版",
             "作者：Coffee Prism 编辑部",
             "适读对象：已掌握基础冲煮的爱好者",
-            "字数：约 22,000 字 · 页数：约 50 页",
+            "字数：约 22,000 字 · 页数：约 58 页",
         ]
     }
 
