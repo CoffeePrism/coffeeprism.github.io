@@ -3,32 +3,117 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.coffeeprism.com/</loc>
-    <lastmod>2026-04-29T19:16:52+08:00</lastmod>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/</loc>
-    <lastmod>2026-04-29T19:16:52+08:00</lastmod>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E4%BE%BF%E6%90%BA%E5%92%96%E5%95%A1%E8%AE%BE%E5%A4%87/</loc>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/posts/bian-xi-ka-pei-she-bei-de-chuang-xin-yu-shi-yong-x/</loc>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/categories/</loc>
-    <lastmod>2026-04-29T19:16:52+08:00</lastmod>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E5%88%9B%E6%96%B0%E4%B8%8E%E5%AE%9E%E7%94%A8%E6%80%A7/</loc>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%AE%BE%E5%A4%87%E4%B8%8E%E5%99%A8%E5%85%B7/</loc>
-    <lastmod>2026-04-29T19:16:52+08:00</lastmod>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86/</loc>
-    <lastmod>2026-04-29T19:16:52+08:00</lastmod>
+    <loc>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F/</loc>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/tags/%E6%89%8B%E5%86%B2/</loc>
-    <lastmod>2026-04-29T19:16:52+08:00</lastmod>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/</loc>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E6%B5%93%E7%BC%A9/</loc>
+    <lastmod>2026-04-30T19:12:57+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E4%BF%9D%E9%B2%9C%E4%B8%8E%E5%82%A8%E5%AD%98/</loc>
+    <lastmod>2026-04-30T19:11:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%98%E7%84%99/</loc>
+    <lastmod>2026-04-30T19:11:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86/</loc>
+    <lastmod>2026-04-30T19:11:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E7%83%98%E7%84%99%E5%92%96%E5%95%A1/</loc>
+    <lastmod>2026-04-30T19:11:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/posts/hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-go/</loc>
+    <lastmod>2026-04-30T19:11:17+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E5%B8%82%E5%9C%BA/</loc>
+    <lastmod>2026-04-30T19:09:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E5%A4%8D%E8%8B%8F/</loc>
+    <lastmod>2026-04-30T19:09:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</loc>
+    <lastmod>2026-04-30T19:09:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-04-30T19:09:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E4%B8%9A%E7%BB%A9/</loc>
+    <lastmod>2026-04-30T19:09:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/posts/xing-ba-ke-ye-ji-shang-diao-yi-wei-zhao-shi-yao-ka/</loc>
+    <lastmod>2026-04-30T19:09:32+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-04-30T19:09:32+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -38,11 +123,6 @@
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/shou-chong-lu-bei-de-chong-lei-yu-ying-xiang-shen/</loc>
-    <lastmod>2026-04-29T19:16:52+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/</loc>
     <lastmod>2026-04-29T19:16:52+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -72,11 +152,6 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F/</loc>
-    <lastmod>2026-04-29T19:15:17+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.coffeeprism.com/tags/%E9%A3%8E%E5%91%B3/</loc>
     <lastmod>2026-04-29T19:15:17+08:00</lastmod>
     <changefreq>weekly</changefreq>
@@ -87,27 +162,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</loc>
-    <lastmod>2026-04-29T19:13:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2026-04-29T19:13:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E8%B4%A2%E6%8A%A5/</loc>
     <lastmod>2026-04-29T19:13:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/xing-ba-ke-cai-bao-shang-diao-tou-lu-liao-shi-yao/</loc>
-    <lastmod>2026-04-29T19:13:23+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</loc>
     <lastmod>2026-04-29T19:13:23+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -134,11 +194,6 @@
   </url><url>
     <loc>https://www.coffeeprism.com/tags/%E6%88%90%E5%8A%9F%E6%95%85%E4%BA%8B/</loc>
     <lastmod>2026-04-28T19:26:29+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E6%B5%93%E7%BC%A9/</loc>
-    <lastmod>2026-04-28T19:25:05+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -489,11 +544,6 @@
   </url><url>
     <loc>https://www.coffeeprism.com/guide/pourover/</loc>
     <lastmod>2026-04-27T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%98%E7%84%99/</loc>
-    <lastmod>2026-04-19T18:41:51+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
@@ -1127,17 +1177,7 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E4%BE%BF%E6%90%BA%E5%92%96%E5%95%A1%E8%AE%BE%E5%A4%87/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.coffeeprism.com/posts/2026-01-23-182930-bian-xi-ka-pei-she-bei-de-chuang-xin-yu-shi-yong-x-e209e389/</loc>
-    <lastmod>2026-01-23T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E5%88%9B%E6%96%B0%E4%B8%8E%E5%AE%9E%E7%94%A8%E6%80%A7/</loc>
     <lastmod>2026-01-23T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
@@ -1402,22 +1442,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E4%BF%9D%E9%B2%9C%E4%B8%8E%E5%82%A8%E5%AD%98/</loc>
-    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.coffeeprism.com/tags/%E5%AF%B9%E6%AF%94%E4%B8%8E%E9%80%89%E6%8B%A9/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/2026-01-05-182225-shen-du-jie-xi-gao-ji-ka-pei-yan-mo-qi-de-dui-bi-y-80209c19/</loc>
-    <lastmod>2026-01-05T00:00:00+00:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E7%83%98%E7%84%99%E5%92%96%E5%95%A1/</loc>
     <lastmod>2026-01-05T00:00:00+00:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
