@@ -101,3 +101,14 @@ author: "Coffee Prism"
 ## 总结
 
 理解**手冲滤杯的种类与影响**，本质是掌握不同设计对萃取动力学的改变规律。从V60的快速穿透到Kalita的渐进萃取，每种滤杯都是独特的「风味解码器」。建议初学者从「一锥一平」组合起步，先用V60训练注水控制，再用Kalita感受均匀萃取。记住，最好的滤杯不是最贵的，而是最能呈现你心中理想风味的那一只。欢迎在评论区分享你的滤杯使用心得，让我们共同探索咖啡冲煮的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [手冲滤杯的种类与影响：从入门到精通的实用宝典](/posts/2025-12-30-182109-shou-chong-lu-bei-de-chong-lei-yu-ying-xiang-cong-ecc980ac/)
+- [深度解析精准温控壶的重要性：咖啡冲煮的终极指南](/posts/2026-01-22-182641-shen-du-jie-xi-jing-zhun-wen-kong-hu-de-zhong-yao-2e294f67/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+
+<!-- related-reading-end -->

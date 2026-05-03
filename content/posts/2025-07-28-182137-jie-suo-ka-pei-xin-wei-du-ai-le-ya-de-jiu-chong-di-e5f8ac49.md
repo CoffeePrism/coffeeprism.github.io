@@ -98,3 +98,14 @@ description: "爱乐压的九种颠覆性玩法，能把一台器具玩成手冲
 作为从业12年的咖啡研发顾问，我认为爱乐压的魅力在于其"不完美性"——正是那些未被明确定义的操作空间，造就了无数令人惊艳的风味可能。建议中国爱好者从建立"基准线"开始：先用标准方法熟悉器具特性，再逐步引入变量。记住，最好的配方永远在下一个实验中。
 
 （本文提及的所有实验数据均来自作者参与的2023年亚洲咖啡器具创新峰会技术白皮书，转载需注明出处）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [爱乐压的无限可能：解锁专业级咖啡的创意方程式](/posts/2025-06-17-181827-ai-le-ya-de-wu-xian-ke-neng-jie-suo-zhuan-ye-ji-ka-013a3187/)
+- [爱乐压的无限可能：解锁咖啡实验室的创意冲煮法则](/posts/2025-04-18-205542-ai-le-ya-de-wu-xian-ke-neng-jie-suo-ka-pei-shi-yan-bf23e9fd/)
+- [爱乐压的无限可能：解锁咖啡玩家的创新实验室](/posts/2025-10-08-181907-ai-le-ya-de-wu-xian-ke-neng-jie-suo-ka-pei-wan-jia-4ded0aa3/)
+- [解锁咖啡新维度：爱乐压的进阶玩法与本土化实践](/posts/2025-06-24-181919-jie-suo-ka-pei-xin-wei-du-ai-le-ya-de-jin-jie-wan-092b1bf5/)
+
+<!-- related-reading-end -->

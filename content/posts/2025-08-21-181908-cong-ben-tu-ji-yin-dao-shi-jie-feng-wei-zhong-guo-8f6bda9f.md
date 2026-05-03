@@ -75,3 +75,14 @@ description: "中国新兴咖啡品牌正借本土基因、云南咖啡豆与在
 
 ---  
 （字数：1490字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [《从豆到杯：中国新兴咖啡品牌如何用本土故事重塑第三空间》](/posts/2025-08-19-181903-cong-dou-dao-bei-zhong-guo-xin-xing-ka-pei-pin-pai-a1aec4bb/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+- [从豆到杯：中国新兴咖啡品牌的崛起与本土叙事](/posts/2025-10-13-181809-cong-dou-dao-bei-zhong-guo-xin-xing-ka-pei-pin-pai-428c282e/)
+- [本土觉醒与风味革命：解码中国新兴咖啡品牌的叙事之道](/posts/2025-04-29-182255-ben-tu-jue-xing-yu-feng-wei-ge-ming-jie-ma-zhong-g-ea794885/)
+
+<!-- related-reading-end -->

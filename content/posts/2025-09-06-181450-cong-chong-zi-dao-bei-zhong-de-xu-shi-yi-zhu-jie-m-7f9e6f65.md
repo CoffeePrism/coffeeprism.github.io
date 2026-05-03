@@ -61,3 +61,14 @@ description: "精品咖啡品牌通过可追溯产地、杯测评分与风土叙
 
 ---  
 **字数统计**：1480字
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从种子到杯中哲学：精品咖啡品牌如何用故事传递温度](/posts/2025-10-05-181552-mo-ren-biao-ti-3f3dc5e1/)
+- [从种子到杯中的叙事革命：精品咖啡品牌如何用故事重塑中国咖啡文化](/posts/2025-04-26-181710-mo-ren-biao-ti-4887f585/)
+- [从种子到杯中的温度：精品咖啡品牌如何用故事重塑中国咖啡文化](/posts/2025-06-22-181734-cong-chong-zi-dao-bei-zhong-de-wen-du-jing-pin-ka-21426de2/)
+- [从种子到杯中的温度：精品咖啡品牌的理念革命与中国实践](/posts/2025-08-23-181602-cong-chong-zi-dao-bei-zhong-de-wen-du-jing-pin-ka-3e94a728/)
+
+<!-- related-reading-end -->

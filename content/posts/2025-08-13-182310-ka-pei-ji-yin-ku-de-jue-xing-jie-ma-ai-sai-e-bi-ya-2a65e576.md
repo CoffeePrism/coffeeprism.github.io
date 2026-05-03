@@ -73,3 +73,14 @@ description: "埃塞俄比亚咖啡豆风味丰富的核心，在于其超过600
 **延伸产品推荐**：  
 - [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)  
 - [Acaia咖啡电子秤](https://www.amazon.com/s?k=Acaia%E5%92%96%E5%95%A1%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [埃塞俄比亚咖啡豆的基因宝库：探索咖啡发源地的风味密码](/posts/2025-05-25-181608-mo-ren-biao-ti-f3499184/)
+- [埃塞俄比亚咖啡豆的多样性深度解析指南](/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/)
+- [埃塞俄比亚咖啡豆：解锁咖啡基因库的千年密码](/posts/2025-10-13-181829-mo-ren-biao-ti-02d7c075/)
+- [埃塞俄比亚：咖啡基因库的千年密码——探索非洲之角的咖啡多样性](/posts/2025-05-27-181707-mo-ren-biao-ti-652e706f/)
+
+<!-- related-reading-end -->

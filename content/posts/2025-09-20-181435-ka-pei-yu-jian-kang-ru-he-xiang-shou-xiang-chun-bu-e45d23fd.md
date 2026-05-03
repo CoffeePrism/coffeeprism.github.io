@@ -92,3 +92,14 @@ description: "咖啡会影响睡眠，但掌握咖啡因摄入量、饮用时间
 
 ---  
 （全文约1450字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡对睡眠的影响及应对策略：从科学到实践的完全指南](/posts/2025-12-10-182134-ka-pei-dui-shui-mian-de-ying-xiang-ji-ying-dui-ce-48bbd4db/)
+- [咖啡对睡眠的影响及应对策略：从科学到实践的完整指南](/posts/2025-10-23-181945-ka-pei-dui-shui-mian-de-ying-xiang-ji-ying-dui-ce-7e48b43a/)
+- [咖啡对睡眠的影响及应对策略：从科学到实践的完整指南](/posts/2025-11-27-181828-ka-pei-dui-shui-mian-de-ying-xiang-ji-ying-dui-ce-e500843c/)
+- [《咖啡因唤醒的代谢革命：科学解读咖啡如何影响你的身体能量密码》](/posts/2025-04-25-181811-ka-pei-yin-huan-xing-de-dai-xie-ge-ming-ke-xue-jie-d10339c1/)
+
+<!-- related-reading-end -->

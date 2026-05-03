@@ -66,3 +66,14 @@ description: "单一产地咖啡豆的风味密码，来自原产地的海拔、
 记住：最好的咖啡永远在下一杯。保持好奇心，建立自己的风味档案，甚至尝试用Excel记录每支豆子的冲煮变量——这正是精品咖啡的终极乐趣所在。
 
 （全文约1450字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+
+<!-- related-reading-end -->

@@ -111,3 +111,14 @@ author: "Coffee Prism"
 3. **国际拓展**：将东京/墨尔本的知名场馆列入旅行清单
 
 当你站在星巴克工坊12米高的生豆储存塔前，触摸着哥伦比亚空运来的咖啡麻袋，那一刻将真正理解：每一杯咖啡都是人类与自然的千年对话。立即关注「咖啡文化探索」公众号，获取最新场馆开放信息与独家体验名额。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡博物馆与文化中心完全攻略指南](/posts/ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-wan-quan-go/)
+- [咖啡博物馆与文化中心：探索千年咖啡文明的终极指南](/posts/2026-01-11-181959-ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-tan-suo-qia-a2db29e0/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da/)
+
+<!-- related-reading-end -->

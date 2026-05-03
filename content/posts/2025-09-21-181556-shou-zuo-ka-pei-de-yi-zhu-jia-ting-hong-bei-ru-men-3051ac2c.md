@@ -69,3 +69,14 @@ description: "家庭咖啡烘焙值得入门，因为设备成本不高，却能
 当第一批自烘焙豆冲出琥珀色液体时，你会理解日本咖啡大师田口护所说的："烘焙是咖啡的第二次生命。"不妨记录每次烘焙的曲线参数，建立专属风味档案。记得在朋友圈分享成果时标注#中国家庭烘焙家话题，或许下一个咖啡KOL就是你。
 
 （本文提及产品链接仅供参考，购买前请确认设备规格与家庭用电环境匹配）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从生豆到杯中艺术：中国家庭咖啡烘焙完全指南](/posts/2025-09-02-181617-cong-sheng-dou-dao-bei-zhong-yi-zhu-zhong-guo-jia-81a44d58/)
+- [从生豆到艺术：中国家庭咖啡烘焙完全指南](/posts/2025-08-01-182231-cong-sheng-dou-dao-yi-zhu-zhong-guo-jia-ting-ka-pe-2e76eece/)
+- [从生豆到芬芳：家庭咖啡烘焙入门指南](/posts/2025-04-18-033624-biao-ti-cong-sheng-dou-dao-fen-fang-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-326d6d3a/)
+- [从生豆到醇香：中国家庭咖啡烘焙完全实践手册](/posts/2025-06-04-181907-cong-sheng-dou-dao-chun-xiang-zhong-guo-jia-ting-k-2f27a476/)
+
+<!-- related-reading-end -->

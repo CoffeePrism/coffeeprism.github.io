@@ -84,3 +84,14 @@ description: "可持续咖啡正通过减少森林砍伐、降低140升单杯虚
 ---  
 **文章字数：1478字**  
 **原创声明：本文基于全球咖啡组织、云南咖啡协会及作者实地调研数据撰写，转载请注明出处。**
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从种子到杯中物：探索可持续咖啡的生态觉醒之路](/posts/2025-09-24-181852-mo-ren-biao-ti-082e2930/)
+- [从种子到杯子的觉醒：解码咖啡产业链中的可持续密码](/posts/2025-07-29-182050-cong-chong-zi-dao-bei-zi-de-jue-xing-jie-ma-ka-pei-30c6db73/)
+- [咖啡种植的环境影响深度解析指南](/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/)
+- [咖啡种植的环境影响：从土壤到杯子的生态启示](/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/)
+
+<!-- related-reading-end -->

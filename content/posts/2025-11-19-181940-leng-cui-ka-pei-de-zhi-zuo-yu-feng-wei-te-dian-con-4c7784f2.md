@@ -105,3 +105,14 @@ author: "Coffee Prism"
 掌握**冷萃咖啡的制作与风味特点**本质上是与时间对话的艺术。从选择适合的云南小粒种咖啡豆，到精准控制18小时萃取时长，每个细节都在重塑最终的杯中风味。建议读者从基础1:10粉水比开始，逐步尝试压力萃取、拼配方案等进阶技法。
 
 不妨在本周末亲手制作一壶冷萃，记录不同时间点的风味变化。欢迎在评论区分享您的独家配方，或咨询具体操作难题。点击收藏本文，随时查阅这份完整的**冷萃咖啡的制作与风味特点**指南，让每个夏日都浸润在自制冷萃的醇香之中。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [冷萃咖啡的制作与风味特点完全攻略](/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [意式浓缩的完美萃取完全攻略与实战技巧](/posts/yi-shi-nong-suo-de-wan-mei-cui-qu-wan-quan-gong-lu/)
+- [越南滴滤咖啡的独特魅力：从文化底蕴到冲煮艺术的完全指南](/posts/2025-12-13-181751-yue-nan-di-lu-ka-pei-de-du-te-mei-li-cong-wen-hua-97b68ff2/)
+
+<!-- related-reading-end -->

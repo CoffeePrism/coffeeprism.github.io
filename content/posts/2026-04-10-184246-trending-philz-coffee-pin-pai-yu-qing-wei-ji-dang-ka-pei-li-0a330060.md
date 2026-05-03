@@ -198,3 +198,14 @@ Philz 事件呈现出三种值得行业警惕的新特征：
 作为 Coffee Prism 编辑部，我们认为，**Philz Coffee 品牌舆情危机**真正刺痛行业的地方，在于它揭示了一个新现实：咖啡连锁价值观不再停留在广告语里，而是会在门店墙面、员工对话和顾客镜头中被实时检验。谁把咖啡馆定义为第三空间，谁就必须承担第三空间的治理责任。
 
 未来的赢家，不一定是表达最鲜明的品牌，但一定是规则最清楚、回应最一致、组织最有判断力的品牌。对咖啡零售业来说，这已经不是“要不要谈价值观”的问题，而是“如何把价值观变成可运营、可解释、可持续的商业能力”。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任](/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/)
+- [咖啡期货回调背后：咖啡豆价格下行是否会传导到中国零售端与全球供应链？](/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/)
+
+<!-- related-reading-end -->

@@ -89,3 +89,14 @@ description: "咖啡中的抗氧化物质确实是其健康价值的重要来源
 **延伸阅读推荐**  
 - 《咖啡化学：从种子到杯子》（James Hoffmann著）  
 - 中国营养学会《咖啡与健康白皮书》（2023版）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与健康：一杯黑金中的抗氧化密码与中国消费者的科学指南](/posts/2025-06-16-181843-mo-ren-biao-ti-fbc8c5f8/)
+- [咖啡与健康：咖啡中的抗氧化物质研究](/posts/2025-04-18-043752-ka-pei-yu-jian-kang-ka-pei-zhong-de-kang-yang-hua-wu-zhi-yan-jiu-51ada251/)
+- [咖啡中的抗氧化奇迹：一杯黑咖如何成为你的健康盟友](/posts/2025-06-21-181604-mo-ren-biao-ti-469912e1/)
+- [咖啡中的抗氧化物质研究深度解析指南](/posts/ka-pei-zhong-de-kang-yang-hua-wu-zhi-yan-jiu-shen/)
+
+<!-- related-reading-end -->

@@ -203,3 +203,14 @@ news_source: "https://news.google.com/rss/articles/CBMivAFBVV95cUxObS1La3BlVGVzM
 作为 Coffee Prism 编辑部，我们的判断是：星巴克这次 AI 点单尝试，真正值得关注的不是“是否酷”，而是它把生成式AI放进了最关键的商业节点——消费者下决定的前一秒。谁能控制这几秒，谁就更接近未来零售的利润中心。
 
 但我们也保持审慎。咖啡不是纯功能型快消品，它仍然需要风味教育、品牌温度和人的判断。AI 可以优化选择，却不应垄断选择。对行业而言，最好的方向不是让机器替消费者决定喝什么，而是让更多消费者更快找到真正适合自己的那一杯。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任](/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/)
+
+<!-- related-reading-end -->

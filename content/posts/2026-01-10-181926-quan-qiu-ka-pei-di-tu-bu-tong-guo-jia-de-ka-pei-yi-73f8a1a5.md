@@ -105,3 +105,14 @@ author: "Coffee Prism"
 ## 结语
 
 当您下次端起咖啡杯时，不妨尝试用**不同国家的咖啡饮用习惯**打开新次元：用20世纪50年代的那不勒斯翻转壶开启早晨，午后效仿挪威人用桦树皮咖啡滤器冲煮，晚间则用叙利亚人传承七世纪的香料配方煮一壶Cardamom Coffee。全球咖啡文化正通过天猫国际的精品豆专区、B站咖啡UP主的技法教学变得触手可及。欢迎在评论区分享您最惊艳的跨国咖啡体验，或点击收藏我们的「世界咖啡地图工具包」。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [深度解析：不同国家的咖啡饮用习惯与文化密码](/posts/2025-11-17-181918-shen-du-jie-xi-bu-tong-guo-jia-de-ka-pei-yin-yong-9a47282b/)
+- [全球咖啡文化巡礼：不同国家的咖啡饮用习惯全解析](/posts/2025-11-26-181705-quan-qiu-ka-pei-wen-hua-xun-li-bu-tong-guo-jia-de-2aea4204/)
+- [全球咖啡文化解密：不同国家的咖啡饮用习惯全攻略](/posts/2025-12-11-181936-quan-qiu-ka-pei-wen-hua-jie-mi-bu-tong-guo-jia-de-c2b1c378/)
+- [咖啡因的生理作用与适宜摄入量：从科学认知到日常实践](/posts/2025-11-02-181547-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-008ef72b/)
+
+<!-- related-reading-end -->

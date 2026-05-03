@@ -50,6 +50,17 @@ description: "虹吸壶咖啡通过蒸汽压力与气压变化完成萃取，兼
 
 无论你是咖啡新手还是资深爱好者，虹吸壶的世界都值得一试。正如每一杯咖啡都有自己的故事，每一次虹吸壶的使用，或许都会开启一段全新的咖啡冒险。让我们一起享受这场科学与艺术的完美邂逅吧！
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [虹吸壶咖啡：科学与艺术的交响曲](/posts/2025-06-01-181704-hong-xi-hu-ka-pei-ke-xue-yu-yi-zhu-de-jiao-xiang-q-adb8f6d8/)
+- [虹吸壶的科学与艺术深度解析指南](/posts/hong-xi-hu-de-ke-xue-yu-yi-zhu-shen-du-jie-xi-zhi/)
+- [虹吸壶的科学与艺术：从实验室到咖啡桌的完全指南](/posts/2025-10-23-181927-hong-xi-hu-de-ke-xue-yu-yi-zhu-cong-shi-yan-shi-da-4b540edc/)
+- [虹吸壶：当实验室仪器成为咖啡艺术家的画布](/posts/2025-08-12-182637-hong-xi-hu-dang-shi-yan-shi-yi-qi-cheng-wei-ka-pei-3eb46e6d/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、10 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载。

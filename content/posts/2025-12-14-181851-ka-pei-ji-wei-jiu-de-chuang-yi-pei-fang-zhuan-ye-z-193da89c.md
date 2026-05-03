@@ -92,3 +92,14 @@ author: "Coffee Prism"
 从掌握基础的**咖啡鸡尾酒的创意配方**原理，到大胆尝试地域特色食材，这场味觉探险的关键在于保持实验精神。建议从「改良经典」入手——比如在爱尔兰咖啡中加入海盐焦糖，或把浓缩咖啡换成氮气冷萃。记录每次调配的精确比例（建议精确到0.5ml），三个月后你会惊讶于自己的进步。
 
 此刻，你的吧台上或许正缺少一杯自创的咖啡调酒。不妨取出尘封的咖啡豆，翻开那本调酒笔记，让咖啡因与酒精的化学反应，点燃属于你的创作灵感。欢迎在评论区分享你的独家配方，或许下一个风靡社交平台的新款咖啡鸡尾酒，就诞生于你的奇妙构想。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡鸡尾酒的创意配方：解锁风味融合的终极指南](/posts/2025-12-29-182153-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-jie-suo-fe-e8f5c11d/)
+- [咖啡与巧克力的完美匹配完全攻略与技巧解析](/posts/ka-pei-yu-qiao-ke-li-de-wan-mei-pi-pei-wan-quan-go/)
+- [咖啡与甜点的风味互补：从入门到精通的实用指南](/posts/2025-12-22-182121-ka-pei-yu-tian-dian-de-feng-wei-hu-bu-cong-ru-men-0ec53a3a/)
+- [咖啡鸡尾酒的创意配方：解锁调饮新境界的完整指南](/posts/2025-11-24-182104-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-jie-suo-di-fe4cbcde/)
+
+<!-- related-reading-end -->

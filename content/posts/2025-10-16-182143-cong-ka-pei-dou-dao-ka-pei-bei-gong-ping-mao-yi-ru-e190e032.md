@@ -79,3 +79,14 @@ description: "公平贸易正通过最低保障价、社区发展金与环保认
 
 **结语**：  
 在咖啡因带来的短暂愉悦之外，或许我们更应该品味那份贯穿产业链的持久回甘。正如东京大学农学教授佐藤究所言："21世纪的咖啡革命，本质上是人类重新学习如何与土地共处的社会实践。"对中国咖啡爱好者而言，这既是一份全球公民的责任，更是重塑本土咖啡文化的绝佳契机。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从种子到杯中物：公平贸易咖啡如何重塑中国咖啡文化的可持续未来](/posts/2025-06-28-181833-mo-ren-biao-ti-e0fc8f1c/)
+- [从豆到杯的觉醒：公平贸易如何重塑中国咖啡文化的可持续未来](/posts/2025-06-29-182001-cong-dou-dao-bei-de-jue-xing-gong-ping-mao-yi-ru-h-fbbacb3c/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的完整指南](/posts/2025-11-20-181951-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-bb03e787/)
+
+<!-- related-reading-end -->

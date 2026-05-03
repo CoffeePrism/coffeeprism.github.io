@@ -75,3 +75,14 @@ description: "判断咖啡完美焙度的黄金时刻，关键看咖啡烘焙中
 **结语**：每一颗咖啡豆都在烘焙中诉说自己的身世密码，而中国消费者正站在“产地直焙”革命的前沿。当你下次打开一包新鲜烘焙的云南咖啡时，不妨先观察它的色泽纹理，轻嗅它的香气层次——这或许比任何杯测分数都更真实动人。  
 
 （全文约1480字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [咖啡烘焙的艺术：如何用视觉与嗅觉捕捉完美瞬间](/posts/2025-05-17-181813-ka-pei-hong-bei-de-yi-zhu-ru-he-yong-shi-jue-yu-xi-78a96df3/)
+- [咖啡烘焙的艺术：捕捉完美时刻的视觉与嗅觉密码](/posts/2025-09-20-181450-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-shi-ke-d-c5ff01c9/)
+- [咖啡烘焙的艺术：捕捉完美烘焙的视觉密码与香气地图](/posts/2025-04-23-181837-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-hong-bei-20f205dc/)
+
+<!-- related-reading-end -->

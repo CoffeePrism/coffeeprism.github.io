@@ -302,3 +302,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/yi-shi-nong-suo-de-wan-mei-cui-
 实现意式浓缩的完美萃取，关键可以归纳为五点：先固定粉液比，再微调研磨；优先解决布粉与通道效应；根据风味而非秒数判断问题；重视豆龄、水质与温度稳定；预算有限时先升级磨豆机和基础工具。对多数人来说，18克粉、36克液重、25到32秒，是非常可靠的起跑线。
 
 接下来最值得做的事，不是继续看更多“神参数”，而是选一支熟悉的豆子，连续记录三天：粉量、液重、时间、风味。你会很快找到属于自己机器和豆子的甜蜜点。浓缩的迷人之处，就在于它足够精密，也足够有个性。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [冷萃咖啡的制作与风味特点完全攻略](/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
+- [越南滴滤咖啡的独特魅力：从文化底蕴到冲煮艺术的完全指南](/posts/2025-12-13-181751-yue-nan-di-lu-ka-pei-de-du-te-mei-li-cong-wen-hua-97b68ff2/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+
+<!-- related-reading-end -->

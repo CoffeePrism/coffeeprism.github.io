@@ -43,3 +43,14 @@ description: "咖啡能与中式早餐完美搭配，关键在风味平衡、口
 
 ## 味觉边疆的拓荒者
 在成都的巷弄深处，有咖啡馆推出"花椒美式配钟水饺"，深圳的早茶楼开始供应"鸳鸯肠粉"(咖啡+奶茶酱)。这些看似离经叛道的尝试，实则是中国咖啡文化走向成熟的重要标志。当我们在晨光中举起咖啡杯，啜饮的不仅是提神饮料，更是在全球化语境下重构本土饮食美学的勇气。明早，不妨试着用景德镇手作杯装云南厌氧发酵咖啡，就着咬下第一口生煎包时溅出的汤汁——这或许就是属于当代中国胃的文艺复兴。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## **《味觉交响曲：探索咖啡与巧克力的科学搭配法则》](/posts/2025-09-07-181514-wei-jue-jiao-xiang-qu-tan-suo-ka-pei-yu-qiao-ke-li-f050fa37/)
+- [咖啡与巧克力的交响诗：解锁风味协同的黄金法则](/posts/2025-08-18-182459-ka-pei-yu-qiao-ke-li-de-jiao-xiang-shi-jie-suo-fen-27e3fbf0/)
+- [咖啡与巧克力的味觉交响：解锁风味搭配的黄金法则](/posts/2025-04-20-030717-ka-pei-yu-qiao-ke-li-de-wei-jue-jiao-xiang-jie-suo-f7fa366d/)
+- [咖啡与异国美食的味觉交响：解锁全球风味搭配密码](/posts/2025-08-05-183305-ka-pei-yu-yi-guo-mei-shi-de-wei-jue-jiao-xiang-jie-5aea4d46/)
+
+<!-- related-reading-end -->

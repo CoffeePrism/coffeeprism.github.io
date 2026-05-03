@@ -114,3 +114,14 @@ author: "Coffee Prism"
 ## 总结
 
 从埃塞俄比亚高原到曼谷街头，**咖啡与异国美食的融合**正在重构现代人的味觉版图。记住这三个行动要点：①建立「风味强度-酸度-温度」三维坐标系 ②优先选择处理法创新的微批次咖啡 ③善用本土食材进行在地化创新。现在就用您手边的云南小粒咖啡尝试搭配腊排骨火锅，在评论区分享您的跨界实验吧！当咖啡杯遇上异国餐盘，每一次冒险都可能诞生下一个风靡全球的经典组合。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与异国美食的融合：从搭配原理到实践指南](/posts/2025-11-13-181857-ka-pei-yu-yi-guo-mei-shi-de-rong-he-cong-da-pei-yu-d10c4880/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+
+<!-- related-reading-end -->

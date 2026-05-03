@@ -109,3 +109,14 @@ author: "Coffee Prism"
 
 ## 总结
 当我们重新梳理**爪哇咖啡的历史与风味特征**，会发现这不仅是一次味觉探索，更是与时空对话的过程。从殖民时期的种植园到现代精品处理站，每一粒咖啡豆都承载着火山岛的呼吸韵律。建议读者下次品鉴时，可尝试对比不同处理法的爪哇咖啡，用味蕾感受三个世纪的风味进化史。欢迎在评论区分享您的爪哇咖啡体验，让我们共同完善这份风味地图。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [爪哇咖啡的历史与风味特征：从产地到杯中的完整指南](/posts/2025-12-18-182232-zhua-wa-ka-pei-de-li-shi-yu-feng-wei-te-zheng-cong-91baa5b2/)
+- [可持续咖啡包装的发展：从环保理念到消费革命的完整指南](/posts/2026-01-08-181907-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-285004a4/)
+- [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
+- [咖啡博物馆与文化中心：探索千年咖啡文明的终极指南](/posts/2026-01-11-181959-ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-tan-suo-qia-a2db29e0/)
+
+<!-- related-reading-end -->

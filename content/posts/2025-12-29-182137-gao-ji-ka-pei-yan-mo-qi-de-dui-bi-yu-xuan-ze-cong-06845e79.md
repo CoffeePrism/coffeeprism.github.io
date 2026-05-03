@@ -100,3 +100,14 @@ author: "Coffee Prism"
 - 本土化内容占比38%  
 - 产品推荐植入3个国内电商平台真实链接  
 - 原创数据引用自SCAE年度报告及实验室实测结果
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [深度解析：高级咖啡研磨器的对比与选择的完整指南](/posts/2025-12-04-182139-shen-du-jie-xi-gao-ji-ka-pei-yan-mo-qi-de-dui-bi-y-832944dc/)
+- [深度解析：高级咖啡研磨器的对比与选择的完整指南](/posts/2026-01-05-182225-shen-du-jie-xi-gao-ji-ka-pei-yan-mo-qi-de-dui-bi-y-80209c19/)
+- [便携咖啡设备的创新与实用性：咖啡爱好者的移动生活革命](/posts/2026-01-23-182930-bian-xi-ka-pei-she-bei-de-chuang-xin-yu-shi-yong-x-e209e389/)
+- [家用咖啡设备的最佳组合完全攻略与选购指南](/posts/jia-yong-ka-pei-she-bei-de-zui-jia-zu-he-wan-quan/)
+
+<!-- related-reading-end -->

@@ -199,3 +199,14 @@ MassLive 报道指出，美国本地咖啡馆与烘焙商正同时承受**咖啡
 作为 Coffee Prism 编辑部，我们认为，这则新闻真正值得关注的，不是“美国几家咖啡馆变难了”，而是它揭示了咖啡行业的新现实：咖啡已经从一个单纯讲风味和空间的生意，变成一个极度依赖全球供应链韧性、成本管理能力与消费者教育效率的行业。
 
 对中国市场而言，下一阶段不会只是“谁更便宜”，而是谁能更清楚地定义自己的价值。平价连锁卖效率，精品馆卖差异化，烘焙商卖稳定与专业。能在这三者之间建立闭环的品牌，才有资格穿越下一轮波动。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡豆价格上涨冲击独立咖啡店：全球咖啡供应链承压下，谁在为一杯咖啡的涨价买单？](/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-du-li-ka-pe/)
+- [咖啡豆价格上涨冲击门店生意：从美国小店困境，看全球咖啡供应链与中国咖啡店涨价逻辑](/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-men-dian-sh/)
+- [咖啡豆价格上涨叠加能源成本攀升，独立咖啡馆经营正进入“薄利高压期”](/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-neng-yuan-ch/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+
+<!-- related-reading-end -->

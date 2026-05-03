@@ -141,3 +141,14 @@ author: "Coffee Prism"
 ## 总结
 
 通过系统的**咖啡副产品的创新利用**，我们不仅能将废弃物转化率为85%以上，更能开辟出意想不到的价值空间。从今日起建立咖啡渣收集习惯，尝试制作简单的除味包或肥料，逐步探索更多可能性。记住关键原则：安全处理是基础，创意应用是核心，持续优化是关键。欢迎在评论区分享你的咖啡副产品改造心得，让我们共同见证这场舌尖上的环保革命。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡产业的碳足迹与减排策略深度解析指南](/posts/ka-pei-chan-ye-de-tan-zu-ji-yu-jian-pai-ce-lue-she/)
+- [咖啡产业的碳足迹与减排策略：从种植到杯中的绿色革命](/posts/2025-11-27-181844-ka-pei-chan-ye-de-tan-zu-ji-yu-jian-pai-ce-lue-con-b9520ce8/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+
+<!-- related-reading-end -->

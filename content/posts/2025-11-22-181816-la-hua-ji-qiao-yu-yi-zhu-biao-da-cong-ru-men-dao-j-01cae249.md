@@ -90,3 +90,14 @@ author: "Coffee Prism"
 掌握**拉花技巧与艺术表达**的本质，是理解「流体控制」与「美学表达」的动态平衡。建议从今日起建立「333训练体系」：每天3次模拟注水、每周3杯实操记录、每月3次作品对比。当你能在奶泡消散前完成一幅完整图案时，不妨在社交媒体发起#我的拉花进化史#话题，与百万中国咖啡爱好者共创视觉盛宴。
 
 （本文提及产品均可通过京东/淘宝官方旗舰店购买，文中实验数据来源：中国咖啡产业研究院2023年度报告）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [拉花技巧与艺术表达：从基础到大师的创作指南](/posts/2025-11-28-181831-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-e5081b5e/)
+- [拉花技巧与艺术表达：从基础到大师的视觉盛宴](/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/)
+- [咖啡与艺术的交融：从入门到精通的实用指南](/posts/2025-12-15-182211-ka-pei-yu-yi-zhu-de-jiao-rong-cong-ru-men-dao-jing-9c2e7bfd/)
+- [咖啡与艺术的交融：从拉花到美学的完整指南](/posts/2026-01-07-182208-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-mei-aecad900/)
+
+<!-- related-reading-end -->

@@ -68,3 +68,14 @@ description: "全球咖啡仪式展现的是不同文明对时间、社交与精
 - 记录年度咖啡风味手帐
 
 （全文约1480字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [世界各地的咖啡仪式与传统深度解析指南](/posts/shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-shen/)
+- [世界各地的咖啡仪式与传统：从入门到精通的沉浸指南](/posts/2026-01-13-182347-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-20b917bf/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [咖啡文明巡礼：解码全球五大咖啡仪式的文化基因](/posts/2025-06-02-182038-ka-pei-wen-ming-xun-li-jie-ma-quan-qiu-wu-da-ka-pe-f5c22481/)
+
+<!-- related-reading-end -->

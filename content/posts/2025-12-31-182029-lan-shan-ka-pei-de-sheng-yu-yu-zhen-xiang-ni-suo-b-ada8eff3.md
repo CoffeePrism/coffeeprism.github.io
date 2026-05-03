@@ -82,3 +82,14 @@ author: "Coffee Prism"
 值得关注的是，云南保山正在培育「中国版蓝山」——铁皮卡变种咖啡已出现类似风味特征。或许未来我们能用1/5的价格享受相近品质，但就此刻而言，真正的蓝山咖啡仍是不可复制的传奇。
 
 当你下次面对高价蓝山咖啡时，不妨先问三个问题：是否有CIB认证？生豆直径是否达标？余韵是否持续3分钟以上？记住，真正的顶级咖啡从不需要用夸张的故事证明自己。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [蓝山咖啡的声誉与真相：从神话到现实的完全指南](/posts/2025-11-23-181722-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-cong-she-a619f9a2/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [单源咖啡的最佳烘焙方式：从入门到精通的实用宝典](/posts/2025-11-21-181930-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-f1abfbf2/)
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+
+<!-- related-reading-end -->

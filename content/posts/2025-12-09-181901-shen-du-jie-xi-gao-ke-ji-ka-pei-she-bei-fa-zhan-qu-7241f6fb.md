@@ -127,3 +127,14 @@ author: "Coffee Prism"
 3. **本土化适配**：优先选择提供中文服务和保修的品牌
 
 按下智能咖啡机的启动键，不仅是开始一次萃取，更是参与一场持续的技术进化。你准备好用科技重新定义咖啡的可能性了吗？欢迎在评论区分享你的智能冲煮故事。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [世界各地的咖啡仪式与传统深度解析指南](/posts/shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-shen/)
+- [咖啡与乳品搭配全攻略：从浓缩到冷萃的黄金法则](/posts/2025-12-28-181956-ka-pei-yu-ru-pin-da-pei-quan-gong-lue-cong-nong-su-6b1d13d9/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+- [咖啡与运动表现的关系：从科学到实践的全攻略](/posts/2025-10-30-181839-ka-pei-yu-yun-dong-biao-xian-de-guan-xi-cong-ke-xu-fc5066ef/)
+
+<!-- related-reading-end -->

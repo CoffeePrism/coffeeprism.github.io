@@ -68,3 +68,14 @@ description: "中国本土咖啡品牌靠精品化、在地化叙事与云南咖
 
 ---  
 **作者注**：本文数据来源均引用自权威行业报告，案例经实地调研与创业者访谈验证。文中推荐产品基于作者实测体验，无商业合作。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## 从豆到杯：中国咖啡创业者的品牌哲学与突围之路](/posts/2025-05-28-181752-cong-dou-dao-bei-zhong-guo-ka-pei-chuang-ye-zhe-de-aa47865c/)
+- [从云南庄园到城市咖啡馆：中国本土咖啡品牌的创业启示录](/posts/2025-06-20-181802-cong-yun-nan-zhuang-yuan-dao-cheng-shi-ka-pei-guan-e8eba8cc/)
+- [从种子到杯中的传奇：中国咖啡创业者的品牌炼金术](/posts/2025-07-26-181830-mo-ren-biao-ti-cea7b58e/)
+- [从豆到杯：中国咖啡创业者的品牌哲学与味觉革命](/posts/2025-05-25-181658-cong-dou-dao-bei-zhong-guo-ka-pei-chuang-ye-zhe-de-44be741a/)
+
+<!-- related-reading-end -->

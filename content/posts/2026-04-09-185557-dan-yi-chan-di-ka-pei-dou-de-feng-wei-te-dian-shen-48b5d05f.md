@@ -308,3 +308,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/dan-yi-chan-di-ka-pei-dou-de-fe
 适合，但要选对豆子。巴西、哥伦比亚、云南这类坚果、可可、焦糖调性明显的单一产地豆，做奶咖通常更和谐。高花香、高酸的单品豆加入牛奶后，风味可能被削弱或显得不协调，需要更有针对性的配方调整。
 
 单一产地咖啡豆的魅力，不在于“贵”或“稀有”，而在于它让风味来源变得可理解、可比较、可记忆。真正值得抓住的重点有四个：先认清产地底色，再理解品种和处理法的影响；用稳定参数冲出风味；避免把“酸”误解成缺点；根据自己的口味和预算做选择。若你正准备开始，最实用的路径是买两到三款不同产地的水洗豆，用同一套器具做横向对比。只要持续记录，你会越来越清楚自己喜欢怎样的单一产地咖啡豆的风味特点，也会更享受每一杯咖啡背后的风土故事。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-11-22-181742-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-8512f98d/)
+
+<!-- related-reading-end -->

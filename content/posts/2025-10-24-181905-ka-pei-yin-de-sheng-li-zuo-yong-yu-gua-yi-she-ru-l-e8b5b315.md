@@ -89,3 +89,14 @@ author: "Coffee Prism"
 ---
 
 掌握**咖啡因的生理作用与适宜摄入量**的本质，是学会与身体建立智慧对话。当你能通过心率变异性数据判断今日是否需要第三杯咖啡，当你可以根据基因检测报告定制专属的咖啡时刻表，才是真正进阶为咖啡生活家。明早拿起咖啡杯时，不妨先用手机记录第一口的时间——科学饮咖的仪式感，就从这份自我觉察开始。欢迎在评论区分享你的咖啡因管理妙招，让我们共同探索清醒与健康的完美平衡点。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2026-01-15-182847-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-de7f3e88/)
+- [咖啡因的生理作用与适宜摄入量：从科学到日常的完整指南](/posts/2025-11-11-181929-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-d33da785/)
+- [低咖啡因咖啡选择与制作方法全攻略：从选豆到冲泡的完整指南](/posts/2025-11-15-181735-di-ka-pei-yin-ka-pei-xuan-ze-yu-zhi-zuo-fang-fa-qu-398a4617/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+
+<!-- related-reading-end -->

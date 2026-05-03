@@ -75,3 +75,14 @@ description: "判断咖啡烘焙是否到位，关键看颜色变化、油脂状
 烘焙的终极目标，是让咖啡豆的风味潜力在杯中完美绽放。当您下次观察豆表油光或细嗅烘焙香气时，请记住：那些颜色与气味的微妙变化，正是咖啡豆跨越地理与时间的风味私语。正如云南保山咖农世代相传的谚语：「好火知豆心」，唯有耐心观察与科学实践的结合，才能解开这枚褐色种子的全部秘密。
 
 **专家私藏贴士**：建立个人「烘焙日志」，用手机拍摄每批豆子的色阶照片，搭配香气笔记，三个月后您将拥有专属风味数据库。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [咖啡烘焙的艺术：如何用视觉与嗅觉捕捉完美瞬间](/posts/2025-05-17-181813-ka-pei-hong-bei-de-yi-zhu-ru-he-yong-shi-jue-yu-xi-78a96df3/)
+- [咖啡烘焙的艺术：捕捉完美烘焙的视觉密码与香气地图](/posts/2025-04-23-181837-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-hong-bei-20f205dc/)
+- [咖啡烘焙的艺术：用五感捕捉豆粒蜕变的黄金时刻](/posts/2025-08-03-182331-ka-pei-hong-bei-de-yi-zhu-yong-wu-gan-bu-zhuo-dou-c73f9cd7/)
+
+<!-- related-reading-end -->

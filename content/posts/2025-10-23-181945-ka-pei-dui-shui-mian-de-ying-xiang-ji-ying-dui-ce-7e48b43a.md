@@ -95,3 +95,14 @@ author: "Coffee Prism"
 ## 总结：掌握咖啡与睡眠的平衡艺术
 
 **咖啡对睡眠的影响及应对策略**本质是场精密的生物化学舞蹈。记住这三个数字：14点（普通人的咖啡截止时间）、50mg（晚间安全剂量上限）、21天（习惯重塑周期）。明早端起咖啡杯时，您已是掌握清醒与沉睡节奏的智者。欢迎在评论区分享您的「咖啡睡眠公式」，让我们共同完善这份现代生活生存指南。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡对睡眠的影响及应对策略：从科学到实践的完整指南](/posts/2025-11-27-181828-ka-pei-dui-shui-mian-de-ying-xiang-ji-ying-dui-ce-e500843c/)
+- [咖啡对睡眠的影响及应对策略：从科学到实践的完全指南](/posts/2025-12-10-182134-ka-pei-dui-shui-mian-de-ying-xiang-ji-ying-dui-ce-48bbd4db/)
+- [低咖啡因选择及其制作方法：咖啡爱好者的科学指南](/posts/2025-10-28-181957-di-ka-pei-yin-xuan-ze-ji-qi-zhi-zuo-fang-fa-ka-pei-5cdc091f/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+
+<!-- related-reading-end -->

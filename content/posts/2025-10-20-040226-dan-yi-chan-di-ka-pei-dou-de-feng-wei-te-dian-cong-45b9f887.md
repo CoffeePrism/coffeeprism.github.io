@@ -84,3 +84,14 @@ V60滤杯的螺旋肋骨设计适合展现埃塞俄比亚豆的复杂花香，Ka
 ## 行动指南：开启你的风味探索之旅
 
 建议从「地域风味对比套装」开始（如「八平方咖啡」的三大洲品鉴包），用同一烘焙度、不同产地的豆子进行横向对比。记录每次冲煮参数与风味变化，逐步建立个人化的**单一产地咖啡豆风味特点**数据库。下次面对咖啡菜单时，你将能精准解码「巴拿马瑰夏」与「哥伦比亚粉波旁」的风味密码，开启真正的精品咖啡之旅。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-11-22-181742-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-8512f98d/)
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+
+<!-- related-reading-end -->

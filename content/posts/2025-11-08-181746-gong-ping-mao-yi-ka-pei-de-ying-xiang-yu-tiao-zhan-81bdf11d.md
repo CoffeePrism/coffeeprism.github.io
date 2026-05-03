@@ -120,3 +120,14 @@ author: "Coffee Prism"
 3. 与朋友分享消费洞察  
 
 留言告诉我们：你愿意为公平贸易咖啡支付多少溢价？你的选择正在改变某个遥远村庄的命运。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [公平贸易咖啡的影响与挑战：从产地到杯中的完整指南](/posts/2025-11-20-181951-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-bb03e787/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [咖啡在烹饪中的创新应用：从调味到烘焙的完整指南](/posts/2025-12-24-182029-ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong-26356fba/)
+- [咖啡对心脏健康的影响：科学解读与实用指南](/posts/2025-12-21-181849-ka-pei-dui-xin-zang-jian-kang-de-ying-xiang-ke-xue-33f0396f/)
+
+<!-- related-reading-end -->

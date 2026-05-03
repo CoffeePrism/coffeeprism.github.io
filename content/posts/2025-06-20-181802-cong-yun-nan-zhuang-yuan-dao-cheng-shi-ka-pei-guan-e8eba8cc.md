@@ -64,3 +64,14 @@ description: "中国本土咖啡品牌的创业启示在于，以云南庄园精
 正如独立烘焙师林夏在《咖啡与中国胃》中所写："当我们学会用紫砂壶的审美看待手冲，用茶席的仪式感对待咖啡时，属于中国的咖啡文明才真正诞生。"  
 
 （全文约1450字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## 从豆到杯：中国咖啡创业者的品牌哲学与突围之路](/posts/2025-05-28-181752-cong-dou-dao-bei-zhong-guo-ka-pei-chuang-ye-zhe-de-aa47865c/)
+- [《咖啡品牌背后的温度叙事：中国创业者的匠心突围》](/posts/2025-08-24-181636-ka-pei-pin-pai-bei-hou-de-wen-du-xu-shi-zhong-guo-17248003/)
+- [从种子到杯中的传奇：中国咖啡创业者的品牌炼金术](/posts/2025-07-26-181830-mo-ren-biao-ti-cea7b58e/)
+- [从豆到杯：中国咖啡创业者的品牌哲学与味觉革命](/posts/2025-05-25-181658-cong-dou-dao-bei-zhong-guo-ka-pei-chuang-ye-zhe-de-44be741a/)
+
+<!-- related-reading-end -->

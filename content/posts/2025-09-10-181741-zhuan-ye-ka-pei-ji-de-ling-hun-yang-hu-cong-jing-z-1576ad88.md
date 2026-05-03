@@ -64,3 +64,14 @@ description: "专业咖啡机的关键在于稳定9Bar压力、92℃±2℃控温
 
 ---  
 **（全文约1450字）**
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [专业咖啡机的功能与维护：从入门到精通的完整指南](/posts/2025-12-07-181754-zhuan-ye-ka-pei-ji-de-gong-neng-yu-wei-hu-cong-ru-2102b217/)
+- [专业咖啡机的核心功能解析与长效养护指南：从萃取科学到日常实践](/posts/2025-04-28-182318-zhuan-ye-ka-pei-ji-de-he-xin-gong-neng-jie-xi-yu-c-89cf9685/)
+- [从萃取到养护：专业咖啡机的核心功能解析与日常操作指南](/posts/2025-04-21-181812-cong-cui-qu-dao-yang-hu-zhuan-ye-ka-pei-ji-de-he-x-a7336da7/)
+- [从萃取艺术到机器养护：专业咖啡机的全方位指南](/posts/2025-06-30-181842-cong-cui-qu-yi-zhu-dao-ji-qi-yang-hu-zhuan-ye-ka-p-2a889cff/)
+
+<!-- related-reading-end -->

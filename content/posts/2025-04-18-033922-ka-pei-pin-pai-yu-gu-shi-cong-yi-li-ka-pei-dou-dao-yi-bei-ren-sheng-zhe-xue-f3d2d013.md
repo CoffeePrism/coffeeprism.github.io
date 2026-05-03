@@ -45,6 +45,17 @@ description: "咖啡品牌的成功，源于对咖啡豆品质、烘焙工艺与
 
 希望每一位咖啡爱好者都能在这杯醇香中，品味到不一样的生活哲学。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## 从豆到杯：中国咖啡创业者的品牌哲学与突围之路](/posts/2025-05-28-181752-cong-dou-dao-bei-zhong-guo-ka-pei-chuang-ye-zhe-de-aa47865c/)
+- [《咖啡品牌背后的温度叙事：中国创业者的匠心突围》](/posts/2025-08-24-181636-ka-pei-pin-pai-bei-hou-de-wen-du-xu-shi-zhong-guo-17248003/)
+- [从云南庄园到城市咖啡馆：中国本土咖啡品牌的创业启示录](/posts/2025-06-20-181802-cong-yun-nan-zhuang-yuan-dao-cheng-shi-ka-pei-guan-e8eba8cc/)
+- [从种子到杯中的传奇：中国咖啡创业者的品牌炼金术](/posts/2025-07-26-181830-mo-ren-biao-ti-cea7b58e/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **Coffee Prism 精品电子书**

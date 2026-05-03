@@ -102,3 +102,14 @@ author: "Coffee Prism"
 从理解奶泡与浓缩的物理对话，到掌握图形构成的美学法则，**拉花技巧与艺术表达**的本质是理性技术与感性创意的完美平衡。建议初学者从「每日三杯」的刻意练习开始，记录每次的奶泡厚度与倾倒速度，进阶者可尝试每月设定一个主题创作（如节气系列、城市印象）。  
 
 当你能在拿铁表面复刻出梵高的《星月夜》，或是用奶泡勾勒出爱人的侧脸轮廓时，便会真正领悟：每一杯咖啡拉花都是液态画布上的即兴演出。期待你在评论区分享创作心得，或展示那些令你自豪的咖啡艺术作品。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [拉花技巧与艺术表达：从入门到精通的视觉盛宴](/posts/2025-11-22-181816-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ru-men-dao-j-01cae249/)
+- [拉花技巧与艺术表达：从基础到大师的视觉盛宴](/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/)
+- [咖啡与艺术的交融：从拉花到美学的完整指南](/posts/2026-01-07-182208-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-mei-aecad900/)
+- [土耳其咖啡的传统冲泡方法：千年技艺与现代演绎](/posts/2025-11-15-181659-tu-er-qi-ka-pei-de-chuan-tong-chong-pao-fang-fa-qi-16b3789b/)
+
+<!-- related-reading-end -->

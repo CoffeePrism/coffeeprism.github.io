@@ -79,3 +79,14 @@ description: "中国咖啡爱好者可通过选择可持续咖啡、自带杯、
 4. 将本文转发给三位咖啡好友
 
 （本文提及产品链接仅供可持续消费参考，购买前请确认最新认证信息）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从一杯咖啡到绿色未来：中国消费者如何用选择守护可持续咖啡生态](/posts/2025-08-25-181940-mo-ren-biao-ti-71703762/)
+- [从豆到杯的绿色革命：中国咖啡爱好者如何推动可持续咖啡未来](/posts/2025-04-23-181804-mo-ren-biao-ti-7cf3073c/)
+- [从豆到杯的绿色革命：中国咖啡爱好者如何支持可持续咖啡未来](/posts/2025-08-07-182110-cong-dou-dao-bei-de-lu-se-ge-ming-zhong-guo-ka-pei-2a2f6f09/)
+- [从豆到杯的绿色革命：中国咖啡爱好者如何用日常选择支持可持续咖啡](/posts/2025-04-20-181813-cong-dou-dao-bei-de-lu-se-ge-ming-zhong-guo-ka-pei-60dee454/)
+
+<!-- related-reading-end -->

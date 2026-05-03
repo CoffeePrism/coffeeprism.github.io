@@ -89,3 +89,14 @@ author: "Coffee Prism"
 ## 实践出真知
 
 掌握**法压壶的最佳使用方法**需要理解「时间、温度、研磨」的三角关系。建议从15g粉/250ml水的标准比例开始，每次调整单个变量做风味记录。明早起床时，不妨用文中技巧冲煮一壶，感受咖啡油脂在舌尖绽放的曼妙体验。欢迎在评论区分享你的独家心得——咖啡的世界，本就该充满探索的乐趣。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [法压壶的最佳使用方法完全攻略：从入门到进阶技巧](/posts/fa-ya-hu-de-zui-jia-shi-yong-fang-fa-wan-quan-gong/)
+- [法压壶的最佳使用方法：从入门到精通的实用指南](/posts/2025-11-13-181914-fa-ya-hu-de-zui-jia-shi-yong-fang-fa-cong-ru-men-d-625870cb/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+
+<!-- related-reading-end -->

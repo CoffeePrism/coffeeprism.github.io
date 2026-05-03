@@ -36,3 +36,14 @@ description: "全球咖啡博物馆与文化中心值得去吗？值得，这是
 3. 本土化品鉴：中国胃更适合日晒处理的云南豆，参观国际场馆时可重点留意类似处理法的展品
 
 站在柏林咖啡博物馆的世纪咖啡交易地图前，那些连接也门摩卡港与上海十六铺码头的古老航线，此刻正化作杯中涟漪。当中国咖啡爱好者带着自家烘焙的云南豆走进埃塞俄比亚的咖啡仪式，这场跨越六个世纪的对话，才刚刚开始谱写新的章节。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡博物馆与文化中心完全攻略指南](/posts/ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-wan-quan-go/)
+- [咖啡博物馆与文化中心：探索千年咖啡文明的终极指南](/posts/2026-01-11-181959-ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-tan-suo-qia-a2db29e0/)
+- [咖啡博物馆与文化中心：沉浸式探索咖啡文明的完整指南](/posts/2025-12-30-182131-ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-chen-jin-sh-5c360333/)
+- [咖啡文明之旅：全球博物馆与文化中心的沉浸式体验](/posts/2025-04-18-201347-ka-pei-wen-ming-zhi-lu-quan-qiu-bo-wu-guan-yu-wen-b8259582/)
+
+<!-- related-reading-end -->

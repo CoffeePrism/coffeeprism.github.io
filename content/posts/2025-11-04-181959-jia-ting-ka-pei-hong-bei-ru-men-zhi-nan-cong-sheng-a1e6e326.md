@@ -86,3 +86,14 @@ author: "Coffee Prism"
 ## 总结
 
 掌握**家庭咖啡烘焙入门指南**的核心在于理解热量传递与化学反应的关系。建议从每次150g小批量烘焙开始，记录每次的升温曲线和杯测感受。当你能稳定复现耶加雪菲的茉莉花香时，不妨尝试拼配不同产区的生豆——或许下一个令咖啡圈惊艳的风味组合就诞生在你的厨房。现在取出尘封的平底锅，购买100g云南小粒咖啡生豆，开启你的家庭烘焙实验吧！欢迎在评论区分享你的首次烘焙经历，我们将抽取三位读者赠送精品咖啡生豆体验包。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单源咖啡的最佳烘焙方式：从风味解锁到精准掌控的完全手册](/posts/2025-11-23-181734-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-afc6f806/)
+- [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
+- [烘焙咖啡的保鲜与储存完全指南：从新手到行家的必修课](/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+
+<!-- related-reading-end -->

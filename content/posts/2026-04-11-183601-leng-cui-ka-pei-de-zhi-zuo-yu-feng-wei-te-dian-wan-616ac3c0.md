@@ -292,3 +292,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/leng-cui-ka-pei-de-zhi-zuo-yu-f
 ## 总结
 
 做好冷萃，关键就抓住几件事：选适配豆子、使用中粗研磨、把粉水比放在1:10到1:15之间、控制冷藏8-16小时，并认真过滤。冷萃咖啡的制作与风味特点，不只是“低酸顺口”，更在于它能通过时间与温度塑造出不同于热萃的甜感、厚度和尾韵。最值得执行的动作是先固定一套基础配方，再一次只改一个变量，连续记录3次以上。只要开始动手，你很快就能找到最适合自己口味的冷萃风格。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [意式浓缩的完美萃取完全攻略与实战技巧](/posts/yi-shi-nong-suo-de-wan-mei-cui-qu-wan-quan-gong-lu/)
+- [越南滴滤咖啡的独特魅力：从文化底蕴到冲煮艺术的完全指南](/posts/2025-12-13-181751-yue-nan-di-lu-ka-pei-de-du-te-mei-li-cong-wen-hua-97b68ff2/)
+
+<!-- related-reading-end -->

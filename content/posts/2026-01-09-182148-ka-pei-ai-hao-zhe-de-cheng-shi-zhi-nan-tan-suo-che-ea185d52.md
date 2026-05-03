@@ -106,3 +106,14 @@ author: "Coffee Prism"
 建立个人咖啡城市指南需持续实践与记录。建议每月更新探店地图，参与本地咖啡社群活动，逐步培养空间与味觉的双重敏感度。中国咖啡市场正以每年25%增速扩张，掌握这套方法论将使你在咖啡浪潮中始终领先。
 
 立即打开地图App标记5家目标咖啡馆，带上本指南开启你的城市咖啡探索之旅。欢迎在评论区分享你的独家探店心得，让我们共同绘制更完整的中国咖啡风味版图。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极指南](/posts/2025-12-02-182157-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-e0fddd17/)
+- [咖啡爱好者的城市指南完全攻略：从打卡到深度喝懂一座城](/posts/ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-wan-quan-go/)
+- [咖啡爱好者的城市指南：探索城市香醇地图](/posts/2026-01-16-182147-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ddbba775/)
+- [咖啡爱好者的城市指南：解锁城市咖啡地图的终极手册](/posts/2025-11-19-182007-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-jie-suo-che-a3e4910b/)
+
+<!-- related-reading-end -->

@@ -69,3 +69,14 @@ description: "咖啡与早餐怎么搭配最适合中国胃？关键在平衡酸
 ---
 
 清晨的阳光穿过咖啡杯上升的雾气，这是属于中国咖啡爱好者的独特浪漫。当阿拉比卡遇见小笼包，当处理法对话老传统，每一次搭配都是文化碰撞的诗篇。明早，你准备好谱写自己的早餐协奏曲了吗？
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## **《味觉交响曲：探索咖啡与巧克力的科学搭配法则》](/posts/2025-09-07-181514-wei-jue-jiao-xiang-qu-tan-suo-ka-pei-yu-qiao-ke-li-f050fa37/)
+- [咖啡与巧克力的交响诗：解锁风味协同的黄金法则](/posts/2025-08-18-182459-ka-pei-yu-qiao-ke-li-de-jiao-xiang-shi-jie-suo-fen-27e3fbf0/)
+- [咖啡与巧克力的味觉交响：解锁风味搭配的黄金法则](/posts/2025-04-20-030717-ka-pei-yu-qiao-ke-li-de-wei-jue-jiao-xiang-jie-suo-f7fa366d/)
+- [咖啡与异国美食的味觉交响：解锁全球风味搭配密码](/posts/2025-08-05-183305-ka-pei-yu-yi-guo-mei-shi-de-wei-jue-jiao-xiang-jie-5aea4d46/)
+
+<!-- related-reading-end -->

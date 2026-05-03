@@ -108,3 +108,14 @@ author: "Coffee Prism"
 现在登录「World Coffee Research」官网，查询2024年全球咖啡花期预报。建议首次体验者选择国内成熟路线（如云南保山+普洱10日游），搭配[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，在旅途中随时品鉴不同处理法的风味差异。
 
 记住：真正的**咖啡产地旅行指南**不仅是路线规划，更是对咖啡文明的深度对话。当你站在卢旺达火山土壤上，亲手触摸咖啡树的年轮时，那杯日常的咖啡将永远不再平凡。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [咖啡旅行中的文化体验：从产地到杯中的沉浸之旅](/posts/2025-11-04-181921-ka-pei-lu-xing-zhong-de-wen-hua-ti-yan-cong-chan-d-d3ee01e5/)
+
+<!-- related-reading-end -->

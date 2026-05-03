@@ -52,3 +52,14 @@ description: "咖啡与异国美食如何搭配更出彩？关键在风味共振
 ---
 
 在全球化与在地化交织的当代饮食图景中，咖啡早已超越单纯的饮品范畴，成为连接不同文化的味觉媒介。当我们在上海弄堂咖啡馆里啜饮着肯尼亚AA搭配粢饭团，或是在大理古城用虹吸壶煮的曼特宁配乳扇时，实际上正在参与一场跨越时空的味觉对话。这种探索没有标准答案，唯有保持开放的心态与敏锐的味蕾，方能在咖啡与美食的共振中，听见世界的心跳。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## **《味觉交响曲：探索咖啡与巧克力的科学搭配法则》](/posts/2025-09-07-181514-wei-jue-jiao-xiang-qu-tan-suo-ka-pei-yu-qiao-ke-li-f050fa37/)
+- [咖啡与巧克力的交响诗：解锁风味协同的黄金法则](/posts/2025-08-18-182459-ka-pei-yu-qiao-ke-li-de-jiao-xiang-shi-jie-suo-fen-27e3fbf0/)
+- [咖啡与巧克力的味觉交响：解锁风味搭配的黄金法则](/posts/2025-04-20-030717-ka-pei-yu-qiao-ke-li-de-wei-jue-jiao-xiang-jie-suo-f7fa366d/)
+- [咖啡与异国美食的味觉交响：解锁全球风味搭配密码](/posts/2025-08-05-183305-ka-pei-yu-yi-guo-mei-shi-de-wei-jue-jiao-xiang-jie-5aea4d46/)
+
+<!-- related-reading-end -->

@@ -52,3 +52,14 @@ description: "冷萃咖啡是在0-10℃下经12-24小时慢速萃取的咖啡，
 3. **储存的奥秘**：密封冷藏的冷萃液在72小时内风味稳定，加入1%食用酒精可延长至7天
 
 当您下次拉开冰箱门，看到那瓶正在缓慢萃取的咖啡液时，请记住：每一滴琥珀色的液体都在诉说着时间的力量。冷萃咖啡教会我们的不仅是制作技巧，更是一种在快节奏时代里与自我对话的生活哲学。在这个夏天，让我们用耐心唤醒咖啡豆沉睡的甘甜，用一杯冷萃丈量时光的深度。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [冷萃咖啡完全指南：解锁夏日专属的丝滑风味密码](/posts/2025-05-21-181900-leng-cui-ka-pei-wan-quan-zhi-nan-jie-suo-xia-ri-zh-0c956425/)
+- [冷萃咖啡的制作与风味特点完全攻略](/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
+
+<!-- related-reading-end -->

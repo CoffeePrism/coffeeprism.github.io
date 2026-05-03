@@ -121,3 +121,14 @@ author: "Coffee Prism"
 4. 改进方向
 
 现在就到厨房，拿出那包尘封的咖啡豆和酒柜深处的基酒，开始你的第一次风味实验吧！欢迎在评论区分享你的独家配方，我们将挑选最具创意的三个作品进行专业点评。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡鸡尾酒的创意配方：专业指南与灵感宝库](/posts/2025-12-14-181851-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-zhuan-ye-z-193da89c/)
+- [咖啡鸡尾酒的创意配方：解锁调饮新境界的完整指南](/posts/2025-11-24-182104-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-jie-suo-di-fe4cbcde/)
+- [咖啡与早餐的最佳组合完全攻略与深度解析](/posts/ka-pei-yu-zao-can-de-zui-jia-zu-he-wan-quan-gong-l/)
+- [咖啡在烹饪中的创新应用完全攻略与实战技巧](/posts/ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong/)
+
+<!-- related-reading-end -->

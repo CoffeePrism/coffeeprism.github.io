@@ -169,3 +169,14 @@ news_source: "https://news.google.com/rss/articles/CBMitwFBVV95cUxNRTAyOVpYU1pDS
 ## 专家观点/编辑点评
 
 作为 Coffee Prism 编辑部，我们认为，路透这则新闻最值得重视的，不是“美国人更爱在家喝咖啡”这个表层现象，而是它揭示了一个更深的行业拐点：咖啡的主战场，正从单一门店扩展为多场景系统竞争。谁能同时占领消费者的厨房、办公桌和社交空间，谁才真正拥有下一阶段的增长权。对中国市场而言，现在讨论的不应只是“还要不要继续开店”，而是“如何让品牌在门店之外仍然每天被喝到”。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任](/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/)
+
+<!-- related-reading-end -->

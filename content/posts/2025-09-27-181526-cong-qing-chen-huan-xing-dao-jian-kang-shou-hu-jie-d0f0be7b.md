@@ -89,3 +89,14 @@ description: "咖啡因通过阻断腺苷受体、激活多巴胺与肾上腺素
 当我们在上海街角的精品咖啡馆品尝耶加雪菲，或是在家中精心冲煮云南厌氧发酵豆时，对咖啡因的科学认知不应缺席。这种存在了千年的生物碱，既是自然馈赠的提神良药，也需要现代人用知识驾驭的智慧。记住：最好的咖啡体验，永远是让身体舒适与精神愉悦达成完美平衡的那一杯。
 
 （本文提及产品链接仅供参考，具体购买请根据个人需求选择）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与健康：咖啡因的生理作用与适宜摄入量](/posts/2025-04-18-044507-ka-pei-yu-jian-kang-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-liang-75030dd7/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完全指南](/posts/2025-10-24-181905-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-e8b5b315/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2025-12-28-182031-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-209cdb84/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2026-01-15-182847-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-de7f3e88/)
+
+<!-- related-reading-end -->

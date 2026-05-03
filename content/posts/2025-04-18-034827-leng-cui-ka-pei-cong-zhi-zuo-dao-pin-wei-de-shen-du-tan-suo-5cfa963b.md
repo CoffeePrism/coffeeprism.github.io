@@ -57,6 +57,17 @@ description: "在家制作冷萃咖啡的关键，是选用新鲜中浅烘焙咖
 
 冷萃咖啡的魅力在于它的多样性和包容性。无论你是寻求一杯简单的早晨唤醒，还是午后的清凉解暑，冷萃咖啡都能满足你的需求。希望本文能为你揭开冷萃咖啡的神秘面纱，助你在家中制作出完美的一杯。享受这份来自咖啡世界的独特礼物吧！
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [冷萃咖啡完全指南：解锁夏日专属的丝滑风味密码](/posts/2025-05-21-181900-leng-cui-ka-pei-wan-quan-zhi-nan-jie-suo-xia-ri-zh-0c956425/)
+- [冷萃咖啡的制作与风味特点完全攻略](/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、10 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载。

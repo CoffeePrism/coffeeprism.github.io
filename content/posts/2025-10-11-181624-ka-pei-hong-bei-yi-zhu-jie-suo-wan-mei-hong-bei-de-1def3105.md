@@ -72,3 +72,14 @@ description: "咖啡烘焙的关键在于精准控制热量与时间，并通过
 当晨光穿透咖啡馆的落地窗，那些在烘焙中淬炼出的琥珀色油脂，正在诉说一粒咖啡豆的前世今生。记住：完美烘焙不是终点，而是开启风味的钥匙。正如杭州径山寺的禅茶一味，咖啡烘焙亦是连接天、地、人的修行之道。
 
 （全文约1420字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [咖啡烘焙的艺术：如何用视觉与嗅觉捕捉完美瞬间](/posts/2025-05-17-181813-ka-pei-hong-bei-de-yi-zhu-ru-he-yong-shi-jue-yu-xi-78a96df3/)
+- [咖啡烘焙的艺术：捕捉完美时刻的视觉与嗅觉密码](/posts/2025-09-20-181450-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-shi-ke-d-c5ff01c9/)
+- [咖啡烘焙的艺术：捕捉完美烘焙的视觉密码与香气地图](/posts/2025-04-23-181837-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-hong-bei-20f205dc/)
+
+<!-- related-reading-end -->

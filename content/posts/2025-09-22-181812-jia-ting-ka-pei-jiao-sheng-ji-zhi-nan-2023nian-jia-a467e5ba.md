@@ -70,3 +70,14 @@ description: "家庭咖啡角升级的关键，是按风味需求与预算搭配
 ---
 
 当夕阳为咖啡杯镀上金边时，那些精心挑选的器具早已超越工具属性，成为现代人对抗生活庸常的仪式铠甲。记住：最好的家庭咖啡系统，不在于设备价格标签上的数字，而在于每个清晨都能让你期待与咖啡重逢的那份心动。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从手冲到意式：中国家庭咖啡角的科学配置指南](/posts/2025-07-21-182014-cong-shou-chong-dao-yi-shi-zhong-guo-jia-ting-ka-p-8f742fbf/)
+- [在家打造专属咖啡角：中国家庭咖啡设备组合的黄金公式](/posts/2025-05-16-181813-zai-jia-da-zao-zhuan-shu-ka-pei-jiao-zhong-guo-jia-ca93785e/)
+- [家用咖啡设备的最佳组合完全攻略与选购指南](/posts/jia-yong-ka-pei-she-bei-de-zui-jia-zu-he-wan-quan/)
+- [家用咖啡设备的最佳组合：从入门到精通的实用指南](/posts/2025-10-22-040233-jia-yong-ka-pei-she-bei-de-zui-jia-zu-he-cong-ru-m-a52d7a6f/)
+
+<!-- related-reading-end -->

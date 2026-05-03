@@ -110,3 +110,14 @@ author: "Coffee Prism"
 3. 搭配黑麦面包完成「中国版Fika时刻」  
 
 当您用国产V60滤杯冲煮出哥本哈根咖啡馆水准的咖啡时，会发现自己已不仅是咖啡消费者，更是北欧生活美学的实践者。欢迎在评论区分享您的北欧咖啡体验，让我们共同探索这杯黑色饮品的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [北欧咖啡文化与品牌特色深度解析指南](/posts/bei-ou-ka-pei-wen-hua-yu-pin-pai-te-se-shen-du-jie/)
+- [咖啡创业者的成功故事深度解析与实战指南](/posts/ka-pei-chuang-ye-zhe-de-cheng-gong-gu-shi-shen-du/)
+- [意大利经典咖啡品牌的历史深度解析指南](/posts/yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-shen-d/)
+- [意大利经典咖啡品牌的历史：从Espresso到现代生活的百年传奇](/posts/2026-01-09-182209-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-cong-e-41a48cb6/)
+
+<!-- related-reading-end -->

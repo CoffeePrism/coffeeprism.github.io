@@ -99,3 +99,14 @@ author: "Coffee Prism"
 3. **拼配比例盲测**：从10%罗布斯塔拼配开始逐步增加比例
 
 当你在星巴克点中杯美式时，不妨问店员使用的豆种比例——这不仅是**阿拉比卡与罗布斯塔的区别与特点**的知识实践，更是咖啡品鉴能力的进阶勋章。欢迎在评论区分享你的品种盲测体验，让我们共同探索咖啡世界的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+- [哥伦比亚咖啡豆的特色与历史：从入门到精通的实用宝典](/posts/2025-11-02-181524-ge-lun-bi-ya-ka-pei-dou-de-te-se-yu-li-shi-cong-ru-937bcd1e/)
+
+<!-- related-reading-end -->

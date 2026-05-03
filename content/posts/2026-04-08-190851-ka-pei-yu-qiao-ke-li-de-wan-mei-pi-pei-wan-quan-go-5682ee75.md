@@ -306,3 +306,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-yu-qiao-ke-li-de-wan-mei
 
 真正稳定的**咖啡与巧克力的完美匹配**，离不开三个核心动作：先理解风味桥接，再控制酸甜苦平衡，最后用可重复的参数去验证。入门时，优先选择中烘咖啡配65%-75%黑巧，或奶咖配榛果牛奶巧，这两条路线最不容易出错。接着，用“先喝咖啡、再吃巧克力、再回喝”的简单流程做记录，你会很快找到自己的偏好。  
 如果已经有手冲壶或意式机，不妨这个周末就做一次三组对比：同一杯咖啡配三种巧克力。风味训练并不神秘，只要多试几次，你会发现每一块巧克力都可能让杯中咖啡说出不同的故事。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与甜点的风味互补：从入门到精通的实用指南](/posts/2025-12-22-182121-ka-pei-yu-tian-dian-de-feng-wei-hu-bu-cong-ru-men-0ec53a3a/)
+- [咖啡鸡尾酒的创意配方：专业指南与灵感宝库](/posts/2025-12-14-181851-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-zhuan-ye-z-193da89c/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+
+<!-- related-reading-end -->

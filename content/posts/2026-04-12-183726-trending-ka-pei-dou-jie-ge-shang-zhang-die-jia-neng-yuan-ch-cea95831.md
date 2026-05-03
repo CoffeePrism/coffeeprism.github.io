@@ -200,3 +200,14 @@ news_source: "https://news.google.com/rss/articles/CBMiggJBVV95cUxQczZ3ZklBOGM4a
 Coffee Prism 编辑部的判断是，这条新闻值得中国咖啡从业者高度重视，因为它并不是“美国本地小店的烦恼”，而是全球咖啡零售正在同步经历的成本重估。**咖啡豆价格上涨**只是表层，真正深层的问题是：当原料、能源和运营费用同时抬升，一家店究竟靠什么建立利润和复购。
 
 未来能活得更好的，不一定是卖得最便宜的，也不一定是装潢最精致的，而是那些把供应链效率、产品差异化和顾客关系真正做成体系的品牌。对独立咖啡馆来说，接下来比拼的将不是情怀，而是经营基本功。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡豆价格上涨冲击独立咖啡店：全球咖啡供应链承压下，谁在为一杯咖啡的涨价买单？](/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-du-li-ka-pe/)
+- [咖啡豆价格上涨冲击门店生意：从美国小店困境，看全球咖啡供应链与中国咖啡店涨价逻辑](/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-men-dian-sh/)
+- [咖啡豆价格上涨叠加关税与通胀：美国咖啡馆经营压力，正在给中国市场敲响什么警钟？](/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-guan-shui-yu/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+
+<!-- related-reading-end -->

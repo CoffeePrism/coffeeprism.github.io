@@ -60,6 +60,16 @@ It’s a risk, but buying a house with a life interest on it can pay off
 
 无论您是刚开始探索咖啡世界的新手，还是资深的咖啡鉴赏家，现在都是深入了解这一迷人饮品的绝佳时机。让我们共同期待咖啡行业的更多创新。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [2024年咖啡行业新趋势：消费量创新高与可持续发展](/posts/2025-04-16-2024nian-ka-pei-xing-ye-xin-qu-shi-xiao-fei-liang-chuang-xin-gao-yu-ke-chi-xu-fa-zhan/)
+- [咖啡与科学：夜间实验室能否助您安眠？](/posts/2025-04-16-ka-pei-yu-ke-xue-ye-jian-shi-yan-shi-neng-fou-zhu-nin-an-mian/)
+- [为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人](/posts/complete-guide-launch/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **Coffee Prism 精品电子书**

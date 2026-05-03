@@ -1144,8 +1144,46 @@ news_source: "{news_item.get('link', '')}"
 
 
 def process_and_save_article(article_content, topic, label=""):
-    """文章后处理通用流程：质量检查 -> Amazon链接 -> 保存"""
+    """文章后处理通用流程：硬质量门槛 -> Amazon链接 -> 保存。
+
+    硬质量门槛（不达标的直接跳过，不写入仓库）：
+    1. title 必须能从内容里成功提取（不能 fallback 到「默认标题」）
+    2. 文章正文字符数（去空白后）必须 >= MIN_CHARS
+    3. 标题不能与已发布文章重名（防 keyword 内卷）
+    """
+    MIN_CHARS = 1500  # 历史问题：80% 文章 < 200 字。强制下限避免再产出薄内容
     title, _ = extract_title(article_content)
+
+    # Gate 1: title 提取失败
+    if not title or title in ("默认标题", "---") or title.startswith("##"):
+        print(f"❌ {label}标题提取失败（得到 '{title}'），跳过本篇不写入仓库")
+        return False
+
+    # Gate 2: 字数下限
+    char_count = len(article_content.replace(' ', '').replace('\n', '').replace('\t', ''))
+    if char_count < MIN_CHARS:
+        print(f"❌ {label}文章过短（{char_count} 字 < {MIN_CHARS}），跳过本篇不写入仓库")
+        return False
+
+    # Gate 3: 重名标题检测
+    try:
+        existing_titles = set()
+        for p in Path("content/posts").glob("*.md"):
+            try:
+                with open(p, encoding="utf-8") as f:
+                    for line in f:
+                        if line.startswith("title:"):
+                            t = line.split("title:", 1)[1].strip().strip('"').strip("'")
+                            if t:
+                                existing_titles.add(t)
+                            break
+            except Exception:
+                continue
+        if title in existing_titles:
+            print(f"❌ {label}标题「{title}」已存在，跳过避免关键词内卷")
+            return False
+    except Exception as e:
+        print(f"⚠️  重名检查跳过（非致命）：{e}")
 
     try:
         check_content_quality(article_content, title, topic['specific_topic'])

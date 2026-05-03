@@ -66,3 +66,7 @@ products/*_debug.html
 worker/node_modules/
 worker/.wrangler/
 worker/.dev.vars
+
+# Python
+scripts/__pycache__/
+*.pyc

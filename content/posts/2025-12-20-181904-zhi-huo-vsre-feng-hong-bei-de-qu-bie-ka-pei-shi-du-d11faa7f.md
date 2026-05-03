@@ -95,3 +95,14 @@ author: "Coffee Prism"
 
 ## 总结
 理解**直火vs热风烘焙的区别**，本质是掌握两种能量传递方式对咖啡物质转化的影响。直火的层次感来自温差造就的梯度反应，热风的纯净度源于均匀的热传导。建议读者从日常饮用的咖啡豆反向推导：偏爱醇厚body选直火烘焙，追求清晰风味选热风烘焙。下次购买咖啡豆时，不妨留意包装上的烘焙方式标注，这可能会成为你发现真爱风味的重要线索。欢迎在评论区分享你的烘焙体验，或留下遇到的烘焙难题。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
+- [单源咖啡的最佳烘焙方式：从入门到精通的实用宝典](/posts/2025-11-21-181930-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-f1abfbf2/)
+- [咖啡烘焙技术的历史发展：从火焰到科技的完整指南](/posts/2025-12-25-181942-ka-pei-hong-bei-ji-zhu-de-li-shi-fa-zhan-cong-huo-4fe658ae/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+
+<!-- related-reading-end -->

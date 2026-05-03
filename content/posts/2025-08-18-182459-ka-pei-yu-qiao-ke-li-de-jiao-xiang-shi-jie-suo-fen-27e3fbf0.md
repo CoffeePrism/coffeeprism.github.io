@@ -43,3 +43,14 @@ description: "咖啡与巧克力搭配的核心，在于依据烘焙度、可可
 4. 搭配实验时建议使用[风味轮记录本](https://www.amazon.com/s?k=%E9%A3%8E%E5%91%B3%E8%BD%AE%E8%AE%B0%E5%BD%95%E6%9C%AC&tag=coffeeprism-20)，系统追踪味觉变化
 
 在这场持续了六个世纪的风味对话中，中国咖啡爱好者正在书写新的篇章。从云南保山的咖啡庄园到上海浦东的甜品实验室，每一次创新的搭配都在重构着我们对这两种神奇作物的认知。当你下次举起咖啡杯时，不妨让巧克力成为打开风味宇宙的新钥匙——这或许就是文明交融最甜蜜的注解。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## **《味觉交响曲：探索咖啡与巧克力的科学搭配法则》](/posts/2025-09-07-181514-wei-jue-jiao-xiang-qu-tan-suo-ka-pei-yu-qiao-ke-li-f050fa37/)
+- [咖啡与巧克力的味觉交响：解锁风味搭配的黄金法则](/posts/2025-04-20-030717-ka-pei-yu-qiao-ke-li-de-wei-jue-jiao-xiang-jie-suo-f7fa366d/)
+- [咖啡与异国美食的味觉交响：解锁全球风味搭配密码](/posts/2025-08-05-183305-ka-pei-yu-yi-guo-mei-shi-de-wei-jue-jiao-xiang-jie-5aea4d46/)
+- [咖啡与异国美食的味觉交响：解锁全球风味的搭配艺术](/posts/2025-07-09-183140-mo-ren-biao-ti-1f4f76a7/)
+
+<!-- related-reading-end -->

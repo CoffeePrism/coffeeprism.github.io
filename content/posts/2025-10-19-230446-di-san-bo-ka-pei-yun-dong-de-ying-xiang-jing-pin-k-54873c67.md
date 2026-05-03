@@ -103,3 +103,14 @@ author: "Coffee Prism"
 **第三波咖啡运动的影响**已超越单纯的饮品革新，它构建起从种植者到消费者的价值共同体。当你下次端起咖啡杯时，不妨关注豆袋上的处理法信息，或用手机记录冲煮参数——这些微小行动，正是参与这场变革的最佳方式。
 
 建议初学者从「每月尝鲜一支国内产区豆」开始，进阶者可尝试杯测会（北上广深每周有3-5场免费活动）。记住：精品咖啡的本质不是昂贵，而是对每个细节的尊重与探索。期待在评论区看到你的独家冲煮心得！
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+- [意大利经典咖啡品牌的历史深度解析指南](/posts/yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-shen-d/)
+- [意大利经典咖啡品牌的历史：从Espresso到现代生活的百年传奇](/posts/2026-01-09-182209-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-cong-e-41a48cb6/)
+- [世界各地的咖啡仪式与传统深度解析指南](/posts/shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-shen/)
+
+<!-- related-reading-end -->

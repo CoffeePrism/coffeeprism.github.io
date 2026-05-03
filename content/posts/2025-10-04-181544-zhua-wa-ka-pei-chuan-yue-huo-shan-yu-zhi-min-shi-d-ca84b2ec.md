@@ -89,3 +89,14 @@ description: "爪哇咖啡是印尼最具历史底蕴的咖啡豆之一，凭借
 ---
 
 站在上海精品咖啡馆的品鉴台前，当深褐色的爪哇咖啡注入骨瓷杯的瞬间，升腾的热气中仿佛带着赤道季风的气息。这种历经四个世纪的东方咖啡传奇，正以其独特的火山岩印记，在第三波咖啡浪潮中书写新的篇章。下次打开咖啡豆单时，不妨给这个承载着殖民血泪与农人智慧的品种一次机会，或许你会找到属于东方的风味密码。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [爪哇咖啡的历史与风味特征：从产地到杯中的完整指南](/posts/2025-12-18-182232-zhua-wa-ka-pei-de-li-shi-yu-feng-wei-te-zheng-cong-91baa5b2/)
+- [爪哇咖啡的历史与风味特征：从入门到精通的完整指南](/posts/2025-10-24-181933-zhua-wa-ka-pei-de-li-shi-yu-feng-wei-te-zheng-cong-80bd92a6/)
+- [穿越时空的咖啡传奇：爪哇咖啡的百年风味密码](/posts/2025-10-16-181956-chuan-yue-shi-kong-de-ka-pei-chuan-qi-zhua-wa-ka-p-81cdb8ef/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+
+<!-- related-reading-end -->

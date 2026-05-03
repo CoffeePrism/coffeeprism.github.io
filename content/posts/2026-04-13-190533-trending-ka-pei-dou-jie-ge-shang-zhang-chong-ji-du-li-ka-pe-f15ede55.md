@@ -198,3 +198,14 @@ news_source: "https://news.google.com/rss/articles/CBMiggJBVV95cUxQczZ3ZklBOGM4a
 作为 Coffee Prism 编辑，我对这条新闻的核心判断是：它不是一次局部涨价报道，而是一次关于**全球咖啡供应链**脆弱性的现实提醒。今天独立咖啡店承受的，不只是豆价上涨，而是一个旧增长模型失效后的系统性压力测试。
 
 未来能穿越周期的咖啡馆，不会只靠“好喝”存活，而要同时具备供应链理解、菜单管理和价值表达能力。对消费者来说，一杯咖啡越来越像一张价格透明的选票：你愿意为品质、便利、空间，还是品牌买单，市场会给出清晰答案。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡豆价格上涨冲击门店生意：从美国小店困境，看全球咖啡供应链与中国咖啡店涨价逻辑](/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-men-dian-sh/)
+- [咖啡豆价格上涨叠加关税与通胀：美国咖啡馆经营压力，正在给中国市场敲响什么警钟？](/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-guan-shui-yu/)
+- [咖啡豆价格上涨叠加能源成本攀升，独立咖啡馆经营正进入“薄利高压期”](/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-neng-yuan-ch/)
+
+<!-- related-reading-end -->

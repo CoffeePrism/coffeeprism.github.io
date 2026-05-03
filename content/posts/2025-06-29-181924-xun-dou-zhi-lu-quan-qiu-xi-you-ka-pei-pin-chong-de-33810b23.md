@@ -67,3 +67,14 @@ description: "稀有咖啡品种之所以值得追寻，在于它们兼具独特
 ---
 
 （本文提及产品链接仅供参考，购买前请核实最新产品信息。保存咖啡豆时请注意环境湿度控制在60%以下，中国南方地区建议搭配食品级干燥剂使用。）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [寻豆之旅：全球稀有咖啡品种的味觉密码与收藏价值](/posts/2025-06-07-181635-mo-ren-biao-ti-8be1dbed/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+- [云南小粒咖啡的崛起：探寻中国咖啡的独特风味](/posts/2025-04-17-181649-yun-nan-xiao-li-ka-pei-de-jue-qi-tan-xun-zhong-guo-ka-pei-de-du-te-feng-wei-882036de/)
+- [云南小粒咖啡：中国咖啡原产地的觉醒与风味密码](/posts/2025-08-17-182302-yun-nan-xiao-li-ka-pei-zhong-guo-ka-pei-yuan-chan-07890e29/)
+
+<!-- related-reading-end -->

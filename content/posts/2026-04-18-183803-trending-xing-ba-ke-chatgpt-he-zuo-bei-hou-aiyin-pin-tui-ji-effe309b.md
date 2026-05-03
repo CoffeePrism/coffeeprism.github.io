@@ -193,3 +193,14 @@ AI对话中出现的高频需求，是非常有价值的“需求语料”。如
 ## 专家观点 / 编辑点评
 
 作为 Coffee Prism 编辑部，我们认为，这次“星巴克 ChatGPT”相关新闻真正值得关注的，不是AI能否推荐出一杯更好喝的拿铁，而是品牌正在争夺消费者的“第一决策接口”。当咖啡消费从菜单搜索转向对话搜索，会员系统、产品研发和品牌壁垒都会被重新定义。未来的领先者，未必是SKU最多或门店最多的品牌，而是最先把用户语言、消费场景与经营系统连接起来的品牌。AI不会替代好咖啡，但会重新分配谁更容易被喝到。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [星巴克 ChatGPT 测试版上线：AI点单正在改写咖啡数字化竞争规则](/posts/xing-ba-ke-chatgpt-ce-shi-ban-shang-xian-aidian-da/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+
+<!-- related-reading-end -->

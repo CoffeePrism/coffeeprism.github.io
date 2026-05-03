@@ -102,3 +102,14 @@ description: "咖啡与巧克力的科学搭配关键在于匹配酸度、苦味
 
 **明日实验建议**：  
 用[V60滤杯](https://www.amazon.com/s?k=V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)冲煮一支水洗云南豆，搭配70%含量的Xinjiang可可巧克力，记录下第一口的风味惊喜。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与巧克力的交响诗：解锁风味协同的黄金法则](/posts/2025-08-18-182459-ka-pei-yu-qiao-ke-li-de-jiao-xiang-shi-jie-suo-fen-27e3fbf0/)
+- [咖啡与巧克力的味觉交响：解锁风味搭配的黄金法则](/posts/2025-04-20-030717-ka-pei-yu-qiao-ke-li-de-wei-jue-jiao-xiang-jie-suo-f7fa366d/)
+- [咖啡与异国美食的味觉交响：解锁全球风味搭配密码](/posts/2025-08-05-183305-ka-pei-yu-yi-guo-mei-shi-de-wei-jue-jiao-xiang-jie-5aea4d46/)
+- [咖啡与异国美食的味觉交响：解锁全球风味的搭配艺术](/posts/2025-07-09-183140-mo-ren-biao-ti-1f4f76a7/)
+
+<!-- related-reading-end -->

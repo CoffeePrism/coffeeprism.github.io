@@ -80,3 +80,14 @@ description: "云南小粒咖啡是中国咖啡原产地云南种植的阿拉比
 - 纪录片《咖路：云南咖啡三十年》  
 
 （本文提及产品链接仅供参考，购买前请核实最新信息）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+- [云南小粒咖啡的崛起：探寻中国咖啡的独特风味](/posts/2025-04-17-181649-yun-nan-xiao-li-ka-pei-de-jue-qi-tan-xun-zhong-guo-ka-pei-de-du-te-feng-wei-882036de/)
+- [从秘境到精品：云南小粒咖啡的百年进化论与风味密码](/posts/2025-08-04-183134-mo-ren-biao-ti-03861d81/)
+- [从边陲秘境到世界舞台：云南小粒咖啡的百年风味革命](/posts/2025-04-25-181856-mo-ren-biao-ti-d293f992/)
+
+<!-- related-reading-end -->

@@ -68,3 +68,14 @@ description: "咖啡豆中的绿原酸等抗氧化物质确实与人体健康密
 - 云南咖啡庄园深度体验游（关注「中国咖啡产经网」获取资讯）  
 
 （全文约1450字，数据截止2023年12月）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与健康：一杯黑金中的抗氧化密码与中国消费者的科学指南](/posts/2025-06-16-181843-mo-ren-biao-ti-fbc8c5f8/)
+- [咖啡与健康：咖啡中的抗氧化物质研究](/posts/2025-04-18-043752-ka-pei-yu-jian-kang-ka-pei-zhong-de-kang-yang-hua-wu-zhi-yan-jiu-51ada251/)
+- [咖啡中的抗氧化力量：一杯饮品的科学馈赠与中国消费者的健康启示](/posts/2025-07-13-181737-ka-pei-zhong-de-kang-yang-hua-li-liang-yi-bei-yin-dbd4d749/)
+- [咖啡中的抗氧化奇迹：一杯黑咖如何成为你的健康盟友](/posts/2025-06-21-181604-mo-ren-biao-ti-469912e1/)
+
+<!-- related-reading-end -->

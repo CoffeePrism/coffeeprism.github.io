@@ -53,6 +53,17 @@ description: "咖啡旅行的最佳方式是从世界顶级咖啡产地入手，
 
 咖啡旅行是一场探索与发现的旅程，每一个产地都有其独特的故事和风味。在这个过程中，不仅能拓宽你对咖啡的认知，还能让你更加贴近自然与人文。无论你是资深的咖啡爱好者，还是刚入门的新手，希望这篇指南能为你的咖啡旅行带来一些灵感和帮助。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da/)
+- [咖啡产地旅行指南：探索全球精品产区的完整攻略](/posts/2025-12-13-181734-ka-pei-chan-di-lu-xing-zhi-nan-tan-suo-quan-qiu-ji-011f8e01/)
+- [咖啡原乡漫游指南：从云南到哥伦比亚的味觉朝圣之旅](/posts/2025-07-12-181918-ka-pei-yuan-xiang-man-you-zhi-nan-cong-yun-nan-dao-a3432f97/)
+- [咖啡原乡漫游指南：从埃塞俄比亚到云南的精品咖啡朝圣之旅](/posts/2025-06-18-182820-mo-ren-biao-ti-5c68013a/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **Coffee Prism 精品电子书**

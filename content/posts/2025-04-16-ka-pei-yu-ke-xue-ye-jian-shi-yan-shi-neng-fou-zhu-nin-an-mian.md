@@ -39,6 +39,16 @@ tags: ["咖啡新闻", "咖啡趋势"]
 
 希望这篇文章能够为中国的咖啡爱好者带来一些启发，让我们在享受咖啡的同时，也能拥有一个甜美的梦乡。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [2024年咖啡行业新趋势：消费量创新高与可持续发展](/posts/2025-04-16-2024nian-ka-pei-xing-ye-xin-qu-shi-xiao-fei-liang-chuang-xin-gao-yu-ke-chi-xu-fa-zhan/)
+- [Can a night in a laboratory help me sleep better?](/posts/2025-04-16-can-a-night-in-a-laboratory-help-me-sleep-better/)
+- [为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人](/posts/complete-guide-launch/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、10 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载。

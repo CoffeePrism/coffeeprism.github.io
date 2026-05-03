@@ -52,3 +52,14 @@ description: "意大利百年咖啡品牌的精髓，在于以La Pavoni开启浓
 ---
 
 站在北京国贸的落地窗前，看着手中这杯泛着虎皮纹crema的浓缩咖啡，忽然理解了意大利人常说的"Sospeso"（待用咖啡）文化——真正的咖啡精神，是跨越时空的品质坚持与人情温度。当中国咖啡市场年增长率保持18%的今天，这些百年品牌的生存智慧，或许能为我们提供最醇厚的启示。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [意大利经典咖啡品牌的历史深度解析指南](/posts/yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-shen-d/)
+- [意大利经典咖啡品牌的历史：从Espresso到现代生活的百年传奇](/posts/2026-01-09-182209-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-cong-e-41a48cb6/)
+- [意大利经典咖啡品牌的历史：浓缩文明与商业智慧的完美交融](/posts/2025-10-31-181930-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-nong-s-6d061ed7/)
+- [意大利经典咖啡品牌的历史：浓缩百年风味的完整指南](/posts/2025-11-03-181911-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-nong-s-95f04afb/)
+
+<!-- related-reading-end -->

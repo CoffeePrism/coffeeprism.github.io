@@ -60,3 +60,14 @@ description: "一杯咖啡如何解锁全球美食灵感？答案在咖啡旅行
 每一次举杯，都是与远方的对话。当您下次端起咖啡时，不妨想象它曾穿越的雨林、烘焙炉前的匠人、以及等待被发现的搭配可能——这或许就是咖啡旅行最迷人的意义：用味觉丈量世界，让日常成为探险。  
 
 （全文约1420字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡漫游者指南：用一杯咖啡串联全球风味地图](/posts/2025-07-31-182120-ka-pei-man-you-zhe-zhi-nan-yong-yi-bei-ka-pei-chua-9d92c494/)
+- [咖啡漫游者指南：用一杯咖啡串联的环球风味地图](/posts/2025-06-09-181902-mo-ren-biao-ti-76dbb27c/)
+- [寻豆记：在风味地图上开启的咖啡美食漫游](/posts/2025-05-11-181624-xun-dou-ji-zai-feng-wei-di-tu-shang-kai-qi-de-ka-p-736129f0/)
+- [深度指南：结合咖啡的美食之旅的完整实践手册](/posts/2026-01-21-183340-shen-du-zhi-nan-jie-he-ka-pei-de-mei-shi-zhi-lu-de-1321072f/)
+
+<!-- related-reading-end -->

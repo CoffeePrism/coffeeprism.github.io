@@ -81,3 +81,14 @@ description: "咖啡烘焙度通过改变梅纳反应、焦糖化与排气节奏
 ---
 
 当您下次凝视咖啡豆包装袋上的烘焙度标识时，希望这篇文章能让您真正读懂那些风味描述背后的科学逻辑。记住：没有最好的烘焙度，只有最合适的烘焙度。中国咖啡文化的魅力，正体现在这种多元共生的味觉探索之中。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从浅焙到深焙：解锁咖啡豆风味的烘焙密码](/posts/2025-07-20-181731-mo-ren-biao-ti-a1969059/)
+- [咖啡烘焙的艺术：从浅焙到深焙的风味密码](/posts/2025-08-20-181858-mo-ren-biao-ti-de9e1ab8/)
+- [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
+- [烘焙度：解锁咖啡风味的黄金密码](/posts/2025-05-06-181817-hong-bei-du-jie-suo-ka-pei-feng-wei-de-huang-jin-m-2297eef6/)
+
+<!-- related-reading-end -->

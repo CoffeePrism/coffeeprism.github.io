@@ -133,3 +133,14 @@ author: "Coffee Prism"
 **可持续咖啡包装的发展**已从概念阶段进入实操层面。记住三个行动要点：①优先选择带有权威认证的包装 ②建立「购买-使用-回收」的完整闭环 ③支持践行环保理念的本土品牌。明早冲泡咖啡时，不妨仔细观察包装上的环保标识——你的每次选择，都在为地球的可持续发展投票。
 
 欢迎在评论区分享你的环保实践，点赞最高的三位读者将获赠「咖啡渣再生笔记本」。点击收藏本文，随时查阅这份可持续咖啡生活指南。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+- [可持续咖啡包装的发展：从环保理念到消费革命的完整指南](/posts/2026-01-08-181907-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-285004a4/)
+- [可持续咖啡包装的发展：从环保理念到实践指南](/posts/2025-10-20-181940-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-af751cce/)
+- [可持续咖啡包装的发展：环保与品质的革新之路](/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/)
+
+<!-- related-reading-end -->

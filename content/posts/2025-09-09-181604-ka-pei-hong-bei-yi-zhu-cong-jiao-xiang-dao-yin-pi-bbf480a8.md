@@ -70,3 +70,14 @@ description: "判断咖啡烘焙是否完美，关键看颜色变化、银皮脱
 当你能从银皮飘落的轨迹中读出热力学曲线，在二爆的烟尘里捕捉到转瞬即逝的焦糖香，便真正触摸到了咖啡烘焙的灵魂。记住：完美烘焙没有标准答案，而是「豆性、人性、时性」的三重共鸣。  
 
 （全文约1450字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [咖啡烘焙的艺术：如何用视觉与嗅觉捕捉完美瞬间](/posts/2025-05-17-181813-ka-pei-hong-bei-de-yi-zhu-ru-he-yong-shi-jue-yu-xi-78a96df3/)
+- [咖啡烘焙的艺术：捕捉完美时刻的视觉与嗅觉密码](/posts/2025-09-20-181450-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-shi-ke-d-c5ff01c9/)
+- [咖啡烘焙的艺术：捕捉完美烘焙的视觉密码与香气地图](/posts/2025-04-23-181837-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-hong-bei-20f205dc/)
+
+<!-- related-reading-end -->

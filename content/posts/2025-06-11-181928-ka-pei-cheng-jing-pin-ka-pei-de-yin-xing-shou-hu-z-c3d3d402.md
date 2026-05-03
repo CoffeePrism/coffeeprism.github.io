@@ -77,3 +77,14 @@ description: "咖啡秤是精品咖啡稳定出杯与精准控味的关键工具
 ---
 
 在精品咖啡的探索之路上，咖啡秤就像一位沉默的导师。它用精准的数字提醒我们：所谓专业，不是昂贵的设备堆砌，而是对每个细节的敬畏与掌控。当中国咖啡爱好者开始关注这个曾被忽视的领域时，或许正是我们真正走向专业化的开始。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [《精准萃取的艺术：咖啡秤在专业冲煮中的核心地位与选购指南》](/posts/2025-08-22-181846-jing-zhun-cui-qu-de-yi-zhu-ka-pei-cheng-zai-zhuan-db6442e7/)
+- [从克数到风味：咖啡秤如何成为精品冲煮的隐形指挥官](/posts/2025-07-11-181850-mo-ren-biao-ti-9b883505/)
+- [咖啡秤的应用与推荐：精准萃取的必备指南](/posts/2026-01-20-182729-ka-pei-cheng-de-ying-yong-yu-tui-jian-jing-zhun-cu-04db9b21/)
+- [咖啡秤：从称量到风味的科学艺术](/posts/2025-05-17-055340-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-e04a1c02/)
+
+<!-- related-reading-end -->

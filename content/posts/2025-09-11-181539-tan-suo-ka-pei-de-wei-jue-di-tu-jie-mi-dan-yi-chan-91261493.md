@@ -68,3 +68,14 @@ description: "单一产地咖啡豆的风味密码，来自产区纬度、海拔
 ## 结语：在风味地图上留下自己的足迹
 
 当你在清晨用[泰摩鱼Smart温控壶](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%B1%BCSmart%E6%B8%A9%E6%8E%A7%E5%A3%B6&tag=coffeeprism-20)冲煮一支卢旺达波旁时，壶中流淌的不只是咖啡，更是赤道阳光与火山土壤的私语。每个产区的风味密码都在等待破译，而中国咖啡爱好者的独特之处在于——我们既懂得欣赏哥伦比亚的平衡美学，又能为云南咖啡的山野气息心动。或许某天，当你用德宏产的咖啡豆冲出带有普洱茶韵的咖啡时，那便是属于中国咖啡的味觉诗篇。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+
+<!-- related-reading-end -->

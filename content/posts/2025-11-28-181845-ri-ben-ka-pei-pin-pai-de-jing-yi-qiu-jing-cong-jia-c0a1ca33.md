@@ -96,3 +96,14 @@ author: "Coffee Prism"
 3. 每月尝试1个新品牌，建立自己的风味数据库
 
 当你下次品尝日本咖啡时，不妨用本文介绍的「三角平衡法」细细品味其中的层次变化。欢迎在评论区分享你的品鉴心得，让我们共同探索咖啡世界的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [日本咖啡品牌的精益求精：从匠艺到日常的完美融合指南](/posts/2025-11-11-181905-ri-ben-ka-pei-pin-pai-de-jing-yi-qiu-jing-cong-jia-5ae1b915/)
+- [日本咖啡品牌的精益求精：从文化基因到冲泡艺术的完整指南](/posts/2025-10-25-181743-ri-ben-ka-pei-pin-pai-de-jing-yi-qiu-jing-cong-wen-ae585513/)
+- [日本咖啡品牌的精益求精：从工艺到文化的完整指南](/posts/2026-01-15-183052-ri-ben-ka-pei-pin-pai-de-jing-yi-qiu-jing-cong-gon-d1623c72/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+
+<!-- related-reading-end -->

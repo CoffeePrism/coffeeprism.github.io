@@ -76,3 +76,14 @@ description: "中国新兴咖啡品牌正以本土叙事、云南咖啡风土与
 --- 
 
 这篇文章以专业视角剖析行业本质，既提供可操作的消费指南，也启发对文化现象的深层思考，符合中国咖啡爱好者追求"懂行"又"有品"的阅读需求。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [《从豆到杯：中国新兴咖啡品牌如何用本土故事重塑第三空间》](/posts/2025-08-19-181903-cong-dou-dao-bei-zhong-guo-xin-xing-ka-pei-pin-pai-a1aec4bb/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+- [从本土基因到世界风味：中国新兴咖啡品牌的崛起与叙事革命](/posts/2025-08-21-181908-cong-ben-tu-ji-yin-dao-shi-jie-feng-wei-zhong-guo-8f6bda9f/)
+- [从豆到杯：中国新兴咖啡品牌的崛起与本土叙事](/posts/2025-10-13-181809-cong-dou-dao-bei-zhong-guo-xin-xing-ka-pei-pin-pai-428c282e/)
+
+<!-- related-reading-end -->

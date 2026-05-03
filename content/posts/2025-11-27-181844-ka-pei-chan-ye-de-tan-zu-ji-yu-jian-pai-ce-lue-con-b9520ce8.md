@@ -113,3 +113,14 @@ author: "Coffee Prism"
 - **15元**：消费者每杯多支付的成本即可支持碳抵消项目
 
 扫描文末二维码获取《中国咖啡消费碳足迹手册》，参与「21天低碳咖啡挑战」。您今天的选择，将决定明天咖啡风味的可持续未来。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡产业的碳足迹与减排策略深度解析指南](/posts/ka-pei-chan-ye-de-tan-zu-ji-yu-jian-pai-ce-lue-she/)
+- [咖啡产业的碳足迹与减排策略：从产地到杯中的环保指南](/posts/2025-10-25-181658-ka-pei-chan-ye-de-tan-zu-ji-yu-jian-pai-ce-lue-con-8eb7f289/)
+- [咖啡副产品的创新利用：从入门到精通的实用指南](/posts/2025-12-05-181928-ka-pei-fu-chan-pin-de-chuang-xin-li-yong-cong-ru-m-36e8934a/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+
+<!-- related-reading-end -->

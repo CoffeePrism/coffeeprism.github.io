@@ -96,3 +96,14 @@ author: "Coffee Prism"
 ## 总结与行动倡议
 
 **可持续咖啡包装的发展**绝非简单的材料替换，而是需要产业链各环节的系统变革。消费者可从选择带「可回收」标识的产品开始，烘焙商应建立包装回收体系，咖啡馆可推出「自带容器优惠」。记住：每个环保选择都能让咖啡香飘得更远。你今天的包装选择，将决定明天咖啡产地的生态环境。现在就从手边的咖啡袋开始，在评论区分享你的可持续实践吧！
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+- [可持续咖啡包装的发展：从环保理念到消费革命的完整指南](/posts/2026-01-08-181907-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-285004a4/)
+- [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
+- [可持续咖啡包装的发展：环保与品质的革新之路](/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/)
+
+<!-- related-reading-end -->

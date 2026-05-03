@@ -102,3 +102,14 @@ author: "Coffee Prism"
 ## 总结：成为咖啡因的智慧管理者
 
 掌握「咖啡因的生理作用与适宜摄入量」的本质，是享受咖啡文化的前提。记住三个关键数字：400mg的每日上限、4小时半衰期、50mg的敏感测试单位。下次端起咖啡杯时，不妨先用「咖啡因计算器」小程序扫描商品条码，结合华为健康APP中的压力监测数据，定制您的个性化咖啡方案。欢迎在评论区分享您的咖啡因管理心得，或咨询专业咖啡师团队获取定制建议——毕竟，真正的咖啡之道，在于让每一毫克咖啡因都精准服务于您的生命节律。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完全指南](/posts/2025-10-24-181905-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-e8b5b315/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2026-01-15-182847-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-de7f3e88/)
+- [咖啡因的生理作用与适宜摄入量：从科学到日常的完整指南](/posts/2025-11-11-181929-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-d33da785/)
+- [咖啡因的生理作用与适宜摄入量：从科学认知到日常实践](/posts/2025-11-02-181547-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-008ef72b/)
+
+<!-- related-reading-end -->

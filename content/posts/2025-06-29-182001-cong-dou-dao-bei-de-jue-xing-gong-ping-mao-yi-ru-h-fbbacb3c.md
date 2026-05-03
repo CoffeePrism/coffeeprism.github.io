@@ -81,3 +81,14 @@ description: "公平贸易正通过最低保障价、社区发展金与环保条
 
 **结语**  
 可持续咖啡革命不是非黑即白的道德审判，而是关于如何在复杂系统中寻找平衡点。当中国消费者开始追问"这杯咖啡改变了谁的生活"，或许正是产业进化的真正起点。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从咖啡豆到咖啡杯：公平贸易如何重塑中国咖啡文化的可持续未来](/posts/2025-10-16-182143-cong-ka-pei-dou-dao-ka-pei-bei-gong-ping-mao-yi-ru-e190e032/)
+- [从种子到杯中物：公平贸易咖啡如何重塑中国咖啡文化的可持续未来](/posts/2025-06-28-181833-mo-ren-biao-ti-e0fc8f1c/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的完整指南](/posts/2025-11-20-181951-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-bb03e787/)
+
+<!-- related-reading-end -->

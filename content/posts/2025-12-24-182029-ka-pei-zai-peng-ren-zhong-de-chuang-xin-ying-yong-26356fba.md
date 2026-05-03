@@ -114,3 +114,14 @@ author: "Coffee Prism"
 ## 总结与行动指南
 
 **咖啡在烹饪中的创新应用**正在改写现代料理的边界。从选择适合的咖啡豆种到掌握温度与时间的微妙平衡，每个环节都充满探索乐趣。明早不妨尝试用云南日晒咖啡粉腌制鸡胸肉，或是将冷萃咖啡液融入面团制作布里欧修。记得在社交平台带#咖啡料理实验#话题分享你的作品，或许下一个引爆美食圈的新配方就诞生在你的厨房。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡在烹饪中的创新应用完全攻略与实战技巧](/posts/ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong/)
+- [咖啡鸡尾酒的创意配方：解锁调饮新境界的完整指南](/posts/2025-11-24-182104-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-jie-suo-di-fe4cbcde/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+
+<!-- related-reading-end -->

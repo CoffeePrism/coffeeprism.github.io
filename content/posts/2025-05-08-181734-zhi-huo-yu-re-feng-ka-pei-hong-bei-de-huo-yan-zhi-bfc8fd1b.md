@@ -70,3 +70,14 @@ description: "直火与热风烘焙的核心区别在于传热方式与风味表
 3. **瑕疵豆预警**：直火烘焙时要特别留意银皮残留，当发现滚筒内出现持续青烟时，应立即降低火力5%
 
 在这场火焰与气流的永恒对话中，没有绝对的优劣之分。笔者在云南咖啡实验室的长期观察表明，将两种工艺结合使用（如前期热风快速脱水，后期直火发展风味）往往能创造惊喜。当您下次品味咖啡时，不妨试着分辨杯中的温暖，是来自远古火种的脉动，还是现代气流的呢喃。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [探秘咖啡烘焙的核心对决：直火与热风如何塑造一杯咖啡的灵魂](/posts/2025-07-24-181941-mo-ren-biao-ti-fb2c9e31/)
+- [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+- [直火vs热风烘焙的区别：咖啡师都在用的实战指南](/posts/2025-12-20-181904-zhi-huo-vsre-feng-hong-bei-de-qu-bie-ka-pei-shi-du-d11faa7f/)
+
+<!-- related-reading-end -->

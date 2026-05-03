@@ -75,3 +75,14 @@ description: "冷萃咖啡的极致风味，来自4-10℃低温下12-24小时的
 当我们在杭州的茶山脚下用冷萃壶装盛龙井咖啡时，在重庆的防空洞咖啡馆里品尝冷萃与花椒的奇妙组合时，这种诞生于大航海时代的饮品正在中国土地上生长出新的可能性。它不仅是物理层面的低温慢萃，更成为都市人对抗快节奏生活的精神容器——正如日本咖啡大师田口护所言："冷萃咖啡教会我们，有些美好值得等待。"
 
 （本文提及产品链接仅供读者参考，购买前请根据个人需求谨慎选择）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [冷萃咖啡完全指南：解锁夏日专属的丝滑风味密码](/posts/2025-05-21-181900-leng-cui-ka-pei-wan-quan-zhi-nan-jie-suo-xia-ri-zh-0c956425/)
+- [冷萃咖啡的制作与风味特点完全攻略](/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
+
+<!-- related-reading-end -->

@@ -94,3 +94,14 @@ author: "Coffee Prism"
 
 ---  
 *本文数据来源：中国疾控中心营养与健康所《2023咖啡消费白皮书》、Nature Neuroscience Vol.21、SCA精品咖啡协会萃取标准*
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完全指南](/posts/2025-10-24-181905-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-e8b5b315/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2025-12-28-182031-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-209cdb84/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2026-01-15-182847-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-de7f3e88/)
+- [咖啡因的生理作用与适宜摄入量：从科学到日常的完整指南](/posts/2025-11-11-181929-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-d33da785/)
+
+<!-- related-reading-end -->

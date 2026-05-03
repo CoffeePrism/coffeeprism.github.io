@@ -76,3 +76,14 @@ description: "直火与热风烘焙的核心差异，在于传热方式决定咖
 选择烘焙方式的本质，是选择对咖啡风味的理解角度。建议爱好者从[入门级热风烘焙机](https://www.amazon.com/s?k=%E5%85%A5%E9%97%A8%E7%BA%A7%E7%83%AD%E9%A3%8E%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)开始建立基础认知，再逐步探索直火烘焙的深层魅力。记住：最好的设备是能激发你持续探索热情的那一台。  
 
 （全文约1450字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [探秘咖啡烘焙的核心对决：直火与热风如何塑造一杯咖啡的灵魂](/posts/2025-07-24-181941-mo-ren-biao-ti-fb2c9e31/)
+- [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+- [直火vs热风烘焙的区别：咖啡师都在用的实战指南](/posts/2025-12-20-181904-zhi-huo-vsre-feng-hong-bei-de-qu-bie-ka-pei-shi-du-d11faa7f/)
+
+<!-- related-reading-end -->

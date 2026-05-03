@@ -114,3 +114,14 @@ author: "Coffee Prism"
 从掌握奶泡打发到创作立体浮雕，**咖啡与艺术的交融**为每位爱好者提供了无限可能。建议从每天15分钟的基础控流练习开始，记录每次液面变化。当你在社交媒体分享首个完整图案时，别忘了@我们交流心得——也许下一期的达人专访主角就是你。
 
 （本文主关键词"咖啡与艺术的交融"自然出现12次，关键词密度1.2%）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与艺术的交融：从入门到精通的实用指南](/posts/2025-12-15-182211-ka-pei-yu-yi-zhu-de-jiao-rong-cong-ru-men-dao-jing-9c2e7bfd/)
+- [咖啡与艺术的交融：从拉花到生活的美学实践](/posts/2025-12-14-181908-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-shen-1cc74d0d/)
+- [咖啡与艺术的交融：从拉花到策展的创意实践](/posts/2025-12-08-182113-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-ce-z-ee2cb15e/)
+- [拉花技巧与艺术表达：从基础到大师的创作指南](/posts/2025-11-28-181831-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-e5081b5e/)
+
+<!-- related-reading-end -->

@@ -97,3 +97,14 @@ author: "Coffee Prism"
 面对**气候变化对咖啡产业的威胁**，每个环节的参与者都是解决方案的一部分。从选择遮荫种植的云南单品，到改用可重复使用的咖啡器具，我们每天微小的选择都在重塑咖啡的未来。下次端起咖啡杯时，不妨多花3秒思考这杯饮品的"气候故事"，或许你会发现：守护咖啡的可持续发展，正是守护人类与自然共生的智慧。
 
 欢迎在评论区分享你的气候友好型咖啡体验，或转发本文让更多咖啡爱好者加入可持续行动。记住，每一杯负责任的咖啡，都是对地球未来的温柔投票。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡种植园参观体验：从采摘到杯中的完整指南](/posts/2026-01-13-182306-ka-pei-chong-zhi-yuan-can-guan-ti-yan-cong-cai-zha-559b71ce/)
+- [可持续咖啡包装的发展：从环保理念到消费革命的完整指南](/posts/2026-01-08-181907-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-285004a4/)
+- [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
+- [咖啡种植的环境影响深度解析指南](/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/)
+
+<!-- related-reading-end -->

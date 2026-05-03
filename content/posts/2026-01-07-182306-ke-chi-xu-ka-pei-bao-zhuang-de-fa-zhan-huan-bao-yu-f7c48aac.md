@@ -107,3 +107,14 @@ author: "Coffee Prism"
 
 ---  
 （主关键词出现频次：12次 | 语义相关词：环保包装/可降解材料/循环经济 等28次）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+- [可持续咖啡包装的发展：从环保理念到实践指南](/posts/2025-10-20-181940-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-af751cce/)
+- [可持续咖啡包装的发展：从环保理念到消费革命的完整指南](/posts/2026-01-08-181907-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-285004a4/)
+- [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
+
+<!-- related-reading-end -->

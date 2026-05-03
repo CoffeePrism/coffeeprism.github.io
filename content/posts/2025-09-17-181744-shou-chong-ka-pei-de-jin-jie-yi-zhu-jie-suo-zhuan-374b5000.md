@@ -74,3 +74,14 @@ description: "手冲咖啡进阶的关键，在于精准控制水质、注水轨
 
 ## 从技术到艺术的蜕变  
 手冲咖啡的精髓在于"控制的艺术"。正如东京咖啡研究所所长川岛良彰所说："当你能通过水流听见咖啡粉的呼吸声，才算真正掌握手冲之道。"建议每位爱好者建立专属冲煮日志，记录不同变量组合下的风味变化，这才是通往大师之路的真正密码。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [唤醒咖啡豆的隐藏风味：手冲咖啡的五大进阶心法](/posts/2025-07-31-182328-huan-xing-ka-pei-dou-de-yin-cang-feng-wei-shou-cho-f333bca6/)
+- [手冲咖啡的味觉密码：解锁专业级风味的五大进阶技巧](/posts/2025-05-13-181848-shou-chong-ka-pei-de-wei-jue-mi-ma-jie-suo-zhuan-y-a898d7f1/)
+- [手冲咖啡的进阶美学：解锁精品咖啡的五个维度](/posts/2025-05-01-181743-shou-chong-ka-pei-de-jin-jie-mei-xue-jie-suo-jing-5d8f49a8/)
+- [手冲咖啡进阶技巧全攻略：从爱好者到行家的蜕变之路](/posts/2025-12-18-182131-shou-chong-ka-pei-jin-jie-ji-qiao-quan-gong-lue-co-3edab7af/)
+
+<!-- related-reading-end -->

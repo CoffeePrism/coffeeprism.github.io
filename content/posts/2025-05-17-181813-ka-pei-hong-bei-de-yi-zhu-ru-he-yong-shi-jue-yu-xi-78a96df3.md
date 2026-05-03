@@ -77,3 +77,14 @@ description: "用视觉与嗅觉捕捉咖啡烘焙完美瞬间，关键在观察
 咖啡烘焙既是科学也是艺术，当我们学会用眼睛阅读豆表的色彩诗篇，用鼻子破译香气的摩斯密码，每一次烘焙都成为与咖啡豆的深度对话。不妨在这个周末，取出尘封的手网，点燃炉火，让感官带领你走进这场跨越纬度的风味之旅。
 
 （本文提及设备链接仅供参考，购买前请确认设备电压适配性及售后服务）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [咖啡烘焙的艺术：捕捉完美时刻的视觉与嗅觉密码](/posts/2025-09-20-181450-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-shi-ke-d-c5ff01c9/)
+- [咖啡烘焙的艺术：捕捉完美烘焙的视觉密码与香气地图](/posts/2025-04-23-181837-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-hong-bei-20f205dc/)
+- [咖啡烘焙的艺术：用五感捕捉豆粒蜕变的黄金时刻](/posts/2025-08-03-182331-ka-pei-hong-bei-de-yi-zhu-yong-wu-gan-bu-zhuo-dou-c73f9cd7/)
+
+<!-- related-reading-end -->

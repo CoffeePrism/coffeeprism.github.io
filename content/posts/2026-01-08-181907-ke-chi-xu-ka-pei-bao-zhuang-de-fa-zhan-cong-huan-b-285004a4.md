@@ -114,3 +114,14 @@ author: "Coffee Prism"
 3. **行动参与**：加入本地咖啡包装回收计划
 
 下次选购咖啡时，不妨多花30秒审视包装信息。当越来越多的消费者用钱包投票，这场始于小小咖啡袋的绿色革命，终将重塑整个行业的未来格局。您准备好成为变革的一部分了吗？欢迎在评论区分享您的可持续咖啡故事。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+- [可持续咖啡包装的发展：从环保理念到实践指南](/posts/2025-10-20-181940-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-af751cce/)
+- [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
+- [可持续咖啡包装的发展：环保与品质的革新之路](/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/)
+
+<!-- related-reading-end -->

@@ -123,3 +123,14 @@ author: "Coffee Prism"
 构建专属的咖啡城市指南，本质是在工业化浪潮中寻找人文温度的过程。记住三个行动要点：建立科学的评估体系、培养多维度的品鉴能力、善用专业工具辅助决策。当你能在陌生城市快速定位出使用Loring烘焙机的咖啡馆，或是发现某家社区店隐藏的90+精品豆时，这座城市对你而言便有了独特的打开方式。
 
 期待在评论区看到你的城市咖啡发现故事，点击收藏本文，下次旅行前记得调出这份指南。咖啡爱好者的城市探索永无止境——正如一杯完美咖啡的追求，我们永远在路上。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡爱好者的城市指南完全攻略：从打卡到深度喝懂一座城](/posts/ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-wan-quan-go/)
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极指南](/posts/2025-12-02-182157-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-e0fddd17/)
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极秘籍](/posts/2026-01-09-182148-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ea185d52/)
+- [咖啡爱好者的城市指南：探索城市香醇地图](/posts/2026-01-16-182147-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ddbba775/)
+
+<!-- related-reading-end -->

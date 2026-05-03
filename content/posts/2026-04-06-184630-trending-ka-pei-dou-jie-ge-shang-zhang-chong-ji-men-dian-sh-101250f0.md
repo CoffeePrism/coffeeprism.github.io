@@ -207,3 +207,14 @@ news_source: "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTmNBVWNiSGJ2X
 ## 专家观点 / 编辑点评
 
 作为 Coffee Prism 编辑部，我们认为，这则关于美国 Belton 小店的新闻，真正值得关注的不是“又有一家店喊贵”，而是它揭示了一个全球趋势：**咖啡正在从低成本扩张阶段，进入高波动、高分化的经营阶段**。未来决定一家咖啡店能否活下去的，不只是好不好喝，而是能否在成本上行时仍保持稳定品质、合理定价和清晰价值感。对中国市场也是一样，下一轮竞争不只是价格战，而是供应链韧性与品牌信任之战。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡豆价格上涨冲击独立咖啡店：全球咖啡供应链承压下，谁在为一杯咖啡的涨价买单？](/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-du-li-ka-pe/)
+- [咖啡豆价格上涨叠加关税与通胀：美国咖啡馆经营压力，正在给中国市场敲响什么警钟？](/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-guan-shui-yu/)
+- [咖啡豆价格上涨叠加能源成本攀升，独立咖啡馆经营正进入“薄利高压期”](/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-neng-yuan-ch/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+
+<!-- related-reading-end -->

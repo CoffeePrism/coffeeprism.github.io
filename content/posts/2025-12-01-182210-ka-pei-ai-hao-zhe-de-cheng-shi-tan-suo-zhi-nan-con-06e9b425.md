@@ -90,3 +90,14 @@ author: "Coffee Prism"
 从埃塞俄比亚原生种到云南普洱的改良波旁，从米兰的百年咖啡馆到深圳的集装箱快闪店，咖啡爱好者的城市探索永无止境。建议每月制作「城市咖啡简报」，记录新发现的处理法、创新的冲煮参数、值得关注的咖啡师。当你在不同城市积累超过50家精品咖啡馆的品鉴记录，就会自然形成独特的咖啡审美体系。
 
 下次旅行时，不妨在行李箱预留200克咖啡豆的空间——用危地马拉的烟熏感串联柏林的城市记忆，让巴拿马瑰夏的花香标记京都的晨光。点击下方「咖啡地图生成器」，立即开启你的城市咖啡探索计划，期待在评论区看到你的独家发现。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡爱好者的城市指南完全攻略：从打卡到深度喝懂一座城](/posts/ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-wan-quan-go/)
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极指南](/posts/2025-12-02-182157-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-e0fddd17/)
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极秘籍](/posts/2026-01-09-182148-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ea185d52/)
+- [咖啡爱好者的城市指南：探索城市香醇地图](/posts/2026-01-16-182147-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ddbba775/)
+
+<!-- related-reading-end -->

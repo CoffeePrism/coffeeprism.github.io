@@ -123,3 +123,14 @@ A：除了温度和时间，关键看豆表状态：
 ## 总结
 
 **烘焙技术的历史发展**既是科学演进的见证，也是人类追求极致风味的缩影。从埃塞俄比亚高原的篝火到上海咖啡馆里的智能设备，每一次技术突破都在重新定义咖啡的可能性。建议初学者从100克小批量烘焙开始，每月记录3组数据曲线，逐步建立自己的烘焙逻辑。当您下次听到咖啡豆"一爆"的清脆声响时，那不仅是物理膨胀的爆裂声，更是千年烘焙智慧的回响。欢迎在评论区分享您的烘焙故事，我们准备了《家庭烘焙参数手册》赠予互动读者。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙技术的历史发展：从火堆到智能烘焙的全景解读](/posts/2026-01-24-181959-ka-pei-hong-bei-ji-zhu-de-li-shi-fa-zhan-cong-huo-af08cfed/)
+- [单源咖啡的最佳烘焙方式：从入门到精通的实用宝典](/posts/2025-11-21-181930-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-f1abfbf2/)
+- [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
+- [直火vs热风烘焙的区别：咖啡师都在用的实战指南](/posts/2025-12-20-181904-zhi-huo-vsre-feng-hong-bei-de-qu-bie-ka-pei-shi-du-d11faa7f/)
+
+<!-- related-reading-end -->

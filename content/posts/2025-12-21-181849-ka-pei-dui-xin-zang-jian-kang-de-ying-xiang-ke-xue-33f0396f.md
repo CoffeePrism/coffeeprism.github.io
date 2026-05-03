@@ -111,3 +111,14 @@ author: "Coffee Prism"
 ## 总结
 
 咖啡对心脏健康的影响犹如双刃剑，科学认知与理性实践是享受咖啡的关键。记住四个核心要点：选择优质豆源、控制每日总量、采用正确冲煮方式、规避风险组合。建议读者从明天开始记录「咖啡日记」，连续监测两周身心反应。欢迎在评论区分享您的饮咖心得，让我们共同探索咖啡与健康的完美平衡之道。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+- [世界顶级咖啡馆朝圣之旅：从东京到哥本哈根的味觉地图](/posts/2025-12-03-182202-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-2178ca4a/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+
+<!-- related-reading-end -->

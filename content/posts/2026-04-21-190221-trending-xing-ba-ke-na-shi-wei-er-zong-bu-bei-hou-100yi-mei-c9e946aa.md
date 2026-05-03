@@ -163,3 +163,14 @@ news_source: "https://news.google.com/rss/articles/CBMihAFBVV95cUxPWGxRamFTREUzb
 作为 Coffee Prism 编辑部，我们认为，这次**星巴克组织调整**比表面上的“1亿美元投资、2000个岗位”更值得关注。它揭示了一个正在成形的行业现实：全球咖啡连锁的竞争，已从“谁最会讲品牌故事”转向“谁最会管理复杂系统”。
 
 纳什维尔不是边缘动作，而是星巴克对成熟市场增长困境的主动回应。对中国从业者和投资者来说，真正应学习的不是选址本身，而是它背后的方法论：当规模到达一定程度，决定胜负的不是门店前台，而是总部到门店之间那条看不见的运营链。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任](/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/)
+
+<!-- related-reading-end -->

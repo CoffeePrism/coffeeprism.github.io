@@ -82,3 +82,14 @@ description: "判断咖啡是否完美烘焙，关键看豆色变化、爆裂节
 当北京胡同里的咖啡店主将新烘焙的豆子装入麻袋，那些深浅不一的褐色豆粒正在诉说着不同的风味故事。记住，完美的烘焙不是标准答案，而是找到与你的味觉共鸣的和谐点。下次打开咖啡袋时，不妨先闭上眼睛细嗅三秒——或许这就是你与咖啡豆跨越千里的初见仪式。
 
 （全文约1380字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [咖啡烘焙的艺术：如何用视觉与嗅觉捕捉完美瞬间](/posts/2025-05-17-181813-ka-pei-hong-bei-de-yi-zhu-ru-he-yong-shi-jue-yu-xi-78a96df3/)
+- [咖啡烘焙的艺术：捕捉完美时刻的视觉与嗅觉密码](/posts/2025-09-20-181450-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-shi-ke-d-c5ff01c9/)
+- [咖啡烘焙的艺术：用五感捕捉豆粒蜕变的黄金时刻](/posts/2025-08-03-182331-ka-pei-hong-bei-de-yi-zhu-yong-wu-gan-bu-zhuo-dou-c73f9cd7/)
+
+<!-- related-reading-end -->

@@ -1,8 +1,11 @@
 name: 自动文章生成与发布
 
 on:
-  schedule:
-    - cron: '0 18 * * *'
+  # cron 暂停于 2026-05-02：generator title 提取在 22% 文章上失败，
+  # 在修复 + 加字数下限之前不再自动发新文章。
+  # 修好之后取消下一行注释恢复。
+  # schedule:
+  #   - cron: '0 18 * * *'
   workflow_dispatch:
 
 permissions:

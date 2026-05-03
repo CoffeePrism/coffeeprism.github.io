@@ -81,3 +81,14 @@ author: "Coffee Prism"
 当我们在清晨举起咖啡杯时，实际上托着整个地球生态系统的微妙平衡。选择带有雨林蛙标志的咖啡豆，改用可重复使用的咖啡滤网，甚至尝试用咖啡渣制作盆栽肥料——每个微小决策都在重塑咖啡产业的未来。下次购买咖啡时，不妨多花30秒查看包装背后的生态故事，因为真正的咖啡觉醒，始于对每一粒咖啡豆的敬畏之心。
 
 （注：本文数据源自国际咖啡组织2023年度报告、中国热带农业科学院研究成果及笔者实地调研，为保障阅读体验已进行必要简化处理。）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡种植的环境影响深度解析指南](/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/)
+- [咖啡种植的环境影响：从土壤到杯子的生态启示](/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的完整指南](/posts/2025-11-20-181951-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-bb03e787/)
+
+<!-- related-reading-end -->

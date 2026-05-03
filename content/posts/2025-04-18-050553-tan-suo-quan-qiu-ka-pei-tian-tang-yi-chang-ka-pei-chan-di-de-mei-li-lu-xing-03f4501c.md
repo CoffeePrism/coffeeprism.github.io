@@ -37,6 +37,17 @@ description: "咖啡产地旅行去哪儿最值得？埃塞俄比亚与哥伦比
 
 咖啡旅行是一段充满探索与发现的旅程，无论是埃塞俄比亚、哥伦比亚还是巴西，每个产地都有其独特的魅力和故事。对于中国的咖啡爱好者来说，这不仅是一次味蕾的享受，更是心灵的洗礼。在咖啡的世界里，每一杯都值得我们去倾听、去品味。在下一次的旅行计划中，何不将这些咖啡圣地列入您的愿望清单，开启属于您的咖啡探险之旅？
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da/)
+- [咖啡产地旅行指南：探索全球精品产区的完整攻略](/posts/2025-12-13-181734-ka-pei-chan-di-lu-xing-zhi-nan-tan-suo-quan-qiu-ji-011f8e01/)
+- [咖啡原乡漫游指南：从云南到哥伦比亚的味觉朝圣之旅](/posts/2025-07-12-181918-ka-pei-yuan-xiang-man-you-zhi-nan-cong-yun-nan-dao-a3432f97/)
+- [咖啡原乡漫游指南：从埃塞俄比亚到云南的精品咖啡朝圣之旅](/posts/2025-06-18-182820-mo-ren-biao-ti-5c68013a/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **Coffee Prism 精品电子书**

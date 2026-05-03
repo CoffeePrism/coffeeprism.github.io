@@ -72,3 +72,14 @@ author: "Coffee Prism"
 
 ## 智慧摄入的行动指南
 掌握咖啡因的生理作用与适宜摄入量，本质是学习与身体对话的艺术。建议每月进行"咖啡因排毒周"，改用南非国宝茶等天然饮品。记住，最佳的咖啡体验不在于饮用量，而在于精准掌控带来的身心和谐。您今天准备如何规划咖啡因摄入？欢迎在评论区分享您的咖啡日记。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完全指南](/posts/2025-10-24-181905-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-e8b5b315/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2026-01-15-182847-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-de7f3e88/)
+- [低咖啡因咖啡选择与制作方法全攻略：从选豆到冲泡的完整指南](/posts/2025-11-15-181735-di-ka-pei-yin-ka-pei-xuan-ze-yu-zhi-zuo-fang-fa-qu-398a4617/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+
+<!-- related-reading-end -->

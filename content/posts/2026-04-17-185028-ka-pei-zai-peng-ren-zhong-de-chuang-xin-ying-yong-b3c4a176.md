@@ -252,3 +252,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-zai-peng-ren-zhong-de-ch
 
 咖啡在厨房里的价值，关键有三点：第一，它能增强焦糖、可可、烘烤和尾韵层次；第二，选对烘焙度和加入时机，比一味增加用量更重要；第三，最适合入门的不是复杂分子料理，而是酱汁、腌料、甜点和烤蔬菜。  
 如果你准备开始实践，最建议从中深烘咖啡液、5%-10%的低比例添加、以及一两道固定菜谱反复测试做起。先让咖啡成为风味背景，再逐步尝试产地、处理法和脂肪浸提等高阶玩法。厨房里最有趣的时刻，往往就出现在一杯咖啡离开杯子之后。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡在烹饪中的创新应用：从调味到烘焙的完整指南](/posts/2025-12-24-182029-ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong-26356fba/)
+- [咖啡与早餐的最佳组合完全攻略与深度解析](/posts/ka-pei-yu-zao-can-de-zui-jia-zu-he-wan-quan-gong-l/)
+- [咖啡鸡尾酒的创意配方：解锁风味融合的终极指南](/posts/2025-12-29-182153-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-jie-suo-fe-e8f5c11d/)
+- [世界各地的咖啡仪式与传统：从入门到精通的沉浸指南](/posts/2026-01-13-182347-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-20b917bf/)
+
+<!-- related-reading-end -->

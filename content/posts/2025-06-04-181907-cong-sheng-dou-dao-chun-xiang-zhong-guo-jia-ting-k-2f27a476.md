@@ -62,3 +62,14 @@ description: "家庭咖啡烘焙在中国兴起，因其能显著提升新鲜度
 当第一缕带着焦糖气息的轻烟从烘焙机升起时，你已不再是简单的消费者，而是参与到了咖啡生命的完整周期中。这种亲手创造的仪式感，正是中国新一代咖啡爱好者追求的精神满足。记住，完美的烘焙曲线不存在于教科书里，而在你不断尝试的指尖上。正如东京咖啡之神田口护所说："每一颗咖啡豆都在等待懂它的烘焙师。"现在，轮到你来聆听豆子的语言了。
 
 （本文提及产品链接仅供参考，购买前请核实最新价格和产品信息）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从生豆到杯中艺术：中国家庭咖啡烘焙完全指南](/posts/2025-09-02-181617-cong-sheng-dou-dao-bei-zhong-yi-zhu-zhong-guo-jia-81a44d58/)
+- [从生豆到艺术：中国家庭咖啡烘焙完全指南](/posts/2025-08-01-182231-cong-sheng-dou-dao-yi-zhu-zhong-guo-jia-ting-ka-pe-2e76eece/)
+- [从生豆到芬芳：家庭咖啡烘焙入门指南](/posts/2025-04-18-033624-biao-ti-cong-sheng-dou-dao-fen-fang-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-326d6d3a/)
+- [家庭咖啡烘焙入门指南：从生豆到杯中的完整探索](/posts/2025-11-04-181959-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-cong-sheng-a1e6e326/)
+
+<!-- related-reading-end -->

@@ -64,3 +64,14 @@ description: "中国消费者可通过选择可持续咖啡、关注气候危机
 当你在杭州运河边的咖啡馆啜饮云南水洗豆时，杯中的酸甜平衡不仅是农艺的结晶，更是人类与自然对话的媒介。选择带有FSC认证的纸杯，或者自带KeepCup可重复使用咖啡杯，这些微小决策终将汇成改变产业链的洪流。毕竟，守护咖啡的未来，就是守护我们与土地最诗意的联结。
 
 （全文约1420字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡危机：当气候变化端走我们的早晨咖啡杯](/posts/2025-08-18-182936-ka-pei-wei-ji-dang-qi-hou-bian-hua-duan-zou-wo-men-0adba869/)
+- [守护杯中未来：气候变化如何重塑全球咖啡版图与中国消费者的选择](/posts/2025-06-14-181649-mo-ren-biao-ti-b87c0590/)
+- [当咖啡杯遇上气候危机：拯救咖啡产业的可持续革命](/posts/2025-08-06-182027-dang-ka-pei-bei-yu-shang-qi-hou-wei-ji-zheng-jiu-k-c6779815/)
+- [当咖啡树开始沉默：气候变化如何威胁我们的杯中风味，以及可持续咖啡的破局之路](/posts/2025-05-21-182100-dang-ka-pei-shu-kai-shi-chen-mo-qi-hou-bian-hua-ru-84561d36/)
+
+<!-- related-reading-end -->

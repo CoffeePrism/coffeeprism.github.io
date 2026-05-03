@@ -123,3 +123,14 @@ author: "Coffee Prism"
 ## 结语
 
 从传教士手植的第一株咖啡树，到如今飘香全球的精品咖啡，**云南小粒咖啡的发展与特点**印证着一个真理：好咖啡需要时间的沉淀与匠心的雕琢。当您下次选购咖啡时，不妨给本土精品一次机会——或许那杯带着红土芬芳的云南咖啡，会彻底改变您对中国咖啡的认知。欢迎在评论区分享您的云南咖啡品鉴体验，或留下您关心的咖啡问题，我们将持续为您解读这片土地上的咖啡传奇。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+- [哥伦比亚咖啡豆的特色与历史：从入门到精通的实用宝典](/posts/2025-11-02-181524-ge-lun-bi-ya-ka-pei-dou-de-te-se-yu-li-shi-cong-ru-937bcd1e/)
+- [埃塞俄比亚咖啡豆的多样性深度解析指南](/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/)
+
+<!-- related-reading-end -->

@@ -58,3 +58,14 @@ description: "家庭咖啡烘焙的关键在于掌握生豆脱水、梅纳反应
 3. **记录系统**：建议使用"烘焙日志APP"，完整记录每次的温升曲线和环境参数。
 
 在这个人均咖啡消费量仅为日本1/10的市场，家庭烘焙正成为精品咖啡文化的新突破口。当第一缕银皮在晨光中飘落，当一爆声在厨房响起，我们不仅是在烘焙咖啡豆，更是在酿造属于自己的生活美学。记住，最好的烘焙曲线不是仪器测量的，而是用热爱勾勒的。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从生豆到杯中艺术：中国家庭咖啡烘焙完全指南](/posts/2025-09-02-181617-cong-sheng-dou-dao-bei-zhong-yi-zhu-zhong-guo-jia-81a44d58/)
+- [从生豆到芬芳：家庭咖啡烘焙入门指南](/posts/2025-04-18-033624-biao-ti-cong-sheng-dou-dao-fen-fang-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-326d6d3a/)
+- [从生豆到醇香：中国家庭咖啡烘焙完全实践手册](/posts/2025-06-04-181907-cong-sheng-dou-dao-chun-xiang-zhong-guo-jia-ting-k-2f27a476/)
+- [家庭咖啡烘焙入门指南：从生豆到杯中的完整探索](/posts/2025-11-04-181959-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-cong-sheng-a1e6e326/)
+
+<!-- related-reading-end -->

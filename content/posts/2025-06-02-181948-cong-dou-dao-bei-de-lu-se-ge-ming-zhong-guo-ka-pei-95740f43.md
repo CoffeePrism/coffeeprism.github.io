@@ -84,3 +84,14 @@ description: "可持续咖啡包装正通过可降解材料、单一材质回收
 3. [Hario可降解滤纸](https://www.amazon.com/s?k=Hario%E5%8F%AF%E9%99%8D%E8%A7%A3%E6%BB%A4%E7%BA%B8&tag=coffeeprism-20)  
 
 （注：产品链接为亚马逊标准搜索链接，具体购买请根据实际需求选择）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从豆到杯的绿色革命：中国咖啡爱好者必知的可持续包装进化论](/posts/2025-04-21-181655-mo-ren-biao-ti-726917dc/)
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+- [可持续咖啡包装的发展：从环保理念到实践指南](/posts/2025-10-20-181940-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-af751cce/)
+- [可持续咖啡包装的发展：从环保理念到消费革命的完整指南](/posts/2026-01-08-181907-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-cong-huan-b-285004a4/)
+
+<!-- related-reading-end -->

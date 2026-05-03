@@ -78,3 +78,14 @@ description: "气候变化正通过升温、虫害与极端天气威胁咖啡风
 
 **结语**  
 当我们手握咖啡杯时，实际上掌握着整个产业链的未来选择。从选择一包带有雨林认证的挂耳咖啡，到用自带杯购买拿铁，每个微小决定都在重塑咖啡与地球的关系。或许正如埃塞俄比亚谚语所说："咖啡树不会说话，但它记得所有善待土地的人。"
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡危机：当气候变化端走我们的早晨咖啡杯](/posts/2025-08-18-182936-ka-pei-wei-ji-dang-qi-hou-bian-hua-duan-zou-wo-men-0adba869/)
+- [守护杯中未来：气候变化如何重塑全球咖啡版图与中国消费者的选择](/posts/2025-06-14-181649-mo-ren-biao-ti-b87c0590/)
+- [当咖啡杯遇上气候危机：拯救咖啡产业的可持续革命](/posts/2025-08-06-182027-dang-ka-pei-bei-yu-shang-qi-hou-wei-ji-zheng-jiu-k-c6779815/)
+- [当咖啡香遇上气候危机：中国咖啡爱好者的可持续选择之路](/posts/2025-04-19-181708-dang-ka-pei-xiang-yu-shang-qi-hou-wei-ji-zhong-guo-6c34ab35/)
+
+<!-- related-reading-end -->

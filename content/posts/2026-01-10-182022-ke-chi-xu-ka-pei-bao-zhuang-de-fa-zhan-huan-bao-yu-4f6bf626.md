@@ -117,3 +117,14 @@ author: "Coffee Prism"
 ## 结语：让每一杯咖啡都成为环保宣言
 
 **可持续咖啡包装的发展**绝非简单的材料替换，而是从生产到消费的系统变革。当我们选择用PLA包装的手冲豆时，相当于为地球节省了3.7升淡水；当咖啡馆启用循环罐装系统，等于每年减少300公斤塑料垃圾。这场始于包装的革命，终将重塑整个咖啡产业的未来图景。从今天起，让你的咖啡选择不仅满足味蕾，更能滋养地球——这或许是最有格调的咖啡哲学。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+- [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
+- [可持续咖啡包装的发展：环保与品质的革新之路](/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/)
+- [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da/)
+
+<!-- related-reading-end -->

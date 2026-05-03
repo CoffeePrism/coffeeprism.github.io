@@ -49,6 +49,17 @@ description: "阿拉比卡与罗布斯塔的区别在于风味、咖啡因、产
 
 阿拉比卡和罗布斯塔咖啡豆各有其独特的魅力和风味，无论您是咖啡新手还是资深爱好者，都能在其中找到适合自己的选择。希望这篇文章能够帮助您更好地理解这两种咖啡豆的区别，并在探索咖啡的过程中获得更多乐趣。咖啡的世界博大精深，让我们一同在这条香气四溢的旅途中不断前行。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [阿拉比卡与罗布斯塔的区别与特点：从品种到风味的终极指南](/posts/2025-12-19-182009-a-la-bi-qia-yu-luo-bu-si-ta-de-qu-bie-yu-te-dian-c-2aeef5a9/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+- [云南小粒咖啡的崛起：探寻中国咖啡的独特风味](/posts/2025-04-17-181649-yun-nan-xiao-li-ka-pei-de-jue-qi-tan-xun-zhong-guo-ka-pei-de-du-te-feng-wei-882036de/)
+- [云南小粒咖啡：中国咖啡原产地的觉醒与风味密码](/posts/2025-08-17-182302-yun-nan-xiao-li-ka-pei-zhong-guo-ka-pei-yuan-chan-07890e29/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、10 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载。

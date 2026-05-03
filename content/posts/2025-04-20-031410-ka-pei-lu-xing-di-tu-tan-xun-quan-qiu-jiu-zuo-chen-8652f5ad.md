@@ -67,3 +67,14 @@ description: "第三空间密码藏在九座城市咖啡馆的风味、空间与
 ---
 
 当我们在陌生城市的晨光中举起咖啡杯，啜饮的不仅是饮品，更是一个城市集体记忆的液态呈现。下次旅行时，不妨以咖啡馆为坐标，让咖啡因成为丈量世界的特殊尺度。毕竟，正如普鲁斯特在玛德琳蛋糕中找回时光，当代人亦能在咖啡杯中邂逅城市的灵魂。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡旅行地图：用一杯咖啡丈量城市的灵魂](/posts/2025-09-28-181536-ka-pei-lu-xing-di-tu-yong-yi-bei-ka-pei-zhang-lian-0455390f/)
+- [咖啡旅行：用一杯精品咖啡解锁城市的灵魂地图](/posts/2025-09-15-181855-ka-pei-lu-xing-yong-yi-bei-jing-pin-ka-pei-jie-suo-a704e833/)
+- [咖啡漫游者地图：从胡同手冲到北欧极简的全球寻豆指南](/posts/2025-05-24-181717-ka-pei-man-you-zhe-di-tu-cong-hu-tong-shou-chong-d-ea9f9835/)
+- [咖啡漫游者地图：解锁全球咖啡城市的味觉密码](/posts/2025-08-04-182625-ka-pei-man-you-zhe-di-tu-jie-suo-quan-qiu-ka-pei-c-4d51a100/)
+
+<!-- related-reading-end -->

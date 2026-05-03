@@ -123,3 +123,14 @@ author: "Coffee Prism"
 3. 在社交平台分享你的品鉴笔记  
 
 期待在评论区看到你的风味发现！点击收藏本文，随时查阅这份**单一产地咖啡豆的风味特点**的完整指南。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-11-22-181742-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-8512f98d/)
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+
+<!-- related-reading-end -->

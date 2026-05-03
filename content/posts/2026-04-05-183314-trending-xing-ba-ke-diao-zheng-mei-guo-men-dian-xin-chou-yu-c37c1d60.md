@@ -186,3 +186,14 @@ news_source: "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdVBUdEVXMHk1S
 ## 专家观点/编辑点评
 
 作为 Coffee Prism 编辑部，我们认为，星巴克此次调整释放出一个清晰信号：全球咖啡连锁的竞争逻辑正在变化。过去比的是开店速度、数字化能力和促销强度，接下来更要比谁能把一线员工留住、把高峰效率跑顺、把服务稳定性做扎实。**人力成本**不会消失，只会以更隐蔽或更显性的方式回到经营核心。对中国市场来说，真正值得学习的不是福利表面形式，而是对门店组织价值的重新定价。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [星巴克提高美国门店薪酬后，咖啡行业用工正在重算：门店运营成本、效率与品牌竞争的新平衡](/posts/xing-ba-ke-ti-gao-mei-guo-men-dian-xin-chou-hou-ka/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+
+<!-- related-reading-end -->

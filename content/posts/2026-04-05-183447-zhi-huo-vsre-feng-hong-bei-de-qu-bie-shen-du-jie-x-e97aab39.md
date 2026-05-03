@@ -274,3 +274,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/zhi-huo-vsre-feng-hong-bei-de-q
 理解**直火vs热风烘焙的区别**，关键要抓住三件事：第一，差异本质在传热方式占比，而不是简单的“火大火小”；第二，直火更擅长塑造厚感与焦糖结构，热风更有利于洁净度与风味清晰；第三，真正决定成败的是设备特性与生豆目标的匹配。
 
 如果你是新手，可以先从热风型入门设备练习记录与杯测；如果你经营门店，就从目标菜单反推设备风格；如果你已经有经验，不妨用同一支豆分别做一锅偏直火、一锅偏热风，对照杯测结果建立自己的判断体系。每一台机器都有语言，学会听懂它，烘焙才会真正开始有趣。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [家庭咖啡烘焙入门指南：新手完全攻略与实操技巧](/posts/jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-xin-shou-w/)
+- [深度解析不同烘焙曲线的风味表现：从入门到精通的完整指南](/posts/2025-12-01-182223-shen-du-jie-xi-bu-tong-hong-bei-qu-xian-de-feng-we-6656c369/)
+- [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
+
+<!-- related-reading-end -->

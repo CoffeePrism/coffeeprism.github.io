@@ -54,3 +54,14 @@ description: "咖啡烘焙的黄金时刻，取决于脱水期、梅纳反应期
 站在烘焙机的观察窗前，看着咖啡豆在热力作用下翩翩起舞，我始终记得东京咖啡大师田口护的那句话："烘焙不是创造风味，而是唤醒咖啡豆本真的灵魂。"当你能从转瞬即逝的香气中捕捉到土地的记忆，在细微的色差里读懂海拔的私语，那杯中的咖啡便不再是简单的饮品，而是一封来自远方的风味情书。
 
 （全文约1420字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [咖啡烘焙的艺术：如何用视觉与嗅觉捕捉完美瞬间](/posts/2025-05-17-181813-ka-pei-hong-bei-de-yi-zhu-ru-he-yong-shi-jue-yu-xi-78a96df3/)
+- [咖啡烘焙的艺术：捕捉完美时刻的视觉与嗅觉密码](/posts/2025-09-20-181450-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-shi-ke-d-c5ff01c9/)
+- [咖啡烘焙的艺术：捕捉完美烘焙的视觉密码与香气地图](/posts/2025-04-23-181837-ka-pei-hong-bei-de-yi-zhu-bu-zhuo-wan-mei-hong-bei-20f205dc/)
+
+<!-- related-reading-end -->

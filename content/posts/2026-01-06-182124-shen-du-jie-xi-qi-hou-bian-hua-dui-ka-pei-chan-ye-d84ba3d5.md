@@ -113,3 +113,14 @@ author: "Coffee Prism"
 ## 结语
 
 当我们谈论**气候变化对咖啡产业的威胁**时，本质上是在讨论人类与自然的相处智慧。从选择一包带有碳足迹标签的云南咖啡，到支持采用再生农法的庄园，每个微小决策都在重塑咖啡的未来。记住：你手中的咖啡杯，既是气候危机的温度计，也是改变未来的方向盘。下次购买时，不妨多花3分钟了解产地故事——这可能是守护我们共同咖啡文明的最温柔抵抗。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [气候变化对咖啡产业的威胁：从危机到行动的生存指南](/posts/2025-12-03-182310-qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-cong-02d52fdb/)
+- [气候变化对咖啡产业的威胁深度解析指南](/posts/qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-shen/)
+- [深度解析：气候变化对咖啡产业的威胁与应对策略](/posts/2025-12-19-182031-shen-du-jie-xi-qi-hou-bian-hua-dui-ka-pei-chan-ye-230e79e6/)
+- [咖啡创业者的成功故事：从精品小店到连锁帝国的实战手册](/posts/2025-12-05-181904-ka-pei-chuang-ye-zhe-de-cheng-gong-gu-shi-cong-jin-5a487d86/)
+
+<!-- related-reading-end -->

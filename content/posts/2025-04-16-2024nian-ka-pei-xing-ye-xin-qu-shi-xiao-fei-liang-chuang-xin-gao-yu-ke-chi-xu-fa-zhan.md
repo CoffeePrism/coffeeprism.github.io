@@ -47,6 +47,16 @@ tags: ["咖啡新闻", "咖啡趋势"]
 
 无论您是刚开始探索咖啡世界的新手，还是资深的咖啡鉴赏家，现在都是深入了解这一迷人饮品的绝佳时机。让我们共同期待咖啡行业在可持续发展和品质提升道路上的更多创新。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Can a night in a laboratory help me sleep better?](/posts/2025-04-16-can-a-night-in-a-laboratory-help-me-sleep-better/)
+- [咖啡与科学：夜间实验室能否助您安眠？](/posts/2025-04-16-ka-pei-yu-ke-xue-ye-jian-shi-yan-shi-neng-fou-zhu-nin-an-mian/)
+- [为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人](/posts/complete-guide-launch/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **Coffee Prism 精品电子书**

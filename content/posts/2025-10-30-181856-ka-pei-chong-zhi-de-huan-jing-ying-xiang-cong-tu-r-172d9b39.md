@@ -65,3 +65,14 @@ author: "Coffee Prism"
 当我们凝视咖啡杯中的漩涡，看到的应是整个生态系统的倒影。选择带有FSC认证的咖啡滤纸，改用保温杯减少一次性消耗，支持采用区块链溯源技术的品牌——这些微小抉择正在重塑咖啡产业的生态图谱。下次购买时，不妨多花3分钟查看包装上的环境标识，您的每次选择，都在为地球投票。
 
 （本文数据来源：国际咖啡组织2023年报、中科院西双版纳生态站监测报告、雨林联盟认证标准文件）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡种植的环境影响：从土壤到杯子的生态启示录](/posts/2025-12-25-181958-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-4e64e226/)
+- [咖啡种植的环境影响深度解析指南](/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的完整指南](/posts/2025-11-20-181951-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-bb03e787/)
+- [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
+
+<!-- related-reading-end -->

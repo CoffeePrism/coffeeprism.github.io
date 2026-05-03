@@ -96,3 +96,14 @@ author: "Coffee Prism"
 
 ## 结语
 掌握**单源咖啡的最佳烘焙方式**如同获得风味世界的万能钥匙。记住每个咖啡产区的独特性格，善用数据化工具但不被仪器束缚，最重要的是保持对咖啡本真的敬畏。现在就用你手边的云南小粒咖啡实践"3-6-9法则"，期待在评论区看到你的独家烘焙心得。当第一缕带着蜜糖香的银皮飘落时，你会懂得：咖啡烘焙不仅是技术，更是人与自然的深情对话。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单源咖啡的最佳烘焙方式：从风味解锁到精准掌控的完全手册](/posts/2025-11-23-181734-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-afc6f806/)
+- [咖啡烘焙技术的历史发展：从火焰到科技的完整指南](/posts/2025-12-25-181942-ka-pei-hong-bei-ji-zhu-de-li-shi-fa-zhan-cong-huo-4fe658ae/)
+- [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
+- [直火vs热风烘焙的区别：咖啡师都在用的实战指南](/posts/2025-12-20-181904-zhi-huo-vsre-feng-hong-bei-de-qu-bie-ka-pei-shi-du-d11faa7f/)
+
+<!-- related-reading-end -->

@@ -104,3 +104,14 @@ description: "法压壶想冲出纯净又醇厚的咖啡，关键在研磨度、
 3. [云南保山日晒小粒咖啡豆](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E4%BF%9D%E5%B1%B1%E6%97%A5%E6%99%92%E5%B0%8F%E7%B2%92%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)  
 
 （注：本文提及产品链接仅供参考，实际购买前请核对产品参数与用户评价）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [法压壶完全指南：解锁专业级家庭咖啡体验](/posts/2025-08-17-182117-fa-ya-hu-wan-quan-zhi-nan-jie-suo-zhuan-ye-ji-jia-c2065d82/)
+- [法压壶的最佳使用方法完全攻略：从入门到进阶技巧](/posts/fa-ya-hu-de-zui-jia-shi-yong-fang-fa-wan-quan-gong/)
+- [法压壶的最佳使用方法：从入门到精通的实用宝典](/posts/2025-11-17-181857-fa-ya-hu-de-zui-jia-shi-yong-fang-fa-cong-ru-men-d-ad45d8dd/)
+- [法压壶的最佳使用方法：从入门到精通的实用指南](/posts/2025-11-13-181914-fa-ya-hu-de-zui-jia-shi-yong-fang-fa-cong-ru-men-d-625870cb/)
+
+<!-- related-reading-end -->

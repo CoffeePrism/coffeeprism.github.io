@@ -94,3 +94,14 @@ author: "Coffee Prism"
 ## 总结
 
 当云南咖啡农遇见运动科学家，当千年饮品碰撞现代运动生理学，咖啡与运动表现的关系已发展成精密的科学体系。记住三个黄金数字：**3mg/kg的剂量基准、60分钟的最佳窗口期、6周的周期循环**。明早训练前，不妨用现磨的保山小粒咖啡替代功能饮料，用中国本土咖啡豆激活你的运动基因。欢迎在评论区分享你的"咖啡+运动"实践故事，点赞前三名将获赠云南精品咖啡体验装。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
+- [气候变化对咖啡产业的威胁：从危机到行动的生存指南](/posts/2025-12-03-182310-qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-cong-02d52fdb/)
+- [消费者如何支持可持续咖啡：从入门到实践的完整指南](/posts/2025-12-02-182243-xiao-fei-zhe-ru-he-zhi-chi-ke-chi-xu-ka-pei-cong-r-aac5c18c/)
+
+<!-- related-reading-end -->

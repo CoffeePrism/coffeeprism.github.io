@@ -94,3 +94,14 @@ author: "Coffee Prism"
 ## 总结：开启你的咖啡城市冒险
 
 掌握这份**咖啡爱好者的城市指南**，意味着获得打开城市精品咖啡世界的密钥。从今天起，用「五维模型」筛选店铺，按「四步法则」系统探索，搭配专业工具记录旅程。不妨在下次出行前，用高德地图标记3家目标咖啡馆，实践文中提到的暗语测试。期待你在评论区分享独家探店心得——也许下一本城市咖啡指南，就由你的经验共同书写。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极秘籍](/posts/2026-01-09-182148-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ea185d52/)
+- [咖啡爱好者的城市指南完全攻略：从打卡到深度喝懂一座城](/posts/ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-wan-quan-go/)
+- [咖啡爱好者的城市指南：探索城市香醇地图](/posts/2026-01-16-182147-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ddbba775/)
+- [咖啡爱好者的城市指南：解锁城市咖啡地图的终极手册](/posts/2025-11-19-182007-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-jie-suo-che-a3e4910b/)
+
+<!-- related-reading-end -->

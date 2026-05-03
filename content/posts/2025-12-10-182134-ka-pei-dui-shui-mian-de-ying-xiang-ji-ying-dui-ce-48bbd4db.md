@@ -94,3 +94,14 @@ author: "Coffee Prism"
 建立个人化的「咖啡-睡眠」档案：连续3天记录饮用时间、品类、睡眠质量（推荐使用SleepCycle APP）。逐步调整至找到最佳平衡点，多数人在实施科学策略后，能在保持每日2杯咖啡习惯的同时，使睡眠效率提升至85%以上。
 
 中国本土咖啡品牌如隅田川、永璞已推出低因冷萃系列，京东数据显示相关产品复购率达73%。记住关键公式：**咖啡因管理=精准计量+时间控制+替代方案**。欢迎在评论区分享你的咖啡与睡眠平衡之道，获取专业咖啡师定制建议。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡对睡眠的影响及应对策略：从科学到实践的完整指南](/posts/2025-10-23-181945-ka-pei-dui-shui-mian-de-ying-xiang-ji-ying-dui-ce-7e48b43a/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2025-12-28-182031-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-209cdb84/)
+- [咖啡对睡眠的影响及应对策略：从科学到实践的完整指南](/posts/2025-11-27-181828-ka-pei-dui-shui-mian-de-ying-xiang-ji-ying-dui-ce-e500843c/)
+- [咖啡创业者的成功故事：从精品小店到连锁帝国的实战手册](/posts/2025-12-05-181904-ka-pei-chuang-ye-zhe-de-cheng-gong-gu-shi-cong-jin-5a487d86/)
+
+<!-- related-reading-end -->

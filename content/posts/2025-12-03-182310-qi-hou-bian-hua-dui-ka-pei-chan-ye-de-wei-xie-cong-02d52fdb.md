@@ -105,3 +105,14 @@ author: "Coffee Prism"
 ## 总结
 
 在这场与时间赛跑的气候战役中，从埃塞俄比亚高原到云南哀牢山脉，每杯咖啡都在讲述着生存与适应的故事。消费者可以通过选择**碳中和认证咖啡**、支持本地烘焙商、使用可持续器具等实际行动参与变革。咖啡产业正在经历的不仅是危机，更是转型升级的历史机遇——当我们学会用更智慧的方式与自然共处，手中的咖啡杯终将成为连接人类与地球的绿色纽带。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [气候变化对咖啡产业的威胁深度解析指南](/posts/qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-shen/)
+- [深度解析：气候变化对咖啡产业的威胁与应对指南](/posts/2026-01-06-182124-shen-du-jie-xi-qi-hou-bian-hua-dui-ka-pei-chan-ye-d84ba3d5/)
+- [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
+- [有机咖啡种植的实践与益处：从土壤到杯子的永续之旅](/posts/2026-01-17-181913-you-ji-ka-pei-chong-zhi-de-shi-jian-yu-yi-chu-cong-5bb28278/)
+
+<!-- related-reading-end -->

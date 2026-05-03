@@ -71,3 +71,14 @@ description: "中国咖啡馆正从饮品消费场所演变为社交、办公与
 3. 昆明：光宗三号 - 云南咖啡产地的风味实验室  
 
 （本文提及产品链接仅供参考，购买前请核实最新信息）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从启蒙沙龙到第三空间：咖啡馆如何重塑中国人的社交DNA](/posts/2025-08-02-182121-cong-qi-meng-sha-long-dao-di-san-kong-jian-ka-pei-32b84e61/)
+- [从启蒙沙龙到第三空间：咖啡馆如何重塑现代人的社交与工作方式](/posts/2025-05-01-181817-cong-qi-meng-sha-long-dao-di-san-kong-jian-ka-pei-447e9c6f/)
+- [从文人沙龙到数字游民据点：解码咖啡馆作为社会容器的三百年嬗变](/posts/2025-06-25-182222-mo-ren-biao-ti-d5b23659/)
+- [从第三空间到多功能场景：咖啡馆在中国社交与工作文化中的进化](/posts/2025-09-03-181958-cong-di-san-kong-jian-dao-duo-gong-neng-chang-jing-1994abf2/)
+
+<!-- related-reading-end -->

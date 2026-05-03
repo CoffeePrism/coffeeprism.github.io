@@ -61,6 +61,17 @@ description: "单一产地咖啡豆是来自同一国家、产区或农场的咖
 
 单一产地咖啡豆如同一扇通往世界各地风味旅行的大门，每一种豆子都代表着其生长地的独特文化和自然环境。对于中国的咖啡爱好者来说，深入了解和品鉴这些豆子的风味，不仅能丰富你的咖啡体验，也能提升你的品鉴水平。希望这篇文章能够帮助你更好地探索这些独特的咖啡之味。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **Coffee Prism 精品电子书**

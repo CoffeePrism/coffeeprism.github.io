@@ -76,3 +76,14 @@ description: "公平贸易咖啡是中国消费者兼顾品质、可持续与社
 ---
 
 **延伸思考**：下次购买咖啡时，不妨多花30秒查看包装上的认证标志。你的选择，或许正在改变某个哥伦比亚家庭孩子的命运，或是守护着云南某片雨林的生物多样性——这才是咖啡文化最深邃的醇香。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从咖啡豆到咖啡杯：公平贸易如何重塑中国咖啡文化的可持续未来](/posts/2025-10-16-182143-cong-ka-pei-dou-dao-ka-pei-bei-gong-ping-mao-yi-ru-e190e032/)
+- [从种子到杯中物：公平贸易咖啡如何重塑中国咖啡文化的可持续未来](/posts/2025-06-28-181833-mo-ren-biao-ti-e0fc8f1c/)
+- [从豆到杯的觉醒：公平贸易如何重塑中国咖啡文化的可持续未来](/posts/2025-06-29-182001-cong-dou-dao-bei-de-jue-xing-gong-ping-mao-yi-ru-h-fbbacb3c/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+
+<!-- related-reading-end -->

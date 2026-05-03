@@ -40,3 +40,14 @@ description: "中国新兴咖啡品牌正凭借本土叙事、云南咖啡供应
 站在上海永康路的街角咖啡馆，看着00后咖啡师熟练地操作着国产意式机具，我突然意识到：中国咖啡品牌正在完成从"文化移植"到"本土创造"的关键转变。这种转变不仅是商业模式的创新，更是属于中国咖啡爱好者的文化自觉——当我们谈论一杯好咖啡时，不再需要仰望蓝山或耶加雪菲，而是可以自信地说："试试这款云南厌氧日晒，它有我们自己的风土故事。"
 
 （全文约1450字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [《从豆到杯：中国新兴咖啡品牌如何用本土故事重塑第三空间》](/posts/2025-08-19-181903-cong-dou-dao-bei-zhong-guo-xin-xing-ka-pei-pin-pai-a1aec4bb/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+- [从本土基因到世界风味：中国新兴咖啡品牌的崛起与叙事革命](/posts/2025-08-21-181908-cong-ben-tu-ji-yin-dao-shi-jie-feng-wei-zhong-guo-8f6bda9f/)
+- [本土觉醒与风味革命：解码中国新兴咖啡品牌的叙事之道](/posts/2025-04-29-182255-ben-tu-jue-xing-yu-feng-wei-ge-ming-jie-ma-zhong-g-ea794885/)
+
+<!-- related-reading-end -->

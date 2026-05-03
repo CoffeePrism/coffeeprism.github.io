@@ -206,3 +206,14 @@ AI最容易切入的是第一层，部分辅助第二层，但最难替代第三
 作为 Coffee Prism 编辑部，我们认为，星巴克AI这条新闻真正值得警惕也值得期待的，不是“机器人会不会替人点单”，而是 **咖啡行业正在进入以数据和系统能力重新定义服务质量的阶段**。未来的领先品牌，未必是门店最多的品牌，而是最能把产品、会员、门店和算法协同起来的品牌。
 
 从专业角度看，AI不会改变一杯咖啡的萃取物理学，却会改变消费者如何抵达这杯咖啡。谁能把这段路径做得更短、更准、更少摩擦，谁就更可能赢得下一轮竞争。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任](/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/)
+
+<!-- related-reading-end -->

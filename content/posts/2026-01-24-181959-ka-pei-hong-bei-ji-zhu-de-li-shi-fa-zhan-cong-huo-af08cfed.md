@@ -89,3 +89,14 @@ author: "Coffee Prism"
 ## 总结
 
 从沙漠中的炙热沙粒到连接WIFI的智能设备，**烘焙技术的历史发展**始终围绕着两个核心命题：如何更精准地控制热能，以及如何更充分地激发风味物质。对于当代中国咖啡爱好者而言，理解这段技术演变史不仅能提升烘焙操作的科学性，更能帮助选择适合自身需求的设备方案。建议初学者从200g小批量烘焙开始，重点记录不同温度节点的风味变化，逐步建立自己的"烘焙记忆库"。欢迎在评论区分享你的烘焙心得，让我们共同探索咖啡风味的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡烘焙技术的历史发展：从火焰到科技的完整指南](/posts/2025-12-25-181942-ka-pei-hong-bei-ji-zhu-de-li-shi-fa-zhan-cong-huo-4fe658ae/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [咖啡在烹饪中的创新应用：从调味到烘焙的完整指南](/posts/2025-12-24-182029-ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong-26356fba/)
+
+<!-- related-reading-end -->

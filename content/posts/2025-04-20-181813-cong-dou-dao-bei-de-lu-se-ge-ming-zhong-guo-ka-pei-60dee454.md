@@ -76,3 +76,14 @@ description: "中国咖啡爱好者可通过选择公平贸易、有机认证与
 
 ---  
 **延伸思考**：下次购买咖啡时，你会首先查看包装上的哪个认证标志？欢迎在评论区分享你的可持续咖啡故事。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## 从豆杯到未来：中国咖啡爱好者如何用日常选择守护可持续咖啡](/posts/2025-04-19-225130-cong-dou-bei-dao-wei-lai-zhong-guo-ka-pei-ai-hao-z-acdfdc99/)
+- [从一杯咖啡到绿色未来：中国消费者如何用选择守护可持续咖啡生态](/posts/2025-08-25-181940-mo-ren-biao-ti-71703762/)
+- [从豆到杯的绿色革命：中国咖啡爱好者如何推动可持续咖啡未来](/posts/2025-04-23-181804-mo-ren-biao-ti-7cf3073c/)
+- [从豆到杯的绿色革命：中国咖啡爱好者如何支持可持续咖啡未来](/posts/2025-08-07-182110-cong-dou-dao-bei-de-lu-se-ge-ming-zhong-guo-ka-pei-2a2f6f09/)
+
+<!-- related-reading-end -->

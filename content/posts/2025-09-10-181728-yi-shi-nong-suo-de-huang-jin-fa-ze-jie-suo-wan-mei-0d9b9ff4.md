@@ -86,3 +86,14 @@ description: "完美意式浓缩取决于萃取率、研磨度、粉量、压粉
 ## 结语：完美萃取的终极哲学
 
 在米兰咖啡大师赛现场，评审组长Massimo的箴言至今回响："最好的浓缩咖啡，永远在下一杯。"当我们理解了压力与时间的舞蹈，读懂了水与粉的对话，就会明白完美萃取不是终点，而是与咖啡持续对话的过程。建议每位中国咖啡爱好者从今天开始，用科学精神践行咖啡艺术，在参数调整中寻找属于自己的风味宇宙。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [意式浓缩的完美萃取完全攻略与实战技巧](/posts/yi-shi-nong-suo-de-wan-mei-cui-qu-wan-quan-gong-lu/)
+- [解锁意式浓缩的灵魂：从参数控制到风味呈现的萃取艺术](/posts/2025-07-25-182050-jie-suo-yi-shi-nong-suo-de-ling-hun-cong-can-shu-k-2ca2323b/)
+- [## 标题：**法压壶完全指南：解锁咖啡纯净风味的7个关键步骤](/posts/2025-10-12-181641-biao-ti-fa-ya-hu-wan-quan-zhi-nan-jie-suo-ka-pei-c-333b2ccc/)
+- [冷萃咖啡完全指南：解锁夏日专属的丝滑风味密码](/posts/2025-05-21-181900-leng-cui-ka-pei-wan-quan-zhi-nan-jie-suo-xia-ri-zh-0c956425/)
+
+<!-- related-reading-end -->

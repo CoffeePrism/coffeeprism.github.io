@@ -1,5 +1,5 @@
 ---
-title: "默认标题"
+title: "寻豆之旅：全球稀有咖啡品种的味觉密码与收藏价值"
 date: 2025-06-07
 draft: false
 categories: ["咖啡豆种类"]
@@ -94,3 +94,14 @@ description: "稀有咖啡品种的价值，来自基因独特性、严苛种植
 **延伸产品推荐**：  
 - 精确控温的[Fellow Stagg EKG电水壶](https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%E7%94%B5%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)  
 - 专业级生豆储存罐[Airscape Coffee Container](https://www.amazon.com/s?k=Airscape%20Coffee%20Container&tag=coffeeprism-20)
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [寻豆之旅：全球稀有咖啡品种的味觉密码与收藏价值](/posts/2025-06-29-181924-xun-dou-zhi-lu-quan-qiu-xi-you-ka-pei-pin-chong-de-33810b23/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+- [云南小粒咖啡的崛起：探寻中国咖啡的独特风味](/posts/2025-04-17-181649-yun-nan-xiao-li-ka-pei-de-jue-qi-tan-xun-zhong-guo-ka-pei-de-du-te-feng-wei-882036de/)
+- [云南小粒咖啡：中国咖啡原产地的觉醒与风味密码](/posts/2025-08-17-182302-yun-nan-xiao-li-ka-pei-zhong-guo-ka-pei-yuan-chan-07890e29/)
+
+<!-- related-reading-end -->

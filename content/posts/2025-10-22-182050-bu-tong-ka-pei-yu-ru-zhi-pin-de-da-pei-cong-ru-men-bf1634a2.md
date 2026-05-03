@@ -97,3 +97,14 @@ author: "Coffee Prism"
 
 ## 总结
 掌握**不同咖啡与乳制品的搭配**本质上是理解「液体交响乐」的配器法则。建议从建立自己的「风味日记」开始，记录每次搭配的咖啡豆品种、乳制品参数和味觉体验。不妨明早尝试用**必如超级奶**制作一杯短笛咖啡（Piccolo Latte），感受15ml浓缩与60ml牛奶的精准碰撞。欢迎在评论区分享你的独家搭配秘方，让我们共同探索这杯中的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与乳品搭配全攻略：从浓缩到冷萃的黄金法则](/posts/2025-12-28-181956-ka-pei-yu-ru-pin-da-pei-quan-gong-lue-cong-nong-su-6b1d13d9/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+- [土耳其咖啡的传统冲泡方法：千年技艺与现代演绎](/posts/2025-11-15-181659-tu-er-qi-ka-pei-de-chuan-tong-chong-pao-fang-fa-qi-16b3789b/)
+- [意大利经典咖啡品牌的历史深度解析指南](/posts/yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-shen-d/)
+
+<!-- related-reading-end -->

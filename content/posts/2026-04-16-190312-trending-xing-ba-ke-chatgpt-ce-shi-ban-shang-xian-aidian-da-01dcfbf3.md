@@ -188,3 +188,14 @@ Seesaw、M Stand 以及一批新消费精品咖啡品牌，则面临另一种机
 ## 专家观点/编辑点评
 
 作为 Coffee Prism 编辑部，我们认为，星巴克这次接入 ChatGPT 的象征意义大于短期销量意义。它释放了一个清晰信号：咖啡行业的数字化竞争，正在从“谁拥有更多线上订单”转向“谁定义消费者的第一杯推荐”。未来的赢家，不只是有门店、有会员、有爆款的品牌，更是那些能把产品知识、风味语言和消费场景转化为 AI 可理解资产的品牌。对中国市场来说，现在真正该准备的，不是追赶某个功能，而是重建一套面向 AI 时代的产品表达体系。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [星巴克 ChatGPT 合作背后：AI饮品推荐如何重塑咖啡数字化竞争](/posts/xing-ba-ke-chatgpt-he-zuo-bei-hou-aiyin-pin-tui-ji/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+
+<!-- related-reading-end -->

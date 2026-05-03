@@ -127,3 +127,14 @@ author: "Coffee Prism"
 ## 总结与行动指南
 
 掌握**土耳其咖啡的传统冲泡方法**需要理解其"慢工出细活"的本质。记住三个关键数字：100微米的研磨细度、3次精确的沸腾控制、5分钟的完整冲泡时长。建议从标准七步法开始练习，逐步尝试风味增强技巧。不妨在本周末准备15g咖啡粉和铜壶，亲自体验这份穿越五个世纪的文化馈赠。欢迎在评论区分享您的首冲体验，或咨询具体操作细节——每一杯土耳其咖啡都是独一无二的艺术品，期待您的创作故事！
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [土耳其咖啡的传统冲泡方法：千年技艺与现代演绎](/posts/2025-11-15-181659-tu-er-qi-ka-pei-de-chuan-tong-chong-pao-fang-fa-qi-16b3789b/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的完整指南](/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+- [咖啡在烹饪中的创新应用：从调味到烘焙的完整指南](/posts/2025-12-24-182029-ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong-26356fba/)
+
+<!-- related-reading-end -->

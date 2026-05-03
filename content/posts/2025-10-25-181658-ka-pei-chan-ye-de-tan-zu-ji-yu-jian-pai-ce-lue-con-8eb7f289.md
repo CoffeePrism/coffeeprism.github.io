@@ -86,3 +86,14 @@ author: "Coffee Prism"
 ## 总结
 
 从选择一支带有碳足迹标签的云南咖啡豆，到使用可清洗的金属滤网，每个微小决策都在重塑咖啡产业的未来。建议消费者从「三个一」开始实践：每月尝试一款碳中和咖啡、准备一个专属随行杯、参与一次咖啡渣回收活动。当3000万中国咖啡爱好者中有10%采取这些行动，每年将减少相当于1.5个西湖大小的二氧化碳排放量。点击分享你的咖啡减排故事，让我们共同见证杯中饮品的绿色革命。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [可持续咖啡包装的发展深度解析指南](/posts/ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-shen-du-jie/)
+- [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
+- [咖啡产业的碳足迹与减排策略深度解析指南](/posts/ka-pei-chan-ye-de-tan-zu-ji-yu-jian-pai-ce-lue-she/)
+- [咖啡产业的碳足迹与减排策略：从种植到杯中的绿色革命](/posts/2025-11-27-181844-ka-pei-chan-ye-de-tan-zu-ji-yu-jian-pai-ce-lue-con-b9520ce8/)
+
+<!-- related-reading-end -->

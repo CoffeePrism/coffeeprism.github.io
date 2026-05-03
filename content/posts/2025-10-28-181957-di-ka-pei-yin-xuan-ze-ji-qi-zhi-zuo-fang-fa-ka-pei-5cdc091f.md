@@ -95,3 +95,14 @@ author: "Coffee Prism"
 3. **记录日记**：建立自己的「咖啡因-睡眠质量」对照表
 
 当你在深夜啜饮着带有茉莉花香的冷萃咖啡时，才会真正理解**低咖啡因选择及其制作方法**带来的自由。现在就到厨房找出尘封的法压壶，开始这场风味与健康的平衡实验吧！欢迎在评论区分享你的低因咖啡配方。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [低咖啡因咖啡选择与制作方法全攻略：从选豆到冲泡的完整指南](/posts/2025-11-15-181735-di-ka-pei-yin-ka-pei-xuan-ze-yu-zhi-zuo-fang-fa-qu-398a4617/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+- [世界各地的咖啡仪式与传统：从入门到精通的沉浸指南](/posts/2026-01-13-182347-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-20b917bf/)
+- [咖啡与早餐的最佳组合完全攻略与深度解析](/posts/ka-pei-yu-zao-can-de-zui-jia-zu-he-wan-quan-gong-l/)
+
+<!-- related-reading-end -->

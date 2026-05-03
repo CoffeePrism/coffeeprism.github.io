@@ -117,3 +117,14 @@ author: "Coffee Prism"
 ## 结语：开启你的哥伦比亚咖啡之旅
 
 从安第斯山脉的火山土壤到中国咖啡爱好者的杯中物，**哥伦比亚咖啡豆的特色与历史**讲述着自然与人文的完美协奏。记住三个关键数字：1800米种植海拔、72小时水洗处理、88分杯测基准。无论是选购[Illy哥伦比亚单源系列](https://www.amazon.com/s?k=Illy%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E5%8D%95%E6%BA%90%E7%B3%BB%E5%88%97&tag=coffeeprism-20)在家手冲，还是到精品咖啡馆体验氮气冷萃，这片翡翠之国的咖啡传奇等待你的探索。欢迎在评论区分享你的哥伦比亚咖啡故事，让我们共同品味这杯跨越时空的芳香。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [哥伦比亚咖啡豆的特色与历史：从产地到杯中的完整指南](/posts/2026-01-23-182635-ge-lun-bi-ya-ka-pei-dou-de-te-se-yu-li-shi-cong-ch-cd51803e/)
+- [哥伦比亚咖啡豆的特色与历史：从入门到精通的实用宝典](/posts/2025-11-02-181524-ge-lun-bi-ya-ka-pei-dou-de-te-se-yu-li-shi-cong-ru-937bcd1e/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+
+<!-- related-reading-end -->

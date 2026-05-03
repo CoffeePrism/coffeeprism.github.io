@@ -56,6 +56,47 @@
 }
 </script>
 
+{{/* HowTo Schema - from frontmatter howto field */}}
+{{- with .Params.howto -}}
+<script type="application/ld+json">
+{
+  "@context": "https://schema.org",
+  "@type": "HowTo",
+  "name": {{ .name | default $.Title | jsonify }},
+  "description": {{ .description | default $.Description | jsonify }}
+  {{- with .totalTime }},
+  "totalTime": {{ . | jsonify }}
+  {{- end }}
+  {{- with .yield }},
+  "yield": {{ . | jsonify }}
+  {{- end }}
+  {{- with .supply }},
+  "supply": [
+    {{- range $i, $s := . }}{{ if $i }},{{ end }}{ "@type": "HowToSupply", "name": {{ $s | jsonify }} }{{ end }}
+  ]
+  {{- end }}
+  {{- with .tool }},
+  "tool": [
+    {{- range $i, $t := . }}{{ if $i }},{{ end }}{ "@type": "HowToTool", "name": {{ $t | jsonify }} }{{ end }}
+  ]
+  {{- end }}
+  {{- with .steps }},
+  "step": [
+    {{- range $i, $step := . -}}
+    {{- if $i }},{{ end }}
+    {
+      "@type": "HowToStep",
+      "position": {{ add $i 1 }},
+      "name": {{ $step.name | default (printf "步骤 %d" (add $i 1)) | jsonify }},
+      "text": {{ $step.text | jsonify }}
+    }
+    {{- end }}
+  ]
+  {{- end }}
+}
+</script>
+{{- end -}}
+
 {{/* FAQ Schema - from frontmatter faq field */}}
 {{- with .Params.faq -}}
 {{- if gt (len .) 0 -}}

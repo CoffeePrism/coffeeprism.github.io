@@ -93,3 +93,14 @@ author: "Coffee Prism"
 从咖啡拉花的流体力学到咖啡馆的空间策展，「咖啡与艺术的交融」正在重新定义我们对一杯饮品的想象。建议读者从明天早晨的咖啡时间开始实践：用手机记录咖啡油脂的自然纹路，尝试用不同搅拌轨迹改变颜色分层，甚至用咖啡渍在餐巾纸上即兴作画。当您将咖啡杯视为移动美术馆，每个日常瞬间都能成为艺术创作的起点。
 
 欢迎在评论区分享您的咖啡艺术实验照片，获赞最高的三位读者将获得本文推荐的泰摩手冲壶试用装。点击右上角分享本文，让更多朋友加入这场香醇的美学革命。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与艺术的交融：从入门到精通的实用指南](/posts/2025-12-15-182211-ka-pei-yu-yi-zhu-de-jiao-rong-cong-ru-men-dao-jing-9c2e7bfd/)
+- [咖啡与艺术的交融：从拉花到生活的美学实践](/posts/2025-12-14-181908-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-shen-1cc74d0d/)
+- [咖啡与艺术的交融：从拉花到美学的完整指南](/posts/2026-01-07-182208-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-mei-aecad900/)
+- [咖啡爱好者的城市指南：解锁城市咖啡地图的终极手册](/posts/2025-11-19-182007-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-jie-suo-che-a3e4910b/)
+
+<!-- related-reading-end -->

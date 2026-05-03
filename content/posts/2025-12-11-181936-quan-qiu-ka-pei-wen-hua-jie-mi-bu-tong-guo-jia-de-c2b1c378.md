@@ -108,3 +108,14 @@ author: "Coffee Prism"
 4. **社群互动**：在小红书发起#全球咖啡挑战#话题
 
 当您下次举起咖啡杯时，记住这不仅是饮品更是文明切片。从也门苏菲教徒的提神仪式，到上海弄堂的桂花拿铁，每个国家的咖啡饮用习惯都在诉说独特的生活美学。现在，您准备好用味蕾环游世界了吗？
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [全球咖啡文化巡礼：不同国家的咖啡饮用习惯全解析](/posts/2025-11-26-181705-quan-qiu-ka-pei-wen-hua-xun-li-bu-tong-guo-jia-de-2aea4204/)
+- [深度解析：不同国家的咖啡饮用习惯与文化密码](/posts/2025-11-17-181918-shen-du-jie-xi-bu-tong-guo-jia-de-ka-pei-yin-yong-9a47282b/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [全球咖啡地图：不同国家的咖啡饮用习惯深度解析](/posts/2026-01-10-181926-quan-qiu-ka-pei-di-tu-bu-tong-guo-jia-de-ka-pei-yi-73f8a1a5/)
+
+<!-- related-reading-end -->

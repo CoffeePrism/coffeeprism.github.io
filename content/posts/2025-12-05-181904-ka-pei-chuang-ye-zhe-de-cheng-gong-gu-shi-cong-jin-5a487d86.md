@@ -130,3 +130,14 @@ author: "Coffee Prism"
 - **品牌力=空间体验×社交传播**  
 
 建议创业者从「300杯测试」开始：用3个月时间服务1000名顾客，收集500份反馈问卷，最终筛选出真正具有市场竞争力的产品组合。点击下方「咖啡创业交流群」链接，获取完整版《中国咖啡市场选址白皮书》，期待在评论区看到你的创业故事！
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡创业者的成功故事深度解析与实战指南](/posts/ka-pei-chuang-ye-zhe-de-cheng-gong-gu-shi-shen-du/)
+- [咖啡创业者的成功故事：从精品豆到商业帝国的经营密码](/posts/2026-01-11-182243-ka-pei-chuang-ye-zhe-de-cheng-gong-gu-shi-cong-jin-56bbee80/)
+- [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
+- [气候变化对咖啡产业的威胁：从危机到行动的生存指南](/posts/2025-12-03-182310-qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-cong-02d52fdb/)
+
+<!-- related-reading-end -->

@@ -55,3 +55,14 @@ description: "手冲咖啡要提升风味，关键在水质、注水高度与流
 记住，真正的进阶不在于设备堆砌，而是培养对咖啡的感知力。下次冲煮时，不妨闭上眼睛聆听水流与咖啡粉的私语——那是来自咖啡豆产地的风土故事，等待你用恰当的方式转译成杯中的风味诗篇。
 
 （本文提及产品链接仅供参考，实际购买请根据个人需求选择）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [唤醒咖啡豆的隐藏风味：手冲咖啡的五大进阶心法](/posts/2025-07-31-182328-huan-xing-ka-pei-dou-de-yin-cang-feng-wei-shou-cho-f333bca6/)
+- [手冲咖啡的进阶美学：解锁精品咖啡的五个维度](/posts/2025-05-01-181743-shou-chong-ka-pei-de-jin-jie-mei-xue-jie-suo-jing-5d8f49a8/)
+- [手冲咖啡的进阶艺术：解锁专业级萃取密码](/posts/2025-09-17-181744-shou-chong-ka-pei-de-jin-jie-yi-zhu-jie-suo-zhuan-374b5000/)
+- [手冲咖啡进阶技巧全攻略：从爱好者到行家的蜕变之路](/posts/2025-12-18-182131-shou-chong-ka-pei-jin-jie-ji-qiao-quan-gong-lue-co-3edab7af/)
+
+<!-- related-reading-end -->

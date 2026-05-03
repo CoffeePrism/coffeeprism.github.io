@@ -57,3 +57,14 @@ description: "单一产地咖啡豆的风味密码，来自风土、品种与处
 在第三波咖啡浪潮席卷中国的当下，我们比任何时候都更需要建立自己的品鉴体系。不妨从每月尝试三支不同产地的单品豆开始，逐步培养对地域特征的敏感度。记住，最好的咖啡永远是你用心感受的那一杯——它可能来自埃塞俄比亚的古老森林，也可能诞生于云南红土高原的晨曦之中。
 
 （本文提及的咖啡器具链接仅供参考，读者可根据实际需求选择购买渠道）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单一产地咖啡豆的风味特点深度解析指南](/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/)
+- [单一产地咖啡豆的风味特点：从产区到杯中的风味密码](/posts/2025-11-08-181934-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-359369fc/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+
+<!-- related-reading-end -->

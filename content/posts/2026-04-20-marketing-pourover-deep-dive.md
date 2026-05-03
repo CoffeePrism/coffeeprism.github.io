@@ -150,3 +150,14 @@ Stripe 安全支付，终身下载。
 如果你是那种"非要搞明白为什么"的人，欢迎你。
 
 —— Coffee Prism 编辑部
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人](/posts/complete-guide-launch/)
+- [唤醒咖啡豆的隐藏风味：手冲咖啡的五大进阶心法](/posts/2025-07-31-182328-huan-xing-ka-pei-dou-de-yin-cang-feng-wei-shou-cho-f333bca6/)
+- [手冲咖啡的味觉密码：解锁专业级风味的五大进阶技巧](/posts/2025-05-13-181848-shou-chong-ka-pei-de-wei-jue-mi-ma-jie-suo-zhuan-y-a898d7f1/)
+- [手冲咖啡的进阶美学：解锁精品咖啡的五个维度](/posts/2025-05-01-181743-shou-chong-ka-pei-de-jin-jie-mei-xue-jie-suo-jing-5d8f49a8/)
+
+<!-- related-reading-end -->

@@ -69,3 +69,14 @@ description: "咖啡旅行是用一杯精品咖啡读懂城市文化的深度玩
 ## 在咖啡杯里看见世界
 
 真正的咖啡旅行，不在于收集了多少"全球Top50咖啡馆"的印章，而是学会用咖啡师的视角观察城市：柏林墙边的移动咖啡车如何用一杯Flat White温暖寒冬，伊斯坦布尔街头铜壶翻飞的咖啡仪式如何维系着古老传统。下次出发时，不妨在行李箱留出500ml空间——200ml装你的专属咖啡杯，300ml留给那些注定要带回家的陌生豆香。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡旅行地图：探寻全球九座城市的第三空间密码](/posts/2025-04-20-031410-ka-pei-lu-xing-di-tu-tan-xun-quan-qiu-jiu-zuo-chen-8652f5ad/)
+- [咖啡旅行地图：用一杯咖啡丈量城市的灵魂](/posts/2025-09-28-181536-ka-pei-lu-xing-di-tu-yong-yi-bei-ka-pei-zhang-lian-0455390f/)
+- [咖啡漫游者地图：从胡同手冲到北欧极简的全球寻豆指南](/posts/2025-05-24-181717-ka-pei-man-you-zhe-di-tu-cong-hu-tong-shou-chong-d-ea9f9835/)
+- [咖啡漫游者地图：解锁全球咖啡城市的味觉密码](/posts/2025-08-04-182625-ka-pei-man-you-zhe-di-tu-jie-suo-quan-qiu-ka-pei-c-4d51a100/)
+
+<!-- related-reading-end -->

@@ -134,3 +134,14 @@ author: "Coffee Prism"
 3. 尝试季节限定产品记录风味笔记
 
 下次手握星巴克杯时，不妨细品其中蕴含的全球化智慧——这杯咖啡里，既有哥伦比亚咖啡豆的醇香，也融入了本地市场的巧思。你在哪个城市遇到过最惊艳的星巴克本土化创新？欢迎留言分享你的发现。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+- [咖啡创业者的成功故事：从精品豆到商业帝国的经营密码](/posts/2026-01-11-182243-ka-pei-chuang-ye-zhe-de-cheng-gong-gu-shi-cong-jin-56bbee80/)
+- [日本咖啡品牌的精益求精：从匠艺到日常的完美融合指南](/posts/2025-11-11-181905-ri-ben-ka-pei-pin-pai-de-jing-yi-qiu-jing-cong-jia-5ae1b915/)
+- [日本咖啡品牌的精益求精：从匠艺革新到日常品鉴的完整指南](/posts/2025-11-28-181845-ri-ben-ka-pei-pin-pai-de-jing-yi-qiu-jing-cong-jia-c0a1ca33/)
+
+<!-- related-reading-end -->

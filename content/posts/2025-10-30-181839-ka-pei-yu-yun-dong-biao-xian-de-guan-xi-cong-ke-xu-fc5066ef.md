@@ -112,3 +112,14 @@ author: "Coffee Prism"
 ## 总结
 
 从埃塞俄比亚牧羊人的古老传说，到现代运动实验室的精密仪器，咖啡与运动表现的关系始终散发着独特的魅力。记住这些黄金法则：**个体化剂量**是安全前提，**时间窗口**决定效用峰值，**品质把控**影响最终效果。明晨训练前，不妨尝试用20分钟精心冲煮一杯云南日晒咖啡，用味觉唤醒身体潜能——你的运动表现提升计划，或许就藏在那一缕氤氲的香气之中。欢迎在评论区分享你的咖啡运动心得，让我们共同探索这杯黑色饮品的科学奥秘。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+- [世界各地的咖啡仪式与传统深度解析指南](/posts/shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-shen/)
+- [咖啡与乳品搭配全攻略：从浓缩到冷萃的黄金法则](/posts/2025-12-28-181956-ka-pei-yu-ru-pin-da-pei-quan-gong-lue-cong-nong-su-6b1d13d9/)
+- [咖啡馆文化的历史与演变深度解析指南](/posts/ka-pei-guan-wen-hua-de-li-shi-yu-yan-bian-shen-du/)
+
+<!-- related-reading-end -->

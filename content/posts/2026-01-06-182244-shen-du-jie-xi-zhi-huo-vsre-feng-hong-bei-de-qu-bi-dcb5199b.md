@@ -89,3 +89,14 @@ author: "Coffee Prism"
 ## 总结：找到你的烘焙哲学
 
 理解**直火vs热风烘焙的区别**本质是掌握咖啡风味的话语权。直火烘焙如同水墨画，讲究"意在笔先"的即兴创作；热风技术则像数码摄影，追求像素级精准控制。建议初学者从200g小批次开始，用笔记本记录每次烘焙的升温曲线和风味变化。记住，最好的烘焙方式永远是能准确表达你对咖啡理解的工具。欢迎在评论区分享你的烘焙日志，让我们共同探索咖啡宇宙的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [直火vs热风烘焙的区别：咖啡师都在用的实战指南](/posts/2025-12-20-181904-zhi-huo-vsre-feng-hong-bei-de-qu-bie-ka-pei-shi-du-d11faa7f/)
+- [单源咖啡的最佳烘焙方式：从入门到精通的实用宝典](/posts/2025-11-21-181930-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-f1abfbf2/)
+- [咖啡烘焙技术的历史发展：从火焰到科技的完整指南](/posts/2025-12-25-181942-ka-pei-hong-bei-ji-zhu-de-li-shi-fa-zhan-cong-huo-4fe658ae/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+
+<!-- related-reading-end -->

@@ -60,3 +60,14 @@ description: "全球五大殿堂级咖啡馆最值得朝圣的，是能一杯喝
 ---
 
 在这场跨越六大洲的咖啡修行中，我们最终发现的不仅是咖啡的地域个性，更是人类用匠心驯服自然的永恒追求。当你在京都町屋接过那杯映着竹影的手冲咖啡，或是在哥伦比亚云雾中咬开甜蜜的咖啡果肉时，请记住：每一口都是地理、历史与人文共同书写的风味诗篇。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [世界顶级咖啡馆朝圣之旅：从东京到哥本哈根的味觉地图](/posts/2025-12-03-182202-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-2178ca4a/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [从东京到哥本哈根：全球顶级咖啡馆朝圣地图与实用指南](/posts/2025-09-05-181621-cong-dong-jing-dao-ge-ben-ha-gen-quan-qiu-ding-ji-91111e81/)
+- [咖啡朝圣者的地理学：用味蕾丈量世界的寻豆地图](/posts/2025-07-01-181910-ka-pei-zhao-sheng-zhe-de-di-li-xue-yong-wei-lei-zh-b682d8fb/)
+
+<!-- related-reading-end -->

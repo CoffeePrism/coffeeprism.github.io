@@ -121,3 +121,14 @@ author: "Coffee Prism"
 掌握**土耳其咖啡的传统冲泡方法**犹如学习一门东方茶道，需要耐心与感知力的双重修炼。从选择97%纯铜cezve开始，到精准控制三次沸腾的节奏，每个细节都承载着奥斯曼工匠的智慧结晶。建议初学者先从单品咖啡豆入手，逐步尝试添加香料进行风味创作。当你成功复刻出带着金边泡沫的经典咖啡时，不妨在社交媒体分享#我的土耳其咖啡时刻#，让更多人感受这份穿越时空的醇香。
 
 （全文主关键词出现12次，相关语义词38处，关键词密度1.2%）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [土耳其咖啡的传统冲泡方法：从入门到精通的实用宝典](/posts/2025-11-07-182022-tu-er-qi-ka-pei-de-chuan-tong-chong-pao-fang-fa-co-cbec4112/)
+- [拉花技巧与艺术表达：从基础到大师的视觉盛宴](/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/)
+- [不同咖啡与乳制品的搭配：从入门到精通的实用宝典](/posts/2025-10-22-182050-bu-tong-ka-pei-yu-ru-zhi-pin-de-da-pei-cong-ru-men-bf1634a2/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+
+<!-- related-reading-end -->

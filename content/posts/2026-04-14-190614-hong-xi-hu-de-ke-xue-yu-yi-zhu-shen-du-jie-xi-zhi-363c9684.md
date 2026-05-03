@@ -232,3 +232,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/hong-xi-hu-de-ke-xue-yu-yi-zhu-
 ## 总结
 
 掌握**虹吸壶的科学与艺术**，本质上就是掌握三个关键词：压力变化、热量控制、均匀萃取。先理解它为什么会上水与回流，再固定粉水比、火力和搅拌，你就能从“偶尔做得好”走向“稳定好喝”。选器具时，别只看颜值，密封性、滤器维护和配件供应更重要。真正的提升来自持续记录与反复比较：同一支豆子，连续做几壶，你会很快看见差异。把虹吸壶当成一套可以训练感官的系统，而不只是一个漂亮器具，乐趣才会越来越大。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [虹吸壶的科学与艺术：从实验室到咖啡桌的完全指南](/posts/2025-10-23-181927-hong-xi-hu-de-ke-xue-yu-yi-zhu-cong-shi-yan-shi-da-4b540edc/)
+- [家庭咖啡烘焙入门指南：新手完全攻略与实操技巧](/posts/jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-xin-shou-w/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+- [冷萃咖啡的制作与风味特点完全攻略](/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/)
+
+<!-- related-reading-end -->

@@ -97,3 +97,14 @@ author: "Coffee Prism"
 ## 结语：开启你的风味探索之旅
 
 掌握**单源咖啡的最佳烘焙方式**如同学习一门风味语言，从巴西巧克力的醇厚到巴拿马翡翠的澄澈，每个产区的豆子都在等待被正确解读。建议从200g小批次开始实验，记录每次调整带来的风味变迁。当你能通过杯测准确判断出烘焙曲线时，恭喜你已进阶为真正的「咖啡翻译官」。欢迎在评论区分享你的烘焙日志，让我们共同见证中国精品咖啡的成长之路。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [单源咖啡的最佳烘焙方式：从入门到精通的实用宝典](/posts/2025-11-21-181930-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-f1abfbf2/)
+- [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
+- [家庭咖啡烘焙入门指南：从生豆到杯中的完整探索](/posts/2025-11-04-181959-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-cong-sheng-a1e6e326/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+
+<!-- related-reading-end -->

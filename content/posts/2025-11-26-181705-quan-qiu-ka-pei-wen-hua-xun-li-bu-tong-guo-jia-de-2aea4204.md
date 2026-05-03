@@ -94,3 +94,14 @@ author: "Coffee Prism"
 ## 总结
 
 从也门苏菲教派的**咖啡仪式**到星巴克的第三空间理论，**不同国家的咖啡饮用习惯**始终在诉说人类最本真的需求——用一杯饮品连接自我与世界。建议读者每月尝试一个国家的特色冲泡法，记录风味日记，逐步建立自己的咖啡味觉地图。您是否发现云南豆做冷萃时竟有澳洲风格的柑橘尾韵？欢迎在评论区分享您的跨国咖啡实验心得。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [全球咖啡文化解密：不同国家的咖啡饮用习惯全攻略](/posts/2025-12-11-181936-quan-qiu-ka-pei-wen-hua-jie-mi-bu-tong-guo-jia-de-c2b1c378/)
+- [深度解析：不同国家的咖啡饮用习惯与文化密码](/posts/2025-11-17-181918-shen-du-jie-xi-bu-tong-guo-jia-de-ka-pei-yin-yong-9a47282b/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [全球咖啡地图：不同国家的咖啡饮用习惯深度解析](/posts/2026-01-10-181926-quan-qiu-ka-pei-di-tu-bu-tong-guo-jia-de-ka-pei-yi-73f8a1a5/)
+
+<!-- related-reading-end -->

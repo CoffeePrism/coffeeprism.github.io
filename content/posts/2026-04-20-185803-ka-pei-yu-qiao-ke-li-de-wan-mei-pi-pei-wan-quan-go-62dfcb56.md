@@ -291,3 +291,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-yu-qiao-ke-li-de-wan-mei
 ## 总结
 
 做好咖啡与巧克力的完美匹配，关键不在复杂，而在判断顺序是否清晰：先看咖啡风味，再看巧克力甜苦结构，最后用温度和份量微调。对大多数人来说，60%-70% 黑巧、中烘咖啡和牛奶巧克力，是最值得反复练习的起点。想提高成功率，就用固定参数、小份量和记录表来建立自己的风味数据库。下一次喝咖啡时，不妨准备两种巧克力做对比，你会很快发现，真正迷人的不是“配上了”，而是“为什么它们会在一起变得更好喝”。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与甜点的风味互补：从入门到精通的实用指南](/posts/2025-12-22-182121-ka-pei-yu-tian-dian-de-feng-wei-hu-bu-cong-ru-men-0ec53a3a/)
+- [咖啡鸡尾酒的创意配方：专业指南与灵感宝库](/posts/2025-12-14-181851-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-zhuan-ye-z-193da89c/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+
+<!-- related-reading-end -->

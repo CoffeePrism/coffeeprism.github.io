@@ -119,3 +119,14 @@ author: "Coffee Prism"
 3. 优先选择国产优质设备（性价比高出进口品牌40%）
 
 现在就开始你的烘焙实验吧！欢迎在评论区分享你的曲线心得，下期我们将探讨「云南咖啡豆的最佳烘焙曲线设计」。点击收藏本文，随时查阅这份价值5000元的专业指南。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [深度解析：不同烘焙曲线的风味表现的完整指南](/posts/2025-12-04-182200-shen-du-jie-xi-bu-tong-hong-bei-qu-xian-de-feng-we-c4dc9e49/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+
+<!-- related-reading-end -->

@@ -66,3 +66,14 @@ description: "咖啡与食物搭配的核心，在于平衡酸甜苦醇与菜肴
 当咖啡粉撒进腌料罐，当浓缩咖啡注入砂锅，我们不仅在创造新的味觉体验，更在延续中国饮食文化中"物尽其用"的古老智慧。或许某天，咖啡将成为每个中国厨房的标配调料——这不是对传统的背离，而是风味文明的新生。
 
 （全文约1450字）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与餐桌的化学对话：解锁风味协同的烹饪新维度](/posts/2025-07-12-182209-mo-ren-biao-ti-1035d2b8/)
+- [咖啡入馔：解锁风味联觉的烹饪革命](/posts/2025-05-23-181811-mo-ren-biao-ti-d541b342/)
+- [咖啡在烹饪中的创新应用完全攻略与实战技巧](/posts/ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong/)
+- [咖啡在烹饪中的创新应用：从调味到烘焙的完整指南](/posts/2025-12-24-182029-ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong-26356fba/)
+
+<!-- related-reading-end -->

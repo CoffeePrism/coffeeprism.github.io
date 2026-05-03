@@ -107,3 +107,14 @@ H3：认准三个标识：1）100%意大利烘焙（包装标注Tostato in Itali
 ---
 
 在这趟穿越百年的咖啡之旅中，我们不仅看到了Lavazza如何从都灵街角的杂货铺成长为全球巨头，更见证了illy用科学精神重新定义咖啡品质标准。对于中国消费者而言，选择正宗意大利咖啡时，请记住"三看原则"：看烘焙地、看拼配编号、看认证标识。建议新手从illy Classico入门，逐步探索不同产区的风味奥秘。欢迎在评论区分享您的意式咖啡体验，下期我们将揭秘"如何在家复刻威尼斯花神咖啡馆的经典配方"。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [意大利经典咖啡品牌的历史：浓缩百年风味的完整指南](/posts/2025-11-03-181911-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-nong-s-95f04afb/)
+- [意大利经典咖啡品牌的历史深度解析指南](/posts/yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-shen-d/)
+- [意大利经典咖啡品牌的历史：从Espresso到现代生活的百年传奇](/posts/2026-01-09-182209-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-cong-e-41a48cb6/)
+- [不同咖啡与乳制品的搭配：从入门到精通的实用宝典](/posts/2025-10-22-182050-bu-tong-ka-pei-yu-ru-zhi-pin-de-da-pei-cong-ru-men-bf1634a2/)
+
+<!-- related-reading-end -->

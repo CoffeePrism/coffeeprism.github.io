@@ -106,3 +106,14 @@ author: "Coffee Prism"
 
 ## 结语
 理解**稀有咖啡品种及其价值**需要跳出日常消费框架，将其视为「可饮用的艺术品」。从埃塞俄比亚的原始森林到云南高黎贡山的云雾之间，每粒咖啡豆都在讲述着人类与自然协作的史诗。建议读者每月预留300元预算，从30g体验装开始，逐步建立自己的风味数据库。欢迎在评论区分享您与稀有咖啡的邂逅故事，让我们共同见证中国咖啡文化的进阶之路。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [稀有咖啡品种及其价值：从探索到品鉴的完全指南](/posts/2025-11-03-181850-xi-you-ka-pei-pin-chong-ji-qi-jie-zhi-cong-tan-suo-4f6a9b4a/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
+- [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-11-22-181742-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-8512f98d/)
+
+<!-- related-reading-end -->

@@ -91,3 +91,14 @@ description: "咖啡通过咖啡因激活代谢系统，促进脂肪氧化、提
 [5]《营养与代谢年鉴》2023年糖尿病防治指南  
 
 （注：文中产品链接仅作示例，实际购买请根据个人需求选择）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [《咖啡激活代谢密码：一杯黑金饮品的科学健康启示》](/posts/2025-08-22-181759-ka-pei-ji-huo-dai-xie-mi-ma-yi-bei-hei-jin-yin-pin-8f8dcae4/)
+- [咖啡与健康：解锁代谢加速的黑色密码](/posts/2025-07-20-181916-mo-ren-biao-ti-7039a470/)
+- [咖啡唤醒代谢力：从科学视角解读每日一杯的健康密码](/posts/2025-05-02-181702-mo-ren-biao-ti-92df1777/)
+- [咖啡唤醒代谢力：从科学视角解读每日咖啡的健康密码](/posts/2025-07-22-184308-ka-pei-huan-xing-dai-xie-li-cong-ke-xue-shi-jiao-j-8614e2b3/)
+
+<!-- related-reading-end -->

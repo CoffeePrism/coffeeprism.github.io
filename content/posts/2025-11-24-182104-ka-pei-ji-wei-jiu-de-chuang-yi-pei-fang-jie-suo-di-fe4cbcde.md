@@ -123,3 +123,14 @@ author: "Coffee Prism"
 当咖啡的醇厚遇见酒精的炽烈，这场舌尖上的化学反应早已超越简单饮品范畴。从掌握爱尔兰咖啡的经典比例，到创作属于自己的「中国风」配方，关键在于保持实验精神——正如东京咖啡节冠军调酒师山田隆所说：「最好的配方，永远在下一个shake之中。」
 
 现在，取出你的量酒器，挑选心仪的咖啡豆，在冰块与金属的碰撞声里开启风味探索之旅。欢迎在评论区分享你的独创配方，或许下一个刷屏小红书的爆款，就诞生于你此刻的灵感迸发。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡鸡尾酒的创意配方：解锁风味融合的终极指南](/posts/2025-12-29-182153-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-jie-suo-fe-e8f5c11d/)
+- [咖啡在烹饪中的创新应用：从调味到烘焙的完整指南](/posts/2025-12-24-182029-ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong-26356fba/)
+- [咖啡鸡尾酒的创意配方：专业指南与灵感宝库](/posts/2025-12-14-181851-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-zhuan-ye-z-193da89c/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+
+<!-- related-reading-end -->

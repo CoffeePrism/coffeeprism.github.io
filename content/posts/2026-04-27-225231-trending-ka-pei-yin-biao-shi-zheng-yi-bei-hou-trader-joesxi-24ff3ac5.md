@@ -172,3 +172,14 @@ news_source: "https://news.google.com/rss/articles/CBMipgFBVV95cUxPczBHaHFwR3dPa
 ## 专家观点 / 编辑点评
 
 作为 Coffee Prism 编辑部，我们认为 Trader Joe’s 这起**消费者诉讼**释放了一个明确信号：咖啡行业的竞争，正在从风味叙事走向信息治理。未来真正有价值的品牌，不只是能讲产区故事、做出稳定风味，更要把**咖啡因标识**、冲泡变量和消费风险讲清楚。对零售商而言，这不只是法务问题，而是品牌资产问题；对消费者而言，这也不只是“看标签”，而是争取更完整的知情权。谁先把透明度做成能力，谁就更可能在下一轮市场竞争中胜出。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡期货回调背后：咖啡豆价格下行是否会传导到中国零售端与全球供应链？](/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/)
+
+<!-- related-reading-end -->

@@ -67,3 +67,14 @@ description: "可持续咖啡的密码，在于以遮荫种植、有机科技和
 - 在淘宝搜索"雨林联盟咖啡豆"，支持云南可持续种植  
 - 参与Manner Coffee的"自带杯减5元"计划  
 - 用咖啡渣制作家庭除味剂（50克咖啡渣+5滴茶树精油）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从种子到杯中物：探索可持续咖啡的生态觉醒之路](/posts/2025-09-24-181852-mo-ren-biao-ti-082e2930/)
+- [从种子到杯中的绿色革命：可持续咖啡如何重塑中国咖啡文化](/posts/2025-10-09-181837-cong-chong-zi-dao-bei-zhong-de-lu-se-ge-ming-ke-ch-570a2ac1/)
+- [咖啡种植的环境影响深度解析指南](/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/)
+- [咖啡种植的环境影响：从土壤到杯子的生态启示](/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/)
+
+<!-- related-reading-end -->

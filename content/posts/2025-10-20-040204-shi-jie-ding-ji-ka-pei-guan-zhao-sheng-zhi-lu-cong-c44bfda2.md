@@ -71,3 +71,14 @@ author: "Coffee Prism"
 真正的咖啡朝圣不在于打卡数量，而在深度体验的质量。建议每季度设定一个主题（如「日式法兰绒萃取」或「肯尼亚SL28品种探索」），通过国内精品馆预演、国际朝圣实践、回家复盘精进的三段式循环。当你在台北的Simple Kaffa用自带的[C40磨豆机](https://www.amazon.com/s?k=C40%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)与咖啡师切磋参数时，这场跨越时空的对话，终将酿成属于你的咖啡圣经。
 
 欢迎在评论区分享你的朝圣故事，或咨询具体路线规划。下期将揭秘「全球TOP10咖啡烘焙工坊深度评测」，助你完善咖啡修行版图。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [消费者如何支持可持续咖啡：从入门到实践的完整指南](/posts/2025-12-02-182243-xiao-fei-zhe-ru-he-zhi-chi-ke-chi-xu-ka-pei-cong-r-aac5c18c/)
+- [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da/)
+- [咖啡产地旅行指南：探索全球精品产区的完整攻略](/posts/2025-12-13-181734-ka-pei-chan-di-lu-xing-zhi-nan-tan-suo-quan-qiu-ji-011f8e01/)
+- [咖啡旅行中的文化体验：从产地到杯中的沉浸之旅](/posts/2025-11-04-181921-ka-pei-lu-xing-zhong-de-wen-hua-ti-yan-cong-chan-d-d3ee01e5/)
+
+<!-- related-reading-end -->

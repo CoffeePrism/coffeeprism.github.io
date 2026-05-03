@@ -118,3 +118,14 @@ author: "Coffee Prism"
 从咖啡豆的基因品种到手中咖啡杯的每一度温差，抗氧化物质的旅程充满科学趣味与实践智慧。记住三个关键数字：中深烘焙（Agtron#55）、88℃水温、2分30秒萃取，这是家庭操作的最优平衡点。建议每月用DPPH试剂盒检测不同冲泡方案，建立个人化的抗氧化咖啡图谱。
 
 当您下次在咖啡馆选择饮品时，不妨尝试单品豆手冲+透明玻璃器具的组合，观察咖啡液中悬浮的抗氧化油脂层。欢迎在评论区分享您的实验数据，或推荐您发现的高抗氧化咖啡豆。让我们用科学精神，喝出更健康的咖啡哲学。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡中的抗氧化物质研究深度解析指南](/posts/ka-pei-zhong-de-kang-yang-hua-wu-zhi-yan-jiu-shen/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+- [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
+
+<!-- related-reading-end -->

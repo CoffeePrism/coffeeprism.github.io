@@ -125,3 +125,14 @@ author: "Coffee Prism"
 ## 结语：构建你的咖啡城市记忆
 
 真正的**咖啡爱好者的城市指南**，是记录杯测笔记时的专注神情，是发现巷弄宝藏店的惊喜时刻，是与咖啡师探讨处理法的深夜对话。建议每座城市留存三种纪念品：1张定制滤纸、1包本地烘焙豆、1段浓缩咖啡油脂流动视频。当你用300天走过30座城市，那些留在味觉记忆里的风味层次，终将拼凑出属于中国咖啡文化的完整图景。现在，打开地图App标记离你最近的精品咖啡馆，开始书写你的第一章咖啡城市笔记吧。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡爱好者的城市指南完全攻略：从打卡到深度喝懂一座城](/posts/ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-wan-quan-go/)
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极指南](/posts/2025-12-02-182157-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-e0fddd17/)
+- [咖啡爱好者的城市指南：探索城市咖啡地图的终极秘籍](/posts/2026-01-09-182148-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ea185d52/)
+- [咖啡爱好者的城市指南：解锁城市咖啡地图的终极手册](/posts/2025-11-19-182007-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-jie-suo-che-a3e4910b/)
+
+<!-- related-reading-end -->

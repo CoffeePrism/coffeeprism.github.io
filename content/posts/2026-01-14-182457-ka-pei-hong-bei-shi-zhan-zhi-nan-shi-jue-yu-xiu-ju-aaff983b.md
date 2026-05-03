@@ -76,3 +76,14 @@ author: "Coffee Prism"
 3. 每月进行盲测校准（可加入上海咖啡协会的品鉴小组）
 
 当您能通过豆表细纹读懂种植海拔，从一缕青烟判断脱水效率时，那些曾经神秘的烘焙曲线终将成为流淌在感官中的诗意。期待在留言区看到您独特的观察心得，让我们共同完善这份咖啡风味的解码手册。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [识别完美烘焙的视觉与嗅觉线索深度解析指南](/posts/shi-bie-wan-mei-hong-bei-de-shi-jue-yu-xiu-jue-xia/)
+- [深度解析：不同烘焙曲线的风味表现的完整指南](/posts/2025-12-04-182200-shen-du-jie-xi-bu-tong-hong-bei-qu-xian-de-feng-we-c4dc9e49/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+- [意大利经典咖啡品牌的历史：浓缩文明与商业智慧的完美交融](/posts/2025-10-31-181930-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-nong-s-6d061ed7/)
+
+<!-- related-reading-end -->

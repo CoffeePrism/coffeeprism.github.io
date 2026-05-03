@@ -49,3 +49,14 @@ description: "虹吸壶是一种利用气压差与精准控温完成萃取、兼
 **专家建议**：每月用食品级柠檬酸清洗虹吸壶滤布，同时检查橡胶密封圈的老化程度。虹吸壶的仪式感不应成为负担，成都独立咖啡馆"蒸汽朋克"主理人王艺的建议值得借鉴："把每个周三定为虹吸壶日，用固定频率保持手感，就像书法家的日课练习。"
 
 当玻璃器皿中的咖啡液开始如熔岩般涌动，我们看到的不仅是物理定律的具象化演示，更是一个古老行业在当代中国的创造性转化。这种转化既需要实验室级的严谨，也离不开艺术家的敏感——而这，正是虹吸壶带给中国咖啡文化的双重馈赠。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [探索虹吸壶咖啡的科学与艺术：从器具到风味的深度解析](/posts/2025-04-18-033939-tan-suo-hong-xi-hu-ka-pei-de-ke-xue-yu-yi-zhu-cong-qi-ju-dao-feng-wei-de-shen-du-jie-xi-c46bbb5a/)
+- [虹吸壶咖啡：科学与艺术的交响曲](/posts/2025-06-01-181704-hong-xi-hu-ka-pei-ke-xue-yu-yi-zhu-de-jiao-xiang-q-adb8f6d8/)
+- [虹吸壶的科学与艺术深度解析指南](/posts/hong-xi-hu-de-ke-xue-yu-yi-zhu-shen-du-jie-xi-zhi/)
+- [虹吸壶的科学与艺术：从实验室到咖啡桌的完全指南](/posts/2025-10-23-181927-hong-xi-hu-de-ke-xue-yu-yi-zhu-cong-shi-yan-shi-da-4b540edc/)
+
+<!-- related-reading-end -->

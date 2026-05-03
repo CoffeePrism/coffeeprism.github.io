@@ -60,3 +60,14 @@ description: "咖啡烘焙的进化史，始于埃塞俄比亚火塘与陶罐的
 从也门苏菲派修士在沙漠篝火中烘豆冥想，到上海弄堂里年轻人用智能设备调试烘焙曲线，咖啡烘焙的进化史本质上是人类追求风味自由的史诗。当您下次研磨咖啡时，不妨细品其中蕴藏的千年智慧——每一颗咖啡豆的焦糖化斑点，都是文明与火焰的私密对话。
 
 **明日建议**：选购2023年云南冠军批次的保山小粒咖啡生豆，尝试用不同烘焙度搭配茉莉花茶或绍兴黄酒，探索属于东方味觉的咖啡表达。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从深褐到金黄：咖啡烘焙技术的发展之旅](/posts/2025-04-18-044523-biao-ti-cong-shen-he-dao-jin-huang-ka-pei-hong-bei-ji-zhu-de-fa-zhan-zhi-lu-52e0f83f/)
+- [咖啡烘焙五百年进化史：从炭火炙烤到智能曲线](/posts/2025-04-28-181820-ka-pei-hong-bei-wu-bai-nian-jin-hua-shi-cong-tan-h-961931d7/)
+- [咖啡烘焙五百年：从火焰艺术到精密科学的进化史](/posts/2025-04-18-201248-article-dada6239/)
+- [咖啡烘焙技术的历史发展：从火堆到智能烘焙的全景解读](/posts/2026-01-24-181959-ka-pei-hong-bei-ji-zhu-de-li-shi-fa-zhan-cong-huo-af08cfed/)
+
+<!-- related-reading-end -->

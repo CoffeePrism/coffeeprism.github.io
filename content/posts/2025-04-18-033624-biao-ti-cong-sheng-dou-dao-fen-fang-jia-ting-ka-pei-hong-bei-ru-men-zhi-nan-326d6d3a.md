@@ -53,6 +53,17 @@ description: "家庭咖啡烘焙入门要点是选对生豆、掌握烘焙度并
 
 家庭咖啡烘焙是一项充满乐趣和挑战的活动。通过精心选择设备、细致观察和反复尝试，您不仅能掌握这门技艺，更能在自家享受到新鲜烘焙咖啡的醇香。希望本文能激发您的兴趣，开启一段充满香气和风味的咖啡之旅。无论您是咖啡新手还是资深爱好者，亲手烘焙的乐趣和满足感都将超乎您的想象。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从生豆到杯中艺术：中国家庭咖啡烘焙完全指南](/posts/2025-09-02-181617-cong-sheng-dou-dao-bei-zhong-yi-zhu-zhong-guo-jia-81a44d58/)
+- [从生豆到艺术：中国家庭咖啡烘焙完全指南](/posts/2025-08-01-182231-cong-sheng-dou-dao-yi-zhu-zhong-guo-jia-ting-ka-pe-2e76eece/)
+- [从生豆到醇香：中国家庭咖啡烘焙完全实践手册](/posts/2025-06-04-181907-cong-sheng-dou-dao-chun-xiang-zhong-guo-jia-ting-k-2f27a476/)
+- [家庭咖啡烘焙入门指南：从生豆到杯中的完整探索](/posts/2025-11-04-181959-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-cong-sheng-a1e6e326/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、10 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载。

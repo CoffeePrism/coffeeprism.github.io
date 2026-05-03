@@ -214,3 +214,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/fa-ya-hu-de-zui-jia-shi-yong-fa
 最直接的答案是：每次使用后立即拆洗滤网和壶身。咖啡油脂很容易附着在金属滤网上，时间久了会带来哈喇味和陈旧杂味。日常可用温水加中性清洁剂清洗，每周用咖啡器具清洁粉做一次深度去油会更理想。
 
 法压壶的最佳使用方法，说到底就是把几个关键变量稳定下来：中粗研磨、合理粉水比、92-96℃水温、4分钟左右浸泡，以及缓慢下压后立刻倒出。真正影响风味的，往往不是壶有多贵，而是你是否控制住了细粉、时间和温度。若你刚开始接触家用咖啡，先用15克粉、240克水的基础配方练熟，再根据豆子烘焙度微调。只要愿意多试两三轮，法压壶完全能做出兼顾醇厚、甜感和稳定性的好咖啡。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [法压壶的最佳使用方法：从入门到精通的实用宝典](/posts/2025-11-17-181857-fa-ya-hu-de-zui-jia-shi-yong-fang-fa-cong-ru-men-d-ad45d8dd/)
+- [法压壶的最佳使用方法：从入门到精通的实用指南](/posts/2025-11-13-181914-fa-ya-hu-de-zui-jia-shi-yong-fang-fa-cong-ru-men-d-625870cb/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
+
+<!-- related-reading-end -->

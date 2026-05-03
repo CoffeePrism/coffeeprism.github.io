@@ -115,3 +115,14 @@ author: "Coffee Prism"
 ## 总结
 
 掌握**烘焙度对咖啡风味的影响**，等于获得了打开精品咖啡世界的万能钥匙。从选择适合的烘焙程度，到调整对应的冲煮参数，每个环节都充满值得探索的细节。建议读者从建立「烘焙度-风味」对照表开始，记录不同烘焙程度的感官体验。当您下次站在咖啡豆货架前时，不妨先思考想要的味觉体验，再根据本文的烘焙知识做出精准选择。欢迎在评论区分享您的烘焙实验心得，让我们共同探索咖啡的无限可能。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [气候变化对咖啡产业的威胁：从危机到行动的生存指南](/posts/2025-12-03-182310-qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-cong-02d52fdb/)
+- [单源咖啡的最佳烘焙方式：从风味解锁到精准掌控的完全手册](/posts/2025-11-23-181734-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-afc6f806/)
+- [家庭咖啡烘焙入门指南：从生豆到杯中的完整探索](/posts/2025-11-04-181959-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-cong-sheng-a1e6e326/)
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+
+<!-- related-reading-end -->

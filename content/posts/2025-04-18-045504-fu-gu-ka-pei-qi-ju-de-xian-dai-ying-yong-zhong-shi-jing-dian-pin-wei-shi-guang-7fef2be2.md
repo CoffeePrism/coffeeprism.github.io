@@ -48,6 +48,17 @@ description: "复古咖啡器具在现代生活中的应用，体现在兼顾萃
 
 复古咖啡器具以其独特的设计、丰富的历史和文化内涵，再度成为现代咖啡生活中不可或缺的一部分。在追求高品质生活的今天，我们不妨为自己挑选一款心仪的复古咖啡器具，重拾经典，细品时光的醇厚与美妙。
 
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [复古咖啡器具的现代应用：从手作仪式感到精品咖啡革命](/posts/2025-11-18-182249-fu-gu-ka-pei-qi-ju-de-xian-dai-ying-yong-cong-shou-b202ff61/)
+- [时光淬炼的咖啡美学：复古器具在现代生活中的文艺复兴](/posts/2025-05-14-181658-shi-guang-cui-lian-de-ka-pei-mei-xue-fu-gu-qi-ju-z-6fa26eb7/)
+- [时光淬炼的咖啡美学：经典器具在当代的复兴与创新](/posts/2025-04-18-194101-think-a62dc5be/)
+- [时光淬炼的醇香：复古咖啡器具的现代生活美学](/posts/2025-08-06-182111-shi-guang-cui-lian-de-chun-xiang-fu-gu-ka-pei-qi-j-2c749a9a/)
+
+<!-- related-reading-end -->
+
 ---
 
 > ☕ **Coffee Prism 精品电子书**

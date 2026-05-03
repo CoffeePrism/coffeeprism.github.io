@@ -96,3 +96,14 @@ author: "Coffee Prism"
 掌握冷萃咖啡的制作与风味特点，本质上是理解「时间与温度的艺术」。从选择1500微米研磨度的哥伦比亚慧兰豆，到精准控制16小时4℃冷藏萃取，每个细节都影响着最终杯中的风味图谱。建议初学者从标准1:8水粉比开始，逐步尝试不同产区的拼配方案，记得每次调整仅改变一个变量并做好风味笔记。
 
 现在拿起手边的咖啡豆，按照文中的七步流程开启你的冷萃实验吧！欢迎在评论区分享你的独家配方，或点击收藏本文方便随时查阅。下期我们将探讨「冷萃咖啡的创意调饮公式」，敬请期待！
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [冷萃咖啡的制作与风味特点完全攻略](/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/)
+- [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
+- [土耳其咖啡的传统冲泡方法：从入门到精通的实用宝典](/posts/2025-11-07-182022-tu-er-qi-ka-pei-de-chuan-tong-chong-pao-fang-fa-co-cbec4112/)
+- [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
+
+<!-- related-reading-end -->

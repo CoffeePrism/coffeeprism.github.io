@@ -114,3 +114,14 @@ author: "Coffee Prism"
 掌握**不同烘焙曲线的风味表现**的本质，是理解咖啡从「农产品」到「风味艺术品」的转化过程。记住三个黄金法则：脱水阶段决定可能性、一爆决策塑造主调性、冷却效率锁定新鲜度。建议从经典水洗豆开始练习曲线调整，每次只改变一个参数并记录风味变化。
 
 当你能够通过调整烘焙曲线，让同一批生豆呈现出黑巧克力、杏桃、红酒三种截然不同的风味维度时，就真正读懂了咖啡的语言。欢迎在评论区分享你的烘焙曲线实验心得，下期我们将深入解析「特殊处理法的曲线适配技巧」。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [深度解析不同烘焙曲线的风味表现：从入门到精通的完整指南](/posts/2025-12-01-182223-shen-du-jie-xi-bu-tong-hong-bei-qu-xian-de-feng-we-6656c369/)
+- [咖啡烘焙实战指南：视觉与嗅觉线索的精准解读](/posts/2026-01-14-182457-ka-pei-hong-bei-shi-zhan-zhi-nan-shi-jue-yu-xiu-ju-aaff983b/)
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+- [意大利经典咖啡品牌的历史：浓缩文明与商业智慧的完美交融](/posts/2025-10-31-181930-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-nong-s-6d061ed7/)
+
+<!-- related-reading-end -->

@@ -1,5 +1,5 @@
 ---
-title: "默认标题"
+title: "咖啡文化全球之旅：从意式浓缩到中国新浪潮的味觉探索"
 date: 2025-07-05
 draft: false
 categories: ["咖啡文化"]
@@ -73,3 +73,14 @@ description: "咖啡文化如何塑造全球风味与生活方式？从意式浓
 当埃塞俄比亚的传说遇见江南的雨巷，当意大利的激情碰撞东方的禅意，咖啡文化正在中国书写新的篇章。建议读者每月设定"世界咖啡日"，用味觉丈量文化疆界——或许下周从用景德镇青花杯装一杯维也纳Melange开始？
 
 **（本文提及产品链接仅供选购参考，具体产品选择需根据个人需求判断）**
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [全球咖啡地图：不同国家的咖啡饮用习惯深度解析](/posts/2026-01-10-181926-quan-qiu-ka-pei-di-tu-bu-tong-guo-jia-de-ka-pei-yi-73f8a1a5/)
+- [全球咖啡地图：从意式浓缩到中式创新的文化解码](/posts/2025-04-18-194138-think-8014dfc0/)
+- [全球咖啡地图：探寻八国的文化密码与冲泡智慧](/posts/2025-05-31-181704-quan-qiu-ka-pei-di-tu-tan-xun-ba-guo-de-wen-hua-mi-d05322df/)
+- [全球咖啡文化巡礼：不同国家的咖啡饮用习惯全解析](/posts/2025-11-26-181705-quan-qiu-ka-pei-wen-hua-xun-li-bu-tong-guo-jia-de-2aea4204/)
+
+<!-- related-reading-end -->

@@ -72,3 +72,14 @@ description: "咖啡与异国美食怎么搭配？关键在于用咖啡酸甜苦
 ---
 
 在这场永无止境的味觉探险中，每一杯咖啡都在讲述着土地的故事，而每一次搭配都是文化的即兴创作。当广州的咖啡师用潮汕卤鹅搭配卢旺达水洗豆，当西安的爱好者用肉夹馍对话巴西黄波旁，我们看到的不仅是风味图谱的扩展，更是一个古老茶饮国度正在书写的咖啡新篇章。拿起你的[咖啡风味轮](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E9%A3%8E%E5%91%B3%E8%BD%AE&tag=coffeeprism-20)，开始属于你的美食咖啡环球之旅吧——毕竟，最好的搭配永远在下一口未知的惊喜里。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [## **《味觉交响曲：探索咖啡与巧克力的科学搭配法则》](/posts/2025-09-07-181514-wei-jue-jiao-xiang-qu-tan-suo-ka-pei-yu-qiao-ke-li-f050fa37/)
+- [咖啡与巧克力的交响诗：解锁风味协同的黄金法则](/posts/2025-08-18-182459-ka-pei-yu-qiao-ke-li-de-jiao-xiang-shi-jie-suo-fen-27e3fbf0/)
+- [咖啡与巧克力的味觉交响：解锁风味搭配的黄金法则](/posts/2025-04-20-030717-ka-pei-yu-qiao-ke-li-de-wei-jue-jiao-xiang-jie-suo-f7fa366d/)
+- [咖啡与异国美食的味觉交响：解锁全球风味的搭配艺术](/posts/2025-07-09-183140-mo-ren-biao-ti-1f4f76a7/)
+
+<!-- related-reading-end -->

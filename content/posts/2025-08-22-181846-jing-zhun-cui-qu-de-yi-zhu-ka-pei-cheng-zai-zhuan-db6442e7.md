@@ -88,3 +88,14 @@ description: "咖啡爱好者需要咖啡秤，因为精准控制粉水比与萃
 **延伸阅读推荐**：  
 - 《手工咖啡：咖啡爱好者的完美冲煮指南》[京东链接]  
 - 泰摩官方冲煮教学视频（B站频道）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从克数到风味：咖啡秤如何成为精品冲煮的隐形指挥官](/posts/2025-07-11-181850-mo-ren-biao-ti-9b883505/)
+- [咖啡秤的应用与推荐：精准萃取的必备指南](/posts/2026-01-20-182729-ka-pei-cheng-de-ying-yong-yu-tui-jian-jing-zhun-cu-04db9b21/)
+- [咖啡秤：从称量到风味的科学艺术](/posts/2025-05-17-055340-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-e04a1c02/)
+- [咖啡秤：从称量到风味的科学艺术](/posts/2025-08-08-182303-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-a2527b23/)
+
+<!-- related-reading-end -->

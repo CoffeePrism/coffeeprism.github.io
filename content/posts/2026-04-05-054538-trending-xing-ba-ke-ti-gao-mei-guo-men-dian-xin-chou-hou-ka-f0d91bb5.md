@@ -179,3 +179,14 @@ news_source: "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdVBUdEVXMHk1S
 ## 专家观点 / 编辑点评
 
 作为 Coffee Prism 编辑，我们认为，星巴克这次提高美国门店员工薪酬与激励，不是单点福利新闻，而是全球连锁咖啡业进入新阶段的信号：**人，不再只是成本项，而是效率、口碑与品牌溢价的共同变量。** 当门店运营越来越依赖复杂订单、数字渠道和高峰稳定交付时，低成本用工逻辑正在失效。未来能胜出的品牌，不一定是工资最高的，而是最能把员工激励、流程效率和消费者体验整合起来的那一类。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [星巴克调整美国门店薪酬与激励：咖啡门店用工进入“高成本、强激励、拼效率”新阶段](/posts/xing-ba-ke-diao-zheng-mei-guo-men-dian-xin-chou-yu/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+
+<!-- related-reading-end -->

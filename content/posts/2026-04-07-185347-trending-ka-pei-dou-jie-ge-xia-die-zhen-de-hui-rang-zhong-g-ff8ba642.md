@@ -134,3 +134,14 @@ Seesaw、M Stand 这类更强调空间体验、品牌调性和精品属性的品
 作为 Coffee Prism 编辑部，我们对这条新闻的判断是：**国际咖啡价格回调，对中国市场是“利好”，但不是“立刻降价”的利好。**它首先缓解的是供应链焦虑，其次才可能改善消费者价格。真正值得行业关注的，不是盘面今天跌了多少，而是谁能在价格波动收敛后，把采购、库存和品牌定价重新做得更高效。
 
 换句话说，下一阶段中国咖啡市场的竞争，不会因为豆价回落而结束，反而会因为成本压力减轻而进入更精细的比拼。能赢的品牌，不一定是最便宜的，而是最会把全球供应变化转化为本地用户价值的品牌。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡豆价格下跌，为何中国咖啡市场零售价仍居高位？从全球供应到门店杯价的传导链条分析](/posts/ka-pei-dou-jie-ge-xia-die-wei-he-zhong-guo-ka-pei/)
+- [咖啡期货回调背后：咖啡豆价格下行是否会传导到中国零售端与全球供应链？](/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/)
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+
+<!-- related-reading-end -->

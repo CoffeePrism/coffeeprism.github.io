@@ -224,3 +224,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-zhong-de-kang-yang-hua-w
 理解**咖啡中的抗氧化物质研究**，关键有四点：第一，咖啡的核心抗氧化成分不只有绿原酸，还包括烘焙产生的褐黑素等物质；第二，烘焙度、冲煮方式和样品新鲜度都会改变结果；第三，体外抗氧化数值不等于人体实际健康收益；第四，稳定的日常饮用习惯，比追逐单一“神奇指标”更重要。
 
 如果你准备开始实践，最好的第一步是选两款信息透明的咖啡豆，用固定器具和参数做对比记录。再进一步，可以加入TDS和感官表格，建立自己的判断标准。咖啡的魅力，就在于它既能被科学拆解，也始终保留探索的乐趣。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡中的抗氧化物质研究：从入门到精通的科学指南](/posts/2025-12-09-181836-ka-pei-zhong-de-kang-yang-hua-wu-zhi-yan-jiu-cong-80755c8d/)
+- [低咖啡因咖啡选择与制作方法全攻略：从选豆到冲泡的完整指南](/posts/2025-11-15-181735-di-ka-pei-yin-ka-pei-xuan-ze-yu-zhi-zuo-fang-fa-qu-398a4617/)
+- [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
+- [咖啡与认知功能的科学研究：提升大脑效能的奥秘解析](/posts/2026-01-21-183416-ka-pei-yu-ren-zhi-gong-neng-de-ke-xue-yan-jiu-ti-s-4d747689/)
+
+<!-- related-reading-end -->

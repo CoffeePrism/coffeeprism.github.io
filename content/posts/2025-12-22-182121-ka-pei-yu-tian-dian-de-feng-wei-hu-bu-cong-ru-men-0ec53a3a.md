@@ -101,3 +101,14 @@ author: "Coffee Prism"
 掌握**咖啡与甜点的风味互补**本质上是培养「立体味觉思维」的过程。记住这三个行动建议：每周记录1组搭配日记、优先购买本地应季食材、参加咖啡馆的品鉴活动。当你能精准描述「这杯水洗耶加让芒果慕斯的热带果香更鲜活」时，就已迈入风味艺术的大门。  
 
 欢迎在评论区分享你的独家搭配公式，下期我们将揭秘「冷萃咖啡与咸味点心的跨界组合」。点击收藏本文，随时查阅这份动态更新的风味地图。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与巧克力的完美匹配完全攻略与技巧解析](/posts/ka-pei-yu-qiao-ke-li-de-wan-mei-pi-pei-wan-quan-go/)
+- [咖啡鸡尾酒的创意配方：专业指南与灵感宝库](/posts/2025-12-14-181851-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-zhuan-ye-z-193da89c/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
+
+<!-- related-reading-end -->

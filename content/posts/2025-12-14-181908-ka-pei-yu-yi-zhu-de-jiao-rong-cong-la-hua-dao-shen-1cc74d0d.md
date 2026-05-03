@@ -113,3 +113,14 @@ author: "Coffee Prism"
 从埃塞俄比亚高原到都市咖啡馆，咖啡与艺术的交融始终在拓展人类创造力的边界。掌握62℃奶泡温度控制、理解黄金构图比例、培养跨界审美思维——这些技术积累终将升华为独特的美学表达。明早冲泡咖啡时，不妨尝试用肉桂粉在卡布奇诺表面勾勒晨光中的城市天际线，让每个清晨都成为艺术创作的起点。
 
 欢迎在评论区分享你的咖啡艺术作品，或咨询具体技法细节。点击收藏本文，随时查阅咖啡美学创作的全流程指南。下期我们将探讨「咖啡渣再生艺术：从废弃物料到装置创作」，敬请期待。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [咖啡与艺术的交融：从拉花到策展的创意实践](/posts/2025-12-08-182113-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-ce-z-ee2cb15e/)
+- [世界各地的咖啡仪式与传统：从文化基因到实践指南](/posts/2025-10-22-040308-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-3cd52276/)
+- [全球咖啡文化巡礼：不同国家的咖啡饮用习惯全解析](/posts/2025-11-26-181705-quan-qiu-ka-pei-wen-hua-xun-li-bu-tong-guo-jia-de-2aea4204/)
+- [全球咖啡文化解密：不同国家的咖啡饮用习惯全攻略](/posts/2025-12-11-181936-quan-qiu-ka-pei-wen-hua-jie-mi-bu-tong-guo-jia-de-c2b1c378/)
+
+<!-- related-reading-end -->

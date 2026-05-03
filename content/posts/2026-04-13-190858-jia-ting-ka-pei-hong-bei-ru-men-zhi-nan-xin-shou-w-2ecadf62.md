@@ -316,3 +316,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/jia-ting-ka-pei-hong-bei-ru-men
 家庭烘焙最关键的不是设备价格，而是三件事：先理解脱水、梅纳反应与发展阶段的逻辑；再用固定豆子和固定批次建立稳定参数；最后通过记录与杯测持续修正。对新手来说，选择一支容错高的经典生豆、把一爆后 60-90 秒作为起点、并认真做好冷却和养豆，往往就能明显提升成品质量。
 
 如果你准备开始，最好的动作不是继续收藏设备清单，而是买一公斤基础生豆，烘出第一锅，再连续复盘五次。咖啡风味真正迷人的地方，就在于每一次微调都会给你新的答案。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [直火vs热风烘焙的区别深度解析指南](/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/)
+- [世界各地的咖啡仪式与传统深度解析指南](/posts/shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-shen/)
+- [世界顶级咖啡馆朝圣之旅：从东京到哥本哈根的味觉地图](/posts/2025-12-03-182202-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-2178ca4a/)
+- [全球咖啡地图：不同国家的咖啡饮用习惯深度解析](/posts/2026-01-10-181926-quan-qiu-ka-pei-di-tu-bu-tong-guo-jia-de-ka-pei-yi-73f8a1a5/)
+
+<!-- related-reading-end -->

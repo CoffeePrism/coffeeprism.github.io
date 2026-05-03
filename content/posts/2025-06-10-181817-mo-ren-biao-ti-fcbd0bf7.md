@@ -1,5 +1,5 @@
 ---
-title: "默认标题"
+title: "从咖啡渣到再生杯具：中国咖啡圈的可持续创新实践"
 date: 2025-06-10
 draft: false
 categories: ["可持续咖啡"]
@@ -59,3 +59,14 @@ description: "咖啡渣、果皮与废弃包装可通过烘干再利用、生物
 --- 
 
 （全文约1450字，所有数据均来自中国咖啡协会2023年度报告及作者实地调研）
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [从咖啡渣到再生材料：中国咖啡圈的可持续新浪潮](/posts/2025-07-10-182155-mo-ren-biao-ti-8cf229fc/)
+- [从咖啡渣到再生纤维：探索咖啡产业的绿色革命](/posts/2025-05-18-182040-mo-ren-biao-ti-43f3b0cb/)
+- [从咖啡渣到循环经济：探索咖啡副产品的可持续革命](/posts/2025-04-30-181823-cong-ka-pei-zha-dao-xun-huan-jing-ji-tan-suo-ka-pe-45e76a07/)
+- [从咖啡渣到果壳茶：探索可持续咖啡的循环经济密码](/posts/2025-06-08-181630-mo-ren-biao-ti-4041cd79/)
+
+<!-- related-reading-end -->

@@ -90,3 +90,14 @@ author: "Coffee Prism"
 4. **本年**：参与云南咖啡庄园溯源之旅，见证可持续种植实践
 
 当咖啡爱好者转变为「咖啡公民」，每次购买都是对理想世界的投票。从今天开始，让你的咖啡杯承载更多生态智慧——毕竟，真正的精品咖啡不应以牺牲地球为代价。欢迎在评论区分享你的可持续咖啡故事，每一条实践心得都在为行业变革积蓄力量。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [世界顶级咖啡馆朝圣之旅：从探索到精通的实践手册](/posts/2025-10-20-040204-shi-jie-ding-ji-ka-pei-guan-zhao-sheng-zhi-lu-cong-c44bfda2/)
+- [咖啡种植的环境影响深度解析指南](/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/)
+- [有机咖啡种植的实践与益处：从土壤到杯中的完整指南](/posts/2025-12-08-182046-you-ji-ka-pei-chong-zhi-de-shi-jian-yu-yi-chu-cong-1952b16c/)
+- [有机咖啡种植的实践与益处：从土壤到杯中的完整指南](/posts/2026-01-24-182019-you-ji-ka-pei-chong-zhi-de-shi-jian-yu-yi-chu-cong-1c883712/)
+
+<!-- related-reading-end -->

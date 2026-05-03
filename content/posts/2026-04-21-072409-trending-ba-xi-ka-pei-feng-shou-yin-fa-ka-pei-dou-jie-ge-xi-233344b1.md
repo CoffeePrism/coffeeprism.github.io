@@ -174,3 +174,14 @@ news_source: "https://news.google.com/rss/articles/CBMipAFBVV95cUxONW9oS2ZIclZka
 ## 专家观点/编辑点评
 
 Coffee Prism 编辑部判断：巴西创纪录丰收带来的，不只是一次原料价格回调，而是一次重新洗牌采购能力的机会。真正受益最大的，不一定是最会打折的品牌，而是最懂得用低位采购、库存管理和产品结构优化去穿越周期的企业。对中国市场而言，未来竞争焦点不会只是“谁卖得更便宜”，而是“谁能在便宜的同时维持稳定品质与健康利润”。这比单纯的豆价涨跌，更值得持续关注。
+
+<!-- related-reading-start -->
+
+## 相关阅读
+
+- [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
+- [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
+- [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
+- [咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任](/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/)
+
+<!-- related-reading-end -->
