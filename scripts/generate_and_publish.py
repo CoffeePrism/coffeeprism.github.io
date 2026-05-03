@@ -1200,9 +1200,37 @@ def process_and_save_article(article_content, topic, label=""):
     success = save_article(article_content, topic)
     if success:
         print(f"✅ {label}文章生成并保存成功！")
+        # Post-save hook: 给新文章注入「相关阅读」内链
+        try:
+            inject_related_for_latest(title)
+        except Exception as e:
+            print(f"⚠️  内链注入跳过（非致命）：{e}")
     else:
         print(f"❌ {label}文章保存失败")
     return success
+
+
+def inject_related_for_latest(title):
+    """新文章保存后，从最近写入的几个文件里反查 title，给它跑一遍
+    inject_internal_links 注入「相关阅读」区块。"""
+    import subprocess
+    posts = sorted(Path("content/posts").glob("*.md"),
+                   key=lambda p: p.stat().st_mtime, reverse=True)
+    for p in posts[:5]:
+        try:
+            with open(p, encoding="utf-8") as f:
+                head = f.read(800)
+            if f'title: "{title}"' in head:
+                result = subprocess.run(
+                    ["python3", "scripts/inject_internal_links.py",
+                     "--apply", "--files", str(p)],
+                    capture_output=True, text=True, timeout=60,
+                )
+                if "注入/刷新内链：1" in result.stdout:
+                    print(f"🔗 已为 {p.name} 注入相关阅读内链")
+                return
+        except Exception:
+            continue
 
 
 def main():
