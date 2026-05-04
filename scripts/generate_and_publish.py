@@ -178,21 +178,90 @@ COFFEE_TOPICS = [
     }
 ]
 
+def get_recent_subtopics(days=60):
+    """扫最近 N 天发布的文章，提取它们覆盖的 (main_topic, specific_topic)
+    pair 集合。用于避免再次生成同主题文章。"""
+    import datetime as _dt
+    cutoff = _dt.date.today() - _dt.timedelta(days=days)
+    seen = set()
+    posts_dir = Path("content/posts")
+    if not posts_dir.exists():
+        return seen
+    for p in posts_dir.glob("*.md"):
+        # Skip files older than cutoff by mtime (cheap filter)
+        try:
+            mtime = _dt.date.fromtimestamp(p.stat().st_mtime)
+            if mtime < cutoff:
+                continue
+        except Exception:
+            continue
+        try:
+            with open(p, encoding="utf-8") as f:
+                head = f.read(1500)
+        except Exception:
+            continue
+        # Parse category + title
+        cat_m = re.search(r'^categories:\s*\[(.*?)\]', head, re.M)
+        title_m = re.search(r'^title:\s*"([^"]+)"', head, re.M)
+        if not cat_m or not title_m:
+            continue
+        cat = (re.findall(r'"([^"]+)"', cat_m.group(1)) or [""])[0]
+        title = title_m.group(1)
+        # Match against COFFEE_TOPICS to find which subtopic this article covers
+        for topic in COFFEE_TOPICS:
+            if topic["title"] != cat:
+                continue
+            for sub in topic["subtopics"]:
+                # Subtopic is "覆盖" by an article if any 5-char window of subtopic
+                # appears in title. Crude but works for our titles.
+                key_phrase = sub.split("：")[0].split("与")[0].split("和")[0]
+                if len(key_phrase) >= 4 and key_phrase in title:
+                    seen.add((cat, sub))
+                    break
+    return seen
+
+
 def select_random_coffee_topics(count=2):
-    """随机选择指定数量的咖啡主题及子主题"""
-    selected_topics = []
-    # 从主题列表中随机选择不重复的主题
-    chosen_main_topics = random.sample(COFFEE_TOPICS, min(count, len(COFFEE_TOPICS)))
-    
-    for topic in chosen_main_topics:
-        # 从每个主题的子主题中随机选择一个
-        subtopic = random.choice(topic["subtopics"])
-        selected_topics.append({
-            "main_topic": topic["title"],
-            "specific_topic": subtopic
-        })
-    
-    return selected_topics
+    """随机选择指定数量的咖啡主题及子主题，自动去重最近 60 天已写过的。"""
+    recent = get_recent_subtopics(days=60)
+    if recent:
+        print(f"📋 最近 60 天已覆盖 {len(recent)} 个 (类目, 子主题) 组合，将自动跳过")
+
+    # 构建可用 pool（过滤掉最近写过的）
+    available = []
+    for topic in COFFEE_TOPICS:
+        for sub in topic["subtopics"]:
+            if (topic["title"], sub) not in recent:
+                available.append({
+                    "main_topic": topic["title"],
+                    "specific_topic": sub,
+                })
+
+    if not available:
+        # Pool exhausted (recent 60 days touched everything), fall back to random
+        print("⚠️  所有主题都被覆盖过，回退到完全随机选择")
+        available = [
+            {"main_topic": t["title"], "specific_topic": s}
+            for t in COFFEE_TOPICS for s in t["subtopics"]
+        ]
+
+    return random.sample(available, min(count, len(available)))
+
+
+# Topic → pillar URL mapping. New articles get a pillar link injected at top.
+PILLAR_BY_CATEGORY = {
+    "咖啡豆种类": ("/coffee-beans/", "咖啡豆完全指南"),
+    "咖啡制作技巧": ("/brewing-methods/", "咖啡冲煮方法完全指南"),
+    "咖啡设备与器具": ("/coffee-equipment/", "咖啡器具选购指南"),
+    "咖啡装备": ("/coffee-equipment/", "咖啡器具选购指南"),
+    "咖啡与健康": ("/health/", "咖啡与健康完全指南"),
+    "咖啡烘焙": ("/coffee-beans/", "咖啡豆完全指南"),
+}
+
+
+def pillar_link_for_topic(category):
+    """Return (url, title) tuple for the pillar matching this category, or None."""
+    return PILLAR_BY_CATEGORY.get(category)
 
 def get_system_prompt():
     """SEO/AEO/GEO 优化的系统提示词"""
@@ -293,35 +362,123 @@ def get_article_prompt(specific_topic, main_topic):
 - 不要使用过度营销的话术
 - 不要编造不存在的数据或研究（宁可不引也不要编）
 - 不要在正文开头输出 `---`（front matter分隔符）
-- 不要输出任何front matter，只输出纯Markdown文章内容
+- 不要输出任何 YAML front matter
+
+## ⚠️ 输出格式（必须严格遵守，否则文章会被丢弃不发布）
+
+请用以下 **XML 标记** 把标题与正文分开输出。**这是最重要的格式要求**：
+
+<TITLE>
+这里只放纯文本标题（15-35 字，不带 # 或《》或 ** 等任何符号）
+</TITLE>
+
+<BODY>
+这里是完整的 Markdown 正文（所有 H2/H3、段落、列表、表格、FAQ 都在这里）。
+正文不要再重复标题，直接从引言段开始。
+</BODY>
+
+正文字符数（不算空白）必须 ≥ 2500 字，目标 3000-4000 字。少于 2500 字的文章会被自动丢弃。
 
 现在请创作这篇文章。"""
 
 
+MIN_BODY_CHARS = 2500
+
+
+def _strip_thinking(text):
+    """Drop <think>...</think> blocks and leading YAML front matter the LLM
+    might have hallucinated."""
+    text = re.sub(r'<think>.*?</think>', '', text, flags=re.DOTALL).strip()
+    text = re.sub(r'^---\s*\n.*?\n---\s*\n', '', text, flags=re.DOTALL).strip()
+    return text
+
+
+def parse_structured_output(raw):
+    """Parse the LLM's <TITLE>...</TITLE><BODY>...</BODY> output.
+    Returns (title, body) or (None, None) if parsing fails.
+    Strips common LLM noise like trailing markdown bullets in title."""
+    if not raw:
+        return None, None
+    raw = _strip_thinking(raw)
+
+    title_match = re.search(r'<TITLE>\s*(.*?)\s*</TITLE>', raw, re.DOTALL | re.IGNORECASE)
+    body_match = re.search(r'<BODY>\s*(.*?)\s*</BODY>', raw, re.DOTALL | re.IGNORECASE)
+
+    if title_match and body_match:
+        title = title_match.group(1).strip()
+        body = body_match.group(1).strip()
+        # Sanitize title: drop H markers, asterisks, book marks, leftover quotes
+        title = title.lstrip('#').strip().strip('*').strip()
+        title = title.strip('《》').strip('"').strip("'").strip()
+        # Drop the "标题：" prefix if LLM still wrote it
+        for marker in ("**标题**", "标题：", "标题:", "**标题：**", "**标题:**"):
+            if title.startswith(marker):
+                title = title[len(marker):].strip()
+        return title, body
+
+    # Fallback: no XML markers, treat full output as body and let downstream
+    # extract_title heuristic try to recover a title from H1
+    return None, raw
+
+
+def _body_chars(body):
+    """Count non-whitespace chars in markdown body."""
+    if not body:
+        return 0
+    return len(re.sub(r'\s+', '', body))
+
+
 def generate_article(topic_info):
-    """使用 linq.ai GPT-5 生成咖啡文章"""
+    """生成咖啡文章。返回 'TITLE\\n\\nBODY' 形式的合并文本（保持向后兼容
+    save_article 的接口），或 None。
+
+    内含字数重试：第一次输出 < MIN_BODY_CHARS 时再请求一次扩展版。
+    """
     main_topic = topic_info["main_topic"]
     specific_topic = topic_info["specific_topic"]
-
     print(f"正在生成关于「{main_topic}：{specific_topic}」的文章 (模型: {MODEL_NAME})...")
 
     messages = [
         {"role": "system", "content": get_system_prompt()},
-        {"role": "user", "content": get_article_prompt(specific_topic, main_topic)}
+        {"role": "user", "content": get_article_prompt(specific_topic, main_topic)},
     ]
 
-    article_content = call_linqai(messages)
-
-    if not article_content:
-        print("错误: API 未返回任何内容")
+    raw = call_linqai(messages)
+    if not raw:
+        print("❌ API 未返回任何内容")
         return None
 
-    # 清理可能的思考标签
-    article_content = re.sub(r'<think>.*?</think>', '', article_content, flags=re.DOTALL).strip()
-    # 清理开头可能误生成的 front matter
-    article_content = re.sub(r'^---\s*\n.*?\n---\s*\n', '', article_content, flags=re.DOTALL).strip()
+    title, body = parse_structured_output(raw)
+    char_count = _body_chars(body)
+    print(f"  第 1 次：title={'OK' if title else 'MISSING'}, body={char_count} 字")
 
-    return article_content
+    # Retry once if too short
+    if char_count < MIN_BODY_CHARS and body:
+        print(f"  ⚠️  正文过短（{char_count} < {MIN_BODY_CHARS}），重试加扩展指令")
+        retry_messages = list(messages) + [
+            {"role": "assistant", "content": raw},
+            {"role": "user", "content": (
+                f"上一版正文只有 {char_count} 字（去空白），低于 {MIN_BODY_CHARS} 字最低要求。"
+                f"请保留已有所有内容并大幅扩展到 3000-4000 字：补充更多实操参数、对比数据、"
+                f"中国市场案例、深度故障排查等。仍然用 <TITLE></TITLE> + <BODY></BODY> 格式输出。"
+            )},
+        ]
+        raw2 = call_linqai(retry_messages)
+        if raw2:
+            t2, b2 = parse_structured_output(raw2)
+            cc2 = _body_chars(b2)
+            print(f"  第 2 次：title={'OK' if t2 else 'MISSING'}, body={cc2} 字")
+            if cc2 > char_count:
+                title, body, char_count = (t2 or title), b2, cc2
+
+    if not body:
+        return None
+
+    # Compose into the legacy "# title\n\nbody" form so save_article's existing
+    # extract_title path can still find the title (defense in depth).
+    if title:
+        return f"# {title}\n\n{body}".strip()
+    return body
 
 def generate_seo_description(title, specific_topic, article_content):
     """生成SEO优化的meta description"""
@@ -1195,6 +1352,24 @@ def process_and_save_article(article_content, topic, label=""):
         article_content = validate_and_update_amazon_links(article_content)
     except Exception as e:
         print(f"⚠️  验证/更新 Amazon 链接时出错 (非致命): {e}")
+
+    # Inject pillar link at top of body (before saving) — funnels traffic
+    pillar = pillar_link_for_topic(topic["main_topic"])
+    if pillar:
+        url, pname = pillar
+        pillar_block = f"\n\n> 📚 想要系统化的纯净版本？看 [{pname}]({url}) — 一篇页面把这个领域的核心知识全串起来。\n\n"
+        # Insert AFTER the H1 title line (if any) so the link sits between
+        # title and first paragraph; otherwise prepend.
+        lines = article_content.split('\n')
+        for i, line in enumerate(lines):
+            if line.strip().startswith('# ') and not line.strip().startswith('## '):
+                # Insert after the H1 + the blank line that follows it
+                head = '\n'.join(lines[:i + 1])
+                tail = '\n'.join(lines[i + 1:])
+                article_content = head + pillar_block + tail
+                break
+        else:
+            article_content = pillar_block.lstrip() + article_content
 
     print("\n💾 保存文章...")
     success = save_article(article_content, topic)
