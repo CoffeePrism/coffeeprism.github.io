@@ -249,13 +249,26 @@ def select_random_coffee_topics(count=2):
 
 
 # Topic → pillar URL mapping. New articles get a pillar link injected at top.
+# Cover all categories used in the wild (验证：grep ^categories: content/posts/)
 PILLAR_BY_CATEGORY = {
+    # 直接对应
     "咖啡豆种类": ("/coffee-beans/", "咖啡豆完全指南"),
     "咖啡制作技巧": ("/brewing-methods/", "咖啡冲煮方法完全指南"),
     "咖啡设备与器具": ("/coffee-equipment/", "咖啡器具选购指南"),
     "咖啡装备": ("/coffee-equipment/", "咖啡器具选购指南"),
     "咖啡与健康": ("/health/", "咖啡与健康完全指南"),
     "咖啡烘焙": ("/coffee-beans/", "咖啡豆完全指南"),
+    # 间接：把没有专属 pillar 的类目归到最相关的 pillar
+    "咖啡文化": ("/coffee-beans/", "咖啡豆完全指南"),
+    "咖啡品牌与故事": ("/coffee-equipment/", "咖啡器具选购指南"),
+    "咖啡旅行": ("/coffee-beans/", "咖啡豆完全指南"),
+    "可持续咖啡": ("/coffee-beans/", "咖啡豆完全指南"),
+    "咖啡与食物搭配": ("/brewing-methods/", "咖啡冲煮方法完全指南"),
+    "咖啡热点分析": ("/", "Coffee Prism 主页 (查看所有最新文章)"),
+    "咖啡知识": ("/coffee-beans/", "咖啡豆完全指南"),
+    "手冲咖啡": ("/brewing-methods/pour-over-v60/", "V60 手冲咖啡完全指南"),
+    # Trending news 文章的兜底（main_topic 字段也用类目名）
+    "热点": ("/", "Coffee Prism 主页"),
 }
 
 
