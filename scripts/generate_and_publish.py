@@ -276,6 +276,31 @@ def pillar_link_for_topic(category):
     """Return (url, title) tuple for the pillar matching this category, or None."""
     return PILLAR_BY_CATEGORY.get(category)
 
+
+def inject_pillar_link(article_content, category):
+    """Insert a "完整指南" link to the pillar after the article's H1 line.
+    Returns the modified article_content (unchanged if no pillar mapped).
+    Idempotent — won't double-inject if the marker is already present."""
+    pillar = pillar_link_for_topic(category)
+    if not pillar:
+        return article_content
+    if "📚 想要系统化" in article_content:
+        return article_content  # already injected
+    url, pname = pillar
+    if pname.startswith("Coffee Prism 主页"):
+        # For trending, point users to category page rather than vague "homepage"
+        block = f"\n\n> 📰 想看更多咖啡行业热点分析？看 [咖啡热点分析](/categories/咖啡热点分析/) — 我们追踪的所有行业新闻和深度解读。\n\n"
+    else:
+        block = f"\n\n> 📚 想要系统化的纯净版本？看 [{pname}]({url}) — 一篇页面把这个领域的核心知识全串起来。\n\n"
+
+    lines = article_content.split('\n')
+    for i, line in enumerate(lines):
+        if line.strip().startswith('# ') and not line.strip().startswith('## '):
+            head = '\n'.join(lines[:i + 1])
+            tail = '\n'.join(lines[i + 1:])
+            return head + block + tail
+    return block.lstrip() + article_content
+
 def get_system_prompt():
     """SEO/AEO/GEO 优化的系统提示词"""
     return """你是 Coffee Prism 的首席内容策略师，同时精通咖啡专业知识、搜索引擎优化（SEO）、答案引擎优化（AEO）和生成式引擎优化（GEO）。
@@ -1303,10 +1328,20 @@ news_source: "{news_item.get('link', '')}"
     processed_lines = [line for i, line in enumerate(content_lines) if i not in title_line_indices]
     processed_content = '\n'.join(processed_lines).strip()
 
+    # 给热点文章注入 pillar / 类目链接（导引到「咖啡热点分析」分类页）
+    processed_content = inject_pillar_link("\n# placeholder\n\n" + processed_content, "咖啡热点分析")
+    # Strip the placeholder header we used to anchor the injection
+    processed_content = processed_content.replace("\n# placeholder\n", "", 1).lstrip()
+
     try:
         with open(filepath, "w", encoding="utf-8") as f:
             f.write(front_matter + processed_content)
         print(f"  热点文章已保存至: {filepath}")
+        # Inject 相关阅读 内链到这篇 trending 文章
+        try:
+            inject_related_for_latest(title)
+        except Exception as e:
+            print(f"  ⚠️  内链注入跳过（非致命）：{e}")
         return True
     except Exception as e:
         print(f"  保存热点文章失败: {e}")
@@ -1367,22 +1402,7 @@ def process_and_save_article(article_content, topic, label=""):
         print(f"⚠️  验证/更新 Amazon 链接时出错 (非致命): {e}")
 
     # Inject pillar link at top of body (before saving) — funnels traffic
-    pillar = pillar_link_for_topic(topic["main_topic"])
-    if pillar:
-        url, pname = pillar
-        pillar_block = f"\n\n> 📚 想要系统化的纯净版本？看 [{pname}]({url}) — 一篇页面把这个领域的核心知识全串起来。\n\n"
-        # Insert AFTER the H1 title line (if any) so the link sits between
-        # title and first paragraph; otherwise prepend.
-        lines = article_content.split('\n')
-        for i, line in enumerate(lines):
-            if line.strip().startswith('# ') and not line.strip().startswith('## '):
-                # Insert after the H1 + the blank line that follows it
-                head = '\n'.join(lines[:i + 1])
-                tail = '\n'.join(lines[i + 1:])
-                article_content = head + pillar_block + tail
-                break
-        else:
-            article_content = pillar_block.lstrip() + article_content
+    article_content = inject_pillar_link(article_content, topic["main_topic"])
 
     print("\n💾 保存文章...")
     success = save_article(article_content, topic)
