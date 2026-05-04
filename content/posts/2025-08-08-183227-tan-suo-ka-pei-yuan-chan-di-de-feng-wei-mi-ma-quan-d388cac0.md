@@ -5,7 +5,12 @@ draft: false
 categories: ["咖啡豆种类"]
 tags: ["单一产地咖啡豆"]
 description: "单一产地咖啡豆的风味密码，来自原产地的海拔、土壤、品种与处理法共同作用。文章系统解析拉丁美洲等黄金产区的风味特征、品鉴要点与冲煮建议，帮助你快速建立全球咖啡风味地图，掌握选豆思路。"
+robotsNoIndex: true
+canonicalURL: "https://www.coffeeprism.com/posts/2025-06-23-182210-tan-suo-ka-pei-yuan-chan-di-de-feng-wei-mi-ma-quan-547f3b7c/"
 ---
+
+> 📌 **本文已合并到最新版本：[探索咖啡原产地的风味密码：全球单一产地咖啡豆品鉴指南](/posts/2025-06-23-182210-tan-suo-ka-pei-yuan-chan-di-de-feng-wei-mi-ma-quan-547f3b7c/)**
+> 旧链接保留是为了不让历史外链失效；最新最完整的内容在上面那一篇。
 
 ---
 

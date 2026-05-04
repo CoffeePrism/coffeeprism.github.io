@@ -7,7 +7,12 @@ tags: ["单一产地咖啡豆", "风味特点", "咖啡豆", "手冲", "烘焙"]
 description: "你是否在琳琅满目的咖啡豆中迷失方向？当「哥伦比亚」、「埃塞俄比亚」、「巴拿马瑰夏」等标签映入眼帘时，是否困惑于这些**单一产地咖啡豆的风味特点**究竟有何不同？据统计，全球超过70%的精品咖啡爱好者，正是被**单一产地咖啡豆的风味特点**所展现的独特地域魅力所吸引。"
 keywords: ["单一产地咖啡豆", "风味特点", "咖啡豆", "手冲", "烘焙"]
 author: "Coffee Prism"
+robotsNoIndex: true
+canonicalURL: "https://www.coffeeprism.com/posts/2025-11-22-181742-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-8512f98d/"
 ---
+
+> 📌 **本文已合并到最新版本：[单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-11-22-181742-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-8512f98d/)**
+> 旧链接保留是为了不让历史外链失效；最新最完整的内容在上面那一篇。
 
 ---
 

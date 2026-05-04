@@ -5,7 +5,12 @@ draft: false
 categories: ["咖啡设备与器具"]
 tags: ["咖啡秤"]
 description: "咖啡秤是决定手冲稳定性与风味表现的关键工具，能精准控制水粉比、注水节奏与萃取时间。了解咖啡秤的精度标准、选购维度及家庭使用技巧，掌握从称量到风味提升的科学方法。"
+robotsNoIndex: true
+canonicalURL: "https://www.coffeeprism.com/posts/2025-08-08-182303-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-a2527b23/"
 ---
+
+> 📌 **本文已合并到最新版本：[咖啡秤：从称量到风味的科学艺术](/posts/2025-08-08-182303-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-a2527b23/)**
+> 旧链接保留是为了不让历史外链失效；最新最完整的内容在上面那一篇。
 
 在咖啡的世界里，每一克都承载着风味的承诺。当中国咖啡爱好者逐渐从速溶咖啡转向精品手冲时，一个常被忽视却至关重要的工具正在悄然改变着我们的咖啡体验——咖啡秤。这个看似简单的称量工具，实则是连接咖啡科学与感官艺术的桥梁。
 

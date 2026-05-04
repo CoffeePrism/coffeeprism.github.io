@@ -5,7 +5,12 @@ draft: false
 categories: ["可持续咖啡"]
 tags: ["咖啡产业"]
 description: "中国咖啡产业要实现可持续未来，关键在降低从种植、加工到烘焙与运输的碳足迹。聚焦中国咖啡消费年增15%背景下的环保挑战，解析碳排放来源、雨林联盟认证与节水处理等绿色方案，了解低碳咖啡趋势与选购要点"
+robotsNoIndex: true
+canonicalURL: "https://www.coffeeprism.com/posts/2025-06-27-182111-cong-dou-dao-bei-de-lu-se-ge-ming-jie-ma-zhong-guo-1364056b/"
 ---
+
+> 📌 **本文已合并到最新版本：[从豆到杯的绿色革命：解码中国咖啡产业的碳足迹与可持续未来](/posts/2025-06-27-182111-cong-dou-dao-bei-de-lu-se-ge-ming-jie-ma-zhong-guo-1364056b/)**
+> 旧链接保留是为了不让历史外链失效；最新最完整的内容在上面那一篇。
 
 ---
 
