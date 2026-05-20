@@ -5,7 +5,7 @@ badge: "⚡ 进阶电子书 · PDF"
 price: 4.99
 price_original: 7.99
 currency: "USD"
-checkout_url: "https://buy.stripe.com/dRmeVc3SAdMl1695AjaEE01"
+checkout_url: "https://buy.stripe.com/00w7sKdtabEd1691k3aEE03"
 date: 2026-04-20
 lastmod: 2026-04-27
 description: "专为手冲爱好者打造：22000 字深度内容 + 6 个 WBrC 冠军配方详解 + 进阶故障诊断。1Zpresso、Fellow Stagg、V60 参数全覆盖。$4.99，终身下载。"

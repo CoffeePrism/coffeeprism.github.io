@@ -5,7 +5,7 @@ badge: "📘 精品电子书 · PDF"
 price: 3.99
 price_original: 5.99
 currency: "USD"
-checkout_url: "https://buy.stripe.com/dRmdR8execIh9CFfaTaEE00"
+checkout_url: "https://buy.stripe.com/bJedR89cU6jT2ad7IraEE02"
 date: 2026-04-20
 lastmod: 2026-04-27
 description: "Coffee Prism 精品电子书：25000 字、75 页、7 张原创图表。覆盖咖啡豆、烘焙、萃取科学、5 大冲煮方法、故障排查。一次购买，终身下载。$3.99。"
