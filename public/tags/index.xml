@@ -10,9 +10,44 @@
 		
 		
 		
-			<lastBuildDate>Sun, 21 Jun 2026 19:52:44 +0800</lastBuildDate>
+			<lastBuildDate>Mon, 22 Jun 2026 20:56:13 +0800</lastBuildDate>
 		
 			<atom:link href="https://www.coffeeprism.com/tags/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>中国咖啡消费</title>
+				<link>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/</link>
+				<pubDate>Mon, 22 Jun 2026 20:56:13 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>咖啡期货价格</title>
+				<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7%E4%BB%B7%E6%A0%BC/</link>
+				<pubDate>Mon, 22 Jun 2026 20:56:13 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7%E4%BB%B7%E6%A0%BC/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>咖啡热点</title>
+				<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</link>
+				<pubDate>Mon, 22 Jun 2026 20:56:13 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>巴西咖啡 Harvest</title>
+				<link>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1-harvest/</link>
+				<pubDate>Mon, 22 Jun 2026 20:56:13 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1-harvest/</guid>
+				<description></description>
+			</item>
+			<item>
+				<title>行业分析</title>
+				<link>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</link>
+				<pubDate>Mon, 22 Jun 2026 20:56:13 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</guid>
+				<description></description>
+			</item>
 			<item>
 				<title>供应链成本</title>
 				<link>https://www.coffeeprism.com/tags/%E4%BE%9B%E5%BA%94%E9%93%BE%E6%88%90%E6%9C%AC/</link>
@@ -28,24 +63,10 @@
 				<description></description>
 			</item>
 			<item>
-				<title>咖啡热点</title>
-				<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</link>
-				<pubDate>Sun, 21 Jun 2026 19:52:44 +0800</pubDate>
-				<guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</guid>
-				<description></description>
-			</item>
-			<item>
 				<title>咖啡豆价格</title>
 				<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86%E4%BB%B7%E6%A0%BC/</link>
 				<pubDate>Sun, 21 Jun 2026 19:52:44 +0800</pubDate>
 				<guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86%E4%BB%B7%E6%A0%BC/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>行业分析</title>
-				<link>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</link>
-				<pubDate>Sun, 21 Jun 2026 19:52:44 +0800</pubDate>
-				<guid>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</guid>
 				<description></description>
 			</item>
 			<item>
@@ -375,20 +396,6 @@
 				<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%BB%B7%E6%A0%BC%E8%B5%B0%E5%8A%BF/</link>
 				<pubDate>Fri, 05 Jun 2026 20:04:01 +0800</pubDate>
 				<guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%BB%B7%E6%A0%BC%E8%B5%B0%E5%8A%BF/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>中国咖啡消费</title>
-				<link>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/</link>
-				<pubDate>Thu, 04 Jun 2026 20:14:00 +0800</pubDate>
-				<guid>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/</guid>
-				<description></description>
-			</item>
-			<item>
-				<title>咖啡期货价格</title>
-				<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7%E4%BB%B7%E6%A0%BC/</link>
-				<pubDate>Thu, 04 Jun 2026 20:14:00 +0800</pubDate>
-				<guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7%E4%BB%B7%E6%A0%BC/</guid>
 				<description></description>
 			</item>
 			<item>
