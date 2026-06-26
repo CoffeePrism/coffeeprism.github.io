@@ -1,54 +1,59 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡冲煮方法完全指南：5 大主流方式的科学与实战 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/brewing-methods/</link>
-    <description>Recent content in 咖啡冲煮方法完全指南：5 大主流方式的科学与实战 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/brewing-methods/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
-      <link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
-      <description>&lt;h1 id=&#34;冷萃咖啡-cold-brew-完全指南&#34;&gt;冷萃咖啡 Cold Brew 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;冷萃（Cold Brew）不是&amp;quot;冰镇热咖啡&amp;quot;——它是用&lt;strong&gt;冷水长时间浸泡&lt;/strong&gt;萃取的咖啡。结果与热萃完全不同：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;酸度低 67%&lt;/strong&gt;（冷水萃不出大部分酸）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;苦涩物质少&lt;/strong&gt;（绿原酸、单宁不易溶于冷水）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;甜感更突出&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;咖啡因含量略高&lt;/strong&gt;（浸泡时间长）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这让冷萃成为&lt;strong&gt;夏天 / 怕酸怕苦 / 需要醇厚甜咖啡&lt;/strong&gt;的最佳选择。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
-      <link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
-      <description>&lt;h1 id=&#34;意式浓缩-espresso-完全指南&#34;&gt;意式浓缩 Espresso 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;Espresso 不是一种冲煮方式——它是一类&lt;strong&gt;高压浓缩萃取&lt;/strong&gt;：约 &lt;strong&gt;9 bar&lt;/strong&gt; 压力把热水快速推过细研磨的咖啡粉床，约 &lt;strong&gt;25-30 秒&lt;/strong&gt;萃出 30ml 浓缩液。&lt;/p&gt;&#xA;&lt;p&gt;它是 &lt;strong&gt;拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵&lt;/strong&gt; 的基础。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
-      <link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
-      <description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>法压壶 French Press 完全指南：浸泡式萃取的科学</title>
-      <link>https://www.coffeeprism.com/brewing-methods/french-press/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/french-press/</guid>
-      <description>&lt;h1 id=&#34;法压壶-french-press-完全指南&#34;&gt;法压壶 French Press 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;法压壶是&lt;strong&gt;浸泡式（immersion）萃取&lt;/strong&gt;的代表，与手冲（percolation 滴滤）的核心区别：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;手冲&lt;/strong&gt;：水流过粉床，水短暂接触粉&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;法压&lt;/strong&gt;：粉浸在水里 4 分钟，长时间持续萃取&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这导致法压咖啡有它独特的特征：&lt;strong&gt;油脂感重、风味饱满、醇厚（body 厚）&lt;/strong&gt;——但相应地&lt;strong&gt;清晰度低、酸度被压制&lt;/strong&gt;。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>爱乐压 AeroPress 完全指南：从原版配方到反转法</title>
-      <link>https://www.coffeeprism.com/brewing-methods/aeropress/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/aeropress/</guid>
-      <description>&lt;h1 id=&#34;爱乐压-aeropress-完全指南&#34;&gt;爱乐压 AeroPress 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;爱乐压是 2005 年由 Aerobie 公司发明的便携式咖啡器具，结合了&lt;strong&gt;浸泡 + 加压过滤&lt;/strong&gt;的双重萃取方式。它便宜、便携、好洗、容错率高——是&lt;strong&gt;旅行 / 办公室 / 露营 / 出差&lt;/strong&gt;的最佳选择。&lt;/p&gt;&#xA;&lt;p&gt;每年还有专门的 &lt;strong&gt;爱乐压世界冠军赛（World AeroPress Championship，WAC）&lt;/strong&gt;，催生了大量创新配方。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>V60手冲咖啡完全指南：从入门到精通</title>
-      <link>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</link>
-      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</guid>
-      <description>&lt;h1 id=&#34;v60手冲咖啡完全指南从入门到精通&#34;&gt;V60手冲咖啡完全指南：从入门到精通&lt;/h1&gt;&#xA;&lt;p&gt;V60是由日本知名咖啡器具品牌Hario开发的锥形滤杯，因其60°的锥角而得名。自问世以来，V60已经成为全球咖啡爱好者和专业咖啡师最喜爱的手冲器具之一。这种看似简单的锥形滤杯，能够让咖啡师精确控制几乎所有影响萃取的变量，从而萃取出风味清晰、层次丰富的咖啡。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡冲煮方法完全指南：5 大主流方式的科学与实战 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/brewing-methods/</link>
+		<description>Recent content in 咖啡冲煮方法完全指南：5 大主流方式的科学与实战 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/brewing-methods/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
+				<link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
+				<description>&lt;h1 id=&#34;冷萃咖啡-cold-brew-完全指南&#34;&gt;冷萃咖啡 Cold Brew 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;冷萃（Cold Brew）不是&amp;quot;冰镇热咖啡&amp;quot;——它是用&lt;strong&gt;冷水长时间浸泡&lt;/strong&gt;萃取的咖啡。结果与热萃完全不同：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;酸度低 67%&lt;/strong&gt;（冷水萃不出大部分酸）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;苦涩物质少&lt;/strong&gt;（绿原酸、单宁不易溶于冷水）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;甜感更突出&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;咖啡因含量略高&lt;/strong&gt;（浸泡时间长）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这让冷萃成为&lt;strong&gt;夏天 / 怕酸怕苦 / 需要醇厚甜咖啡&lt;/strong&gt;的最佳选择。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
+				<link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
+				<description>&lt;h1 id=&#34;意式浓缩-espresso-完全指南&#34;&gt;意式浓缩 Espresso 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;Espresso 不是一种冲煮方式——它是一类&lt;strong&gt;高压浓缩萃取&lt;/strong&gt;：约 &lt;strong&gt;9 bar&lt;/strong&gt; 压力把热水快速推过细研磨的咖啡粉床，约 &lt;strong&gt;25-30 秒&lt;/strong&gt;萃出 30ml 浓缩液。&lt;/p&gt;&#xA;&lt;p&gt;它是 &lt;strong&gt;拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵&lt;/strong&gt; 的基础。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
+				<link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
+				<description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>法压壶 French Press 完全指南：浸泡式萃取的科学</title>
+				<link>https://www.coffeeprism.com/brewing-methods/french-press/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/french-press/</guid>
+				<description>&lt;h1 id=&#34;法压壶-french-press-完全指南&#34;&gt;法压壶 French Press 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;法压壶是&lt;strong&gt;浸泡式（immersion）萃取&lt;/strong&gt;的代表，与手冲（percolation 滴滤）的核心区别：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;手冲&lt;/strong&gt;：水流过粉床，水短暂接触粉&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;法压&lt;/strong&gt;：粉浸在水里 4 分钟，长时间持续萃取&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这导致法压咖啡有它独特的特征：&lt;strong&gt;油脂感重、风味饱满、醇厚（body 厚）&lt;/strong&gt;——但相应地&lt;strong&gt;清晰度低、酸度被压制&lt;/strong&gt;。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>爱乐压 AeroPress 完全指南：从原版配方到反转法</title>
+				<link>https://www.coffeeprism.com/brewing-methods/aeropress/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/aeropress/</guid>
+				<description>&lt;h1 id=&#34;爱乐压-aeropress-完全指南&#34;&gt;爱乐压 AeroPress 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;爱乐压是 2005 年由 Aerobie 公司发明的便携式咖啡器具，结合了&lt;strong&gt;浸泡 + 加压过滤&lt;/strong&gt;的双重萃取方式。它便宜、便携、好洗、容错率高——是&lt;strong&gt;旅行 / 办公室 / 露营 / 出差&lt;/strong&gt;的最佳选择。&lt;/p&gt;&#xA;&lt;p&gt;每年还有专门的 &lt;strong&gt;爱乐压世界冠军赛（World AeroPress Championship，WAC）&lt;/strong&gt;，催生了大量创新配方。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>V60手冲咖啡完全指南：从入门到精通</title>
+				<link>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</link>
+				<pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</guid>
+				<description>&lt;h1 id=&#34;v60手冲咖啡完全指南从入门到精通&#34;&gt;V60手冲咖啡完全指南：从入门到精通&lt;/h1&gt;&#xA;&lt;p&gt;V60是由日本知名咖啡器具品牌Hario开发的锥形滤杯，因其60°的锥角而得名。自问世以来，V60已经成为全球咖啡爱好者和专业咖啡师最喜爱的手冲器具之一。这种看似简单的锥形滤杯，能够让咖啡师精确控制几乎所有影响萃取的变量，从而萃取出风味清晰、层次丰富的咖啡。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

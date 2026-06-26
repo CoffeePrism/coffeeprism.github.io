@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI饮品推荐 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/ai%E9%A5%AE%E5%93%81%E6%8E%A8%E8%8D%90/</link>
-    <description>Recent content in AI饮品推荐 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 18 Apr 2026 18:38:03 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/ai%E9%A5%AE%E5%93%81%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克 ChatGPT 合作背后：AI饮品推荐如何重塑咖啡数字化竞争</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-he-zuo-bei-hou-aiyin-pin-tui-ji/</link>
-      <pubDate>Sat, 18 Apr 2026 18:38:03 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-he-zuo-bei-hou-aiyin-pin-tui-ji/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克与 ChatGPT 相关的个性化饮品推荐消息，表面上看只是一次“更聪明的点单升级”，但本质上，它指向的是咖啡零售从菜单驱动走向&lt;strong&gt;对话驱动消费决策&lt;/strong&gt;。当消费者不再先想“我要点什么”，而是直接问“我今天适合喝什么”，推荐权就从固定菜单、店员经验，转移到生成式AI。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>AI饮品推荐 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/ai%E9%A5%AE%E5%93%81%E6%8E%A8%E8%8D%90/</link>
+		<description>Recent content in AI饮品推荐 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 18 Apr 2026 18:38:03 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/ai%E9%A5%AE%E5%93%81%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克 ChatGPT 合作背后：AI饮品推荐如何重塑咖啡数字化竞争</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-he-zuo-bei-hou-aiyin-pin-tui-ji/</link>
+				<pubDate>Sat, 18 Apr 2026 18:38:03 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-he-zuo-bei-hou-aiyin-pin-tui-ji/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克与 ChatGPT 相关的个性化饮品推荐消息，表面上看只是一次“更聪明的点单升级”，但本质上，它指向的是咖啡零售从菜单驱动走向&lt;strong&gt;对话驱动消费决策&lt;/strong&gt;。当消费者不再先想“我要点什么”，而是直接问“我今天适合喝什么”，推荐权就从固定菜单、店员经验，转移到生成式AI。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

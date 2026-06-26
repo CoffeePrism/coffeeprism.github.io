@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>高端化消费 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%8C%96%E6%B6%88%E8%B4%B9/</link>
-    <description>Recent content in 高端化消费 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 May 2026 05:19:24 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%8C%96%E6%B6%88%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克9美元咖啡争议背后：咖啡涨价、高端化消费与连锁价值重构正在发生什么</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-bei-hou-ka-pe/</link>
-      <pubDate>Sun, 03 May 2026 05:19:24 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-bei-hou-ka-pe/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;“&lt;strong&gt;星巴克9美元咖啡&lt;/strong&gt;”之所以引发舆论反弹，不只是因为价格高，而是因为品牌将其定义为“&lt;strong&gt;可负担的高端体验&lt;/strong&gt;”时，消费者开始重新追问：一杯连锁咖啡到底在卖咖啡，还是在卖情绪、空间和品牌身份？这场争议迅速超出单一产品定价本身，成为全球&lt;strong&gt;咖啡涨价&lt;/strong&gt;与&lt;strong&gt;高端化消费&lt;/strong&gt;矛盾的缩影。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>高端化消费 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%8C%96%E6%B6%88%E8%B4%B9/</link>
+		<description>Recent content in 高端化消费 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 03 May 2026 05:19:24 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%8C%96%E6%B6%88%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克9美元咖啡争议背后：咖啡涨价、高端化消费与连锁价值重构正在发生什么</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-bei-hou-ka-pe/</link>
+				<pubDate>Sun, 03 May 2026 05:19:24 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-bei-hou-ka-pe/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;“&lt;strong&gt;星巴克9美元咖啡&lt;/strong&gt;”之所以引发舆论反弹，不只是因为价格高，而是因为品牌将其定义为“&lt;strong&gt;可负担的高端体验&lt;/strong&gt;”时，消费者开始重新追问：一杯连锁咖啡到底在卖咖啡，还是在卖情绪、空间和品牌身份？这场争议迅速超出单一产品定价本身，成为全球&lt;strong&gt;咖啡涨价&lt;/strong&gt;与&lt;strong&gt;高端化消费&lt;/strong&gt;矛盾的缩影。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>文化体验 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E6%96%87%E5%8C%96%E4%BD%93%E9%AA%8C/</link>
-    <description>Recent content in 文化体验 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E6%96%87%E5%8C%96%E4%BD%93%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡旅行中的文化体验：从产地到杯中的沉浸之旅</title>
-      <link>https://www.coffeeprism.com/posts/2025-11-04-181921-ka-pei-lu-xing-zhong-de-wen-hua-ti-yan-cong-chan-d-d3ee01e5/</link>
-      <pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-11-04-181921-ka-pei-lu-xing-zhong-de-wen-hua-ti-yan-cong-chan-d-d3ee01e5/</guid>
-      <description>&lt;p&gt;你是否曾在咖啡旅行中迷失于打卡网红店的漩涡，却始终触摸不到真正的咖啡文化内核？当咖啡爱好者开始追求&lt;strong&gt;咖啡旅行中的文化体验&lt;/strong&gt;，我们需要的不仅是味蕾的享受，更是与土地、历史和人文的深度对话。本文将带您穿透表象，构建完整的咖啡文化认知体系，在每场咖啡旅行中收获真正的沉浸式体验。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>文化体验 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E6%96%87%E5%8C%96%E4%BD%93%E9%AA%8C/</link>
+		<description>Recent content in 文化体验 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 04 Nov 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E6%96%87%E5%8C%96%E4%BD%93%E9%AA%8C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡旅行中的文化体验：从产地到杯中的沉浸之旅</title>
+				<link>https://www.coffeeprism.com/posts/2025-11-04-181921-ka-pei-lu-xing-zhong-de-wen-hua-ti-yan-cong-chan-d-d3ee01e5/</link>
+				<pubDate>Tue, 04 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-11-04-181921-ka-pei-lu-xing-zhong-de-wen-hua-ti-yan-cong-chan-d-d3ee01e5/</guid>
+				<description>&lt;p&gt;你是否曾在咖啡旅行中迷失于打卡网红店的漩涡，却始终触摸不到真正的咖啡文化内核？当咖啡爱好者开始追求&lt;strong&gt;咖啡旅行中的文化体验&lt;/strong&gt;，我们需要的不仅是味蕾的享受，更是与土地、历史和人文的深度对话。本文将带您穿透表象，构建完整的咖啡文化认知体系，在每场咖啡旅行中收获真正的沉浸式体验。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

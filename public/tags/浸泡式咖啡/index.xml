@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>浸泡式咖啡 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E6%B5%B8%E6%B3%A1%E5%BC%8F%E5%92%96%E5%95%A1/</link>
-    <description>Recent content in 浸泡式咖啡 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E6%B5%B8%E6%B3%A1%E5%BC%8F%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>法压壶 French Press 完全指南：浸泡式萃取的科学</title>
-      <link>https://www.coffeeprism.com/brewing-methods/french-press/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/french-press/</guid>
-      <description>&lt;h1 id=&#34;法压壶-french-press-完全指南&#34;&gt;法压壶 French Press 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;法压壶是&lt;strong&gt;浸泡式（immersion）萃取&lt;/strong&gt;的代表，与手冲（percolation 滴滤）的核心区别：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;手冲&lt;/strong&gt;：水流过粉床，水短暂接触粉&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;法压&lt;/strong&gt;：粉浸在水里 4 分钟，长时间持续萃取&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这导致法压咖啡有它独特的特征：&lt;strong&gt;油脂感重、风味饱满、醇厚（body 厚）&lt;/strong&gt;——但相应地&lt;strong&gt;清晰度低、酸度被压制&lt;/strong&gt;。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>浸泡式咖啡 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E6%B5%B8%E6%B3%A1%E5%BC%8F%E5%92%96%E5%95%A1/</link>
+		<description>Recent content in 浸泡式咖啡 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E6%B5%B8%E6%B3%A1%E5%BC%8F%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>法压壶 French Press 完全指南：浸泡式萃取的科学</title>
+				<link>https://www.coffeeprism.com/brewing-methods/french-press/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/french-press/</guid>
+				<description>&lt;h1 id=&#34;法压壶-french-press-完全指南&#34;&gt;法压壶 French Press 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;法压壶是&lt;strong&gt;浸泡式（immersion）萃取&lt;/strong&gt;的代表，与手冲（percolation 滴滤）的核心区别：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;手冲&lt;/strong&gt;：水流过粉床，水短暂接触粉&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;法压&lt;/strong&gt;：粉浸在水里 4 分钟，长时间持续萃取&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这导致法压咖啡有它独特的特征：&lt;strong&gt;油脂感重、风味饱满、醇厚（body 厚）&lt;/strong&gt;——但相应地&lt;strong&gt;清晰度低、酸度被压制&lt;/strong&gt;。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

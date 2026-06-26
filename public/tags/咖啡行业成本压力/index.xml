@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡行业成本压力 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%A1%8C%E4%B8%9A%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/</link>
-    <description>Recent content in 咖啡行业成本压力 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 12 Apr 2026 18:37:26 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%A1%8C%E4%B8%9A%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡豆价格上涨叠加能源成本攀升，独立咖啡馆经营正进入“薄利高压期”</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-neng-yuan-ch/</link>
-      <pubDate>Sun, 12 Apr 2026 18:37:26 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-neng-yuan-ch/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国媒体 KGUN 9 近日报道，创纪录的&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;与持续上升的水电燃气账单，正在同步挤压本地夫妻店、小型独立咖啡馆的利润空间。对这类门店来说，原料、能源、人工和房租往往缺乏规模化对冲能力，一轮成本通胀就可能直接侵蚀现金流。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡行业成本压力 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%A1%8C%E4%B8%9A%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/</link>
+		<description>Recent content in 咖啡行业成本压力 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 12 Apr 2026 18:37:26 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%A1%8C%E4%B8%9A%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡豆价格上涨叠加能源成本攀升，独立咖啡馆经营正进入“薄利高压期”</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-neng-yuan-ch/</link>
+				<pubDate>Sun, 12 Apr 2026 18:37:26 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-neng-yuan-ch/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国媒体 KGUN 9 近日报道，创纪录的&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;与持续上升的水电燃气账单，正在同步挤压本地夫妻店、小型独立咖啡馆的利润空间。对这类门店来说，原料、能源、人工和房租往往缺乏规模化对冲能力，一轮成本通胀就可能直接侵蚀现金流。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

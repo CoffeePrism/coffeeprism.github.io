@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>星巴克组织调整 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E7%BB%84%E7%BB%87%E8%B0%83%E6%95%B4/</link>
-    <description>Recent content in 星巴克组织调整 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Apr 2026 19:02:21 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E7%BB%84%E7%BB%87%E8%B0%83%E6%95%B4/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克纳什维尔总部背后：100亿美元时代后的组织重构、南方扩张与咖啡连锁扩张战略转向</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-na-shi-wei-er-zong-bu-bei-hou-100yi-mei/</link>
-      <pubDate>Tue, 21 Apr 2026 19:02:21 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-na-shi-wei-er-zong-bu-bei-hou-100yi-mei/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克宣布将在美国田纳西州纳什维尔设立新的企业办公室，并计划投资1亿美元、创造约2000个工作岗位。这不是一次普通的办公选址，而是星巴克在北美组织重构、区域管理下沉和劳动力体系再平衡中的关键动作。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>星巴克组织调整 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E7%BB%84%E7%BB%87%E8%B0%83%E6%95%B4/</link>
+		<description>Recent content in 星巴克组织调整 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 21 Apr 2026 19:02:21 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E7%BB%84%E7%BB%87%E8%B0%83%E6%95%B4/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克纳什维尔总部背后：100亿美元时代后的组织重构、南方扩张与咖啡连锁扩张战略转向</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-na-shi-wei-er-zong-bu-bei-hou-100yi-mei/</link>
+				<pubDate>Tue, 21 Apr 2026 19:02:21 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-na-shi-wei-er-zong-bu-bei-hou-100yi-mei/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克宣布将在美国田纳西州纳什维尔设立新的企业办公室，并计划投资1亿美元、创造约2000个工作岗位。这不是一次普通的办公选址，而是星巴克在北美组织重构、区域管理下沉和劳动力体系再平衡中的关键动作。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

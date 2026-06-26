@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>WAC on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/wac/</link>
-    <description>Recent content in WAC on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/wac/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>爱乐压 AeroPress 完全指南：从原版配方到反转法</title>
-      <link>https://www.coffeeprism.com/brewing-methods/aeropress/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/aeropress/</guid>
-      <description>&lt;h1 id=&#34;爱乐压-aeropress-完全指南&#34;&gt;爱乐压 AeroPress 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;爱乐压是 2005 年由 Aerobie 公司发明的便携式咖啡器具，结合了&lt;strong&gt;浸泡 + 加压过滤&lt;/strong&gt;的双重萃取方式。它便宜、便携、好洗、容错率高——是&lt;strong&gt;旅行 / 办公室 / 露营 / 出差&lt;/strong&gt;的最佳选择。&lt;/p&gt;&#xA;&lt;p&gt;每年还有专门的 &lt;strong&gt;爱乐压世界冠军赛（World AeroPress Championship，WAC）&lt;/strong&gt;，催生了大量创新配方。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>WAC on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/wac/</link>
+		<description>Recent content in WAC on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/wac/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>爱乐压 AeroPress 完全指南：从原版配方到反转法</title>
+				<link>https://www.coffeeprism.com/brewing-methods/aeropress/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/aeropress/</guid>
+				<description>&lt;h1 id=&#34;爱乐压-aeropress-完全指南&#34;&gt;爱乐压 AeroPress 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;爱乐压是 2005 年由 Aerobie 公司发明的便携式咖啡器具，结合了&lt;strong&gt;浸泡 + 加压过滤&lt;/strong&gt;的双重萃取方式。它便宜、便携、好洗、容错率高——是&lt;strong&gt;旅行 / 办公室 / 露营 / 出差&lt;/strong&gt;的最佳选择。&lt;/p&gt;&#xA;&lt;p&gt;每年还有专门的 &lt;strong&gt;爱乐压世界冠军赛（World AeroPress Championship，WAC）&lt;/strong&gt;，催生了大量创新配方。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

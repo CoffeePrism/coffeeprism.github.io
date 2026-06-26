@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡进阶 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%BF%9B%E9%98%B6/</link>
-    <description>Recent content in 咖啡进阶 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Apr 2026 11:00:00 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%BF%9B%E9%98%B6/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>《手冲咖啡大师之路》发售：为什么手冲值得单独一本书？</title>
-      <link>https://www.coffeeprism.com/posts/pourover-deep-dive/</link>
-      <pubDate>Mon, 20 Apr 2026 11:00:00 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/pourover-deep-dive/</guid>
-      <description>&lt;h2 id=&#34;手冲有多深&#34;&gt;手冲有多深&lt;/h2&gt;&#xA;&lt;p&gt;表面上，手冲就是：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;磨豆 → 烧水 → 闷蒸 → 注水 → 等它滴完 → 喝&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;六步，三分钟。&lt;/p&gt;&#xA;&lt;p&gt;但如果你冲过一段时间就会发现：&lt;strong&gt;同样六步，同样参数，今天是天使，明天是恶魔&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这种&amp;quot;不可控&amp;quot;感，是手冲最迷人也最挫败的地方。它既是一杯咖啡，又是一个横跨&lt;strong&gt;化学、物理、工程、感官&lt;/strong&gt;的微型实验。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡进阶 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%BF%9B%E9%98%B6/</link>
+		<description>Recent content in 咖啡进阶 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 20 Apr 2026 11:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%BF%9B%E9%98%B6/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>《手冲咖啡大师之路》发售：为什么手冲值得单独一本书？</title>
+				<link>https://www.coffeeprism.com/posts/pourover-deep-dive/</link>
+				<pubDate>Mon, 20 Apr 2026 11:00:00 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/pourover-deep-dive/</guid>
+				<description>&lt;h2 id=&#34;手冲有多深&#34;&gt;手冲有多深&lt;/h2&gt;&#xA;&lt;p&gt;表面上，手冲就是：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;磨豆 → 烧水 → 闷蒸 → 注水 → 等它滴完 → 喝&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;六步，三分钟。&lt;/p&gt;&#xA;&lt;p&gt;但如果你冲过一段时间就会发现：&lt;strong&gt;同样六步，同样参数，今天是天使，明天是恶魔&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这种&amp;quot;不可控&amp;quot;感，是手冲最迷人也最挫败的地方。它既是一杯咖啡，又是一个横跨&lt;strong&gt;化学、物理、工程、感官&lt;/strong&gt;的微型实验。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

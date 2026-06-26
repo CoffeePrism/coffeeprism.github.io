@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>连锁咖啡重组 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E9%87%8D%E7%BB%84/</link>
-    <description>Recent content in 连锁咖啡重组 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 20 Jun 2026 19:46:43 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E9%87%8D%E7%BB%84/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克裁员背后：英国与香港办公室缩编，连锁咖啡重组进入“效率优先”新阶段</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-cai-yuan-bei-hou-ying-guo-yu-xiang-gang/</link>
-      <pubDate>Sat, 20 Jun 2026 19:46:43 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-cai-yuan-bei-hou-ying-guo-yu-xiang-gang/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克近期被媒体披露在英国与香港进行办公室岗位裁减，这不是单一地区的人事调整，而是全球连锁咖啡品牌在增长放缓周期中推进组织重组的一个缩影。表面看是“后端瘦身”，本质上则是品牌在高成本市场重新分配资源、压缩管理层级，并试图把资金重新导向门店运营、数字化和盈利能力更强的业务单元。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>连锁咖啡重组 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E9%87%8D%E7%BB%84/</link>
+		<description>Recent content in 连锁咖啡重组 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 20 Jun 2026 19:46:43 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E9%87%8D%E7%BB%84/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克裁员背后：英国与香港办公室缩编，连锁咖啡重组进入“效率优先”新阶段</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-cai-yuan-bei-hou-ying-guo-yu-xiang-gang/</link>
+				<pubDate>Sat, 20 Jun 2026 19:46:43 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-cai-yuan-bei-hou-ying-guo-yu-xiang-gang/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克近期被媒体披露在英国与香港进行办公室岗位裁减，这不是单一地区的人事调整，而是全球连锁咖啡品牌在增长放缓周期中推进组织重组的一个缩影。表面看是“后端瘦身”，本质上则是品牌在高成本市场重新分配资源、压缩管理层级，并试图把资金重新导向门店运营、数字化和盈利能力更强的业务单元。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

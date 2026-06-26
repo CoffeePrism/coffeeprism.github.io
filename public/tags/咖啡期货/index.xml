@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡期货 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7/</link>
-    <description>Recent content in 咖啡期货 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 24 Jun 2026 19:54:50 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡期货走高：巴西咖啡产区降雨、ICE库存偏紧，如何传导到中国咖啡馆定价</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-qi-huo-zou-gao-ba-xi-ka-pei-chan-qu-jiang-y/</link>
-      <pubDate>Wed, 24 Jun 2026 19:54:50 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-qi-huo-zou-gao-ba-xi-ka-pei-chan-qu-jiang-y/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;近期国际&lt;strong&gt;咖啡期货&lt;/strong&gt;价格再度走高，直接诱因来自巴西主产区持续湿润天气，以及&lt;strong&gt;ICE库存&lt;/strong&gt;维持低位所带来的现货紧张预期。Barchart援引市场交易信息指出，天气扰动与库存偏紧叠加，正在强化阿拉比卡市场的风险溢价。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>咖啡期货回落背后：巴西咖啡丰产预期，如何重塑咖啡价格与中国零售市场</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-luo-bei-hou-ba-xi-ka-pei-feng-ch/</link>
-      <pubDate>Tue, 09 Jun 2026 20:17:20 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-luo-bei-hou-ba-xi-ka-pei-feng-ch/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;近期，国际市场围绕&lt;strong&gt;巴西咖啡丰产&lt;/strong&gt;的预期升温，推动纽约与伦敦两大咖啡期货市场情绪转弱，咖啡价格出现回落。Barchart 对此的报道抓住了核心逻辑：当全球最大咖啡生产国被认为将带来更充裕的供应，资本会率先下调对未来缺货风险的定价。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>咖啡期货回调背后：咖啡豆价格下行是否会传导到中国零售端与全球供应链？</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/</link>
-      <pubDate>Fri, 17 Apr 2026 18:47:48 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;国际&lt;strong&gt;咖啡期货&lt;/strong&gt;近期明显回调，核心原因不是需求骤降，而是市场对巴西、越南等主产区供给紧张的担忧阶段性缓解。Barchart 报道所指向的，是此前被天气、物流和库存预期推高的价格，正在被“供应恢复预期”重新定价。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡期货 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7/</link>
+		<description>Recent content in 咖啡期货 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 24 Jun 2026 19:54:50 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%9C%9F%E8%B4%A7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡期货走高：巴西咖啡产区降雨、ICE库存偏紧，如何传导到中国咖啡馆定价</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-qi-huo-zou-gao-ba-xi-ka-pei-chan-qu-jiang-y/</link>
+				<pubDate>Wed, 24 Jun 2026 19:54:50 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-qi-huo-zou-gao-ba-xi-ka-pei-chan-qu-jiang-y/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;近期国际&lt;strong&gt;咖啡期货&lt;/strong&gt;价格再度走高，直接诱因来自巴西主产区持续湿润天气，以及&lt;strong&gt;ICE库存&lt;/strong&gt;维持低位所带来的现货紧张预期。Barchart援引市场交易信息指出，天气扰动与库存偏紧叠加，正在强化阿拉比卡市场的风险溢价。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>咖啡期货回落背后：巴西咖啡丰产预期，如何重塑咖啡价格与中国零售市场</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-luo-bei-hou-ba-xi-ka-pei-feng-ch/</link>
+				<pubDate>Tue, 09 Jun 2026 20:17:20 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-luo-bei-hou-ba-xi-ka-pei-feng-ch/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;近期，国际市场围绕&lt;strong&gt;巴西咖啡丰产&lt;/strong&gt;的预期升温，推动纽约与伦敦两大咖啡期货市场情绪转弱，咖啡价格出现回落。Barchart 对此的报道抓住了核心逻辑：当全球最大咖啡生产国被认为将带来更充裕的供应，资本会率先下调对未来缺货风险的定价。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>咖啡期货回调背后：咖啡豆价格下行是否会传导到中国零售端与全球供应链？</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/</link>
+				<pubDate>Fri, 17 Apr 2026 18:47:48 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;国际&lt;strong&gt;咖啡期货&lt;/strong&gt;近期明显回调，核心原因不是需求骤降，而是市场对巴西、越南等主产区供给紧张的担忧阶段性缓解。Barchart 报道所指向的，是此前被天气、物流和库存预期推高的价格，正在被“供应恢复预期”重新定价。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

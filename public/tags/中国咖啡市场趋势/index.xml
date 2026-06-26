@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>中国咖啡市场趋势 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E5%B8%82%E5%9C%BA%E8%B6%8B%E5%8A%BF/</link>
-    <description>Recent content in 中国咖啡市场趋势 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 May 2026 22:43:59 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E5%B8%82%E5%9C%BA%E8%B6%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Lavazza中国扩张与全球咖啡品牌竞争：美国、中国双线加码，下一轮市场洗牌已经开始</title>
-      <link>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-pin/</link>
-      <pubDate>Mon, 04 May 2026 22:43:59 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-pin/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;意大利咖啡巨头 &lt;strong&gt;Lavazza&lt;/strong&gt; 正把增长重心明确指向美国与中国。按照彭博社披露的信息，管理层希望通过加码这两个高增长、但竞争也最激烈的市场，缩小与更大体量全球咖啡集团之间的差距。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>中国咖啡市场趋势 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E5%B8%82%E5%9C%BA%E8%B6%8B%E5%8A%BF/</link>
+		<description>Recent content in 中国咖啡市场趋势 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 04 May 2026 22:43:59 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E5%B8%82%E5%9C%BA%E8%B6%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Lavazza中国扩张与全球咖啡品牌竞争：美国、中国双线加码，下一轮市场洗牌已经开始</title>
+				<link>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-pin/</link>
+				<pubDate>Mon, 04 May 2026 22:43:59 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-pin/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;意大利咖啡巨头 &lt;strong&gt;Lavazza&lt;/strong&gt; 正把增长重心明确指向美国与中国。按照彭博社披露的信息，管理层希望通过加码这两个高增长、但竞争也最激烈的市场，缩小与更大体量全球咖啡集团之间的差距。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

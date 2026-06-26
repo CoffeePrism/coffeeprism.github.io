@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>巴西咖啡 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1/</link>
-    <description>Recent content in 巴西咖啡 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 19 Jun 2026 19:57:14 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡价格再度走高：巴西咖啡采收延迟，如何推升生豆成本并传导到中国杯中</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-jie-ge-zai-du-zou-gao-ba-xi-ka-pei-cai-shou/</link>
-      <pubDate>Fri, 19 Jun 2026 19:57:14 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-jie-ge-zai-du-zou-gao-ba-xi-ka-pei-cai-shou/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;Barchart 报道指出，&lt;strong&gt;巴西采收延迟&lt;/strong&gt;正在推动国际&lt;strong&gt;咖啡价格&lt;/strong&gt;上行，市场对短期供应节奏的担忧重新升温。对咖啡行业来说，这不是一条单纯的期货新闻，而是可能影响未来数月&lt;strong&gt;生豆成本&lt;/strong&gt;、烘焙排产、门店定价与消费者杯中风味稳定性的连锁变量。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>巴西咖啡 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1/</link>
+		<description>Recent content in 巴西咖啡 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 19 Jun 2026 19:57:14 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡价格再度走高：巴西咖啡采收延迟，如何推升生豆成本并传导到中国杯中</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-jie-ge-zai-du-zou-gao-ba-xi-ka-pei-cai-shou/</link>
+				<pubDate>Fri, 19 Jun 2026 19:57:14 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-jie-ge-zai-du-zou-gao-ba-xi-ka-pei-cai-shou/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;Barchart 报道指出，&lt;strong&gt;巴西采收延迟&lt;/strong&gt;正在推动国际&lt;strong&gt;咖啡价格&lt;/strong&gt;上行，市场对短期供应节奏的担忧重新升温。对咖啡行业来说，这不是一条单纯的期货新闻，而是可能影响未来数月&lt;strong&gt;生豆成本&lt;/strong&gt;、烘焙排产、门店定价与消费者杯中风味稳定性的连锁变量。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

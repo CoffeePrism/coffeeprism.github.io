@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>ChatGPT咖啡零售 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/chatgpt%E5%92%96%E5%95%A1%E9%9B%B6%E5%94%AE/</link>
-    <description>Recent content in ChatGPT咖啡零售 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 19 Apr 2026 18:38:43 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/chatgpt%E5%92%96%E5%95%A1%E9%9B%B6%E5%94%AE/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克 AI点单落地：ChatGPT咖啡零售正在重写消费决策链吗？</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-aidian-dan-luo-di-chatgptka-pei-ling-sh/</link>
-      <pubDate>Sun, 19 Apr 2026 18:38:43 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-aidian-dan-luo-di-chatgptka-pei-ling-sh/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克正在把&lt;strong&gt;生成式AI&lt;/strong&gt;从“营销噱头”推进到真实交易环节。根据 inc.com 报道，星巴克推出了基于 ChatGPT 能力的 AI 点单助手，核心用途不是单纯回答问题，而是帮助用户在点单时完成推荐、筛选和决策。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>ChatGPT咖啡零售 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/chatgpt%E5%92%96%E5%95%A1%E9%9B%B6%E5%94%AE/</link>
+		<description>Recent content in ChatGPT咖啡零售 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 19 Apr 2026 18:38:43 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/chatgpt%E5%92%96%E5%95%A1%E9%9B%B6%E5%94%AE/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克 AI点单落地：ChatGPT咖啡零售正在重写消费决策链吗？</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-aidian-dan-luo-di-chatgptka-pei-ling-sh/</link>
+				<pubDate>Sun, 19 Apr 2026 18:38:43 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-aidian-dan-luo-di-chatgptka-pei-ling-sh/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克正在把&lt;strong&gt;生成式AI&lt;/strong&gt;从“营销噱头”推进到真实交易环节。根据 inc.com 报道，星巴克推出了基于 ChatGPT 能力的 AI 点单助手，核心用途不是单纯回答问题，而是帮助用户在点单时完成推荐、筛选和决策。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

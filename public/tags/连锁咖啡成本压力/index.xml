@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>连锁咖啡成本压力 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/</link>
-    <description>Recent content in 连锁咖啡成本压力 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 12 May 2026 20:03:12 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡涨价进入深水区：连锁咖啡成本压力如何重塑咖啡豆价格与终端市场</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-jin-ru-shen-shui-qu-lian-suo-ka-p/</link>
-      <pubDate>Tue, 12 May 2026 20:03:12 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-jin-ru-shen-shui-qu-lian-suo-ka-p/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;Yahoo Finance 近日报道，全球&lt;strong&gt;咖啡豆价格&lt;/strong&gt;持续上行，但以 Dutch Bros 为代表的连锁品牌并未把全部成本立刻转嫁给消费者，而是选择“先吞下大部分涨价”。这不是单一企业的短期经营选择，而是整个咖啡行业在高波动原料周期中的集体压力测试。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>连锁咖啡成本压力 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/</link>
+		<description>Recent content in 连锁咖啡成本压力 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 12 May 2026 20:03:12 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E6%88%90%E6%9C%AC%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡涨价进入深水区：连锁咖啡成本压力如何重塑咖啡豆价格与终端市场</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-jin-ru-shen-shui-qu-lian-suo-ka-p/</link>
+				<pubDate>Tue, 12 May 2026 20:03:12 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-jin-ru-shen-shui-qu-lian-suo-ka-p/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;Yahoo Finance 近日报道，全球&lt;strong&gt;咖啡豆价格&lt;/strong&gt;持续上行，但以 Dutch Bros 为代表的连锁品牌并未把全部成本立刻转嫁给消费者，而是选择“先吞下大部分涨价”。这不是单一企业的短期经营选择，而是整个咖啡行业在高波动原料周期中的集体压力测试。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

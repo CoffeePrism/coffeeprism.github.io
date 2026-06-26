@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>高端咖啡消费 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/</link>
-    <description>Recent content in 高端咖啡消费 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 May 2026 06:40:48 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克9美元咖啡争议：当“可负担的高端体验”撞上消费者价格阈值</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-dang-ke-fu-da/</link>
-      <pubDate>Sun, 03 May 2026 06:40:48 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-dang-ke-fu-da/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克CEO近日因“&lt;strong&gt;9美元咖啡&lt;/strong&gt;仍属于‘&lt;strong&gt;可负担的高端体验&lt;/strong&gt;’”的表述，遭到美国舆论批评，核心争议不在于一杯咖啡到底值不值9美元，而在于头部连锁品牌是否正在失去对消费者价格敏感度的判断。对星巴克而言，这是一场关于定价权、品牌叙事与用户信任的公开压力测试；对整个连锁咖啡行业而言，它则揭示了全球咖啡涨价周期下，高端化还能走多远。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>高端咖啡消费 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/</link>
+		<description>Recent content in 高端咖啡消费 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 03 May 2026 06:40:48 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E9%AB%98%E7%AB%AF%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克9美元咖啡争议：当“可负担的高端体验”撞上消费者价格阈值</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-dang-ke-fu-da/</link>
+				<pubDate>Sun, 03 May 2026 06:40:48 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-9mei-yuan-ka-pei-zheng-yi-dang-ke-fu-da/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克CEO近日因“&lt;strong&gt;9美元咖啡&lt;/strong&gt;仍属于‘&lt;strong&gt;可负担的高端体验&lt;/strong&gt;’”的表述，遭到美国舆论批评，核心争议不在于一杯咖啡到底值不值9美元，而在于头部连锁品牌是否正在失去对消费者价格敏感度的判断。对星巴克而言，这是一场关于定价权、品牌叙事与用户信任的公开压力测试；对整个连锁咖啡行业而言，它则揭示了全球咖啡涨价周期下，高端化还能走多远。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

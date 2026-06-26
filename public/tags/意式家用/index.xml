@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>意式家用 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E5%AE%B6%E7%94%A8/</link>
-    <description>Recent content in 意式家用 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E5%AE%B6%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
-      <link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
-      <description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>意式家用 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E5%AE%B6%E7%94%A8/</link>
+		<description>Recent content in 意式家用 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E5%AE%B6%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
+				<link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
+				<description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

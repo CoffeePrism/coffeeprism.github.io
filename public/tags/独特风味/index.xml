@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>独特风味 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E7%8B%AC%E7%89%B9%E9%A3%8E%E5%91%B3/</link>
-    <description>Recent content in 独特风味 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E7%8B%AC%E7%89%B9%E9%A3%8E%E5%91%B3/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>深度解析：肯尼亚AA咖啡豆的独特风味的完整指南</title>
-      <link>https://www.coffeeprism.com/posts/2026-01-20-182629-shen-du-jie-xi-ken-ni-ya-aaka-pei-dou-de-du-te-fen-e8459ac8/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2026-01-20-182629-shen-du-jie-xi-ken-ni-ya-aaka-pei-dou-de-du-te-fen-e8459ac8/</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;你是否曾在精品咖啡馆里被一杯充满莓果香的咖啡惊艳过？这种令人难忘的&lt;strong&gt;肯尼亚AA咖啡豆的独特风味&lt;/strong&gt;，正是全球咖啡爱好者为之痴迷的味觉密码。作为非洲精品咖啡的标杆，肯尼亚AA咖啡豆的独特风味融合了明亮的酸质、复杂的果香与优雅的甜感，在2023年国际咖啡品鉴大赛中，超过87%的专业评委将其列为「必尝咖啡清单」前三名。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>独特风味 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E7%8B%AC%E7%89%B9%E9%A3%8E%E5%91%B3/</link>
+		<description>Recent content in 独特风味 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E7%8B%AC%E7%89%B9%E9%A3%8E%E5%91%B3/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>深度解析：肯尼亚AA咖啡豆的独特风味的完整指南</title>
+				<link>https://www.coffeeprism.com/posts/2026-01-20-182629-shen-du-jie-xi-ken-ni-ya-aaka-pei-dou-de-du-te-fen-e8459ac8/</link>
+				<pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2026-01-20-182629-shen-du-jie-xi-ken-ni-ya-aaka-pei-dou-de-du-te-fen-e8459ac8/</guid>
+				<description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;你是否曾在精品咖啡馆里被一杯充满莓果香的咖啡惊艳过？这种令人难忘的&lt;strong&gt;肯尼亚AA咖啡豆的独特风味&lt;/strong&gt;，正是全球咖啡爱好者为之痴迷的味觉密码。作为非洲精品咖啡的标杆，肯尼亚AA咖啡豆的独特风味融合了明亮的酸质、复杂的果香与优雅的甜感，在2023年国际咖啡品鉴大赛中，超过87%的专业评委将其列为「必尝咖啡清单」前三名。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

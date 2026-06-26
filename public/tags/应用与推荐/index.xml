@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>应用与推荐 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%BA%94%E7%94%A8%E4%B8%8E%E6%8E%A8%E8%8D%90/</link>
-    <description>Recent content in 应用与推荐 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%BA%94%E7%94%A8%E4%B8%8E%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡秤的应用与推荐：精准萃取的必备指南</title>
-      <link>https://www.coffeeprism.com/posts/2026-01-20-182729-ka-pei-cheng-de-ying-yong-yu-tui-jian-jing-zhun-cu-04db9b21/</link>
-      <pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2026-01-20-182729-ka-pei-cheng-de-ying-yong-yu-tui-jian-jing-zhun-cu-04db9b21/</guid>
-      <description>&lt;p&gt;当你在咖啡馆看到咖啡师专注地盯着电子秤时，是否好奇这个看似普通的工具为何如此重要？&lt;strong&gt;咖啡秤的应用与推荐&lt;/strong&gt;不仅关乎冲煮参数的精准控制，更直接影响着每杯咖啡的风味呈现。本文将深入解析咖啡秤在萃取中的关键作用，并提供专业级选购建议，助你从冲煮新手蜕变为家庭咖啡专家。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>应用与推荐 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%BA%94%E7%94%A8%E4%B8%8E%E6%8E%A8%E8%8D%90/</link>
+		<description>Recent content in 应用与推荐 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 20 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%BA%94%E7%94%A8%E4%B8%8E%E6%8E%A8%E8%8D%90/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡秤的应用与推荐：精准萃取的必备指南</title>
+				<link>https://www.coffeeprism.com/posts/2026-01-20-182729-ka-pei-cheng-de-ying-yong-yu-tui-jian-jing-zhun-cu-04db9b21/</link>
+				<pubDate>Tue, 20 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2026-01-20-182729-ka-pei-cheng-de-ying-yong-yu-tui-jian-jing-zhun-cu-04db9b21/</guid>
+				<description>&lt;p&gt;当你在咖啡馆看到咖啡师专注地盯着电子秤时，是否好奇这个看似普通的工具为何如此重要？&lt;strong&gt;咖啡秤的应用与推荐&lt;/strong&gt;不仅关乎冲煮参数的精准控制，更直接影响着每杯咖啡的风味呈现。本文将深入解析咖啡秤在萃取中的关键作用，并提供专业级选购建议，助你从冲煮新手蜕变为家庭咖啡专家。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

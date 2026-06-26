@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>传统与现代技巧 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E4%BC%A0%E7%BB%9F%E4%B8%8E%E7%8E%B0%E4%BB%A3%E6%8A%80%E5%B7%A7/</link>
-    <description>Recent content in 传统与现代技巧 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 03 May 2026 06:42:38 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E4%BC%A0%E7%BB%9F%E4%B8%8E%E7%8E%B0%E4%BB%A3%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>摩卡壶的传统与现代技巧完全攻略</title>
-      <link>https://www.coffeeprism.com/posts/mo-qia-hu-de-chuan-tong-yu-xian-dai-ji-qiao-wan-qu/</link>
-      <pubDate>Sun, 03 May 2026 06:42:38 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/mo-qia-hu-de-chuan-tong-yu-xian-dai-ji-qiao-wan-qu/</guid>
-      <description>&lt;p&gt;清晨 7 点，炉火刚亮，壶底的水开始升温，几分钟后，熟悉的咕噜声响起，一股浓郁却不苦涩的咖啡香充满厨房。很多人第一次爱上意式家庭咖啡，不是从昂贵的半自动机开始，而是从一把几十到几百元的摩卡壶开始。&lt;strong&gt;摩卡壶的传统与现代技巧&lt;/strong&gt;之所以一直不过时，正因为它兼具仪式感、效率和风味张力；而&lt;strong&gt;摩卡壶的传统与现代技巧&lt;/strong&gt;真正拉开差距的，往往不是器具本身，而是火力、研磨、粉量和停火时机这些细节。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>传统与现代技巧 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E4%BC%A0%E7%BB%9F%E4%B8%8E%E7%8E%B0%E4%BB%A3%E6%8A%80%E5%B7%A7/</link>
+		<description>Recent content in 传统与现代技巧 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 03 May 2026 06:42:38 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E4%BC%A0%E7%BB%9F%E4%B8%8E%E7%8E%B0%E4%BB%A3%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>摩卡壶的传统与现代技巧完全攻略</title>
+				<link>https://www.coffeeprism.com/posts/mo-qia-hu-de-chuan-tong-yu-xian-dai-ji-qiao-wan-qu/</link>
+				<pubDate>Sun, 03 May 2026 06:42:38 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/mo-qia-hu-de-chuan-tong-yu-xian-dai-ji-qiao-wan-qu/</guid>
+				<description>&lt;p&gt;清晨 7 点，炉火刚亮，壶底的水开始升温，几分钟后，熟悉的咕噜声响起，一股浓郁却不苦涩的咖啡香充满厨房。很多人第一次爱上意式家庭咖啡，不是从昂贵的半自动机开始，而是从一把几十到几百元的摩卡壶开始。&lt;strong&gt;摩卡壶的传统与现代技巧&lt;/strong&gt;之所以一直不过时，正因为它兼具仪式感、效率和风味张力；而&lt;strong&gt;摩卡壶的传统与现代技巧&lt;/strong&gt;真正拉开差距的，往往不是器具本身，而是火力、研磨、粉量和停火时机这些细节。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

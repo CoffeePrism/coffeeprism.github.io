@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>门店运营智能化 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E9%97%A8%E5%BA%97%E8%BF%90%E8%90%A5%E6%99%BA%E8%83%BD%E5%8C%96/</link>
-    <description>Recent content in 门店运营智能化 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 25 May 2026 19:51:04 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E9%97%A8%E5%BA%97%E8%BF%90%E8%90%A5%E6%99%BA%E8%83%BD%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克 AI库存系统仅上线9个月即被放弃：咖啡连锁数字化转型到底卡在哪？</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-aiku-cun-xi-tong-jin-shang-xian-9ge-yue/</link>
-      <pubDate>Mon, 25 May 2026 19:51:04 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-aiku-cun-xi-tong-jin-shang-xian-9ge-yue/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克近日被曝在上线仅9个月后，放弃了一套面向门店的 &lt;strong&gt;AI库存系统&lt;/strong&gt;。这不是一次普通的软件更换，而是全球头部咖啡连锁在“门店运营智能化”上的一次高调回撤：当AI从营销和客服走向库存、订货、排班等核心运营环节，技术承诺开始直接接受利润表检验。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>门店运营智能化 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E9%97%A8%E5%BA%97%E8%BF%90%E8%90%A5%E6%99%BA%E8%83%BD%E5%8C%96/</link>
+		<description>Recent content in 门店运营智能化 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 25 May 2026 19:51:04 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E9%97%A8%E5%BA%97%E8%BF%90%E8%90%A5%E6%99%BA%E8%83%BD%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克 AI库存系统仅上线9个月即被放弃：咖啡连锁数字化转型到底卡在哪？</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-aiku-cun-xi-tong-jin-shang-xian-9ge-yue/</link>
+				<pubDate>Mon, 25 May 2026 19:51:04 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-aiku-cun-xi-tong-jin-shang-xian-9ge-yue/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克近日被曝在上线仅9个月后，放弃了一套面向门店的 &lt;strong&gt;AI库存系统&lt;/strong&gt;。这不是一次普通的软件更换，而是全球头部咖啡连锁在“门店运营智能化”上的一次高调回撤：当AI从营销和客服走向库存、订货、排班等核心运营环节，技术承诺开始直接接受利润表检验。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>环境影响 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D/</link>
-    <description>Recent content in 环境影响 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Apr 2026 18:45:45 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡种植的环境影响深度解析指南</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/</link>
-      <pubDate>Fri, 10 Apr 2026 18:45:45 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/</guid>
-      <description>&lt;p&gt;一杯拿铁背后，往往不只是风味和产区故事，还有森林、水源、土壤与碳排放的代价。&lt;strong&gt;咖啡种植的环境影响&lt;/strong&gt;，正在成为全球咖啡产业链最受关注的话题之一；而&lt;strong&gt;咖啡种植的环境影响&lt;/strong&gt;，也直接关系到消费者未来还能不能喝到稳定、优质且价格可承受的咖啡。过去十年，我在关注手冲参数和烘焙曲线之外，越来越明显地感受到：真正决定咖啡可持续性的，不只是杯测分数，而是种植方式本身。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>咖啡种植的环境影响：从土壤到杯子的生态启示录</title>
-      <link>https://www.coffeeprism.com/posts/2025-12-25-181958-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-4e64e226/</link>
-      <pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-12-25-181958-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-4e64e226/</guid>
-      <description>&lt;p&gt;清晨的第一杯咖啡唤醒无数人时，很少有人意识到这抹醇香背后承载着怎样的生态代价。当我们谈论咖啡种植的环境影响时，实际上是在探讨人类与自然长达三个世纪的博弈史——全球每年消耗的5000亿杯咖啡，正以每年损失10万公顷热带森林的速度重塑着地球面貌。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>咖啡种植的环境影响：从土壤到杯子的生态启示</title>
-      <link>https://www.coffeeprism.com/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/</link>
-      <pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/</guid>
-      <description>&lt;p&gt;当您清晨端起第三杯耶加雪菲时，是否想过这颗红色浆果的生长轨迹？全球每年消耗的5000亿杯咖啡背后，正上演着一场持续300年的生态博弈。本文将带您穿透咖啡香气的迷雾，直击种植园里那些不为人知的生态故事。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>环境影响 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D/</link>
+		<description>Recent content in 环境影响 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 10 Apr 2026 18:45:45 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡种植的环境影响深度解析指南</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/</link>
+				<pubDate>Fri, 10 Apr 2026 18:45:45 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-chong-zhi-de-huan-jing-ying-xiang-shen-du-j/</guid>
+				<description>&lt;p&gt;一杯拿铁背后，往往不只是风味和产区故事，还有森林、水源、土壤与碳排放的代价。&lt;strong&gt;咖啡种植的环境影响&lt;/strong&gt;，正在成为全球咖啡产业链最受关注的话题之一；而&lt;strong&gt;咖啡种植的环境影响&lt;/strong&gt;，也直接关系到消费者未来还能不能喝到稳定、优质且价格可承受的咖啡。过去十年，我在关注手冲参数和烘焙曲线之外，越来越明显地感受到：真正决定咖啡可持续性的，不只是杯测分数，而是种植方式本身。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>咖啡种植的环境影响：从土壤到杯子的生态启示录</title>
+				<link>https://www.coffeeprism.com/posts/2025-12-25-181958-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-4e64e226/</link>
+				<pubDate>Thu, 25 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-12-25-181958-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-4e64e226/</guid>
+				<description>&lt;p&gt;清晨的第一杯咖啡唤醒无数人时，很少有人意识到这抹醇香背后承载着怎样的生态代价。当我们谈论咖啡种植的环境影响时，实际上是在探讨人类与自然长达三个世纪的博弈史——全球每年消耗的5000亿杯咖啡，正以每年损失10万公顷热带森林的速度重塑着地球面貌。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>咖啡种植的环境影响：从土壤到杯子的生态启示</title>
+				<link>https://www.coffeeprism.com/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/</link>
+				<pubDate>Thu, 30 Oct 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/</guid>
+				<description>&lt;p&gt;当您清晨端起第三杯耶加雪菲时，是否想过这颗红色浆果的生长轨迹？全球每年消耗的5000亿杯咖啡背后，正上演着一场持续300年的生态博弈。本文将带您穿透咖啡香气的迷雾，直击种植园里那些不为人知的生态故事。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>哥伦比亚 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A/</link>
-    <description>Recent content in 哥伦比亚 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>可持续咖啡包装的发展：环保与风味的双重革命</title>
-      <link>https://www.coffeeprism.com/posts/2026-01-10-182022-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-4f6bf626/</link>
-      <pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2026-01-10-182022-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-4f6bf626/</guid>
-      <description>&lt;p&gt;当清晨第一杯咖啡唤醒味蕾时，你可曾想过手中咖啡袋的去向？全球每分钟消耗200万个咖啡包装的惊人数据背后，&lt;strong&gt;可持续咖啡包装的发展&lt;/strong&gt;正掀起一场静默的产业革命。在这场关乎地球未来的变革中，中国咖啡爱好者既是见证者，更是关键参与者。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>哥伦比亚 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A/</link>
+		<description>Recent content in 哥伦比亚 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 10 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>可持续咖啡包装的发展：环保与风味的双重革命</title>
+				<link>https://www.coffeeprism.com/posts/2026-01-10-182022-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-4f6bf626/</link>
+				<pubDate>Sat, 10 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2026-01-10-182022-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-4f6bf626/</guid>
+				<description>&lt;p&gt;当清晨第一杯咖啡唤醒味蕾时，你可曾想过手中咖啡袋的去向？全球每分钟消耗200万个咖啡包装的惊人数据背后，&lt;strong&gt;可持续咖啡包装的发展&lt;/strong&gt;正掀起一场静默的产业革命。在这场关乎地球未来的变革中，中国咖啡爱好者既是见证者，更是关键参与者。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

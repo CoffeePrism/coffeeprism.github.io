@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡店涨价 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%BA%97%E6%B6%A8%E4%BB%B7/</link>
-    <description>Recent content in 咖啡店涨价 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 06 Apr 2026 18:46:30 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%BA%97%E6%B6%A8%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡豆价格上涨冲击门店生意：从美国小店困境，看全球咖啡供应链与中国咖啡店涨价逻辑</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-men-dian-sh/</link>
-      <pubDate>Mon, 06 Apr 2026 18:46:30 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-men-dian-sh/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国得州 Belton 一家本地咖啡店主近日在接受 KXXV 采访时表示，&lt;strong&gt;创纪录的咖啡豆价格&lt;/strong&gt;正在直接挤压门店利润，迫使经营者重新评估菜单定价、采购策略和经营方式。表面上看，这只是一个地方性新闻；但实际上，它反映的是一个正在全球蔓延的行业现实：&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;已经不再是贸易市场里的数字波动，而是切实传导到门店、消费者和整条&lt;strong&gt;咖啡供应链&lt;/strong&gt;的系统性压力。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡店涨价 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%BA%97%E6%B6%A8%E4%BB%B7/</link>
+		<description>Recent content in 咖啡店涨价 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 06 Apr 2026 18:46:30 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%BA%97%E6%B6%A8%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡豆价格上涨冲击门店生意：从美国小店困境，看全球咖啡供应链与中国咖啡店涨价逻辑</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-men-dian-sh/</link>
+				<pubDate>Mon, 06 Apr 2026 18:46:30 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-men-dian-sh/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国得州 Belton 一家本地咖啡店主近日在接受 KXXV 采访时表示，&lt;strong&gt;创纪录的咖啡豆价格&lt;/strong&gt;正在直接挤压门店利润，迫使经营者重新评估菜单定价、采购策略和经营方式。表面上看，这只是一个地方性新闻；但实际上，它反映的是一个正在全球蔓延的行业现实：&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;已经不再是贸易市场里的数字波动，而是切实传导到门店、消费者和整条&lt;strong&gt;咖啡供应链&lt;/strong&gt;的系统性压力。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>AI点单 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/ai%E7%82%B9%E5%8D%95/</link>
-    <description>Recent content in AI点单 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 16 Apr 2026 19:03:12 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/ai%E7%82%B9%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克 ChatGPT 测试版上线：AI点单正在改写咖啡数字化竞争规则</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-ce-shi-ban-shang-xian-aidian-da/</link>
-      <pubDate>Thu, 16 Apr 2026 19:03:12 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-ce-shi-ban-shang-xian-aidian-da/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克正在 ChatGPT 内推出测试版应用，核心目标不是简单“多一个点单入口”，而是借助生成式 AI 重新定义用户发现饮品、获得推荐与完成消费决策的方式。根据 CNBC 报道，这项尝试聚焦“new drink discovery”，也就是让用户通过自然语言对话，更快找到符合自己口味、场景和预算的饮品选择。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>AI点单 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/ai%E7%82%B9%E5%8D%95/</link>
+		<description>Recent content in AI点单 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 16 Apr 2026 19:03:12 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/ai%E7%82%B9%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克 ChatGPT 测试版上线：AI点单正在改写咖啡数字化竞争规则</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-ce-shi-ban-shang-xian-aidian-da/</link>
+				<pubDate>Thu, 16 Apr 2026 19:03:12 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-chatgpt-ce-shi-ban-shang-xian-aidian-da/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;星巴克正在 ChatGPT 内推出测试版应用，核心目标不是简单“多一个点单入口”，而是借助生成式 AI 重新定义用户发现饮品、获得推荐与完成消费决策的方式。根据 CNBC 报道，这项尝试聚焦“new drink discovery”，也就是让用户通过自然语言对话，更快找到符合自己口味、场景和预算的饮品选择。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

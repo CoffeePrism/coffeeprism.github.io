@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>独立咖啡店经营压力 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E7%8B%AC%E7%AB%8B%E5%92%96%E5%95%A1%E5%BA%97%E7%BB%8F%E8%90%A5%E5%8E%8B%E5%8A%9B/</link>
-    <description>Recent content in 独立咖啡店经营压力 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 13 Apr 2026 19:05:33 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E7%8B%AC%E7%AB%8B%E5%92%96%E5%95%A1%E5%BA%97%E7%BB%8F%E8%90%A5%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡豆价格上涨冲击独立咖啡店：全球咖啡供应链承压下，谁在为一杯咖啡的涨价买单？</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-du-li-ka-pe/</link>
-      <pubDate>Mon, 13 Apr 2026 19:05:33 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-du-li-ka-pe/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国媒体 KGUN 9 近日报道，当&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;叠加电费、燃气费等公用事业成本走高，当地大量家庭式、社区型独立咖啡店正面临前所未有的利润挤压。问题并不只是一袋豆子贵了几美元，而是原料、能源、人工和租金共同推高了经营门槛。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>独立咖啡店经营压力 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E7%8B%AC%E7%AB%8B%E5%92%96%E5%95%A1%E5%BA%97%E7%BB%8F%E8%90%A5%E5%8E%8B%E5%8A%9B/</link>
+		<description>Recent content in 独立咖啡店经营压力 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 13 Apr 2026 19:05:33 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E7%8B%AC%E7%AB%8B%E5%92%96%E5%95%A1%E5%BA%97%E7%BB%8F%E8%90%A5%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡豆价格上涨冲击独立咖啡店：全球咖啡供应链承压下，谁在为一杯咖啡的涨价买单？</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-du-li-ka-pe/</link>
+				<pubDate>Mon, 13 Apr 2026 19:05:33 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-chong-ji-du-li-ka-pe/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国媒体 KGUN 9 近日报道，当&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;叠加电费、燃气费等公用事业成本走高，当地大量家庭式、社区型独立咖啡店正面临前所未有的利润挤压。问题并不只是一袋豆子贵了几美元，而是原料、能源、人工和租金共同推高了经营门槛。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

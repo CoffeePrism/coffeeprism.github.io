@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>气候变化与咖啡 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E4%B8%8E%E5%92%96%E5%95%A1/</link>
-    <description>Recent content in 气候变化与咖啡 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Apr 2026 18:56:22 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E4%B8%8E%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/</link>
-      <pubDate>Mon, 20 Apr 2026 18:56:22 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;GlobalData 近期指出，&lt;strong&gt;气候变化与咖啡&lt;/strong&gt;生产的矛盾正在加剧，未来咖啡价格上涨将成为全球市场更频繁出现的现实，而非短期波动。极端高温、干旱、异常降雨和病虫害，正在同时压缩阿拉比卡与罗布斯塔的稳定产量。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>气候变化与咖啡 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E4%B8%8E%E5%92%96%E5%95%A1/</link>
+		<description>Recent content in 气候变化与咖啡 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 20 Apr 2026 18:56:22 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E4%B8%8E%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/</link>
+				<pubDate>Mon, 20 Apr 2026 18:56:22 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;GlobalData 近期指出，&lt;strong&gt;气候变化与咖啡&lt;/strong&gt;生产的矛盾正在加剧，未来咖啡价格上涨将成为全球市场更频繁出现的现实，而非短期波动。极端高温、干旱、异常降雨和病虫害，正在同时压缩阿拉比卡与罗布斯塔的稳定产量。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

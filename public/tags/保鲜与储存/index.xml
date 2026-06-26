@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>保鲜与储存 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E4%BF%9D%E9%B2%9C%E4%B8%8E%E5%82%A8%E5%AD%98/</link>
-    <description>Recent content in 保鲜与储存 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E4%BF%9D%E9%B2%9C%E4%B8%8E%E5%82%A8%E5%AD%98/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>烘焙咖啡的保鲜与储存完全指南：从新手到行家的必修课</title>
-      <link>https://www.coffeeprism.com/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/</link>
-      <pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/</guid>
-      <description>&lt;p&gt;当您拆开一包新鲜烘焙的咖啡豆时，是否想过这些凝聚着风味的芳香分子正在与时间赛跑？&lt;strong&gt;烘焙咖啡的保鲜与储存&lt;/strong&gt;不仅是保存咖啡品质的技术，更是一门关乎风味的科学艺术。本文将带您穿越咖啡豆的生命周期，揭示那些专业咖啡师不愿透露的保鲜秘诀，让您每次冲泡都能还原咖啡豆的最佳状态。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>保鲜与储存 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E4%BF%9D%E9%B2%9C%E4%B8%8E%E5%82%A8%E5%AD%98/</link>
+		<description>Recent content in 保鲜与储存 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 05 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E4%BF%9D%E9%B2%9C%E4%B8%8E%E5%82%A8%E5%AD%98/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>烘焙咖啡的保鲜与储存完全指南：从新手到行家的必修课</title>
+				<link>https://www.coffeeprism.com/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/</link>
+				<pubDate>Mon, 05 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/</guid>
+				<description>&lt;p&gt;当您拆开一包新鲜烘焙的咖啡豆时，是否想过这些凝聚着风味的芳香分子正在与时间赛跑？&lt;strong&gt;烘焙咖啡的保鲜与储存&lt;/strong&gt;不仅是保存咖啡品质的技术，更是一门关乎风味的科学艺术。本文将带您穿越咖啡豆的生命周期，揭示那些专业咖啡师不愿透露的保鲜秘诀，让您每次冲泡都能还原咖啡豆的最佳状态。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

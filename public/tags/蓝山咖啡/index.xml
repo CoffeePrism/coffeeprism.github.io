@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>蓝山咖啡 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E8%93%9D%E5%B1%B1%E5%92%96%E5%95%A1/</link>
-    <description>Recent content in 蓝山咖啡 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E8%93%9D%E5%B1%B1%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>蓝山咖啡的声誉与真相：你所不知道的顶级咖啡传奇</title>
-      <link>https://www.coffeeprism.com/posts/2025-12-31-182029-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-ni-suo-b-ada8eff3/</link>
-      <pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-12-31-182029-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-ni-suo-b-ada8eff3/</guid>
-      <description>&lt;p&gt;当你在咖啡馆看到标价388元/杯的蓝山咖啡时，是否疑惑过这种咖啡为何能冠上「咖啡界劳斯莱斯」的称号？在中国市场，蓝山咖啡的声誉与真相始终笼罩着神秘面纱——从牙买加火山土壤孕育的传奇，到充斥市场的仿冒品，这个咖啡界的顶级IP究竟藏着怎样的故事？&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>蓝山咖啡的声誉与真相：从神话到现实的完全指南</title>
-      <link>https://www.coffeeprism.com/posts/2025-11-23-181722-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-cong-she-a619f9a2/</link>
-      <pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-11-23-181722-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-cong-she-a619f9a2/</guid>
-      <description>&lt;p&gt;当你在咖啡馆看到标价300元/杯的「牙买加蓝山咖啡」时，是否怀疑过杯中物的真实性？这种被誉为「咖啡界劳斯莱斯」的珍稀豆种，每年全球流通量中竟有70%流向日本市场，而中国消费者接触到的「蓝山咖啡」，90%以上都存在产地或等级存疑的情况。本文将揭开&lt;strong&gt;蓝山咖啡的声誉与真相&lt;/strong&gt;，带你穿越营销迷雾，掌握从鉴别到冲泡的全套实战技巧。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>蓝山咖啡的传奇与真相：一杯价值千金的咖啡神话如何品鉴？</title>
-      <link>https://www.coffeeprism.com/posts/2025-06-19-181827-lan-shan-ka-pei-de-chuan-qi-yu-zhen-xiang-yi-bei-j-7ef2bfd2/</link>
-      <pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-06-19-181827-lan-shan-ka-pei-de-chuan-qi-yu-zhen-xiang-yi-bei-j-7ef2bfd2/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;一蓝山咖啡的起源从牙买加到全球餐桌的传奇之路&#34;&gt;一、蓝山咖啡的起源：从牙买加到全球餐桌的传奇之路&lt;/h3&gt;&#xA;&lt;p&gt;在牙买加东北部海拔2256米的蓝山脚下，生长着一种被称为“咖啡界劳斯莱斯”的豆种。这里终年云雾缭绕，火山土壤富含矿物质，昼夜温差与适中的降雨量共同构成了独特的微气候。自1728年英国总督尼古拉斯·劳斯爵士引进第一株咖啡树起，蓝山咖啡便开启了它跨越三个世纪的传奇。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>蓝山咖啡 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E8%93%9D%E5%B1%B1%E5%92%96%E5%95%A1/</link>
+		<description>Recent content in 蓝山咖啡 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 31 Dec 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E8%93%9D%E5%B1%B1%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>蓝山咖啡的声誉与真相：你所不知道的顶级咖啡传奇</title>
+				<link>https://www.coffeeprism.com/posts/2025-12-31-182029-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-ni-suo-b-ada8eff3/</link>
+				<pubDate>Wed, 31 Dec 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-12-31-182029-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-ni-suo-b-ada8eff3/</guid>
+				<description>&lt;p&gt;当你在咖啡馆看到标价388元/杯的蓝山咖啡时，是否疑惑过这种咖啡为何能冠上「咖啡界劳斯莱斯」的称号？在中国市场，蓝山咖啡的声誉与真相始终笼罩着神秘面纱——从牙买加火山土壤孕育的传奇，到充斥市场的仿冒品，这个咖啡界的顶级IP究竟藏着怎样的故事？&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>蓝山咖啡的声誉与真相：从神话到现实的完全指南</title>
+				<link>https://www.coffeeprism.com/posts/2025-11-23-181722-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-cong-she-a619f9a2/</link>
+				<pubDate>Sun, 23 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-11-23-181722-lan-shan-ka-pei-de-sheng-yu-yu-zhen-xiang-cong-she-a619f9a2/</guid>
+				<description>&lt;p&gt;当你在咖啡馆看到标价300元/杯的「牙买加蓝山咖啡」时，是否怀疑过杯中物的真实性？这种被誉为「咖啡界劳斯莱斯」的珍稀豆种，每年全球流通量中竟有70%流向日本市场，而中国消费者接触到的「蓝山咖啡」，90%以上都存在产地或等级存疑的情况。本文将揭开&lt;strong&gt;蓝山咖啡的声誉与真相&lt;/strong&gt;，带你穿越营销迷雾，掌握从鉴别到冲泡的全套实战技巧。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>蓝山咖啡的传奇与真相：一杯价值千金的咖啡神话如何品鉴？</title>
+				<link>https://www.coffeeprism.com/posts/2025-06-19-181827-lan-shan-ka-pei-de-chuan-qi-yu-zhen-xiang-yi-bei-j-7ef2bfd2/</link>
+				<pubDate>Thu, 19 Jun 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-06-19-181827-lan-shan-ka-pei-de-chuan-qi-yu-zhen-xiang-yi-bei-j-7ef2bfd2/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;hr&gt;&#xA;&lt;h3 id=&#34;一蓝山咖啡的起源从牙买加到全球餐桌的传奇之路&#34;&gt;一、蓝山咖啡的起源：从牙买加到全球餐桌的传奇之路&lt;/h3&gt;&#xA;&lt;p&gt;在牙买加东北部海拔2256米的蓝山脚下，生长着一种被称为“咖啡界劳斯莱斯”的豆种。这里终年云雾缭绕，火山土壤富含矿物质，昼夜温差与适中的降雨量共同构成了独特的微气候。自1728年英国总督尼古拉斯·劳斯爵士引进第一株咖啡树起，蓝山咖啡便开启了它跨越三个世纪的传奇。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

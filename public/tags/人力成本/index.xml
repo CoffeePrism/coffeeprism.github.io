@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>人力成本 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E4%BA%BA%E5%8A%9B%E6%88%90%E6%9C%AC/</link>
-    <description>Recent content in 人力成本 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sun, 05 Apr 2026 18:33:14 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E4%BA%BA%E5%8A%9B%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>星巴克调整美国门店薪酬与激励：咖啡门店用工进入“高成本、强激励、拼效率”新阶段</title>
-      <link>https://www.coffeeprism.com/posts/xing-ba-ke-diao-zheng-mei-guo-men-dian-xin-chou-yu/</link>
-      <pubDate>Sun, 05 Apr 2026 18:33:14 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/xing-ba-ke-diao-zheng-mei-guo-men-dian-xin-chou-yu/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;路透社报道称，&lt;strong&gt;星巴克&lt;/strong&gt;正在扩大美国门店员工的&lt;strong&gt;周薪发放&lt;/strong&gt;范围，并增加小费与奖金机制，以改善一线吧员的收入体验和工作稳定性。这不是一次单纯的福利更新，而是全球连锁咖啡品牌在&lt;strong&gt;咖啡门店用工&lt;/strong&gt;压力加剧背景下，对“招人、留人、稳服务、控成本”四重目标进行再平衡的信号。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>人力成本 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E4%BA%BA%E5%8A%9B%E6%88%90%E6%9C%AC/</link>
+		<description>Recent content in 人力成本 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sun, 05 Apr 2026 18:33:14 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E4%BA%BA%E5%8A%9B%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>星巴克调整美国门店薪酬与激励：咖啡门店用工进入“高成本、强激励、拼效率”新阶段</title>
+				<link>https://www.coffeeprism.com/posts/xing-ba-ke-diao-zheng-mei-guo-men-dian-xin-chou-yu/</link>
+				<pubDate>Sun, 05 Apr 2026 18:33:14 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/xing-ba-ke-diao-zheng-mei-guo-men-dian-xin-chou-yu/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;路透社报道称，&lt;strong&gt;星巴克&lt;/strong&gt;正在扩大美国门店员工的&lt;strong&gt;周薪发放&lt;/strong&gt;范围，并增加小费与奖金机制，以改善一线吧员的收入体验和工作稳定性。这不是一次单纯的福利更新，而是全球连锁咖啡品牌在&lt;strong&gt;咖啡门店用工&lt;/strong&gt;压力加剧背景下，对“招人、留人、稳服务、控成本”四重目标进行再平衡的信号。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

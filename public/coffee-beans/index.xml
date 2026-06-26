@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡豆完全指南 2026：从产地到杯中的系统知识 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/coffee-beans/</link>
-    <description>Recent content in 咖啡豆完全指南 2026：从产地到杯中的系统知识 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/coffee-beans/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>埃塞俄比亚耶加雪菲咖啡豆详解</title>
-      <link>https://www.coffeeprism.com/coffee-beans/ethiopian-yirgacheffe/</link>
-      <pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/coffee-beans/ethiopian-yirgacheffe/</guid>
-      <description>&lt;h1 id=&#34;埃塞俄比亚耶加雪菲咖啡豆详解&#34;&gt;埃塞俄比亚耶加雪菲咖啡豆详解&lt;/h1&gt;&#xA;&lt;p&gt;埃塞俄比亚耶加雪菲（Yirgacheffe）咖啡豆被许多咖啡爱好者誉为&amp;quot;咖啡中的贵族&amp;quot;，以其鲜明的柑橘风味、花香和清爽的酸度闻名于世。作为咖啡的发源地，埃塞俄比亚出产的耶加雪菲咖啡豆代表了当地最优质的咖啡豆之一。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡豆完全指南 2026：从产地到杯中的系统知识 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/coffee-beans/</link>
+		<description>Recent content in 咖啡豆完全指南 2026：从产地到杯中的系统知识 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 15 Apr 2024 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/coffee-beans/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>埃塞俄比亚耶加雪菲咖啡豆详解</title>
+				<link>https://www.coffeeprism.com/coffee-beans/ethiopian-yirgacheffe/</link>
+				<pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/coffee-beans/ethiopian-yirgacheffe/</guid>
+				<description>&lt;h1 id=&#34;埃塞俄比亚耶加雪菲咖啡豆详解&#34;&gt;埃塞俄比亚耶加雪菲咖啡豆详解&lt;/h1&gt;&#xA;&lt;p&gt;埃塞俄比亚耶加雪菲（Yirgacheffe）咖啡豆被许多咖啡爱好者誉为&amp;quot;咖啡中的贵族&amp;quot;，以其鲜明的柑橘风味、花香和清爽的酸度闻名于世。作为咖啡的发源地，埃塞俄比亚出产的耶加雪菲咖啡豆代表了当地最优质的咖啡豆之一。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

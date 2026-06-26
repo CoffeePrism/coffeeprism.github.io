@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>关税与通胀 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%85%B3%E7%A8%8E%E4%B8%8E%E9%80%9A%E8%83%80/</link>
-    <description>Recent content in 关税与通胀 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Apr 2026 19:02:57 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%85%B3%E7%A8%8E%E4%B8%8E%E9%80%9A%E8%83%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡豆价格上涨叠加关税与通胀：美国咖啡馆经营压力，正在给中国市场敲响什么警钟？</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-guan-shui-yu/</link>
-      <pubDate>Tue, 14 Apr 2026 19:02:57 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-guan-shui-yu/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;MassLive 报道指出，美国本地咖啡馆与烘焙商正同时承受&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;、&lt;strong&gt;关税与通胀&lt;/strong&gt;、人工与租金走高的多重压力，利润空间被迅速压缩。对一家依赖进口生豆的小型咖啡馆来说，这不是单一成本上升，而是供应链各环节连续挤压。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>关税与通胀 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%85%B3%E7%A8%8E%E4%B8%8E%E9%80%9A%E8%83%80/</link>
+		<description>Recent content in 关税与通胀 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 14 Apr 2026 19:02:57 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%85%B3%E7%A8%8E%E4%B8%8E%E9%80%9A%E8%83%80/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡豆价格上涨叠加关税与通胀：美国咖啡馆经营压力，正在给中国市场敲响什么警钟？</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-guan-shui-yu/</link>
+				<pubDate>Tue, 14 Apr 2026 19:02:57 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-die-jia-guan-shui-yu/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;MassLive 报道指出，美国本地咖啡馆与烘焙商正同时承受&lt;strong&gt;咖啡豆价格上涨&lt;/strong&gt;、&lt;strong&gt;关税与通胀&lt;/strong&gt;、人工与租金走高的多重压力，利润空间被迅速压缩。对一家依赖进口生豆的小型咖啡馆来说，这不是单一成本上升，而是供应链各环节连续挤压。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

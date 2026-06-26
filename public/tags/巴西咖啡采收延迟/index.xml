@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>巴西咖啡采收延迟 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E9%87%87%E6%94%B6%E5%BB%B6%E8%BF%9F/</link>
-    <description>Recent content in 巴西咖啡采收延迟 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 12 Jun 2026 20:19:07 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E9%87%87%E6%94%B6%E5%BB%B6%E8%BF%9F/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡豆价格上涨背后：巴西咖啡采收延迟，如何冲击中国咖啡市场与门店定价</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-bei-hou-ba-xi-ka-pei/</link>
-      <pubDate>Fri, 12 Jun 2026 20:19:07 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-bei-hou-ba-xi-ka-pei/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;巴西咖啡采收进度低于市场预期，正在推动国际咖啡期货继续走高。作为全球最大阿拉比卡咖啡生产国和出口国，巴西任何关于天气、采收和物流的扰动，都会迅速传导到纽约ICE阿拉比卡期货，再影响全球烘焙商、贸易商和连锁咖啡品牌的采购成本。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>巴西咖啡采收延迟 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E9%87%87%E6%94%B6%E5%BB%B6%E8%BF%9F/</link>
+		<description>Recent content in 巴西咖啡采收延迟 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 12 Jun 2026 20:19:07 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E9%87%87%E6%94%B6%E5%BB%B6%E8%BF%9F/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡豆价格上涨背后：巴西咖啡采收延迟，如何冲击中国咖啡市场与门店定价</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-bei-hou-ba-xi-ka-pei/</link>
+				<pubDate>Fri, 12 Jun 2026 20:19:07 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-dou-jie-ge-shang-zhang-bei-hou-ba-xi-ka-pei/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;巴西咖啡采收进度低于市场预期，正在推动国际咖啡期货继续走高。作为全球最大阿拉比卡咖啡生产国和出口国，巴西任何关于天气、采收和物流的扰动，都会迅速传导到纽约ICE阿拉比卡期货，再影响全球烘焙商、贸易商和连锁咖啡品牌的采购成本。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

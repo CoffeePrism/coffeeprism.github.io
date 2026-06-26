@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡师 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%B8%88/</link>
-    <description>Recent content in 咖啡师 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%B8%88/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>可持续咖啡包装的发展：环保与品质的革新之路</title>
-      <link>https://www.coffeeprism.com/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/</link>
-      <pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;当你每天享用一杯精品咖啡时，是否想过手中的包装袋正在影响地球生态？&lt;strong&gt;可持续咖啡包装的发展&lt;/strong&gt;正以惊人的速度重塑咖啡行业——全球每年消耗的咖啡包装超过200亿件，其中70%传统复合塑料包装需要500年才能降解。在中国市场，2023年现磨咖啡消费量突破15万吨，但配套包装的环保转型却滞后于消费增长。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡师 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%B8%88/</link>
+		<description>Recent content in 咖啡师 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 07 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%B8%88/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>可持续咖啡包装的发展：环保与品质的革新之路</title>
+				<link>https://www.coffeeprism.com/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/</link>
+				<pubDate>Wed, 07 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;当你每天享用一杯精品咖啡时，是否想过手中的包装袋正在影响地球生态？&lt;strong&gt;可持续咖啡包装的发展&lt;/strong&gt;正以惊人的速度重塑咖啡行业——全球每年消耗的咖啡包装超过200亿件，其中70%传统复合塑料包装需要500年才能降解。在中国市场，2023年现磨咖啡消费量突破15万吨，但配套包装的环保转型却滞后于消费增长。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

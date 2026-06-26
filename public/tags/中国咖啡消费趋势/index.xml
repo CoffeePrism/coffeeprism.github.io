@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>中国咖啡消费趋势 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF/</link>
-    <description>Recent content in 中国咖啡消费趋势 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 04 May 2026 21:41:18 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Lavazza中国扩张与全球咖啡竞争加速：美国、中国双押注背后，国际品牌在争什么？</title>
-      <link>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-jing/</link>
-      <pubDate>Mon, 04 May 2026 21:41:18 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-jing/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;意大利咖啡巨头 Lavazza 首席执行官近日公开表示，将把美国和中国视为未来增长重点，以在全球咖啡竞争中追赶更大规模的行业玩家。这不是一次简单的市场表态，而是全球咖啡品牌在消费疲软、成本波动与渠道重构背景下，对“增量市场”展开的新一轮卡位。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>中国咖啡消费趋势 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF/</link>
+		<description>Recent content in 中国咖啡消费趋势 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 04 May 2026 21:41:18 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E4%B8%AD%E5%9B%BD%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Lavazza中国扩张与全球咖啡竞争加速：美国、中国双押注背后，国际品牌在争什么？</title>
+				<link>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-jing/</link>
+				<pubDate>Mon, 04 May 2026 21:41:18 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-jing/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;意大利咖啡巨头 Lavazza 首席执行官近日公开表示，将把美国和中国视为未来增长重点，以在全球咖啡竞争中追赶更大规模的行业玩家。这不是一次简单的市场表态，而是全球咖啡品牌在消费疲软、成本波动与渠道重构背景下，对“增量市场”展开的新一轮卡位。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

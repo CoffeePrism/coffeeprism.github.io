@@ -1,40 +1,45 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>意式浓缩 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E6%B5%93%E7%BC%A9/</link>
-    <description>Recent content in 意式浓缩 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E6%B5%93%E7%BC%A9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
-      <link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
-      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
-      <description>&lt;h1 id=&#34;意式浓缩-espresso-完全指南&#34;&gt;意式浓缩 Espresso 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;Espresso 不是一种冲煮方式——它是一类&lt;strong&gt;高压浓缩萃取&lt;/strong&gt;：约 &lt;strong&gt;9 bar&lt;/strong&gt; 压力把热水快速推过细研磨的咖啡粉床，约 &lt;strong&gt;25-30 秒&lt;/strong&gt;萃出 30ml 浓缩液。&lt;/p&gt;&#xA;&lt;p&gt;它是 &lt;strong&gt;拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵&lt;/strong&gt; 的基础。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>意式浓缩的完美萃取完全攻略与实战技巧</title>
-      <link>https://www.coffeeprism.com/posts/yi-shi-nong-suo-de-wan-mei-cui-qu-wan-quan-gong-lu/</link>
-      <pubDate>Mon, 13 Apr 2026 19:07:07 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/yi-shi-nong-suo-de-wan-mei-cui-qu-wan-quan-gong-lu/</guid>
-      <description>&lt;p&gt;早上9点，一杯看似正常的浓缩咖啡，入口却可能天差地别：有的甜感清晰、油脂细腻，有的却发酸、发苦、尾韵发空。很多人以为问题只在咖啡豆，其实&lt;strong&gt;意式浓缩的完美萃取&lt;/strong&gt;更像一场系统工程。想实现&lt;strong&gt;意式浓缩的完美萃取&lt;/strong&gt;，你需要同时控制研磨、粉量、分布、压粉、温度、压力与时间，而不是只盯着“25秒出液”这一条经验法则。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>意式浓缩的黄金法则：解锁完美萃取的七个维度</title>
-      <link>https://www.coffeeprism.com/posts/2025-09-10-181728-yi-shi-nong-suo-de-huang-jin-fa-ze-jie-suo-wan-mei-0d9b9ff4/</link>
-      <pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-09-10-181728-yi-shi-nong-suo-de-huang-jin-fa-ze-jie-suo-wan-mei-0d9b9ff4/</guid>
-      <description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;一当物理学遇上咖啡美学萃取的本质&#34;&gt;一、当物理学遇上咖啡美学：萃取的本质&lt;/h2&gt;&#xA;&lt;p&gt;在米兰街头的老咖啡馆里，师傅们总能用布满岁月痕迹的拉杆机萃取出琥珀色的灵魂液体。这种被称为&amp;quot;espresso&amp;quot;的黑色魔法，本质上是一场精密控制的溶解实验——用9bar水压在25-30秒间，从7-9克咖啡粉中萃取出18-21克浓缩液。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>解锁意式浓缩的灵魂：从参数控制到风味呈现的萃取艺术</title>
-      <link>https://www.coffeeprism.com/posts/2025-07-25-182050-jie-suo-yi-shi-nong-suo-de-ling-hun-cong-can-shu-k-2ca2323b/</link>
-      <pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-07-25-182050-jie-suo-yi-shi-nong-suo-de-ling-hun-cong-can-shu-k-2ca2323b/</guid>
-      <description>&lt;p&gt;清晨的阳光穿过咖啡馆的玻璃窗，在浓缩咖啡杯边缘折射出琥珀色光泽——这杯看似简单的30毫升液体，实则是咖啡师与咖啡豆跨越时空的对话。作为现代咖啡文化的基石，意式浓缩（Espresso）的完美萃取不仅是技术，更是一门需要感知力与科学思维并重的艺术。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>意式浓缩 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E6%B5%93%E7%BC%A9/</link>
+		<description>Recent content in 意式浓缩 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E6%B5%93%E7%BC%A9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
+				<link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
+				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
+				<description>&lt;h1 id=&#34;意式浓缩-espresso-完全指南&#34;&gt;意式浓缩 Espresso 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;Espresso 不是一种冲煮方式——它是一类&lt;strong&gt;高压浓缩萃取&lt;/strong&gt;：约 &lt;strong&gt;9 bar&lt;/strong&gt; 压力把热水快速推过细研磨的咖啡粉床，约 &lt;strong&gt;25-30 秒&lt;/strong&gt;萃出 30ml 浓缩液。&lt;/p&gt;&#xA;&lt;p&gt;它是 &lt;strong&gt;拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵&lt;/strong&gt; 的基础。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>意式浓缩的完美萃取完全攻略与实战技巧</title>
+				<link>https://www.coffeeprism.com/posts/yi-shi-nong-suo-de-wan-mei-cui-qu-wan-quan-gong-lu/</link>
+				<pubDate>Mon, 13 Apr 2026 19:07:07 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/yi-shi-nong-suo-de-wan-mei-cui-qu-wan-quan-gong-lu/</guid>
+				<description>&lt;p&gt;早上9点，一杯看似正常的浓缩咖啡，入口却可能天差地别：有的甜感清晰、油脂细腻，有的却发酸、发苦、尾韵发空。很多人以为问题只在咖啡豆，其实&lt;strong&gt;意式浓缩的完美萃取&lt;/strong&gt;更像一场系统工程。想实现&lt;strong&gt;意式浓缩的完美萃取&lt;/strong&gt;，你需要同时控制研磨、粉量、分布、压粉、温度、压力与时间，而不是只盯着“25秒出液”这一条经验法则。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>意式浓缩的黄金法则：解锁完美萃取的七个维度</title>
+				<link>https://www.coffeeprism.com/posts/2025-09-10-181728-yi-shi-nong-suo-de-huang-jin-fa-ze-jie-suo-wan-mei-0d9b9ff4/</link>
+				<pubDate>Wed, 10 Sep 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-09-10-181728-yi-shi-nong-suo-de-huang-jin-fa-ze-jie-suo-wan-mei-0d9b9ff4/</guid>
+				<description>&lt;hr&gt;&#xA;&lt;h2 id=&#34;一当物理学遇上咖啡美学萃取的本质&#34;&gt;一、当物理学遇上咖啡美学：萃取的本质&lt;/h2&gt;&#xA;&lt;p&gt;在米兰街头的老咖啡馆里，师傅们总能用布满岁月痕迹的拉杆机萃取出琥珀色的灵魂液体。这种被称为&amp;quot;espresso&amp;quot;的黑色魔法，本质上是一场精密控制的溶解实验——用9bar水压在25-30秒间，从7-9克咖啡粉中萃取出18-21克浓缩液。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>解锁意式浓缩的灵魂：从参数控制到风味呈现的萃取艺术</title>
+				<link>https://www.coffeeprism.com/posts/2025-07-25-182050-jie-suo-yi-shi-nong-suo-de-ling-hun-cong-can-shu-k-2ca2323b/</link>
+				<pubDate>Fri, 25 Jul 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-07-25-182050-jie-suo-yi-shi-nong-suo-de-ling-hun-cong-can-shu-k-2ca2323b/</guid>
+				<description>&lt;p&gt;清晨的阳光穿过咖啡馆的玻璃窗，在浓缩咖啡杯边缘折射出琥珀色光泽——这杯看似简单的30毫升液体，实则是咖啡师与咖啡豆跨越时空的对话。作为现代咖啡文化的基石，意式浓缩（Espresso）的完美萃取不仅是技术，更是一门需要感知力与科学思维并重的艺术。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

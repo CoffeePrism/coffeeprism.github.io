@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>食品通胀 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E9%A3%9F%E5%93%81%E9%80%9A%E8%83%80/</link>
-    <description>Recent content in 食品通胀 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Thu, 07 May 2026 19:50:33 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E9%A3%9F%E5%93%81%E9%80%9A%E8%83%80/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡涨价为何领跑食品通胀：从巴西咖啡产量到连锁定价，谁在承受这杯更贵的咖啡</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-wei-he-ling-pao-shi-pin-tong-zhan/</link>
-      <pubDate>Thu, 07 May 2026 19:50:33 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-wei-he-ling-pao-shi-pin-tong-zhan/</guid>
-      <description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国媒体近日将&lt;strong&gt;咖啡涨价&lt;/strong&gt;列为食品价格上涨最显著的品类之一，这不是一次普通的零售波动，而是全球咖啡供应链压力在终端价格上的集中体现。对消费者而言，一杯咖啡变贵；对行业而言，这意味着从期货、现货、烘焙到连锁零售，整个链条都在重新定价。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>食品通胀 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E9%A3%9F%E5%93%81%E9%80%9A%E8%83%80/</link>
+		<description>Recent content in 食品通胀 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Thu, 07 May 2026 19:50:33 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E9%A3%9F%E5%93%81%E9%80%9A%E8%83%80/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡涨价为何领跑食品通胀：从巴西咖啡产量到连锁定价，谁在承受这杯更贵的咖啡</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-wei-he-ling-pao-shi-pin-tong-zhan/</link>
+				<pubDate>Thu, 07 May 2026 19:50:33 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-zhang-jie-wei-he-ling-pao-shi-pin-tong-zhan/</guid>
+				<description>&lt;blockquote&gt;&#xA;&lt;p&gt;📰 想看更多咖啡行业热点分析？看 &lt;a href=&#34;https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/&#34;&gt;咖啡热点分析&lt;/a&gt; — 我们追踪的所有行业新闻和深度解读。&lt;/p&gt;&#xA;&lt;/blockquote&gt;&#xA;&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国媒体近日将&lt;strong&gt;咖啡涨价&lt;/strong&gt;列为食品价格上涨最显著的品类之一，这不是一次普通的零售波动，而是全球咖啡供应链压力在终端价格上的集中体现。对消费者而言，一杯咖啡变贵；对行业而言，这意味着从期货、现货、烘焙到连锁零售，整个链条都在重新定价。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

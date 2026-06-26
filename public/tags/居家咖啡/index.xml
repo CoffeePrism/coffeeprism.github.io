@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>居家咖啡 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%B1%85%E5%AE%B6%E5%92%96%E5%95%A1/</link>
-    <description>Recent content in 居家咖啡 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Wed, 15 Apr 2026 19:05:11 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%B1%85%E5%AE%B6%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>居家咖啡正在改写全球消费版图：从咖啡涨价到消费场景迁移，美国信号对中国市场意味着什么</title>
-      <link>https://www.coffeeprism.com/posts/ju-jia-ka-pei-zheng-zai-gai-xie-quan-qiu-xiao-fei/</link>
-      <pubDate>Wed, 15 Apr 2026 19:05:11 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ju-jia-ka-pei-zheng-zai-gai-xie-quan-qiu-xiao-fei/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;路透社最新报道指出，美国&lt;strong&gt;居家咖啡&lt;/strong&gt;消费升至14年来最高水平，背后核心驱动并不复杂：一是远程办公常态化，二是&lt;strong&gt;咖啡涨价&lt;/strong&gt;压力下，消费者主动把饮用场景从门店转回家庭。换句话说，咖啡不再只是“路上买一杯”的即时消费，而正在重新变成“家中日常补给”。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>居家咖啡 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%B1%85%E5%AE%B6%E5%92%96%E5%95%A1/</link>
+		<description>Recent content in 居家咖啡 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Wed, 15 Apr 2026 19:05:11 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%B1%85%E5%AE%B6%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>居家咖啡正在改写全球消费版图：从咖啡涨价到消费场景迁移，美国信号对中国市场意味着什么</title>
+				<link>https://www.coffeeprism.com/posts/ju-jia-ka-pei-zheng-zai-gai-xie-quan-qiu-xiao-fei/</link>
+				<pubDate>Wed, 15 Apr 2026 19:05:11 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ju-jia-ka-pei-zheng-zai-gai-xie-quan-qiu-xiao-fei/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;路透社最新报道指出，美国&lt;strong&gt;居家咖啡&lt;/strong&gt;消费升至14年来最高水平，背后核心驱动并不复杂：一是远程办公常态化，二是&lt;strong&gt;咖啡涨价&lt;/strong&gt;压力下，消费者主动把饮用场景从门店转回家庭。换句话说，咖啡不再只是“路上买一杯”的即时消费，而正在重新变成“家中日常补给”。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

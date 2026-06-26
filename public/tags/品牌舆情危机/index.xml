@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>品牌舆情危机 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%93%81%E7%89%8C%E8%88%86%E6%83%85%E5%8D%B1%E6%9C%BA/</link>
-    <description>Recent content in 品牌舆情危机 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 10 Apr 2026 18:42:46 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%93%81%E7%89%8C%E8%88%86%E6%83%85%E5%8D%B1%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场</title>
-      <link>https://www.coffeeprism.com/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/</link>
-      <pubDate>Fri, 10 Apr 2026 18:42:46 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国加州精品连锁 &lt;strong&gt;Philz Coffee&lt;/strong&gt; 近期因“承诺移除门店 Pride flags（骄傲旗）”而陷入舆论反弹，事件迅速从一次门店标识争议，升级为关于&lt;strong&gt;品牌价值观、顾客身份认同与零售空间治理&lt;/strong&gt;的公共讨论。根据《The Guardian》报道，这场风波之所以重要，不只是因为 Philz 身处加州这一高敏感市场，更因为它暴露出连锁咖啡品牌在“表达立场”与“维持中立”之间，已经很难再拥有低成本选项。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>品牌舆情危机 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%93%81%E7%89%8C%E8%88%86%E6%83%85%E5%8D%B1%E6%9C%BA/</link>
+		<description>Recent content in 品牌舆情危机 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 10 Apr 2026 18:42:46 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%93%81%E7%89%8C%E8%88%86%E6%83%85%E5%8D%B1%E6%9C%BA/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场</title>
+				<link>https://www.coffeeprism.com/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/</link>
+				<pubDate>Fri, 10 Apr 2026 18:42:46 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国加州精品连锁 &lt;strong&gt;Philz Coffee&lt;/strong&gt; 近期因“承诺移除门店 Pride flags（骄傲旗）”而陷入舆论反弹，事件迅速从一次门店标识争议，升级为关于&lt;strong&gt;品牌价值观、顾客身份认同与零售空间治理&lt;/strong&gt;的公共讨论。根据《The Guardian》报道，这场风波之所以重要，不只是因为 Philz 身处加州这一高敏感市场，更因为它暴露出连锁咖啡品牌在“表达立场”与“维持中立”之间，已经很难再拥有低成本选项。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

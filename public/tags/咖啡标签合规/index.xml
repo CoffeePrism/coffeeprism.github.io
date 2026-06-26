@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡标签合规 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%A0%87%E7%AD%BE%E5%90%88%E8%A7%84/</link>
-    <description>Recent content in 咖啡标签合规 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 27 Apr 2026 22:52:31 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%A0%87%E7%AD%BE%E5%90%88%E8%A7%84/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任</title>
-      <link>https://www.coffeeprism.com/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/</link>
-      <pubDate>Mon, 27 Apr 2026 22:52:31 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国零售商 Trader Joe’s 因咖啡产品的&lt;strong&gt;咖啡因标识&lt;/strong&gt;与信息透明问题，遭4名消费者提起诉讼。这起事件表面上是一次标签争议，实质上却击中了当下食品零售最敏感的三条线：&lt;strong&gt;咖啡标签合规、消费者知情权、以及自有品牌的信任成本&lt;/strong&gt;。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡标签合规 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%A0%87%E7%AD%BE%E5%90%88%E8%A7%84/</link>
+		<description>Recent content in 咖啡标签合规 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 27 Apr 2026 22:52:31 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%A0%87%E7%AD%BE%E5%90%88%E8%A7%84/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任</title>
+				<link>https://www.coffeeprism.com/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/</link>
+				<pubDate>Mon, 27 Apr 2026 22:52:31 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;美国零售商 Trader Joe’s 因咖啡产品的&lt;strong&gt;咖啡因标识&lt;/strong&gt;与信息透明问题，遭4名消费者提起诉讼。这起事件表面上是一次标签争议，实质上却击中了当下食品零售最敏感的三条线：&lt;strong&gt;咖啡标签合规、消费者知情权、以及自有品牌的信任成本&lt;/strong&gt;。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

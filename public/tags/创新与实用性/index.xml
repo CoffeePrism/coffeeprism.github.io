@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>创新与实用性 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%88%9B%E6%96%B0%E4%B8%8E%E5%AE%9E%E7%94%A8%E6%80%A7/</link>
-    <description>Recent content in 创新与实用性 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%88%9B%E6%96%B0%E4%B8%8E%E5%AE%9E%E7%94%A8%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>便携咖啡设备的创新与实用性：咖啡爱好者的移动生活革命</title>
-      <link>https://www.coffeeprism.com/posts/2026-01-23-182930-bian-xi-ka-pei-she-bei-de-chuang-xin-yu-shi-yong-x-e209e389/</link>
-      <pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2026-01-23-182930-bian-xi-ka-pei-she-bei-de-chuang-xin-yu-shi-yong-x-e209e389/</guid>
-      <description>&lt;p&gt;当你在海拔4500米的青藏高原营地拉开帐篷时，是否渴望一杯现磨手冲咖啡？或是通勤路上被早高峰困在地铁站时，想要即刻获得媲美咖啡馆的浓缩咖啡？这正是&lt;strong&gt;便携咖啡设备的创新与实用性&lt;/strong&gt;正在颠覆的场景。这个价值32亿美元的市场（Statista 2023数据），正以每年15%的增速重塑全球咖啡文化，中国消费者贡献了其中27%的增长动能。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>创新与实用性 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%88%9B%E6%96%B0%E4%B8%8E%E5%AE%9E%E7%94%A8%E6%80%A7/</link>
+		<description>Recent content in 创新与实用性 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 23 Jan 2026 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%88%9B%E6%96%B0%E4%B8%8E%E5%AE%9E%E7%94%A8%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>便携咖啡设备的创新与实用性：咖啡爱好者的移动生活革命</title>
+				<link>https://www.coffeeprism.com/posts/2026-01-23-182930-bian-xi-ka-pei-she-bei-de-chuang-xin-yu-shi-yong-x-e209e389/</link>
+				<pubDate>Fri, 23 Jan 2026 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2026-01-23-182930-bian-xi-ka-pei-she-bei-de-chuang-xin-yu-shi-yong-x-e209e389/</guid>
+				<description>&lt;p&gt;当你在海拔4500米的青藏高原营地拉开帐篷时，是否渴望一杯现磨手冲咖啡？或是通勤路上被早高峰困在地铁站时，想要即刻获得媲美咖啡馆的浓缩咖啡？这正是&lt;strong&gt;便携咖啡设备的创新与实用性&lt;/strong&gt;正在颠覆的场景。这个价值32亿美元的市场（Statista 2023数据），正以每年15%的增速重塑全球咖啡文化，中国消费者贡献了其中27%的增长动能。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

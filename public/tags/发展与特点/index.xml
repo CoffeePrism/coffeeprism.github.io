@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>发展与特点 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%8F%91%E5%B1%95%E4%B8%8E%E7%89%B9%E7%82%B9/</link>
-    <description>Recent content in 发展与特点 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%8F%91%E5%B1%95%E4%B8%8E%E7%89%B9%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>云南小粒咖啡的发展与特点：从产地到杯中的完整指南</title>
-      <link>https://www.coffeeprism.com/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/</link>
-      <pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/</guid>
-      <description>&lt;p&gt;当您端起一杯咖啡时，是否想过这片东方土地也能孕育出世界级品质的咖啡豆？在云南海拔1500米的红土高原上，正悄然上演着一场咖啡产业的品质革命。&lt;strong&gt;云南小粒咖啡的发展与特点&lt;/strong&gt;不仅是中国咖啡产业崛起的缩影，更承载着从种植园到消费者杯中的完整价值链条。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>发展与特点 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%8F%91%E5%B1%95%E4%B8%8E%E7%89%B9%E7%82%B9/</link>
+		<description>Recent content in 发展与特点 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 21 Nov 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%8F%91%E5%B1%95%E4%B8%8E%E7%89%B9%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>云南小粒咖啡的发展与特点：从产地到杯中的完整指南</title>
+				<link>https://www.coffeeprism.com/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/</link>
+				<pubDate>Fri, 21 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/</guid>
+				<description>&lt;p&gt;当您端起一杯咖啡时，是否想过这片东方土地也能孕育出世界级品质的咖啡豆？在云南海拔1500米的红土高原上，正悄然上演着一场咖啡产业的品质革命。&lt;strong&gt;云南小粒咖啡的发展与特点&lt;/strong&gt;不仅是中国咖啡产业崛起的缩影，更承载着从种植园到消费者杯中的完整价值链条。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

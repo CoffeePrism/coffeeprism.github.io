@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>多样性 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%A4%9A%E6%A0%B7%E6%80%A7/</link>
-    <description>Recent content in 多样性 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 07 Apr 2026 18:55:25 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%A4%9A%E6%A0%B7%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>埃塞俄比亚咖啡豆的多样性深度解析指南</title>
-      <link>https://www.coffeeprism.com/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/</link>
-      <pubDate>Tue, 07 Apr 2026 18:55:25 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/</guid>
-      <description>&lt;p&gt;清晨打开一包埃塞俄比亚咖啡，干香里可能是茉莉、佛手柑和白桃；同样来自埃塞俄比亚的另一包豆子，杯中却可能是蓝莓、热带水果和可可。&lt;strong&gt;埃塞俄比亚咖啡豆的多样性&lt;/strong&gt;，正是全球精品咖啡最迷人的来源之一。谈到&lt;strong&gt;埃塞俄比亚咖啡豆的多样性&lt;/strong&gt;，很多人会先想到耶加雪菲和西达摩，但真正的丰富性，远不止产区名这么简单。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>多样性 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%A4%9A%E6%A0%B7%E6%80%A7/</link>
+		<description>Recent content in 多样性 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 07 Apr 2026 18:55:25 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%A4%9A%E6%A0%B7%E6%80%A7/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>埃塞俄比亚咖啡豆的多样性深度解析指南</title>
+				<link>https://www.coffeeprism.com/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/</link>
+				<pubDate>Tue, 07 Apr 2026 18:55:25 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/</guid>
+				<description>&lt;p&gt;清晨打开一包埃塞俄比亚咖啡，干香里可能是茉莉、佛手柑和白桃；同样来自埃塞俄比亚的另一包豆子，杯中却可能是蓝莓、热带水果和可可。&lt;strong&gt;埃塞俄比亚咖啡豆的多样性&lt;/strong&gt;，正是全球精品咖啡最迷人的来源之一。谈到&lt;strong&gt;埃塞俄比亚咖啡豆的多样性&lt;/strong&gt;，很多人会先想到耶加雪菲和西达摩，但真正的丰富性，远不止产区名这么简单。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

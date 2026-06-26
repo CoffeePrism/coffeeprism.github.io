@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡豆价格下跌 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86%E4%BB%B7%E6%A0%BC%E4%B8%8B%E8%B7%8C/</link>
-    <description>Recent content in 咖啡豆价格下跌 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Tue, 21 Apr 2026 07:24:09 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86%E4%BB%B7%E6%A0%BC%E4%B8%8B%E8%B7%8C/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>巴西咖啡丰收引发咖啡豆价格下跌：中国咖啡供应链会迎来真正的降本窗口吗？</title>
-      <link>https://www.coffeeprism.com/posts/ba-xi-ka-pei-feng-shou-yin-fa-ka-pei-dou-jie-ge-xi/</link>
-      <pubDate>Tue, 21 Apr 2026 07:24:09 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/ba-xi-ka-pei-feng-shou-yin-fa-ka-pei-dou-jie-ge-xi/</guid>
-      <description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;巴西新产季咖啡迎来创纪录丰收，直接压低了全球咖啡市场的价格预期，也让“&lt;strong&gt;咖啡豆价格下跌&lt;/strong&gt;”再次成为产业链最敏感的关键词。作为全球最大的咖啡生产国和出口国，巴西的产量变化从来不是单一农业新闻，而是会迅速传导到纽约ICE阿拉比卡期货、国际贸易报价、烘焙厂采购成本，最终影响中国连锁咖啡品牌与消费者手中的一杯咖啡。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡豆价格下跌 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86%E4%BB%B7%E6%A0%BC%E4%B8%8B%E8%B7%8C/</link>
+		<description>Recent content in 咖啡豆价格下跌 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Tue, 21 Apr 2026 07:24:09 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86%E4%BB%B7%E6%A0%BC%E4%B8%8B%E8%B7%8C/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>巴西咖啡丰收引发咖啡豆价格下跌：中国咖啡供应链会迎来真正的降本窗口吗？</title>
+				<link>https://www.coffeeprism.com/posts/ba-xi-ka-pei-feng-shou-yin-fa-ka-pei-dou-jie-ge-xi/</link>
+				<pubDate>Tue, 21 Apr 2026 07:24:09 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/ba-xi-ka-pei-feng-shou-yin-fa-ka-pei-dou-jie-ge-xi/</guid>
+				<description>&lt;h2 id=&#34;开篇速报&#34;&gt;开篇速报&lt;/h2&gt;&#xA;&lt;p&gt;巴西新产季咖啡迎来创纪录丰收，直接压低了全球咖啡市场的价格预期，也让“&lt;strong&gt;咖啡豆价格下跌&lt;/strong&gt;”再次成为产业链最敏感的关键词。作为全球最大的咖啡生产国和出口国，巴西的产量变化从来不是单一农业新闻，而是会迅速传导到纽约ICE阿拉比卡期货、国际贸易报价、烘焙厂采购成本，最终影响中国连锁咖啡品牌与消费者手中的一杯咖啡。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

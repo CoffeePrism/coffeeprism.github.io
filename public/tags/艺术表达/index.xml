@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>艺术表达 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E8%89%BA%E6%9C%AF%E8%A1%A8%E8%BE%BE/</link>
-    <description>Recent content in 艺术表达 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E8%89%BA%E6%9C%AF%E8%A1%A8%E8%BE%BE/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>拉花技巧与艺术表达：从基础到大师的创作指南</title>
-      <link>https://www.coffeeprism.com/posts/2025-11-28-181831-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-e5081b5e/</link>
-      <pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-11-28-181831-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-e5081b5e/</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;当咖啡师手腕轻转，在绵密奶泡上勾勒出天鹅绒般的纹路时，你是否好奇这杯中的艺术是如何诞生的？&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;不仅是咖啡师的必修课，更是咖啡文化中最具视觉冲击力的创作形式。数据显示，85%的消费者更愿意为带有精致拉花的咖啡多支付20%的费用，这背后折射出&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;对消费体验的深层影响。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>拉花技巧与艺术表达：从入门到精通的视觉盛宴</title>
-      <link>https://www.coffeeprism.com/posts/2025-11-22-181816-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ru-men-dao-j-01cae249/</link>
-      <pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-11-22-181816-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ru-men-dao-j-01cae249/</guid>
-      <description>&lt;p&gt;当咖啡师手腕轻转，奶泡在浓缩咖啡表面绘出天鹅绒般的图案时，你是否好奇这杯中的魔法如何诞生？&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;不仅是咖啡师的职业技能认证，更是连接咖啡文化与现代美学的桥梁。本文将系统解析&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;的底层逻辑，从历史渊源到实操细节，助你跨越「眼睛会了手不会」的实践鸿沟。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>拉花技巧与艺术表达：从基础到大师的视觉盛宴</title>
-      <link>https://www.coffeeprism.com/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/</link>
-      <pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/</guid>
-      <description>&lt;p&gt;当你凝视咖啡师手腕轻转间诞生的天鹅轮廓时，是否想过这些令人屏息的&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;背后藏着怎样的秘密？在当代中国咖啡市场年增长率达17%的背景下（数据来源：中国咖啡行业协会2023报告），这门视觉与味觉交融的技艺正成为咖啡文化的重要载体。本文将带你穿透奶泡与浓缩咖啡的物理反应表象，系统掌握从基础心形到动态构图的完整知识体系。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>艺术表达 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E8%89%BA%E6%9C%AF%E8%A1%A8%E8%BE%BE/</link>
+		<description>Recent content in 艺术表达 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Fri, 28 Nov 2025 00:00:00 +0000</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E8%89%BA%E6%9C%AF%E8%A1%A8%E8%BE%BE/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>拉花技巧与艺术表达：从基础到大师的创作指南</title>
+				<link>https://www.coffeeprism.com/posts/2025-11-28-181831-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-e5081b5e/</link>
+				<pubDate>Fri, 28 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-11-28-181831-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-e5081b5e/</guid>
+				<description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;当咖啡师手腕轻转，在绵密奶泡上勾勒出天鹅绒般的纹路时，你是否好奇这杯中的艺术是如何诞生的？&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;不仅是咖啡师的必修课，更是咖啡文化中最具视觉冲击力的创作形式。数据显示，85%的消费者更愿意为带有精致拉花的咖啡多支付20%的费用，这背后折射出&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;对消费体验的深层影响。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>拉花技巧与艺术表达：从入门到精通的视觉盛宴</title>
+				<link>https://www.coffeeprism.com/posts/2025-11-22-181816-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ru-men-dao-j-01cae249/</link>
+				<pubDate>Sat, 22 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-11-22-181816-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ru-men-dao-j-01cae249/</guid>
+				<description>&lt;p&gt;当咖啡师手腕轻转，奶泡在浓缩咖啡表面绘出天鹅绒般的图案时，你是否好奇这杯中的魔法如何诞生？&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;不仅是咖啡师的职业技能认证，更是连接咖啡文化与现代美学的桥梁。本文将系统解析&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;的底层逻辑，从历史渊源到实操细节，助你跨越「眼睛会了手不会」的实践鸿沟。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>拉花技巧与艺术表达：从基础到大师的视觉盛宴</title>
+				<link>https://www.coffeeprism.com/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/</link>
+				<pubDate>Wed, 22 Oct 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/</guid>
+				<description>&lt;p&gt;当你凝视咖啡师手腕轻转间诞生的天鹅轮廓时，是否想过这些令人屏息的&lt;strong&gt;拉花技巧与艺术表达&lt;/strong&gt;背后藏着怎样的秘密？在当代中国咖啡市场年增长率达17%的背景下（数据来源：中国咖啡行业协会2023报告），这门视觉与味觉交融的技艺正成为咖啡文化的重要载体。本文将带你穿透奶泡与浓缩咖啡的物理反应表象，系统掌握从基础心形到动态构图的完整知识体系。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

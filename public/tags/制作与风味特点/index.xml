@@ -1,33 +1,38 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>制作与风味特点 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%88%B6%E4%BD%9C%E4%B8%8E%E9%A3%8E%E5%91%B3%E7%89%B9%E7%82%B9/</link>
-    <description>Recent content in 制作与风味特点 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Sat, 11 Apr 2026 18:36:01 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%88%B6%E4%BD%9C%E4%B8%8E%E9%A3%8E%E5%91%B3%E7%89%B9%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>冷萃咖啡的制作与风味特点完全攻略</title>
-      <link>https://www.coffeeprism.com/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/</link>
-      <pubDate>Sat, 11 Apr 2026 18:36:01 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/</guid>
-      <description>&lt;p&gt;夏天的下午，很多人会在便利店冰柜、瑞幸外卖页或自家冰箱里遇到同一个选择：要不要来一杯冷萃。冷萃咖啡的制作与风味特点，决定了它为什么能在高温季节持续走红；冷萃咖啡的制作与风味特点，也决定了它并不只是“放凉的咖啡”那么简单。和冰美式相比，冷萃往往更柔和、酸感更低、苦感更圆润，但要做得干净、甜感高、层次清晰，其实很考验豆子、研磨、粉水比和萃取时间的平衡。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>冷萃咖啡的制作与风味特点：从入门到精通的完整指南</title>
-      <link>https://www.coffeeprism.com/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/</link>
-      <pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/</guid>
-      <description>&lt;p&gt;「为什么星巴克的冷萃咖啡能卖到38元一杯？」「在家复刻精品咖啡馆的冷萃风味真的可能吗？」当冷萃咖啡的制作与风味特点成为咖啡爱好者热议话题时，掌握这门技艺已不仅是专业咖啡师的专利。本文将用3000字深度解析冷萃咖啡的制作与风味特点，带你从基础认知直达进阶技巧，解锁咖啡世界的清凉密码。&lt;/p&gt;</description>
-    </item>
-    <item>
-      <title>冷萃咖啡的制作与风味特点：从入门到精通的实用指南</title>
-      <link>https://www.coffeeprism.com/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/</link>
-      <pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
-      <guid>https://www.coffeeprism.com/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/</guid>
-      <description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;你是否经历过这样的困惑：为什么冷萃咖啡能同时保留浓郁风味却毫无苦涩？为何专业咖啡馆的冷萃制作总比家庭版多一分醇厚？作为近年中国咖啡市场增长最快的品类，&lt;strong&gt;冷萃咖啡的制作与风味特点&lt;/strong&gt;正成为咖啡爱好者热议的话题。本文将系统解析冷萃咖啡的制作工艺与风味形成原理，从历史溯源到现代技法，从基础操作到进阶要领，带您解锁这杯「时间魔法」的全部奥秘。&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>制作与风味特点 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%88%B6%E4%BD%9C%E4%B8%8E%E9%A3%8E%E5%91%B3%E7%89%B9%E7%82%B9/</link>
+		<description>Recent content in 制作与风味特点 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Sat, 11 Apr 2026 18:36:01 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%88%B6%E4%BD%9C%E4%B8%8E%E9%A3%8E%E5%91%B3%E7%89%B9%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>冷萃咖啡的制作与风味特点完全攻略</title>
+				<link>https://www.coffeeprism.com/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/</link>
+				<pubDate>Sat, 11 Apr 2026 18:36:01 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-wan/</guid>
+				<description>&lt;p&gt;夏天的下午，很多人会在便利店冰柜、瑞幸外卖页或自家冰箱里遇到同一个选择：要不要来一杯冷萃。冷萃咖啡的制作与风味特点，决定了它为什么能在高温季节持续走红；冷萃咖啡的制作与风味特点，也决定了它并不只是“放凉的咖啡”那么简单。和冰美式相比，冷萃往往更柔和、酸感更低、苦感更圆润，但要做得干净、甜感高、层次清晰，其实很考验豆子、研磨、粉水比和萃取时间的平衡。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>冷萃咖啡的制作与风味特点：从入门到精通的完整指南</title>
+				<link>https://www.coffeeprism.com/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/</link>
+				<pubDate>Sun, 30 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-11-30-181801-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-2b6c37c1/</guid>
+				<description>&lt;p&gt;「为什么星巴克的冷萃咖啡能卖到38元一杯？」「在家复刻精品咖啡馆的冷萃风味真的可能吗？」当冷萃咖啡的制作与风味特点成为咖啡爱好者热议话题时，掌握这门技艺已不仅是专业咖啡师的专利。本文将用3000字深度解析冷萃咖啡的制作与风味特点，带你从基础认知直达进阶技巧，解锁咖啡世界的清凉密码。&lt;/p&gt;</description>
+			</item>
+			<item>
+				<title>冷萃咖啡的制作与风味特点：从入门到精通的实用指南</title>
+				<link>https://www.coffeeprism.com/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/</link>
+				<pubDate>Wed, 19 Nov 2025 00:00:00 +0000</pubDate>
+				<guid>https://www.coffeeprism.com/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/</guid>
+				<description>&lt;h2 id=&#34;引言&#34;&gt;引言&lt;/h2&gt;&#xA;&lt;p&gt;你是否经历过这样的困惑：为什么冷萃咖啡能同时保留浓郁风味却毫无苦涩？为何专业咖啡馆的冷萃制作总比家庭版多一分醇厚？作为近年中国咖啡市场增长最快的品类，&lt;strong&gt;冷萃咖啡的制作与风味特点&lt;/strong&gt;正成为咖啡爱好者热议的话题。本文将系统解析冷萃咖啡的制作工艺与风味形成原理，从历史溯源到现代技法，从基础操作到进阶要领，带您解锁这杯「时间魔法」的全部奥秘。&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>

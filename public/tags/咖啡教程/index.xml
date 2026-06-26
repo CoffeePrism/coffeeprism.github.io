@@ -1,19 +1,24 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-  <channel>
-    <title>咖啡教程 on Coffee Prism</title>
-    <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%95%99%E7%A8%8B/</link>
-    <description>Recent content in 咖啡教程 on Coffee Prism</description>
-    <generator>Hugo</generator>
-    <language>zh-cn</language>
-    <lastBuildDate>Mon, 20 Apr 2026 10:00:00 +0800</lastBuildDate>
-    <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
-    <item>
-      <title>为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人</title>
-      <link>https://www.coffeeprism.com/posts/complete-guide-launch/</link>
-      <pubDate>Mon, 20 Apr 2026 10:00:00 +0800</pubDate>
-      <guid>https://www.coffeeprism.com/posts/complete-guide-launch/</guid>
-      <description>&lt;h2 id=&#34;一个尴尬的观察&#34;&gt;一个尴尬的观察&lt;/h2&gt;&#xA;&lt;p&gt;过去三年，我们在 Coffee Prism 发布了 500 多篇咖啡文章。每周后台都会收到这样的问题：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;你们的文章我都看过了，但我还是冲不出稳定的咖啡。有没有一个地方能系统地讲清楚？&amp;rdquo;&lt;/p&gt;</description>
-    </item>
-  </channel>
+	<channel>
+		<title>咖啡教程 on Coffee Prism</title>
+		<link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%95%99%E7%A8%8B/</link>
+		<description>Recent content in 咖啡教程 on Coffee Prism</description>
+		<generator>Hugo</generator>
+		<language>zh-cn</language>
+		
+		
+		
+		
+			<lastBuildDate>Mon, 20 Apr 2026 10:00:00 +0800</lastBuildDate>
+		
+			<atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%95%99%E7%A8%8B/index.xml" rel="self" type="application/rss+xml" />
+			<item>
+				<title>为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人</title>
+				<link>https://www.coffeeprism.com/posts/complete-guide-launch/</link>
+				<pubDate>Mon, 20 Apr 2026 10:00:00 +0800</pubDate>
+				<guid>https://www.coffeeprism.com/posts/complete-guide-launch/</guid>
+				<description>&lt;h2 id=&#34;一个尴尬的观察&#34;&gt;一个尴尬的观察&lt;/h2&gt;&#xA;&lt;p&gt;过去三年，我们在 Coffee Prism 发布了 500 多篇咖啡文章。每周后台都会收到这样的问题：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;你们的文章我都看过了，但我还是冲不出稳定的咖啡。有没有一个地方能系统地讲清楚？&amp;rdquo;&lt;/p&gt;</description>
+			</item>
+	</channel>
 </rss>
