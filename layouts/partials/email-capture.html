@@ -1,0 +1,162 @@
+{{/*
+  Email capture box — inline in articles, between content and CTA.
+  Uses ConvertKit API directly (no external JS SDK → no LCP hit).
+  Appears on post pages only. Dismissible via localStorage.
+*/}}
+{{- if .IsPage }}
+{{- $ckKey := site.Params.convertKitApiKey | default "" -}}
+{{- $ckTag := site.Params.convertKitTagId | default "" -}}
+{{- if and $ckKey $ckTag }}
+<aside class="email-capture" id="email-capture" role="complementary" aria-label="邮件订阅">
+  <div class="ec-inner">
+    <div class="ec-icon">📧</div>
+    <div class="ec-text">
+      <h3 class="ec-title">每周咖啡知识 · 免费订阅</h3>
+      <p class="ec-desc">加入 Coffee Prism 邮件列表，每周收到 1 篇精选咖啡冲煮技巧 + 器具折扣信息。不垃圾，随时退订。</p>
+    </div>
+  </div>
+  <form class="ec-form" id="ec-form" onsubmit="return ecSubmit(event)">
+    <input type="email" name="email" class="ec-input" placeholder="你的邮箱地址" required autocomplete="email" aria-label="邮箱">
+    <button type="submit" class="ec-btn" id="ec-btn">免费订阅</button>
+  </form>
+  <p class="ec-status" id="ec-status" style="display:none"></p>
+  <p class="ec-privacy">我们尊重你的隐私，不会分享你的邮箱。随时一键退订。</p>
+</aside>
+
+<style>
+.email-capture{
+  margin:2.5rem 0;
+  padding:1.75rem 2rem;
+  background:linear-gradient(135deg,#faf7f2 0%,#f0e8dc 100%);
+  border:2px solid #d4a574;
+  border-radius:16px;
+  position:relative;
+}
+.ec-inner{
+  display:flex;
+  gap:1rem;
+  align-items:flex-start;
+  margin-bottom:1.25rem;
+}
+.ec-icon{font-size:2rem;flex-shrink:0;line-height:1}
+.ec-title{
+  color:#3d2817;
+  font-size:1.15rem;
+  font-weight:700;
+  margin:0 0 0.4rem;
+}
+.ec-desc{
+  color:#6b4423;
+  font-size:0.92rem;
+  margin:0;
+  line-height:1.6;
+}
+.ec-form{
+  display:flex;
+  gap:0.75rem;
+  flex-wrap:wrap;
+}
+.ec-input{
+  flex:1;
+  min-width:200px;
+  padding:0.75rem 1rem;
+  border:1px solid #d4a574;
+  border-radius:10px;
+  font-size:0.95rem;
+  background:#fff;
+  color:#2d1b0e;
+  outline:none;
+  transition:border-color 0.2s;
+}
+.ec-input:focus{border-color:#b5651d;box-shadow:0 0 0 3px rgba(181,101,29,0.12)}
+.ec-input::placeholder{color:#b5a88a}
+.ec-btn{
+  padding:0.75rem 1.75rem;
+  background:linear-gradient(135deg,#6b4423,#3d2817);
+  color:#f4c430;
+  border:none;
+  border-radius:10px;
+  font-size:0.95rem;
+  font-weight:700;
+  cursor:pointer;
+  transition:transform 0.15s,box-shadow 0.2s;
+  white-space:nowrap;
+}
+.ec-btn:hover{
+  transform:translateY(-1px);
+  box-shadow:0 4px 12px rgba(61,40,23,0.3);
+}
+.ec-btn:disabled{opacity:0.6;cursor:not-allowed;transform:none}
+.ec-status{
+  margin:0.75rem 0 0;
+  padding:0.6rem 1rem;
+  border-radius:8px;
+  font-size:0.9rem;
+  line-height:1.5;
+}
+.ec-status.success{background:#e8f5e9;color:#2e7d32;border:1px solid #a5d6a7}
+.ec-status.error{background:#fce4ec;color:#c62828;border:1px solid #ef9a9a}
+.ec-privacy{
+  color:#8b6f47;
+  font-size:0.78rem;
+  margin:0.75rem 0 0;
+}
+@media(max-width:640px){
+  .email-capture{padding:1.25rem}
+  .ec-inner{flex-direction:column;gap:0.5rem}
+  .ec-form{flex-direction:column}
+  .ec-input,.ec-btn{width:100%}
+}
+</style>
+
+<script>
+function ecSubmit(e){
+  e.preventDefault();
+  var form=document.getElementById('ec-form');
+  var btn=document.getElementById('ec-btn');
+  var status=document.getElementById('ec-status');
+  var email=form.email.value.trim();
+  if(!email)return false;
+
+  btn.disabled=true;
+  btn.textContent='提交中...';
+  status.style.display='none';
+
+  fetch('https://api.convertkit.com/v3/tags/{{ $ckTag }}/subscribe',{
+    method:'POST',
+    headers:{'Content-Type':'application/json'},
+    body:JSON.stringify({api_key:'{{ $ckKey }}',email:email})
+  })
+  .then(function(r){return r.json()})
+  .then(function(d){
+    if(d.subscription){
+      status.className='ec-status success';
+      status.textContent='✓ 订阅成功！请查收确认邮件（可能在垃圾邮件里）。';
+      status.style.display='block';
+      form.style.display='none';
+      try{localStorage.setItem('ec-subscribed','1');}catch(e){}
+      try{gtag('event','email_subscribe',{method:'article_bottom'});}catch(e){}
+    } else {
+      throw new Error(d.error||d.message||'未知错误');
+    }
+  })
+  .catch(function(err){
+    status.className='ec-status error';
+    status.textContent='提交失败：'+err.message+'。请稍后重试。';
+    status.style.display='block';
+    btn.disabled=false;
+    btn.textContent='免费订阅';
+  });
+  return false;
+}
+(function(){
+  try{
+    if(localStorage.getItem('ec-subscribed')){
+      var el=document.getElementById('email-capture');
+      if(el)el.style.display='none';
+    }
+  }catch(e){}
+})();
+</script>
+{{- end }}
+{{- end }}

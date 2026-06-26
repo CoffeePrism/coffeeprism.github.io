@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>冷萃 on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/tags/%E5%86%B7%E8%90%83/</link>
-		<description>Recent content in 冷萃 on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/tags/%E5%86%B7%E8%90%83/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
-				<link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
-				<description>&lt;h1 id=&#34;冷萃咖啡-cold-brew-完全指南&#34;&gt;冷萃咖啡 Cold Brew 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;冷萃（Cold Brew）不是&amp;quot;冰镇热咖啡&amp;quot;——它是用&lt;strong&gt;冷水长时间浸泡&lt;/strong&gt;萃取的咖啡。结果与热萃完全不同：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;酸度低 67%&lt;/strong&gt;（冷水萃不出大部分酸）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;苦涩物质少&lt;/strong&gt;（绿原酸、单宁不易溶于冷水）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;甜感更突出&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;咖啡因含量略高&lt;/strong&gt;（浸泡时间长）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这让冷萃成为&lt;strong&gt;夏天 / 怕酸怕苦 / 需要醇厚甜咖啡&lt;/strong&gt;的最佳选择。&lt;/p&gt;&#xA;&lt;h2 id=&#34;冷萃-vs-冰滴-vs-冰镇热咖啡&#34;&gt;冷萃 vs 冰滴 vs 冰镇热咖啡&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;类型&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;制作&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;时间&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;风味&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;冷萃 Cold Brew&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;冷水浸泡&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;12-24 小时&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;醇厚、低酸、甜&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;冰滴 Cold Drip&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;冰水缓滴&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;4-8 小时&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;干净、清晰、风味精致&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;冰镇热咖啡&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;热萃 → 加冰&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;30 秒&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;接近热咖啡但更稀&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;冰滴需要专门的冰滴架，冷萃只需要一个罐子&lt;/strong&gt;——所以家庭场景冷萃更实用。&lt;/p&gt;&#xA;&lt;h2 id=&#34;18-是标准比例浓缩液&#34;&gt;1:8 是标准比例（浓缩液）&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;比例&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;用途&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;1:8（100g 粉 / 800g 水）&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;浓缩液，喝时按 1:1 加水或牛奶稀释&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;1:15（50g 粉 / 750g 水）&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;即饮，倒出来直接喝&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;我推荐做&lt;strong&gt;浓缩液&lt;/strong&gt;：保存期更长（10 天 vs 3 天），喝时按需稀释，调拿铁、加冰、加汤力水都灵活。&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>冷萃 on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/tags/%E5%86%B7%E8%90%83/</link>
+    <description>Recent content in 冷萃 on Coffee Prism</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/tags/%E5%86%B7%E8%90%83/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
+      <link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
+      <description>&lt;h1 id=&#34;冷萃咖啡-cold-brew-完全指南&#34;&gt;冷萃咖啡 Cold Brew 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;冷萃（Cold Brew）不是&amp;quot;冰镇热咖啡&amp;quot;——它是用&lt;strong&gt;冷水长时间浸泡&lt;/strong&gt;萃取的咖啡。结果与热萃完全不同：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;酸度低 67%&lt;/strong&gt;（冷水萃不出大部分酸）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;苦涩物质少&lt;/strong&gt;（绿原酸、单宁不易溶于冷水）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;甜感更突出&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;咖啡因含量略高&lt;/strong&gt;（浸泡时间长）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这让冷萃成为&lt;strong&gt;夏天 / 怕酸怕苦 / 需要醇厚甜咖啡&lt;/strong&gt;的最佳选择。&lt;/p&gt;&#xA;&lt;h2 id=&#34;冷萃-vs-冰滴-vs-冰镇热咖啡&#34;&gt;冷萃 vs 冰滴 vs 冰镇热咖啡&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;类型&lt;/th&gt;&#xA;          &lt;th&gt;制作&lt;/th&gt;&#xA;          &lt;th&gt;时间&lt;/th&gt;&#xA;          &lt;th&gt;风味&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;冷萃 Cold Brew&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;冷水浸泡&lt;/td&gt;&#xA;          &lt;td&gt;12-24 小时&lt;/td&gt;&#xA;          &lt;td&gt;醇厚、低酸、甜&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;冰滴 Cold Drip&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;冰水缓滴&lt;/td&gt;&#xA;          &lt;td&gt;4-8 小时&lt;/td&gt;&#xA;          &lt;td&gt;干净、清晰、风味精致&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;冰镇热咖啡&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;热萃 → 加冰&lt;/td&gt;&#xA;          &lt;td&gt;30 秒&lt;/td&gt;&#xA;          &lt;td&gt;接近热咖啡但更稀&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;冰滴需要专门的冰滴架，冷萃只需要一个罐子&lt;/strong&gt;——所以家庭场景冷萃更实用。&lt;/p&gt;&#xA;&lt;h2 id=&#34;18-是标准比例浓缩液&#34;&gt;1:8 是标准比例（浓缩液）&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;比例&lt;/th&gt;&#xA;          &lt;th&gt;用途&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;1:8（100g 粉 / 800g 水）&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;浓缩液，喝时按 1:1 加水或牛奶稀释&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;1:15（50g 粉 / 750g 水）&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;即饮，倒出来直接喝&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;我推荐做&lt;strong&gt;浓缩液&lt;/strong&gt;：保存期更长（10 天 vs 3 天），喝时按需稀释，调拿铁、加冰、加汤力水都灵活。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

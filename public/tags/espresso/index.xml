@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Espresso on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/tags/espresso/</link>
-		<description>Recent content in Espresso on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/tags/espresso/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
-				<link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
-				<description>&lt;h1 id=&#34;意式浓缩-espresso-完全指南&#34;&gt;意式浓缩 Espresso 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;Espresso 不是一种冲煮方式——它是一类&lt;strong&gt;高压浓缩萃取&lt;/strong&gt;：约 &lt;strong&gt;9 bar&lt;/strong&gt; 压力把热水快速推过细研磨的咖啡粉床，约 &lt;strong&gt;25-30 秒&lt;/strong&gt;萃出 30ml 浓缩液。&lt;/p&gt;&#xA;&lt;p&gt;它是 &lt;strong&gt;拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵&lt;/strong&gt; 的基础。&lt;/p&gt;&#xA;&lt;h2 id=&#34;9g9g9bar9-秒-是个谎言&#34;&gt;9g/9g/9bar/9 秒 是个谎言&lt;/h2&gt;&#xA;&lt;p&gt;很多入门教程把意式做成&amp;quot;9 进 9 出 9 秒&amp;quot;，&lt;strong&gt;这是 1980 年代意大利商用机的简化口径&lt;/strong&gt;，今天的精品咖啡早已是另一种规则：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;粉量&lt;/strong&gt;：18-22g（双份），不再是 9g&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;液体量&lt;/strong&gt;：32-40g 左右&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;时间&lt;/strong&gt;：25-32 秒&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;压力&lt;/strong&gt;：9 bar（这个没变）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;粉水比&lt;/strong&gt;：1:2 到 1:2.5（lungo 可以拉到 1:3）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;影响-espresso-的核心变量&#34;&gt;影响 espresso 的核心变量&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;变量&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;影响&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;怎么调&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;研磨度&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;第一大变量&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;萃取时间不在 25-32 秒就调&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;粉量&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;决定粉床厚度&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;双份 18-20g 是甜区&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;水温&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;萃取效率&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;浅烘 94°C / 深烘 90°C&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;压粉力度&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;影响通道&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;13-15kg 即可，更重没意义&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;豆子新鲜度&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;crema 厚薄&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;烘焙 7-21 天最佳&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;家用机选购建议&#34;&gt;家用机选购建议&lt;/h2&gt;&#xA;&lt;p&gt;不要踩这两个坑：&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Espresso on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/tags/espresso/</link>
+    <description>Recent content in Espresso on Coffee Prism</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/tags/espresso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
+      <link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
+      <description>&lt;h1 id=&#34;意式浓缩-espresso-完全指南&#34;&gt;意式浓缩 Espresso 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;Espresso 不是一种冲煮方式——它是一类&lt;strong&gt;高压浓缩萃取&lt;/strong&gt;：约 &lt;strong&gt;9 bar&lt;/strong&gt; 压力把热水快速推过细研磨的咖啡粉床，约 &lt;strong&gt;25-30 秒&lt;/strong&gt;萃出 30ml 浓缩液。&lt;/p&gt;&#xA;&lt;p&gt;它是 &lt;strong&gt;拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵&lt;/strong&gt; 的基础。&lt;/p&gt;&#xA;&lt;h2 id=&#34;9g9g9bar9-秒-是个谎言&#34;&gt;9g/9g/9bar/9 秒 是个谎言&lt;/h2&gt;&#xA;&lt;p&gt;很多入门教程把意式做成&amp;quot;9 进 9 出 9 秒&amp;quot;，&lt;strong&gt;这是 1980 年代意大利商用机的简化口径&lt;/strong&gt;，今天的精品咖啡早已是另一种规则：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;粉量&lt;/strong&gt;：18-22g（双份），不再是 9g&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;液体量&lt;/strong&gt;：32-40g 左右&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;时间&lt;/strong&gt;：25-32 秒&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;压力&lt;/strong&gt;：9 bar（这个没变）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;粉水比&lt;/strong&gt;：1:2 到 1:2.5（lungo 可以拉到 1:3）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;h2 id=&#34;影响-espresso-的核心变量&#34;&gt;影响 espresso 的核心变量&lt;/h2&gt;&#xA;&lt;table&gt;&#xA;  &lt;thead&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;th&gt;变量&lt;/th&gt;&#xA;          &lt;th&gt;影响&lt;/th&gt;&#xA;          &lt;th&gt;怎么调&lt;/th&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/thead&gt;&#xA;  &lt;tbody&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;研磨度&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;第一大变量&lt;/td&gt;&#xA;          &lt;td&gt;萃取时间不在 25-32 秒就调&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;粉量&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;决定粉床厚度&lt;/td&gt;&#xA;          &lt;td&gt;双份 18-20g 是甜区&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;水温&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;萃取效率&lt;/td&gt;&#xA;          &lt;td&gt;浅烘 94°C / 深烘 90°C&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;压粉力度&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;影响通道&lt;/td&gt;&#xA;          &lt;td&gt;13-15kg 即可，更重没意义&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;      &lt;tr&gt;&#xA;          &lt;td&gt;&lt;strong&gt;豆子新鲜度&lt;/strong&gt;&lt;/td&gt;&#xA;          &lt;td&gt;crema 厚薄&lt;/td&gt;&#xA;          &lt;td&gt;烘焙 7-21 天最佳&lt;/td&gt;&#xA;      &lt;/tr&gt;&#xA;  &lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;h2 id=&#34;家用机选购建议&#34;&gt;家用机选购建议&lt;/h2&gt;&#xA;&lt;p&gt;不要踩这两个坑：&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>
