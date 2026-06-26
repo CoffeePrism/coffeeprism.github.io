@@ -285,7 +285,7 @@
 
 <script>
 (function(){
-  var WORKER_URL = {{ site.Params.fulfillmentWorkerUrl | default "https://coffeeprism-fulfillment.workers.dev" | jsonify }};
+  var WORKER_URL = '{{ site.Params.fulfillmentWorkerUrl | default "https://coffeeprism-fulfillment.workers.dev" }}';
   var params = new URLSearchParams(window.location.search);
   var sessionId = params.get('session_id');
   var loadingEl = document.getElementById('verify-loading');
