@@ -1,5 +1,6 @@
 {{ define "main" }}
-<main class="main list" role="main">
+{{- $hasContent := and .Content (gt (len .RawContent) 500) -}}
+<main class="main {{ if $hasContent }}main--article{{ else }}list{{ end }}" role="main">
 	{{- if .Title }}
 	<header class="main__header">
 		<h1 class="main__title">{{ .Title }}</h1>
@@ -8,16 +9,32 @@
 		{{- end }}
 	</header>
 	{{- end }}
+
+	{{- if $hasContent }}
+	{{/* Pillar 页：内容多，渲染为 TOC + 正文 2 列布局 */}}
+	<div class="post__layout">
+		{{- partial "post_toc.html" . -}}
+		<div class="post__main">
+			<div class="content post__content clearfix">
+				{{ .Content }}
+			</div>
+		</div>
+	</div>
+	{{- else }}
 	{{- with .Content }}
 	<div class="content main__content clearfix">
 		{{ . }}
 	</div>
 	{{- end }}
+	{{- end }}
+
+	{{- if .Paginator.Pages }}
 	<div class="card-grid">
 	{{- range .Paginator.Pages }}
 		{{- .Render "summary" }}
 	{{- end }}
 	</div>
+	{{- end }}
 </main>
 {{ partial "pagination.html" . }}
 {{ end }}

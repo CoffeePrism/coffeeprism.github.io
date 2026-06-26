@@ -1,0 +1,95 @@
+{{ define "main" }}
+<main class="main main--home" role="main">
+
+  {{/* HERO — value prop + 4 pillar 大入口 */}}
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <div class="home-hero-eyebrow">☕ COFFEE PRISM · 中文精品咖啡专业指南</div>
+      <h1 class="home-hero-title">
+        用<span class="hero-accent">科学</span>理解咖啡，<br>
+        用<span class="hero-accent">实操</span>掌握它
+      </h1>
+      <p class="home-hero-tagline">
+        666 篇深度文章 · 10 个主题 pillar · 2 本 PDF 实战手册 —— 把咖啡冲煮的所有变量讲清楚，让你做的每一杯都能稳定复现。
+      </p>
+      <div class="home-hero-cta-row">
+        <a href="/guide/comprehensive/" class="home-hero-cta">📘 看本周精选指南 — $3.99 起</a>
+        <a href="#latest" class="home-hero-link">↓ 浏览最新文章</a>
+      </div>
+    </div>
+  </section>
+
+  {{/* 4 大 pillar 入口卡片 */}}
+  <section class="home-pillars">
+    <a href="/coffee-beans/" class="pillar-card">
+      <div class="pillar-icon">🫘</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">咖啡豆完全指南</h3>
+        <p class="pillar-desc">阿拉比卡 vs 罗布斯塔、20+ 产区、4 大处理法、烘焙度</p>
+        <span class="pillar-link">进入指南 →</span>
+      </div>
+    </a>
+    <a href="/brewing-methods/" class="pillar-card">
+      <div class="pillar-icon">☕</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">冲煮方法</h3>
+        <p class="pillar-desc">手冲 / 意式 / 法压 / 爱乐压 / 摩卡 / 冷萃 —— 6 大方法</p>
+        <span class="pillar-link">进入指南 →</span>
+      </div>
+    </a>
+    <a href="/coffee-equipment/" class="pillar-card">
+      <div class="pillar-icon">⚙️</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">器具选购</h3>
+        <p class="pillar-desc">磨豆机 / 滤杯 / 咖啡机 / 秤 / 壶 — 按预算分级</p>
+        <span class="pillar-link">进入指南 →</span>
+      </div>
+    </a>
+    <a href="/health/" class="pillar-card">
+      <div class="pillar-icon">💚</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">咖啡与健康</h3>
+        <p class="pillar-desc">咖啡因 / 心血管 / 抗氧化 / 睡眠 / 运动 —— 科学共识</p>
+        <span class="pillar-link">进入指南 →</span>
+      </div>
+    </a>
+  </section>
+
+  {{/* 双 PDF 销售卡片 */}}
+  <section class="home-books">
+    <h2 class="home-section-title">📚 精品 PDF 电子书</h2>
+    <div class="book-row">
+      <a href="/guide/comprehensive/" class="book-card">
+        <div class="book-cover-mini" aria-hidden="true">📘</div>
+        <div class="book-info">
+          <div class="book-badge">入门 + 进阶</div>
+          <h3 class="book-title">咖啡冲煮完全指南 2026</h3>
+          <p class="book-desc">75 页 · 25,000 字 · 13 章 · 5 大冲煮方法 + 故障排查</p>
+          <div class="book-price"><strong>$3.99</strong> <span>7 天无理由退款</span></div>
+        </div>
+      </a>
+      <a href="/guide/pourover/" class="book-card">
+        <div class="book-cover-mini" aria-hidden="true">⚡</div>
+        <div class="book-info">
+          <div class="book-badge">手冲专精</div>
+          <h3 class="book-title">手冲咖啡大师之路</h3>
+          <p class="book-desc">58 页 · 22,000 字 · 6 个 WBrC 冠军配方 + 萃取动力学</p>
+          <div class="book-price"><strong>$4.99</strong> <span>7 天无理由退款</span></div>
+        </div>
+      </a>
+    </div>
+  </section>
+
+  {{/* 最新文章卡片网格 */}}
+  <section class="home-latest" id="latest">
+    <h2 class="home-section-title">📰 最新文章</h2>
+    {{ $paginator := .Paginate (where .Site.RegularPages "Type" "in" .Site.Params.mainSections) }}
+    <div class="card-grid">
+    {{- range $paginator.Pages }}
+      {{- .Render "summary" }}
+    {{- end }}
+    </div>
+  </section>
+</main>
+{{ partial "pagination.html" . }}
+{{ end }}

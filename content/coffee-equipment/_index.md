@@ -1,4 +1,5 @@
 ---
+toc: true
 title: "咖啡器具选购指南 2026：从入门到发烧的预算分级"
 description: "中文最实用的咖啡器具选购指南：磨豆机、滤杯、咖啡机、秤、壶、保存罐——按 ¥500 / ¥2000 / ¥5000+ 三档预算给出具体型号推荐，覆盖 Hario / Timemore / 1Zpresso / Fellow / Acaia / Comandante / EK43 / Baratza。"
 keywords: ["咖啡器具", "咖啡器材", "磨豆机推荐", "滤杯选购", "咖啡机推荐", "咖啡秤", "手冲壶"]

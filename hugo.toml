@@ -56,9 +56,9 @@ summaryLength = 80
     visibility = ["list", "post"]
 
   [Params.sidebar]
-    # niche 站最佳实践：文章页和 pillar 页 NO sidebar（更宽阅读区）
-    # 只有首页保留 sidebar 展示热门 + PDF 推荐
-    home = "right"
+    # 全站无 sidebar：首页用 hero + pillar 卡片 + book 卡片代替；
+    # 文章/pillar 页用 sticky TOC 代替；分类页用 card grid。
+    home = false
     list = false
     single = false
     widgets = ["search", "recent", "categories", "social"]

@@ -1,0 +1,54 @@
+{{- if .Param "toc" }}
+{{- $toc := .TableOfContents }}
+{{- /* Only show TOC if it's non-trivial (>=3 entries) — gt 32 chars excludes empty <nav> */}}
+{{- if gt (len $toc) 100 }}
+<aside class="post__toc" id="post-toc" aria-label="目录">
+	<div class="post__toc-inner">
+		<button class="post__toc-toggle" type="button" aria-expanded="true" aria-controls="post-toc-menu" onclick="(function(b){var p=b.parentElement;var open=p.classList.toggle('collapsed');b.setAttribute('aria-expanded',!open);})(this)">
+			<span class="post__toc-title">目录</span>
+			<span class="post__toc-chevron" aria-hidden="true">▾</span>
+		</button>
+		<nav class="post__toc-menu" id="post-toc-menu">
+			{{ $toc }}
+		</nav>
+	</div>
+</aside>
+<script>
+(function(){
+  var toc = document.getElementById('post-toc');
+  if(!toc) return;
+  var links = toc.querySelectorAll('a[href^="#"]');
+  if(links.length < 2) return;
+
+  // Build map: heading id -> link element
+  var linkByHash = {};
+  links.forEach(function(a){
+    linkByHash[a.getAttribute('href').slice(1)] = a;
+  });
+
+  var headings = [];
+  Object.keys(linkByHash).forEach(function(id){
+    var el = document.getElementById(id);
+    if(el) headings.push(el);
+  });
+  if(!headings.length) return;
+
+  // IntersectionObserver to track active section
+  var current = null;
+  var observer = new IntersectionObserver(function(entries){
+    entries.forEach(function(entry){
+      if(entry.isIntersecting){
+        if(current) current.classList.remove('toc-active');
+        var link = linkByHash[entry.target.id];
+        if(link){
+          link.classList.add('toc-active');
+          current = link;
+        }
+      }
+    });
+  }, { rootMargin: '-80px 0px -70% 0px', threshold: 0 });
+  headings.forEach(function(h){ observer.observe(h); });
+})();
+</script>
+{{- end }}
+{{- end }}
