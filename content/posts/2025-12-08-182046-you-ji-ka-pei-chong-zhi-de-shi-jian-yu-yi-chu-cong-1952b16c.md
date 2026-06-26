@@ -105,3 +105,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/2026-01-24-182019-you-ji-ka-pei
 - [消费者如何支持可持续咖啡：从入门到实践的完整指南](/posts/2025-12-02-182243-xiao-fei-zhe-ru-he-zhi-chi-ke-chi-xu-ka-pei-cong-r-aac5c18c/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

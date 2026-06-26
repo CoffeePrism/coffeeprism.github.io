@@ -50,3 +50,9 @@ description: "北欧咖啡哲学的核心，是以极简主义与浅度烘焙释
 - [北欧极简主义下的咖啡革命：探秘斯堪的纳维亚半岛的咖啡文化与品牌哲学](/posts/2025-07-30-182125-bei-ou-ji-jian-zhu-yi-xia-de-ka-pei-ge-ming-tan-mi-3f2614d7/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

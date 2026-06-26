@@ -88,3 +88,7 @@ description: "用视觉与嗅觉捕捉咖啡烘焙完美瞬间，关键在观察
 - [咖啡烘焙的艺术：用五感捕捉豆粒蜕变的黄金时刻](/posts/2025-08-03-182331-ka-pei-hong-bei-de-yi-zhu-yong-wu-gan-bu-zhuo-dou-c73f9cd7/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

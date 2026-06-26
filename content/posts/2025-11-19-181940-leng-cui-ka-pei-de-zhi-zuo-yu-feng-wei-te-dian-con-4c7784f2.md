@@ -116,3 +116,9 @@ author: "Coffee Prism"
 - [越南滴滤咖啡的独特魅力：从文化底蕴到冲煮艺术的完全指南](/posts/2025-12-13-181751-yue-nan-di-lu-ka-pei-de-du-te-mei-li-cong-wen-hua-97b68ff2/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

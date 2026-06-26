@@ -116,3 +116,7 @@ author: "Coffee Prism"
 - [有机咖啡种植的实践与益处：从土壤到杯子的永续之旅](/posts/2026-01-17-181913-you-ji-ka-pei-chong-zhi-de-shi-jian-yu-yi-chu-cong-5bb28278/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

@@ -79,3 +79,9 @@ description: "全球咖啡仪式展现的是不同文明对时间、社交与精
 - [咖啡文明巡礼：解码全球五大咖啡仪式的文化基因](/posts/2025-06-02-182038-ka-pei-wen-ming-xun-li-jie-ma-quan-qiu-wu-da-ka-pe-f5c22481/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

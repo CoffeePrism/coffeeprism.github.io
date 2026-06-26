@@ -327,3 +327,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/jia-ting-ka-pei-hong-bei-ru-men
 - [全球咖啡地图：不同国家的咖啡饮用习惯深度解析](/posts/2026-01-10-181926-quan-qiu-ka-pei-di-tu-bu-tong-guo-jia-de-ka-pei-yi-73f8a1a5/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

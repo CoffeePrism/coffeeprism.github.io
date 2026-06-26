@@ -108,3 +108,7 @@ author: "Coffee Prism"
 - [咖啡博物馆与文化中心：探索千年咖啡文明的终极指南](/posts/2026-01-11-181959-ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-tan-suo-qia-a2db29e0/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

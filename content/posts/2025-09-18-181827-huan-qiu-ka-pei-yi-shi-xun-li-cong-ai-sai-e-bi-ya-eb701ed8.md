@@ -41,3 +41,7 @@ description: "咖啡仪式如何从埃塞俄比亚原始庆典演变为全球文
 - [咖啡文明之旅：全球咖啡仪式中的生活哲学](/posts/2025-09-24-181956-ka-pei-wen-ming-zhi-lu-quan-qiu-ka-pei-yi-shi-zhon-f8d55ebe/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

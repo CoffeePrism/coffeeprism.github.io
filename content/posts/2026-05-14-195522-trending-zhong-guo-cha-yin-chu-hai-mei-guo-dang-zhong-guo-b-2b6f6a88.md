@@ -212,3 +212,7 @@ news_source: "https://news.google.com/rss/articles/CBMiogFBVV95cUxQd1dNWkdXbXdEd
 - [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

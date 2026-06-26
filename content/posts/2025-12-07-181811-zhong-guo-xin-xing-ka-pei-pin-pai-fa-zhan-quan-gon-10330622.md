@@ -109,3 +109,9 @@ author: "Coffee Prism"
 - [日本咖啡品牌的精益求精：从匠艺到日常的完美融合指南](/posts/2025-11-11-181905-ri-ben-ka-pei-pin-pai-de-jing-yi-qiu-jing-cong-jia-5ae1b915/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

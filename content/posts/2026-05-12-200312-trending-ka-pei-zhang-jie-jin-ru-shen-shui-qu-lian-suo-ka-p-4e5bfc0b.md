@@ -180,3 +180,9 @@ Yahoo Finance 近日报道，全球**咖啡豆价格**持续上行，但以 Dutc
 - [咖啡涨价为何领跑食品通胀：从巴西咖啡产量到连锁定价，谁在承受这杯更贵的咖啡](/posts/ka-pei-zhang-jie-wei-he-ling-pao-shi-pin-tong-zhan/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

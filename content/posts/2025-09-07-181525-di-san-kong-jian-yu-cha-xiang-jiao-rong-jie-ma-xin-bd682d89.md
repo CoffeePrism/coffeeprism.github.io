@@ -74,3 +74,9 @@ description: "星巴克全球扩张成功的核心，在于以第三空间为框
 - [星巴克的全球扩张与本土化策略：从西雅图到全球的咖啡帝国密码](/posts/2025-11-26-181650-xing-ba-ke-de-quan-qiu-kuo-zhang-yu-ben-tu-hua-ce-c0bd239c/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

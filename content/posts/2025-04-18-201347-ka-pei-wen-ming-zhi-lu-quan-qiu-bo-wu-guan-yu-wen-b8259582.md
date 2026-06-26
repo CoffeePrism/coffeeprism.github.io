@@ -52,3 +52,7 @@ description: "从迪拜咖啡博物馆到维也纳咖啡博物馆，全球咖啡
 - [咖啡时空漫游：全球博物馆与文化中心的沉浸式朝圣之旅](/posts/2025-06-22-181926-ka-pei-shi-kong-man-you-quan-qiu-bo-wu-guan-yu-wen-3c29ab3b/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

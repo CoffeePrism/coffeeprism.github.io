@@ -320,3 +320,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-yu-qiao-ke-li-de-wan-mei
 - [咖啡鸡尾酒的创意配方：专业指南与灵感宝库](/posts/2025-12-14-181851-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-zhuan-ye-z-193da89c/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

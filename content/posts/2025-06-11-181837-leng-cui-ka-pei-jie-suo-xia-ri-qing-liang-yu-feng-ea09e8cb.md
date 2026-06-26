@@ -63,3 +63,9 @@ description: "冷萃咖啡是在0-10℃下经12-24小时慢速萃取的咖啡，
 - [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

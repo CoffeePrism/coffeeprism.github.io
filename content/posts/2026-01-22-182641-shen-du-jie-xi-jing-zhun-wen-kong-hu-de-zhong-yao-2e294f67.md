@@ -143,3 +143,7 @@ author: "Coffee Prism"
 - [单一产地咖啡豆的风味特点：从产地到杯中的风味密码](/posts/2025-10-20-040226-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-45b9f887/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

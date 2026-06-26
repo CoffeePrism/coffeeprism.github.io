@@ -66,3 +66,9 @@ description: "手冲咖啡要提升风味，关键在水质、注水高度与流
 - [手冲咖啡进阶技巧全攻略：从爱好者到行家的蜕变之路](/posts/2025-12-18-182131-shou-chong-ka-pei-jin-jie-ji-qiao-quan-gong-lue-co-3edab7af/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

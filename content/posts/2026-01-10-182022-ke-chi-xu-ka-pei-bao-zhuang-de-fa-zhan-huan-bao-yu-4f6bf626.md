@@ -128,3 +128,7 @@ author: "Coffee Prism"
 - [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

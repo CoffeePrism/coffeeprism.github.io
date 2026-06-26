@@ -207,3 +207,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/bei-ou-ka-pei-wen-hua-yu-pin-pa
 - [意大利经典咖啡品牌的历史：从Espresso到现代生活的百年传奇](/posts/2026-01-09-182209-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-cong-e-41a48cb6/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -61,13 +61,13 @@ def process():
     files = sorted(POSTS_DIR.glob("*.md"))
     matched = [f for f in files if any(
         kw in f.read_text(encoding="utf-8", errors="ignore")
-        for kw in ["手冲", "意式", "萃取", "冲泡", "冲煮", "咖啡豆", "espresso"]
+        for kw in ["咖啡", "手冲", "意式", "萃取", "冲泡", "冲煮", "咖啡豆", "espresso",
+                    "烘焙", "研磨", "滤杯", "拿铁", "咖啡因", "冷萃", "摩卡"]
     )]
 
     print(f"找到 {len(matched)} 篇相关文章")
 
-    # 只处理前 30 篇（避免过度添加）
-    for file in matched[:30]:
+    for file in matched:
         text = file.read_text(encoding="utf-8", errors="ignore")
         if has_cta(text):
             skipped += 1

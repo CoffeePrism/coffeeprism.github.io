@@ -197,3 +197,7 @@ news_source: "https://news.google.com/rss/articles/CBMivwFBVV95cUxNdVBUdEVXMHk1S
 - [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

@@ -249,3 +249,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/zhi-huo-vsre-feng-hong-bei-de-q
 - [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

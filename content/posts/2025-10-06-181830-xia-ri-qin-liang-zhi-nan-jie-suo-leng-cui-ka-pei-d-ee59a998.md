@@ -86,3 +86,7 @@ description: "冷萃咖啡的极致风味，来自4-10℃低温下12-24小时的
 - [冷萃咖啡的制作与风味特点：从入门到精通的实用指南](/posts/2025-11-19-181940-leng-cui-ka-pei-de-zhi-zuo-yu-feng-wei-te-dian-con-4c7784f2/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

@@ -76,3 +76,9 @@ description: "全球顶级咖啡馆如何安排朝圣路线？这份咖啡旅行
 - [咖啡朝圣者的地理学：用味蕾丈量世界的寻豆地图](/posts/2025-07-01-181910-ka-pei-zhao-sheng-zhe-de-di-li-xue-yong-wei-lei-zh-b682d8fb/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

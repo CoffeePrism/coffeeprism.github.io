@@ -69,3 +69,9 @@ description: "家庭咖啡烘焙的关键在于掌握生豆脱水、梅纳反应
 - [家庭咖啡烘焙入门指南：从生豆到杯中的完整探索](/posts/2025-11-04-181959-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-cong-sheng-a1e6e326/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

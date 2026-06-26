@@ -129,3 +129,7 @@ author: "Coffee Prism"
 - [可持续咖啡包装的发展：环保与品质的双赢之道](/posts/2025-10-31-181913-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-46c7999a/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

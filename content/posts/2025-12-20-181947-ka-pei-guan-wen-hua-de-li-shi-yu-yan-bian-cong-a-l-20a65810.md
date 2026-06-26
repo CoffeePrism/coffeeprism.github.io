@@ -103,3 +103,9 @@ author: "Coffee Prism"
 - [全球咖啡文化巡礼：不同国家的咖啡饮用习惯全解析](/posts/2025-11-26-181705-quan-qiu-ka-pei-wen-hua-xun-li-bu-tong-guo-jia-de-2aea4204/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

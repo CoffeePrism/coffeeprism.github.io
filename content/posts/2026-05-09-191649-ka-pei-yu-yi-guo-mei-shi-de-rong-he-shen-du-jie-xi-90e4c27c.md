@@ -305,3 +305,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-yu-yi-guo-mei-shi-de-ron
 - [咖啡与异国美食的融合：从搭配原理到实践指南](/posts/2025-11-13-181857-ka-pei-yu-yi-guo-mei-shi-de-rong-he-cong-da-pei-yu-d10c4880/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

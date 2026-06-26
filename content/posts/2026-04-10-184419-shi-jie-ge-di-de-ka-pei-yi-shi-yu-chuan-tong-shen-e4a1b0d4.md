@@ -285,3 +285,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/shi-jie-ge-di-de-ka-pei-yi-shi-
 - [深度解析：不同国家的咖啡饮用习惯与文化密码](/posts/2025-11-17-181918-shen-du-jie-xi-bu-tong-guo-jia-de-ka-pei-yin-yong-9a47282b/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

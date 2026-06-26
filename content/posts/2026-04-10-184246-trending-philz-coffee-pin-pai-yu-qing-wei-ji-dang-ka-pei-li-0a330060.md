@@ -209,3 +209,7 @@ Philz 事件呈现出三种值得行业警惕的新特征：
 - [咖啡期货回调背后：咖啡豆价格下行是否会传导到中国零售端与全球供应链？](/posts/ka-pei-qi-huo-hui-diao-bei-hou-ka-pei-dou-jie-ge-x/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

@@ -89,3 +89,9 @@ description: "中国咖啡爱好者能通过选择可持续咖啡改变世界：
 - [从豆到杯的绿色革命：中国咖啡爱好者如何支持可持续咖啡未来](/posts/2025-08-07-182110-cong-dou-dao-bei-de-lu-se-ge-ming-zhong-guo-ka-pei-2a2f6f09/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

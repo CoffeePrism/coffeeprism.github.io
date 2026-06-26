@@ -76,3 +76,7 @@ author: "Coffee Prism"
 - [深度解析直火vs热风烘焙的区别：从原理到实战的完整指南](/posts/2026-01-06-182244-shen-du-jie-xi-zhi-huo-vsre-feng-hong-bei-de-qu-bi-dcb5199b/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

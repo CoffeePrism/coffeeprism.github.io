@@ -132,3 +132,7 @@ author: "Coffee Prism"
 - [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

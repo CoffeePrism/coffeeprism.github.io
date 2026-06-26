@@ -83,3 +83,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-06-07-181635-mo-ren-biao-t
 - [云南小粒咖啡：中国咖啡原产地的觉醒与风味密码](/posts/2025-08-17-182302-yun-nan-xiao-li-ka-pei-zhong-guo-ka-pei-yuan-chan-07890e29/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

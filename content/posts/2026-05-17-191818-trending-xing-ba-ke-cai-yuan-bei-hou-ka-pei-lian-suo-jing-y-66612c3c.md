@@ -203,3 +203,7 @@ news_source: "https://news.google.com/rss/articles/CBMiwgFBVV95cUxPMzJPdjl3dV9ZT
 - [星巴克裁员背后：全球咖啡连锁转型加速，中国咖啡市场竞争将如何改写？](/posts/xing-ba-ke-cai-yuan-bei-hou-quan-qiu-ka-pei-lian-s/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

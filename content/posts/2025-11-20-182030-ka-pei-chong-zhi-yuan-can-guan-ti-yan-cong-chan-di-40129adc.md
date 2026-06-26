@@ -108,3 +108,7 @@ author: "Coffee Prism"
 - [单源咖啡的最佳烘焙方式：从入门到精通的实用宝典](/posts/2025-11-21-181930-dan-yuan-ka-pei-de-zui-jia-hong-bei-fang-shi-cong-f1abfbf2/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

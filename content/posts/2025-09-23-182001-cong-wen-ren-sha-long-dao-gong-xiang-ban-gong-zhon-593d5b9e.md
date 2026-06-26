@@ -82,3 +82,7 @@ description: "中国咖啡馆正从饮品消费场所演变为社交、办公与
 - [从第三空间到多功能场景：咖啡馆在中国社交与工作文化中的进化](/posts/2025-09-03-181958-cong-di-san-kong-jian-dao-duo-gong-neng-chang-jing-1994abf2/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

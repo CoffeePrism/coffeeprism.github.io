@@ -81,3 +81,7 @@ description: "咖啡因可通过阻断腺苷受体、提升肾上腺素与神经
 - [咖啡因唤醒大脑：解码咖啡与认知功能的科学真相](/posts/2025-04-24-181754-ka-pei-yin-huan-xing-da-nao-jie-ma-ka-pei-yu-ren-z-e6f8927d/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

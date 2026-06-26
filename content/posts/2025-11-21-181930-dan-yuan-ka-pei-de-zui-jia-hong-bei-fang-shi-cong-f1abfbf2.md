@@ -107,3 +107,7 @@ author: "Coffee Prism"
 - [直火vs热风烘焙的区别：咖啡师都在用的实战指南](/posts/2025-12-20-181904-zhi-huo-vsre-feng-hong-bei-de-qu-bie-ka-pei-shi-du-d11faa7f/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

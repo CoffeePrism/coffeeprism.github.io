@@ -141,3 +141,7 @@ author: "Coffee Prism"
 - [气候变化对咖啡产业的威胁：从危机到行动的生存指南](/posts/2025-12-03-182310-qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-cong-02d52fdb/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

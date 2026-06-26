@@ -110,3 +110,9 @@ author: "Coffee Prism"
 - [哥伦比亚咖啡豆的特色与历史：从入门到精通的实用宝典](/posts/2025-11-02-181524-ge-lun-bi-ya-ka-pei-dou-de-te-se-yu-li-shi-cong-ru-937bcd1e/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

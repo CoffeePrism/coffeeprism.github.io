@@ -86,3 +86,7 @@ description: "判断咖啡烘焙是否到位，关键看颜色变化、油脂状
 - [咖啡烘焙的艺术：用五感捕捉豆粒蜕变的黄金时刻](/posts/2025-08-03-182331-ka-pei-hong-bei-de-yi-zhu-yong-wu-gan-bu-zhuo-dou-c73f9cd7/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

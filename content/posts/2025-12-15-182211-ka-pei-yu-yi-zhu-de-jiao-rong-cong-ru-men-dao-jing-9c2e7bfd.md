@@ -115,3 +115,7 @@ Seesaw Coffee与UCCA合作推出的「莫奈睡莲」特调系列，通过蝶豆
 - [世界各地的咖啡仪式与传统：从入门到精通的沉浸指南](/posts/2026-01-13-182347-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-20b917bf/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

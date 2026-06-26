@@ -86,3 +86,7 @@ description: "蓝山咖啡之所以价值千金，在于牙买加法定产区、
 - [《从豆到杯：中国新兴咖啡品牌如何用本土故事重塑第三空间》](/posts/2025-08-19-181903-cong-dou-dao-bei-zhong-guo-xin-xing-ka-pei-pin-pai-a1aec4bb/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

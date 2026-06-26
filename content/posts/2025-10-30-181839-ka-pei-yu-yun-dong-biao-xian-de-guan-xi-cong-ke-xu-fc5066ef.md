@@ -123,3 +123,9 @@ author: "Coffee Prism"
 - [咖啡馆文化的历史与演变深度解析指南](/posts/ka-pei-guan-wen-hua-de-li-shi-yu-yan-bian-shen-du/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

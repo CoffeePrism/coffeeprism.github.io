@@ -81,3 +81,9 @@ description: "直火与热风烘焙的核心区别在于传热方式与风味表
 - [直火vs热风烘焙的区别：咖啡师都在用的实战指南](/posts/2025-12-20-181904-zhi-huo-vsre-feng-hong-bei-de-qu-bie-ka-pei-shi-du-d11faa7f/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

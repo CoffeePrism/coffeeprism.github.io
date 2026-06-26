@@ -79,3 +79,9 @@ description: "中国本土咖啡品牌靠精品化、在地化叙事与云南咖
 - [从豆到杯：中国咖啡创业者的品牌哲学与味觉革命](/posts/2025-05-25-181658-cong-dou-dao-bei-zhong-guo-ka-pei-chuang-ye-zhe-de-44be741a/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

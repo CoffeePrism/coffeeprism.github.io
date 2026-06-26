@@ -145,3 +145,7 @@ author: "Coffee Prism"
 - [日本咖啡品牌的精益求精：从匠艺革新到日常品鉴的完整指南](/posts/2025-11-28-181845-ri-ben-ka-pei-pin-pai-de-jing-yi-qiu-jing-cong-jia-c0a1ca33/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

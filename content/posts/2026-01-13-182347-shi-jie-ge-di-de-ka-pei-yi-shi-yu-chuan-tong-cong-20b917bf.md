@@ -101,3 +101,9 @@ author: "Coffee Prism"
 - [低咖啡因选择及其制作方法：咖啡爱好者的科学指南](/posts/2025-10-28-181957-di-ka-pei-yin-xuan-ze-ji-qi-zhi-zuo-fang-fa-ka-pei-5cdc091f/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

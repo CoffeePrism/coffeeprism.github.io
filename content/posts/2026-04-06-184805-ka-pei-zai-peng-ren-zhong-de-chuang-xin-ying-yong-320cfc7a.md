@@ -219,3 +219,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-zai-peng-ren-zhong-de-ch
 - [世界各地的咖啡仪式与传统：从入门到精通的沉浸指南](/posts/2026-01-13-182347-shi-jie-ge-di-de-ka-pei-yi-shi-yu-chuan-tong-cong-20b917bf/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

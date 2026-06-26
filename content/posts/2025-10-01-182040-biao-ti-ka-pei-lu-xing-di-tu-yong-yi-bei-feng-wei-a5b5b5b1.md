@@ -71,3 +71,9 @@ description: "一杯咖啡如何解锁全球美食灵感？答案在咖啡旅行
 - [深度指南：结合咖啡的美食之旅的完整实践手册](/posts/2026-01-21-183340-shen-du-zhi-nan-jie-he-ka-pei-de-mei-shi-zhi-lu-de-1321072f/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

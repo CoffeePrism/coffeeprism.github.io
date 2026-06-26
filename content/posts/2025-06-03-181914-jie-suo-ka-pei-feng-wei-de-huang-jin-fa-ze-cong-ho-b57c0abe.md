@@ -69,3 +69,9 @@ description: "咖啡豆保鲜的关键在于控氧、避光、防潮、稳温与
 - [咖啡豆的苏醒与休眠：专业烘焙师教你锁住风味的保鲜哲学](/posts/2025-04-18-195722-article-fbaaaf24/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

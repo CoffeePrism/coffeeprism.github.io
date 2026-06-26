@@ -105,3 +105,7 @@ author: "Coffee Prism"
 - [咖啡创业者的成功故事：从精品小店到连锁帝国的实战手册](/posts/2025-12-05-181904-ka-pei-chuang-ye-zhe-de-cheng-gong-gu-shi-cong-jin-5a487d86/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

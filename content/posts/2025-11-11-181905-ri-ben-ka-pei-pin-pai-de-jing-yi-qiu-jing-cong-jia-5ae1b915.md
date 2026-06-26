@@ -120,3 +120,9 @@ author: "Coffee Prism"
 - [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

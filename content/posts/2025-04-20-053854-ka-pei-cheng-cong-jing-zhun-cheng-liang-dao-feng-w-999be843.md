@@ -70,3 +70,7 @@ description: "咖啡秤是实现稳定萃取与风味控制的关键工具，能
 - [咖啡秤：从称量到风味的科学艺术](/posts/2025-05-17-055340-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-e04a1c02/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

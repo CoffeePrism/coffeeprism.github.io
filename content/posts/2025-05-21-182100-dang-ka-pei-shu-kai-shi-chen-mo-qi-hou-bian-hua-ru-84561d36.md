@@ -89,3 +89,9 @@ description: "气候变化正通过升温、虫害与极端天气威胁咖啡风
 - [当咖啡香遇上气候危机：中国咖啡爱好者的可持续选择之路](/posts/2025-04-19-181708-dang-ka-pei-xiang-yu-shang-qi-hou-wei-ji-zhong-guo-6c34ab35/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

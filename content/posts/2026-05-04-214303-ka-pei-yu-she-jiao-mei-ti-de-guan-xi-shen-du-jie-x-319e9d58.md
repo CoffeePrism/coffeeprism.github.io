@@ -262,3 +262,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-yu-she-jiao-mei-ti-de-gu
 - [咖啡馆文化的历史与演变：从奥斯曼到第三空间的深度指南](/posts/2025-11-18-182131-ka-pei-guan-wen-hua-de-li-shi-yu-yan-bian-cong-ao-ccf262fc/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -82,3 +82,7 @@ description: "咖啡烘焙后最佳保鲜关键在于避光、密封、常温干
 - [烘焙咖啡的保鲜与储存完全指南：从新手到行家的必修课](/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

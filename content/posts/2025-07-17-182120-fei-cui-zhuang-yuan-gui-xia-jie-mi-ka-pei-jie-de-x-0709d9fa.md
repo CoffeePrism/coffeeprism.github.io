@@ -49,3 +49,7 @@ description: "翡翠庄园瑰夏之所以被称为咖啡界香槟，在于其源
 - [翡翠庄园瑰夏：从巴拿马火山到中国手冲壶的传奇之旅](/posts/2025-06-01-181626-fei-cui-zhuang-yuan-gui-xia-cong-ba-na-ma-huo-shan-9b27378f/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

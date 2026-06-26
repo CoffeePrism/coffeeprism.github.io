@@ -56,3 +56,9 @@ description: "日本咖啡品牌为何能做到极致追求？答案在百年喫
 - [日式职人魂：解码日本咖啡品牌如何以极致工艺征服世界味蕾](/posts/2025-05-20-181844-ri-shi-zhi-ren-hun-jie-ma-ri-ben-ka-pei-pin-pai-ru-0b83502d/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

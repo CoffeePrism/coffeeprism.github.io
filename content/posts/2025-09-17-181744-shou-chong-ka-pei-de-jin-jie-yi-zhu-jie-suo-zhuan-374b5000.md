@@ -85,3 +85,7 @@ description: "手冲咖啡进阶的关键，在于精准控制水质、注水轨
 - [手冲咖啡进阶技巧全攻略：从爱好者到行家的蜕变之路](/posts/2025-12-18-182131-shou-chong-ka-pei-jin-jie-ji-qiao-quan-gong-lue-co-3edab7af/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

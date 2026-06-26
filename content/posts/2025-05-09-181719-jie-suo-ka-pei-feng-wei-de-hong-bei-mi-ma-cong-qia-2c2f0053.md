@@ -72,3 +72,9 @@ description: "咖啡烘焙度决定风味走向：浅焙突出花香果酸与产
 - [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

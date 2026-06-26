@@ -57,3 +57,7 @@ description: "咖啡旅行的核心，在于用地域之味读懂一杯咖啡背
 - [深度指南：结合咖啡的美食之旅的完整实践手册](/posts/2026-01-21-183340-shen-du-zhi-nan-jie-he-ka-pei-de-mei-shi-zhi-lu-de-1321072f/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

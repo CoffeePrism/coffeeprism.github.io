@@ -103,3 +103,9 @@ author: "Coffee Prism"
 - [咖啡鸡尾酒的创意配方：解锁调饮新境界的完整指南](/posts/2025-11-24-182104-ka-pei-ji-wei-jiu-de-chuang-yi-pei-fang-jie-suo-di-fe4cbcde/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -73,3 +73,9 @@ description: "咖啡鸡尾酒怎么搭配？关键在于让咖啡豆风味与酒
 - [## **《味觉交响曲：探索咖啡与巧克力的科学搭配法则》](/posts/2025-09-07-181514-wei-jue-jiao-xiang-qu-tan-suo-ka-pei-yu-qiao-ke-li-f050fa37/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

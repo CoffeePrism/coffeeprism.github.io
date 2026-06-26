@@ -51,3 +51,7 @@ description: "深入咖啡原产地种植园，能直接看懂咖啡樱桃成熟
 - [咖啡原乡漫游：全球顶级咖啡种植园沉浸式旅行指南](/posts/2025-06-30-181929-ka-pei-yuan-xiang-man-you-quan-qiu-ding-ji-ka-pei-3390e92e/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

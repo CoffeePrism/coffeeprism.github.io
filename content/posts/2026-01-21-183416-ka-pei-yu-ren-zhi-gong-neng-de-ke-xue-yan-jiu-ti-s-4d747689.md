@@ -93,3 +93,9 @@ author: "Coffee Prism"
 - [咖啡因的生理作用与适宜摄入量：从科学到实践的完全指南](/posts/2025-10-24-181905-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-e8b5b315/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -78,3 +78,9 @@ description: "星巴克征服世界，靠的不是只卖咖啡，而是以第三
 - [第三空间与茶香交融：解码星巴克全球扩张背后的本土化哲学](/posts/2025-09-07-181525-di-san-kong-jian-yu-cha-xiang-jiao-rong-jie-ma-xin-bd682d89/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

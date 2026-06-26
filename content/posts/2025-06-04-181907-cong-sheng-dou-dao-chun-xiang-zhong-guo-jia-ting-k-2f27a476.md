@@ -73,3 +73,7 @@ description: "家庭咖啡烘焙在中国兴起，因其能显著提升新鲜度
 - [家庭咖啡烘焙入门指南：从生豆到杯中的完整探索](/posts/2025-11-04-181959-jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-cong-sheng-a1e6e326/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

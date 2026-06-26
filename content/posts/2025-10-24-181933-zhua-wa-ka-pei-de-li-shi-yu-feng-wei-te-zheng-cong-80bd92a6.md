@@ -120,3 +120,7 @@ author: "Coffee Prism"
 - [咖啡博物馆与文化中心：探索千年咖啡文明的终极指南](/posts/2026-01-11-181959-ka-pei-bo-wu-guan-yu-wen-hua-zhong-xin-tan-suo-qia-a2db29e0/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

@@ -251,3 +251,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/qi-hou-bian-hua-dui-ka-pei-chan
 - [深度解析：气候变化对咖啡产业的威胁与应对策略](/posts/2025-12-19-182031-shen-du-jie-xi-qi-hou-bian-hua-dui-ka-pei-chan-ye-230e79e6/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

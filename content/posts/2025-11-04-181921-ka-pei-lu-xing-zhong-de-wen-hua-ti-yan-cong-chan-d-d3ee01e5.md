@@ -108,3 +108,7 @@ author: "Coffee Prism"
 - [咖啡爱好者的城市指南：探索城市咖啡地图的终极指南](/posts/2025-12-02-182157-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-e0fddd17/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

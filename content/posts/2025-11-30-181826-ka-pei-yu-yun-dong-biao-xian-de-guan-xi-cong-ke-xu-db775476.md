@@ -105,3 +105,7 @@ author: "Coffee Prism"
 - [消费者如何支持可持续咖啡：从入门到实践的完整指南](/posts/2025-12-02-182243-xiao-fei-zhe-ru-he-zhi-chi-ke-chi-xu-ka-pei-cong-r-aac5c18c/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

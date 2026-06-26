@@ -55,3 +55,9 @@ description: "咖啡拉花艺术的关键在于掌握浓缩油脂厚度3mm、奶
 - [拉花技巧与艺术表达：从基础到大师的视觉盛宴](/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

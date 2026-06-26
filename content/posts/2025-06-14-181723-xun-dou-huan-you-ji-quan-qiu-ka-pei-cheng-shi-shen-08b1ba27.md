@@ -58,3 +58,9 @@ description: "全球咖啡城市怎么选？看历史传承、创新生态与在
 - [咖啡漫游者地图：从胡同手冲到北欧极简的全球寻豆指南](/posts/2025-05-24-181717-ka-pei-man-you-zhe-di-tu-cong-hu-tong-shou-chong-d-ea9f9835/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

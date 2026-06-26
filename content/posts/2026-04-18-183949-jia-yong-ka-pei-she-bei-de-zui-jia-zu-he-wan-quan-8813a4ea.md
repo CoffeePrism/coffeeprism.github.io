@@ -378,3 +378,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/jia-yong-ka-pei-she-bei-de-zui-
 - [深度解析：高级咖啡研磨器的对比与选择的完整指南](/posts/2026-01-05-182225-shen-du-jie-xi-gao-ji-ka-pei-yan-mo-qi-de-dui-bi-y-80209c19/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

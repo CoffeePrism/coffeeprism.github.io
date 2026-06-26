@@ -93,3 +93,9 @@ description: "判断咖啡是否完美烘焙，关键看豆色变化、爆裂节
 - [咖啡烘焙的艺术：用五感捕捉豆粒蜕变的黄金时刻](/posts/2025-08-03-182331-ka-pei-hong-bei-de-yi-zhu-yong-wu-gan-bu-zhuo-dou-c73f9cd7/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

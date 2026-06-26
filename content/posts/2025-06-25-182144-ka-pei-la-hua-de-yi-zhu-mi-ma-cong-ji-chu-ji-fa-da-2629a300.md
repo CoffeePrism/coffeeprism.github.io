@@ -57,3 +57,7 @@ description: "咖啡拉花的关键在于掌握浓缩油脂层、牛奶微泡沫
 - [拉花技巧与艺术表达：从基础到大师的视觉盛宴](/posts/2025-10-22-182022-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-1fe3d0d8/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

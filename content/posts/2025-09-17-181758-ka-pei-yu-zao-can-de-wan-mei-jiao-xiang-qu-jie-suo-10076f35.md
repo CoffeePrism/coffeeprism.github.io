@@ -80,3 +80,7 @@ description: "咖啡与早餐怎么搭配最适合中国胃？关键在平衡酸
 - [咖啡与异国美食的味觉交响：解锁全球风味搭配密码](/posts/2025-08-05-183305-ka-pei-yu-yi-guo-mei-shi-de-wei-jue-jiao-xiang-jie-5aea4d46/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

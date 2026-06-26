@@ -57,3 +57,9 @@ description: "烘焙曲线决定咖啡豆酸甜苦香的形成路径，核心在
 - [从深褐到金黄：咖啡烘焙技术的发展之旅](/posts/2025-04-18-044523-biao-ti-cong-shen-he-dao-jin-huang-ka-pei-hong-bei-ji-zhu-de-fa-zhan-zhi-lu-52e0f83f/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -177,3 +177,7 @@ news_source: "https://news.google.com/rss/articles/CBMilAFBVV95cUxOS0J4SVdEbmFmS
 - [Lavazza中国扩张与全球咖啡竞争加速：美国、中国双押注背后，国际品牌在争什么？](/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-jing/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

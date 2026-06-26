@@ -218,3 +218,9 @@ news_source: "https://news.google.com/rss/articles/CBMi3gFBVV95cUxOTmNBVWNiSGJ2X
 - [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

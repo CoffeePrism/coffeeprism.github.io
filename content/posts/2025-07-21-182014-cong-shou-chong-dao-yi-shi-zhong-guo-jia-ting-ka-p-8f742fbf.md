@@ -48,3 +48,9 @@ description: "中国家庭咖啡角可按预算与口味科学配置：新手300
 - [家用咖啡设备的最佳组合：从入门到精通的实用指南](/posts/2025-10-22-040233-jia-yong-ka-pei-she-bei-de-zui-jia-zu-he-cong-ru-m-a52d7a6f/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

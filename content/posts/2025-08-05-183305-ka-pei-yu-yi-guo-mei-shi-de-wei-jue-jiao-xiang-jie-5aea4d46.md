@@ -83,3 +83,9 @@ description: "咖啡与异国美食怎么搭配？关键在于用咖啡酸甜苦
 - [咖啡与异国美食的味觉交响：解锁全球风味的搭配艺术](/posts/2025-07-09-183140-mo-ren-biao-ti-1f4f76a7/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

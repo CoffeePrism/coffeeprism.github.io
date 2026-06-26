@@ -101,3 +101,9 @@ author: "Coffee Prism"
 - [咖啡爱好者的城市指南：探索城市香醇地图](/posts/2026-01-16-182147-ka-pei-ai-hao-zhe-de-cheng-shi-zhi-nan-tan-suo-che-ddbba775/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -144,3 +144,7 @@ author: "Coffee Prism"
 - [可持续咖啡包装的发展：环保与品质的革新之路](/posts/2026-01-07-182306-ke-chi-xu-ka-pei-bao-zhuang-de-fa-zhan-huan-bao-yu-f7c48aac/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

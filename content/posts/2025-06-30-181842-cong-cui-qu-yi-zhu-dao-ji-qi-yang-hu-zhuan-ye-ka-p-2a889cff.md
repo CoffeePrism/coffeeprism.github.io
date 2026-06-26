@@ -81,3 +81,7 @@ description: "专业咖啡机的关键在于9bar压力、92-93℃稳定水温与
 - [从萃取到养护：专业咖啡机的核心功能解析与日常操作指南](/posts/2025-04-21-181812-cong-cui-qu-dao-yang-hu-zhuan-ye-ka-pei-ji-de-he-x-a7336da7/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

@@ -214,3 +214,9 @@ news_source: "https://news.google.com/rss/articles/CBMivAFBVV95cUxObS1La3BlVGVzM
 - [咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任](/posts/ka-pei-yin-biao-shi-zheng-yi-bei-hou-trader-joesxi/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

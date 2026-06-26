@@ -246,3 +246,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-zhong-de-kang-yang-hua-w
 - [咖啡与认知功能的科学研究：提升大脑效能的奥秘解析](/posts/2026-01-21-183416-ka-pei-yu-ren-zhi-gong-neng-de-ke-xue-yan-jiu-ti-s-4d747689/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

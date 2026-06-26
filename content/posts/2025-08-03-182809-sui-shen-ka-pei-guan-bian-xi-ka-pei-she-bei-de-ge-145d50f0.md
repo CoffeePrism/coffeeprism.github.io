@@ -81,3 +81,9 @@ description: "便携咖啡设备正在用微型化与高稳定萃取，解决移
 - [随身咖啡馆：便携咖啡设备的革新与生活美学](/posts/2025-05-30-181830-sui-shen-ka-pei-guan-bian-xi-ka-pei-she-bei-de-ge-867236cf/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

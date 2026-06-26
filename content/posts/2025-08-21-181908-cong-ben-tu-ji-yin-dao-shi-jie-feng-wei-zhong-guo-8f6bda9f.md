@@ -86,3 +86,9 @@ description: "中国新兴咖啡品牌正借本土基因、云南咖啡豆与在
 - [本土觉醒与风味革命：解码中国新兴咖啡品牌的叙事之道](/posts/2025-04-29-182255-ben-tu-jue-xing-yu-feng-wei-ge-ming-jie-ma-zhong-g-ea794885/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

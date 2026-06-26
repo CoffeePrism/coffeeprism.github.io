@@ -106,3 +106,9 @@ description: "支持可持续咖啡未来，关键在于选择具备有机、雨
 - [从豆到杯的绿色革命：中国咖啡爱好者如何用日常选择支持可持续咖啡](/posts/2025-04-20-181813-cong-dou-dao-bei-de-lu-se-ge-ming-zhong-guo-ka-pei-60dee454/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

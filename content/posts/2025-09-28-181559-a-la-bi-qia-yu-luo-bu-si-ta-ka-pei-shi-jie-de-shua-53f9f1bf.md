@@ -76,3 +76,9 @@ description: "选阿拉比卡还是罗布斯塔？看风味、咖啡因、种植
 - [阿拉比卡与罗布斯塔：解码咖啡世界的双生密码](/posts/2025-05-17-060408-mo-ren-biao-ti-e987d324/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -88,3 +88,9 @@ description: "咖啡秤是精品咖啡稳定出杯与精准控味的关键工具
 - [咖啡秤：从称量到风味的科学艺术](/posts/2025-05-17-055340-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-e04a1c02/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

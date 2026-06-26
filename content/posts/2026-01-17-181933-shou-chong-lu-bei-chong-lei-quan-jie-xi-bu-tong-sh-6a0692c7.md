@@ -112,3 +112,7 @@ author: "Coffee Prism"
 - [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

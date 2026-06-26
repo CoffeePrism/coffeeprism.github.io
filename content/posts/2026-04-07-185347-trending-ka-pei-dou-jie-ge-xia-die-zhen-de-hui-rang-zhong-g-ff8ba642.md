@@ -145,3 +145,9 @@ Seesaw、M Stand 这类更强调空间体验、品牌调性和精品属性的品
 - [Philz Coffee 撤下 Pride 旗帜：一场品牌公关危机，如何暴露咖啡连锁价值观管理的真正难题](/posts/philz-coffee-che-xia-pride-qi-zhi-yi-chang-pin-pai/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

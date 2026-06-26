@@ -114,3 +114,9 @@ AA并非品种名称，而是肯尼亚独创的咖啡豆分级标准：
 - [肯尼亚AA咖啡豆：东非高原的黑色宝石与它的风味密码](/posts/2025-09-01-181721-ken-ni-ya-aaka-pei-dou-dong-fei-gao-yuan-de-hei-se-c6d39d69/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

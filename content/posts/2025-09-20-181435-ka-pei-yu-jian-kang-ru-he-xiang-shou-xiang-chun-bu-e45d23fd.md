@@ -103,3 +103,9 @@ description: "咖啡会影响睡眠，但掌握咖啡因摄入量、饮用时间
 - [《咖啡因唤醒的代谢革命：科学解读咖啡如何影响你的身体能量密码》](/posts/2025-04-25-181811-ka-pei-yin-huan-xing-de-dai-xie-ge-ming-ke-xue-jie-d10339c1/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

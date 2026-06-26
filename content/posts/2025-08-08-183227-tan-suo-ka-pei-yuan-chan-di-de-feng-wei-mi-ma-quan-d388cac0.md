@@ -82,3 +82,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-06-23-182210-tan-suo-ka-pe
 - [单一产地咖啡豆的风味特点：从入门到精通的实用宝典](/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-cong-594b05d0/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

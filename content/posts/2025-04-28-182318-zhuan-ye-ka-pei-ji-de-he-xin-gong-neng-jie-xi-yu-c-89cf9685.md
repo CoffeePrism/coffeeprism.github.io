@@ -62,3 +62,7 @@ description: "专业咖啡机的核心在于稳定萃取温度、精准泵压与
 - [从萃取艺术到机器养护：专业咖啡机的全方位指南](/posts/2025-06-30-181842-cong-cui-qu-yi-zhu-dao-ji-qi-yang-hu-zhuan-ye-ka-p-2a889cff/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

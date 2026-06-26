@@ -71,3 +71,7 @@ description: "咖啡烘焙的进化史，始于埃塞俄比亚火塘与陶罐的
 - [咖啡烘焙技术的历史发展：从火堆到智能烘焙的全景解读](/posts/2026-01-24-181959-ka-pei-hong-bei-ji-zhu-de-li-shi-fa-zhan-cong-huo-af08cfed/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

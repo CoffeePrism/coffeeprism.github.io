@@ -67,3 +67,9 @@ description: "咖啡如何连接六大洲文明？这篇咖啡文化文章从埃
 - [咖啡文明之旅：全球咖啡仪式中的生活哲学](/posts/2025-09-24-181956-ka-pei-wen-ming-zhi-lu-quan-qiu-ka-pei-yi-shi-zhon-f8d55ebe/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

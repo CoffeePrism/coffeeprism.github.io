@@ -134,3 +134,7 @@ author: "Coffee Prism"
 - [公平贸易咖啡的影响与挑战：从产地到杯中的伦理抉择](/posts/2025-11-08-181746-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-81bdf11d/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

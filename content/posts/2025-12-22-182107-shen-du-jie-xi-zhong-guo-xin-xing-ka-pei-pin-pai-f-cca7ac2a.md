@@ -132,3 +132,7 @@ author: "Coffee Prism"
 - [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

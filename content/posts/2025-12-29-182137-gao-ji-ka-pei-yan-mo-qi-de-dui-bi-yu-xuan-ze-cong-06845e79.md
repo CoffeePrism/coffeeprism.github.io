@@ -111,3 +111,9 @@ author: "Coffee Prism"
 - [家用咖啡设备的最佳组合完全攻略与选购指南](/posts/jia-yong-ka-pei-she-bei-de-zui-jia-zu-he-wan-quan/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

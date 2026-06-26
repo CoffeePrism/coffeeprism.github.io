@@ -57,3 +57,7 @@ description: "一杯咖啡如何串联全球风味地图？答案藏在产区、
 - [深度指南：结合咖啡的美食之旅的完整实践手册](/posts/2026-01-21-183340-shen-du-zhi-nan-jie-he-ka-pei-de-mei-shi-zhi-lu-de-1321072f/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

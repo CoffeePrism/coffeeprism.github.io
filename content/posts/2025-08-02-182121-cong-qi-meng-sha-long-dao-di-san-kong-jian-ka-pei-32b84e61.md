@@ -51,3 +51,9 @@ description: "咖啡馆正通过第三空间重塑中国人的社交DNA，从启
 - [从第三空间到多功能场景：咖啡馆在中国社交与工作文化中的进化](/posts/2025-09-03-181958-cong-di-san-kong-jian-dao-duo-gong-neng-chang-jing-1994abf2/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

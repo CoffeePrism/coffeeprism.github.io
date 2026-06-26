@@ -66,3 +66,9 @@ description: "爱乐压的创意冲煮法则在于利用空气压力与浸泡压
 - [解锁咖啡新维度：爱乐压的进阶玩法与本土化实践](/posts/2025-06-24-181919-jie-suo-ka-pei-xin-wei-du-ai-le-ya-de-jin-jie-wan-092b1bf5/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -90,3 +90,7 @@ description: "中国咖啡爱好者可通过选择可持续咖啡、自带杯、
 - [从豆到杯的绿色革命：中国咖啡爱好者如何用日常选择支持可持续咖啡](/posts/2025-04-20-181813-cong-dou-dao-bei-de-lu-se-ge-ming-zhong-guo-ka-pei-60dee454/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

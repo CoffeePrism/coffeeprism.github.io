@@ -119,3 +119,7 @@ author: "Coffee Prism"
 - [咖啡旅行中的文化体验：从产地到杯中的沉浸之旅](/posts/2025-11-04-181921-ka-pei-lu-xing-zhong-de-wen-hua-ti-yan-cong-chan-d-d3ee01e5/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

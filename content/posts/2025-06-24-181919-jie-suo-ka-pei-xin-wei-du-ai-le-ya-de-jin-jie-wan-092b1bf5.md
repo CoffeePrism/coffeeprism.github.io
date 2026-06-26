@@ -60,3 +60,9 @@ description: "爱乐压的进阶玩法在于通过压力、研磨与时间参数
 - [解锁咖啡新维度：爱乐压的九种颠覆性玩法与本土化实践](/posts/2025-07-28-182137-jie-suo-ka-pei-xin-wei-du-ai-le-ya-de-jiu-chong-di-e5f8ac49/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

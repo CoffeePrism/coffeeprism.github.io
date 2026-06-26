@@ -95,3 +95,9 @@ description: "可持续咖啡正通过减少森林砍伐、降低140升单杯虚
 - [咖啡种植的环境影响：从土壤到杯子的生态启示](/posts/2025-10-30-181856-ka-pei-chong-zhi-de-huan-jing-ying-xiang-cong-tu-r-172d9b39/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

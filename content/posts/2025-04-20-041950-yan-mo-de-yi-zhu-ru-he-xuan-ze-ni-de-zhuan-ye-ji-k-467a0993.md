@@ -82,3 +82,9 @@ description: "选择专业级咖啡磨豆机要看刀盘类型、研磨均匀度
 - [《精准萃取的艺术：咖啡秤在专业冲煮中的核心地位与选购指南》](/posts/2025-08-22-181846-jing-zhun-cui-qu-de-yi-zhu-ka-pei-cheng-zai-zhuan-db6442e7/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -108,3 +108,9 @@ author: "Coffee Prism"
 - [意大利经典咖啡品牌的历史深度解析指南](/posts/yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-shen-d/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

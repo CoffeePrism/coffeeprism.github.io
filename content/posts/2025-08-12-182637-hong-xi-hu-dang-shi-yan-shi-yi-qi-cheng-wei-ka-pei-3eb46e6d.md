@@ -60,3 +60,9 @@ description: "虹吸壶是一种利用气压差与精准控温完成萃取、兼
 - [虹吸壶的科学与艺术：从实验室到咖啡桌的完全指南](/posts/2025-10-23-181927-hong-xi-hu-de-ke-xue-yu-yi-zhu-cong-shi-yan-shi-da-4b540edc/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -206,3 +206,9 @@ news_source: "https://news.google.com/rss/articles/CBMixgFBVV95cUxONXB3WTZHVFJHa
 - [Lavazza中国扩张与全球咖啡品牌竞争：美国、中国双线加码，下一轮市场洗牌已经开始](/posts/lavazzazhong-guo-kuo-zhang-yu-quan-qiu-ka-pei-pin/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

@@ -104,3 +104,9 @@ author: "Coffee Prism"
 - [北欧咖啡文化与品牌特色深度解析指南](/posts/bei-ou-ka-pei-wen-hua-yu-pin-pai-te-se-shen-du-jie/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

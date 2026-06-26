@@ -199,3 +199,7 @@ Seesaw、M Stand 以及一批新消费精品咖啡品牌，则面临另一种机
 - [咖啡价格上涨正在成为新常态：气候变化如何重塑全球咖啡供应链与中国市场](/posts/ka-pei-jie-ge-shang-zhang-zheng-zai-cheng-wei-xin/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

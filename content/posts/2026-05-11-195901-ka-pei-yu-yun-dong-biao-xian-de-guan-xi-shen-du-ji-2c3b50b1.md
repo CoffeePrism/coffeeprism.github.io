@@ -259,3 +259,9 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-yu-yun-dong-biao-xian-de
 - [咖啡对心脏健康的影响深度解析指南](/posts/ka-pei-dui-xin-zang-jian-kang-de-ying-xiang-shen-d/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

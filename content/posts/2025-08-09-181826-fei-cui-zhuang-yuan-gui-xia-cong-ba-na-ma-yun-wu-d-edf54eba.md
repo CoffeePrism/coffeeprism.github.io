@@ -57,3 +57,7 @@ description: "翡翠庄园瑰夏之所以成为咖啡传奇，在于它以巴拿
 - [翡翠庄园瑰夏：解密咖啡界的香槟传奇](/posts/2025-07-17-182120-fei-cui-zhuang-yuan-gui-xia-jie-mi-ka-pei-jie-de-x-0709d9fa/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

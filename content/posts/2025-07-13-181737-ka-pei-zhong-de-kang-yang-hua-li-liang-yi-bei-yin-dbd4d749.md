@@ -100,3 +100,7 @@ description: "咖啡中的抗氧化物质确实是其健康价值的重要来源
 - [咖啡中的抗氧化物质研究深度解析指南](/posts/ka-pei-zhong-de-kang-yang-hua-wu-zhi-yan-jiu-shen/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

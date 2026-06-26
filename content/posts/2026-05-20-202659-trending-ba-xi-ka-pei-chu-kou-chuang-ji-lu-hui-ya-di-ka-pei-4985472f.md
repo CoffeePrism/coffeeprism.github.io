@@ -196,3 +196,7 @@ news_source: "https://news.google.com/rss/articles/CBMipwFBVV95cUxPU1o1eUZOcXUtY
 - [Philz Coffee 品牌舆情危机：当咖啡连锁价值观进入门店公共空间的治理战场](/posts/philz-coffee-pin-pai-yu-qing-wei-ji-dang-ka-pei-li/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

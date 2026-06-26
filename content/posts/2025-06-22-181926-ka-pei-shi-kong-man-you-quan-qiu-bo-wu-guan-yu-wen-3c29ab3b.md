@@ -47,3 +47,7 @@ description: "全球咖啡博物馆与文化中心值得去吗？值得，这是
 - [咖啡文明之旅：全球博物馆与文化中心的沉浸式体验](/posts/2025-04-18-201347-ka-pei-wen-ming-zhi-lu-quan-qiu-bo-wu-guan-yu-wen-b8259582/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

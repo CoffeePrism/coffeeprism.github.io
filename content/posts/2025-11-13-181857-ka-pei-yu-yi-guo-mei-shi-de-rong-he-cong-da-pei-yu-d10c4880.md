@@ -91,3 +91,7 @@ author: "Coffee Prism"
 - [意大利经典咖啡品牌的历史：浓缩文明与商业智慧的完美交融](/posts/2025-10-31-181930-yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-nong-s-6d061ed7/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

@@ -90,3 +90,7 @@ description: "公平贸易正通过最低保障价、社区发展金与环保认
 - [公平贸易咖啡的影响与挑战：从产地到杯中的完整指南](/posts/2025-11-20-181951-gong-ping-mao-yi-ka-pei-de-ying-xiang-yu-tiao-zhan-bb03e787/)
 
 <!-- related-reading-end -->
+
+---
+
+> 📘 **想系统学手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/) — 22000 字深度内容，6 个 WBrC 冠军配方详解，萃取动力学 + 故障诊断。一次购买，终身下载，7 天无理由退款。

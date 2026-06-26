@@ -166,3 +166,7 @@ howto:
 - [咖啡在烹饪中的创新应用：从调味到烘焙的完整指南](/posts/2025-12-24-182029-ka-pei-zai-peng-ren-zhong-de-chuang-xin-ying-yong-26356fba/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

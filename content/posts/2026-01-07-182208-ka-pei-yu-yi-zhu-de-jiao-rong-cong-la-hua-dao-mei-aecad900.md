@@ -125,3 +125,7 @@ author: "Coffee Prism"
 - [拉花技巧与艺术表达：从基础到大师的创作指南](/posts/2025-11-28-181831-la-hua-ji-qiao-yu-yi-zhu-biao-da-cong-ji-chu-dao-d-e5081b5e/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/) — 75 页、13 章、从咖啡豆到拉花全覆盖，含参数速查表。一次购买，终身下载，7 天无理由退款。

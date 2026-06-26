@@ -85,3 +85,9 @@ description: "咖啡通过咖啡因阻断腺苷受体、促进多巴胺释放，
 - [咖啡因唤醒大脑：解码咖啡与认知功能的科学真相](/posts/2025-04-24-181754-ka-pei-yin-huan-xing-da-nao-jie-ma-ka-pei-yu-ren-z-e6f8927d/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

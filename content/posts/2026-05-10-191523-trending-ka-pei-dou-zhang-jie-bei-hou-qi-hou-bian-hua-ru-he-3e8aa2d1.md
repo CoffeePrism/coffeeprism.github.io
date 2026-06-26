@@ -218,3 +218,9 @@ Rainforest Alliance、Fairtrade 等可持续体系并不能直接解决所有气
 - [Lavazza加码中国咖啡市场与美国扩张：全球咖啡竞争进入“规模、价格与品牌力”三重对决](/posts/lavazzajia-ma-zhong-guo-ka-pei-shi-chang-yu-mei-gu/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解

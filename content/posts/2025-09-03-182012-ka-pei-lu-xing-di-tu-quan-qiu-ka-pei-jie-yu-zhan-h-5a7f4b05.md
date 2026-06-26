@@ -81,3 +81,9 @@ description: "全球咖啡旅行该去哪里？这份全球咖啡节与展会指
 - [咖啡旅行者的全球地图：探索世界顶级咖啡节与展会的沉浸式指南](/posts/2025-09-26-181601-ka-pei-lu-xing-zhe-de-quan-qiu-di-tu-tan-suo-shi-j-9413340e/)
 
 <!-- related-reading-end -->
+
+---
+
+> ☕ **Coffee Prism 精品电子书**
+> - [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 全面型，75 页，13 章
+> - [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 专精型，58 页，冠军配方详解
