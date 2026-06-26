@@ -8,6 +8,11 @@ buildDrafts = false
 buildFuture = false
 buildExpired = false
 
+# 中文摘要：Hugo 默认按英文单词 split，中文没空格会把整篇当作 1 个单词。
+# 启用 CJK 让 .Summary 按字符截断。
+hasCJKLanguage = true
+summaryLength = 80
+
 [minify]
   disableXML = true
   minifyOutput = true
@@ -51,10 +56,12 @@ buildExpired = false
     visibility = ["list", "post"]
 
   [Params.sidebar]
+    # niche 站最佳实践：文章页和 pillar 页 NO sidebar（更宽阅读区）
+    # 只有首页保留 sidebar 展示热门 + PDF 推荐
     home = "right"
-    list = "right"
-    single = "right"
-    widgets = ["search", "recent", "categories", "taglist", "social"]
+    list = false
+    single = false
+    widgets = ["search", "recent", "categories", "social"]
 
   [Params.widgets]
     recent_num = 5
@@ -63,49 +70,63 @@ buildExpired = false
 
   [Params.widgets.social]
 
+# 主导航按用户「意图」排，5 项不杂
 [[menu.main]]
-identifier = "categories"
-name = "分类"
-url = "/categories/"
+identifier = "brewing-methods"
+name = "冲煮方法"
+url = "/brewing-methods/"
 weight = 10
 
 [[menu.main]]
-identifier = "tags"
-name = "标签"
-url = "/tags/"
+identifier = "coffee-beans"
+name = "咖啡豆"
+url = "/coffee-beans/"
 weight = 20
 
 [[menu.main]]
-identifier = "coffee-beans"
-name = "咖啡豆种类"
-url = "/coffee-beans/"
+identifier = "coffee-equipment"
+name = "咖啡器具"
+url = "/coffee-equipment/"
 weight = 30
 
 [[menu.main]]
-identifier = "brewing-methods"
-name = "冲泡方式"
-url = "/brewing-methods/"
+identifier = "health"
+name = "咖啡与健康"
+url = "/health/"
 weight = 40
 
 [[menu.main]]
-identifier = "coffee-equipment"
-name = "咖啡产品"
-url = "/coffee-equipment/"
+identifier = "guides"
+name = "📘 电子书"
+url = "/guide/comprehensive/"
 weight = 50
 
-[[menu.main]]
+# 把次要入口放底部菜单（footer 渲染），保留可访问性但不挤占主导航
+[[menu.footer]]
 identifier = "trending"
 name = "热点分析"
 url = "/categories/咖啡热点分析/"
-weight = 55
+weight = 10
 
-[[menu.main]]
+[[menu.footer]]
+identifier = "categories"
+name = "全部分类"
+url = "/categories/"
+weight = 20
+
+[[menu.footer]]
+identifier = "tags"
+name = "标签"
+url = "/tags/"
+weight = 30
+
+[[menu.footer]]
 identifier = "about"
 name = "关于我们"
 url = "/about/"
-weight = 60
+weight = 40
 
-[[menu.main]]
+[[menu.footer]]
 identifier = "contact"
 name = "联系我们"
 url = "/contact/"

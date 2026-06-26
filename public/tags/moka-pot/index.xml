@@ -1,24 +1,19 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
 <rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Moka Pot on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/tags/moka-pot/</link>
-		<description>Recent content in Moka Pot on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/tags/moka-pot/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
-				<link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
-				<description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;&#xA;&lt;h2 id=&#34;摩卡壶--espresso&#34;&gt;摩卡壶 ≠ Espresso&lt;/h2&gt;&#xA;&lt;p&gt;很多人以为摩卡壶能做 espresso，&lt;strong&gt;这是误解&lt;/strong&gt;：&lt;/p&gt;&#xA;&lt;table&gt;&#xA;&#x9;&lt;thead&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;维度&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;Moka Pot&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;th&gt;真正的 Espresso&lt;/th&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/thead&gt;&#xA;&#x9;&lt;tbody&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;压力&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;约 1.5 bar&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;9 bar&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;萃取时间&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;3-4 分钟&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;25-30 秒&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;温度&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;接近 100°C&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;90-95°C&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;crema&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;极少&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;厚实&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&#x9;&#x9;&lt;tr&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;&lt;strong&gt;风味&lt;/strong&gt;&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;浓郁但偏苦&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&#x9;&#x9;&lt;td&gt;浓郁且层次清晰&lt;/td&gt;&#xA;&#x9;&#x9;&#x9;&lt;/tr&gt;&#xA;&#x9;&lt;/tbody&gt;&#xA;&lt;/table&gt;&#xA;&lt;p&gt;&lt;strong&gt;摩卡壶的咖啡不能直接做拉花&lt;/strong&gt;——crema 太薄。但它非常适合喝单杯浓咖啡或者加奶做家庭版&amp;quot;拿铁&amp;quot;。&lt;/p&gt;&#xA;&lt;h2 id=&#34;绝大多数人在-bialetti-上踩的-3-个坑&#34;&gt;绝大多数人在 Bialetti 上踩的 3 个坑&lt;/h2&gt;&#xA;&lt;h3 id=&#34;1-用冷水&#34;&gt;1. 用冷水&lt;/h3&gt;&#xA;&lt;p&gt;冷水让金属底壶在加热过程中&lt;strong&gt;长时间停留在 50-80°C&lt;/strong&gt;，咖啡粉会被这个不够热也不算冷的水&amp;quot;焖煮&amp;quot;，产生苦涩味。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;解决&lt;/strong&gt;：用 60-70°C 热水起步。&lt;/p&gt;&#xA;&lt;h3 id=&#34;2-大火快煮&#34;&gt;2. 大火快煮&lt;/h3&gt;&#xA;&lt;p&gt;大火让蒸汽压力暴涨，水流冲过粉床过快+不均匀，且容易把咖啡&amp;quot;喷出&amp;quot;出现烧糊味。&lt;/p&gt;&#xA;&lt;p&gt;&lt;strong&gt;解决&lt;/strong&gt;：中小火（燃气炉「中火偏小」），让萃取时间拉到 3-4 分钟。&lt;/p&gt;&#xA;&lt;h3 id=&#34;3-听到滋滋声还不离火&#34;&gt;3. 听到滋滋声还不离火&lt;/h3&gt;&#xA;&lt;p&gt;底壶水耗尽后，留下的就是&lt;strong&gt;纯蒸汽穿过咖啡粉&lt;/strong&gt;——这一刻萃出的全是焦苦物质，且会在杯里盖过前面的好风味。&lt;/p&gt;</description>
-			</item>
-	</channel>
+  <channel>
+    <title>Moka Pot on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/tags/moka-pot/</link>
+    <description>Recent content in Moka Pot on Coffee Prism</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/tags/moka-pot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
+      <link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
+      <description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;</description>
+    </item>
+  </channel>
 </rss>

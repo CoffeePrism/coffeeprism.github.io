@@ -70,3 +70,4 @@ worker/.dev.vars
 # Python
 scripts/__pycache__/
 *.pyc
+.audit/

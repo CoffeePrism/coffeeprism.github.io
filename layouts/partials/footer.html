@@ -1,0 +1,18 @@
+<footer class="footer">
+	<div class="container footer__container">
+		<div class="footer-brand">COFFEE PRISM · COFFEEPRISM.COM</div>
+		{{- with .Site.Menus.footer }}
+		<nav class="footer-menu" aria-label="次要导航">
+			{{- range . }}
+			<a href="{{ .URL }}">{{ .Name }}</a>
+			{{- end }}
+		</nav>
+		{{- end }}
+		<div class="footer__copyright">
+			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }} · 用科学理解咖啡，用实操掌握它
+		</div>
+		<div class="footer-small">
+			{{ T "footer_credits" | safeHTML }}
+		</div>
+	</div>
+</footer>

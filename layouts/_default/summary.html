@@ -1,0 +1,28 @@
+{{/*
+  Card-style article summary used by list pages (home / category / tag).
+  Overrides Mainroad's default which dumps .Summary (= 整篇 for CJK).
+  Uses .Description (set in frontmatter by generator) for predictable excerpt.
+*/}}
+<article class="card-item">
+  <header class="card-header">
+    {{- with .Params.categories }}
+    {{- $cat := index . 0 }}
+    <a class="card-category" href="/categories/{{ $cat | urlize }}/">{{ $cat }}</a>
+    {{- end }}
+    <h2 class="card-title">
+      <a href="{{ .RelPermalink }}" rel="bookmark">{{ .Title }}</a>
+    </h2>
+  </header>
+  <div class="card-excerpt">
+    {{- with .Description -}}
+      {{ . | plainify | truncate 140 "…" }}
+    {{- else -}}
+      {{ .Summary | plainify | truncate 140 "…" }}
+    {{- end -}}
+  </div>
+  <footer class="card-footer">
+    <time class="card-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
+    <span class="card-readtime">{{ .ReadingTime }} 分钟阅读</span>
+    <a class="card-readmore" href="{{ .RelPermalink }}">阅读全文 →</a>
+  </footer>
+</article>
