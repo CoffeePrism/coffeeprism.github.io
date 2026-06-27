@@ -715,14 +715,42 @@ a:hover { color: var(--cp-coffee-dark); }
 }
 
 /* === AdSense 视觉边界 === */
+.ad-in-article {
+  margin: 2.5rem 0;
+  padding: 1.25rem;
+  background: var(--cp-cream);
+  border: 1px solid var(--cp-line);
+  border-radius: 12px;
+  position: relative;
+  min-height: 100px;
+}
+.ad-in-article::before {
+  content: "推广内容";
+  position: absolute;
+  top: -10px;
+  left: 16px;
+  background: #fff;
+  color: var(--cp-text-mute);
+  font-size: 0.7rem;
+  letter-spacing: 1.5px;
+  padding: 2px 10px;
+  border: 1px solid var(--cp-line);
+  border-radius: 99px;
+  text-transform: uppercase;
+}
 ins.adsbygoogle {
   display: block !important;
-  margin: 2rem auto !important;
-  max-width: 100%;
+  min-height: 90px;
+  background: transparent;
+}
+/* Auto-ads injected by AdSense outside our container — still mark them */
+.post__content > ins.adsbygoogle,
+.content > ins.adsbygoogle {
+  margin: 1.75rem auto !important;
+  padding: 0.5rem;
   background: var(--cp-cream);
   border: 1px dashed var(--cp-line);
   border-radius: 8px;
-  min-height: 60px;
 }
 
 /* === 图片 === */

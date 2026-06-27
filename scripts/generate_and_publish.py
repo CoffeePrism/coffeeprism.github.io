@@ -221,31 +221,81 @@ def get_recent_subtopics(days=60):
     return seen
 
 
+def get_category_counts(days=14):
+    """统计最近 N 天每个类目发了多少篇文章（按 frontmatter date）。
+    用于平衡选题——优先给冷门类目补内容。"""
+    import datetime as _dt
+    cutoff = _dt.date.today() - _dt.timedelta(days=days)
+    counts = {t["title"]: 0 for t in COFFEE_TOPICS}
+    for p in Path("content/posts").glob("*.md"):
+        try:
+            with open(p, encoding="utf-8") as f:
+                head = f.read(800)
+        except Exception:
+            continue
+        dm = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', head, re.M)
+        if not dm:
+            continue
+        try:
+            d = _dt.date.fromisoformat(dm.group(1))
+        except ValueError:
+            continue
+        if d < cutoff:
+            continue
+        cm = re.search(r'^categories:\s*\["([^"]+)"', head, re.M)
+        if cm and cm.group(1) in counts:
+            counts[cm.group(1)] += 1
+    return counts
+
+
 def select_random_coffee_topics(count=2):
-    """随机选择指定数量的咖啡主题及子主题，自动去重最近 60 天已写过的。"""
+    """选 count 个 (category, subtopic)，自动：
+    1. 跳过最近 60 天已覆盖的 (category, subtopic) 对
+    2. 优先选最近 14 天文章数最少的类目（保证主题平衡）
+    """
     recent = get_recent_subtopics(days=60)
+    cat_counts = get_category_counts(days=14)
+
     if recent:
         print(f"📋 最近 60 天已覆盖 {len(recent)} 个 (类目, 子主题) 组合，将自动跳过")
+    print(f"📊 最近 14 天类目分布: {dict(sorted(cat_counts.items(), key=lambda x: -x[1]))}")
 
-    # 构建可用 pool（过滤掉最近写过的）
-    available = []
+    # 给每个类目按"最近发文少"排优先级
+    min_count = min(cat_counts.values()) if cat_counts else 0
+    underrepresented = [t for t, n in cat_counts.items() if n <= min_count + 1]
+
+    # 构建可用 pool，权重倾向冷门类目
+    weighted_pool = []
     for topic in COFFEE_TOPICS:
+        is_under = topic["title"] in underrepresented
+        weight = 3 if is_under else 1
         for sub in topic["subtopics"]:
             if (topic["title"], sub) not in recent:
-                available.append({
-                    "main_topic": topic["title"],
-                    "specific_topic": sub,
-                })
+                for _ in range(weight):  # 冷门类目放 3 份进池
+                    weighted_pool.append({
+                        "main_topic": topic["title"],
+                        "specific_topic": sub,
+                    })
 
-    if not available:
-        # Pool exhausted (recent 60 days touched everything), fall back to random
+    if not weighted_pool:
         print("⚠️  所有主题都被覆盖过，回退到完全随机选择")
-        available = [
+        weighted_pool = [
             {"main_topic": t["title"], "specific_topic": s}
             for t in COFFEE_TOPICS for s in t["subtopics"]
         ]
 
-    return random.sample(available, min(count, len(available)))
+    # 随机抽 count 个不同的 (category, subtopic)
+    selected = []
+    seen_pairs = set()
+    attempts = 0
+    while len(selected) < count and attempts < count * 50:
+        attempts += 1
+        cand = random.choice(weighted_pool)
+        key = (cand["main_topic"], cand["specific_topic"])
+        if key not in seen_pairs:
+            seen_pairs.add(key)
+            selected.append(cand)
+    return selected
 
 
 # Topic → pillar URL mapping. New articles get a pillar link injected at top.
@@ -1441,53 +1491,78 @@ def inject_related_for_latest(title):
             continue
 
 
+def _count_recent_trending(days=7):
+    """计 N 天内已经发布的 trending 文章数。用于限频。"""
+    import datetime as _dt
+    cutoff = _dt.date.today() - _dt.timedelta(days=days)
+    count = 0
+    for p in Path("content/posts").glob("*-trending-*.md"):
+        try:
+            with open(p, encoding="utf-8") as f:
+                head = f.read(400)
+            dm = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', head, re.M)
+            if not dm:
+                continue
+            d = _dt.date.fromisoformat(dm.group(1))
+            if d >= cutoff:
+                count += 1
+        except Exception:
+            continue
+    return count
+
+
+TRENDING_QUOTA_DAYS = 7
+TRENDING_QUOTA = 2  # 7 天内最多 2 篇热点分析
+REGULAR_ARTICLES_PER_RUN = 3
+
+
 def main():
     print("开始自动文章生成流程...")
 
     random.seed(time.time())
     articles_saved = 0
 
-    # ========== 第一阶段：热点新闻分析 ==========
+    # ========== 第一阶段：热点新闻分析（带配额）==========
     print("\n" + "=" * 60)
     print("=== 第一阶段：热点新闻抓取与分析 ===")
     print("=" * 60)
 
-    try:
-        news_items = fetch_coffee_news()
-        trending = evaluate_news_worthiness(news_items)
+    recent_trending = _count_recent_trending(days=TRENDING_QUOTA_DAYS)
+    print(f"📊 最近 {TRENDING_QUOTA_DAYS} 天 trending 文章数: {recent_trending} / 配额 {TRENDING_QUOTA}")
 
-        if trending:
-            print(f"\n🔥 发现值得分析的热点: {trending['title'][:60]}")
-            trending_content = generate_trending_article(trending)
-
-            if trending_content:
-                # 处理Amazon链接
-                try:
-                    trending_content = validate_and_update_amazon_links(trending_content)
-                except Exception as e:
-                    print(f"⚠️  处理热点文章链接时出错 (非致命): {e}")
-
-                # 保存热点文章
-                if save_trending_article(trending_content, trending):
-                    articles_saved += 1
-                    print("✅ 热点分析文章发布成功！")
+    if recent_trending >= TRENDING_QUOTA:
+        print(f"🚫 已达 trending 配额，跳过热点分析（保持主题多样性）")
+    else:
+        try:
+            news_items = fetch_coffee_news()
+            trending = evaluate_news_worthiness(news_items)
+            if trending:
+                print(f"\n🔥 发现值得分析的热点: {trending['title'][:60]}")
+                trending_content = generate_trending_article(trending)
+                if trending_content:
+                    try:
+                        trending_content = validate_and_update_amazon_links(trending_content)
+                    except Exception as e:
+                        print(f"⚠️  处理热点文章链接时出错 (非致命): {e}")
+                    if save_trending_article(trending_content, trending):
+                        articles_saved += 1
+                        print("✅ 热点分析文章发布成功！")
+                    else:
+                        print("❌ 热点文章保存失败")
                 else:
-                    print("❌ 热点文章保存失败")
+                    print("❌ 热点文章生成失败")
             else:
-                print("❌ 热点文章生成失败")
-        else:
-            print("\n📋 今日无重大热点，跳过热点分析")
+                print("\n📋 今日无重大热点，跳过热点分析")
+        except Exception as e:
+            print(f"⚠️  热点新闻流程出错 (非致命): {e}")
+            traceback.print_exc()
 
-    except Exception as e:
-        print(f"⚠️  热点新闻流程出错 (非致命): {e}")
-        traceback.print_exc()
-
-    # ========== 第二阶段：常规主题文章 ==========
+    # ========== 第二阶段：常规主题文章（数量↑、平衡选题） ==========
     print("\n" + "=" * 60)
-    print("=== 第二阶段：常规主题文章生成 ===")
+    print(f"=== 第二阶段：常规主题文章生成（目标 {REGULAR_ARTICLES_PER_RUN} 篇）===")
     print("=" * 60)
 
-    topics = select_random_coffee_topics(2)
+    topics = select_random_coffee_topics(REGULAR_ARTICLES_PER_RUN)
 
     for i, topic in enumerate(topics, 1):
         print(f"\n{'='*60}")

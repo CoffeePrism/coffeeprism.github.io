@@ -46,6 +46,17 @@ summaryLength = 80
   convertKitApiKey = "xq6f1Lkl52EuZgWihSR3Mw"
   convertKitTagId = "20668699"
 
+  # AdSense — 客户端 ID 已嵌在 baseof.html 里启用 Auto Ads。
+  # 下面的 slot 是"文章内"手动广告单元（In-article ad）—— 比 Auto Ad
+  # 的 RPM 高 30-50%，因为位置可控（紧贴正文中段）。
+  # 启用步骤：
+  #   1. AdSense Dashboard → Ads → By ad unit → Create new In-article ad
+  #   2. 拿到 data-ad-slot 数字（如 "1234567890"）
+  #   3. 把这里的占位 "" 改成那串数字
+  # 留空字符串则该位置不渲染广告（默认禁用，安全保底）。
+  adsenseClient = "ca-pub-2507974090472113"
+  adsenseInArticleSlot = ""
+
   [Params.style.vars]
 
   [Params.logo]

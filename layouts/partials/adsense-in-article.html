@@ -1,0 +1,25 @@
+{{/*
+  In-article AdSense unit — 仅在 site.Params.adsenseInArticleSlot 配置后渲染。
+  位置：文章正文之后，相关阅读 / 邮件捕获 之前。
+  RPM 比 Auto Ad 高 30-50%（因为位置可控、视觉契合内容）。
+
+  样式：
+  - 上方有「广告」标签（CSS）
+  - 浅米色边框 + 圆角，与文章卡片视觉一致
+  - 与正文有 2rem 间距，不打扰阅读
+*/}}
+{{- $slot := site.Params.adsenseInArticleSlot | default "" -}}
+{{- $client := site.Params.adsenseClient | default "ca-pub-2507974090472113" -}}
+{{- if and $slot (not (hasPrefix .RelPermalink "/guide/")) }}
+<div class="ad-in-article" aria-label="广告">
+  <ins class="adsbygoogle"
+       style="display:block; text-align:center;"
+       data-ad-layout="in-article"
+       data-ad-format="fluid"
+       data-ad-client="{{ $client }}"
+       data-ad-slot="{{ $slot }}"></ins>
+  <script>
+    (adsbygoogle = window.adsbygoogle || []).push({});
+  </script>
+</div>
+{{- end }}
