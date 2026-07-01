@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Home Espresso on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/en/tags/home-espresso/</link>
+    <description>Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/en/tags/home-espresso/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>How to Use a Moka Pot: Complete Stovetop Coffee Guide</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/moka-pot/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/moka-pot/</guid>
+      <description>A moka pot brews rich, espresso-style coffee using about 1.5 bar of steam pressure on your stovetop. Get the 6-step method, grind size, and bitterness fixes.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-moka-pot-guide">The Complete Moka Pot Guide</h1>
+<p>The moka pot was invented in Italy in 1933 by Alfonso Bialetti, and more than <strong>300 million</strong> units have been sold worldwide. It uses <strong>steam pressure (about 1.5 bar)</strong> to push hot water through a bed of finely ground coffee — the classic &ldquo;<strong>poor man&rsquo;s espresso</strong>&rdquo;: close to espresso in strength, at a fraction of the price.</p>
+<h2 id="moka-pot--espresso">Moka Pot ≠ Espresso</h2>
+<p>Many people assume a moka pot makes espresso. <strong>It doesn&rsquo;t</strong> — here&rsquo;s the difference:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Factor</th>
+					<th>Moka Pot</th>
+					<th>True Espresso</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Pressure</strong></td>
+					<td>~1.5 bar</td>
+					<td>9 bar</td>
+			</tr>
+			<tr>
+					<td><strong>Brew time</strong></td>
+					<td>3-4 minutes</td>
+					<td>25-30 seconds</td>
+			</tr>
+			<tr>
+					<td><strong>Temperature</strong></td>
+					<td>Close to 100°C (212°F)</td>
+					<td>90-95°C (194-203°F)</td>
+			</tr>
+			<tr>
+					<td><strong>Crema</strong></td>
+					<td>Minimal</td>
+					<td>Thick</td>
+			</tr>
+			<tr>
+					<td><strong>Flavor</strong></td>
+					<td>Rich but leans bitter</td>
+					<td>Rich with distinct layers</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Moka pot coffee won&rsquo;t work for latte art</strong> — the crema is far too thin. But it&rsquo;s excellent as a strong single cup, or topped with milk for a homemade &ldquo;latte.&rdquo;</p>
+<h2 id="the-3-mistakes-almost-everyone-makes-with-a-bialetti">The 3 Mistakes Almost Everyone Makes with a Bialetti</h2>
+<h3 id="1-starting-with-cold-water">1. Starting with cold water</h3>
+<p>Cold water forces the metal base to <strong>linger between 50-80°C (122-176°F)</strong> as it heats up, slowly &ldquo;stewing&rdquo; the coffee grounds in water that&rsquo;s neither hot nor cold — and that produces harsh, bitter flavors.</p>
+<p><strong>Fix</strong>: Start with water preheated to 60-70°C (140-158°F).</p>
+<h3 id="2-brewing-on-high-heat">2. Brewing on high heat</h3>
+<p>High heat makes steam pressure spike, pushing water through the coffee bed too fast and unevenly — and it can &ldquo;spit&rdquo; the coffee out with a burnt, scorched taste.</p>
+<p><strong>Fix</strong>: Use medium-low heat (just below medium on a gas stove) and let the brew take a full 3-4 minutes.</p>
+<h3 id="3-ignoring-the-hiss">3. Ignoring the hiss</h3>
+<p>Once the bottom chamber runs out of water, what&rsquo;s left is <strong>pure steam blasting through the coffee grounds</strong> — and everything extracted in that moment is scorched and bitter, drowning out all the good flavors that came before.</p>
+<p><strong>Fix</strong>: The instant the gurgle turns into a hiss, kill the heat — and ideally cool the base with a damp towel to stop extraction completely.</p>
+<h2 id="grind-size">Grind Size</h2>
+<p>Moka pot grind sits between <strong>espresso (fine as flour)</strong> and <strong>pour-over (medium-fine, like granulated sugar)</strong> — roughly <strong>a touch coarser than espresso, a touch finer than pour-over</strong>.</p>
+<p>If you own just one grinder, start from your pour-over setting and go 2-3 clicks finer.</p>
+<h2 id="troubleshooting-common-problems">Troubleshooting Common Problems</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Harsh and bitter</td>
+					<td>Heat too high / left on the stove too long</td>
+					<td>Medium-low heat + listen for the hiss</td>
+			</tr>
+			<tr>
+					<td>Burnt taste</td>
+					<td>High heat + over-extraction</td>
+					<td>Cool the base the moment you hear hissing</td>
+			</tr>
+			<tr>
+					<td>Very slow or no flow</td>
+					<td>Grind too fine / basket overfilled</td>
+					<td>Go 2 clicks coarser / never tamp the grounds</td>
+			</tr>
+			<tr>
+					<td>Sputtering</td>
+					<td>Heat too high</td>
+					<td>Medium-low heat</td>
+			</tr>
+			<tr>
+					<td>Weak, thin coffee</td>
+					<td>Grind too coarse / too little water</td>
+					<td>Grind finer + check the water level mark</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="best-beans-for-a-moka-pot">Best Beans for a Moka Pot</h2>
+<p>A moka pot isn&rsquo;t picky about beans, but it has preferences:</p>
+<ul>
+<li><strong>Medium-dark espresso blends</strong>: the classic choice, a natural match for its Italian roots</li>
+<li><strong>Brazil or Indonesian Mandheling</strong>: low acidity and heavy body, perfect for the moka pot&rsquo;s intense character</li>
+<li><strong>Skip these</strong>: light-roast Ethiopian and Kenyan — their bright, delicate acidity gets torched by the moka pot&rsquo;s near-boiling temperatures</li>
+</ul>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/espresso/">The Complete Espresso Guide</a></li>
+<li><a href="/en/coffee-beans/">The Complete Coffee Bean Guide</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

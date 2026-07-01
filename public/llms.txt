@@ -46,6 +46,19 @@
 - [为什么我们要做一本《咖啡冲煮完全指南》](https://www.coffeeprism.com/posts/complete-guide-launch/): 电子书创作理念
 - [《手冲咖啡大师之路》发售说明](https://www.coffeeprism.com/posts/pourover-deep-dive/): 手冲专精电子书的内容框架
 
+## English Guides (英文版)
+
+- [Coffee Brewing Methods](https://www.coffeeprism.com/en/brewing-methods/): Six brewing methods compared with reproducible parameters — pour-over, espresso, French press, AeroPress, moka pot, cold brew
+- [Pour-Over (V60) Guide](https://www.coffeeprism.com/en/brewing-methods/pour-over-v60/): Ratios, temperature, pouring technique and troubleshooting
+- [Espresso Guide](https://www.coffeeprism.com/en/brewing-methods/espresso/): 18g in / 36g out / 25-30s, pressure and milk drinks
+- [French Press Guide](https://www.coffeeprism.com/en/brewing-methods/french-press/): Immersion brewing parameters and body control
+- [AeroPress Guide](https://www.coffeeprism.com/en/brewing-methods/aeropress/): Standard and inverted methods with championship recipes
+- [Moka Pot Guide](https://www.coffeeprism.com/en/brewing-methods/moka-pot/): Heat control and bitterness prevention
+- [Cold Brew Guide](https://www.coffeeprism.com/en/brewing-methods/cold-brew/): Cold brew vs ice drip, steep times and ratios
+- [Coffee Beans Guide](https://www.coffeeprism.com/en/coffee-beans/): Arabica vs Robusta, 20+ origins, processing methods, roast levels
+- [Coffee Gear Guide](https://www.coffeeprism.com/en/coffee-equipment/): Grinders, drippers, machines and scales by budget tier
+- [Coffee & Health Guide](https://www.coffeeprism.com/en/health/): Caffeine metabolism, cardiovascular effects, sleep and antioxidants
+
 ## Optional
 
 - [关于我们](https://www.coffeeprism.com/about/): 站点定位与内容原则

@@ -1,0 +1,119 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Portable Coffee on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/en/tags/portable-coffee/</link>
+    <description>Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/en/tags/portable-coffee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AeroPress Guide: Standard, Inverted &amp; WAC Champion Recipes</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/aeropress/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/aeropress/</guid>
+      <description>The inverted method is the most reliable way to brew AeroPress: 15g coffee, 220g water at 90°C (194°F), steep 90 seconds, press for 30. WAC recipes included.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-aeropress-guide">The Complete AeroPress Guide</h1>
+<p>The AeroPress is a portable coffee maker invented by Aerobie in 2005. It combines two extraction methods in one device: <strong>immersion plus pressure filtration</strong>. It&rsquo;s cheap, packable, easy to clean, and remarkably forgiving — which makes it the best choice for <strong>travel, the office, camping, and business trips</strong>.</p>
+<p>It even has its own annual competition, the <strong>World AeroPress Championship (WAC)</strong>, which has produced a steady stream of inventive recipes.</p>
+<h2 id="standard-vs-inverted">Standard vs. Inverted</h2>
+<h3 id="standard-method">Standard method</h3>
+<ul>
+<li>Filter and cap sit at the bottom</li>
+<li>Add coffee, pour water, and drip-through starts immediately</li>
+<li>Downside: water drains while it steeps, so immersion time is hard to control</li>
+</ul>
+<h3 id="inverted-method-recommended">Inverted method (recommended)</h3>
+<ul>
+<li>Flip the whole AeroPress upside down, open end up</li>
+<li>Add coffee, pour water, let it <strong>fully immerse</strong> for 1–3 minutes</li>
+<li>Flip onto your cup, then press</li>
+<li><strong>Advantage: precise control over steep time</strong></li>
+</ul>
+<p>The vast majority of WAC-winning recipes use the inverted method.</p>
+<h2 id="three-go-to-recipes">Three Go-To Recipes</h2>
+<h3 id="1-beginner-recipe-light-and-balanced">1. Beginner recipe (light and balanced)</h3>
+<ul>
+<li>12g coffee / 200g water / 90°C (194°F) / medium grind / steep 1 minute / press for 30 seconds</li>
+</ul>
+<h3 id="2-concentrated-recipe-espresso-style-intensity">2. Concentrated recipe (espresso-style intensity)</h3>
+<ul>
+<li>18g coffee / 60g water / 85°C (185°F) / fine grind / steep 30 seconds / press quickly / dilute with 100g hot water</li>
+</ul>
+<h3 id="3-wac-style-champion-recipe-clean-distinct-flavors">3. WAC-style champion recipe (clean, distinct flavors)</h3>
+<ul>
+<li>15g coffee / 220g water / 88°C (190°F) / medium-fine grind / inverted steep 1:30 / flip and press for 30 seconds</li>
+</ul>
+<h2 id="what-makes-this-brewer-so-good">What Makes This Brewer So Good?</h2>
+<p><strong>It&rsquo;s absurdly forgiving.</strong> Even if your grind is off by 2 clicks, your water is 5°C off, or your timing slips by 30 seconds, you&rsquo;ll still pour a perfectly decent cup. No pour-over can promise that.</p>
+<p>The trade-off: you get <strong>less clarity and layered complexity than a V60 or Kalita</strong>. The AeroPress doesn&rsquo;t make the &ldquo;best&rdquo; coffee — it makes the <strong>most consistent</strong> coffee.</p>
+<h2 id="choosing-a-filter">Choosing a Filter</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Type</th>
+					<th>Characteristics</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>AeroPress bleached paper (stock)</strong></td>
+					<td>Cheapest, included in the box, neutral flavor</td>
+			</tr>
+			<tr>
+					<td><strong>AeroPress unbleached paper</strong></td>
+					<td>More eco-friendly, but a slight papery taste</td>
+			</tr>
+			<tr>
+					<td><strong>Metal filter (DISK / Able)</strong></td>
+					<td>More oils, fuller body, but some sediment in the cup</td>
+			</tr>
+			<tr>
+					<td><strong>Cafec / Aesir premium thick paper</strong></td>
+					<td>Cleaner flavor, about 30% more expensive</td>
+			</tr>
+	</tbody>
+</table>
+<p>For beginners, the stock bleached paper filters are all you need.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Too bitter</td>
+					<td>Steeped too long / water too hot</td>
+			</tr>
+			<tr>
+					<td>Too weak</td>
+					<td>Not enough coffee / grind too coarse</td>
+			</tr>
+			<tr>
+					<td>Too sour</td>
+					<td>Under-extraction / water too cool (below 88°C / 190°F)</td>
+			</tr>
+			<tr>
+					<td>Hard to press</td>
+					<td>Grind too fine — go 2 clicks coarser</td>
+			</tr>
+			<tr>
+					<td>Overflowing</td>
+					<td>Water poured past the chamber&rsquo;s max line</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/french-press/">The Complete French Press Guide</a></li>
+<li><a href="/en/coffee-beans/">The Complete Guide to Coffee Beans</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

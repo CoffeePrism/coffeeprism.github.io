@@ -1,0 +1,118 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coffee Brewing on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/en/tags/coffee-brewing/</link>
+    <description>Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/en/tags/coffee-brewing/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>French Press Guide: The Science of Immersion Brewing</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/french-press/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/french-press/</guid>
+      <description>A great French press uses a coarse grind, a 4-minute steep, and 95°C water at a 1:15 ratio. Learn the science behind full-bodied immersion brewing in 6 steps.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-french-press-guide">The Complete French Press Guide</h1>
+<p>The French press is the classic example of <strong>immersion brewing</strong>, and the core difference from <a href="/en/brewing-methods/pour-over-v60/">pour-over</a> (percolation) is this:</p>
+<ul>
+<li><strong>Pour-over</strong>: water flows through the coffee bed, contacting the grounds only briefly</li>
+<li><strong>French press</strong>: the grounds steep in the water for 4 minutes of continuous extraction</li>
+</ul>
+<p>That&rsquo;s what gives French press coffee its signature character: <strong>heavy oils, full flavor, and a thick, rich body</strong> — at the cost of <strong>lower clarity and muted acidity</strong>.</p>
+<h2 id="why-so-many-people-think-french-press-coffee-tastes-bad">Why So Many People Think French Press Coffee Tastes Bad</h2>
+<p>The three most common culprits:</p>
+<ol>
+<li><strong>Grind is too fine</strong>: the French press demands a <strong>coarse grind</strong> (1000-1200 microns). Grind finer and a flood of fines ends up in your cup as bitter sludge</li>
+<li><strong>Steeping too long</strong>: past 5 minutes, the brew over-extracts and turns bitter</li>
+<li><strong>Pressing too fast</strong>: it disturbs the coffee bed, creates channels, and lets the coffee below the mesh keep extracting</li>
+</ol>
+<h2 id="the-science-behind-the-4-minute-rule">The Science Behind the 4-Minute Rule</h2>
+<p>Why exactly 4 minutes?</p>
+<table>
+	<thead>
+			<tr>
+					<th>Time</th>
+					<th>What gets extracted</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0-1 min</td>
+					<td>Acids (citric, malic, quinic)</td>
+			</tr>
+			<tr>
+					<td>1-3 min</td>
+					<td>Sweetness (caramel, sucrose, lactic)</td>
+			</tr>
+			<tr>
+					<td>3-4 min</td>
+					<td>Body + some bitterness (chlorogenic acids)</td>
+			</tr>
+			<tr>
+					<td>4 min +</td>
+					<td>Mostly over-extracted bitterness</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Four minutes lands right in the sweet spot between sweetness and body.</strong></p>
+<h2 id="recommended-recipes">Recommended Recipes</h2>
+<h3 id="classic-115-recipe-strong">Classic 1:15 Recipe (Strong)</h3>
+<ul>
+<li>60g coffee / 900g water / 95°C (203°F) / 4 minutes</li>
+</ul>
+<h3 id="lighter-117-recipe">Lighter 1:17 Recipe</h3>
+<ul>
+<li>50g coffee / 850g water / 92°C (198°F) / 4 minutes</li>
+</ul>
+<h3 id="the-hoffmann-method-cleaner-cup">The Hoffmann Method (Cleaner Cup)</h3>
+<p>The technique popularized by James Hoffmann:</p>
+<ul>
+<li>When the 4 minutes are up, <strong>don&rsquo;t press</strong> — use a spoon to skim the crust and foam off the surface</li>
+<li>Let it rest another 5 minutes so the fines settle</li>
+<li>Then <strong>pour out only the top 70%</strong>, without pressing or stirring</li>
+</ul>
+<p>Clarity jumps a whole level, at the cost of some body.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Lots of sediment</td>
+					<td>Grind too fine</td>
+					<td>Go 2-3 clicks coarser</td>
+			</tr>
+			<tr>
+					<td>Too bitter</td>
+					<td>Steeped too long</td>
+					<td>Time it strictly at 4 minutes</td>
+			</tr>
+			<tr>
+					<td>No acidity</td>
+					<td>Water too cool</td>
+					<td>Use 95°C (203°F)</td>
+			</tr>
+			<tr>
+					<td>Thin body</td>
+					<td>Not enough coffee</td>
+					<td>Increase to a 1:15 ratio</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="/en/coffee-beans/">The Complete Coffee Bean Guide</a></li>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/espresso/">The Complete Espresso Guide</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

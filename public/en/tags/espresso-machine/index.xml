@@ -1,0 +1,121 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Espresso Machine on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/en/tags/espresso-machine/</link>
+    <description>Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/en/tags/espresso-machine/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Espresso Guide: From 9 Bar Basics to Home Machine Dial-In</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/espresso/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/espresso/</guid>
+      <description>Espresso is coffee brewed at 9 bar pressure, pushing hot water through fine grounds in 25-30 seconds. Get the modern recipe, dial-in steps, and troubleshooting.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-espresso-guide">The Complete Espresso Guide</h1>
+<p>Espresso isn&rsquo;t just another brewing method — it&rsquo;s a category of <strong>high-pressure concentrated extraction</strong>: roughly <strong>9 bar</strong> of pressure forces hot water through a bed of finely ground coffee, producing about 30ml of concentrate in <strong>25-30 seconds</strong>.</p>
+<p>It&rsquo;s the foundation of the <strong>latte, cappuccino, flat white, and macchiato</strong>.</p>
+<h2 id="the-9g--9-bar--9-seconds-rule-is-a-lie">The &ldquo;9g / 9 Bar / 9 Seconds&rdquo; Rule Is a Lie</h2>
+<p>Plenty of beginner tutorials teach espresso as &ldquo;9 grams in, 9 seconds out.&rdquo; <strong>That&rsquo;s a simplified spec from 1980s Italian commercial machines.</strong> Modern specialty coffee plays by different rules:</p>
+<ul>
+<li><strong>Dose</strong>: 18-22g (double shot), not 9g</li>
+<li><strong>Yield</strong>: around 32-40g of liquid</li>
+<li><strong>Time</strong>: 25-32 seconds</li>
+<li><strong>Pressure</strong>: 9 bar (this one hasn&rsquo;t changed)</li>
+<li><strong>Brew ratio</strong>: 1:2 to 1:2.5 (a lungo can stretch to 1:3)</li>
+</ul>
+<h2 id="the-core-variables-that-shape-a-shot">The Core Variables That Shape a Shot</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Variable</th>
+					<th>Effect</th>
+					<th>How to adjust</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Grind size</strong></td>
+					<td>The single biggest variable</td>
+					<td>Adjust whenever shot time falls outside 25-32 seconds</td>
+			</tr>
+			<tr>
+					<td><strong>Dose</strong></td>
+					<td>Determines puck depth</td>
+					<td>18-20g for a double is the sweet spot</td>
+			</tr>
+			<tr>
+					<td><strong>Water temperature</strong></td>
+					<td>Extraction efficiency</td>
+					<td>Light roast 94°C (201°F) / dark roast 90°C (194°F)</td>
+			</tr>
+			<tr>
+					<td><strong>Tamping pressure</strong></td>
+					<td>Affects channeling</td>
+					<td>13-15kg is plenty; pressing harder does nothing</td>
+			</tr>
+			<tr>
+					<td><strong>Bean freshness</strong></td>
+					<td>Crema thickness</td>
+					<td>7-21 days off roast is ideal</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="choosing-a-home-machine">Choosing a Home Machine</h2>
+<p>Avoid these two traps:</p>
+<ol>
+<li><strong>Cheap all-in-one machines</strong> (under ~$400) that bundle capsules, grinding, milk steaming, and extraction — the &ldquo;9 bar&rdquo; claim is marketing, and the water temperature is nowhere near stable</li>
+<li>Entry-level machines without <strong>PID temperature control</strong> — temperature drift means every shot tastes different</li>
+</ol>
+<p>Budget rule of thumb: <strong>put 60% of your total budget into the grinder</strong>, and the rest into the machine. A ~$400 grinder paired with a ~$700 machine will beat a ~$200 grinder paired with a ~$900 machine every time.</p>
+<h2 id="troubleshooting-common-problems">Troubleshooting Common Problems</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Shot runs too fast / thin and bitter</td>
+					<td>Grind too coarse or dose too low</td>
+					<td>Grind 1-2 steps finer, add 1g of coffee</td>
+			</tr>
+			<tr>
+					<td>Shot runs too slow / harsh and astringent</td>
+					<td>Grind too fine or dose too high</td>
+					<td>Grind 1-2 steps coarser, remove 1g of coffee</td>
+			</tr>
+			<tr>
+					<td>Thin crema</td>
+					<td>Stale beans or over-tamping</td>
+					<td>Use fresher beans, halve your tamping force</td>
+			</tr>
+			<tr>
+					<td>Channeling (one side flows faster)</td>
+					<td>Uneven distribution or a cracked puck</td>
+					<td>WDT plus careful, level distribution</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="what-you-need-for-latte-art">What You Need for Latte Art</h2>
+<p>To pour latte art you&rsquo;ll also need:</p>
+<ul>
+<li><strong>Milk pitcher</strong>: 300-600ml stainless steel (smaller pitchers are easier to control)</li>
+<li><strong>Thermometer</strong>: milk is at its best at 60-65°C (140-149°F)</li>
+<li><strong>Whole milk</strong>: 3.5%+ fat; the protein content determines foam stability</li>
+</ul>
+<p>Steaming technique: during the stretching phase (up to 50°C / 122°F), keep the steam wand tip about 0.5cm below the milk surface to build fine microfoam; during the texturing phase (50-65°C / 122-149°F), sink the wand deeper to create a whirlpool that turns the milk silky.</p>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/coffee-beans/">Coffee Beans 101</a> — the full journey from bean to cup</li>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

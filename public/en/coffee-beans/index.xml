@@ -1,0 +1,12 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coffee Bean Guide 2026: Species, Origins, Processing &amp; Roast on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/en/coffee-beans/</link>
+    <description>Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/en/coffee-beans/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
+</rss>

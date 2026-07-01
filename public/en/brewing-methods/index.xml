@@ -1,0 +1,727 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Coffee Brewing Methods: The Complete Guide to 6 Techniques on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/en/brewing-methods/</link>
+    <description>Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/en/brewing-methods/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>AeroPress Guide: Standard, Inverted &amp; WAC Champion Recipes</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/aeropress/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/aeropress/</guid>
+      <description>The inverted method is the most reliable way to brew AeroPress: 15g coffee, 220g water at 90°C (194°F), steep 90 seconds, press for 30. WAC recipes included.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-aeropress-guide">The Complete AeroPress Guide</h1>
+<p>The AeroPress is a portable coffee maker invented by Aerobie in 2005. It combines two extraction methods in one device: <strong>immersion plus pressure filtration</strong>. It&rsquo;s cheap, packable, easy to clean, and remarkably forgiving — which makes it the best choice for <strong>travel, the office, camping, and business trips</strong>.</p>
+<p>It even has its own annual competition, the <strong>World AeroPress Championship (WAC)</strong>, which has produced a steady stream of inventive recipes.</p>
+<h2 id="standard-vs-inverted">Standard vs. Inverted</h2>
+<h3 id="standard-method">Standard method</h3>
+<ul>
+<li>Filter and cap sit at the bottom</li>
+<li>Add coffee, pour water, and drip-through starts immediately</li>
+<li>Downside: water drains while it steeps, so immersion time is hard to control</li>
+</ul>
+<h3 id="inverted-method-recommended">Inverted method (recommended)</h3>
+<ul>
+<li>Flip the whole AeroPress upside down, open end up</li>
+<li>Add coffee, pour water, let it <strong>fully immerse</strong> for 1–3 minutes</li>
+<li>Flip onto your cup, then press</li>
+<li><strong>Advantage: precise control over steep time</strong></li>
+</ul>
+<p>The vast majority of WAC-winning recipes use the inverted method.</p>
+<h2 id="three-go-to-recipes">Three Go-To Recipes</h2>
+<h3 id="1-beginner-recipe-light-and-balanced">1. Beginner recipe (light and balanced)</h3>
+<ul>
+<li>12g coffee / 200g water / 90°C (194°F) / medium grind / steep 1 minute / press for 30 seconds</li>
+</ul>
+<h3 id="2-concentrated-recipe-espresso-style-intensity">2. Concentrated recipe (espresso-style intensity)</h3>
+<ul>
+<li>18g coffee / 60g water / 85°C (185°F) / fine grind / steep 30 seconds / press quickly / dilute with 100g hot water</li>
+</ul>
+<h3 id="3-wac-style-champion-recipe-clean-distinct-flavors">3. WAC-style champion recipe (clean, distinct flavors)</h3>
+<ul>
+<li>15g coffee / 220g water / 88°C (190°F) / medium-fine grind / inverted steep 1:30 / flip and press for 30 seconds</li>
+</ul>
+<h2 id="what-makes-this-brewer-so-good">What Makes This Brewer So Good?</h2>
+<p><strong>It&rsquo;s absurdly forgiving.</strong> Even if your grind is off by 2 clicks, your water is 5°C off, or your timing slips by 30 seconds, you&rsquo;ll still pour a perfectly decent cup. No pour-over can promise that.</p>
+<p>The trade-off: you get <strong>less clarity and layered complexity than a V60 or Kalita</strong>. The AeroPress doesn&rsquo;t make the &ldquo;best&rdquo; coffee — it makes the <strong>most consistent</strong> coffee.</p>
+<h2 id="choosing-a-filter">Choosing a Filter</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Type</th>
+					<th>Characteristics</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>AeroPress bleached paper (stock)</strong></td>
+					<td>Cheapest, included in the box, neutral flavor</td>
+			</tr>
+			<tr>
+					<td><strong>AeroPress unbleached paper</strong></td>
+					<td>More eco-friendly, but a slight papery taste</td>
+			</tr>
+			<tr>
+					<td><strong>Metal filter (DISK / Able)</strong></td>
+					<td>More oils, fuller body, but some sediment in the cup</td>
+			</tr>
+			<tr>
+					<td><strong>Cafec / Aesir premium thick paper</strong></td>
+					<td>Cleaner flavor, about 30% more expensive</td>
+			</tr>
+	</tbody>
+</table>
+<p>For beginners, the stock bleached paper filters are all you need.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Too bitter</td>
+					<td>Steeped too long / water too hot</td>
+			</tr>
+			<tr>
+					<td>Too weak</td>
+					<td>Not enough coffee / grind too coarse</td>
+			</tr>
+			<tr>
+					<td>Too sour</td>
+					<td>Under-extraction / water too cool (below 88°C / 190°F)</td>
+			</tr>
+			<tr>
+					<td>Hard to press</td>
+					<td>Grind too fine — go 2 clicks coarser</td>
+			</tr>
+			<tr>
+					<td>Overflowing</td>
+					<td>Water poured past the chamber&rsquo;s max line</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/french-press/">The Complete French Press Guide</a></li>
+<li><a href="/en/coffee-beans/">The Complete Guide to Coffee Beans</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Cold Brew Coffee Guide: The Science of 12-Hour Extraction</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/cold-brew/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/cold-brew/</guid>
+      <description>Cold brew uses a 1:8 coffee-to-water ratio steeped for 12-24 hours in the fridge, yielding a low-acid, sweet concentrate. Here&amp;rsquo;s the science and the recipe.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-guide-to-cold-brew-coffee">The Complete Guide to Cold Brew Coffee</h1>
+<p>Cold brew is not &ldquo;hot coffee poured over ice&rdquo; — it&rsquo;s coffee extracted by <strong>steeping grounds in cold water for many hours</strong>. The result is fundamentally different from hot brewing:</p>
+<ul>
+<li><strong>About 67% less acidity</strong> (cold water can&rsquo;t extract most of the acids)</li>
+<li><strong>Fewer bitter compounds</strong> (chlorogenic acids and tannins dissolve poorly in cold water)</li>
+<li><strong>Noticeably more sweetness</strong></li>
+<li><strong>Slightly more caffeine</strong> (thanks to the long steep)</li>
+</ul>
+<p>That makes cold brew the best choice for <strong>summer, for anyone sensitive to acidity or bitterness, and for anyone who wants a smooth, sweet, full-bodied cup</strong>.</p>
+<h2 id="cold-brew-vs-cold-drip-vs-iced-coffee">Cold Brew vs. Cold Drip vs. Iced Coffee</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Type</th>
+					<th>How it&rsquo;s made</th>
+					<th>Time</th>
+					<th>Flavor</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Cold Brew</strong></td>
+					<td>Steeped in cold water</td>
+					<td>12-24 hours</td>
+					<td>Full-bodied, low-acid, sweet</td>
+			</tr>
+			<tr>
+					<td><strong>Cold Drip</strong></td>
+					<td>Ice water dripped slowly over grounds</td>
+					<td>4-8 hours</td>
+					<td>Clean, clear, refined flavors</td>
+			</tr>
+			<tr>
+					<td><strong>Iced Coffee</strong></td>
+					<td>Hot brew poured over ice</td>
+					<td>30 seconds</td>
+					<td>Close to hot coffee, but more diluted</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Cold drip requires a dedicated drip tower; cold brew just needs a jar</strong> — which is why cold brew is the more practical option at home.</p>
+<h2 id="18-is-the-standard-ratio-for-concentrate">1:8 Is the Standard Ratio (for Concentrate)</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Ratio</th>
+					<th>Use</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>1:8 (100g coffee / 800g water)</strong></td>
+					<td>Concentrate — dilute 1:1 with water or milk to drink</td>
+			</tr>
+			<tr>
+					<td><strong>1:15 (50g coffee / 750g water)</strong></td>
+					<td>Ready-to-drink — pour and enjoy as-is</td>
+			</tr>
+	</tbody>
+</table>
+<p>I recommend making the <strong>concentrate</strong>: it keeps longer (10 days vs. 3), you dilute to taste, and it&rsquo;s flexible for iced lattes, over ice, or mixed with tonic water.</p>
+<h2 id="the-steeping-window">The Steeping Window</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Steep time</th>
+					<th>Flavor</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>8 hours</strong></td>
+					<td>Under-extracted, thin</td>
+			</tr>
+			<tr>
+					<td><strong>12 hours</strong></td>
+					<td>Entry-level window — clean and light</td>
+			</tr>
+			<tr>
+					<td><strong>16 hours</strong></td>
+					<td><strong>The sweet spot</strong></td>
+			</tr>
+			<tr>
+					<td><strong>20 hours</strong></td>
+					<td>Rich and full-bodied</td>
+			</tr>
+			<tr>
+					<td><strong>24 hours</strong></td>
+					<td>Bordering on over-extracted, but still drinkable</td>
+			</tr>
+			<tr>
+					<td><strong>Over 24 hours</strong></td>
+					<td>Metallic off-flavors start to appear</td>
+			</tr>
+	</tbody>
+</table>
+<p>For your first batch, go with <strong>16 hours</strong> and adjust from there.</p>
+<h2 id="which-beans-work-best-for-cold-brew">Which Beans Work Best for Cold Brew</h2>
+<p>Cold brew favors beans that are <strong>full-bodied and naturally sweet</strong>:</p>
+<p>✅ <strong>Brazil, Sumatra Mandheling, Colombia</strong>: low acidity and heavy body — cold brewing amplifies their sweetness
+✅ <strong>Medium-dark roast blends</strong>: caramel and cocoa notes shine
+✅ <strong>Natural-process beans</strong>: fruit-forward aromas hold up well in cold extraction</p>
+<p>❌ <strong>Not a great fit</strong>: light-roast Kenyan and Ethiopian beans — their defining trait is bright, high acidity, which cold brewing strips away, leaving them tasting like &ldquo;just ordinary coffee&rdquo;</p>
+<h2 id="ways-to-drink-it">Ways to Drink It</h2>
+<ol>
+<li><strong>Black</strong>: concentrate diluted 1:1 with cold water or ice</li>
+<li><strong>Cold brew latte</strong>: 1 part concentrate + 2 parts cold milk + ice</li>
+<li><strong>Cold brew and tonic</strong>: 1 part concentrate + 2 parts tonic water + ice + an orange slice (a summer game-changer)</li>
+<li><strong>Cold brew tonic, extra-quinine version</strong>: same build as above, but with a tonic water higher in quinine for a more bitter, bracing edge</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Too weak</td>
+					<td>Wrong ratio (try 1:8) / steeped too briefly (try 16 hours)</td>
+			</tr>
+			<tr>
+					<td>Cloudy with sediment</td>
+					<td>Grind too fine — use a coarse grind and fine-filter through V60 paper</td>
+			</tr>
+			<tr>
+					<td>Bitter or harsh</td>
+					<td>Steeped too long (over 24 hours) or used light-roast beans</td>
+			</tr>
+			<tr>
+					<td>Turns sour after a few days</td>
+					<td>Normal oxidation — drink it within 7 days</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/french-press/">The Complete French Press Guide</a></li>
+<li><a href="/en/coffee-beans/">The Complete Guide to Coffee Beans</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>Espresso Guide: From 9 Bar Basics to Home Machine Dial-In</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/espresso/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/espresso/</guid>
+      <description>Espresso is coffee brewed at 9 bar pressure, pushing hot water through fine grounds in 25-30 seconds. Get the modern recipe, dial-in steps, and troubleshooting.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-espresso-guide">The Complete Espresso Guide</h1>
+<p>Espresso isn&rsquo;t just another brewing method — it&rsquo;s a category of <strong>high-pressure concentrated extraction</strong>: roughly <strong>9 bar</strong> of pressure forces hot water through a bed of finely ground coffee, producing about 30ml of concentrate in <strong>25-30 seconds</strong>.</p>
+<p>It&rsquo;s the foundation of the <strong>latte, cappuccino, flat white, and macchiato</strong>.</p>
+<h2 id="the-9g--9-bar--9-seconds-rule-is-a-lie">The &ldquo;9g / 9 Bar / 9 Seconds&rdquo; Rule Is a Lie</h2>
+<p>Plenty of beginner tutorials teach espresso as &ldquo;9 grams in, 9 seconds out.&rdquo; <strong>That&rsquo;s a simplified spec from 1980s Italian commercial machines.</strong> Modern specialty coffee plays by different rules:</p>
+<ul>
+<li><strong>Dose</strong>: 18-22g (double shot), not 9g</li>
+<li><strong>Yield</strong>: around 32-40g of liquid</li>
+<li><strong>Time</strong>: 25-32 seconds</li>
+<li><strong>Pressure</strong>: 9 bar (this one hasn&rsquo;t changed)</li>
+<li><strong>Brew ratio</strong>: 1:2 to 1:2.5 (a lungo can stretch to 1:3)</li>
+</ul>
+<h2 id="the-core-variables-that-shape-a-shot">The Core Variables That Shape a Shot</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Variable</th>
+					<th>Effect</th>
+					<th>How to adjust</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Grind size</strong></td>
+					<td>The single biggest variable</td>
+					<td>Adjust whenever shot time falls outside 25-32 seconds</td>
+			</tr>
+			<tr>
+					<td><strong>Dose</strong></td>
+					<td>Determines puck depth</td>
+					<td>18-20g for a double is the sweet spot</td>
+			</tr>
+			<tr>
+					<td><strong>Water temperature</strong></td>
+					<td>Extraction efficiency</td>
+					<td>Light roast 94°C (201°F) / dark roast 90°C (194°F)</td>
+			</tr>
+			<tr>
+					<td><strong>Tamping pressure</strong></td>
+					<td>Affects channeling</td>
+					<td>13-15kg is plenty; pressing harder does nothing</td>
+			</tr>
+			<tr>
+					<td><strong>Bean freshness</strong></td>
+					<td>Crema thickness</td>
+					<td>7-21 days off roast is ideal</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="choosing-a-home-machine">Choosing a Home Machine</h2>
+<p>Avoid these two traps:</p>
+<ol>
+<li><strong>Cheap all-in-one machines</strong> (under ~$400) that bundle capsules, grinding, milk steaming, and extraction — the &ldquo;9 bar&rdquo; claim is marketing, and the water temperature is nowhere near stable</li>
+<li>Entry-level machines without <strong>PID temperature control</strong> — temperature drift means every shot tastes different</li>
+</ol>
+<p>Budget rule of thumb: <strong>put 60% of your total budget into the grinder</strong>, and the rest into the machine. A ~$400 grinder paired with a ~$700 machine will beat a ~$200 grinder paired with a ~$900 machine every time.</p>
+<h2 id="troubleshooting-common-problems">Troubleshooting Common Problems</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Shot runs too fast / thin and bitter</td>
+					<td>Grind too coarse or dose too low</td>
+					<td>Grind 1-2 steps finer, add 1g of coffee</td>
+			</tr>
+			<tr>
+					<td>Shot runs too slow / harsh and astringent</td>
+					<td>Grind too fine or dose too high</td>
+					<td>Grind 1-2 steps coarser, remove 1g of coffee</td>
+			</tr>
+			<tr>
+					<td>Thin crema</td>
+					<td>Stale beans or over-tamping</td>
+					<td>Use fresher beans, halve your tamping force</td>
+			</tr>
+			<tr>
+					<td>Channeling (one side flows faster)</td>
+					<td>Uneven distribution or a cracked puck</td>
+					<td>WDT plus careful, level distribution</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="what-you-need-for-latte-art">What You Need for Latte Art</h2>
+<p>To pour latte art you&rsquo;ll also need:</p>
+<ul>
+<li><strong>Milk pitcher</strong>: 300-600ml stainless steel (smaller pitchers are easier to control)</li>
+<li><strong>Thermometer</strong>: milk is at its best at 60-65°C (140-149°F)</li>
+<li><strong>Whole milk</strong>: 3.5%+ fat; the protein content determines foam stability</li>
+</ul>
+<p>Steaming technique: during the stretching phase (up to 50°C / 122°F), keep the steam wand tip about 0.5cm below the milk surface to build fine microfoam; during the texturing phase (50-65°C / 122-149°F), sink the wand deeper to create a whirlpool that turns the milk silky.</p>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/coffee-beans/">Coffee Beans 101</a> — the full journey from bean to cup</li>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>French Press Guide: The Science of Immersion Brewing</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/french-press/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/french-press/</guid>
+      <description>A great French press uses a coarse grind, a 4-minute steep, and 95°C water at a 1:15 ratio. Learn the science behind full-bodied immersion brewing in 6 steps.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-french-press-guide">The Complete French Press Guide</h1>
+<p>The French press is the classic example of <strong>immersion brewing</strong>, and the core difference from <a href="/en/brewing-methods/pour-over-v60/">pour-over</a> (percolation) is this:</p>
+<ul>
+<li><strong>Pour-over</strong>: water flows through the coffee bed, contacting the grounds only briefly</li>
+<li><strong>French press</strong>: the grounds steep in the water for 4 minutes of continuous extraction</li>
+</ul>
+<p>That&rsquo;s what gives French press coffee its signature character: <strong>heavy oils, full flavor, and a thick, rich body</strong> — at the cost of <strong>lower clarity and muted acidity</strong>.</p>
+<h2 id="why-so-many-people-think-french-press-coffee-tastes-bad">Why So Many People Think French Press Coffee Tastes Bad</h2>
+<p>The three most common culprits:</p>
+<ol>
+<li><strong>Grind is too fine</strong>: the French press demands a <strong>coarse grind</strong> (1000-1200 microns). Grind finer and a flood of fines ends up in your cup as bitter sludge</li>
+<li><strong>Steeping too long</strong>: past 5 minutes, the brew over-extracts and turns bitter</li>
+<li><strong>Pressing too fast</strong>: it disturbs the coffee bed, creates channels, and lets the coffee below the mesh keep extracting</li>
+</ol>
+<h2 id="the-science-behind-the-4-minute-rule">The Science Behind the 4-Minute Rule</h2>
+<p>Why exactly 4 minutes?</p>
+<table>
+	<thead>
+			<tr>
+					<th>Time</th>
+					<th>What gets extracted</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0-1 min</td>
+					<td>Acids (citric, malic, quinic)</td>
+			</tr>
+			<tr>
+					<td>1-3 min</td>
+					<td>Sweetness (caramel, sucrose, lactic)</td>
+			</tr>
+			<tr>
+					<td>3-4 min</td>
+					<td>Body + some bitterness (chlorogenic acids)</td>
+			</tr>
+			<tr>
+					<td>4 min +</td>
+					<td>Mostly over-extracted bitterness</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Four minutes lands right in the sweet spot between sweetness and body.</strong></p>
+<h2 id="recommended-recipes">Recommended Recipes</h2>
+<h3 id="classic-115-recipe-strong">Classic 1:15 Recipe (Strong)</h3>
+<ul>
+<li>60g coffee / 900g water / 95°C (203°F) / 4 minutes</li>
+</ul>
+<h3 id="lighter-117-recipe">Lighter 1:17 Recipe</h3>
+<ul>
+<li>50g coffee / 850g water / 92°C (198°F) / 4 minutes</li>
+</ul>
+<h3 id="the-hoffmann-method-cleaner-cup">The Hoffmann Method (Cleaner Cup)</h3>
+<p>The technique popularized by James Hoffmann:</p>
+<ul>
+<li>When the 4 minutes are up, <strong>don&rsquo;t press</strong> — use a spoon to skim the crust and foam off the surface</li>
+<li>Let it rest another 5 minutes so the fines settle</li>
+<li>Then <strong>pour out only the top 70%</strong>, without pressing or stirring</li>
+</ul>
+<p>Clarity jumps a whole level, at the cost of some body.</p>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Lots of sediment</td>
+					<td>Grind too fine</td>
+					<td>Go 2-3 clicks coarser</td>
+			</tr>
+			<tr>
+					<td>Too bitter</td>
+					<td>Steeped too long</td>
+					<td>Time it strictly at 4 minutes</td>
+			</tr>
+			<tr>
+					<td>No acidity</td>
+					<td>Water too cool</td>
+					<td>Use 95°C (203°F)</td>
+			</tr>
+			<tr>
+					<td>Thin body</td>
+					<td>Not enough coffee</td>
+					<td>Increase to a 1:15 ratio</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="further-reading">Further Reading</h2>
+<ul>
+<li><a href="/en/coffee-beans/">The Complete Coffee Bean Guide</a></li>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/espresso/">The Complete Espresso Guide</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>How to Use a Moka Pot: Complete Stovetop Coffee Guide</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/moka-pot/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/moka-pot/</guid>
+      <description>A moka pot brews rich, espresso-style coffee using about 1.5 bar of steam pressure on your stovetop. Get the 6-step method, grind size, and bitterness fixes.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-moka-pot-guide">The Complete Moka Pot Guide</h1>
+<p>The moka pot was invented in Italy in 1933 by Alfonso Bialetti, and more than <strong>300 million</strong> units have been sold worldwide. It uses <strong>steam pressure (about 1.5 bar)</strong> to push hot water through a bed of finely ground coffee — the classic &ldquo;<strong>poor man&rsquo;s espresso</strong>&rdquo;: close to espresso in strength, at a fraction of the price.</p>
+<h2 id="moka-pot--espresso">Moka Pot ≠ Espresso</h2>
+<p>Many people assume a moka pot makes espresso. <strong>It doesn&rsquo;t</strong> — here&rsquo;s the difference:</p>
+<table>
+	<thead>
+			<tr>
+					<th>Factor</th>
+					<th>Moka Pot</th>
+					<th>True Espresso</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Pressure</strong></td>
+					<td>~1.5 bar</td>
+					<td>9 bar</td>
+			</tr>
+			<tr>
+					<td><strong>Brew time</strong></td>
+					<td>3-4 minutes</td>
+					<td>25-30 seconds</td>
+			</tr>
+			<tr>
+					<td><strong>Temperature</strong></td>
+					<td>Close to 100°C (212°F)</td>
+					<td>90-95°C (194-203°F)</td>
+			</tr>
+			<tr>
+					<td><strong>Crema</strong></td>
+					<td>Minimal</td>
+					<td>Thick</td>
+			</tr>
+			<tr>
+					<td><strong>Flavor</strong></td>
+					<td>Rich but leans bitter</td>
+					<td>Rich with distinct layers</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Moka pot coffee won&rsquo;t work for latte art</strong> — the crema is far too thin. But it&rsquo;s excellent as a strong single cup, or topped with milk for a homemade &ldquo;latte.&rdquo;</p>
+<h2 id="the-3-mistakes-almost-everyone-makes-with-a-bialetti">The 3 Mistakes Almost Everyone Makes with a Bialetti</h2>
+<h3 id="1-starting-with-cold-water">1. Starting with cold water</h3>
+<p>Cold water forces the metal base to <strong>linger between 50-80°C (122-176°F)</strong> as it heats up, slowly &ldquo;stewing&rdquo; the coffee grounds in water that&rsquo;s neither hot nor cold — and that produces harsh, bitter flavors.</p>
+<p><strong>Fix</strong>: Start with water preheated to 60-70°C (140-158°F).</p>
+<h3 id="2-brewing-on-high-heat">2. Brewing on high heat</h3>
+<p>High heat makes steam pressure spike, pushing water through the coffee bed too fast and unevenly — and it can &ldquo;spit&rdquo; the coffee out with a burnt, scorched taste.</p>
+<p><strong>Fix</strong>: Use medium-low heat (just below medium on a gas stove) and let the brew take a full 3-4 minutes.</p>
+<h3 id="3-ignoring-the-hiss">3. Ignoring the hiss</h3>
+<p>Once the bottom chamber runs out of water, what&rsquo;s left is <strong>pure steam blasting through the coffee grounds</strong> — and everything extracted in that moment is scorched and bitter, drowning out all the good flavors that came before.</p>
+<p><strong>Fix</strong>: The instant the gurgle turns into a hiss, kill the heat — and ideally cool the base with a damp towel to stop extraction completely.</p>
+<h2 id="grind-size">Grind Size</h2>
+<p>Moka pot grind sits between <strong>espresso (fine as flour)</strong> and <strong>pour-over (medium-fine, like granulated sugar)</strong> — roughly <strong>a touch coarser than espresso, a touch finer than pour-over</strong>.</p>
+<p>If you own just one grinder, start from your pour-over setting and go 2-3 clicks finer.</p>
+<h2 id="troubleshooting-common-problems">Troubleshooting Common Problems</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+					<th>Fix</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Harsh and bitter</td>
+					<td>Heat too high / left on the stove too long</td>
+					<td>Medium-low heat + listen for the hiss</td>
+			</tr>
+			<tr>
+					<td>Burnt taste</td>
+					<td>High heat + over-extraction</td>
+					<td>Cool the base the moment you hear hissing</td>
+			</tr>
+			<tr>
+					<td>Very slow or no flow</td>
+					<td>Grind too fine / basket overfilled</td>
+					<td>Go 2 clicks coarser / never tamp the grounds</td>
+			</tr>
+			<tr>
+					<td>Sputtering</td>
+					<td>Heat too high</td>
+					<td>Medium-low heat</td>
+			</tr>
+			<tr>
+					<td>Weak, thin coffee</td>
+					<td>Grind too coarse / too little water</td>
+					<td>Grind finer + check the water level mark</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="best-beans-for-a-moka-pot">Best Beans for a Moka Pot</h2>
+<p>A moka pot isn&rsquo;t picky about beans, but it has preferences:</p>
+<ul>
+<li><strong>Medium-dark espresso blends</strong>: the classic choice, a natural match for its Italian roots</li>
+<li><strong>Brazil or Indonesian Mandheling</strong>: low acidity and heavy body, perfect for the moka pot&rsquo;s intense character</li>
+<li><strong>Skip these</strong>: light-roast Ethiopian and Kenyan — their bright, delicate acidity gets torched by the moka pot&rsquo;s near-boiling temperatures</li>
+</ul>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/espresso/">The Complete Espresso Guide</a></li>
+<li><a href="/en/coffee-beans/">The Complete Coffee Bean Guide</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>V60 Pour-Over Coffee Guide: From Beginner to Pro</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/pour-over-v60/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/pour-over-v60/</guid>
+      <description>A great V60 pour-over uses a medium-fine grind, 90-96°C water, and a 2:30-3:00 brew time. This guide covers technique, gear, and troubleshooting.</description>
+      <content:encoded><![CDATA[<h1 id="v60-pour-over-coffee-guide-from-beginner-to-pro">V60 Pour-Over Coffee Guide: From Beginner to Pro</h1>
+<p>The V60 is a cone-shaped dripper developed by the renowned Japanese coffee equipment brand Hario, named after its 60-degree cone angle. Since its debut, the V60 has become one of the most beloved <a href="/en/brewing-methods/">pour-over brewers</a> among coffee enthusiasts and professional baristas worldwide. This deceptively simple cone gives you precise control over nearly every variable that affects extraction, producing coffee with remarkable clarity and layered flavor.</p>
+<h2 id="what-makes-the-v60-special">What Makes the V60 Special</h2>
+<p>The V60&rsquo;s distinctive design has several key features:</p>
+<ol>
+<li><strong>Conical shape</strong>: The 60-degree cone angle helps water flow downward naturally for even extraction</li>
+<li><strong>Internal spiral ridges</strong>: Promote airflow and water movement, preventing the filter from sticking to the dripper wall</li>
+<li><strong>Single large opening</strong>: Lets flow rate vary with your pour, giving the brewer more control</li>
+<li><strong>Multiple materials</strong>: Ceramic, plastic, metal, and glass versions to suit different needs</li>
+</ol>
+<h2 id="what-youll-need">What You&rsquo;ll Need</h2>
+<p>To brew a great cup of V60 coffee, gather the following equipment:</p>
+<ol>
+<li><a href="https://www.amazon.com/s?k=Hario&#43;V60&#43;dripper&amp;tag=coffeeprism-20">Hario V60 dripper</a> (ceramic, plastic, or metal all work)</li>
+<li><a href="https://www.amazon.com/s?k=Hario&#43;V60&#43;paper&#43;filters&amp;tag=coffeeprism-20">Hario paper filters</a></li>
+<li><a href="https://www.amazon.com/s?k=gooseneck&#43;kettle&amp;tag=coffeeprism-20">Gooseneck kettle</a> (the long, narrow spout is essential for pour control)</li>
+<li><a href="https://www.amazon.com/s?k=coffee&#43;grinder&amp;tag=coffeeprism-20">Coffee grinder</a> (capable of a consistent medium-fine grind)</li>
+<li><a href="https://www.amazon.com/s?k=precision&#43;coffee&#43;scale&amp;tag=coffeeprism-20">Precision coffee scale</a> (ideally with a built-in timer)</li>
+<li>Freshly roasted coffee beans</li>
+<li>Good-quality hot water at 90-96°C (194-205°F)</li>
+</ol>
+<h2 id="step-by-step-v60-brewing-guide">Step-by-Step V60 Brewing Guide</h2>
+<p>Here is a step-by-step V60 recipe for brewing roughly 300ml of coffee:</p>
+<h3 id="1-preparation">1. Preparation</h3>
+<ul>
+<li>Grind your beans to a medium-fine consistency (similar to granulated sugar or fine sea salt)</li>
+<li>Weigh out 20 grams of ground coffee (adjust to taste)</li>
+<li>Prepare about 300-320ml of hot water at 90-96°C</li>
+</ul>
+<h3 id="2-rinse-the-filter">2. Rinse the Filter</h3>
+<ul>
+<li>Place the paper filter in the V60 dripper</li>
+<li>Rinse it thoroughly with hot water (this removes any papery taste and preheats your equipment)</li>
+<li>Discard the rinse water</li>
+</ul>
+<h3 id="3-add-the-coffee">3. Add the Coffee</h3>
+<ul>
+<li>Pour the ground coffee into the filter</li>
+<li>Gently shake the dripper to level the surface of the coffee bed</li>
+<li>Press a small divot into the center (this helps the bloom water saturate evenly)</li>
+</ul>
+<h3 id="4-the-bloom">4. The Bloom</h3>
+<ul>
+<li>Pour in about twice the coffee&rsquo;s weight in water (roughly 40ml)</li>
+<li>Make sure all the grounds are evenly saturated</li>
+<li>Wait 30-45 seconds to let the coffee release carbon dioxide</li>
+</ul>
+<h3 id="5-main-pours">5. Main Pours</h3>
+<p><strong>First pour (0:45-1:15)</strong>:</p>
+<ul>
+<li>Starting from the center, pour slowly in small circles spiraling outward</li>
+<li>Pour until the scale reads about 150ml</li>
+</ul>
+<p><strong>Second pour (1:15-1:45)</strong>:</p>
+<ul>
+<li>Continue pouring in the same pattern</li>
+<li>Pour until about 220ml</li>
+</ul>
+<p><strong>Third pour (1:45-2:15)</strong>:</p>
+<ul>
+<li>Finish the final pour</li>
+<li>Bring the total water to 300ml</li>
+</ul>
+<h3 id="6-let-it-draw-down">6. Let It Draw Down</h3>
+<ul>
+<li>Allow all the water to pass through the coffee and filter</li>
+<li>Total brew time should land between 2:30 and 3:00</li>
+</ul>
+<h2 id="the-key-variables-in-v60-brewing">The Key Variables in V60 Brewing</h2>
+<p>To master the V60, you need to understand these key factors:</p>
+<h3 id="1-grind-size">1. Grind Size</h3>
+<p>Grind size directly affects extraction:</p>
+<ul>
+<li><strong>Too fine</strong>: Over-extracted, bitter and harsh</li>
+<li><strong>Too coarse</strong>: Under-extracted, sour or flat</li>
+<li><strong>Just right</strong>: Medium-fine, with balanced flavor</li>
+</ul>
+<p>We recommend the <a href="https://www.amazon.com/s?k=1Zpresso&#43;JX-Pro&amp;tag=coffeeprism-20">1Zpresso JX-Pro grinder</a> for consistent particle size.</p>
+<h3 id="2-water-temperature">2. Water Temperature</h3>
+<ul>
+<li>Light roasts: 94-96°C (201-205°F)</li>
+<li>Medium roasts: 92-94°C (198-201°F)</li>
+<li>Dark roasts: 90-92°C (194-198°F)</li>
+</ul>
+<h3 id="3-pouring-technique">3. Pouring Technique</h3>
+<ul>
+<li><strong>Flow rate</strong>: Keep it steady — not too fast, not too slow</li>
+<li><strong>Pour pattern</strong>: Spiral from the center outward, and avoid pouring directly onto the filter edge</li>
+<li><strong>Pour height</strong>: Keep the kettle spout about 1-2cm above the dripper</li>
+</ul>
+<h2 id="troubleshooting-common-problems">Troubleshooting Common Problems</h2>
+<h3 id="coffee-tastes-bitter-or-harsh">Coffee Tastes Bitter or Harsh</h3>
+<p>Likely causes and fixes:</p>
+<ul>
+<li>Grind too fine → coarsen the grind</li>
+<li>Water too hot → lower the temperature</li>
+<li>Brew time too long → speed up your pour or coarsen the grind</li>
+</ul>
+<h3 id="coffee-tastes-sour-or-weak">Coffee Tastes Sour or Weak</h3>
+<p>Likely causes and fixes:</p>
+<ul>
+<li>Grind too coarse → tighten the grind</li>
+<li>Water not hot enough → raise the temperature</li>
+<li>Not enough coffee → increase the dose</li>
+</ul>
+<h2 id="advanced-techniques">Advanced Techniques</h2>
+<p>Once you&rsquo;ve got the basics down, try these advanced techniques to level up your V60 brewing:</p>
+<ol>
+<li><strong>Pulse pouring</strong>: Break the brew into several small pours for more even extraction</li>
+<li><strong>Stirring</strong>: Gently stir after the bloom or a pour to promote uniform extraction</li>
+<li><strong>Temperature experiments</strong>: Try the same beans at different water temperatures and compare</li>
+</ol>
+<h2 id="recommended-gear">Recommended Gear</h2>
+<p>Here is our recommended V60 setup:</p>
+<ol>
+<li><strong>Dripper</strong>: <a href="https://www.amazon.com/s?k=Hario&#43;V60&#43;02&#43;ceramic&amp;tag=coffeeprism-20">Hario V60 ceramic dripper, size 02</a></li>
+<li><strong>Kettle</strong>: <a href="https://www.amazon.com/s?k=Fellow&#43;Stagg&#43;EKG&amp;tag=coffeeprism-20">Fellow Stagg EKG electric gooseneck kettle</a></li>
+<li><strong>Scale</strong>: <a href="https://www.amazon.com/s?k=Timemore&#43;Black&#43;Mirror&amp;tag=coffeeprism-20">Timemore Black Mirror coffee scale</a></li>
+<li><strong>Grinder</strong>: <a href="https://www.amazon.com/s?k=1Zpresso&#43;JX-Pro&#43;manual&#43;grinder&amp;tag=coffeeprism-20">1Zpresso JX-Pro manual grinder</a></li>
+</ol>
+<h2 id="final-thoughts">Final Thoughts</h2>
+<p>The V60 looks simple but rewards depth. Its open design gives the brewer enormous freedom and room for creativity — and demands precise technique and understanding in return. With steady practice and experimentation, you&rsquo;ll master this elegant brewing method and unlock remarkable flavors in your coffee. Curious how the V60 compares to other brewers? Explore our other <a href="/en/brewing-methods/">brewing method guides</a>.</p>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>

@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Iced Coffee on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/en/tags/iced-coffee/</link>
+    <description>Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters.</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/en/tags/iced-coffee/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Cold Brew Coffee Guide: The Science of 12-Hour Extraction</title>
+      <link>https://www.coffeeprism.com/en/brewing-methods/cold-brew/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/en/brewing-methods/cold-brew/</guid>
+      <description>Cold brew uses a 1:8 coffee-to-water ratio steeped for 12-24 hours in the fridge, yielding a low-acid, sweet concentrate. Here&amp;rsquo;s the science and the recipe.</description>
+      <content:encoded><![CDATA[<h1 id="the-complete-guide-to-cold-brew-coffee">The Complete Guide to Cold Brew Coffee</h1>
+<p>Cold brew is not &ldquo;hot coffee poured over ice&rdquo; — it&rsquo;s coffee extracted by <strong>steeping grounds in cold water for many hours</strong>. The result is fundamentally different from hot brewing:</p>
+<ul>
+<li><strong>About 67% less acidity</strong> (cold water can&rsquo;t extract most of the acids)</li>
+<li><strong>Fewer bitter compounds</strong> (chlorogenic acids and tannins dissolve poorly in cold water)</li>
+<li><strong>Noticeably more sweetness</strong></li>
+<li><strong>Slightly more caffeine</strong> (thanks to the long steep)</li>
+</ul>
+<p>That makes cold brew the best choice for <strong>summer, for anyone sensitive to acidity or bitterness, and for anyone who wants a smooth, sweet, full-bodied cup</strong>.</p>
+<h2 id="cold-brew-vs-cold-drip-vs-iced-coffee">Cold Brew vs. Cold Drip vs. Iced Coffee</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Type</th>
+					<th>How it&rsquo;s made</th>
+					<th>Time</th>
+					<th>Flavor</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>Cold Brew</strong></td>
+					<td>Steeped in cold water</td>
+					<td>12-24 hours</td>
+					<td>Full-bodied, low-acid, sweet</td>
+			</tr>
+			<tr>
+					<td><strong>Cold Drip</strong></td>
+					<td>Ice water dripped slowly over grounds</td>
+					<td>4-8 hours</td>
+					<td>Clean, clear, refined flavors</td>
+			</tr>
+			<tr>
+					<td><strong>Iced Coffee</strong></td>
+					<td>Hot brew poured over ice</td>
+					<td>30 seconds</td>
+					<td>Close to hot coffee, but more diluted</td>
+			</tr>
+	</tbody>
+</table>
+<p><strong>Cold drip requires a dedicated drip tower; cold brew just needs a jar</strong> — which is why cold brew is the more practical option at home.</p>
+<h2 id="18-is-the-standard-ratio-for-concentrate">1:8 Is the Standard Ratio (for Concentrate)</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Ratio</th>
+					<th>Use</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>1:8 (100g coffee / 800g water)</strong></td>
+					<td>Concentrate — dilute 1:1 with water or milk to drink</td>
+			</tr>
+			<tr>
+					<td><strong>1:15 (50g coffee / 750g water)</strong></td>
+					<td>Ready-to-drink — pour and enjoy as-is</td>
+			</tr>
+	</tbody>
+</table>
+<p>I recommend making the <strong>concentrate</strong>: it keeps longer (10 days vs. 3), you dilute to taste, and it&rsquo;s flexible for iced lattes, over ice, or mixed with tonic water.</p>
+<h2 id="the-steeping-window">The Steeping Window</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Steep time</th>
+					<th>Flavor</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>8 hours</strong></td>
+					<td>Under-extracted, thin</td>
+			</tr>
+			<tr>
+					<td><strong>12 hours</strong></td>
+					<td>Entry-level window — clean and light</td>
+			</tr>
+			<tr>
+					<td><strong>16 hours</strong></td>
+					<td><strong>The sweet spot</strong></td>
+			</tr>
+			<tr>
+					<td><strong>20 hours</strong></td>
+					<td>Rich and full-bodied</td>
+			</tr>
+			<tr>
+					<td><strong>24 hours</strong></td>
+					<td>Bordering on over-extracted, but still drinkable</td>
+			</tr>
+			<tr>
+					<td><strong>Over 24 hours</strong></td>
+					<td>Metallic off-flavors start to appear</td>
+			</tr>
+	</tbody>
+</table>
+<p>For your first batch, go with <strong>16 hours</strong> and adjust from there.</p>
+<h2 id="which-beans-work-best-for-cold-brew">Which Beans Work Best for Cold Brew</h2>
+<p>Cold brew favors beans that are <strong>full-bodied and naturally sweet</strong>:</p>
+<p>✅ <strong>Brazil, Sumatra Mandheling, Colombia</strong>: low acidity and heavy body — cold brewing amplifies their sweetness
+✅ <strong>Medium-dark roast blends</strong>: caramel and cocoa notes shine
+✅ <strong>Natural-process beans</strong>: fruit-forward aromas hold up well in cold extraction</p>
+<p>❌ <strong>Not a great fit</strong>: light-roast Kenyan and Ethiopian beans — their defining trait is bright, high acidity, which cold brewing strips away, leaving them tasting like &ldquo;just ordinary coffee&rdquo;</p>
+<h2 id="ways-to-drink-it">Ways to Drink It</h2>
+<ol>
+<li><strong>Black</strong>: concentrate diluted 1:1 with cold water or ice</li>
+<li><strong>Cold brew latte</strong>: 1 part concentrate + 2 parts cold milk + ice</li>
+<li><strong>Cold brew and tonic</strong>: 1 part concentrate + 2 parts tonic water + ice + an orange slice (a summer game-changer)</li>
+<li><strong>Cold brew tonic, extra-quinine version</strong>: same build as above, but with a tonic water higher in quinine for a more bitter, bracing edge</li>
+</ol>
+<h2 id="troubleshooting">Troubleshooting</h2>
+<table>
+	<thead>
+			<tr>
+					<th>Symptom</th>
+					<th>Cause</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Too weak</td>
+					<td>Wrong ratio (try 1:8) / steeped too briefly (try 16 hours)</td>
+			</tr>
+			<tr>
+					<td>Cloudy with sediment</td>
+					<td>Grind too fine — use a coarse grind and fine-filter through V60 paper</td>
+			</tr>
+			<tr>
+					<td>Bitter or harsh</td>
+					<td>Steeped too long (over 24 hours) or used light-roast beans</td>
+			</tr>
+			<tr>
+					<td>Turns sour after a few days</td>
+					<td>Normal oxidation — drink it within 7 days</td>
+			</tr>
+	</tbody>
+</table>
+<h2 id="related-reading">Related Reading</h2>
+<ul>
+<li><a href="/en/brewing-methods/pour-over-v60/">The Complete V60 Pour-Over Guide</a></li>
+<li><a href="/en/brewing-methods/french-press/">The Complete French Press Guide</a></li>
+<li><a href="/en/coffee-beans/">The Complete Guide to Coffee Beans</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
+</rss>
