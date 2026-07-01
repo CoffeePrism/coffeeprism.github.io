@@ -3,7 +3,7 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }} — 中文精品咖啡专业指南 · 冲煮 / 咖啡豆 / 器具{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}{{ end }}</title>
+	<title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }} — {{ i18n "homeTitleTagline" }}{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
 	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ with .Params.Description }}{{ . | markdownify | plainify }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
 	{{- /* tags 页低价值：noindex 但 follow 保留内链权重（robots.txt 已不再 Disallow） */}}
@@ -11,6 +11,15 @@
 	<meta name="robots" content="noindex,follow">
 	{{- end }}
 	<link rel="canonical" href="{{ .Permalink }}">
+	{{- /* hreflang：有翻译版本的页面输出双向 alternate（含自身），zh 为 x-default */}}
+	{{- if .IsTranslated }}
+	{{- range .AllTranslations }}
+	<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
+	{{- end }}
+	{{- range .AllTranslations }}{{ if eq .Language.Lang site.Home.Language.Lang }}
+	<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
+	{{- end }}{{ end }}
+	{{- end }}
 	{{- if .Site.Params.opengraph }}
 		{{ template "_internal/opengraph.html" . }}
 	{{- end }}

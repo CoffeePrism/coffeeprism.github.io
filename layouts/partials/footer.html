@@ -9,7 +9,7 @@
 		</nav>
 		{{- end }}
 		<div class="footer__copyright">
-			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }} · 用科学理解咖啡，用实操掌握它
+			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }} · {{ i18n "footerTagline" }}
 		</div>
 		<div class="footer-small">
 			{{ T "footer_credits" | safeHTML }}

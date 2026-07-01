@@ -8,14 +8,14 @@
 			{{- end }}
 			{{ with partial "post_meta.html" . -}}
 			<div class="post__meta meta">{{ . }}
-				<span class="post__reading-time">{{ $.ReadingTime }} 分钟阅读</span>
+				<span class="post__reading-time">{{ $.ReadingTime }} {{ i18n "minRead" }}</span>
 			</div>
 			{{- end }}
 		</header>
 		{{/* Breadcrumb */}}
 		<nav class="breadcrumb" aria-label="breadcrumb">
 			<ol>
-				<li><a href="/">首页</a></li>
+				<li><a href="{{ site.Home.RelPermalink }}">{{ i18n "breadcrumbHome" }}</a></li>
 				{{- with .Params.categories }}
 				{{- $cat := index . 0 }}
 				<li><a href="/categories/{{ $cat | urlize }}/">{{ $cat }}</a></li>
@@ -37,7 +37,7 @@
 				{{- with .Params.faq }}
 				{{- $seen := slice }}
 				<section class="post-faq" id="faq">
-					<h2 class="post-faq__title">常见问题</h2>
+					<h2 class="post-faq__title">{{ i18n "faqTitle" }}</h2>
 					{{- range . }}
 					{{- if not (in $seen .q) }}
 					{{- $seen = $seen | append .q }}
@@ -60,7 +60,7 @@
 	</article>
 	{{ partial "email-capture.html" . }}
 </main>
-{{ partial "authorbox.html" . }}
+{{ if ne .Site.Language.Lang "en" }}{{ partial "authorbox.html" . }}{{ end }}
 {{ partial "pager.html" . }}
 {{ partial "comments.html" . }}
 {{ end }}

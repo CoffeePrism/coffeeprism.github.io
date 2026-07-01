@@ -11,7 +11,7 @@
 {{- $slot := site.Params.adsenseInArticleSlot | default "" -}}
 {{- $client := site.Params.adsenseClient | default "ca-pub-2507974090472113" -}}
 {{- if and $slot (not (hasPrefix .RelPermalink "/guide/")) }}
-<div class="ad-in-article" aria-label="广告">
+<div class="ad-in-article" data-ad-label="{{ i18n "adLabel" }}" aria-label="ad">
   <ins class="adsbygoogle"
        style="display:block; text-align:center;"
        data-ad-layout="in-article"

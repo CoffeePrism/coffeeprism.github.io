@@ -28,7 +28,7 @@
       "name" "Coffee Prism"
       "url" "https://www.coffeeprism.com/"
       "description" (site.Params.description | plainify)
-      "inLanguage" "zh-CN"
+      "inLanguage" (site.Language.LanguageCode | default "zh-CN")
       "publisher" (dict "@id" $orgId)
     )
   )
@@ -47,7 +47,7 @@
   "headline" .Title
   "description" $desc
   "url" .Permalink
-  "inLanguage" "zh-CN"
+  "inLanguage" (site.Language.LanguageCode | default "zh-CN")
   "image" $siteImg
   "datePublished" (.PublishDate.Format $iso8601)
   "dateModified" (.Lastmod.Format $iso8601)

@@ -1,0 +1,35 @@
+# Custom template strings for the English pilot
+- id: minRead
+  translation: "min read"
+- id: readMore
+  translation: "Read more →"
+- id: breadcrumbHome
+  translation: "Home"
+- id: faqTitle
+  translation: "Frequently Asked Questions"
+- id: tocTitle
+  translation: "Contents"
+- id: footerTagline
+  translation: "Understand coffee with science, master it with practice"
+- id: homeTitleTagline
+  translation: "Science-Based Coffee Brewing Guides"
+- id: ecTitle
+  translation: "Weekly Coffee Tips · Free"
+- id: ecDesc
+  translation: "Join the Coffee Prism newsletter for one hand-picked brewing technique and gear deal per week. No spam, unsubscribe anytime."
+- id: ecPlaceholder
+  translation: "Your email address"
+- id: ecButton
+  translation: "Subscribe free"
+- id: ecSubmitting
+  translation: "Submitting..."
+- id: ecSuccess
+  translation: "✓ Subscribed! Please check your inbox for a confirmation email (it may be in spam)."
+- id: ecFailPrefix
+  translation: "Submission failed: "
+- id: ecFailSuffix
+  translation: ". Please try again later."
+- id: ecPrivacy
+  translation: "We respect your privacy and never share your email. One-click unsubscribe."
+- id: adLabel
+  translation: "Sponsored"

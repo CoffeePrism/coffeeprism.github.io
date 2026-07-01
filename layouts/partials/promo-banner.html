@@ -5,7 +5,8 @@
   - On mobile, collapses to short copy.
 */}}
 {{- $isGuide := hasPrefix .RelPermalink "/guide/" -}}
-{{- if not $isGuide }}
+{{- $isEnglish := eq .Site.Language.Lang "en" -}}
+{{- if and (not $isGuide) (not $isEnglish) }}
 <aside id="promo-banner" class="promo-banner" role="region" aria-label="电子书促销">
   <a class="promo-banner-link" href="/guide/comprehensive/" data-cta="banner-comp">
     <span class="promo-banner-emoji">📘</span>

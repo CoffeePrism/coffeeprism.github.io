@@ -87,67 +87,133 @@ summaryLength = 80
 
   [Params.widgets.social]
 
+# ============ 多语言 ============
+# zh-cn 是默认语言（URL 不带前缀，全部现有 URL 不变）；
+# en 是 Phase 1 试点（/en/ 前缀，11 个编辑级翻译页面）。
+# 菜单按语言分开定义，避免英文页面显示中文导航。
+[languages]
+
+[languages.zh-cn]
+languageCode = "zh-cn"
+languageName = "中文"
+weight = 1
+
 # 主导航按用户「意图」排，5 项不杂
-[[menu.main]]
+[[languages.zh-cn.menu.main]]
 identifier = "brewing-methods"
 name = "冲煮方法"
 url = "/brewing-methods/"
 weight = 10
 
-[[menu.main]]
+[[languages.zh-cn.menu.main]]
 identifier = "coffee-beans"
 name = "咖啡豆"
 url = "/coffee-beans/"
 weight = 20
 
-[[menu.main]]
+[[languages.zh-cn.menu.main]]
 identifier = "coffee-equipment"
 name = "咖啡器具"
 url = "/coffee-equipment/"
 weight = 30
 
-[[menu.main]]
+[[languages.zh-cn.menu.main]]
 identifier = "health"
 name = "咖啡与健康"
 url = "/health/"
 weight = 40
 
-[[menu.main]]
+[[languages.zh-cn.menu.main]]
 identifier = "guides"
 name = "📘 电子书"
 url = "/guide/comprehensive/"
 weight = 50
 
 # 把次要入口放底部菜单（footer 渲染），保留可访问性但不挤占主导航
-[[menu.footer]]
+[[languages.zh-cn.menu.footer]]
 identifier = "trending"
 name = "热点分析"
 url = "/categories/咖啡热点分析/"
 weight = 10
 
-[[menu.footer]]
+[[languages.zh-cn.menu.footer]]
 identifier = "categories"
 name = "全部分类"
 url = "/categories/"
 weight = 20
 
-[[menu.footer]]
+[[languages.zh-cn.menu.footer]]
 identifier = "tags"
 name = "标签"
 url = "/tags/"
 weight = 30
 
-[[menu.footer]]
+[[languages.zh-cn.menu.footer]]
 identifier = "about"
 name = "关于我们"
 url = "/about/"
 weight = 40
 
-[[menu.footer]]
+[[languages.zh-cn.menu.footer]]
+identifier = "english"
+name = "English"
+url = "/en/"
+weight = 60
+
+[[languages.zh-cn.menu.footer]]
 identifier = "contact"
 name = "联系我们"
 url = "/contact/"
 weight = 70
+
+[languages.en]
+languageCode = "en"
+languageName = "English"
+weight = 2
+title = "Coffee Prism"
+
+[languages.en.params]
+description = "Science-based coffee brewing guides: pour-over, espresso, French press, AeroPress, beans, gear and health — with reproducible parameters."
+
+[languages.en.params.logo]
+title = "Coffee Prism"
+subtitle = "Brew better coffee, backed by science"
+
+[[languages.en.menu.main]]
+identifier = "brewing-methods"
+name = "Brewing"
+url = "/en/brewing-methods/"
+weight = 10
+
+[[languages.en.menu.main]]
+identifier = "coffee-beans"
+name = "Beans"
+url = "/en/coffee-beans/"
+weight = 20
+
+[[languages.en.menu.main]]
+identifier = "coffee-equipment"
+name = "Gear"
+url = "/en/coffee-equipment/"
+weight = 30
+
+[[languages.en.menu.main]]
+identifier = "health"
+name = "Coffee & Health"
+url = "/en/health/"
+weight = 40
+
+[[languages.en.menu.footer]]
+identifier = "about"
+name = "About"
+url = "/en/about/"
+weight = 10
+
+[[languages.en.menu.footer]]
+identifier = "chinese"
+name = "中文版"
+url = "/"
+weight = 20
 
 [outputs]
 home = ["HTML", "RSS", "JSON"]

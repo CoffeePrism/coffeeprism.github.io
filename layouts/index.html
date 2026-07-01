@@ -1,4 +1,59 @@
 {{ define "main" }}
+{{- if eq .Site.Language.Lang "en" }}
+<main class="main main--home" role="main">
+  {{/* ===== English pilot homepage ===== */}}
+  <section class="home-hero">
+    <div class="home-hero-inner">
+      <div class="home-hero-eyebrow">☕ COFFEE PRISM · SCIENCE-BASED COFFEE GUIDES</div>
+      <h1 class="home-hero-title">
+        Understand coffee with <span class="hero-accent">science</span>,<br>
+        master it with <span class="hero-accent">practice</span>
+      </h1>
+      <p class="home-hero-tagline">
+        Reproducible brewing parameters — ratios, temperatures, grind sizes and timings — for pour-over, espresso, French press, AeroPress, moka pot and cold brew. No folklore, just what works.
+      </p>
+      <div class="home-hero-cta-row">
+        <a href="/en/brewing-methods/" class="home-hero-cta">☕ Explore the brewing guides</a>
+      </div>
+    </div>
+  </section>
+
+  <section class="home-pillars">
+    <a href="/en/brewing-methods/" class="pillar-card">
+      <div class="pillar-icon">☕</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">Brewing Methods</h3>
+        <p class="pillar-desc">Pour-over / espresso / French press / AeroPress / moka pot / cold brew — six methods compared</p>
+        <span class="pillar-link">Read the guide →</span>
+      </div>
+    </a>
+    <a href="/en/coffee-beans/" class="pillar-card">
+      <div class="pillar-icon">🫘</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">Coffee Beans</h3>
+        <p class="pillar-desc">Arabica vs Robusta, 20+ origins, processing methods, roast levels and freshness</p>
+        <span class="pillar-link">Read the guide →</span>
+      </div>
+    </a>
+    <a href="/en/coffee-equipment/" class="pillar-card">
+      <div class="pillar-icon">⚙️</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">Gear Guide</h3>
+        <p class="pillar-desc">Grinders, drippers, machines and scales — budget-tiered setups that make sense</p>
+        <span class="pillar-link">Read the guide →</span>
+      </div>
+    </a>
+    <a href="/en/health/" class="pillar-card">
+      <div class="pillar-icon">💚</div>
+      <div class="pillar-body">
+        <h3 class="pillar-title">Coffee &amp; Health</h3>
+        <p class="pillar-desc">Caffeine metabolism, heart health, sleep and antioxidants — the scientific consensus</p>
+        <span class="pillar-link">Read the guide →</span>
+      </div>
+    </a>
+  </section>
+</main>
+{{ else }}
 <main class="main main--home" role="main">
 
   {{/* HERO — value prop + 4 pillar 大入口 */}}
@@ -92,4 +147,5 @@
   </section>
 </main>
 {{ partial "pagination.html" . }}
+{{ end }}
 {{ end }}

@@ -22,7 +22,7 @@
   </div>
   <footer class="card-footer">
     <time class="card-date" datetime="{{ .Date.Format "2006-01-02" }}">{{ .Date.Format "2006-01-02" }}</time>
-    <span class="card-readtime">{{ .ReadingTime }} 分钟阅读</span>
-    <a class="card-readmore" href="{{ .RelPermalink }}">阅读全文 →</a>
+    <span class="card-readtime">{{ .ReadingTime }} {{ i18n "minRead" }}</span>
+    <a class="card-readmore" href="{{ .RelPermalink }}">{{ i18n "readMore" }}</a>
   </footer>
 </article>

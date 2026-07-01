@@ -776,7 +776,7 @@ a:hover { color: var(--cp-coffee-dark); }
   min-height: 100px;
 }
 .ad-in-article::before {
-  content: "推广内容";
+  content: attr(data-ad-label);
   position: absolute;
   top: -10px;
   left: 16px;
