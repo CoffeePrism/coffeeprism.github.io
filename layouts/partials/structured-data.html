@@ -1,155 +1,130 @@
+{{- /*
+  JSON-LD structured data.
+  实现约定：全部先构建 Hugo dict，再一次性 `jsonify | safeJS` 输出。
+  之前的写法（在 <script> 里逐字段 jsonify）会被 Hugo 的上下文自动转义
+  二次编码，导致 headline/date/url 的值里嵌着字面引号、keywords 变成
+  字符串——所有页面的 schema 对解析器来说都是坏的。
+*/ -}}
+{{- $orgId := "https://www.coffeeprism.com/#organization" -}}
+{{- $siteImg := printf "https://www.coffeeprism.com%s" (index (site.Params.images | default (slice "/images/og-default.jpg")) 0) -}}
+{{- $org := dict
+  "@type" "Organization"
+  "@id" $orgId
+  "name" "Coffee Prism"
+  "alternateName" "咖啡棱镜"
+  "url" "https://www.coffeeprism.com/"
+  "description" (site.Params.description | plainify)
+  "logo" (dict "@type" "ImageObject" "url" $siteImg)
+-}}
+
 {{- if .IsHome -}}
-{{/* WebSite Schema with SearchAction for homepage */}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "WebSite",
-  "name": "Coffee Prism",
-  "url": "https://www.coffeeprism.com/",
-  "description": {{ .Site.Params.description | jsonify }},
-  "potentialAction": {
-    "@type": "SearchAction",
-    "target": "https://www.coffeeprism.com/search/?q={search_term_string}",
-    "query-input": "required name=search_term_string"
-  }
-}
-</script>
+{{- $website := dict
+  "@context" "https://schema.org"
+  "@graph" (slice
+    $org
+    (dict
+      "@type" "WebSite"
+      "@id" "https://www.coffeeprism.com/#website"
+      "name" "Coffee Prism"
+      "url" "https://www.coffeeprism.com/"
+      "description" (site.Params.description | plainify)
+      "inLanguage" "zh-CN"
+      "publisher" (dict "@id" $orgId)
+    )
+  )
+-}}
+<script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
 {{- end -}}
 
 {{- if .IsPage -}}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
+{{- /* description：markdownify→plainify 剥掉 **加粗**、> 引用 等 markdown 痕迹 */ -}}
+{{- $desc := .Description | default .Summary | markdownify | plainify | truncate 160 -}}
 
-{{/* Article Schema */}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "Article",
-  "headline": {{ .Title | jsonify }},
-  "description": {{ .Description | default .Summary | plainify | truncate 160 | jsonify }},
-  "url": {{ .Permalink | jsonify }},
-  "datePublished": {{ .PublishDate.Format $iso8601 | jsonify }},
-  "dateModified": {{ .Lastmod.Format $iso8601 | jsonify }},
-  "author": {
-    "@type": "Organization",
-    "name": "Coffee Prism",
-    "url": "https://www.coffeeprism.com"
-  },
-  "publisher": {
-    "@type": "Organization",
-    "name": "Coffee Prism",
-    "url": "https://www.coffeeprism.com",
-    "logo": {
-      "@type": "ImageObject",
-      "url": "https://www.coffeeprism.com/favicon.ico"
-    }
-  },
-  "mainEntityOfPage": {
-    "@type": "WebPage",
-    "@id": {{ .Permalink | jsonify }}
-  }
-  {{- with .Params.categories }},
-  "articleSection": {{ index . 0 | jsonify }}
-  {{- end }}
-  {{- with .Params.tags }},
-  "keywords": {{ . | jsonify }}
-  {{- end }}
-}
-</script>
+{{- $article := dict
+  "@context" "https://schema.org"
+  "@type" "Article"
+  "headline" .Title
+  "description" $desc
+  "url" .Permalink
+  "inLanguage" "zh-CN"
+  "image" $siteImg
+  "datePublished" (.PublishDate.Format $iso8601)
+  "dateModified" (.Lastmod.Format $iso8601)
+  "author" (dict "@id" $orgId)
+  "publisher" (dict "@id" $orgId)
+  "mainEntityOfPage" (dict "@type" "WebPage" "@id" .Permalink)
+-}}
+{{- with .Params.categories -}}
+  {{- $article = merge $article (dict "articleSection" (index . 0)) -}}
+{{- end -}}
+{{- with .Params.tags -}}
+  {{- $article = merge $article (dict "keywords" .) -}}
+{{- end -}}
+<script type="application/ld+json">{{ (merge $article (dict "author" $org "publisher" $org)) | jsonify | safeJS }}</script>
 
-{{/* HowTo Schema - from frontmatter howto field */}}
+{{- /* HowTo Schema */ -}}
 {{- with .Params.howto -}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "HowTo",
-  "name": {{ .name | default $.Title | jsonify }},
-  "description": {{ .description | default $.Description | jsonify }}
-  {{- with .totalTime }},
-  "totalTime": {{ . | jsonify }}
-  {{- end }}
-  {{- with .yield }},
-  "yield": {{ . | jsonify }}
-  {{- end }}
-  {{- with .supply }},
-  "supply": [
-    {{- range $i, $s := . }}{{ if $i }},{{ end }}{ "@type": "HowToSupply", "name": {{ $s | jsonify }} }{{ end }}
-  ]
-  {{- end }}
-  {{- with .tool }},
-  "tool": [
-    {{- range $i, $t := . }}{{ if $i }},{{ end }}{ "@type": "HowToTool", "name": {{ $t | jsonify }} }{{ end }}
-  ]
-  {{- end }}
-  {{- with .steps }},
-  "step": [
-    {{- range $i, $step := . -}}
-    {{- if $i }},{{ end }}
-    {
-      "@type": "HowToStep",
-      "position": {{ add $i 1 }},
-      "name": {{ $step.name | default (printf "步骤 %d" (add $i 1)) | jsonify }},
-      "text": {{ $step.text | jsonify }}
-    }
-    {{- end }}
-  ]
-  {{- end }}
-}
-</script>
+{{- $howto := dict
+  "@context" "https://schema.org"
+  "@type" "HowTo"
+  "name" (.name | default $.Title)
+  "description" (.description | default $.Description | default "" | markdownify | plainify)
+-}}
+{{- with .totalTime }}{{ $howto = merge $howto (dict "totalTime" .) }}{{ end -}}
+{{- with .yield }}{{ $howto = merge $howto (dict "yield" .) }}{{ end -}}
+{{- with .supply -}}
+  {{- $supplies := slice -}}
+  {{- range . }}{{ $supplies = $supplies | append (dict "@type" "HowToSupply" "name" .) }}{{ end -}}
+  {{- $howto = merge $howto (dict "supply" $supplies) -}}
+{{- end -}}
+{{- with .tool -}}
+  {{- $tools := slice -}}
+  {{- range . }}{{ $tools = $tools | append (dict "@type" "HowToTool" "name" .) }}{{ end -}}
+  {{- $howto = merge $howto (dict "tool" $tools) -}}
+{{- end -}}
+{{- with .steps -}}
+  {{- $steps := slice -}}
+  {{- range $i, $s := . -}}
+    {{- $steps = $steps | append (dict
+      "@type" "HowToStep"
+      "position" (add $i 1)
+      "name" ($s.name | default (printf "步骤 %d" (add $i 1)))
+      "text" $s.text
+    ) -}}
+  {{- end -}}
+  {{- $howto = merge $howto (dict "step" $steps) -}}
+{{- end -}}
+<script type="application/ld+json">{{ $howto | jsonify | safeJS }}</script>
 {{- end -}}
 
-{{/* FAQ Schema - from frontmatter faq field */}}
+{{- /* FAQ Schema —— 按问题去重（generator 历史 bug 会写入重复问题） */ -}}
 {{- with .Params.faq -}}
-{{- if gt (len .) 0 -}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "FAQPage",
-  "mainEntity": [
-    {{- range $i, $item := . -}}
-    {{- if $i }},{{ end }}
-    {
-      "@type": "Question",
-      "name": {{ $item.q | jsonify }},
-      "acceptedAnswer": {
-        "@type": "Answer",
-        "text": {{ $item.a | jsonify }}
-      }
-    }
-    {{- end }}
-  ]
-}
-</script>
+{{- $seen := slice -}}
+{{- $entities := slice -}}
+{{- range . -}}
+  {{- if not (in $seen .q) -}}
+    {{- $seen = $seen | append .q -}}
+    {{- $entities = $entities | append (dict
+      "@type" "Question"
+      "name" .q
+      "acceptedAnswer" (dict "@type" "Answer" "text" (.a | markdownify | plainify))
+    ) -}}
+  {{- end -}}
+{{- end -}}
+{{- if gt (len $entities) 0 -}}
+{{- $faq := dict "@context" "https://schema.org" "@type" "FAQPage" "mainEntity" $entities -}}
+<script type="application/ld+json">{{ $faq | jsonify | safeJS }}</script>
 {{- end -}}
 {{- end -}}
 
-{{/* BreadcrumbList Schema */}}
-<script type="application/ld+json">
-{
-  "@context": "https://schema.org",
-  "@type": "BreadcrumbList",
-  "itemListElement": [
-    {
-      "@type": "ListItem",
-      "position": 1,
-      "name": "首页",
-      "item": "https://www.coffeeprism.com/"
-    }
-    {{- with .Params.categories -}}
-    {{- $cat := index . 0 -}}
-    ,{
-      "@type": "ListItem",
-      "position": 2,
-      "name": {{ $cat | jsonify }},
-      "item": {{ printf "https://www.coffeeprism.com/categories/%s/" ($cat | urlize) | jsonify }}
-    }
-    {{- end }},
-    {
-      "@type": "ListItem",
-      "position": {{ if .Params.categories }}3{{ else }}2{{ end }},
-      "name": {{ .Title | jsonify }},
-      "item": {{ .Permalink | jsonify }}
-    }
-  ]
-}
-</script>
+{{- /* BreadcrumbList Schema */ -}}
+{{- $crumbs := slice (dict "@type" "ListItem" "position" 1 "name" "首页" "item" "https://www.coffeeprism.com/") -}}
+{{- with .Params.categories -}}
+  {{- $cat := index . 0 -}}
+  {{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" 2 "name" $cat "item" (printf "https://www.coffeeprism.com/categories/%s/" ($cat | urlize))) -}}
+{{- end -}}
+{{- $crumbs = $crumbs | append (dict "@type" "ListItem" "position" (add (len $crumbs) 1) "name" .Title "item" .Permalink) -}}
+{{- $breadcrumb := dict "@context" "https://schema.org" "@type" "BreadcrumbList" "itemListElement" $crumbs -}}
+<script type="application/ld+json">{{ $breadcrumb | jsonify | safeJS }}</script>
 {{- end -}}

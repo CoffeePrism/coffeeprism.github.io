@@ -1,17 +1,12 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>咖啡与健康完全指南 2026：科学共识 &#43; 误区拆解 on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/health/</link>
-		<description>Recent content in 咖啡与健康完全指南 2026：科学共识 &#43; 误区拆解 on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate></lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/health/index.xml" rel="self" type="application/rss+xml" />
-	</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>咖啡与健康完全指南 2026：科学共识 &#43; 误区拆解 on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/health/</link>
+    <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 15:15:01 -0700</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/health/index.xml" rel="self" type="application/rss+xml" />
+  </channel>
 </rss>

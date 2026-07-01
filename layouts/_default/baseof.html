@@ -3,9 +3,13 @@
 <head>
 	<meta charset="UTF-8">
 	<meta name="viewport" content="width=device-width, initial-scale=1">
-	<title>{{ block "title" . }}{{ if not .IsHome }}{{ .Title }} - {{ end }}{{ .Site.Title }}{{ end }}</title>
+	<title>{{ block "title" . }}{{ if .IsHome }}{{ .Site.Title }} — 中文精品咖啡专业指南 · 冲煮 / 咖啡豆 / 器具{{ else }}{{ .Title }} - {{ .Site.Title }}{{ end }}{{ end }}</title>
 	<script>(function(d,e){d[e]=d[e].replace("no-js","js");})(document.documentElement,"className");</script>
-	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ .Params.Description }}{{ end }}">
+	<meta name="description" content="{{ if .IsHome }}{{ .Site.Params.description }}{{ else }}{{ with .Params.Description }}{{ . | markdownify | plainify }}{{ else }}{{ .Site.Params.description }}{{ end }}{{ end }}">
+	{{- /* tags 页低价值：noindex 但 follow 保留内链权重（robots.txt 已不再 Disallow） */}}
+	{{- if and (in (slice "term" "taxonomy") .Kind) (eq (.Data.Plural | default "") "tags") }}
+	<meta name="robots" content="noindex,follow">
+	{{- end }}
 	<link rel="canonical" href="{{ .Permalink }}">
 	{{- if .Site.Params.opengraph }}
 		{{ template "_internal/opengraph.html" . }}

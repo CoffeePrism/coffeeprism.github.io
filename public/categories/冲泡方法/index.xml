@@ -1,59 +1,749 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>冲泡方法 on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/</link>
-		<description>Recent content in 冲泡方法 on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
-				<link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
-				<description>&lt;h1 id=&#34;冷萃咖啡-cold-brew-完全指南&#34;&gt;冷萃咖啡 Cold Brew 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;冷萃（Cold Brew）不是&amp;quot;冰镇热咖啡&amp;quot;——它是用&lt;strong&gt;冷水长时间浸泡&lt;/strong&gt;萃取的咖啡。结果与热萃完全不同：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;酸度低 67%&lt;/strong&gt;（冷水萃不出大部分酸）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;苦涩物质少&lt;/strong&gt;（绿原酸、单宁不易溶于冷水）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;甜感更突出&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;咖啡因含量略高&lt;/strong&gt;（浸泡时间长）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这让冷萃成为&lt;strong&gt;夏天 / 怕酸怕苦 / 需要醇厚甜咖啡&lt;/strong&gt;的最佳选择。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
-				<link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
-				<description>&lt;h1 id=&#34;意式浓缩-espresso-完全指南&#34;&gt;意式浓缩 Espresso 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;Espresso 不是一种冲煮方式——它是一类&lt;strong&gt;高压浓缩萃取&lt;/strong&gt;：约 &lt;strong&gt;9 bar&lt;/strong&gt; 压力把热水快速推过细研磨的咖啡粉床，约 &lt;strong&gt;25-30 秒&lt;/strong&gt;萃出 30ml 浓缩液。&lt;/p&gt;&#xA;&lt;p&gt;它是 &lt;strong&gt;拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵&lt;/strong&gt; 的基础。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
-				<link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
-				<description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>法压壶 French Press 完全指南：浸泡式萃取的科学</title>
-				<link>https://www.coffeeprism.com/brewing-methods/french-press/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/french-press/</guid>
-				<description>&lt;h1 id=&#34;法压壶-french-press-完全指南&#34;&gt;法压壶 French Press 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;法压壶是&lt;strong&gt;浸泡式（immersion）萃取&lt;/strong&gt;的代表，与手冲（percolation 滴滤）的核心区别：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;手冲&lt;/strong&gt;：水流过粉床，水短暂接触粉&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;法压&lt;/strong&gt;：粉浸在水里 4 分钟，长时间持续萃取&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这导致法压咖啡有它独特的特征：&lt;strong&gt;油脂感重、风味饱满、醇厚（body 厚）&lt;/strong&gt;——但相应地&lt;strong&gt;清晰度低、酸度被压制&lt;/strong&gt;。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>爱乐压 AeroPress 完全指南：从原版配方到反转法</title>
-				<link>https://www.coffeeprism.com/brewing-methods/aeropress/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/aeropress/</guid>
-				<description>&lt;h1 id=&#34;爱乐压-aeropress-完全指南&#34;&gt;爱乐压 AeroPress 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;爱乐压是 2005 年由 Aerobie 公司发明的便携式咖啡器具，结合了&lt;strong&gt;浸泡 + 加压过滤&lt;/strong&gt;的双重萃取方式。它便宜、便携、好洗、容错率高——是&lt;strong&gt;旅行 / 办公室 / 露营 / 出差&lt;/strong&gt;的最佳选择。&lt;/p&gt;&#xA;&lt;p&gt;每年还有专门的 &lt;strong&gt;爱乐压世界冠军赛（World AeroPress Championship，WAC）&lt;/strong&gt;，催生了大量创新配方。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>V60手冲咖啡完全指南：从入门到精通</title>
-				<link>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</link>
-				<pubDate>Mon, 15 Apr 2024 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</guid>
-				<description>&lt;h1 id=&#34;v60手冲咖啡完全指南从入门到精通&#34;&gt;V60手冲咖啡完全指南：从入门到精通&lt;/h1&gt;&#xA;&lt;p&gt;V60是由日本知名咖啡器具品牌Hario开发的锥形滤杯，因其60°的锥角而得名。自问世以来，V60已经成为全球咖啡爱好者和专业咖啡师最喜爱的手冲器具之一。这种看似简单的锥形滤杯，能够让咖啡师精确控制几乎所有影响萃取的变量，从而萃取出风味清晰、层次丰富的咖啡。&lt;/p&gt;</description>
-			</item>
-	</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>冲泡方法 on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/</link>
+    <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 15:15:01 -0700</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/categories/%E5%86%B2%E6%B3%A1%E6%96%B9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>爱乐压 AeroPress 完全指南：从原版配方到反转法</title>
+      <link>https://www.coffeeprism.com/brewing-methods/aeropress/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/aeropress/</guid>
+      <description>爱乐压 AeroPress 完全指南：原版配方、反转法、WAC 世界冠军配方。一杯稳定爱乐压咖啡的 5 步教程，附故障排查。</description>
+      <content:encoded><![CDATA[<h1 id="爱乐压-aeropress-完全指南">爱乐压 AeroPress 完全指南</h1>
+<p>爱乐压是 2005 年由 Aerobie 公司发明的便携式咖啡器具，结合了<strong>浸泡 + 加压过滤</strong>的双重萃取方式。它便宜、便携、好洗、容错率高——是<strong>旅行 / 办公室 / 露营 / 出差</strong>的最佳选择。</p>
+<p>每年还有专门的 <strong>爱乐压世界冠军赛（World AeroPress Championship，WAC）</strong>，催生了大量创新配方。</p>
+<h2 id="原版标准-vs-反转inverted">原版（标准） vs 反转（Inverted）</h2>
+<h3 id="标准法">标准法</h3>
+<ul>
+<li>滤纸 + 滤网在底部</li>
+<li>倒粉 → 注水 → 立刻开始向下渗滤</li>
+<li>缺点：水边浸泡边漏走，浸泡时间难控</li>
+</ul>
+<h3 id="反转法推荐">反转法（推荐）</h3>
+<ul>
+<li>整个 AeroPress 倒置，开口朝上</li>
+<li>倒粉 → 注水 → <strong>完全浸泡</strong> → 计时 1-3 分钟</li>
+<li>翻转扣到杯上 → 加压萃取</li>
+<li><strong>优点：浸泡时间精确可控</strong></li>
+</ul>
+<p>绝大多数 WAC 冠军配方都用反转法。</p>
+<h2 id="三种典型配方">三种典型配方</h2>
+<h3 id="1-入门配方清淡平衡">1. 入门配方（清淡平衡）</h3>
+<ul>
+<li>12g 粉 / 200g 水 / 90°C / 中度研磨 / 浸泡 1 分钟 / 压 30 秒</li>
+</ul>
+<h3 id="2-强烈浓缩配方接近-espresso-体感">2. 强烈浓缩配方（接近 espresso 体感）</h3>
+<ul>
+<li>18g 粉 / 60g 水 / 85°C / 细研磨 / 浸泡 30 秒 / 快速压 / 加 100g 热水稀释</li>
+</ul>
+<h3 id="3-wac-风格冠军配方清晰风味">3. WAC 风格冠军配方（清晰风味）</h3>
+<ul>
+<li>15g 粉 / 220g 水 / 88°C / 中细研磨 / 反转浸泡 1:30 / 翻转压 30 秒</li>
+</ul>
+<h2 id="这个器具最棒的是什么">这个器具最棒的是什么</h2>
+<p><strong>容错率高到离谱</strong>。即使你的研磨度差 2 格、水温差 5°C、时间差 30 秒，最后倒出来的还是一杯像样的咖啡。这是手冲做不到的。</p>
+<p>代价：风味的<strong>层次感和透明度低于 V60 / Kalita</strong>。所以爱乐压<strong>不是&quot;最好的&quot;咖啡，是&quot;最稳定的&quot;咖啡</strong>。</p>
+<h2 id="滤纸选择">滤纸选择</h2>
+<table>
+  <thead>
+      <tr>
+          <th>类型</th>
+          <th>特点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>AeroPress 原装漂白纸</strong></td>
+          <td>最便宜、随包装赠送、风味偏中性</td>
+      </tr>
+      <tr>
+          <td><strong>AeroPress 原装未漂白</strong></td>
+          <td>更环保但有轻微纸味</td>
+      </tr>
+      <tr>
+          <td><strong>金属滤网（DISK / Able）</strong></td>
+          <td>更多油脂，风味厚但有细粉</td>
+      </tr>
+      <tr>
+          <td><strong>Cafec / Aesir 第三方厚纸</strong></td>
+          <td>风味更干净，价格高 30%</td>
+      </tr>
+  </tbody>
+</table>
+<p>新手用原装漂白滤纸即可。</p>
+<h2 id="常见问题">常见问题</h2>
+<table>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>太苦</td>
+          <td>浸泡时间过长 / 水温过高</td>
+      </tr>
+      <tr>
+          <td>太淡</td>
+          <td>粉量不足 / 研磨太粗</td>
+      </tr>
+      <tr>
+          <td>太酸</td>
+          <td>萃取不足 / 水温太低（&lt; 88°C）</td>
+      </tr>
+      <tr>
+          <td>压不下去</td>
+          <td>磨太细，调粗 2 格</td>
+      </tr>
+      <tr>
+          <td>溢出</td>
+          <td>注水超出筒身刻度</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<blockquote>
+<p>📘 爱乐压只是 5 大冲煮方法之一。系统学全套？看 <a href="/guide/comprehensive/">《咖啡冲煮完全指南 2026》$3.99</a>。</p>
+</blockquote>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/brewing-methods/pour-over-v60/">V60 手冲咖啡完全指南</a></li>
+<li><a href="/brewing-methods/french-press/">法压壶 French Press 完全指南</a></li>
+<li><a href="/coffee-beans/">咖啡豆完全指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>法压壶 French Press 完全指南：浸泡式萃取的科学</title>
+      <link>https://www.coffeeprism.com/brewing-methods/french-press/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/french-press/</guid>
+      <description>法压壶 French Press 完全指南：粗研磨参数、4 分钟浸泡法、95°C 水温控制、油脂保留与口感醇厚的科学。一杯稳定法压咖啡的 6 步教程。</description>
+      <content:encoded><![CDATA[<h1 id="法压壶-french-press-完全指南">法压壶 French Press 完全指南</h1>
+<p>法压壶是<strong>浸泡式（immersion）萃取</strong>的代表，与手冲（percolation 滴滤）的核心区别：</p>
+<ul>
+<li><strong>手冲</strong>：水流过粉床，水短暂接触粉</li>
+<li><strong>法压</strong>：粉浸在水里 4 分钟，长时间持续萃取</li>
+</ul>
+<p>这导致法压咖啡有它独特的特征：<strong>油脂感重、风味饱满、醇厚（body 厚）</strong>——但相应地<strong>清晰度低、酸度被压制</strong>。</p>
+<h2 id="为什么很多人觉得法压咖啡不好喝">为什么很多人觉得法压咖啡不好喝</h2>
+<p>最常见三个原因：</p>
+<ol>
+<li><strong>研磨度太细</strong>：法压必须<strong>粗研磨</strong>（1000-1200 微米），太细会让大量细粉进入杯中产生苦涩沉淀</li>
+<li><strong>浸泡时间过长</strong>：超过 5 分钟会过萃苦化</li>
+<li><strong>下压太快</strong>：粉床扰动产生通道，且让滤网下方的咖啡继续萃取</li>
+</ol>
+<h2 id="4-分钟法的科学依据">4 分钟法的科学依据</h2>
+<p>为什么是 4 分钟？</p>
+<table>
+  <thead>
+      <tr>
+          <th>时间</th>
+          <th>萃取出的物质</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>0-1 分钟</td>
+          <td>酸（柠檬酸、苹果酸、奎宁酸）</td>
+      </tr>
+      <tr>
+          <td>1-3 分钟</td>
+          <td>甜（焦糖、蔗糖、乳酸）</td>
+      </tr>
+      <tr>
+          <td>3-4 分钟</td>
+          <td>醇厚 + 部分苦（绿原酸）</td>
+      </tr>
+      <tr>
+          <td>4 分钟 +</td>
+          <td>过萃苦味为主</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>4 分钟刚好停在甜与醇厚的甜区</strong>。</p>
+<h2 id="推荐配方">推荐配方</h2>
+<h3 id="经典-115-配方强浓度">经典 1:15 配方（强浓度）</h3>
+<ul>
+<li>60g 粉 / 900g 水 / 95°C / 4 分钟</li>
+</ul>
+<h3 id="清淡版-117-配方">清淡版 1:17 配方</h3>
+<ul>
+<li>50g 粉 / 850g 水 / 92°C / 4 分钟</li>
+</ul>
+<h3 id="hoffmann-改良法更干净">Hoffmann 改良法（更干净）</h3>
+<p>James Hoffmann 推广的版本：</p>
+<ul>
+<li>4 分钟到时<strong>不下压</strong>，先用勺子撇掉粉床表层的浮渣</li>
+<li>再静置 5 分钟让细粉沉降</li>
+<li>然后<strong>只把上层 70% 倒出来</strong>，不下压不搅动</li>
+</ul>
+<p>干净度提升一个档次，但牺牲了一些醇厚度。</p>
+<h2 id="常见问题">常见问题</h2>
+<table>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+          <th>解法</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>沉淀很多</td>
+          <td>磨太细</td>
+          <td>调粗 2-3 格</td>
+      </tr>
+      <tr>
+          <td>太苦</td>
+          <td>浸泡过久</td>
+          <td>严格控时 4 分钟</td>
+      </tr>
+      <tr>
+          <td>没酸度</td>
+          <td>水温太低</td>
+          <td>用 95°C</td>
+      </tr>
+      <tr>
+          <td>醇厚度差</td>
+          <td>粉量不足</td>
+          <td>加到 1:15 比例</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<blockquote>
+<p>📘 法压、摩卡、爱乐压、虹吸壶——所有方法的标准配方 + 故障排查表都在 <a href="/guide/comprehensive/">《咖啡冲煮完全指南 2026》$3.99</a> 里。</p>
+</blockquote>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/coffee-beans/">咖啡豆完全指南</a></li>
+<li><a href="/brewing-methods/pour-over-v60/">V60 手冲咖啡完全指南</a></li>
+<li><a href="/brewing-methods/espresso/">意式浓缩 Espresso 完全指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
+      <link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
+      <description>冷萃咖啡 Cold Brew 完全指南：1:8 标准比例、12-24 小时浸泡、低酸高甜的化学原理、家庭批量制作方法。</description>
+      <content:encoded><![CDATA[<h1 id="冷萃咖啡-cold-brew-完全指南">冷萃咖啡 Cold Brew 完全指南</h1>
+<p>冷萃（Cold Brew）不是&quot;冰镇热咖啡&quot;——它是用<strong>冷水长时间浸泡</strong>萃取的咖啡。结果与热萃完全不同：</p>
+<ul>
+<li><strong>酸度低 67%</strong>（冷水萃不出大部分酸）</li>
+<li><strong>苦涩物质少</strong>（绿原酸、单宁不易溶于冷水）</li>
+<li><strong>甜感更突出</strong></li>
+<li><strong>咖啡因含量略高</strong>（浸泡时间长）</li>
+</ul>
+<p>这让冷萃成为<strong>夏天 / 怕酸怕苦 / 需要醇厚甜咖啡</strong>的最佳选择。</p>
+<h2 id="冷萃-vs-冰滴-vs-冰镇热咖啡">冷萃 vs 冰滴 vs 冰镇热咖啡</h2>
+<table>
+  <thead>
+      <tr>
+          <th>类型</th>
+          <th>制作</th>
+          <th>时间</th>
+          <th>风味</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>冷萃 Cold Brew</strong></td>
+          <td>冷水浸泡</td>
+          <td>12-24 小时</td>
+          <td>醇厚、低酸、甜</td>
+      </tr>
+      <tr>
+          <td><strong>冰滴 Cold Drip</strong></td>
+          <td>冰水缓滴</td>
+          <td>4-8 小时</td>
+          <td>干净、清晰、风味精致</td>
+      </tr>
+      <tr>
+          <td><strong>冰镇热咖啡</strong></td>
+          <td>热萃 → 加冰</td>
+          <td>30 秒</td>
+          <td>接近热咖啡但更稀</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>冰滴需要专门的冰滴架，冷萃只需要一个罐子</strong>——所以家庭场景冷萃更实用。</p>
+<h2 id="18-是标准比例浓缩液">1:8 是标准比例（浓缩液）</h2>
+<table>
+  <thead>
+      <tr>
+          <th>比例</th>
+          <th>用途</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>1:8（100g 粉 / 800g 水）</strong></td>
+          <td>浓缩液，喝时按 1:1 加水或牛奶稀释</td>
+      </tr>
+      <tr>
+          <td><strong>1:15（50g 粉 / 750g 水）</strong></td>
+          <td>即饮，倒出来直接喝</td>
+      </tr>
+  </tbody>
+</table>
+<p>我推荐做<strong>浓缩液</strong>：保存期更长（10 天 vs 3 天），喝时按需稀释，调拿铁、加冰、加汤力水都灵活。</p>
+<h2 id="时间窗口">时间窗口</h2>
+<table>
+  <thead>
+      <tr>
+          <th>浸泡时间</th>
+          <th>风味</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>8 小时</strong></td>
+          <td>不足，偏淡</td>
+      </tr>
+      <tr>
+          <td><strong>12 小时</strong></td>
+          <td>入门窗口，干净轻盈</td>
+      </tr>
+      <tr>
+          <td><strong>16 小时</strong></td>
+          <td><strong>甜区</strong></td>
+      </tr>
+      <tr>
+          <td><strong>20 小时</strong></td>
+          <td>醇厚饱满</td>
+      </tr>
+      <tr>
+          <td><strong>24 小时</strong></td>
+          <td>接近过萃，但仍可饮</td>
+      </tr>
+      <tr>
+          <td><strong>超过 24 小时</strong></td>
+          <td>会出现&quot;金属味&quot;</td>
+      </tr>
+  </tbody>
+</table>
+<p>第一次做先用 <strong>16 小时</strong>，根据口味再调整。</p>
+<h2 id="哪些豆子最适合冷萃">哪些豆子最适合冷萃</h2>
+<p>冷萃适合<strong>风味醇厚、甜感突出</strong>的豆子：</p>
+<p>✅ <strong>巴西、印尼曼特宁、哥伦比亚</strong>：低酸厚体，冷萃后甜感被放大
+✅ <strong>中深烘的拼配豆</strong>：焦糖、可可调性突出
+✅ <strong>日晒处理的豆子</strong>：果香在冷萃下保留较好</p>
+<p>❌ <strong>不太适合</strong>：浅烘的肯尼亚、埃塞——它们的核心特征是高酸亮，冷萃会把这些&quot;杀掉&quot;，喝起来反而像&quot;普通咖啡&quot;</p>
+<h2 id="喝法">喝法</h2>
+<ol>
+<li><strong>黑咖啡</strong>：浓缩液 1:1 兑冷水或冰</li>
+<li><strong>冷萃拿铁</strong>：浓缩液 1 份 + 冷牛奶 2 份 + 冰</li>
+<li><strong>冷萃汤力</strong>：浓缩液 1 份 + 汤力水 2 份 + 冰 + 一片橙子（夏日神器）</li>
+<li><strong>冷萃通宁</strong>：和上面汤力做法相似，但用通宁水（quinine 含量更高）</li>
+</ol>
+<h2 id="常见问题">常见问题</h2>
+<table>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>太淡</td>
+          <td>比例错（试 1:8）/ 时间不够（试 16 小时）</td>
+      </tr>
+      <tr>
+          <td>浑浊有沉淀</td>
+          <td>磨太细 → 用粗研磨 + V60 滤纸细过滤</td>
+      </tr>
+      <tr>
+          <td>苦涩</td>
+          <td>浸泡过久（&gt; 24 小时）或用了浅烘豆</td>
+      </tr>
+      <tr>
+          <td>保存几天后变酸</td>
+          <td>这是正常氧化，建议 7 天内喝完</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<blockquote>
+<p>📘 冷萃只是夏季方法之一。系统学全 5 大方法 + 故障排查？<a href="/guide/comprehensive/">《咖啡冲煮完全指南 2026》$3.99</a> 给你完整工具箱。</p>
+</blockquote>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/brewing-methods/pour-over-v60/">V60 手冲咖啡完全指南</a></li>
+<li><a href="/brewing-methods/french-press/">法压壶 French Press 完全指南</a></li>
+<li><a href="/coffee-beans/">咖啡豆完全指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
+      <link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
+      <description>摩卡壶 Moka Pot 完全指南：1.5 bar 蒸汽萃取原理、Bialetti 经典款、家用炉摩卡的 6 步教程。常见烧糊问题诊断与解决。</description>
+      <content:encoded><![CDATA[<h1 id="摩卡壶-moka-pot-完全指南">摩卡壶 Moka Pot 完全指南</h1>
+<p>摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 <strong>3 亿台</strong>。它用<strong>蒸汽压力（约 1.5 bar）</strong> 把热水推过细研磨的咖啡粉床，是「<strong>穷人的 espresso</strong>」——浓度接近 espresso 但没那么贵。</p>
+<h2 id="摩卡壶--espresso">摩卡壶 ≠ Espresso</h2>
+<p>很多人以为摩卡壶能做 espresso，<strong>这是误解</strong>：</p>
+<table>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>Moka Pot</th>
+          <th>真正的 Espresso</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>压力</strong></td>
+          <td>约 1.5 bar</td>
+          <td>9 bar</td>
+      </tr>
+      <tr>
+          <td><strong>萃取时间</strong></td>
+          <td>3-4 分钟</td>
+          <td>25-30 秒</td>
+      </tr>
+      <tr>
+          <td><strong>温度</strong></td>
+          <td>接近 100°C</td>
+          <td>90-95°C</td>
+      </tr>
+      <tr>
+          <td><strong>crema</strong></td>
+          <td>极少</td>
+          <td>厚实</td>
+      </tr>
+      <tr>
+          <td><strong>风味</strong></td>
+          <td>浓郁但偏苦</td>
+          <td>浓郁且层次清晰</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>摩卡壶的咖啡不能直接做拉花</strong>——crema 太薄。但它非常适合喝单杯浓咖啡或者加奶做家庭版&quot;拿铁&quot;。</p>
+<h2 id="绝大多数人在-bialetti-上踩的-3-个坑">绝大多数人在 Bialetti 上踩的 3 个坑</h2>
+<h3 id="1-用冷水">1. 用冷水</h3>
+<p>冷水让金属底壶在加热过程中<strong>长时间停留在 50-80°C</strong>，咖啡粉会被这个不够热也不算冷的水&quot;焖煮&quot;，产生苦涩味。</p>
+<p><strong>解决</strong>：用 60-70°C 热水起步。</p>
+<h3 id="2-大火快煮">2. 大火快煮</h3>
+<p>大火让蒸汽压力暴涨，水流冲过粉床过快+不均匀，且容易把咖啡&quot;喷出&quot;出现烧糊味。</p>
+<p><strong>解决</strong>：中小火（燃气炉「中火偏小」），让萃取时间拉到 3-4 分钟。</p>
+<h3 id="3-听到滋滋声还不离火">3. 听到滋滋声还不离火</h3>
+<p>底壶水耗尽后，留下的就是<strong>纯蒸汽穿过咖啡粉</strong>——这一刻萃出的全是焦苦物质，且会在杯里盖过前面的好风味。</p>
+<p><strong>解决</strong>：听到声音从「咕咕」转「滋滋」立刻关火，最好用湿毛巾冷却底壶让萃取彻底停止。</p>
+<h2 id="研磨度">研磨度</h2>
+<p>摩卡壶的研磨度介于 <strong>意式（细如面粉）</strong> 和 <strong>手冲（中细如砂糖）</strong> 之间——大概<strong>比意式略粗、比手冲略细</strong>。</p>
+<p>如果你只有一台磨豆机，建议从手冲研磨度往细调 2-3 格。</p>
+<h2 id="常见问题诊断">常见问题诊断</h2>
+<table>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+          <th>解法</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>苦涩</td>
+          <td>火太大 / 没及时离火</td>
+          <td>中小火 + 听声音</td>
+      </tr>
+      <tr>
+          <td>烧糊味</td>
+          <td>火大 + 萃取过头</td>
+          <td>听到「滋滋」立刻冷却</td>
+      </tr>
+      <tr>
+          <td>出水极慢或不出</td>
+          <td>磨太细 / 装粉过满</td>
+          <td>调粗 2 格 / 不要按压粉</td>
+      </tr>
+      <tr>
+          <td>喷溅</td>
+          <td>火太大</td>
+          <td>中小火</td>
+      </tr>
+      <tr>
+          <td>没浓度</td>
+          <td>磨太粗 / 水太少</td>
+          <td>调细 + 检查水位刻度</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="摩卡壶里的咖啡推荐豆">摩卡壶里的咖啡推荐豆</h2>
+<p>摩卡壶不挑豆，但有偏好：</p>
+<ul>
+<li><strong>中深焙意式拼配</strong>：经典选择，与意式风味呼应</li>
+<li><strong>巴西、印尼曼特宁</strong>：低酸厚体，适合摩卡壶的浓郁特性</li>
+<li><strong>不推荐</strong>：浅烘埃塞、肯尼亚——它们的酸亮风味会被摩卡壶的高温炸毁</li>
+</ul>
+<hr>
+<blockquote>
+<p>📘 摩卡、爱乐压、法压、虹吸壶——所有方法的标准配方与故障表都在 <a href="/guide/comprehensive/">《咖啡冲煮完全指南 2026》$3.99</a> 里整理好。</p>
+</blockquote>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/brewing-methods/pour-over-v60/">V60 手冲咖啡完全指南</a></li>
+<li><a href="/brewing-methods/espresso/">意式浓缩 Espresso 完全指南</a></li>
+<li><a href="/coffee-beans/">咖啡豆完全指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
+      <link>https://www.coffeeprism.com/brewing-methods/espresso/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/espresso/</guid>
+      <description>意式浓缩 Espresso 完全指南：9 bar 萃取压力、9g/9g/30 秒标准配方、家用半自动机参数调试、常见问题诊断。一杯稳定 espresso 的入门到精通教程。</description>
+      <content:encoded><![CDATA[<h1 id="意式浓缩-espresso-完全指南">意式浓缩 Espresso 完全指南</h1>
+<p>Espresso 不是一种冲煮方式——它是一类<strong>高压浓缩萃取</strong>：约 <strong>9 bar</strong> 压力把热水快速推过细研磨的咖啡粉床，约 <strong>25-30 秒</strong>萃出 30ml 浓缩液。</p>
+<p>它是 <strong>拿铁、卡布奇诺、平白咖啡（flat white）、玛奇朵</strong> 的基础。</p>
+<h2 id="9g9g9bar9-秒-是个谎言">9g/9g/9bar/9 秒 是个谎言</h2>
+<p>很多入门教程把意式做成&quot;9 进 9 出 9 秒&quot;，<strong>这是 1980 年代意大利商用机的简化口径</strong>，今天的精品咖啡早已是另一种规则：</p>
+<ul>
+<li><strong>粉量</strong>：18-22g（双份），不再是 9g</li>
+<li><strong>液体量</strong>：32-40g 左右</li>
+<li><strong>时间</strong>：25-32 秒</li>
+<li><strong>压力</strong>：9 bar（这个没变）</li>
+<li><strong>粉水比</strong>：1:2 到 1:2.5（lungo 可以拉到 1:3）</li>
+</ul>
+<h2 id="影响-espresso-的核心变量">影响 espresso 的核心变量</h2>
+<table>
+  <thead>
+      <tr>
+          <th>变量</th>
+          <th>影响</th>
+          <th>怎么调</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>研磨度</strong></td>
+          <td>第一大变量</td>
+          <td>萃取时间不在 25-32 秒就调</td>
+      </tr>
+      <tr>
+          <td><strong>粉量</strong></td>
+          <td>决定粉床厚度</td>
+          <td>双份 18-20g 是甜区</td>
+      </tr>
+      <tr>
+          <td><strong>水温</strong></td>
+          <td>萃取效率</td>
+          <td>浅烘 94°C / 深烘 90°C</td>
+      </tr>
+      <tr>
+          <td><strong>压粉力度</strong></td>
+          <td>影响通道</td>
+          <td>13-15kg 即可，更重没意义</td>
+      </tr>
+      <tr>
+          <td><strong>豆子新鲜度</strong></td>
+          <td>crema 厚薄</td>
+          <td>烘焙 7-21 天最佳</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="家用机选购建议">家用机选购建议</h2>
+<p>不要踩这两个坑：</p>
+<ol>
+<li><strong>All-in-one「胶囊+研磨+蒸奶+萃取」</strong> 的廉价机器（&lt; ¥3,000）—— 9 bar 是噱头，水温根本控不准</li>
+<li>没有 <strong>PID 温控</strong> 的入门机器 —— 水温飘移会导致每一杯都不一样</li>
+</ol>
+<p>预算分配建议：<strong>总预算的 60% 给磨豆机</strong>，剩下给咖啡机。一台 ¥3000 磨豆机 + ¥5000 咖啡机的组合，远胜于 ¥1500 磨豆机 + ¥6500 咖啡机。</p>
+<h2 id="常见问题诊断">常见问题诊断</h2>
+<table>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+          <th>解法</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>流速过快 / 苦淡</td>
+          <td>磨太粗或粉量不足</td>
+          <td>磨细 1-2 格，加粉 1g</td>
+      </tr>
+      <tr>
+          <td>流速过慢 / 苦涩</td>
+          <td>磨太细或粉量过多</td>
+          <td>磨粗 1-2 格，减粉 1g</td>
+      </tr>
+      <tr>
+          <td>crema 很薄</td>
+          <td>豆子陈化或压粉过紧</td>
+          <td>换新豆，压粉力度减半</td>
+      </tr>
+      <tr>
+          <td>通道效应（一边流快）</td>
+          <td>布粉不均或粉床破裂</td>
+          <td>WDT + 平整布粉</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="拉花需要什么">拉花需要什么</h2>
+<p>要做拉花你还需要：</p>
+<ul>
+<li><strong>奶缸</strong>：300-600ml 不锈钢（小奶缸更易控）</li>
+<li><strong>温度计</strong>：奶温到 60-65°C 最佳</li>
+<li><strong>全脂牛奶</strong>：脂肪 3.5%+，蛋白质决定泡沫稳定性</li>
+</ul>
+<p>打奶要点：进气阶段（0-50°C）让蒸汽棒在奶面下 0.5cm 制造细密微泡沫；卷奶阶段（50-65°C）下沉蒸汽棒形成漩涡让奶变绸缎质地。</p>
+<hr>
+<blockquote>
+<p>📘 想要更系统的意式 + 5 种其他冲煮方法 + 13 章故障排查？
+看 <a href="/guide/comprehensive/">《咖啡冲煮完全指南 2026》$3.99</a> — 7 张图表、25,000 字、7 天无理由退款。</p>
+</blockquote>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/coffee-beans/">咖啡冲煮完全指南</a> — 从豆子到杯子的全链路系统知识</li>
+<li><a href="/brewing-methods/pour-over-v60/">V60 手冲咖啡完全指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>V60手冲咖啡完全指南：从入门到精通</title>
+      <link>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</link>
+      <pubDate>Mon, 15 Apr 2024 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/pour-over-v60/</guid>
+      <description>V60 手冲完全指南：60° 锥角原理、标准粉水比、四段式注水法、参数微调。一杯稳定好喝的手冲咖啡分步教程，附器材清单。</description>
+      <content:encoded><![CDATA[<h1 id="v60手冲咖啡完全指南从入门到精通">V60手冲咖啡完全指南：从入门到精通</h1>
+<p>V60是由日本知名咖啡器具品牌Hario开发的锥形滤杯，因其60°的锥角而得名。自问世以来，V60已经成为全球咖啡爱好者和专业咖啡师最喜爱的手冲器具之一。这种看似简单的锥形滤杯，能够让咖啡师精确控制几乎所有影响萃取的变量，从而萃取出风味清晰、层次丰富的咖啡。</p>
+<h2 id="v60的特点">V60的特点</h2>
+<p>V60独特的设计具有几个关键特点：</p>
+<ol>
+<li><strong>锥形设计</strong>：60°的锥角有助于水流自然下落，提供均匀萃取</li>
+<li><strong>内部螺旋纹路</strong>：促进空气流通和水流，防止滤纸紧贴滤杯壁</li>
+<li><strong>大单孔出水口</strong>：允许调整流速，给予冲泡者更多控制权</li>
+<li><strong>多种材质选择</strong>：陶瓷、塑料、金属、玻璃等，满足不同需求</li>
+</ol>
+<h2 id="所需器材">所需器材</h2>
+<p>要冲泡一杯完美的V60咖啡，您需要以下器材：</p>
+<ol>
+<li><a href="https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&amp;tag=coffeeprism-20">Hario V60滤杯</a>（陶瓷、塑料或金属均可）</li>
+<li><a href="https://www.amazon.com/s?k=Hario%E4%B8%93%E7%94%A8%E6%BB%A4%E7%BA%B8&amp;tag=coffeeprism-20">Hario专用滤纸</a></li>
+<li><a href="https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%A3%B6&amp;tag=coffeeprism-20">手冲壶</a>（细长壶嘴设计）</li>
+<li><a href="https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A0%94%E7%A3%A8%E5%99%A8&amp;tag=coffeeprism-20">咖啡研磨器</a>（能提供均匀中细研磨）</li>
+<li><a href="https://www.amazon.com/s?k=%E7%B2%BE%E7%A1%AE%E5%92%96%E5%95%A1%E7%A7%A4&amp;tag=coffeeprism-20">精确咖啡秤</a>（最好带计时功能）</li>
+<li>新鲜烘焙的咖啡豆</li>
+<li>优质热水（90-96°C）</li>
+</ol>
+<h2 id="v60冲泡步骤详解">V60冲泡步骤详解</h2>
+<p>下面是一步步的V60冲泡指南，适合制作约300ml的咖啡：</p>
+<h3 id="1-准备工作">1. 准备工作</h3>
+<ul>
+<li>将咖啡豆研磨至中细度（类似于砂糖或细盐的颗粒）</li>
+<li>量取20克咖啡粉（可根据个人口味调整）</li>
+<li>准备约300-320ml的热水（水温90-96°C）</li>
+</ul>
+<h3 id="2-滤纸预处理">2. 滤纸预处理</h3>
+<ul>
+<li>将滤纸放入V60滤杯</li>
+<li>用热水彻底冲洗滤纸（这样可以去除纸味并预热设备）</li>
+<li>倒掉冲洗水</li>
+</ul>
+<h3 id="3-咖啡粉的放置">3. 咖啡粉的放置</h3>
+<ul>
+<li>将研磨好的咖啡粉倒入滤纸</li>
+<li>轻轻晃动使咖啡粉表面平整</li>
+<li>在中央轻轻按压，形成一个小凹陷（帮助均匀萃取）</li>
+</ul>
+<h3 id="4-闷蒸阶段bloom">4. 闷蒸阶段（Bloom）</h3>
+<ul>
+<li>倒入约咖啡粉重量两倍的水（约40ml）</li>
+<li>确保所有咖啡粉都均匀湿润</li>
+<li>等待30-45秒，让咖啡释放二氧化碳</li>
+</ul>
+<h3 id="5-主要冲泡阶段">5. 主要冲泡阶段</h3>
+<p><strong>第一次注水（0:45-1:15）</strong>：</p>
+<ul>
+<li>从中心开始，以小圆圈方式慢慢向外倒水</li>
+<li>倒至约150ml</li>
+</ul>
+<p><strong>第二次注水（1:15-1:45）</strong>：</p>
+<ul>
+<li>同样方式继续注水</li>
+<li>倒至约220ml</li>
+</ul>
+<p><strong>第三次注水（1:45-2:15）</strong>：</p>
+<ul>
+<li>完成最后的注水</li>
+<li>总水量达到300ml</li>
+</ul>
+<h3 id="6-等待滤完">6. 等待滤完</h3>
+<ul>
+<li>让所有水完全通过咖啡粉和滤纸</li>
+<li>总冲泡时间应在2:30-3:00之间</li>
+</ul>
+<h2 id="影响v60冲泡的关键因素">影响V60冲泡的关键因素</h2>
+<p>要掌握V60冲泡，需要理解以下关键因素：</p>
+<h3 id="1-研磨度">1. 研磨度</h3>
+<p>研磨度对萃取率有直接影响：</p>
+<ul>
+<li><strong>太细</strong>：萃取过度，苦涩</li>
+<li><strong>太粗</strong>：萃取不足，酸涩或平淡</li>
+<li><strong>理想</strong>：中细研磨，平衡的风味</li>
+</ul>
+<p>推荐使用<a href="https://www.amazon.com/s?k=1Zpresso%20JX-Pro%E7%A0%94%E7%A3%A8%E5%99%A8&amp;tag=coffeeprism-20">1Zpresso JX-Pro研磨器</a>获得一致的研磨颗粒。</p>
+<h3 id="2-水温">2. 水温</h3>
+<ul>
+<li>浅烘焙咖啡：94-96°C</li>
+<li>中度烘焙：92-94°C</li>
+<li>深度烘焙：90-92°C</li>
+</ul>
+<h3 id="3-注水技巧">3. 注水技巧</h3>
+<ul>
+<li><strong>水流速度</strong>：保持稳定，不要太快或太慢</li>
+<li><strong>注水模式</strong>：从中心向外的螺旋状，避免直接冲刷滤纸边缘</li>
+<li><strong>水流高度</strong>：一般保持在滤杯上方1-2厘米</li>
+</ul>
+<h2 id="常见问题解决">常见问题解决</h2>
+<h3 id="咖啡太苦或涩">咖啡太苦或涩</h3>
+<p>可能原因和解决方法：</p>
+<ul>
+<li>研磨度太细 → 调粗研磨度</li>
+<li>水温太高 → 降低水温</li>
+<li>冲泡时间过长 → 调整注水速度或研磨度</li>
+</ul>
+<h3 id="咖啡太酸或淡">咖啡太酸或淡</h3>
+<p>可能原因和解决方法：</p>
+<ul>
+<li>研磨度太粗 → 调细研磨度</li>
+<li>水温不够 → 提高水温</li>
+<li>咖啡粉剂量不足 → 增加咖啡粉用量</li>
+</ul>
+<h2 id="进阶技巧">进阶技巧</h2>
+<p>掌握基础后，尝试这些进阶技巧提升您的V60冲泡:</p>
+<ol>
+<li><strong>脉冲注水法</strong>：分多次小量注水，增加萃取均匀性</li>
+<li><strong>搅拌技巧</strong>：在闷蒸或注水后轻轻搅拌，促进均匀萃取</li>
+<li><strong>温度实验</strong>：尝试不同水温对同一咖啡豆的影响</li>
+</ol>
+<h2 id="推荐设备">推荐设备</h2>
+<p>以下是我们推荐的V60冲泡设备：</p>
+<ol>
+<li><strong>滤杯</strong>：<a href="https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF02%E5%8F%B7&amp;tag=coffeeprism-20">Hario V60陶瓷滤杯02号</a></li>
+<li><strong>手冲壶</strong>：<a href="https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%E7%94%B5%E6%8E%A7%E6%B8%A9%E6%B0%B4%E5%A3%B6&amp;tag=coffeeprism-20">Fellow Stagg EKG电控温水壶</a></li>
+<li><strong>咖啡秤</strong>：<a href="https://www.amazon.com/s?k=Timemore%E9%BB%91%E9%95%9C%E5%92%96%E5%95%A1%E7%A7%A4&amp;tag=coffeeprism-20">Timemore黑镜咖啡秤</a></li>
+<li><strong>研磨器</strong>：<a href="https://www.amazon.com/s?k=1Zpresso%20JX-Pro%E6%89%8B%E5%8A%A8%E7%A0%94%E7%A3%A8%E5%99%A8&amp;tag=coffeeprism-20">1Zpresso JX-Pro手动研磨器</a></li>
+</ol>
+<h2 id="结语">结语</h2>
+<p>V60手冲看似简单，实则深奥。它的开放设计给予冲泡者极大的自由度和创造性，但同时也要求精确的技巧和理解。通过不断练习和实验，您将能够掌握这一优雅的冲泡方法，萃取出精彩的咖啡风味。</p>
+<p>您有哪些V60冲泡心得或技巧？欢迎在评论区分享您的经验！</p>
+]]></content:encoded>
+    </item>
+  </channel>
 </rss>

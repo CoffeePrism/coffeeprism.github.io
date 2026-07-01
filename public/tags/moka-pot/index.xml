@@ -1,24 +1,128 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>Moka Pot on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/tags/moka-pot/</link>
-		<description>Recent content in Moka Pot on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/tags/moka-pot/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
-				<link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
-				<description>&lt;h1 id=&#34;摩卡壶-moka-pot-完全指南&#34;&gt;摩卡壶 Moka Pot 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 &lt;strong&gt;3 亿台&lt;/strong&gt;。它用&lt;strong&gt;蒸汽压力（约 1.5 bar）&lt;/strong&gt; 把热水推过细研磨的咖啡粉床，是「&lt;strong&gt;穷人的 espresso&lt;/strong&gt;」——浓度接近 espresso 但没那么贵。&lt;/p&gt;</description>
-			</item>
-	</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>Moka Pot on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/tags/moka-pot/</link>
+    <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 15:15:01 -0700</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/tags/moka-pot/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
+      <link>https://www.coffeeprism.com/brewing-methods/moka-pot/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/moka-pot/</guid>
+      <description>摩卡壶 Moka Pot 完全指南：1.5 bar 蒸汽萃取原理、Bialetti 经典款、家用炉摩卡的 6 步教程。常见烧糊问题诊断与解决。</description>
+      <content:encoded><![CDATA[<h1 id="摩卡壶-moka-pot-完全指南">摩卡壶 Moka Pot 完全指南</h1>
+<p>摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 <strong>3 亿台</strong>。它用<strong>蒸汽压力（约 1.5 bar）</strong> 把热水推过细研磨的咖啡粉床，是「<strong>穷人的 espresso</strong>」——浓度接近 espresso 但没那么贵。</p>
+<h2 id="摩卡壶--espresso">摩卡壶 ≠ Espresso</h2>
+<p>很多人以为摩卡壶能做 espresso，<strong>这是误解</strong>：</p>
+<table>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>Moka Pot</th>
+          <th>真正的 Espresso</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>压力</strong></td>
+          <td>约 1.5 bar</td>
+          <td>9 bar</td>
+      </tr>
+      <tr>
+          <td><strong>萃取时间</strong></td>
+          <td>3-4 分钟</td>
+          <td>25-30 秒</td>
+      </tr>
+      <tr>
+          <td><strong>温度</strong></td>
+          <td>接近 100°C</td>
+          <td>90-95°C</td>
+      </tr>
+      <tr>
+          <td><strong>crema</strong></td>
+          <td>极少</td>
+          <td>厚实</td>
+      </tr>
+      <tr>
+          <td><strong>风味</strong></td>
+          <td>浓郁但偏苦</td>
+          <td>浓郁且层次清晰</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>摩卡壶的咖啡不能直接做拉花</strong>——crema 太薄。但它非常适合喝单杯浓咖啡或者加奶做家庭版&quot;拿铁&quot;。</p>
+<h2 id="绝大多数人在-bialetti-上踩的-3-个坑">绝大多数人在 Bialetti 上踩的 3 个坑</h2>
+<h3 id="1-用冷水">1. 用冷水</h3>
+<p>冷水让金属底壶在加热过程中<strong>长时间停留在 50-80°C</strong>，咖啡粉会被这个不够热也不算冷的水&quot;焖煮&quot;，产生苦涩味。</p>
+<p><strong>解决</strong>：用 60-70°C 热水起步。</p>
+<h3 id="2-大火快煮">2. 大火快煮</h3>
+<p>大火让蒸汽压力暴涨，水流冲过粉床过快+不均匀，且容易把咖啡&quot;喷出&quot;出现烧糊味。</p>
+<p><strong>解决</strong>：中小火（燃气炉「中火偏小」），让萃取时间拉到 3-4 分钟。</p>
+<h3 id="3-听到滋滋声还不离火">3. 听到滋滋声还不离火</h3>
+<p>底壶水耗尽后，留下的就是<strong>纯蒸汽穿过咖啡粉</strong>——这一刻萃出的全是焦苦物质，且会在杯里盖过前面的好风味。</p>
+<p><strong>解决</strong>：听到声音从「咕咕」转「滋滋」立刻关火，最好用湿毛巾冷却底壶让萃取彻底停止。</p>
+<h2 id="研磨度">研磨度</h2>
+<p>摩卡壶的研磨度介于 <strong>意式（细如面粉）</strong> 和 <strong>手冲（中细如砂糖）</strong> 之间——大概<strong>比意式略粗、比手冲略细</strong>。</p>
+<p>如果你只有一台磨豆机，建议从手冲研磨度往细调 2-3 格。</p>
+<h2 id="常见问题诊断">常见问题诊断</h2>
+<table>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+          <th>解法</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>苦涩</td>
+          <td>火太大 / 没及时离火</td>
+          <td>中小火 + 听声音</td>
+      </tr>
+      <tr>
+          <td>烧糊味</td>
+          <td>火大 + 萃取过头</td>
+          <td>听到「滋滋」立刻冷却</td>
+      </tr>
+      <tr>
+          <td>出水极慢或不出</td>
+          <td>磨太细 / 装粉过满</td>
+          <td>调粗 2 格 / 不要按压粉</td>
+      </tr>
+      <tr>
+          <td>喷溅</td>
+          <td>火太大</td>
+          <td>中小火</td>
+      </tr>
+      <tr>
+          <td>没浓度</td>
+          <td>磨太粗 / 水太少</td>
+          <td>调细 + 检查水位刻度</td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="摩卡壶里的咖啡推荐豆">摩卡壶里的咖啡推荐豆</h2>
+<p>摩卡壶不挑豆，但有偏好：</p>
+<ul>
+<li><strong>中深焙意式拼配</strong>：经典选择，与意式风味呼应</li>
+<li><strong>巴西、印尼曼特宁</strong>：低酸厚体，适合摩卡壶的浓郁特性</li>
+<li><strong>不推荐</strong>：浅烘埃塞、肯尼亚——它们的酸亮风味会被摩卡壶的高温炸毁</li>
+</ul>
+<hr>
+<blockquote>
+<p>📘 摩卡、爱乐压、法压、虹吸壶——所有方法的标准配方与故障表都在 <a href="/guide/comprehensive/">《咖啡冲煮完全指南 2026》$3.99</a> 里整理好。</p>
+</blockquote>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/brewing-methods/pour-over-v60/">V60 手冲咖啡完全指南</a></li>
+<li><a href="/brewing-methods/espresso/">意式浓缩 Espresso 完全指南</a></li>
+<li><a href="/coffee-beans/">咖啡豆完全指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
 </rss>

@@ -32,6 +32,23 @@
 				<div class="content post__content clearfix" itemprop="articleBody">
 					{{ .Content }}
 				</div>
+				{{- /* 可见 FAQ：FAQPage JSON-LD 必须与页面可见内容一致（Google 政策），
+				       同时问答块本身就是 AI 引擎最爱提取的 answer capsule */ -}}
+				{{- with .Params.faq }}
+				{{- $seen := slice }}
+				<section class="post-faq" id="faq">
+					<h2 class="post-faq__title">常见问题</h2>
+					{{- range . }}
+					{{- if not (in $seen .q) }}
+					{{- $seen = $seen | append .q }}
+					<details class="post-faq__item">
+						<summary class="post-faq__q">{{ .q }}</summary>
+						<div class="post-faq__a">{{ .a | markdownify }}</div>
+					</details>
+					{{- end }}
+					{{- end }}
+				</section>
+				{{- end }}
 				{{- partial "adsense-in-article.html" . -}}
 				{{- if .Params.tags }}
 				<footer class="post__footer">

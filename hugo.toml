@@ -1,5 +1,8 @@
 baseURL = "https://www.coffeeprism.com/"
 languageCode = "zh-cn"
+# 不设 defaultContentLanguage 时 Hugo 语言 key 是 "en"，导致 <html lang=en>
+# —— 中文站声明成英文会误导搜索引擎和 AI 检索器
+defaultContentLanguage = "zh-cn"
 title = "Coffee Prism"
 theme = "Mainroad"
 
@@ -36,6 +39,9 @@ summaryLength = 80
   twitter_cards = true
 
   customCSS = ["/css/custom.css"]
+
+  # 站点级默认分享图（og:image / twitter:image / Article schema image 的兜底）
+  images = ["/images/og-default.jpg"]
 
   # Cloudflare Worker that verifies Stripe sessions and signs PDF download URLs.
   # After running `wrangler deploy` in worker/, update this to your workers.dev URL
@@ -152,4 +158,10 @@ home = ["HTML", "RSS", "JSON"]
   filename = "sitemap.xml"
 
 [pagination]
-  pagerSize = 10
+  # 24/页：727 篇文章从 73 个近重复分页页降到 ~31 个，降低旧文章点击深度
+  pagerSize = 24
+
+# RSS：限 50 条 + 全文输出（layouts/rss.xml）。全文 feed 是 AI 引擎
+# 摄取内容的低成本通道；全量 727 条 summary-only 的 782KB feed 没人消费。
+[services.rss]
+  limit = 50

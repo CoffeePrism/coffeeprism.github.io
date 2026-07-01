@@ -1,0 +1,40 @@
+{{- /*
+  全文 RSS —— AI 引擎与聚合器摄取内容的低成本通道。
+  相比默认模板：加 content:encoded 全文、限流由 [services.rss] limit 控制。
+*/ -}}
+{{- $pctx := . -}}
+{{- if .IsHome -}}{{ $pctx = .Site }}{{- end -}}
+{{- $pages := slice -}}
+{{- if or $.IsHome $.IsSection -}}
+{{- $pages = $pctx.RegularPages -}}
+{{- else -}}
+{{- $pages = $pctx.Pages -}}
+{{- end -}}
+{{- $limit := .Site.Config.Services.RSS.Limit -}}
+{{- if ge $limit 1 -}}
+{{- $pages = $pages | first $limit -}}
+{{- end -}}
+{{- printf "<?xml version=\"1.0\" encoding=\"utf-8\" standalone=\"yes\"?>" | safeHTML }}
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>{{ if eq .Title .Site.Title }}{{ .Site.Title }}{{ else }}{{ with .Title }}{{ . }} on {{ end }}{{ .Site.Title }}{{ end }}</title>
+    <link>{{ .Permalink }}</link>
+    <description>{{ .Site.Params.description }}</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>{{ now.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</lastBuildDate>
+    {{- with .OutputFormats.Get "RSS" }}
+    {{ printf "<atom:link href=%q rel=\"self\" type=%q />" .Permalink .MediaType | safeHTML }}
+    {{- end }}
+    {{- range $pages }}
+    <item>
+      <title>{{ .Title }}</title>
+      <link>{{ .Permalink }}</link>
+      <pubDate>{{ .Date.Format "Mon, 02 Jan 2006 15:04:05 -0700" }}</pubDate>
+      <guid>{{ .Permalink }}</guid>
+      <description>{{ with .Description }}{{ . | markdownify | plainify | html }}{{ else }}{{ .Summary | plainify | html }}{{ end }}</description>
+      <content:encoded>{{ printf "<![CDATA[%s]]>" .Content | safeHTML }}</content:encoded>
+    </item>
+    {{- end }}
+  </channel>
+</rss>

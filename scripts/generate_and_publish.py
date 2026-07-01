@@ -400,44 +400,54 @@ def get_article_prompt(specific_topic, main_topic):
 
 ### 正文结构
 
-**引言（200-300字）**
-- 以一个引人入胜的场景、问题或数据开头
-- 前100字内自然包含2次主关键词
-- 明确本文的价值承诺（读者能获得什么）
+**引言（200-300字）—— GEO 最关键的一段**
+- 第一段前两句必须直接回答标题隐含的核心问题（结论先行，80-120字能独立成段被 AI 引用）
+- 之后才允许场景、背景或数据铺垫
+- 主关键词在前100字最多出现1次，不要加粗
+
+**要点速览（引言之后）**
+- 引言后紧跟一个 `## 要点速览` H2，用 3-5 个 bullet 总结全文核心答案
+- 每个 bullet 一句话、自包含（不用代词指代），是 AI 引擎最爱提取的格式
 
 **主体内容（5-7个H2章节，每个含2-3个H3）**
 
 每个H2章节要求：
-1. 标题包含长尾关键词变体
-2. 开头1-2句话直接给出该节核心结论（AEO优化关键）
-3. 然后展开详细论述，包含数据、案例、对比
+1. 开头1-2句话直接给出该节核心结论（answer capsule，40-60字）
+2. 然后展开详细论述，包含数据、案例、对比
+3. 每个段落 ≤4 句；每节内容自包含——重述主语实体（写"手冲咖啡的水温"而非"它的水温"），不依赖上文才能读懂
 4. 自然融入相关产品推荐（使用格式：[产品名英文](https://www.amazon.com/s?k=产品英文搜索词)）
 
-建议的H2框架：
-- {specific_topic}的基础概念与核心原理
-- {specific_topic}的历史演变与发展趋势
-- {specific_topic}的关键技巧与实操步骤（含精确参数）
-- {specific_topic}的常见误区与专家建议
-- {specific_topic}的产品/工具推荐与选购指南
-- 进阶玩家的{specific_topic}高阶技巧
+H2 标题规则（重要——机器可检测的堆砌信号会被 AI 引擎降权）：
+- 全文最多 2 个 H2 可含主关键词「{specific_topic}」，其余用语义变体或相关概念
+- 至少 3 个 H2 用自然问句格式（带"？"），如"为什么水温对萃取影响这么大？"
+- 严禁每个 H2 都以「{specific_topic}的…」开头
+
+**数据与引用（GEO 研究证明这是提升 AI 引用率最有效的两个手段）**
+- 全文包含 3-5 个具体、可信的数字/参数（温度、比例、时间、价格、百分比），
+  有来源的注明来源（如"据 SCA 金杯标准""ICO 2025 年报告"），没有可靠来源就用
+  普遍认可的经验参数，禁止编造研究
+- 包含 1-2 段引用格式（Markdown blockquote `>`）呈现的行业共识或专家观点，
+  注明出处（如 SCA、WBrC 冠军、知名烘焙师的公开观点），内容必须真实可信
+- 至少包含 1 个 Markdown 表格（参数对照、预算分级等）
 
 **常见问题解答（FAQ）** —— 这部分非常重要！
 - 独立的H2章节，标题为"## 常见问题解答"
 - 包含5-7个H3问题
-- 问题使用自然语言长尾关键词格式，如"如何选择适合{specific_topic}的工具？"
-- 每个回答80-150字：先给出直接答案，再补充细节
-- 这些FAQ将被用于生成 JSON-LD FAQ Schema
+- 问题必须是真实用户会搜索的自然问句，禁止套用"如何选择适合XX的工具？"这类模板句式；
+  所有问题中最多 1 个含主关键词
+- 每个回答80-150字：第一句就是结论（但禁止出现"直接答案："、"直答："等标签字样），再补充细节
+- 这些FAQ将被用于生成 JSON-LD FAQ Schema，且会渲染在页面上
 
 **总结段落（150-200字）**
+- 用 `## 总结` 作为最后一个 H2（必须在 FAQ 之后）
 - 总结3-5个核心要点
 - 给出具体的行动建议
 - 以鼓励探索的语气结尾
 
 ## SEO关键词策略
-- 主关键词「{specific_topic}」自然出现8-15次
-- 使用LSI语义相关词（同义词、相关概念）
-- 长尾关键词变体（如"如何{specific_topic}"、"{specific_topic}教程"、"{specific_topic}推荐"）
-- 关键词密度1-2%，严禁堆砌
+- 主关键词「{specific_topic}」自然出现5-8次（含FAQ），超过10次视为堆砌需重写
+- 使用LSI语义相关词（同义词、相关概念）替代重复主关键词
+- 关键词密度控制在1%左右，严禁堆砌（研究显示堆砌会让 AI 引用率下降 ~9%）
 
 ## 中国市场本地化
 - 引用中国咖啡市场数据和趋势
@@ -459,6 +469,12 @@ def get_article_prompt(specific_topic, main_topic):
 <TITLE>
 这里只放纯文本标题（15-35 字，不带 # 或《》或 ** 等任何符号）
 </TITLE>
+
+<DESCRIPTION>
+100-150字纯文本摘要：第一句直接回答标题隐含的核心问题，禁止任何 Markdown 符号
+（**、>、[] 等），禁止"本文将"之类元语言。这段会成为 meta description 和
+搜索/AI 引擎展示的摘要。
+</DESCRIPTION>
 
 <BODY>
 这里是完整的 Markdown 正文（所有 H2/H3、段落、列表、表格、FAQ 都在这里）。
@@ -482,15 +498,23 @@ def _strip_thinking(text):
 
 
 def parse_structured_output(raw):
-    """Parse the LLM's <TITLE>...</TITLE><BODY>...</BODY> output.
-    Returns (title, body) or (None, None) if parsing fails.
+    """Parse the LLM's <TITLE>/<DESCRIPTION>/<BODY> output.
+    Returns (title, description, body); missing parts are None.
     Strips common LLM noise like trailing markdown bullets in title."""
     if not raw:
-        return None, None
+        return None, None, None
     raw = _strip_thinking(raw)
 
     title_match = re.search(r'<TITLE>\s*(.*?)\s*</TITLE>', raw, re.DOTALL | re.IGNORECASE)
+    desc_match = re.search(r'<DESCRIPTION>\s*(.*?)\s*</DESCRIPTION>', raw, re.DOTALL | re.IGNORECASE)
     body_match = re.search(r'<BODY>\s*(.*?)\s*</BODY>', raw, re.DOTALL | re.IGNORECASE)
+
+    desc = None
+    if desc_match:
+        desc = desc_match.group(1).strip()
+        # 保险：剥掉 markdown 痕迹，压成单行纯文本
+        desc = re.sub(r'[*_`>#\[\]]', '', desc)
+        desc = re.sub(r'\s+', ' ', desc).strip()[:160] or None
 
     if title_match and body_match:
         title = title_match.group(1).strip()
@@ -502,11 +526,11 @@ def parse_structured_output(raw):
         for marker in ("**标题**", "标题：", "标题:", "**标题：**", "**标题:**"):
             if title.startswith(marker):
                 title = title[len(marker):].strip()
-        return title, body
+        return title, desc, body
 
     # Fallback: no XML markers, treat full output as body and let downstream
     # extract_title heuristic try to recover a title from H1
-    return None, raw
+    return None, desc, raw
 
 
 def _body_chars(body):
@@ -536,9 +560,9 @@ def generate_article(topic_info):
         print("❌ API 未返回任何内容")
         return None
 
-    title, body = parse_structured_output(raw)
+    title, desc, body = parse_structured_output(raw)
     char_count = _body_chars(body)
-    print(f"  第 1 次：title={'OK' if title else 'MISSING'}, body={char_count} 字")
+    print(f"  第 1 次：title={'OK' if title else 'MISSING'}, desc={'OK' if desc else 'MISSING'}, body={char_count} 字")
 
     # Retry once if too short
     if char_count < MIN_BODY_CHARS and body:
@@ -548,19 +572,24 @@ def generate_article(topic_info):
             {"role": "user", "content": (
                 f"上一版正文只有 {char_count} 字（去空白），低于 {MIN_BODY_CHARS} 字最低要求。"
                 f"请保留已有所有内容并大幅扩展到 3000-4000 字：补充更多实操参数、对比数据、"
-                f"中国市场案例、深度故障排查等。仍然用 <TITLE></TITLE> + <BODY></BODY> 格式输出。"
+                f"中国市场案例、深度故障排查等。仍然用 <TITLE></TITLE> + <DESCRIPTION></DESCRIPTION> + <BODY></BODY> 格式输出。"
             )},
         ]
         raw2 = call_linqai(retry_messages)
         if raw2:
-            t2, b2 = parse_structured_output(raw2)
+            t2, d2, b2 = parse_structured_output(raw2)
             cc2 = _body_chars(b2)
             print(f"  第 2 次：title={'OK' if t2 else 'MISSING'}, body={cc2} 字")
             if cc2 > char_count:
-                title, body, char_count = (t2 or title), b2, cc2
+                title, desc, body, char_count = (t2 or title), (d2 or desc), b2, cc2
 
     if not body:
         return None
+
+    # LLM 给的 description 通过 HTML 注释随正文传递（save_article 会取出并
+    # 从正文剥掉）——避免为传一个字段改动整条 string 管线。
+    if desc:
+        body = f"<!-- seo-description: {desc} -->\n\n{body}"
 
     # Compose into the legacy "# title\n\nbody" form so save_article's existing
     # extract_title path can still find the title (defense in depth).
@@ -569,15 +598,29 @@ def generate_article(topic_info):
     return body
 
 def generate_seo_description(title, specific_topic, article_content):
-    """生成SEO优化的meta description"""
-    # 尝试从文章第一段提取关键信息
+    """生成SEO优化的meta description。
+    优先用 LLM 通过 <DESCRIPTION> 标签给出、随正文传递的注释；
+    回退到首段提取（跳过引用/注释/CTA 行，剥掉 markdown 痕迹）。"""
+    m = re.search(r'<!--\s*seo-description:\s*(.*?)\s*-->', article_content, re.DOTALL)
+    if m:
+        desc = re.sub(r'\s+', ' ', m.group(1)).strip()
+        if len(desc) >= 50:
+            return desc[:160]
+
+    # 回退：从文章第一个"真正文段"提取
     lines = article_content.strip().split('\n')
     first_paragraph = ""
-    
+
     for line in lines:
         clean_line = line.strip()
-        # 跳过标题行和空行
-        if clean_line and not clean_line.startswith('#') and len(clean_line) > 50:
+        # 跳过标题行、空行、blockquote/CTA 行（'>' 开头）、HTML 注释
+        if (clean_line and not clean_line.startswith('#')
+                and not clean_line.startswith('>')
+                and not clean_line.startswith('<!--')
+                and len(clean_line) > 50):
+            # 剥 markdown 痕迹：**加粗**、[链接](url)、`code`
+            clean_line = re.sub(r'\[([^\]]*)\]\([^)]*\)', r'\1', clean_line)
+            clean_line = re.sub(r'[*_`]', '', clean_line)
             first_paragraph = clean_line[:150]
             break
     
@@ -796,6 +839,9 @@ def extract_faq_from_content(article_content):
                 answer = ' '.join(current_answer_lines).strip()
                 if answer:
                     faq_items.append({"q": current_question, "a": answer})
+            # 必须重置：否则循环结束后的"保存最后一个"会把同一问答再存一次（历史重复 bug）
+            current_question = None
+            current_answer_lines = []
             break
         # 在FAQ章节中，H3是问题
         if in_faq_section and re.match(r'^###\s+', stripped):
@@ -818,7 +864,18 @@ def extract_faq_from_content(article_content):
         if answer:
             faq_items.append({"q": current_question, "a": answer})
 
-    return faq_items[:7]  # 最多7个FAQ
+    # 按问题去重 + 截断超长回答（防止总结段落漏进最后一个 FAQ 回答）
+    seen = set()
+    deduped = []
+    for item in faq_items:
+        if item["q"] in seen:
+            continue
+        seen.add(item["q"])
+        if len(item["a"]) > 300:
+            item = {"q": item["q"], "a": item["a"][:297] + "..."}
+        deduped.append(item)
+
+    return deduped[:7]  # 最多7个FAQ
 
 
 def save_article(article_content, topic_info):
@@ -890,6 +947,8 @@ canonicalURL: "https://www.coffeeprism.com/posts/{slug}/"
                 processed_content_lines.append(line)
         
         processed_content = '\n'.join(processed_content_lines).strip()
+        # 剥掉 description 传递注释（它只服务 frontmatter，不该出现在正文里）
+        processed_content = re.sub(r'<!--\s*seo-description:.*?-->\s*', '', processed_content, flags=re.DOTALL).strip()
         # Add a check: If the first line of processed content STILL looks like the title, remove it (fallback)
         if processed_content_lines:
              first_processed_line_clean = processed_content_lines[0].strip().lstrip('#').strip("* \t\n\r")
@@ -1252,10 +1311,17 @@ def get_trending_article_prompt(news_item):
 - 用2-3句话概述新闻事件核心
 - 立即点明这件事为什么重要，对谁有影响
 
+**关键数据速览（开篇速报之后）**
+- 一个 Markdown 表格，列出本事件相关的 ≥5 个具体数字（金额、百分比、日期、
+  门店数、产量等），每行注明数据来源（新闻摘要里的数字优先；行业公认数据
+  注明出处如 ICO/SCA/公司财报；没有可靠数字的行不要编造，宁可少列）
+- GEO 研究显示：带来源的统计数据能显著提升 AI 引擎引用率，这个表是全文最重要的模块之一
+
 **事件回顾与背景（400-600字）**
 - 完整还原事件经过
 - 补充必要的背景信息和行业上下文
-- 引用具体数据和来源
+- 引用具体数据和来源；至少 1 处用 blockquote（`>`）直接引用新闻原文或
+  当事方公开表态（注明来源），禁止虚构引语
 
 **多角度深度分析（1500-2000字，3-4个H2章节）**
 - 每个角度用独立的H2章节

@@ -1,31 +1,318 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>电子书 on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/</link>
-		<description>Recent content in 电子书 on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Mon, 20 Apr 2026 11:00:00 +0800</lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>《手冲咖啡大师之路》发售：为什么手冲值得单独一本书？</title>
-				<link>https://www.coffeeprism.com/posts/pourover-deep-dive/</link>
-				<pubDate>Mon, 20 Apr 2026 11:00:00 +0800</pubDate>
-				<guid>https://www.coffeeprism.com/posts/pourover-deep-dive/</guid>
-				<description>&lt;h2 id=&#34;手冲有多深&#34;&gt;手冲有多深&lt;/h2&gt;&#xA;&lt;p&gt;表面上，手冲就是：&lt;/p&gt;&#xA;&lt;pre tabindex=&#34;0&#34;&gt;&lt;code&gt;磨豆 → 烧水 → 闷蒸 → 注水 → 等它滴完 → 喝&#xA;&lt;/code&gt;&lt;/pre&gt;&lt;p&gt;六步，三分钟。&lt;/p&gt;&#xA;&lt;p&gt;但如果你冲过一段时间就会发现：&lt;strong&gt;同样六步，同样参数，今天是天使，明天是恶魔&lt;/strong&gt;。&lt;/p&gt;&#xA;&lt;p&gt;这种&amp;quot;不可控&amp;quot;感，是手冲最迷人也最挫败的地方。它既是一杯咖啡，又是一个横跨&lt;strong&gt;化学、物理、工程、感官&lt;/strong&gt;的微型实验。&lt;/p&gt;</description>
-			</item>
-			<item>
-				<title>为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人</title>
-				<link>https://www.coffeeprism.com/posts/complete-guide-launch/</link>
-				<pubDate>Mon, 20 Apr 2026 10:00:00 +0800</pubDate>
-				<guid>https://www.coffeeprism.com/posts/complete-guide-launch/</guid>
-				<description>&lt;h2 id=&#34;一个尴尬的观察&#34;&gt;一个尴尬的观察&lt;/h2&gt;&#xA;&lt;p&gt;过去三年，我们在 Coffee Prism 发布了 500 多篇咖啡文章。每周后台都会收到这样的问题：&lt;/p&gt;&#xA;&lt;blockquote&gt;&#xA;&lt;p&gt;&amp;ldquo;你们的文章我都看过了，但我还是冲不出稳定的咖啡。有没有一个地方能系统地讲清楚？&amp;rdquo;&lt;/p&gt;</description>
-			</item>
-	</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>电子书 on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/</link>
+    <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 15:15:01 -0700</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>《手冲咖啡大师之路》发售：为什么手冲值得单独一本书？</title>
+      <link>https://www.coffeeprism.com/posts/pourover-deep-dive/</link>
+      <pubDate>Mon, 20 Apr 2026 11:00:00 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/posts/pourover-deep-dive/</guid>
+      <description>专为手冲爱好者打造的深度电子书。冠军配方详解、萃取动力学、故障诊断——把你的手冲从&amp;quot;能喝&amp;quot;推到&amp;quot;稳定好喝&amp;quot;。$4.99 终身下载，7 天无理由退款。</description>
+      <content:encoded><![CDATA[<h2 id="手冲有多深">手冲有多深</h2>
+<p>表面上，手冲就是：</p>
+<pre tabindex="0"><code>磨豆 → 烧水 → 闷蒸 → 注水 → 等它滴完 → 喝
+</code></pre><p>六步，三分钟。</p>
+<p>但如果你冲过一段时间就会发现：<strong>同样六步，同样参数，今天是天使，明天是恶魔</strong>。</p>
+<p>这种&quot;不可控&quot;感，是手冲最迷人也最挫败的地方。它既是一杯咖啡，又是一个横跨<strong>化学、物理、工程、感官</strong>的微型实验。</p>
+<h2 id="这本书面向谁">这本书面向谁？</h2>
+<p>不面向纯新手。如果你还在问&quot;什么是粉水比&quot;、&ldquo;闷蒸是什么&rdquo;——先去读我们的《咖啡冲煮完全指南》。</p>
+<p>这本书的读者假设：</p>
+<ul>
+<li><strong>已经在家冲了至少三个月</strong></li>
+<li><strong>能稳定做出&quot;及格水准&quot;的咖啡</strong>（不会酸得刺激、苦得发涩）</li>
+<li><strong>想从&quot;能喝&quot;跨到&quot;稳定好喝，偶尔惊艳&quot;</strong></li>
+</ul>
+<p>简单说：<strong>你已经在山脚，这本书帮你到山腰。</strong></p>
+<p>（再往上到山顶？那得靠你自己天天冲、冲一年、冲一万杯。书只能给路线图，走路还得自己走。）</p>
+<h2 id="这本书与完全指南有什么不同">这本书与《完全指南》有什么不同</h2>
+<p>我们做了两本书是有意的：</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>完全指南</th>
+          <th>大师之路</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>对手冲的深度</strong></td>
+          <td>一章（3,000 字）</td>
+          <td><strong>整本书（22,000 字）</strong></td>
+      </tr>
+      <tr>
+          <td><strong>冠军配方数</strong></td>
+          <td>0 个</td>
+          <td><strong>6 个详细拆解</strong></td>
+      </tr>
+      <tr>
+          <td><strong>萃取科学</strong></td>
+          <td>概念介绍</td>
+          <td>动力学 + 实战应用</td>
+      </tr>
+      <tr>
+          <td><strong>故障排查</strong></td>
+          <td>基础症状表</td>
+          <td><strong>进阶症状 + 根因分析</strong></td>
+      </tr>
+      <tr>
+          <td><strong>目标读者</strong></td>
+          <td>新手到进阶</td>
+          <td>进阶到专业</td>
+      </tr>
+      <tr>
+          <td><strong>价格</strong></td>
+          <td>$3.99</td>
+          <td>$4.99</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>一句话</strong>：如果你只玩手冲，直接买这本；如果你什么都玩，先买完全指南。</p>
+<h2 id="这本书里有什么干货">这本书里有什么&quot;干货&quot;？</h2>
+<h3 id="1-冠军配方详解">1. 冠军配方详解</h3>
+<p>从 2016 到 2024 年的 <strong>WBrC（世界手冲咖啡师大赛）冠军配方</strong>，逐参数拆解：</p>
+<ul>
+<li><strong>Tetsu Kasuya 2016 · 4:6 法</strong>——全球最火的手冲方法论</li>
+<li><strong>Emi Fukahori 2018</strong>——瑞士咖啡师，独特的浅烘手法</li>
+<li><strong>Jiwon Jung 2019</strong>——韩国 Fritz Coffee</li>
+<li><strong>Matt Winton 2021</strong>——连续注水派</li>
+<li><strong>Lance Hedrick 实战配方</strong>——YouTube 150 万订阅者的首席科普者</li>
+<li><strong>James Hoffmann 家用版 V60</strong>——YouTube 800 万观看的经典视频配方</li>
+</ul>
+<p>每个配方都给：<strong>粉量、水量、研磨度、水温、注水时间点（精确到秒）、优化目标（突出什么风味）</strong>。</p>
+<h3 id="2-萃取动力学实战">2. 萃取动力学实战</h3>
+<p>这部分是全书最&quot;硬&quot;的一章：</p>
+<ul>
+<li>可溶物质的<strong>溶出曲线</strong>（酸→甜→苦的先后顺序）</li>
+<li><strong>SCA Brewing Control Chart</strong> 完整解读（TDS × EY 的二维坐标图）</li>
+<li>如何用 <strong>折光仪</strong> 反推萃取问题</li>
+<li><strong>Arrhenius 方程</strong>的通俗版：为什么水温差 2℃，风味就变样</li>
+</ul>
+<p>不是给你当物理课学，是给你当工具用。<strong>当某一杯咖啡出问题时，用这些原理能精准定位，而不是瞎调。</strong></p>
+<h3 id="3-器具的深度对比">3. 器具的深度对比</h3>
+<p>不是&quot;V60 好还是 Kalita 好&quot;这种没营养的问题，而是：</p>
+<ul>
+<li><strong>流速差异</strong>：V60 最快、Kalita 中等、Origami 可调</li>
+<li><strong>材质的影响</strong>：陶瓷/玻璃/金属/塑料的保温性对比</li>
+<li><strong>滤纸的差异</strong>：Hario 漂白 vs Cafec 精品滤纸 vs Orea 滤纸</li>
+<li><strong>磨豆机选择</strong>：手摇 vs 电动 的实质差别，<strong>微米级的颗粒分布数据</strong></li>
+</ul>
+<h3 id="4-水的化学">4. 水的化学</h3>
+<p>这是大多数家庭冲煮者最大的盲区。本书给你：</p>
+<ul>
+<li><strong>钙镁碱比例</strong>对风味的实际影响</li>
+<li><strong>DIY 配方水</strong>（Third Wave Water 经典配方 + 替代配方）</li>
+<li><strong>家用过滤方案</strong>（活性炭 vs 反渗透的优劣）</li>
+<li><strong>TDS 测量仪</strong>的正确用法（大部分人用错了）</li>
+</ul>
+<h3 id="5-进阶故障诊断">5. 进阶故障诊断</h3>
+<p>新手的故障表是：&ldquo;太酸 → 磨细一点&rdquo;。</p>
+<p>进阶的故障表是：</p>
+<pre tabindex="0"><code>症状：第二次注水后流速突然变快
+原因：通道效应（channeling），多半是压粉不均或布粉不到位
+解法：
+  1. 使用 WDT 针再布一次
+  2. 水柱降低、更贴近粉面注水
+  3. 检查磨豆机的细粉比例（可能太多）
+</code></pre><p>本书给你 <strong>30+ 个进阶故障表</strong>，每个都有<strong>症状 → 根因 → 分级解法</strong>。</p>
+<h3 id="6-从熟练到精通">6. 从熟练到精通</h3>
+<p>这一章讲的不是技术，而是方法论：</p>
+<ul>
+<li>如何<strong>校准自己的磨豆机</strong>（这是业余和专业的分水岭）</li>
+<li>如何<strong>建立自己的感官训练路径</strong>（杯测、三角测试）</li>
+<li>如何<strong>维护冲煮日志</strong>（记什么、怎么记、怎么用）</li>
+<li>何时该<strong>升级器具，何时不该</strong>（收益递减的临界点）</li>
+</ul>
+<h2 id="价格与对比">价格与对比</h2>
+<p><strong>$4.99</strong>，大概是一杯精品咖啡的钱。</p>
+<p>如果你把两本都买：</p>
+<ul>
+<li>《完全指南》$3.99</li>
+<li>《大师之路》$4.99</li>
+<li>总共 <strong>$8.98</strong>——一顿便宜午餐的价格，换两本可以反复翻阅的工具书</li>
+</ul>
+<p>两本一起读，是目前中文咖啡内容里最系统、最深的组合。<strong>两本都支持 7 天无理由退款。</strong></p>
+<h2 id="现在购买">现在购买</h2>
+<p>👉 <a href="/guide/pourover/">购买《手冲咖啡大师之路》</a></p>
+<p>👉 <a href="/guide/comprehensive/">购买《咖啡冲煮完全指南》</a></p>
+<p>Stripe 安全支付，终身下载。</p>
+<hr>
+<p>写这本书最大的感触：<strong>咖啡这件事，表面简单，往下挖三层都有学问</strong>。</p>
+<p>如果你是那种&quot;非要搞明白为什么&quot;的人，欢迎你。</p>
+<p>—— Coffee Prism 编辑部</p>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/posts/complete-guide-launch/">为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人</a></li>
+<li><a href="/posts/2025-07-31-182328-huan-xing-ka-pei-dou-de-yin-cang-feng-wei-shou-cho-f333bca6/">唤醒咖啡豆的隐藏风味：手冲咖啡的五大进阶心法</a></li>
+<li><a href="/posts/2025-05-13-181848-shou-chong-ka-pei-de-wei-jue-mi-ma-jie-suo-zhuan-y-a898d7f1/">手冲咖啡的味觉密码：解锁专业级风味的五大进阶技巧</a></li>
+<li><a href="/posts/2025-05-01-181743-shou-chong-ka-pei-de-jin-jie-mei-xue-jie-suo-jing-5d8f49a8/">手冲咖啡的进阶美学：解锁精品咖啡的五个维度</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+    <item>
+      <title>为什么我们要做一本《咖啡冲煮完全指南》？写给所有在家冲咖啡的人</title>
+      <link>https://www.coffeeprism.com/posts/complete-guide-launch/</link>
+      <pubDate>Mon, 20 Apr 2026 10:00:00 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/posts/complete-guide-launch/</guid>
+      <description>Coffee Prism 团队耗时三个月打磨的 PDF 电子书上线：《咖啡冲煮完全指南 2026》，25000 字 + 75 页 + 7 张原创图表。为什么我们觉得中文咖啡爱好者需要这样一本书？</description>
+      <content:encoded><![CDATA[<h2 id="一个尴尬的观察">一个尴尬的观察</h2>
+<p>过去三年，我们在 Coffee Prism 发布了 500 多篇咖啡文章。每周后台都会收到这样的问题：</p>
+<blockquote>
+<p>&ldquo;你们的文章我都看过了，但我还是冲不出稳定的咖啡。有没有一个地方能系统地讲清楚？&rdquo;</p>
+</blockquote>
+<p>我们一度觉得，单篇文章足够了——每篇都写得详尽，每个话题都有覆盖。</p>
+<p>但后来意识到：<strong>单篇文章不是系统化的知识，是碎片</strong>。一个读完 500 篇咖啡文章的人，未必能真正回答&quot;为什么同一包豆子、同一台机器，昨天好喝、今天不好喝&quot;。</p>
+<p><strong>系统化的知识</strong>需要一条清晰的脉络：</p>
+<ol>
+<li>咖啡豆是什么（物种、品种、处理法）</li>
+<li>为什么会有风味差异（产区、烘焙）</li>
+<li>萃取是怎么发生的（变量、科学）</li>
+<li>不同器具的原理（手冲、意式、法压……）</li>
+<li>如何诊断问题（故障排查）</li>
+</ol>
+<p>文章可以讲清楚其中任何一个，但把它们串联起来，需要一本书。</p>
+<h2 id="我们决定做一本-pdf">我们决定做一本 PDF</h2>
+<p>三个月前，团队开了一次会，决定：<strong>把 Coffee Prism 三年来最核心的咖啡知识，重新梳理成一本 60 页的 PDF 电子书</strong>。</p>
+<p>选择 PDF 而不是印刷书有几个原因：</p>
+<ul>
+<li><strong>价格低、发行快</strong>：印刷书动辄 ¥79–¥129，PDF 可以做到 $3.99</li>
+<li><strong>迭代友好</strong>：发现错误或新知识可以随时更新</li>
+<li><strong>读者友好</strong>：iPad、Kindle、电脑、手机都能打开</li>
+<li><strong>跨境购买无障碍</strong>：国内、新加坡、美国的读者都能买</li>
+</ul>
+<h3 id="这本书和我们之前的文章有什么不同">这本书和我们之前的文章有什么不同？</h3>
+<table>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>博客文章</th>
+          <th>《完全指南》</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>结构</strong></td>
+          <td>单篇独立</td>
+          <td>10 章递进</td>
+      </tr>
+      <tr>
+          <td><strong>参数准确性</strong></td>
+          <td>单篇逐一核对</td>
+          <td><strong>全书交叉验证 + 冠军数据比对</strong></td>
+      </tr>
+      <tr>
+          <td><strong>图表</strong></td>
+          <td>文字描述</td>
+          <td><strong>7 张原创 SVG</strong></td>
+      </tr>
+      <tr>
+          <td><strong>可查阅性</strong></td>
+          <td>需要搜索</td>
+          <td>附录参数速查表</td>
+      </tr>
+      <tr>
+          <td><strong>更新</strong></td>
+          <td>无</td>
+          <td><strong>每年小幅更新免费重下</strong></td>
+      </tr>
+  </tbody>
+</table>
+<h2 id="完全指南都讲些什么">《完全指南》都讲些什么？</h2>
+<p>十章内容，覆盖从咖啡豆到杯子的全流程：</p>
+<p><strong>第一部分：咖啡豆的世界</strong></p>
+<ul>
+<li>第一章：从咖啡樱桃到咖啡豆（品种、处理法、新鲜度）</li>
+<li>第二章：咖啡豆的产区与风味（非洲、中南美、亚洲全览）</li>
+<li>第三章：烘焙度——第一大变量</li>
+</ul>
+<p><strong>第二部分：冲煮的科学</strong></p>
+<ul>
+<li>第四章：萃取的四大核心变量</li>
+<li>第五章：水——被忽视的最重要成分</li>
+</ul>
+<p><strong>第三部分：冲煮方法实战</strong></p>
+<ul>
+<li>第六章：手冲咖啡（V60、Kalita、Origami 三大滤杯）</li>
+<li>第七章：意式浓缩 Espresso</li>
+<li>第八章：其他方法（法压、摩卡、爱乐压、冷萃）</li>
+</ul>
+<p><strong>第四部分：进阶与故障排查</strong></p>
+<ul>
+<li>第九章：牛奶打发与品鉴</li>
+<li>第十章：故障排查——当咖啡不对味时</li>
+</ul>
+<p><strong>附录</strong></p>
+<ul>
+<li>参数速查表</li>
+<li>器具推荐清单（入门 / 进阶 / 发烧）</li>
+<li>术语表</li>
+</ul>
+<h2 id="价格">价格</h2>
+<p><strong>$3.99</strong>（不到一杯精品咖啡馆的咖啡钱）。</p>
+<p>我们原本想定 $5.99，但最后决定让价格足够低，让更多人不需要犹豫就能入手。</p>
+<p>如果你从这本书里学到<strong>哪怕一个技巧让你少浪费一包 ¥150 的豆子</strong>，它就已经回本了。</p>
+<p>更何况——<strong>7 天无理由退款</strong>。下载后觉得不值，邮件发订单号就退。</p>
+<h3 id="如果你只对手冲感兴趣">如果你只对手冲感兴趣</h3>
+<p>我们还做了一本配套的《手冲咖啡大师之路》，专门深入手冲（$4.99，58 页）。那本书面向的是<strong>已经在家冲过几个月、想进阶的爱好者</strong>。</p>
+<p>两本对比：</p>
+<table>
+  <thead>
+      <tr>
+          <th></th>
+          <th>完全指南</th>
+          <th>大师之路</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>读者</strong></td>
+          <td>新手到进阶</td>
+          <td>进阶到专业</td>
+      </tr>
+      <tr>
+          <td><strong>覆盖方法</strong></td>
+          <td>10+ 种</td>
+          <td>只手冲</td>
+      </tr>
+      <tr>
+          <td><strong>字数</strong></td>
+          <td>25,000</td>
+          <td>22,000</td>
+      </tr>
+      <tr>
+          <td><strong>价格</strong></td>
+          <td>$3.99</td>
+          <td>$4.99</td>
+      </tr>
+  </tbody>
+</table>
+<p>如果你只玩手冲，直接买大师之路。
+如果你什么都想玩，先买完全指南。</p>
+<h2 id="购买">购买</h2>
+<p>👉 <a href="/guide/comprehensive/">点击购买《咖啡冲煮完全指南》</a></p>
+<p>👉 <a href="/guide/pourover/">点击购买《手冲咖啡大师之路》</a></p>
+<p>Stripe 国际支付（信用卡 / Apple Pay / Google Pay / Alipay 国际版），购买后自动邮件发送下载链接，终身有效。</p>
+<hr>
+<p>三年前我们做 Coffee Prism 的初衷是——<strong>让中文咖啡爱好者有一个说人话的咖啡知识源</strong>。</p>
+<p>这本 PDF 是这个目标的最浓缩版本。</p>
+<p>如果你是长期读者：感谢支持。
+如果你是第一次来：希望它能成为你咖啡旅程的一个起点。</p>
+<p>—— Coffee Prism 编辑部
+2026 年 4 月</p>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/posts/pourover-deep-dive/">《手冲咖啡大师之路》发售：为什么手冲值得单独一本书？</a></li>
+<li><a href="/posts/2025-07-31-182328-huan-xing-ka-pei-dou-de-yin-cang-feng-wei-shou-cho-f333bca6/">唤醒咖啡豆的隐藏风味：手冲咖啡的五大进阶心法</a></li>
+<li><a href="/posts/2025-05-13-181848-shou-chong-ka-pei-de-wei-jue-mi-ma-jie-suo-zhuan-y-a898d7f1/">手冲咖啡的味觉密码：解锁专业级风味的五大进阶技巧</a></li>
+<li><a href="/posts/2025-05-01-181743-shou-chong-ka-pei-de-jin-jie-mei-xue-jie-suo-jing-5d8f49a8/">手冲咖啡的进阶美学：解锁精品咖啡的五个维度</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
 </rss>

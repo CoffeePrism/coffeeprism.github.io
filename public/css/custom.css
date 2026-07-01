@@ -714,6 +714,57 @@ a:hover { color: var(--cp-coffee-dark); }
   scroll-margin-top: 80px;
 }
 
+/* === 可见 FAQ 区块 === */
+.post-faq {
+  margin: 2.5rem 0;
+}
+.post-faq__title {
+  font-size: 1.55rem;
+  font-weight: 700;
+  color: var(--cp-coffee-dark);
+  margin: 0 0 1rem;
+  padding-bottom: 0.45rem;
+  border-bottom: 2px solid var(--cp-gold);
+}
+.post-faq__item {
+  background: #fff;
+  border: 1px solid var(--cp-line);
+  border-radius: 10px;
+  margin-bottom: 0.6rem;
+  overflow: hidden;
+}
+.post-faq__item[open] {
+  border-color: var(--cp-gold);
+  box-shadow: var(--cp-shadow);
+}
+.post-faq__q {
+  cursor: pointer;
+  padding: 0.9rem 1.15rem;
+  font-weight: 600;
+  color: var(--cp-coffee-dark);
+  list-style: none;
+  position: relative;
+  padding-right: 2.5rem;
+}
+.post-faq__q::-webkit-details-marker { display: none; }
+.post-faq__q::after {
+  content: "+";
+  position: absolute;
+  right: 1.1rem;
+  top: 50%;
+  transform: translateY(-50%);
+  color: var(--cp-accent);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.post-faq__item[open] .post-faq__q::after { content: "−"; }
+.post-faq__a {
+  padding: 0 1.15rem 1rem;
+  color: var(--cp-text-soft);
+  font-size: 0.95rem;
+  line-height: 1.75;
+}
+
 /* === AdSense 视觉边界 === */
 .ad-in-article {
   margin: 2.5rem 0;

@@ -1,24 +1,167 @@
 <?xml version="1.0" encoding="utf-8" standalone="yes"?>
-<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
-	<channel>
-		<title>低酸 on Coffee Prism</title>
-		<link>https://www.coffeeprism.com/tags/%E4%BD%8E%E9%85%B8/</link>
-		<description>Recent content in 低酸 on Coffee Prism</description>
-		<generator>Hugo</generator>
-		<language>zh-cn</language>
-		
-		
-		
-		
-			<lastBuildDate>Sat, 02 May 2026 00:00:00 +0000</lastBuildDate>
-		
-			<atom:link href="https://www.coffeeprism.com/tags/%E4%BD%8E%E9%85%B8/index.xml" rel="self" type="application/rss+xml" />
-			<item>
-				<title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
-				<link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
-				<pubDate>Sat, 02 May 2026 00:00:00 +0000</pubDate>
-				<guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
-				<description>&lt;h1 id=&#34;冷萃咖啡-cold-brew-完全指南&#34;&gt;冷萃咖啡 Cold Brew 完全指南&lt;/h1&gt;&#xA;&lt;p&gt;冷萃（Cold Brew）不是&amp;quot;冰镇热咖啡&amp;quot;——它是用&lt;strong&gt;冷水长时间浸泡&lt;/strong&gt;萃取的咖啡。结果与热萃完全不同：&lt;/p&gt;&#xA;&lt;ul&gt;&#xA;&lt;li&gt;&lt;strong&gt;酸度低 67%&lt;/strong&gt;（冷水萃不出大部分酸）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;苦涩物质少&lt;/strong&gt;（绿原酸、单宁不易溶于冷水）&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;甜感更突出&lt;/strong&gt;&lt;/li&gt;&#xA;&lt;li&gt;&lt;strong&gt;咖啡因含量略高&lt;/strong&gt;（浸泡时间长）&lt;/li&gt;&#xA;&lt;/ul&gt;&#xA;&lt;p&gt;这让冷萃成为&lt;strong&gt;夏天 / 怕酸怕苦 / 需要醇厚甜咖啡&lt;/strong&gt;的最佳选择。&lt;/p&gt;</description>
-			</item>
-	</channel>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom" xmlns:content="http://purl.org/rss/1.0/modules/content/">
+  <channel>
+    <title>低酸 on Coffee Prism</title>
+    <link>https://www.coffeeprism.com/tags/%E4%BD%8E%E9%85%B8/</link>
+    <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
+    <generator>Hugo</generator>
+    <language>zh-cn</language>
+    <lastBuildDate>Wed, 01 Jul 2026 15:15:01 -0700</lastBuildDate>
+    <atom:link href="https://www.coffeeprism.com/tags/%E4%BD%8E%E9%85%B8/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>冷萃咖啡 Cold Brew 完全指南：12 小时低温萃取的科学</title>
+      <link>https://www.coffeeprism.com/brewing-methods/cold-brew/</link>
+      <pubDate>Sat, 02 May 2026 00:00:00 &#43;0000</pubDate>
+      <guid>https://www.coffeeprism.com/brewing-methods/cold-brew/</guid>
+      <description>冷萃咖啡 Cold Brew 完全指南：1:8 标准比例、12-24 小时浸泡、低酸高甜的化学原理、家庭批量制作方法。</description>
+      <content:encoded><![CDATA[<h1 id="冷萃咖啡-cold-brew-完全指南">冷萃咖啡 Cold Brew 完全指南</h1>
+<p>冷萃（Cold Brew）不是&quot;冰镇热咖啡&quot;——它是用<strong>冷水长时间浸泡</strong>萃取的咖啡。结果与热萃完全不同：</p>
+<ul>
+<li><strong>酸度低 67%</strong>（冷水萃不出大部分酸）</li>
+<li><strong>苦涩物质少</strong>（绿原酸、单宁不易溶于冷水）</li>
+<li><strong>甜感更突出</strong></li>
+<li><strong>咖啡因含量略高</strong>（浸泡时间长）</li>
+</ul>
+<p>这让冷萃成为<strong>夏天 / 怕酸怕苦 / 需要醇厚甜咖啡</strong>的最佳选择。</p>
+<h2 id="冷萃-vs-冰滴-vs-冰镇热咖啡">冷萃 vs 冰滴 vs 冰镇热咖啡</h2>
+<table>
+  <thead>
+      <tr>
+          <th>类型</th>
+          <th>制作</th>
+          <th>时间</th>
+          <th>风味</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>冷萃 Cold Brew</strong></td>
+          <td>冷水浸泡</td>
+          <td>12-24 小时</td>
+          <td>醇厚、低酸、甜</td>
+      </tr>
+      <tr>
+          <td><strong>冰滴 Cold Drip</strong></td>
+          <td>冰水缓滴</td>
+          <td>4-8 小时</td>
+          <td>干净、清晰、风味精致</td>
+      </tr>
+      <tr>
+          <td><strong>冰镇热咖啡</strong></td>
+          <td>热萃 → 加冰</td>
+          <td>30 秒</td>
+          <td>接近热咖啡但更稀</td>
+      </tr>
+  </tbody>
+</table>
+<p><strong>冰滴需要专门的冰滴架，冷萃只需要一个罐子</strong>——所以家庭场景冷萃更实用。</p>
+<h2 id="18-是标准比例浓缩液">1:8 是标准比例（浓缩液）</h2>
+<table>
+  <thead>
+      <tr>
+          <th>比例</th>
+          <th>用途</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>1:8（100g 粉 / 800g 水）</strong></td>
+          <td>浓缩液，喝时按 1:1 加水或牛奶稀释</td>
+      </tr>
+      <tr>
+          <td><strong>1:15（50g 粉 / 750g 水）</strong></td>
+          <td>即饮，倒出来直接喝</td>
+      </tr>
+  </tbody>
+</table>
+<p>我推荐做<strong>浓缩液</strong>：保存期更长（10 天 vs 3 天），喝时按需稀释，调拿铁、加冰、加汤力水都灵活。</p>
+<h2 id="时间窗口">时间窗口</h2>
+<table>
+  <thead>
+      <tr>
+          <th>浸泡时间</th>
+          <th>风味</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>8 小时</strong></td>
+          <td>不足，偏淡</td>
+      </tr>
+      <tr>
+          <td><strong>12 小时</strong></td>
+          <td>入门窗口，干净轻盈</td>
+      </tr>
+      <tr>
+          <td><strong>16 小时</strong></td>
+          <td><strong>甜区</strong></td>
+      </tr>
+      <tr>
+          <td><strong>20 小时</strong></td>
+          <td>醇厚饱满</td>
+      </tr>
+      <tr>
+          <td><strong>24 小时</strong></td>
+          <td>接近过萃，但仍可饮</td>
+      </tr>
+      <tr>
+          <td><strong>超过 24 小时</strong></td>
+          <td>会出现&quot;金属味&quot;</td>
+      </tr>
+  </tbody>
+</table>
+<p>第一次做先用 <strong>16 小时</strong>，根据口味再调整。</p>
+<h2 id="哪些豆子最适合冷萃">哪些豆子最适合冷萃</h2>
+<p>冷萃适合<strong>风味醇厚、甜感突出</strong>的豆子：</p>
+<p>✅ <strong>巴西、印尼曼特宁、哥伦比亚</strong>：低酸厚体，冷萃后甜感被放大
+✅ <strong>中深烘的拼配豆</strong>：焦糖、可可调性突出
+✅ <strong>日晒处理的豆子</strong>：果香在冷萃下保留较好</p>
+<p>❌ <strong>不太适合</strong>：浅烘的肯尼亚、埃塞——它们的核心特征是高酸亮，冷萃会把这些&quot;杀掉&quot;，喝起来反而像&quot;普通咖啡&quot;</p>
+<h2 id="喝法">喝法</h2>
+<ol>
+<li><strong>黑咖啡</strong>：浓缩液 1:1 兑冷水或冰</li>
+<li><strong>冷萃拿铁</strong>：浓缩液 1 份 + 冷牛奶 2 份 + 冰</li>
+<li><strong>冷萃汤力</strong>：浓缩液 1 份 + 汤力水 2 份 + 冰 + 一片橙子（夏日神器）</li>
+<li><strong>冷萃通宁</strong>：和上面汤力做法相似，但用通宁水（quinine 含量更高）</li>
+</ol>
+<h2 id="常见问题">常见问题</h2>
+<table>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>太淡</td>
+          <td>比例错（试 1:8）/ 时间不够（试 16 小时）</td>
+      </tr>
+      <tr>
+          <td>浑浊有沉淀</td>
+          <td>磨太细 → 用粗研磨 + V60 滤纸细过滤</td>
+      </tr>
+      <tr>
+          <td>苦涩</td>
+          <td>浸泡过久（&gt; 24 小时）或用了浅烘豆</td>
+      </tr>
+      <tr>
+          <td>保存几天后变酸</td>
+          <td>这是正常氧化，建议 7 天内喝完</td>
+      </tr>
+  </tbody>
+</table>
+<hr>
+<blockquote>
+<p>📘 冷萃只是夏季方法之一。系统学全 5 大方法 + 故障排查？<a href="/guide/comprehensive/">《咖啡冲煮完全指南 2026》$3.99</a> 给你完整工具箱。</p>
+</blockquote>
+<h2 id="相关阅读">相关阅读</h2>
+<ul>
+<li><a href="/brewing-methods/pour-over-v60/">V60 手冲咖啡完全指南</a></li>
+<li><a href="/brewing-methods/french-press/">法压壶 French Press 完全指南</a></li>
+<li><a href="/coffee-beans/">咖啡豆完全指南</a></li>
+</ul>
+]]></content:encoded>
+    </item>
+  </channel>
 </rss>
