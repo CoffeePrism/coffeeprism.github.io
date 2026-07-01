@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/categories/%E6%89%8B%E5%86%B2%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《手冲咖啡大师之路》发售：为什么手冲值得单独一本书？</title>
@@ -33,45 +33,45 @@
 <h2 id="这本书与完全指南有什么不同">这本书与《完全指南》有什么不同</h2>
 <p>我们做了两本书是有意的：</p>
 <table>
-	<thead>
-			<tr>
-					<th></th>
-					<th>完全指南</th>
-					<th>大师之路</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><strong>对手冲的深度</strong></td>
-					<td>一章（3,000 字）</td>
-					<td><strong>整本书（22,000 字）</strong></td>
-			</tr>
-			<tr>
-					<td><strong>冠军配方数</strong></td>
-					<td>0 个</td>
-					<td><strong>6 个详细拆解</strong></td>
-			</tr>
-			<tr>
-					<td><strong>萃取科学</strong></td>
-					<td>概念介绍</td>
-					<td>动力学 + 实战应用</td>
-			</tr>
-			<tr>
-					<td><strong>故障排查</strong></td>
-					<td>基础症状表</td>
-					<td><strong>进阶症状 + 根因分析</strong></td>
-			</tr>
-			<tr>
-					<td><strong>目标读者</strong></td>
-					<td>新手到进阶</td>
-					<td>进阶到专业</td>
-			</tr>
-			<tr>
-					<td><strong>价格</strong></td>
-					<td>$3.99</td>
-					<td>$4.99</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th></th>
+          <th>完全指南</th>
+          <th>大师之路</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>对手冲的深度</strong></td>
+          <td>一章（3,000 字）</td>
+          <td><strong>整本书（22,000 字）</strong></td>
+      </tr>
+      <tr>
+          <td><strong>冠军配方数</strong></td>
+          <td>0 个</td>
+          <td><strong>6 个详细拆解</strong></td>
+      </tr>
+      <tr>
+          <td><strong>萃取科学</strong></td>
+          <td>概念介绍</td>
+          <td>动力学 + 实战应用</td>
+      </tr>
+      <tr>
+          <td><strong>故障排查</strong></td>
+          <td>基础症状表</td>
+          <td><strong>进阶症状 + 根因分析</strong></td>
+      </tr>
+      <tr>
+          <td><strong>目标读者</strong></td>
+          <td>新手到进阶</td>
+          <td>进阶到专业</td>
+      </tr>
+      <tr>
+          <td><strong>价格</strong></td>
+          <td>$3.99</td>
+          <td>$4.99</td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>一句话</strong>：如果你只玩手冲，直接买这本；如果你什么都玩，先买完全指南。</p>
 <h2 id="这本书里有什么干货">这本书里有什么&quot;干货&quot;？</h2>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E9%A3%8E%E5%91%B3%E8%A1%A8%E7%8E%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度解析：不同烘焙曲线的风味表现的完整指南</title>
@@ -141,38 +141,38 @@
 </ol>
 <h3 id="42-典型曲线参数对比">4.2 典型曲线参数对比</h3>
 <table>
-	<thead>
-			<tr>
-					<th>曲线类型</th>
-					<th>总时长</th>
-					<th>一爆温度</th>
-					<th>发展率</th>
-					<th>适用场景</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>北欧浅焙</td>
-					<td>9-11分钟</td>
-					<td>198℃</td>
-					<td>8-10%</td>
-					<td>手冲单品</td>
-			</tr>
-			<tr>
-					<td>美式经典</td>
-					<td>12-14分钟</td>
-					<td>205℃</td>
-					<td>15-18%</td>
-					<td>意式拼配</td>
-			</tr>
-			<tr>
-					<td>日式深煎</td>
-					<td>16-18分钟</td>
-					<td>215℃</td>
-					<td>20-25%</td>
-					<td>虹吸萃取</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>曲线类型</th>
+          <th>总时长</th>
+          <th>一爆温度</th>
+          <th>发展率</th>
+          <th>适用场景</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>北欧浅焙</td>
+          <td>9-11分钟</td>
+          <td>198℃</td>
+          <td>8-10%</td>
+          <td>手冲单品</td>
+      </tr>
+      <tr>
+          <td>美式经典</td>
+          <td>12-14分钟</td>
+          <td>205℃</td>
+          <td>15-18%</td>
+          <td>意式拼配</td>
+      </tr>
+      <tr>
+          <td>日式深煎</td>
+          <td>16-18分钟</td>
+          <td>215℃</td>
+          <td>20-25%</td>
+          <td>虹吸萃取</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="五避开烘焙曲线的五大误区">五、避开烘焙曲线的五大误区</h2>
 <h3 id="51-过度追求曲线复刻">5.1 过度追求曲线复刻</h3>

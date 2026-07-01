@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E9%97%A8%E5%BA%97%E6%95%B0%E5%AD%97%E5%8C%96/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>星巴克AI库存工具北美叫停：一场“门店数字化”回撤，暴露咖啡供应链的真实难点</title>
@@ -66,30 +66,30 @@
 <h3 id="先看成本端库存优化不是简单压库存">先看成本端：库存优化不是简单“压库存”</h3>
 <p>对咖啡连锁来说，库存成本主要来自三部分：</p>
 <table>
-	<thead>
-			<tr>
-					<th>成本类型</th>
-					<th>典型表现</th>
-					<th>影响</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>缺货成本</td>
-					<td>热门饮品无法售卖、顾客流失</td>
-					<td>直接损失销售与复购</td>
-			</tr>
-			<tr>
-					<td>过量库存成本</td>
-					<td>乳制品、鲜食、冷链原料报损</td>
-					<td>抬高单店运营成本</td>
-			</tr>
-			<tr>
-					<td>操作成本</td>
-					<td>盘点、补货、临时调拨、加急配送</td>
-					<td>增加管理复杂度</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>成本类型</th>
+          <th>典型表现</th>
+          <th>影响</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>缺货成本</td>
+          <td>热门饮品无法售卖、顾客流失</td>
+          <td>直接损失销售与复购</td>
+      </tr>
+      <tr>
+          <td>过量库存成本</td>
+          <td>乳制品、鲜食、冷链原料报损</td>
+          <td>抬高单店运营成本</td>
+      </tr>
+      <tr>
+          <td>操作成本</td>
+          <td>盘点、补货、临时调拨、加急配送</td>
+          <td>增加管理复杂度</td>
+      </tr>
+  </tbody>
 </table>
 <p>AI库存工具理论上的价值，是在三者之间找到最优平衡。但现实是，很多品牌在经济下行周期里，最先想到的是“压库存”。这会带来一个常见误区：把库存优化当成财务手段，而不是服务能力建设。结果就是安全库存被压得过低，一旦销量高于预测，门店就出现断货、替代原料、产品体验不稳定。</p>
 <p>从消费者视角，这种后果非常直接。顾客不一定知道“库存工具”出了问题，但会感受到：</p>

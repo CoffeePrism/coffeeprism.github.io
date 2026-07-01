@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/ai%E7%82%B9%E5%8D%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>星巴克 ChatGPT 测试版上线：AI点单正在改写咖啡数字化竞争规则</title>
@@ -68,30 +68,30 @@
 <p>对星巴克而言，接入 ChatGPT 的意义在于避免自己在未来成为“被比较的菜单数据库”。如果品牌不主动参与，平台完全可能把星巴克与其他咖啡品牌放在统一问答框架里进行横向比较，比如“哪家低糖拿铁更划算”“哪家适合下午不想睡的饮品选择更多”。一旦比较框架由平台定义，品牌溢价就会被稀释。</p>
 <p>这也是为什么未来咖啡品牌会越来越重视以下三件事：</p>
 <table>
-	<thead>
-			<tr>
-					<th>竞争维度</th>
-					<th>过去重点</th>
-					<th>AI时代重点</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>获客</td>
-					<td>广告投放、门店曝光</td>
-					<td>意图识别、答案可见性</td>
-			</tr>
-			<tr>
-					<td>转化</td>
-					<td>优惠券、下单流程</td>
-					<td>个性化推荐、对话完成率</td>
-			</tr>
-			<tr>
-					<td>复购</td>
-					<td>会员积分、促销 push</td>
-					<td>跨场景记忆、习惯预测</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>竞争维度</th>
+          <th>过去重点</th>
+          <th>AI时代重点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>获客</td>
+          <td>广告投放、门店曝光</td>
+          <td>意图识别、答案可见性</td>
+      </tr>
+      <tr>
+          <td>转化</td>
+          <td>优惠券、下单流程</td>
+          <td>个性化推荐、对话完成率</td>
+      </tr>
+      <tr>
+          <td>复购</td>
+          <td>会员积分、促销 push</td>
+          <td>跨场景记忆、习惯预测</td>
+      </tr>
+  </tbody>
 </table>
 <p>从经济学角度看，AI 平台最强的能力是降低信息摩擦。一旦信息摩擦下降，品牌溢价理论上会承压，因为消费者更容易比较价格、成分、热量和评价。但咖啡行业又有特殊性：品牌感知、门店体验、社交属性和习惯性复购很强。因此，AI 不会简单把星巴克变成“可替代商品”，而是会促使品牌把溢价从“菜单陌生感”转向“品牌叙事+履约体验+稳定质量”。</p>
 <p>我认为，未来头部连锁品牌会分成两类：</p>

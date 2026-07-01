@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F%E5%AE%B6%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版</title>
@@ -19,40 +19,40 @@
 <h2 id="摩卡壶--espresso">摩卡壶 ≠ Espresso</h2>
 <p>很多人以为摩卡壶能做 espresso，<strong>这是误解</strong>：</p>
 <table>
-	<thead>
-			<tr>
-					<th>维度</th>
-					<th>Moka Pot</th>
-					<th>真正的 Espresso</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><strong>压力</strong></td>
-					<td>约 1.5 bar</td>
-					<td>9 bar</td>
-			</tr>
-			<tr>
-					<td><strong>萃取时间</strong></td>
-					<td>3-4 分钟</td>
-					<td>25-30 秒</td>
-			</tr>
-			<tr>
-					<td><strong>温度</strong></td>
-					<td>接近 100°C</td>
-					<td>90-95°C</td>
-			</tr>
-			<tr>
-					<td><strong>crema</strong></td>
-					<td>极少</td>
-					<td>厚实</td>
-			</tr>
-			<tr>
-					<td><strong>风味</strong></td>
-					<td>浓郁但偏苦</td>
-					<td>浓郁且层次清晰</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>Moka Pot</th>
+          <th>真正的 Espresso</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>压力</strong></td>
+          <td>约 1.5 bar</td>
+          <td>9 bar</td>
+      </tr>
+      <tr>
+          <td><strong>萃取时间</strong></td>
+          <td>3-4 分钟</td>
+          <td>25-30 秒</td>
+      </tr>
+      <tr>
+          <td><strong>温度</strong></td>
+          <td>接近 100°C</td>
+          <td>90-95°C</td>
+      </tr>
+      <tr>
+          <td><strong>crema</strong></td>
+          <td>极少</td>
+          <td>厚实</td>
+      </tr>
+      <tr>
+          <td><strong>风味</strong></td>
+          <td>浓郁但偏苦</td>
+          <td>浓郁且层次清晰</td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>摩卡壶的咖啡不能直接做拉花</strong>——crema 太薄。但它非常适合喝单杯浓咖啡或者加奶做家庭版&quot;拿铁&quot;。</p>
 <h2 id="绝大多数人在-bialetti-上踩的-3-个坑">绝大多数人在 Bialetti 上踩的 3 个坑</h2>
@@ -70,40 +70,40 @@
 <p>如果你只有一台磨豆机，建议从手冲研磨度往细调 2-3 格。</p>
 <h2 id="常见问题诊断">常见问题诊断</h2>
 <table>
-	<thead>
-			<tr>
-					<th>症状</th>
-					<th>原因</th>
-					<th>解法</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>苦涩</td>
-					<td>火太大 / 没及时离火</td>
-					<td>中小火 + 听声音</td>
-			</tr>
-			<tr>
-					<td>烧糊味</td>
-					<td>火大 + 萃取过头</td>
-					<td>听到「滋滋」立刻冷却</td>
-			</tr>
-			<tr>
-					<td>出水极慢或不出</td>
-					<td>磨太细 / 装粉过满</td>
-					<td>调粗 2 格 / 不要按压粉</td>
-			</tr>
-			<tr>
-					<td>喷溅</td>
-					<td>火太大</td>
-					<td>中小火</td>
-			</tr>
-			<tr>
-					<td>没浓度</td>
-					<td>磨太粗 / 水太少</td>
-					<td>调细 + 检查水位刻度</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+          <th>解法</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>苦涩</td>
+          <td>火太大 / 没及时离火</td>
+          <td>中小火 + 听声音</td>
+      </tr>
+      <tr>
+          <td>烧糊味</td>
+          <td>火大 + 萃取过头</td>
+          <td>听到「滋滋」立刻冷却</td>
+      </tr>
+      <tr>
+          <td>出水极慢或不出</td>
+          <td>磨太细 / 装粉过满</td>
+          <td>调粗 2 格 / 不要按压粉</td>
+      </tr>
+      <tr>
+          <td>喷溅</td>
+          <td>火太大</td>
+          <td>中小火</td>
+      </tr>
+      <tr>
+          <td>没浓度</td>
+          <td>磨太粗 / 水太少</td>
+          <td>调细 + 检查水位刻度</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="摩卡壶里的咖啡推荐豆">摩卡壶里的咖啡推荐豆</h2>
 <p>摩卡壶不挑豆，但有偏好：</p>

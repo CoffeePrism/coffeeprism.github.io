@@ -83,3 +83,18 @@ jobs:
       - name: 部署到GitHub Pages
         id: deployment
         uses: actions/deploy-pages@v4
+
+  indexnow:
+    # deploy 成功后把 sitemap 全量 URL 推给 IndexNow（Bing/Copilot 等）。
+    # Bing 索引喂 Copilot、DeepSeek 候选集、豆包全网搜索 —— 即时推送比
+    # 等爬虫快几天到几周。失败不影响发布（continue-on-error）。
+    runs-on: ubuntu-latest
+    needs: deploy
+    continue-on-error: true
+    steps:
+      - name: 检出代码
+        uses: actions/checkout@v4
+      - name: IndexNow 提交
+        run: |
+          sleep 60  # 等 Pages CDN 生效，确保 key 文件可被 IndexNow 验证
+          python3 scripts/indexnow_submit.py

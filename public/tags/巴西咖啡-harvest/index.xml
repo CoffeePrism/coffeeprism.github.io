@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1-harvest/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>巴西咖啡 harvest 提速压低咖啡期货价格：中国咖啡消费会迎来降价窗口吗？</title>
@@ -60,46 +60,46 @@
 <p>过去两年，很多品牌为控制成本，倾向提高罗布斯塔拼配比例。但如果越南等地供应仍偏紧，罗布斯塔价格高位不退，那么阿拉比卡回落的意义就更大，因为它会重新影响拼配策略。</p>
 <p>这里可以用一个更直观的比较来说明：</p>
 <table>
-	<thead>
-			<tr>
-					<th>影响因素</th>
-					<th style="text-align: right">对短期价格影响</th>
-					<th style="text-align: right">对中期价格影响</th>
-					<th>备注</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>巴西天气与采收进度</td>
-					<td style="text-align: right">高</td>
-					<td style="text-align: right">中</td>
-					<td>主要影响情绪和阶段性供应</td>
-			</tr>
-			<tr>
-					<td>巴西出口与认证库存</td>
-					<td style="text-align: right">中</td>
-					<td style="text-align: right">高</td>
-					<td>决定供应是否真正落地</td>
-			</tr>
-			<tr>
-					<td>越南罗布斯塔供应</td>
-					<td style="text-align: right">中</td>
-					<td style="text-align: right">高</td>
-					<td>影响替代性与拼配成本</td>
-			</tr>
-			<tr>
-					<td>全球消费需求</td>
-					<td style="text-align: right">中</td>
-					<td style="text-align: right">高</td>
-					<td>决定价格能否维持高位</td>
-			</tr>
-			<tr>
-					<td>汇率与海运成本</td>
-					<td style="text-align: right">中</td>
-					<td style="text-align: right">中</td>
-					<td>决定进口端实际采购成本</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>影响因素</th>
+          <th style="text-align: right">对短期价格影响</th>
+          <th style="text-align: right">对中期价格影响</th>
+          <th>备注</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>巴西天气与采收进度</td>
+          <td style="text-align: right">高</td>
+          <td style="text-align: right">中</td>
+          <td>主要影响情绪和阶段性供应</td>
+      </tr>
+      <tr>
+          <td>巴西出口与认证库存</td>
+          <td style="text-align: right">中</td>
+          <td style="text-align: right">高</td>
+          <td>决定供应是否真正落地</td>
+      </tr>
+      <tr>
+          <td>越南罗布斯塔供应</td>
+          <td style="text-align: right">中</td>
+          <td style="text-align: right">高</td>
+          <td>影响替代性与拼配成本</td>
+      </tr>
+      <tr>
+          <td>全球消费需求</td>
+          <td style="text-align: right">中</td>
+          <td style="text-align: right">高</td>
+          <td>决定价格能否维持高位</td>
+      </tr>
+      <tr>
+          <td>汇率与海运成本</td>
+          <td style="text-align: right">中</td>
+          <td style="text-align: right">中</td>
+          <td>决定进口端实际采购成本</td>
+      </tr>
+  </tbody>
 </table>
 <p>我的判断是，当前市场更像从“极端天气驱动的风险溢价阶段”过渡到“库存修复与需求验证阶段”。这意味着价格可能继续波动，但波动逻辑会更复杂，不再只是盯着一场雨或一段晴天。</p>
 <h2 id="咖啡期货跌了为什么门店咖啡不一定立刻降价">咖啡期货跌了，为什么门店咖啡不一定立刻降价？</h2>

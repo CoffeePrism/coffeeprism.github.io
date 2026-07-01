@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E5%AE%9A%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡价格上涨进入新阶段：从咖啡豆供应链到连锁咖啡定价，中国市场会如何被传导？</title>
@@ -35,45 +35,45 @@
 <p>我在与一些国内烘焙商交流时发现，近两年采购部门最常说的一句话不是“豆子贵了”，而是“可预期性变差了”。对企业来说，最难管理的从来不是高价，而是高波动。高价可以通过提价、改配方、控损耗去消化；高波动则会直接破坏预算、合同和利润模型。</p>
 <h3 id="影响咖啡价格的关键变量一览">影响咖啡价格的关键变量一览</h3>
 <table>
-	<thead>
-			<tr>
-					<th>变量</th>
-					<th>影响方向</th>
-					<th>典型表现</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>巴西天气</td>
-					<td>影响阿拉比卡产量与品质</td>
-					<td>干旱、霜冻导致减产预期上升</td>
-			</tr>
-			<tr>
-					<td>越南出口节奏</td>
-					<td>影响罗布斯塔供应</td>
-					<td>出口放缓推动商业豆价格走强</td>
-			</tr>
-			<tr>
-					<td>交易所库存</td>
-					<td>影响市场安全垫</td>
-					<td>库存偏低时价格弹性更大</td>
-			</tr>
-			<tr>
-					<td>物流与汇率</td>
-					<td>影响进口到岸成本</td>
-					<td>海运、保险、汇率都可能抬高成本</td>
-			</tr>
-			<tr>
-					<td>基金仓位</td>
-					<td>放大短期波动</td>
-					<td>利多消息下价格可能超调</td>
-			</tr>
-			<tr>
-					<td>品牌补库行为</td>
-					<td>影响现货紧张程度</td>
-					<td>集体补库时现货升水更明显</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>变量</th>
+          <th>影响方向</th>
+          <th>典型表现</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>巴西天气</td>
+          <td>影响阿拉比卡产量与品质</td>
+          <td>干旱、霜冻导致减产预期上升</td>
+      </tr>
+      <tr>
+          <td>越南出口节奏</td>
+          <td>影响罗布斯塔供应</td>
+          <td>出口放缓推动商业豆价格走强</td>
+      </tr>
+      <tr>
+          <td>交易所库存</td>
+          <td>影响市场安全垫</td>
+          <td>库存偏低时价格弹性更大</td>
+      </tr>
+      <tr>
+          <td>物流与汇率</td>
+          <td>影响进口到岸成本</td>
+          <td>海运、保险、汇率都可能抬高成本</td>
+      </tr>
+      <tr>
+          <td>基金仓位</td>
+          <td>放大短期波动</td>
+          <td>利多消息下价格可能超调</td>
+      </tr>
+      <tr>
+          <td>品牌补库行为</td>
+          <td>影响现货紧张程度</td>
+          <td>集体补库时现货升水更明显</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="连锁品牌为什么吞成本而不是立刻涨价">连锁品牌为什么“吞成本”而不是立刻涨价</h2>
 <p>直接回答这个问题：连锁品牌不立刻涨价，并不意味着成本压力不大，而是因为终端价格比原料价格更敏感。对多数连锁品牌来说，价格一旦上调，损失的不只是单杯销量，还可能是会员活跃度、复购频率和品牌心智。</p>
@@ -184,40 +184,40 @@
 <p>咖啡是典型的全球贸易商品。产地报价只是起点，真正进入烘焙厂或门店杯中的成本，还包括海运、保险、仓储、融资和汇率成本。尤其对中国市场而言，进口咖啡豆通常以美元结算，人民币汇率变化会放大采购压力。</p>
 <p>结构上可以理解为：</p>
 <table>
-	<thead>
-			<tr>
-					<th>成本环节</th>
-					<th style="text-align: right">是否易波动</th>
-					<th style="text-align: right">对终端价格影响</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>生豆采购</td>
-					<td style="text-align: right">高</td>
-					<td style="text-align: right">高</td>
-			</tr>
-			<tr>
-					<td>海运物流</td>
-					<td style="text-align: right">中高</td>
-					<td style="text-align: right">中</td>
-			</tr>
-			<tr>
-					<td>汇率</td>
-					<td style="text-align: right">高</td>
-					<td style="text-align: right">中高</td>
-			</tr>
-			<tr>
-					<td>烘焙与损耗</td>
-					<td style="text-align: right">中</td>
-					<td style="text-align: right">中</td>
-			</tr>
-			<tr>
-					<td>门店房租人工</td>
-					<td style="text-align: right">中高</td>
-					<td style="text-align: right">高</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>成本环节</th>
+          <th style="text-align: right">是否易波动</th>
+          <th style="text-align: right">对终端价格影响</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>生豆采购</td>
+          <td style="text-align: right">高</td>
+          <td style="text-align: right">高</td>
+      </tr>
+      <tr>
+          <td>海运物流</td>
+          <td style="text-align: right">中高</td>
+          <td style="text-align: right">中</td>
+      </tr>
+      <tr>
+          <td>汇率</td>
+          <td style="text-align: right">高</td>
+          <td style="text-align: right">中高</td>
+      </tr>
+      <tr>
+          <td>烘焙与损耗</td>
+          <td style="text-align: right">中</td>
+          <td style="text-align: right">中</td>
+      </tr>
+      <tr>
+          <td>门店房租人工</td>
+          <td style="text-align: right">中高</td>
+          <td style="text-align: right">高</td>
+      </tr>
+  </tbody>
 </table>
 <p>也就是说，即使国际期货价格不再继续大涨，只要物流和汇率仍不稳定，<strong>连锁咖啡定价</strong>依然承压。</p>
 <h3 id="4-咖啡供给恢复慢是这个行业最被低估的事实">4. 咖啡供给恢复慢，是这个行业最被低估的事实</h3>

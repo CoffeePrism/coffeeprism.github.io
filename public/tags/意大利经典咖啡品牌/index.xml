@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%84%8F%E5%A4%A7%E5%88%A9%E7%BB%8F%E5%85%B8%E5%92%96%E5%95%A1%E5%93%81%E7%89%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>意大利经典咖啡品牌的历史深度解析指南</title>
@@ -82,34 +82,34 @@
 <p>传统意大利品牌很适合奶咖，但关键在牛奶处理。建议使用 200-250 ml 冷藏全脂牛奶，蒸汽打发到 <strong>55-65℃</strong>，避免超过 70℃，否则甜感下降、奶腥味上升。</p>
 <p>配方上可以这样试：</p>
 <table>
-	<thead>
-			<tr>
-					<th>饮品</th>
-					<th style="text-align: right">浓缩咖啡</th>
-					<th style="text-align: right">牛奶量</th>
-					<th>适合品牌</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>卡布奇诺</td>
-					<td style="text-align: right">30-36g</td>
-					<td style="text-align: right">120-150ml</td>
-					<td>Kimbo、Segafredo</td>
-			</tr>
-			<tr>
-					<td>拿铁</td>
-					<td style="text-align: right">30-40g</td>
-					<td style="text-align: right">180-220ml</td>
-					<td>Lavazza、Kimbo</td>
-			</tr>
-			<tr>
-					<td>澳白</td>
-					<td style="text-align: right">36-40g</td>
-					<td style="text-align: right">120-150ml</td>
-					<td>illy、Lavazza</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>饮品</th>
+          <th style="text-align: right">浓缩咖啡</th>
+          <th style="text-align: right">牛奶量</th>
+          <th>适合品牌</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>卡布奇诺</td>
+          <td style="text-align: right">30-36g</td>
+          <td style="text-align: right">120-150ml</td>
+          <td>Kimbo、Segafredo</td>
+      </tr>
+      <tr>
+          <td>拿铁</td>
+          <td style="text-align: right">30-40g</td>
+          <td style="text-align: right">180-220ml</td>
+          <td>Lavazza、Kimbo</td>
+      </tr>
+      <tr>
+          <td>澳白</td>
+          <td style="text-align: right">36-40g</td>
+          <td style="text-align: right">120-150ml</td>
+          <td>illy、Lavazza</td>
+      </tr>
+  </tbody>
 </table>
 <p>如果你想搭配家用设备一起入门，可搜索 <a href="https://www.amazon.com/s?k=DeLonghi%20Espresso%20Machine&amp;tag=coffeeprism-20">DeLonghi Espresso Machine</a> 或 <a href="https://www.amazon.com/s?k=Breville%20Barista%20Express&amp;tag=coffeeprism-20">Breville Barista Express</a>。在中国市场，德龙渠道更成熟，售后也相对方便。</p>
 <h2 id="意大利经典咖啡品牌的历史常见误区与专家建议别把经典等同于单一风味">意大利经典咖啡品牌的历史常见误区与专家建议：别把“经典”等同于“单一风味”</h2>
@@ -248,45 +248,45 @@
 </ul>
 <h2 id="五经典产品横向评测">五、经典产品横向评测</h2>
 <table>
-	<thead>
-			<tr>
-					<th>品牌</th>
-					<th>主力产品</th>
-					<th>风味特征</th>
-					<th>建议冲煮方式</th>
-					<th>国内参考价</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>Lavazza</td>
-					<td>Qualità Oro</td>
-					<td>蜂蜜/烤杏仁</td>
-					<td>摩卡壶</td>
-					<td>¥125/250g</td>
-			</tr>
-			<tr>
-					<td>Illy</td>
-					<td>Classico</td>
-					<td>茉莉花/焦糖</td>
-					<td>半自动咖啡机</td>
-					<td>¥168/250g</td>
-			</tr>
-			<tr>
-					<td>Segafredo</td>
-					<td>Intermezzo</td>
-					<td>黑巧克力/香料</td>
-					<td>法压壶</td>
-					<td>¥98/250g</td>
-			</tr>
-			<tr>
-					<td>Pellini</td>
-					<td>Top Premium</td>
-					<td>柑橘/太妃糖</td>
-					<td>手冲</td>
-					<td>¥198/200g</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>品牌</th>
+          <th>主力产品</th>
+          <th>风味特征</th>
+          <th>建议冲煮方式</th>
+          <th>国内参考价</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>Lavazza</td>
+          <td>Qualità Oro</td>
+          <td>蜂蜜/烤杏仁</td>
+          <td>摩卡壶</td>
+          <td>¥125/250g</td>
+      </tr>
+      <tr>
+          <td>Illy</td>
+          <td>Classico</td>
+          <td>茉莉花/焦糖</td>
+          <td>半自动咖啡机</td>
+          <td>¥168/250g</td>
+      </tr>
+      <tr>
+          <td>Segafredo</td>
+          <td>Intermezzo</td>
+          <td>黑巧克力/香料</td>
+          <td>法压壶</td>
+          <td>¥98/250g</td>
+      </tr>
+      <tr>
+          <td>Pellini</td>
+          <td>Top Premium</td>
+          <td>柑橘/太妃糖</td>
+          <td>手冲</td>
+          <td>¥198/200g</td>
+      </tr>
+  </tbody>
 </table>
 <p><em>数据来源：2024年意大利咖啡协会官方评测报告</em></p>
 <h2 id="常见问题解答">常见问题解答</h2>
@@ -359,30 +359,30 @@
 <h2 id="四中国市场的实用指南">四、中国市场的实用指南</h2>
 <h3 id="41-选购避坑指南">4.1 选购避坑指南</h3>
 <table>
-	<thead>
-			<tr>
-					<th>参数</th>
-					<th>优质特征</th>
-					<th>劣质表现</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>生产日期</td>
-					<td>烘焙后3个月内</td>
-					<td>无明确日期</td>
-			</tr>
-			<tr>
-					<td>豆型</td>
-					<td>完整无碎豆</td>
-					<td>碎豆率＞15%</td>
-			</tr>
-			<tr>
-					<td>油脂表现</td>
-					<td>Crema持续3分钟</td>
-					<td>30秒内消散</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>参数</th>
+          <th>优质特征</th>
+          <th>劣质表现</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>生产日期</td>
+          <td>烘焙后3个月内</td>
+          <td>无明确日期</td>
+      </tr>
+      <tr>
+          <td>豆型</td>
+          <td>完整无碎豆</td>
+          <td>碎豆率＞15%</td>
+      </tr>
+      <tr>
+          <td>油脂表现</td>
+          <td>Crema持续3分钟</td>
+          <td>30秒内消散</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="42-本土化饮用方案">4.2 本土化饮用方案</h3>
 <p>针对中国水质特点（平均硬度120ppm），建议：</p>

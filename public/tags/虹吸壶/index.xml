@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E8%99%B9%E5%90%B8%E5%A3%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>虹吸壶的科学与艺术深度解析指南</title>
@@ -46,46 +46,46 @@
 <h3 id="标准虹吸壶冲煮参数新手可直接照做">标准虹吸壶冲煮参数：新手可直接照做</h3>
 <p>下面是一套适合3杯壶的基础参数，适用于15-20g粉量的小批量冲煮：</p>
 <table>
-	<thead>
-			<tr>
-					<th>项目</th>
-					<th>建议参数</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>粉量</td>
-					<td>20g</td>
-			</tr>
-			<tr>
-					<td>水量</td>
-					<td>300g</td>
-			</tr>
-			<tr>
-					<td>粉水比</td>
-					<td>1:15</td>
-			</tr>
-			<tr>
-					<td>研磨度</td>
-					<td>中细，略粗于V60、细于法压</td>
-			</tr>
-			<tr>
-					<td>上壶温度</td>
-					<td>88-93℃区间</td>
-			</tr>
-			<tr>
-					<td>浸泡时间</td>
-					<td>45-60秒</td>
-			</tr>
-			<tr>
-					<td>总时长</td>
-					<td>1分30秒左右</td>
-			</tr>
-			<tr>
-					<td>搅拌次数</td>
-					<td>入粉后轻搅2-3圈，结束前可再轻破渣1次</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>项目</th>
+          <th>建议参数</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>粉量</td>
+          <td>20g</td>
+      </tr>
+      <tr>
+          <td>水量</td>
+          <td>300g</td>
+      </tr>
+      <tr>
+          <td>粉水比</td>
+          <td>1:15</td>
+      </tr>
+      <tr>
+          <td>研磨度</td>
+          <td>中细，略粗于V60、细于法压</td>
+      </tr>
+      <tr>
+          <td>上壶温度</td>
+          <td>88-93℃区间</td>
+      </tr>
+      <tr>
+          <td>浸泡时间</td>
+          <td>45-60秒</td>
+      </tr>
+      <tr>
+          <td>总时长</td>
+          <td>1分30秒左右</td>
+      </tr>
+      <tr>
+          <td>搅拌次数</td>
+          <td>入粉后轻搅2-3圈，结束前可再轻破渣1次</td>
+      </tr>
+  </tbody>
 </table>
 <p>对于浅烘高密度豆，可把上壶温度拉到92-93℃，浸泡延长到60秒；对于中深烘豆，则建议控制在88-90℃，浸泡缩短到35-45秒。</p>
 <h3 id="虹吸壶冲煮步骤详解从上水到回流">虹吸壶冲煮步骤详解：从上水到回流</h3>
@@ -135,35 +135,35 @@
 <p>虹吸壶的风味稳定性，很大程度由热源决定。卤素灯通常比酒精灯更稳定，电热底座则更适合家庭固定场景。若在门店或需要更强控制，专业卤素灯体验更好。</p>
 <p>搭配建议如下：</p>
 <table>
-	<thead>
-			<tr>
-					<th>工具</th>
-					<th>推荐方向</th>
-					<th>预算参考</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>热源</td>
-					<td>酒精灯入门，卤素灯进阶</td>
-					<td>30-500元</td>
-			</tr>
-			<tr>
-					<td>滤器</td>
-					<td>布滤最平衡，金属滤更省心</td>
-					<td>20-150元</td>
-			</tr>
-			<tr>
-					<td>磨豆机</td>
-					<td>均匀度优先，避免细粉过多</td>
-					<td>300-3000元</td>
-			</tr>
-			<tr>
-					<td>温度计</td>
-					<td>可选，但对新手帮助大</td>
-					<td>30-200元</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>工具</th>
+          <th>推荐方向</th>
+          <th>预算参考</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>热源</td>
+          <td>酒精灯入门，卤素灯进阶</td>
+          <td>30-500元</td>
+      </tr>
+      <tr>
+          <td>滤器</td>
+          <td>布滤最平衡，金属滤更省心</td>
+          <td>20-150元</td>
+      </tr>
+      <tr>
+          <td>磨豆机</td>
+          <td>均匀度优先，避免细粉过多</td>
+          <td>300-3000元</td>
+      </tr>
+      <tr>
+          <td>温度计</td>
+          <td>可选，但对新手帮助大</td>
+          <td>30-200元</td>
+      </tr>
+  </tbody>
 </table>
 <p>如果还没有合适磨豆机，可先了解 <a href="https://www.amazon.com/s?k=TIMEMORE%20Grinder&amp;tag=coffeeprism-20">TIMEMORE Grinder</a> 或 <a href="https://www.amazon.com/s?k=Baratza%20Encore&amp;tag=coffeeprism-20">Baratza Encore</a>。</p>
 <h3 id="国内购买渠道与避坑提示">国内购买渠道与避坑提示</h3>
@@ -247,35 +247,35 @@
 <p>使用日本<strong>KONO特制竹制搅拌棒</strong>时，建议采用「画の字搅拌法」：先顺时针画圆3周，再逆时针2周，最后垂直提拉1次。这种手法可使萃取均匀度提升40%。</p>
 <h2 id="四分步操作指南含典型错误对照">四、分步操作指南（含典型错误对照）</h2>
 <table>
-	<thead>
-			<tr>
-					<th>步骤</th>
-					<th>正确操作</th>
-					<th>常见错误</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>1.装水</td>
-					<td>使用量杯精确到±2ml</td>
-					<td>凭感觉目测</td>
-			</tr>
-			<tr>
-					<td>2.布粉</td>
-					<td>中间凹陷的火山口造型</td>
-					<td>随意摊平</td>
-			</tr>
-			<tr>
-					<td>3.搅拌</td>
-					<td>保持搅拌棒45度角</td>
-					<td>垂直戳刺</td>
-			</tr>
-			<tr>
-					<td>4.收火</td>
-					<td>提前5秒准备湿毛巾</td>
-					<td>直接吹熄酒精灯</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>步骤</th>
+          <th>正确操作</th>
+          <th>常见错误</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1.装水</td>
+          <td>使用量杯精确到±2ml</td>
+          <td>凭感觉目测</td>
+      </tr>
+      <tr>
+          <td>2.布粉</td>
+          <td>中间凹陷的火山口造型</td>
+          <td>随意摊平</td>
+      </tr>
+      <tr>
+          <td>3.搅拌</td>
+          <td>保持搅拌棒45度角</td>
+          <td>垂直戳刺</td>
+      </tr>
+      <tr>
+          <td>4.收火</td>
+          <td>提前5秒准备湿毛巾</td>
+          <td>直接吹熄酒精灯</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="五专业设备推荐">五、专业设备推荐</h2>
 <ol>

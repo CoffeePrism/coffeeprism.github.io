@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%83%98%E7%84%99%E6%8A%80%E6%9C%AF/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡烘焙技术的历史发展：从火堆到智能烘焙的全景解读</title>
@@ -57,30 +57,30 @@
 </ol>
 <h3 id="52-设备选购指南">5.2 设备选购指南</h3>
 <table>
-	<thead>
-			<tr>
-					<th>类型</th>
-					<th>推荐产品</th>
-					<th>核心优势</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>入门级</td>
-					<td>泰摩栗子C智能版</td>
-					<td>APP曲线预设+陶瓷保温</td>
-			</tr>
-			<tr>
-					<td>进阶款</td>
-					<td>Behmor 1600 Plus</td>
-					<td>美国UL认证+1kg容量</td>
-			</tr>
-			<tr>
-					<td>商用优选</td>
-					<td>飞马CR-100</td>
-					<td>燃气加热+双循环排烟</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>类型</th>
+          <th>推荐产品</th>
+          <th>核心优势</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>入门级</td>
+          <td>泰摩栗子C智能版</td>
+          <td>APP曲线预设+陶瓷保温</td>
+      </tr>
+      <tr>
+          <td>进阶款</td>
+          <td>Behmor 1600 Plus</td>
+          <td>美国UL认证+1kg容量</td>
+      </tr>
+      <tr>
+          <td>商用优选</td>
+          <td>飞马CR-100</td>
+          <td>燃气加热+双循环排烟</td>
+      </tr>
+  </tbody>
 </table>
 <hr>
 <h2 id="常见问题解答">常见问题解答</h2>

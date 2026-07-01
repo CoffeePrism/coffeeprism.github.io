@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%8D%95%E6%BA%90%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>单源咖啡的最佳烘焙方式：从风味解锁到精准掌控的完全手册</title>
@@ -229,34 +229,34 @@
 </ul>
 <p><strong>2.2 烘焙度的黄金分水岭</strong></p>
 <table>
-	<thead>
-			<tr>
-					<th>烘焙度</th>
-					<th>豆表颜色</th>
-					<th>风味特征</th>
-					<th>适用豆种举例</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>浅焙</td>
-					<td>肉桂色</td>
-					<td>明亮酸质、花香果韵</td>
-					<td>肯尼亚AA、巴拿马瑰夏</td>
-			</tr>
-			<tr>
-					<td>中焙</td>
-					<td>栗棕色</td>
-					<td>酸甜平衡、焦糖坚果</td>
-					<td>哥伦比亚蕙兰、巴西黄波旁</td>
-			</tr>
-			<tr>
-					<td>深焙</td>
-					<td>深褐色</td>
-					<td>醇厚苦甜、烟熏巧克力</td>
-					<td>苏门答腊曼特宁、印度季风马拉巴</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>烘焙度</th>
+          <th>豆表颜色</th>
+          <th>风味特征</th>
+          <th>适用豆种举例</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>浅焙</td>
+          <td>肉桂色</td>
+          <td>明亮酸质、花香果韵</td>
+          <td>肯尼亚AA、巴拿马瑰夏</td>
+      </tr>
+      <tr>
+          <td>中焙</td>
+          <td>栗棕色</td>
+          <td>酸甜平衡、焦糖坚果</td>
+          <td>哥伦比亚蕙兰、巴西黄波旁</td>
+      </tr>
+      <tr>
+          <td>深焙</td>
+          <td>深褐色</td>
+          <td>醇厚苦甜、烟熏巧克力</td>
+          <td>苏门答腊曼特宁、印度季风马拉巴</td>
+      </tr>
+  </tbody>
 </table>
 <hr>
 <h3 id="三地域风土的烘焙适配法则">三、地域风土的烘焙适配法则</h3>

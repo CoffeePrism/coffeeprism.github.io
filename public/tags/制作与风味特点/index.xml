@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%88%B6%E4%BD%9C%E4%B8%8E%E9%A3%8E%E5%91%B3%E7%89%B9%E7%82%B9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>冷萃咖啡的制作与风味特点完全攻略</title>
@@ -35,35 +35,35 @@
 <p>直接回答这个问题：多数冷萃更容易呈现<strong>低酸、顺滑、甜感柔和、苦感圆钝、尾韵偏可可与坚果</strong>的风格。浅烘豆可以做出果香型冷萃，但比热萃更考验豆子质量与参数控制。</p>
 <p>常见风味表现大致如下：</p>
 <table>
-	<thead>
-			<tr>
-					<th>豆子类型/烘焙</th>
-					<th>冷萃常见风味</th>
-					<th>风险点</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>巴西/哥伦比亚中烘</td>
-					<td>坚果、可可、焦糖、黑糖</td>
-					<td>容易单调</td>
-			</tr>
-			<tr>
-					<td>埃塞浅中烘</td>
-					<td>柑橘、莓果、花香、茶感</td>
-					<td>可能酸弱、香气钝化</td>
-			</tr>
-			<tr>
-					<td>印尼/深烘拼配</td>
-					<td>黑巧、烟熏、香料、厚重</td>
-					<td>易苦、尾段发闷</td>
-			</tr>
-			<tr>
-					<td>厌氧/日晒处理豆</td>
-					<td>熟果、酒香、热带水果</td>
-					<td>易发酵感过重</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>豆子类型/烘焙</th>
+          <th>冷萃常见风味</th>
+          <th>风险点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>巴西/哥伦比亚中烘</td>
+          <td>坚果、可可、焦糖、黑糖</td>
+          <td>容易单调</td>
+      </tr>
+      <tr>
+          <td>埃塞浅中烘</td>
+          <td>柑橘、莓果、花香、茶感</td>
+          <td>可能酸弱、香气钝化</td>
+      </tr>
+      <tr>
+          <td>印尼/深烘拼配</td>
+          <td>黑巧、烟熏、香料、厚重</td>
+          <td>易苦、尾段发闷</td>
+      </tr>
+      <tr>
+          <td>厌氧/日晒处理豆</td>
+          <td>熟果、酒香、热带水果</td>
+          <td>易发酵感过重</td>
+      </tr>
+  </tbody>
 </table>
 <p>如果你刚入门，我更推荐从中烘巴西、哥伦比亚或稳定拼配开始，成功率明显更高。家用器具方面，<a href="https://www.amazon.com/s?k=Hario%20Mizudashi&amp;tag=coffeeprism-20">Hario Mizudashi</a> 这类冷萃壶很适合新手建立基础参数。</p>
 <h2 id="冷萃咖啡的制作与风味特点历史演变与中国市场趋势">冷萃咖啡的制作与风味特点历史演变与中国市场趋势</h2>
@@ -125,40 +125,40 @@
 <h3 id="参数如何影响风味时间粉水比研磨度的对应关系">参数如何影响风味：时间、粉水比、研磨度的对应关系</h3>
 <p>冷萃咖啡的制作与风味特点，本质上是参数之间的联动。下面这张表更方便你快速修正：</p>
 <table>
-	<thead>
-			<tr>
-					<th>问题表现</th>
-					<th>可能原因</th>
-					<th>调整方向</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>太淡、像咖啡水</td>
-					<td>粉水比太低、时间太短</td>
-					<td>提高到1:10-1:12，延长2小时</td>
-			</tr>
-			<tr>
-					<td>太苦、发木</td>
-					<td>时间过长、粉太细、深烘过度</td>
-					<td>缩短2-4小时，调粗研磨</td>
-			</tr>
-			<tr>
-					<td>风味闷、不清爽</td>
-					<td>过滤不干净、豆子太老</td>
-					<td>增加纸滤，换新鲜豆</td>
-			</tr>
-			<tr>
-					<td>酸感突兀</td>
-					<td>浅烘豆萃取不足</td>
-					<td>稍微磨细或延长时间</td>
-			</tr>
-			<tr>
-					<td>香气弱</td>
-					<td>豆子本身香气衰退，低温抑制挥发</td>
-					<td>改用更新鲜豆，饮用前回温1-2分钟</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>问题表现</th>
+          <th>可能原因</th>
+          <th>调整方向</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>太淡、像咖啡水</td>
+          <td>粉水比太低、时间太短</td>
+          <td>提高到1:10-1:12，延长2小时</td>
+      </tr>
+      <tr>
+          <td>太苦、发木</td>
+          <td>时间过长、粉太细、深烘过度</td>
+          <td>缩短2-4小时，调粗研磨</td>
+      </tr>
+      <tr>
+          <td>风味闷、不清爽</td>
+          <td>过滤不干净、豆子太老</td>
+          <td>增加纸滤，换新鲜豆</td>
+      </tr>
+      <tr>
+          <td>酸感突兀</td>
+          <td>浅烘豆萃取不足</td>
+          <td>稍微磨细或延长时间</td>
+      </tr>
+      <tr>
+          <td>香气弱</td>
+          <td>豆子本身香气衰退，低温抑制挥发</td>
+          <td>改用更新鲜豆，饮用前回温1-2分钟</td>
+      </tr>
+  </tbody>
 </table>
 <p>如果你追求“浓缩液”，可以尝试1:5到1:8的粉水比，再按1:1或1:2加水、冰块或牛奶稀释。但对大多数家庭用户来说，直饮型冷萃更稳定。</p>
 <h2 id="冷萃咖啡的制作与风味特点常见误区与专家建议">冷萃咖啡的制作与风味特点常见误区与专家建议</h2>
@@ -191,34 +191,34 @@
 <h3 id="冷萃壶滤袋法压壶哪种器具最适合你">冷萃壶、滤袋、法压壶：哪种器具最适合你</h3>
 <p>三类常见方案如下：</p>
 <table>
-	<thead>
-			<tr>
-					<th>器具类型</th>
-					<th>优点</th>
-					<th>缺点</th>
-					<th>适合人群</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>冷萃壶</td>
-					<td>操作简单，适合冰箱存放</td>
-					<td>容量有限</td>
-					<td>新手、办公室用户</td>
-			</tr>
-			<tr>
-					<td>一次性滤袋</td>
-					<td>便宜方便，清理轻松</td>
-					<td>萃取稳定性一般</td>
-					<td>想低成本尝试的人</td>
-			</tr>
-			<tr>
-					<td>法压壶/密封罐</td>
-					<td>灵活、容量大</td>
-					<td>过滤步骤多</td>
-					<td>已有器具的家庭用户</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>器具类型</th>
+          <th>优点</th>
+          <th>缺点</th>
+          <th>适合人群</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>冷萃壶</td>
+          <td>操作简单，适合冰箱存放</td>
+          <td>容量有限</td>
+          <td>新手、办公室用户</td>
+      </tr>
+      <tr>
+          <td>一次性滤袋</td>
+          <td>便宜方便，清理轻松</td>
+          <td>萃取稳定性一般</td>
+          <td>想低成本尝试的人</td>
+      </tr>
+      <tr>
+          <td>法压壶/密封罐</td>
+          <td>灵活、容量大</td>
+          <td>过滤步骤多</td>
+          <td>已有器具的家庭用户</td>
+      </tr>
+  </tbody>
 </table>
 <p>如果你想一步到位，新手可看 <a href="https://www.amazon.com/s?k=County%20Line%20Kitchen%20Cold%20Brew%20Mason%20Jar&amp;tag=coffeeprism-20">County Line Kitchen Cold Brew Mason Jar</a>。如果预算有限，国内平台搜索“冷萃滤袋”“冷泡咖啡壶”即可，通常30-100元就能买到基础款。</p>
 <h3 id="磨豆机和咖啡豆怎么选更关键">磨豆机和咖啡豆怎么选更关键</h3>

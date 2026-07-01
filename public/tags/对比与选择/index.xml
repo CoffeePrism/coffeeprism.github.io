@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%AF%B9%E6%AF%94%E4%B8%8E%E9%80%89%E6%8B%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度解析：高级咖啡研磨器的对比与选择的完整指南</title>
@@ -50,34 +50,34 @@
 <h3 id="2刻度调节的精度革命">（2）刻度调节的精度革命</h3>
 <p>对比三款主流调节系统：</p>
 <table>
-	<thead>
-			<tr>
-					<th>机型</th>
-					<th>调节档位</th>
-					<th>单档精度</th>
-					<th>锁止结构</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>1Zpresso K-Pro</td>
-					<td>90档</td>
-					<td>12.5μm</td>
-					<td>磁吸定位</td>
-			</tr>
-			<tr>
-					<td>Fellow Ode Gen2</td>
-					<td>31档</td>
-					<td>50μm</td>
-					<td>弹簧卡扣</td>
-			</tr>
-			<tr>
-					<td>Niche Zero</td>
-					<td>无限档</td>
-					<td>&lt;10μm</td>
-					<td>螺纹微调</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>机型</th>
+          <th>调节档位</th>
+          <th>单档精度</th>
+          <th>锁止结构</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>1Zpresso K-Pro</td>
+          <td>90档</td>
+          <td>12.5μm</td>
+          <td>磁吸定位</td>
+      </tr>
+      <tr>
+          <td>Fellow Ode Gen2</td>
+          <td>31档</td>
+          <td>50μm</td>
+          <td>弹簧卡扣</td>
+      </tr>
+      <tr>
+          <td>Niche Zero</td>
+          <td>无限档</td>
+          <td>&lt;10μm</td>
+          <td>螺纹微调</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="3残粉控制的实战方案">（3）残粉控制的实战方案</h3>
 <p>采用吹气法实测三款设备残粉量：</p>
@@ -279,34 +279,34 @@
 <h2 id="三选购决策的五大黄金维度">三、选购决策的五大黄金维度</h2>
 <h3 id="31-刀盘类型与冲煮方式匹配矩阵">3.1 刀盘类型与冲煮方式匹配矩阵</h3>
 <table>
-	<thead>
-			<tr>
-					<th>冲煮方式</th>
-					<th>推荐刀盘类型</th>
-					<th>粒径范围（微米）</th>
-					<th>代表机型</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>意式浓缩</td>
-					<td>镀钛平刀</td>
-					<td>200-300</td>
-					<td>Eureka Mignon Specialità</td>
-			</tr>
-			<tr>
-					<td>手冲咖啡</td>
-					<td>陶瓷锥刀</td>
-					<td>600-800</td>
-					<td>泰摩栗子C3S</td>
-			</tr>
-			<tr>
-					<td>法压壶</td>
-					<td>不锈钢平刀</td>
-					<td>800-1000</td>
-					<td>Baratza Encore ESP</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>冲煮方式</th>
+          <th>推荐刀盘类型</th>
+          <th>粒径范围（微米）</th>
+          <th>代表机型</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>意式浓缩</td>
+          <td>镀钛平刀</td>
+          <td>200-300</td>
+          <td>Eureka Mignon Specialità</td>
+      </tr>
+      <tr>
+          <td>手冲咖啡</td>
+          <td>陶瓷锥刀</td>
+          <td>600-800</td>
+          <td>泰摩栗子C3S</td>
+      </tr>
+      <tr>
+          <td>法压壶</td>
+          <td>不锈钢平刀</td>
+          <td>800-1000</td>
+          <td>Baratza Encore ESP</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="32-量化评估的三大核心指标">3.2 量化评估的三大核心指标</h3>
 <ol>

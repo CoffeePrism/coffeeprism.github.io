@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E9%A6%86%E7%BB%8F%E8%90%A5%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡豆价格上涨叠加关税与通胀：美国咖啡馆经营压力，正在给中国市场敲响什么警钟？</title>
@@ -73,30 +73,30 @@
 <p><strong>客单价 × 复购率 × 毛利率 = 生存空间</strong></p>
 <p>但在关税和通胀共振的环境中，这三个变量可能同时恶化：</p>
 <table>
-	<thead>
-			<tr>
-					<th>变量</th>
-					<th>受到的影响</th>
-					<th>结果</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>客单价</td>
-					<td>提价会影响转化</td>
-					<td>涨价空间有限</td>
-			</tr>
-			<tr>
-					<td>复购率</td>
-					<td>消费者缩减非必要开支</td>
-					<td>到店频次下降</td>
-			</tr>
-			<tr>
-					<td>毛利率</td>
-					<td>原料、人工、租金同步上涨</td>
-					<td>单杯利润变薄</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>变量</th>
+          <th>受到的影响</th>
+          <th>结果</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>客单价</td>
+          <td>提价会影响转化</td>
+          <td>涨价空间有限</td>
+      </tr>
+      <tr>
+          <td>复购率</td>
+          <td>消费者缩减非必要开支</td>
+          <td>到店频次下降</td>
+      </tr>
+      <tr>
+          <td>毛利率</td>
+          <td>原料、人工、租金同步上涨</td>
+          <td>单杯利润变薄</td>
+      </tr>
+  </tbody>
 </table>
 <p>这对小型独立咖啡馆尤其不利。大型连锁品牌可以通过规模采购、集中烘焙、供应链金融和品牌溢价分摊成本；独立店则更依赖店主判断和本地客群忠诚度。一旦失去价格缓冲带，经营就会迅速脆弱。</p>
 <p>我认为这次新闻背后更大的信号是：精品咖啡行业正在从“拼审美与叙事”，转入“拼供应链韧性与成本控制”。风味表达当然仍重要，但如果缺乏稳定采购能力和现金流管理，再好喝的豆子也难以变成可持续生意。</p>

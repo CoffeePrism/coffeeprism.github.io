@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E4%BD%8E%E5%92%96%E5%95%A1%E5%9B%A0%E9%80%89%E6%8B%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>低咖啡因咖啡选择与制作方法全攻略：从选豆到冲泡的完整指南</title>
@@ -24,40 +24,40 @@
 <hr>
 <h2 id="二四大主流脱因技术对比">二、四大主流脱因技术对比</h2>
 <table>
-	<thead>
-			<tr>
-					<th>处理方式</th>
-					<th>咖啡因残留率</th>
-					<th>风味保留度</th>
-					<th>适用场景</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>瑞士水处理</td>
-					<td>≤0.1%</td>
-					<td>★★★★☆</td>
-					<td>精品手冲</td>
-			</tr>
-			<tr>
-					<td>二氧化碳超临界</td>
-					<td>≤0.3%</td>
-					<td>★★★★</td>
-					<td>意式浓缩</td>
-			</tr>
-			<tr>
-					<td>化学溶剂法</td>
-					<td>≤0.2%</td>
-					<td>★★☆</td>
-					<td>商业速溶</td>
-			</tr>
-			<tr>
-					<td>天然低因种</td>
-					<td>30%</td>
-					<td>★★★☆</td>
-					<td>日常饮用</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>处理方式</th>
+          <th>咖啡因残留率</th>
+          <th>风味保留度</th>
+          <th>适用场景</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>瑞士水处理</td>
+          <td>≤0.1%</td>
+          <td>★★★★☆</td>
+          <td>精品手冲</td>
+      </tr>
+      <tr>
+          <td>二氧化碳超临界</td>
+          <td>≤0.3%</td>
+          <td>★★★★</td>
+          <td>意式浓缩</td>
+      </tr>
+      <tr>
+          <td>化学溶剂法</td>
+          <td>≤0.2%</td>
+          <td>★★☆</td>
+          <td>商业速溶</td>
+      </tr>
+      <tr>
+          <td>天然低因种</td>
+          <td>30%</td>
+          <td>★★★☆</td>
+          <td>日常饮用</td>
+      </tr>
+  </tbody>
 </table>
 <hr>
 <h2 id="三家庭制作实操指南">三、家庭制作实操指南</h2>

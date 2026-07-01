@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%94%B5%E5%AD%90%E4%B9%A6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>《手冲咖啡大师之路》发售：为什么手冲值得单独一本书？</title>
@@ -33,45 +33,45 @@
 <h2 id="这本书与完全指南有什么不同">这本书与《完全指南》有什么不同</h2>
 <p>我们做了两本书是有意的：</p>
 <table>
-	<thead>
-			<tr>
-					<th></th>
-					<th>完全指南</th>
-					<th>大师之路</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><strong>对手冲的深度</strong></td>
-					<td>一章（3,000 字）</td>
-					<td><strong>整本书（22,000 字）</strong></td>
-			</tr>
-			<tr>
-					<td><strong>冠军配方数</strong></td>
-					<td>0 个</td>
-					<td><strong>6 个详细拆解</strong></td>
-			</tr>
-			<tr>
-					<td><strong>萃取科学</strong></td>
-					<td>概念介绍</td>
-					<td>动力学 + 实战应用</td>
-			</tr>
-			<tr>
-					<td><strong>故障排查</strong></td>
-					<td>基础症状表</td>
-					<td><strong>进阶症状 + 根因分析</strong></td>
-			</tr>
-			<tr>
-					<td><strong>目标读者</strong></td>
-					<td>新手到进阶</td>
-					<td>进阶到专业</td>
-			</tr>
-			<tr>
-					<td><strong>价格</strong></td>
-					<td>$3.99</td>
-					<td>$4.99</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th></th>
+          <th>完全指南</th>
+          <th>大师之路</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>对手冲的深度</strong></td>
+          <td>一章（3,000 字）</td>
+          <td><strong>整本书（22,000 字）</strong></td>
+      </tr>
+      <tr>
+          <td><strong>冠军配方数</strong></td>
+          <td>0 个</td>
+          <td><strong>6 个详细拆解</strong></td>
+      </tr>
+      <tr>
+          <td><strong>萃取科学</strong></td>
+          <td>概念介绍</td>
+          <td>动力学 + 实战应用</td>
+      </tr>
+      <tr>
+          <td><strong>故障排查</strong></td>
+          <td>基础症状表</td>
+          <td><strong>进阶症状 + 根因分析</strong></td>
+      </tr>
+      <tr>
+          <td><strong>目标读者</strong></td>
+          <td>新手到进阶</td>
+          <td>进阶到专业</td>
+      </tr>
+      <tr>
+          <td><strong>价格</strong></td>
+          <td>$3.99</td>
+          <td>$4.99</td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>一句话</strong>：如果你只玩手冲，直接买这本；如果你什么都玩，先买完全指南。</p>
 <h2 id="这本书里有什么干货">这本书里有什么&quot;干货&quot;？</h2>
@@ -188,40 +188,40 @@
 </ul>
 <h3 id="这本书和我们之前的文章有什么不同">这本书和我们之前的文章有什么不同？</h3>
 <table>
-	<thead>
-			<tr>
-					<th>维度</th>
-					<th>博客文章</th>
-					<th>《完全指南》</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><strong>结构</strong></td>
-					<td>单篇独立</td>
-					<td>10 章递进</td>
-			</tr>
-			<tr>
-					<td><strong>参数准确性</strong></td>
-					<td>单篇逐一核对</td>
-					<td><strong>全书交叉验证 + 冠军数据比对</strong></td>
-			</tr>
-			<tr>
-					<td><strong>图表</strong></td>
-					<td>文字描述</td>
-					<td><strong>7 张原创 SVG</strong></td>
-			</tr>
-			<tr>
-					<td><strong>可查阅性</strong></td>
-					<td>需要搜索</td>
-					<td>附录参数速查表</td>
-			</tr>
-			<tr>
-					<td><strong>更新</strong></td>
-					<td>无</td>
-					<td><strong>每年小幅更新免费重下</strong></td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>博客文章</th>
+          <th>《完全指南》</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>结构</strong></td>
+          <td>单篇独立</td>
+          <td>10 章递进</td>
+      </tr>
+      <tr>
+          <td><strong>参数准确性</strong></td>
+          <td>单篇逐一核对</td>
+          <td><strong>全书交叉验证 + 冠军数据比对</strong></td>
+      </tr>
+      <tr>
+          <td><strong>图表</strong></td>
+          <td>文字描述</td>
+          <td><strong>7 张原创 SVG</strong></td>
+      </tr>
+      <tr>
+          <td><strong>可查阅性</strong></td>
+          <td>需要搜索</td>
+          <td>附录参数速查表</td>
+      </tr>
+      <tr>
+          <td><strong>更新</strong></td>
+          <td>无</td>
+          <td><strong>每年小幅更新免费重下</strong></td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="完全指南都讲些什么">《完全指南》都讲些什么？</h2>
 <p>十章内容，覆盖从咖啡豆到杯子的全流程：</p>
@@ -262,35 +262,35 @@
 <p>我们还做了一本配套的《手冲咖啡大师之路》，专门深入手冲（$4.99，58 页）。那本书面向的是<strong>已经在家冲过几个月、想进阶的爱好者</strong>。</p>
 <p>两本对比：</p>
 <table>
-	<thead>
-			<tr>
-					<th></th>
-					<th>完全指南</th>
-					<th>大师之路</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><strong>读者</strong></td>
-					<td>新手到进阶</td>
-					<td>进阶到专业</td>
-			</tr>
-			<tr>
-					<td><strong>覆盖方法</strong></td>
-					<td>10+ 种</td>
-					<td>只手冲</td>
-			</tr>
-			<tr>
-					<td><strong>字数</strong></td>
-					<td>25,000</td>
-					<td>22,000</td>
-			</tr>
-			<tr>
-					<td><strong>价格</strong></td>
-					<td>$3.99</td>
-					<td>$4.99</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th></th>
+          <th>完全指南</th>
+          <th>大师之路</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>读者</strong></td>
+          <td>新手到进阶</td>
+          <td>进阶到专业</td>
+      </tr>
+      <tr>
+          <td><strong>覆盖方法</strong></td>
+          <td>10+ 种</td>
+          <td>只手冲</td>
+      </tr>
+      <tr>
+          <td><strong>字数</strong></td>
+          <td>25,000</td>
+          <td>22,000</td>
+      </tr>
+      <tr>
+          <td><strong>价格</strong></td>
+          <td>$3.99</td>
+          <td>$4.99</td>
+      </tr>
+  </tbody>
 </table>
 <p>如果你只玩手冲，直接买大师之路。
 如果你什么都想玩，先买完全指南。</p>

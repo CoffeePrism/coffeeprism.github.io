@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/aeropress/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>爱乐压 AeroPress 完全指南：从原版配方到反转法</title>
@@ -50,62 +50,62 @@
 <p>代价：风味的<strong>层次感和透明度低于 V60 / Kalita</strong>。所以爱乐压<strong>不是&quot;最好的&quot;咖啡，是&quot;最稳定的&quot;咖啡</strong>。</p>
 <h2 id="滤纸选择">滤纸选择</h2>
 <table>
-	<thead>
-			<tr>
-					<th>类型</th>
-					<th>特点</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><strong>AeroPress 原装漂白纸</strong></td>
-					<td>最便宜、随包装赠送、风味偏中性</td>
-			</tr>
-			<tr>
-					<td><strong>AeroPress 原装未漂白</strong></td>
-					<td>更环保但有轻微纸味</td>
-			</tr>
-			<tr>
-					<td><strong>金属滤网（DISK / Able）</strong></td>
-					<td>更多油脂，风味厚但有细粉</td>
-			</tr>
-			<tr>
-					<td><strong>Cafec / Aesir 第三方厚纸</strong></td>
-					<td>风味更干净，价格高 30%</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>类型</th>
+          <th>特点</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>AeroPress 原装漂白纸</strong></td>
+          <td>最便宜、随包装赠送、风味偏中性</td>
+      </tr>
+      <tr>
+          <td><strong>AeroPress 原装未漂白</strong></td>
+          <td>更环保但有轻微纸味</td>
+      </tr>
+      <tr>
+          <td><strong>金属滤网（DISK / Able）</strong></td>
+          <td>更多油脂，风味厚但有细粉</td>
+      </tr>
+      <tr>
+          <td><strong>Cafec / Aesir 第三方厚纸</strong></td>
+          <td>风味更干净，价格高 30%</td>
+      </tr>
+  </tbody>
 </table>
 <p>新手用原装漂白滤纸即可。</p>
 <h2 id="常见问题">常见问题</h2>
 <table>
-	<thead>
-			<tr>
-					<th>症状</th>
-					<th>原因</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>太苦</td>
-					<td>浸泡时间过长 / 水温过高</td>
-			</tr>
-			<tr>
-					<td>太淡</td>
-					<td>粉量不足 / 研磨太粗</td>
-			</tr>
-			<tr>
-					<td>太酸</td>
-					<td>萃取不足 / 水温太低（&lt; 88°C）</td>
-			</tr>
-			<tr>
-					<td>压不下去</td>
-					<td>磨太细，调粗 2 格</td>
-			</tr>
-			<tr>
-					<td>溢出</td>
-					<td>注水超出筒身刻度</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>太苦</td>
+          <td>浸泡时间过长 / 水温过高</td>
+      </tr>
+      <tr>
+          <td>太淡</td>
+          <td>粉量不足 / 研磨太粗</td>
+      </tr>
+      <tr>
+          <td>太酸</td>
+          <td>萃取不足 / 水温太低（&lt; 88°C）</td>
+      </tr>
+      <tr>
+          <td>压不下去</td>
+          <td>磨太细，调粗 2 格</td>
+      </tr>
+      <tr>
+          <td>溢出</td>
+          <td>注水超出筒身刻度</td>
+      </tr>
+  </tbody>
 </table>
 <hr>
 <blockquote>

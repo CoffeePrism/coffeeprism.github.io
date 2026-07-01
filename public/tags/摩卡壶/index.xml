@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%91%A9%E5%8D%A1%E5%A3%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>摩卡壶的传统与现代技巧完全攻略</title>
@@ -34,38 +34,38 @@
 <h3 id="摩卡壶与手冲意式机有什么区别">摩卡壶与手冲、意式机有什么区别</h3>
 <p>如果你在犹豫该选摩卡壶还是别的器具，最简单的判断是：摩卡壶适合追求“厚度、强度和牛奶搭配能力”的人。</p>
 <table>
-	<thead>
-			<tr>
-					<th>器具</th>
-					<th style="text-align: right">压力水平</th>
-					<th>风味特点</th>
-					<th>操作难度</th>
-					<th style="text-align: right">典型预算</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>摩卡壶</td>
-					<td style="text-align: right">约1-2 bar</td>
-					<td>浓郁、厚重、坚果可可感强</td>
-					<td>中等</td>
-					<td style="text-align: right">¥80-¥500+</td>
-			</tr>
-			<tr>
-					<td>手冲</td>
-					<td style="text-align: right">常压</td>
-					<td>干净、层次明显、酸甜清晰</td>
-					<td>中等</td>
-					<td style="text-align: right">¥100-¥800+</td>
-			</tr>
-			<tr>
-					<td>半自动意式机</td>
-					<td style="text-align: right">约9 bar</td>
-					<td>质地浓稠、油脂丰富、适合奶咖</td>
-					<td>较高</td>
-					<td style="text-align: right">¥2000-¥10000+</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>器具</th>
+          <th style="text-align: right">压力水平</th>
+          <th>风味特点</th>
+          <th>操作难度</th>
+          <th style="text-align: right">典型预算</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>摩卡壶</td>
+          <td style="text-align: right">约1-2 bar</td>
+          <td>浓郁、厚重、坚果可可感强</td>
+          <td>中等</td>
+          <td style="text-align: right">¥80-¥500+</td>
+      </tr>
+      <tr>
+          <td>手冲</td>
+          <td style="text-align: right">常压</td>
+          <td>干净、层次明显、酸甜清晰</td>
+          <td>中等</td>
+          <td style="text-align: right">¥100-¥800+</td>
+      </tr>
+      <tr>
+          <td>半自动意式机</td>
+          <td style="text-align: right">约9 bar</td>
+          <td>质地浓稠、油脂丰富、适合奶咖</td>
+          <td>较高</td>
+          <td style="text-align: right">¥2000-¥10000+</td>
+      </tr>
+  </tbody>
 </table>
 <p>对中国市场来说，摩卡壶这几年重新走红并不意外。一方面，家庭咖啡消费持续增长；另一方面，像瑞幸、Manner、M Stand 等品牌把消费者口味教育得更成熟了，更多人开始在家追求“接近门店”的浓度与奶咖基底。摩卡壶正好卡在“成本不高、风味够强、学习曲线可接受”的区间里。</p>
 <h2 id="摩卡壶的传统与现代技巧历史演变与发展趋势">摩卡壶的传统与现代技巧历史演变与发展趋势</h2>
@@ -159,35 +159,35 @@
 <strong>不锈钢摩卡壶</strong>的优势是更耐用、兼容更多炉具、清洁更省心；不足是导热逻辑不同，风味表现和升温节奏与铝壶略有差异。</p>
 <p>选购建议可以简单归纳：</p>
 <table>
-	<thead>
-			<tr>
-					<th>需求</th>
-					<th>建议材质</th>
-					<th>说明</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>喜欢传统意式体验</td>
-					<td>铝制</td>
-					<td>经典外形与导热反应更接近传统使用感</td>
-			</tr>
-			<tr>
-					<td>家里主要是电磁炉</td>
-					<td>不锈钢</td>
-					<td>兼容性更高</td>
-			</tr>
-			<tr>
-					<td>预算有限</td>
-					<td>铝制</td>
-					<td>¥80-¥200区间选择多</td>
-			</tr>
-			<tr>
-					<td>想长期耐用</td>
-					<td>不锈钢</td>
-					<td>结构更稳，维护宽容度更高</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>需求</th>
+          <th>建议材质</th>
+          <th>说明</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>喜欢传统意式体验</td>
+          <td>铝制</td>
+          <td>经典外形与导热反应更接近传统使用感</td>
+      </tr>
+      <tr>
+          <td>家里主要是电磁炉</td>
+          <td>不锈钢</td>
+          <td>兼容性更高</td>
+      </tr>
+      <tr>
+          <td>预算有限</td>
+          <td>铝制</td>
+          <td>¥80-¥200区间选择多</td>
+      </tr>
+      <tr>
+          <td>想长期耐用</td>
+          <td>不锈钢</td>
+          <td>结构更稳，维护宽容度更高</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="容量怎么选1人份2人份还是3人份">容量怎么选：1人份、2人份还是3人份</h3>
 <p>摩卡壶标注的“杯数”通常是意式小杯，不是马克杯容量。很多新手最容易买错的，就是按中式大杯概念选壶，结果不是不够喝，就是天天浪费豆子。</p>
@@ -289,40 +289,40 @@
 <h2 id="摩卡壶--espresso">摩卡壶 ≠ Espresso</h2>
 <p>很多人以为摩卡壶能做 espresso，<strong>这是误解</strong>：</p>
 <table>
-	<thead>
-			<tr>
-					<th>维度</th>
-					<th>Moka Pot</th>
-					<th>真正的 Espresso</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td><strong>压力</strong></td>
-					<td>约 1.5 bar</td>
-					<td>9 bar</td>
-			</tr>
-			<tr>
-					<td><strong>萃取时间</strong></td>
-					<td>3-4 分钟</td>
-					<td>25-30 秒</td>
-			</tr>
-			<tr>
-					<td><strong>温度</strong></td>
-					<td>接近 100°C</td>
-					<td>90-95°C</td>
-			</tr>
-			<tr>
-					<td><strong>crema</strong></td>
-					<td>极少</td>
-					<td>厚实</td>
-			</tr>
-			<tr>
-					<td><strong>风味</strong></td>
-					<td>浓郁但偏苦</td>
-					<td>浓郁且层次清晰</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>维度</th>
+          <th>Moka Pot</th>
+          <th>真正的 Espresso</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td><strong>压力</strong></td>
+          <td>约 1.5 bar</td>
+          <td>9 bar</td>
+      </tr>
+      <tr>
+          <td><strong>萃取时间</strong></td>
+          <td>3-4 分钟</td>
+          <td>25-30 秒</td>
+      </tr>
+      <tr>
+          <td><strong>温度</strong></td>
+          <td>接近 100°C</td>
+          <td>90-95°C</td>
+      </tr>
+      <tr>
+          <td><strong>crema</strong></td>
+          <td>极少</td>
+          <td>厚实</td>
+      </tr>
+      <tr>
+          <td><strong>风味</strong></td>
+          <td>浓郁但偏苦</td>
+          <td>浓郁且层次清晰</td>
+      </tr>
+  </tbody>
 </table>
 <p><strong>摩卡壶的咖啡不能直接做拉花</strong>——crema 太薄。但它非常适合喝单杯浓咖啡或者加奶做家庭版&quot;拿铁&quot;。</p>
 <h2 id="绝大多数人在-bialetti-上踩的-3-个坑">绝大多数人在 Bialetti 上踩的 3 个坑</h2>
@@ -340,40 +340,40 @@
 <p>如果你只有一台磨豆机，建议从手冲研磨度往细调 2-3 格。</p>
 <h2 id="常见问题诊断">常见问题诊断</h2>
 <table>
-	<thead>
-			<tr>
-					<th>症状</th>
-					<th>原因</th>
-					<th>解法</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>苦涩</td>
-					<td>火太大 / 没及时离火</td>
-					<td>中小火 + 听声音</td>
-			</tr>
-			<tr>
-					<td>烧糊味</td>
-					<td>火大 + 萃取过头</td>
-					<td>听到「滋滋」立刻冷却</td>
-			</tr>
-			<tr>
-					<td>出水极慢或不出</td>
-					<td>磨太细 / 装粉过满</td>
-					<td>调粗 2 格 / 不要按压粉</td>
-			</tr>
-			<tr>
-					<td>喷溅</td>
-					<td>火太大</td>
-					<td>中小火</td>
-			</tr>
-			<tr>
-					<td>没浓度</td>
-					<td>磨太粗 / 水太少</td>
-					<td>调细 + 检查水位刻度</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>症状</th>
+          <th>原因</th>
+          <th>解法</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>苦涩</td>
+          <td>火太大 / 没及时离火</td>
+          <td>中小火 + 听声音</td>
+      </tr>
+      <tr>
+          <td>烧糊味</td>
+          <td>火大 + 萃取过头</td>
+          <td>听到「滋滋」立刻冷却</td>
+      </tr>
+      <tr>
+          <td>出水极慢或不出</td>
+          <td>磨太细 / 装粉过满</td>
+          <td>调粗 2 格 / 不要按压粉</td>
+      </tr>
+      <tr>
+          <td>喷溅</td>
+          <td>火太大</td>
+          <td>中小火</td>
+      </tr>
+      <tr>
+          <td>没浓度</td>
+          <td>磨太粗 / 水太少</td>
+          <td>调细 + 检查水位刻度</td>
+      </tr>
+  </tbody>
 </table>
 <h2 id="摩卡壶里的咖啡推荐豆">摩卡壶里的咖啡推荐豆</h2>
 <p>摩卡壶不挑豆，但有偏好：</p>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 22:39:51 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E8%89%BA%E6%9C%AF%E8%A1%A8%E8%BE%BE/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>拉花技巧与艺术表达：从基础到大师的创作指南</title>
@@ -27,30 +27,30 @@
 <h2 id="二影响作品成败的五大黄金参数">二、影响作品成败的五大黄金参数</h2>
 <h3 id="21-奶泡的物理特性控制">2.1 奶泡的物理特性控制</h3>
 <table>
-	<thead>
-			<tr>
-					<th>参数</th>
-					<th>理想范围</th>
-					<th>测量工具</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>温度</td>
-					<td>60-65℃</td>
-					<td>红外测温仪</td>
-			</tr>
-			<tr>
-					<td>绵密度</td>
-					<td>0.8cm厚度</td>
-					<td>视觉分层检测法</td>
-			</tr>
-			<tr>
-					<td>流动性</td>
-					<td>5秒铺满杯面</td>
-					<td>倾倒速度测试</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>参数</th>
+          <th>理想范围</th>
+          <th>测量工具</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>温度</td>
+          <td>60-65℃</td>
+          <td>红外测温仪</td>
+      </tr>
+      <tr>
+          <td>绵密度</td>
+          <td>0.8cm厚度</td>
+          <td>视觉分层检测法</td>
+      </tr>
+      <tr>
+          <td>流动性</td>
+          <td>5秒铺满杯面</td>
+          <td>倾倒速度测试</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="22-咖啡机与工具的协同效应">2.2 咖啡机与工具的协同效应</h3>
 <p>家用场景推荐<a href="https://www.amazon.com/s?k=Breville%20BES870&amp;tag=coffeeprism-20">Breville BES870</a>（内置压力表可监控萃取状态），搭配<a href="https://detail.tmall.com/item.htm?id=656787458312">泰摩鱼3代拉花杯</a>（490ml容量+尖嘴设计适合中式拿铁杯型）。</p>
@@ -83,26 +83,26 @@
 <h2 id="五工具选择的实战建议">五、工具选择的实战建议</h2>
 <h3 id="51-不同预算的装备方案">5.1 不同预算的装备方案</h3>
 <table>
-	<thead>
-			<tr>
-					<th>预算区间</th>
-					<th>核心配置方案</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>500元内</td>
-					<td>手动打奶器+宽口马克杯+温度计</td>
-			</tr>
-			<tr>
-					<td>1500-3000</td>
-					<td>入门级意式机+泰摩镜面拉花缸</td>
-			</tr>
-			<tr>
-					<td>5000+</td>
-					<td>双锅炉咖啡机+韩国Fellow Atmos系列</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>预算区间</th>
+          <th>核心配置方案</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>500元内</td>
+          <td>手动打奶器+宽口马克杯+温度计</td>
+      </tr>
+      <tr>
+          <td>1500-3000</td>
+          <td>入门级意式机+泰摩镜面拉花缸</td>
+      </tr>
+      <tr>
+          <td>5000+</td>
+          <td>双锅炉咖啡机+韩国Fellow Atmos系列</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="52-中国市场的替代方案">5.2 中国市场的替代方案</h3>
 <ul>
@@ -193,35 +193,35 @@
 <hr>
 <h2 id="五专业设备选购指南中国特供版">五、专业设备选购指南（中国特供版）</h2>
 <table>
-	<thead>
-			<tr>
-					<th>品类</th>
-					<th>性价比之选（200元内）</th>
-					<th>专业进阶款（500-1000元）</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>拉花缸</td>
-					<td>Hero骑士350ml</td>
-					<td>Motta原装600ml</td>
-			</tr>
-			<tr>
-					<td>咖啡机</td>
-					<td>东菱DL-5700</td>
-					<td>柏翠PE3899</td>
-			</tr>
-			<tr>
-					<td>温度计</td>
-					<td>香山CK-3506</td>
-					<td>Acaia Pyxis蓝牙版</td>
-			</tr>
-			<tr>
-					<td>练习耗材</td>
-					<td>维记餐饮装鲜奶</td>
-					<td>必如超级奶</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>品类</th>
+          <th>性价比之选（200元内）</th>
+          <th>专业进阶款（500-1000元）</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>拉花缸</td>
+          <td>Hero骑士350ml</td>
+          <td>Motta原装600ml</td>
+      </tr>
+      <tr>
+          <td>咖啡机</td>
+          <td>东菱DL-5700</td>
+          <td>柏翠PE3899</td>
+      </tr>
+      <tr>
+          <td>温度计</td>
+          <td>香山CK-3506</td>
+          <td>Acaia Pyxis蓝牙版</td>
+      </tr>
+      <tr>
+          <td>练习耗材</td>
+          <td>维记餐饮装鲜奶</td>
+          <td>必如超级奶</td>
+      </tr>
+  </tbody>
 </table>
 <hr>
 <h2 id="六常见问题深度解析">六、常见问题深度解析</h2>
@@ -303,30 +303,30 @@
 <h2 id="五专业装备指南">五、专业装备指南</h2>
 <h3 id="51-必备工具清单">5.1 必备工具清单</h3>
 <table>
-	<thead>
-			<tr>
-					<th>工具名称</th>
-					<th>功能特性</th>
-					<th>国产替代推荐</th>
-			</tr>
-	</thead>
-	<tbody>
-			<tr>
-					<td>拉花钢杯</td>
-					<td>尖嘴设计/容量刻度</td>
-					<td>泰摩316不锈钢系列</td>
-			</tr>
-			<tr>
-					<td>雕花针</td>
-					<td>0.3mm精密针头</td>
-					<td>Hero雕刻套装</td>
-			</tr>
-			<tr>
-					<td>浓缩杯</td>
-					<td>50ml标准容量</td>
-					<td>三顿半限定款</td>
-			</tr>
-	</tbody>
+  <thead>
+      <tr>
+          <th>工具名称</th>
+          <th>功能特性</th>
+          <th>国产替代推荐</th>
+      </tr>
+  </thead>
+  <tbody>
+      <tr>
+          <td>拉花钢杯</td>
+          <td>尖嘴设计/容量刻度</td>
+          <td>泰摩316不锈钢系列</td>
+      </tr>
+      <tr>
+          <td>雕花针</td>
+          <td>0.3mm精密针头</td>
+          <td>Hero雕刻套装</td>
+      </tr>
+      <tr>
+          <td>浓缩杯</td>
+          <td>50ml标准容量</td>
+          <td>三顿半限定款</td>
+      </tr>
+  </tbody>
 </table>
 <h3 id="52-进阶装备解析">5.2 进阶装备解析</h3>
 <p><a href="https://www.amazon.com/s?k=Rattleware%E6%8B%89%E8%8A%B1%E7%BC%B8&amp;tag=coffeeprism-20">Rattleware拉花缸</a>的弧形内壁设计，可减少奶泡回旋时的能量损耗；<a href="https://www.amazon.com/s?k=Hario%E5%A5%B6%E6%B3%A1%E6%B8%A9%E5%BA%A6%E8%AE%A1&amp;tag=coffeeprism-20">Hario奶泡温度计</a>的±0.5℃精度，帮助精准控制微气泡生成阶段。</p>
