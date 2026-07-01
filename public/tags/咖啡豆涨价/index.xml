@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86%E6%B6%A8%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡豆涨价背后：气候变化如何重塑咖啡供应链、中国咖啡定价与消费者选择</title>
@@ -69,40 +69,40 @@
 <p>很多消费者容易误解：明明一杯咖啡卖十几到三十多元，为什么豆价涨一点就会影响这么大？关键在于，品牌不是按“单杯豆成本”做决策，而是按整体毛利和长期采购风险做决策。</p>
 <p>先看传导链条：</p>
 <table>
-  <thead>
-      <tr>
-          <th>环节</th>
-          <th>主要变量</th>
-          <th>对价格的影响</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>产地农户</td>
-          <td>天气、病害、人工、肥料</td>
-          <td>决定初级产量与成本</td>
-      </tr>
-      <tr>
-          <td>出口商/合作社</td>
-          <td>分级、仓储、汇率、出口政策</td>
-          <td>决定FOB报价</td>
-      </tr>
-      <tr>
-          <td>国际贸易商</td>
-          <td>期货价格、升贴水、库存</td>
-          <td>决定到港成本</td>
-      </tr>
-      <tr>
-          <td>烘焙商</td>
-          <td>烘焙损耗、拼配、包装</td>
-          <td>决定熟豆出厂价</td>
-      </tr>
-      <tr>
-          <td>品牌/门店</td>
-          <td>房租、人力、营销、补贴</td>
-          <td>决定终端杯价</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>环节</th>
+					<th>主要变量</th>
+					<th>对价格的影响</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>产地农户</td>
+					<td>天气、病害、人工、肥料</td>
+					<td>决定初级产量与成本</td>
+			</tr>
+			<tr>
+					<td>出口商/合作社</td>
+					<td>分级、仓储、汇率、出口政策</td>
+					<td>决定FOB报价</td>
+			</tr>
+			<tr>
+					<td>国际贸易商</td>
+					<td>期货价格、升贴水、库存</td>
+					<td>决定到港成本</td>
+			</tr>
+			<tr>
+					<td>烘焙商</td>
+					<td>烘焙损耗、拼配、包装</td>
+					<td>决定熟豆出厂价</td>
+			</tr>
+			<tr>
+					<td>品牌/门店</td>
+					<td>房租、人力、营销、补贴</td>
+					<td>决定终端杯价</td>
+			</tr>
+	</tbody>
 </table>
 <p>其中最关键的两个因素，是<strong>期货价格</strong>和<strong>升贴水（Differential）</strong>。期货是国际交易基准，但精品豆、特定产区豆以及高质量罗布斯塔，通常还会在期货基准上加价。当主产区天气恶化时，不只是期货涨，优质货源的升贴水也会扩大。也就是说，品牌采购的真实成本可能比新闻 headline 里的期货涨幅更高。</p>
 <p>我在观察中国烘焙商报价时，常见到一种现象：上游涨价并不一定立刻改零售价，而是先通过三种方式消化。</p>

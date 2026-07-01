@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%8E%B0%E4%BB%A3%E5%BA%94%E7%94%A8/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>复古咖啡器具的现代应用：从手作仪式感到精品咖啡革命</title>
@@ -54,34 +54,34 @@
 <h2 id="三掌握核心四要素现代应用关键技巧">三、掌握核心四要素：现代应用关键技巧</h2>
 <h3 id="31-参数控制体系">3.1 参数控制体系</h3>
 <table>
-  <thead>
-      <tr>
-          <th>器具类型</th>
-          <th>水温范围</th>
-          <th>粉水比</th>
-          <th>萃取时间</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>虹吸壶</td>
-          <td>88-92℃</td>
-          <td>1:12</td>
-          <td>90-120s</td>
-      </tr>
-      <tr>
-          <td>摩卡壶</td>
-          <td>沸腾水</td>
-          <td>1:7</td>
-          <td>60-90s</td>
-      </tr>
-      <tr>
-          <td>法压壶</td>
-          <td>92-96℃</td>
-          <td>1:15</td>
-          <td>240s</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>器具类型</th>
+					<th>水温范围</th>
+					<th>粉水比</th>
+					<th>萃取时间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>虹吸壶</td>
+					<td>88-92℃</td>
+					<td>1:12</td>
+					<td>90-120s</td>
+			</tr>
+			<tr>
+					<td>摩卡壶</td>
+					<td>沸腾水</td>
+					<td>1:7</td>
+					<td>60-90s</td>
+			</tr>
+			<tr>
+					<td>法压壶</td>
+					<td>92-96℃</td>
+					<td>1:15</td>
+					<td>240s</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="32-现代磨豆机的适配">3.2 现代磨豆机的适配</h3>
 <ul>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%86%B2%E6%B3%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡种植园参观体验：从采摘到杯中的完整指南</title>
@@ -866,28 +866,28 @@
 <li>
 <p>双锅炉VS热交换系统对比：</p>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th>预热时间</th>
-          <th>温度稳定性</th>
-          <th>适用场景</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>双锅炉</td>
-          <td>25分钟</td>
-          <td>±0.3℃</td>
-          <td>商业连续出品</td>
-      </tr>
-      <tr>
-          <td>热交换</td>
-          <td>15分钟</td>
-          <td>±1.5℃</td>
-          <td>家用间歇使用</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>预热时间</th>
+					<th>温度稳定性</th>
+					<th>适用场景</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>双锅炉</td>
+					<td>25分钟</td>
+					<td>±0.3℃</td>
+					<td>商业连续出品</td>
+			</tr>
+			<tr>
+					<td>热交换</td>
+					<td>15分钟</td>
+					<td>±1.5℃</td>
+					<td>家用间歇使用</td>
+			</tr>
+	</tbody>
 </table>
 </li>
 <li>
@@ -929,28 +929,28 @@
 <li>密封圈更换周期：商用设备3个月/家用设备6个月</li>
 <li>水垢清除方案对比：
 <table>
-  <thead>
-      <tr>
-          <th>方法</th>
-          <th>成本</th>
-          <th>效果</th>
-          <th>安全性</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>白醋浸泡</td>
-          <td>低</td>
-          <td>一般</td>
-          <td>可能残留异味</td>
-      </tr>
-      <tr>
-          <td>专用除垢剂</td>
-          <td>中</td>
-          <td>优秀</td>
-          <td>食品级认证</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>方法</th>
+					<th>成本</th>
+					<th>效果</th>
+					<th>安全性</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>白醋浸泡</td>
+					<td>低</td>
+					<td>一般</td>
+					<td>可能残留异味</td>
+			</tr>
+			<tr>
+					<td>专用除垢剂</td>
+					<td>中</td>
+					<td>优秀</td>
+					<td>食品级认证</td>
+			</tr>
+	</tbody>
 </table>
 </li>
 </ul>
@@ -1324,30 +1324,30 @@
 <h3 id="31-材料选择的平衡艺术">3.1 材料选择的平衡艺术</h3>
 <p>实验数据显示：</p>
 <table>
-  <thead>
-      <tr>
-          <th>材质</th>
-          <th>氧气透过率(cc/m²/day)</th>
-          <th>降解时间</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>传统铝箔</td>
-          <td>0.05</td>
-          <td>500年</td>
-      </tr>
-      <tr>
-          <td>PLA+纸复合</td>
-          <td>0.12</td>
-          <td>6个月</td>
-      </tr>
-      <tr>
-          <td>咖啡渣复合</td>
-          <td>0.18</td>
-          <td>3个月</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>材质</th>
+					<th>氧气透过率(cc/m²/day)</th>
+					<th>降解时间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>传统铝箔</td>
+					<td>0.05</td>
+					<td>500年</td>
+			</tr>
+			<tr>
+					<td>PLA+纸复合</td>
+					<td>0.12</td>
+					<td>6个月</td>
+			</tr>
+			<tr>
+					<td>咖啡渣复合</td>
+					<td>0.18</td>
+					<td>3个月</td>
+			</tr>
+	</tbody>
 </table>
 <p>建议选择氧气透过率＜0.2且降解时间＜1年的材料组合。</p>
 <h3 id="32-设计创新提升实用性">3.2 设计创新提升实用性</h3>
@@ -1471,30 +1471,30 @@
 <h3 id="51-爪哇曼特宁的认知偏差">5.1 「爪哇=曼特宁」的认知偏差</h3>
 <p>尽管同属印尼产区，爪哇与苏门答腊的咖啡存在本质差异：</p>
 <table>
-  <thead>
-      <tr>
-          <th>特征</th>
-          <th>爪哇咖啡</th>
-          <th>曼特宁咖啡</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>处理法</td>
-          <td>水洗/半水洗</td>
-          <td>湿刨法</td>
-      </tr>
-      <tr>
-          <td>酸度</td>
-          <td>明亮柑橘酸</td>
-          <td>低沉果酸</td>
-      </tr>
-      <tr>
-          <td>余韵</td>
-          <td>矿石感</td>
-          <td>木质调</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>特征</th>
+					<th>爪哇咖啡</th>
+					<th>曼特宁咖啡</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>处理法</td>
+					<td>水洗/半水洗</td>
+					<td>湿刨法</td>
+			</tr>
+			<tr>
+					<td>酸度</td>
+					<td>明亮柑橘酸</td>
+					<td>低沉果酸</td>
+			</tr>
+			<tr>
+					<td>余韵</td>
+					<td>矿石感</td>
+					<td>木质调</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="52-保存不当导致风味流失">5.2 保存不当导致风味流失</h3>
 <p>实验数据显示，爪哇咖啡在开封30天后，挥发性芳香物质会流失42%。建议使用<a href="https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%9C%9F%E7%A9%BA%E7%BD%90&amp;tag=coffeeprism-20">泰摩真空罐</a>，其专利单向阀设计可将风味保鲜期延长至90天。</p>

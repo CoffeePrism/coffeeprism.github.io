@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%8E%AF%E5%A2%83%E5%BD%B1%E5%93%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡种植的环境影响深度解析指南</title>
@@ -34,40 +34,40 @@
 <h3 id="阴影种植与全日照种植有什么差别">阴影种植与全日照种植有什么差别</h3>
 <p><strong>阴影种植</strong>，指咖啡树生长在较高乔木树冠覆盖之下；<strong>全日照种植</strong>，则是通过减少遮阴树来提升光照和产量。两者没有绝对的好坏，但环境结果往往不同。</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>阴影种植</th>
-          <th>全日照种植</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>生物多样性</td>
-          <td>通常更高</td>
-          <td>通常较低</td>
-      </tr>
-      <tr>
-          <td>单位面积产量</td>
-          <td>可能偏低</td>
-          <td>往往较高</td>
-      </tr>
-      <tr>
-          <td>病虫害风险</td>
-          <td>更依赖生态平衡</td>
-          <td>可能更依赖化学管理</td>
-      </tr>
-      <tr>
-          <td>土壤保持</td>
-          <td>较好</td>
-          <td>更易受侵蚀</td>
-      </tr>
-      <tr>
-          <td>微气候稳定性</td>
-          <td>更强</td>
-          <td>更易受极端天气影响</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>阴影种植</th>
+					<th>全日照种植</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>生物多样性</td>
+					<td>通常更高</td>
+					<td>通常较低</td>
+			</tr>
+			<tr>
+					<td>单位面积产量</td>
+					<td>可能偏低</td>
+					<td>往往较高</td>
+			</tr>
+			<tr>
+					<td>病虫害风险</td>
+					<td>更依赖生态平衡</td>
+					<td>可能更依赖化学管理</td>
+			</tr>
+			<tr>
+					<td>土壤保持</td>
+					<td>较好</td>
+					<td>更易受侵蚀</td>
+			</tr>
+			<tr>
+					<td>微气候稳定性</td>
+					<td>更强</td>
+					<td>更易受极端天气影响</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你在选购时想支持相对环境友好的豆子，可以关注带有遮荫、森林保护、农林复合等描述的产品，例如：<a href="https://www.amazon.com/s?k=Shade%20Grown%20Coffee&amp;tag=coffeeprism-20">Shade Grown Coffee</a>。</p>
 <h2 id="咖啡种植的环境影响历史演变与趋势从扩种逻辑到再生农业">咖啡种植的环境影响历史演变与趋势：从扩种逻辑到再生农业</h2>
@@ -103,34 +103,34 @@
 <p><strong>水洗处理法</strong>通常风味更干净，但若废水管理不足，会带来较高的局部水污染压力。<strong>日晒处理法</strong>往往用水更少，但需要更大晒场和更稳定天气。<strong>蜜处理法</strong>介于两者之间。</p>
 <p>一个简化判断方式如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>处理法</th>
-          <th>用水强度</th>
-          <th>废水风险</th>
-          <th>风味常见表现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水洗</td>
-          <td>较高</td>
-          <td>较高，需良好处理</td>
-          <td>干净、酸质清晰</td>
-      </tr>
-      <tr>
-          <td>日晒</td>
-          <td>较低</td>
-          <td>较低</td>
-          <td>甜感高、果味浓</td>
-      </tr>
-      <tr>
-          <td>蜜处理</td>
-          <td>中等</td>
-          <td>中等</td>
-          <td>甜感与层次平衡</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>处理法</th>
+					<th>用水强度</th>
+					<th>废水风险</th>
+					<th>风味常见表现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水洗</td>
+					<td>较高</td>
+					<td>较高，需良好处理</td>
+					<td>干净、酸质清晰</td>
+			</tr>
+			<tr>
+					<td>日晒</td>
+					<td>较低</td>
+					<td>较低</td>
+					<td>甜感高、果味浓</td>
+			</tr>
+			<tr>
+					<td>蜜处理</td>
+					<td>中等</td>
+					<td>中等</td>
+					<td>甜感与层次平衡</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己在选云南和中美洲豆子时，如果看到处理站主动披露节水设备、污水沉淀池或再利用系统，信任度会明显提升。</p>
 <h3 id="第三步用一个简单清单完成消费决策">第三步：用一个简单清单完成消费决策</h3>
@@ -171,46 +171,46 @@
 <h3 id="价格区间怎么选更合理">价格区间怎么选更合理</h3>
 <p>在中国市场，家庭用户可参考这个预算分布：</p>
 <table>
-  <thead>
-      <tr>
-          <th>品类</th>
-          <th>入门价位</th>
-          <th>进阶价位</th>
-          <th>建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>可追溯咖啡豆</td>
-          <td>60-120元/250g</td>
-          <td>120-220元/250g</td>
-          <td>优先买新鲜烘焙</td>
-      </tr>
-      <tr>
-          <td>电子秤</td>
-          <td>50-120元</td>
-          <td>150-300元</td>
-          <td>选0.1g精度</td>
-      </tr>
-      <tr>
-          <td>手冲壶</td>
-          <td>80-180元</td>
-          <td>250-600元</td>
-          <td>关注控温稳定性</td>
-      </tr>
-      <tr>
-          <td>保温杯/随行杯</td>
-          <td>50-150元</td>
-          <td>180-350元</td>
-          <td>减少一次性杯使用</td>
-      </tr>
-      <tr>
-          <td>金属滤网</td>
-          <td>40-100元</td>
-          <td>120-250元</td>
-          <td>适合长期使用</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>品类</th>
+					<th>入门价位</th>
+					<th>进阶价位</th>
+					<th>建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>可追溯咖啡豆</td>
+					<td>60-120元/250g</td>
+					<td>120-220元/250g</td>
+					<td>优先买新鲜烘焙</td>
+			</tr>
+			<tr>
+					<td>电子秤</td>
+					<td>50-120元</td>
+					<td>150-300元</td>
+					<td>选0.1g精度</td>
+			</tr>
+			<tr>
+					<td>手冲壶</td>
+					<td>80-180元</td>
+					<td>250-600元</td>
+					<td>关注控温稳定性</td>
+			</tr>
+			<tr>
+					<td>保温杯/随行杯</td>
+					<td>50-150元</td>
+					<td>180-350元</td>
+					<td>减少一次性杯使用</td>
+			</tr>
+			<tr>
+					<td>金属滤网</td>
+					<td>40-100元</td>
+					<td>120-250元</td>
+					<td>适合长期使用</td>
+			</tr>
+	</tbody>
 </table>
 <p>淘宝、京东上可搜索“可追溯精品咖啡豆”“手冲电子秤”“不锈钢滤杯”。如果在线下，Manner、Seesaw及部分独立咖啡馆也会销售单一产区豆，更方便直接询问产地和处理法。</p>
 <h3 id="选购时最该问的五个问题">选购时最该问的五个问题</h3>

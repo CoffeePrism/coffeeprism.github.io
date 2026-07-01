@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E7%AB%9E%E4%BA%89/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>星巴克同店销售反弹 6.2%：咖啡消费复苏已来，还是连锁咖啡竞争进入新周期？</title>
@@ -64,34 +64,34 @@
 <p>第一阶段的复苏，发生在疫情后线下商业恢复、人流回归和出行增加时。当时很多品牌受益于“门店场景回来了”。但这种恢复往往不可持续，因为它依赖宏观流量，而不完全依赖品牌自身竞争力。现在行业进入第二阶段，问题变成：当新鲜感消失后，消费者是否愿意每周、每天持续购买？</p>
 <p>在这个阶段，咖啡品牌会明显分化成三类：</p>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th style="text-align: right">主要价格带</th>
-          <th>核心竞争力</th>
-          <th>风险点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>效率型连锁</td>
-          <td style="text-align: right">9.9-19.9 元</td>
-          <td>便捷、数字化、价格敏感型高频</td>
-          <td>毛利承压，品牌力弱</td>
-      </tr>
-      <tr>
-          <td>平衡型连锁</td>
-          <td style="text-align: right">15-30 元</td>
-          <td>稳定出品、基础空间、区域覆盖</td>
-          <td>两头受压，定位模糊</td>
-      </tr>
-      <tr>
-          <td>体验/品牌型连锁</td>
-          <td style="text-align: right">25-40 元及以上</td>
-          <td>品牌溢价、空间体验、社交属性</td>
-          <td>需求弹性更高，必须持续证明价值</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th style="text-align: right">主要价格带</th>
+					<th>核心竞争力</th>
+					<th>风险点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>效率型连锁</td>
+					<td style="text-align: right">9.9-19.9 元</td>
+					<td>便捷、数字化、价格敏感型高频</td>
+					<td>毛利承压，品牌力弱</td>
+			</tr>
+			<tr>
+					<td>平衡型连锁</td>
+					<td style="text-align: right">15-30 元</td>
+					<td>稳定出品、基础空间、区域覆盖</td>
+					<td>两头受压，定位模糊</td>
+			</tr>
+			<tr>
+					<td>体验/品牌型连锁</td>
+					<td style="text-align: right">25-40 元及以上</td>
+					<td>品牌溢价、空间体验、社交属性</td>
+					<td>需求弹性更高，必须持续证明价值</td>
+			</tr>
+	</tbody>
 </table>
 <p>星巴克属于第三类，但正在努力吸收第一类和第二类的优势，例如更高的数字化便利性和更明确的高频消费场景。这说明全球咖啡市场的竞争焦点已经从“谁能开更多店”转向“谁能在用户心中占据一个稳定的使用理由”。</p>
 <p>此外，咖啡消费复苏还有一个经常被忽略的特征：消费者更愿意为“可理解的升级”买单，而不是为“抽象品牌感”买单。比如冷萃、植物基、功能型添加、低糖风味化、精品产地故事，这些都必须与具体体验挂钩。单纯讲高端，不再足够。</p>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E9%98%BF%E6%8B%89%E6%AF%94%E5%8D%A1%E4%BB%B7%E6%A0%BC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡涨价背后发生了什么：从一杯£5咖啡看全球供应链与阿拉比卡价格风暴</title>
@@ -67,34 +67,34 @@
 <p>家用市场则是第三条线。随着门店咖啡价格上升，越来越多消费者会转向家用手冲、胶囊和自动咖啡机。对这部分人来说，一包看似更贵的精品豆，换算到单杯后可能仍低于门店价格。这也是为什么过去几年家用器具和入门设备持续增长。对新手而言，像<a href="https://www.amazon.com/s?k=V60%20dripper&amp;tag=coffeeprism-20">V60 dripper</a>、<a href="https://www.amazon.com/s?k=manual%20coffee%20grinder&amp;tag=coffeeprism-20">manual coffee grinder</a>、<a href="https://www.amazon.com/s?k=espresso%20machine&amp;tag=coffeeprism-20">espresso machine</a>这类产品的搜索热度，往往会随着门店价格走高而受益。</p>
 <p>我的判断是，未来两年行业会出现更明显的“三层结构”：</p>
 <table>
-  <thead>
-      <tr>
-          <th>市场层级</th>
-          <th>代表特征</th>
-          <th>价格策略</th>
-          <th>风险点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>大众连锁</td>
-          <td>高频、促销、标准化</td>
-          <td>通过套餐与会员弱化涨价感知</td>
-          <td>毛利被长期压缩</td>
-      </tr>
-      <tr>
-          <td>城市精品</td>
-          <td>风味、产地、体验</td>
-          <td>用故事与品质承接提价</td>
-          <td>客流频次下降</td>
-      </tr>
-      <tr>
-          <td>家用消费</td>
-          <td>性价比、自主冲煮</td>
-          <td>单杯成本可控</td>
-          <td>学习门槛与设备投入</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>市场层级</th>
+					<th>代表特征</th>
+					<th>价格策略</th>
+					<th>风险点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>大众连锁</td>
+					<td>高频、促销、标准化</td>
+					<td>通过套餐与会员弱化涨价感知</td>
+					<td>毛利被长期压缩</td>
+			</tr>
+			<tr>
+					<td>城市精品</td>
+					<td>风味、产地、体验</td>
+					<td>用故事与品质承接提价</td>
+					<td>客流频次下降</td>
+			</tr>
+			<tr>
+					<td>家用消费</td>
+					<td>性价比、自主冲煮</td>
+					<td>单杯成本可控</td>
+					<td>学习门槛与设备投入</td>
+			</tr>
+	</tbody>
 </table>
 <p>这三层结构不是相互替代，而是会长期并存。但共同点是：低价神话会越来越难维持，成本真实化会成为行业常态。</p>
 <h2 id="对中国咖啡市场消费者的影响">对中国咖啡市场/消费者的影响</h2>

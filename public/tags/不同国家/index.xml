@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E4%B8%8D%E5%90%8C%E5%9B%BD%E5%AE%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>全球咖啡地图：不同国家的咖啡饮用习惯深度解析</title>
@@ -67,30 +67,30 @@
 <h3 id="52-烘焙度与地域匹配">5.2 烘焙度与地域匹配</h3>
 <p>实验数据显示：</p>
 <table>
-  <thead>
-      <tr>
-          <th>国家</th>
-          <th>主流烘焙度</th>
-          <th>焦糖化反应温度</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>法国</td>
-          <td>深度</td>
-          <td>230℃以上</td>
-      </tr>
-      <tr>
-          <td>澳大利亚</td>
-          <td>中浅</td>
-          <td>205-215℃</td>
-      </tr>
-      <tr>
-          <td>墨西哥</td>
-          <td>肉桂烘焙</td>
-          <td>196℃</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>国家</th>
+					<th>主流烘焙度</th>
+					<th>焦糖化反应温度</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>法国</td>
+					<td>深度</td>
+					<td>230℃以上</td>
+			</tr>
+			<tr>
+					<td>澳大利亚</td>
+					<td>中浅</td>
+					<td>205-215℃</td>
+			</tr>
+			<tr>
+					<td>墨西哥</td>
+					<td>肉桂烘焙</td>
+					<td>196℃</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="六全球风味体验包推荐">六、全球风味体验包推荐</h2>
@@ -175,34 +175,34 @@
 <hr>
 <h2 id="四专业器具选购指南中国特供版">四、专业器具选购指南（中国特供版）</h2>
 <table>
-  <thead>
-      <tr>
-          <th>饮用方式</th>
-          <th>推荐器具</th>
-          <th>价格区间</th>
-          <th>购买渠道</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>土耳其</td>
-          <td>铜制Cezve壶</td>
-          <td>¥80-200</td>
-          <td>淘宝「中东厨具」</td>
-      </tr>
-      <tr>
-          <td>法压</td>
-          <td>Bodum玻璃法压壶</td>
-          <td>¥150-300</td>
-          <td>京东国际</td>
-      </tr>
-      <tr>
-          <td>手冲</td>
-          <td>Hario V60陶瓷滤杯</td>
-          <td>¥200-400</td>
-          <td>小红书官方店</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮用方式</th>
+					<th>推荐器具</th>
+					<th>价格区间</th>
+					<th>购买渠道</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>土耳其</td>
+					<td>铜制Cezve壶</td>
+					<td>¥80-200</td>
+					<td>淘宝「中东厨具」</td>
+			</tr>
+			<tr>
+					<td>法压</td>
+					<td>Bodum玻璃法压壶</td>
+					<td>¥150-300</td>
+					<td>京东国际</td>
+			</tr>
+			<tr>
+					<td>手冲</td>
+					<td>Hario V60陶瓷滤杯</td>
+					<td>¥200-400</td>
+					<td>小红书官方店</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="五常见误区破解手册">五、常见误区破解手册</h2>
@@ -297,30 +297,30 @@
 <h2 id="三中国市场的实践指南">三、中国市场的实践指南</h2>
 <h3 id="31-器具配置方案">3.1 器具配置方案</h3>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>初级配置（300元内）</th>
-          <th>进阶配置（1000元+）</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>意式</td>
-          <td>比乐蒂摩卡壶</td>
-          <td>惠家KD-310半自动机</td>
-      </tr>
-      <tr>
-          <td>手冲</td>
-          <td>泰摩玻璃滤杯</td>
-          <td>ORIGAMI折纸滤杯</td>
-      </tr>
-      <tr>
-          <td>传统</td>
-          <td>越南滴漏壶</td>
-          <td>土耳其铜壶套装</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>初级配置（300元内）</th>
+					<th>进阶配置（1000元+）</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>意式</td>
+					<td>比乐蒂摩卡壶</td>
+					<td>惠家KD-310半自动机</td>
+			</tr>
+			<tr>
+					<td>手冲</td>
+					<td>泰摩玻璃滤杯</td>
+					<td>ORIGAMI折纸滤杯</td>
+			</tr>
+			<tr>
+					<td>传统</td>
+					<td>越南滴漏壶</td>
+					<td>土耳其铜壶套装</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="32-豆单推荐">3.2 豆单推荐</h3>
 <ul>
@@ -429,30 +429,30 @@
 <h2 id="三专业级品鉴指南解锁全球咖啡密码">三、专业级品鉴指南：解锁全球咖啡密码</h2>
 <h3 id="1-器具选择黄金法则">1. 器具选择黄金法则</h3>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>推荐器具</th>
-          <th>水温控制</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>土耳其咖啡</td>
-          <td>Cezve铜壶</td>
-          <td>95℃直接煮沸</td>
-      </tr>
-      <tr>
-          <td>意大利浓缩</td>
-          <td>9bar压力咖啡机</td>
-          <td>92℃±1℃</td>
-      </tr>
-      <tr>
-          <td>日式手冲</td>
-          <td>珐琅波纹滤杯</td>
-          <td>88-90℃分段注水</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>推荐器具</th>
+					<th>水温控制</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>土耳其咖啡</td>
+					<td>Cezve铜壶</td>
+					<td>95℃直接煮沸</td>
+			</tr>
+			<tr>
+					<td>意大利浓缩</td>
+					<td>9bar压力咖啡机</td>
+					<td>92℃±1℃</td>
+			</tr>
+			<tr>
+					<td>日式手冲</td>
+					<td>珐琅波纹滤杯</td>
+					<td>88-90℃分段注水</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="2-风味轮实战应用">2. 风味轮实战应用</h3>
 <p>埃塞俄比亚耶加雪菲（茉莉花香+柠檬酸）VS巴西圣多斯（坚果+巧克力）的冲煮差异：</p>
@@ -764,30 +764,30 @@
 <h3 id="四给中国爱好者的实践指南">四、给中国爱好者的实践指南</h3>
 <h4 id="1-地域风味搭配公式">1. 地域风味搭配公式</h4>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>适配场景</th>
-          <th>中国元素融合建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td>江南梅雨季</td>
-          <td>加入九制陈皮提升回甘</td>
-      </tr>
-      <tr>
-          <td>澳白</td>
-          <td>北方寒冬</td>
-          <td>用红枣奶替代传统牛奶</td>
-      </tr>
-      <tr>
-          <td>虹吸咖啡</td>
-          <td>岭南茶室</td>
-          <td>搭配鸡公榄平衡醇厚度</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>适配场景</th>
+					<th>中国元素融合建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td>江南梅雨季</td>
+					<td>加入九制陈皮提升回甘</td>
+			</tr>
+			<tr>
+					<td>澳白</td>
+					<td>北方寒冬</td>
+					<td>用红枣奶替代传统牛奶</td>
+			</tr>
+			<tr>
+					<td>虹吸咖啡</td>
+					<td>岭南茶室</td>
+					<td>搭配鸡公榄平衡醇厚度</td>
+			</tr>
+	</tbody>
 </table>
 <h4 id="2-家用设备升级路径">2. 家用设备升级路径</h4>
 <p>初级阶段：法压壶+国产精品挂耳包组合（成本&lt;300元）<br>

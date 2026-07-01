@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%8B%AC%E7%AB%8B%E5%92%96%E5%95%A1%E5%BA%97%E7%BB%8F%E8%90%A5%E5%8E%8B%E5%8A%9B/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡豆价格上涨冲击独立咖啡店：全球咖啡供应链承压下，谁在为一杯咖啡的涨价买单？</title>
@@ -48,46 +48,46 @@
 <p>核心答案是：成本不会被“完整直接”转嫁，而是通过<strong>菜单重构、杯型调整、配方修改和营业模型变化</strong>逐步传导。消费者未必立刻看到“全面涨价”，但会感受到更隐性的变化。</p>
 <p>先看一张简化的成本传导表：</p>
 <table>
-  <thead>
-      <tr>
-          <th>成本环节</th>
-          <th>典型变化</th>
-          <th>门店应对方式</th>
-          <th>消费者感知</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>生豆采购</td>
-          <td>单公斤成本上升</td>
-          <td>更换豆单、提升拼配比例</td>
-          <td>风味变化、SOE减少</td>
-      </tr>
-      <tr>
-          <td>烘焙与物流</td>
-          <td>运费、仓储、损耗提升</td>
-          <td>缩短菜单、减少低销量豆款</td>
-          <td>选择变少</td>
-      </tr>
-      <tr>
-          <td>能源成本</td>
-          <td>电费、燃气费上涨</td>
-          <td>减少营业时长、优化设备使用</td>
-          <td>晚间营业减少</td>
-      </tr>
-      <tr>
-          <td>奶与糖浆等辅料</td>
-          <td>乳制品价格波动</td>
-          <td>提高加料价格、减少赠送</td>
-          <td>定制成本更高</td>
-      </tr>
-      <tr>
-          <td>人工与房租</td>
-          <td>固定成本上升</td>
-          <td>提升客单价、推动高毛利产品</td>
-          <td>小杯变多、套餐变少</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>成本环节</th>
+					<th>典型变化</th>
+					<th>门店应对方式</th>
+					<th>消费者感知</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>生豆采购</td>
+					<td>单公斤成本上升</td>
+					<td>更换豆单、提升拼配比例</td>
+					<td>风味变化、SOE减少</td>
+			</tr>
+			<tr>
+					<td>烘焙与物流</td>
+					<td>运费、仓储、损耗提升</td>
+					<td>缩短菜单、减少低销量豆款</td>
+					<td>选择变少</td>
+			</tr>
+			<tr>
+					<td>能源成本</td>
+					<td>电费、燃气费上涨</td>
+					<td>减少营业时长、优化设备使用</td>
+					<td>晚间营业减少</td>
+			</tr>
+			<tr>
+					<td>奶与糖浆等辅料</td>
+					<td>乳制品价格波动</td>
+					<td>提高加料价格、减少赠送</td>
+					<td>定制成本更高</td>
+			</tr>
+			<tr>
+					<td>人工与房租</td>
+					<td>固定成本上升</td>
+					<td>提升客单价、推动高毛利产品</td>
+					<td>小杯变多、套餐变少</td>
+			</tr>
+	</tbody>
 </table>
 <p>这里最值得关注的是“菜单工程”。所谓<strong>菜单工程</strong>，就是通过调整产品结构来提升整体利润率，而不是简单粗暴地给所有饮品加价。很多独立咖啡店会优先做四件事：</p>
 <h3 id="1-提高奶咖占比降低手冲展示权重">1. 提高奶咖占比，降低手冲展示权重</h3>

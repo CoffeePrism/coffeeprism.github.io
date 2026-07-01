@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E5%92%96%E5%95%A1%E8%B1%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>埃塞俄比亚咖啡豆的多样性深度解析指南</title>
@@ -25,40 +25,40 @@
 <p>海拔越高，咖啡樱桃通常成熟更慢，糖分积累和酸质发展更充分。埃塞俄比亚许多精品产区位于1800-2300米，典型高海拔环境容易形成更明亮的酸值和更复杂的香气。与此同时，不同山谷、降雨节奏、土壤结构，也会让相邻社区的杯测表现截然不同。</p>
 <p>几个常见风味方向可以简化理解如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>影响因素</th>
-          <th>常见表现</th>
-          <th>典型风味倾向</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>高海拔</td>
-          <td>成熟慢、密度高</td>
-          <td>花香、柑橘、茶感</td>
-      </tr>
-      <tr>
-          <td>中高海拔</td>
-          <td>甜感更圆润</td>
-          <td>核果、蜂蜜、红糖</td>
-      </tr>
-      <tr>
-          <td>水洗处理</td>
-          <td>干净度高</td>
-          <td>柠檬、佛手柑、白花</td>
-      </tr>
-      <tr>
-          <td>日晒处理</td>
-          <td>发酵香明显</td>
-          <td>蓝莓、莓果、热带水果</td>
-      </tr>
-      <tr>
-          <td>较深烘焙</td>
-          <td>焦糖化增强</td>
-          <td>黑巧、坚果、可可</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>影响因素</th>
+					<th>常见表现</th>
+					<th>典型风味倾向</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>高海拔</td>
+					<td>成熟慢、密度高</td>
+					<td>花香、柑橘、茶感</td>
+			</tr>
+			<tr>
+					<td>中高海拔</td>
+					<td>甜感更圆润</td>
+					<td>核果、蜂蜜、红糖</td>
+			</tr>
+			<tr>
+					<td>水洗处理</td>
+					<td>干净度高</td>
+					<td>柠檬、佛手柑、白花</td>
+			</tr>
+			<tr>
+					<td>日晒处理</td>
+					<td>发酵香明显</td>
+					<td>蓝莓、莓果、热带水果</td>
+			</tr>
+			<tr>
+					<td>较深烘焙</td>
+					<td>焦糖化增强</td>
+					<td>黑巧、坚果、可可</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="原生种heirloom7411074112到底是什么意思">“原生种”“Heirloom”“74110/74112”到底是什么意思</h3>
 <p>“<strong>Heirloom</strong>”通常指埃塞本地传统品系的统称，适合营销和大类识别，但不够精准。更专业地看，一些常见编号如<strong>74110</strong>、<strong>74112</strong>，是埃塞俄比亚吉玛农业研究中心筛选推广的改良材料，因抗病性和适应性较好，在许多庄园与合作社出现频率较高。</p>
@@ -110,38 +110,38 @@
 <h3 id="不同处理法的推荐冲煮参数">不同处理法的推荐冲煮参数</h3>
 <p><strong>水洗处理</strong>适合突出清晰酸质和花香；<strong>日晒处理</strong>适合强调果汁感和甜度，但更怕萃取过度。参数不用神秘化，关键是匹配豆子的结构和烘焙深浅。</p>
 <table>
-  <thead>
-      <tr>
-          <th>处理法</th>
-          <th>推荐粉水比</th>
-          <th>水温</th>
-          <th>研磨建议</th>
-          <th>目标风味</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水洗</td>
-          <td>1:15.5</td>
-          <td>91-93℃</td>
-          <td>中细</td>
-          <td>干净、明亮、花香</td>
-      </tr>
-      <tr>
-          <td>日晒</td>
-          <td>1:16</td>
-          <td>89-91℃</td>
-          <td>中偏细</td>
-          <td>甜感、莓果、醇厚</td>
-      </tr>
-      <tr>
-          <td>蜜处理</td>
-          <td>1:15.5</td>
-          <td>90-92℃</td>
-          <td>中细</td>
-          <td>平衡、果甜、圆润</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>处理法</th>
+					<th>推荐粉水比</th>
+					<th>水温</th>
+					<th>研磨建议</th>
+					<th>目标风味</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水洗</td>
+					<td>1:15.5</td>
+					<td>91-93℃</td>
+					<td>中细</td>
+					<td>干净、明亮、花香</td>
+			</tr>
+			<tr>
+					<td>日晒</td>
+					<td>1:16</td>
+					<td>89-91℃</td>
+					<td>中偏细</td>
+					<td>甜感、莓果、醇厚</td>
+			</tr>
+			<tr>
+					<td>蜜处理</td>
+					<td>1:15.5</td>
+					<td>90-92℃</td>
+					<td>中细</td>
+					<td>平衡、果甜、圆润</td>
+			</tr>
+	</tbody>
 </table>
 <p>手冲器具可考虑这些常见选择：<a href="https://www.amazon.com/s?k=Hario%20V60&amp;tag=coffeeprism-20">Hario V60</a>、<a href="https://www.amazon.com/s?k=Timemore%20Chestnut%20C3&amp;tag=coffeeprism-20">Timemore Chestnut C3</a>、<a href="https://www.amazon.com/s?k=Fellow%20Stagg%20EKG&amp;tag=coffeeprism-20">Fellow Stagg EKG</a>。如果在国内购买，淘宝、京东和天猫的官方旗舰店通常更方便售后。</p>
 <h3 id="一套适合埃塞豆的v60冲煮步骤">一套适合埃塞豆的V60冲煮步骤</h3>
@@ -193,35 +193,35 @@
 <h3 id="新手到进阶的工具预算建议">新手到进阶的工具预算建议</h3>
 <p>不同预算下的配置思路如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>推荐配置</th>
-          <th>适合人群</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>200-500元</td>
-          <td>手冲壶+滤杯+滤纸+电子秤</td>
-          <td>新手入门</td>
-      </tr>
-      <tr>
-          <td>500-1200元</td>
-          <td>增加手磨或入门电磨</td>
-          <td>想稳定复现风味</td>
-      </tr>
-      <tr>
-          <td>1200-3000元</td>
-          <td>高一致性磨豆机+温控壶</td>
-          <td>进阶玩家</td>
-      </tr>
-      <tr>
-          <td>3000元以上</td>
-          <td>高端电磨+专业称重与水质控制</td>
-          <td>深度爱好者</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>推荐配置</th>
+					<th>适合人群</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>200-500元</td>
+					<td>手冲壶+滤杯+滤纸+电子秤</td>
+					<td>新手入门</td>
+			</tr>
+			<tr>
+					<td>500-1200元</td>
+					<td>增加手磨或入门电磨</td>
+					<td>想稳定复现风味</td>
+			</tr>
+			<tr>
+					<td>1200-3000元</td>
+					<td>高一致性磨豆机+温控壶</td>
+					<td>进阶玩家</td>
+			</tr>
+			<tr>
+					<td>3000元以上</td>
+					<td>高端电磨+专业称重与水质控制</td>
+					<td>深度爱好者</td>
+			</tr>
+	</tbody>
 </table>
 <p>可关注这些器具：<a href="https://www.amazon.com/s?k=Kalita%20Wave&amp;tag=coffeeprism-20">Kalita Wave</a>、<a href="https://www.amazon.com/s?k=Comandante%20C40&amp;tag=coffeeprism-20">Comandante C40</a>、<a href="https://www.amazon.com/s?k=Timemore%20Black%20Mirror&amp;tag=coffeeprism-20">Timemore Black Mirror</a>。在中国市场，京东自营和品牌旗舰店通常更适合比价，淘宝则更适合找滤纸、分享壶等耗材。</p>
 <h3 id="国内购买渠道与避坑建议">国内购买渠道与避坑建议</h3>

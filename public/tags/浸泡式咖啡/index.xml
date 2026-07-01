@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%B5%B8%E6%B3%A1%E5%BC%8F%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>法压壶 French Press 完全指南：浸泡式萃取的科学</title>
@@ -31,30 +31,30 @@
 <h2 id="4-分钟法的科学依据">4 分钟法的科学依据</h2>
 <p>为什么是 4 分钟？</p>
 <table>
-  <thead>
-      <tr>
-          <th>时间</th>
-          <th>萃取出的物质</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>0-1 分钟</td>
-          <td>酸（柠檬酸、苹果酸、奎宁酸）</td>
-      </tr>
-      <tr>
-          <td>1-3 分钟</td>
-          <td>甜（焦糖、蔗糖、乳酸）</td>
-      </tr>
-      <tr>
-          <td>3-4 分钟</td>
-          <td>醇厚 + 部分苦（绿原酸）</td>
-      </tr>
-      <tr>
-          <td>4 分钟 +</td>
-          <td>过萃苦味为主</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>时间</th>
+					<th>萃取出的物质</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>0-1 分钟</td>
+					<td>酸（柠檬酸、苹果酸、奎宁酸）</td>
+			</tr>
+			<tr>
+					<td>1-3 分钟</td>
+					<td>甜（焦糖、蔗糖、乳酸）</td>
+			</tr>
+			<tr>
+					<td>3-4 分钟</td>
+					<td>醇厚 + 部分苦（绿原酸）</td>
+			</tr>
+			<tr>
+					<td>4 分钟 +</td>
+					<td>过萃苦味为主</td>
+			</tr>
+	</tbody>
 </table>
 <p><strong>4 分钟刚好停在甜与醇厚的甜区</strong>。</p>
 <h2 id="推荐配方">推荐配方</h2>
@@ -76,35 +76,35 @@
 <p>干净度提升一个档次，但牺牲了一些醇厚度。</p>
 <h2 id="常见问题">常见问题</h2>
 <table>
-  <thead>
-      <tr>
-          <th>症状</th>
-          <th>原因</th>
-          <th>解法</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>沉淀很多</td>
-          <td>磨太细</td>
-          <td>调粗 2-3 格</td>
-      </tr>
-      <tr>
-          <td>太苦</td>
-          <td>浸泡过久</td>
-          <td>严格控时 4 分钟</td>
-      </tr>
-      <tr>
-          <td>没酸度</td>
-          <td>水温太低</td>
-          <td>用 95°C</td>
-      </tr>
-      <tr>
-          <td>醇厚度差</td>
-          <td>粉量不足</td>
-          <td>加到 1:15 比例</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>症状</th>
+					<th>原因</th>
+					<th>解法</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>沉淀很多</td>
+					<td>磨太细</td>
+					<td>调粗 2-3 格</td>
+			</tr>
+			<tr>
+					<td>太苦</td>
+					<td>浸泡过久</td>
+					<td>严格控时 4 分钟</td>
+			</tr>
+			<tr>
+					<td>没酸度</td>
+					<td>水温太低</td>
+					<td>用 95°C</td>
+			</tr>
+			<tr>
+					<td>醇厚度差</td>
+					<td>粉量不足</td>
+					<td>加到 1:15 比例</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <blockquote>

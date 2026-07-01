@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%B0%94%E5%80%99%E5%8F%98%E5%8C%96%E5%AF%B9%E5%92%96%E5%95%A1%E4%BA%A7%E4%B8%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>气候变化对咖啡产业的威胁深度解析指南</title>
@@ -46,30 +46,30 @@
 <p>巴西是全球关键咖啡生产国，霜冻和干旱的任何叠加都可能影响全球价格；越南的热浪与水资源压力则关系到罗布斯塔供应；中美洲长期受叶锈病和降雨模式变化困扰。国际咖啡组织（ICO）、世界银行、联合国粮农组织（FAO）以及多篇气候与农业研究都指出，热带高价值作物对气候波动非常敏感，咖啡就是典型代表。</p>
 <p>从市场层面看，变化体现在三方面：</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>过去常见波动</th>
-          <th>当前更突出的问题</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>价格</td>
-          <td>周期性涨跌</td>
-          <td>极端天气驱动的急涨急跌</td>
-      </tr>
-      <tr>
-          <td>品质</td>
-          <td>年份差异</td>
-          <td>同一产区批次间差异扩大</td>
-      </tr>
-      <tr>
-          <td>供应</td>
-          <td>主产国集中</td>
-          <td>多产地分散采购成为必需</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>过去常见波动</th>
+					<th>当前更突出的问题</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>价格</td>
+					<td>周期性涨跌</td>
+					<td>极端天气驱动的急涨急跌</td>
+			</tr>
+			<tr>
+					<td>品质</td>
+					<td>年份差异</td>
+					<td>同一产区批次间差异扩大</td>
+			</tr>
+			<tr>
+					<td>供应</td>
+					<td>主产国集中</td>
+					<td>多产地分散采购成为必需</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="未来哪些咖啡产区最脆弱">未来哪些咖啡产区最脆弱</h3>
 <p>学界普遍认为，低海拔、依赖单一种植、基础设施弱的区域更脆弱。阿拉比卡适种区未来可能向更高海拔移动，但这并不意味着“搬到山上就解决了”，因为土地、森林保护、劳动力、交通和加工设施都会成为约束。</p>
@@ -135,40 +135,40 @@
 <h3 id="家庭消费者优先买能减少浪费的器具">家庭消费者：优先买能减少浪费的器具</h3>
 <p>如果你是普通咖啡爱好者，最实际的做法是减少冲煮浪费、提高对风味变化的判断力，而不是盲目囤豆。下面这类工具更有长期价值：</p>
 <table>
-  <thead>
-      <tr>
-          <th>使用场景</th>
-          <th>推荐产品</th>
-          <th>适合人群</th>
-          <th>参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>精准称量</td>
-          <td><a href="https://www.amazon.com/s?k=Timemore%20Scale&amp;tag=coffeeprism-20">Timemore Scale</a></td>
-          <td>手冲用户</td>
-          <td>200-500元</td>
-      </tr>
-      <tr>
-          <td>稳定磨豆</td>
-          <td><a href="https://www.amazon.com/s?k=Baratza%20Encore&amp;tag=coffeeprism-20">Baratza Encore</a></td>
-          <td>入门到进阶</td>
-          <td>1000-1800元</td>
-      </tr>
-      <tr>
-          <td>手冲滤杯</td>
-          <td><a href="https://www.amazon.com/s?k=Hario%20V60%20Dripper&amp;tag=coffeeprism-20">Hario V60 Dripper</a></td>
-          <td>所有手冲用户</td>
-          <td>50-200元</td>
-      </tr>
-      <tr>
-          <td>密封存储</td>
-          <td><a href="https://www.amazon.com/s?k=Airscape%20Coffee%20Canister&amp;tag=coffeeprism-20">Airscape Coffee Canister</a></td>
-          <td>常备多款豆子</td>
-          <td>200-400元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>使用场景</th>
+					<th>推荐产品</th>
+					<th>适合人群</th>
+					<th>参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>精准称量</td>
+					<td><a href="https://www.amazon.com/s?k=Timemore%20Scale&amp;tag=coffeeprism-20">Timemore Scale</a></td>
+					<td>手冲用户</td>
+					<td>200-500元</td>
+			</tr>
+			<tr>
+					<td>稳定磨豆</td>
+					<td><a href="https://www.amazon.com/s?k=Baratza%20Encore&amp;tag=coffeeprism-20">Baratza Encore</a></td>
+					<td>入门到进阶</td>
+					<td>1000-1800元</td>
+			</tr>
+			<tr>
+					<td>手冲滤杯</td>
+					<td><a href="https://www.amazon.com/s?k=Hario%20V60%20Dripper&amp;tag=coffeeprism-20">Hario V60 Dripper</a></td>
+					<td>所有手冲用户</td>
+					<td>50-200元</td>
+			</tr>
+			<tr>
+					<td>密封存储</td>
+					<td><a href="https://www.amazon.com/s?k=Airscape%20Coffee%20Canister&amp;tag=coffeeprism-20">Airscape Coffee Canister</a></td>
+					<td>常备多款豆子</td>
+					<td>200-400元</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="门店与烘焙商优先买监测与样品验证设备">门店与烘焙商：优先买监测与样品验证设备</h3>
 <p>门店与烘焙商更需要“发现问题”的能力。面对年份差、批次差，没有数据支持就很难及时修正配方与采购决策。</p>

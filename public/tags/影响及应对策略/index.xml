@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%BD%B1%E5%93%8D%E5%8F%8A%E5%BA%94%E5%AF%B9%E7%AD%96%E7%95%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡对睡眠的影响及应对策略：从科学到实践的完全指南</title>
@@ -36,34 +36,34 @@
 • 特殊人群需提前至12小时</p>
 <h3 id="23-替代方案精选指南">2.3 替代方案精选指南</h3>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th>咖啡因含量</th>
-          <th>推荐品牌</th>
-          <th>最佳饮用时段</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>低因咖啡</td>
-          <td>&lt;5mg/杯</td>
-          <td>星巴克低因系列</td>
-          <td>16:00后</td>
-      </tr>
-      <tr>
-          <td>大麦茶</td>
-          <td>0mg</td>
-          <td>伊藤园焙煎大麦茶</td>
-          <td>全天候</td>
-      </tr>
-      <tr>
-          <td>南非博士茶</td>
-          <td>0mg</td>
-          <td>Rooibos原叶茶</td>
-          <td>睡前2小时</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>咖啡因含量</th>
+					<th>推荐品牌</th>
+					<th>最佳饮用时段</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>低因咖啡</td>
+					<td>&lt;5mg/杯</td>
+					<td>星巴克低因系列</td>
+					<td>16:00后</td>
+			</tr>
+			<tr>
+					<td>大麦茶</td>
+					<td>0mg</td>
+					<td>伊藤园焙煎大麦茶</td>
+					<td>全天候</td>
+			</tr>
+			<tr>
+					<td>南非博士茶</td>
+					<td>0mg</td>
+					<td>Rooibos原叶茶</td>
+					<td>睡前2小时</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="三专业咖啡师的私藏技巧">三、专业咖啡师的私藏技巧</h2>
@@ -155,30 +155,30 @@
 <hr>
 <h2 id="五专业设备推荐精准掌控咖啡因">五、专业设备推荐：精准掌控咖啡因</h2>
 <table>
-  <thead>
-      <tr>
-          <th>产品名称</th>
-          <th>核心功能</th>
-          <th>中国购买渠道</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Acaia Pearl Scale</td>
-          <td>精确到0.1g的粉量控制</td>
-          <td>天猫国际旗舰店</td>
-      </tr>
-      <tr>
-          <td>Cometeer冻干咖啡</td>
-          <td>标准化每颗80mg咖啡因</td>
-          <td>京东全球购</td>
-      </tr>
-      <tr>
-          <td>Withings睡眠监测仪</td>
-          <td>实时追踪睡眠质量</td>
-          <td>小米有品</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产品名称</th>
+					<th>核心功能</th>
+					<th>中国购买渠道</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Acaia Pearl Scale</td>
+					<td>精确到0.1g的粉量控制</td>
+					<td>天猫国际旗舰店</td>
+			</tr>
+			<tr>
+					<td>Cometeer冻干咖啡</td>
+					<td>标准化每颗80mg咖啡因</td>
+					<td>京东全球购</td>
+			</tr>
+			<tr>
+					<td>Withings睡眠监测仪</td>
+					<td>实时追踪睡眠质量</td>
+					<td>小米有品</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="常见问题解答">常见问题解答</h2>

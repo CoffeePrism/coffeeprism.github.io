@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%8B%AC%E7%89%B9%E9%A3%8E%E5%91%B3/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度解析：肯尼亚AA咖啡豆的独特风味的完整指南</title>
@@ -61,35 +61,35 @@
 <h2 id="四专业冲泡步骤详解">四、专业冲泡步骤详解</h2>
 <h3 id="41-手冲参数黄金组合">4.1 手冲参数黄金组合</h3>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>建议值</th>
-          <th>科学依据</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水温</td>
-          <td>92-94℃</td>
-          <td>充分萃取酸性物质</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>白砂糖颗粒</td>
-          <td>防止过度萃取单宁</td>
-      </tr>
-      <tr>
-          <td>水粉比</td>
-          <td>1:15</td>
-          <td>平衡body与干净度</td>
-      </tr>
-      <tr>
-          <td>冲煮时间</td>
-          <td>2分10秒</td>
-          <td>三段式注水最佳时长</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>建议值</th>
+					<th>科学依据</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水温</td>
+					<td>92-94℃</td>
+					<td>充分萃取酸性物质</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>白砂糖颗粒</td>
+					<td>防止过度萃取单宁</td>
+			</tr>
+			<tr>
+					<td>水粉比</td>
+					<td>1:15</td>
+					<td>平衡body与干净度</td>
+			</tr>
+			<tr>
+					<td>冲煮时间</td>
+					<td>2分10秒</td>
+					<td>三段式注水最佳时长</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="42-虹吸壶的进阶方案">4.2 虹吸壶的进阶方案</h3>
 <p>使用台湾知名咖啡师林东源的「三温冲煮法」：</p>

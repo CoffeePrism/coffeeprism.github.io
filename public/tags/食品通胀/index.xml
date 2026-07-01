@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E9%A3%9F%E5%93%81%E9%80%9A%E8%83%80/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡涨价为何领跑食品通胀：从巴西咖啡产量到连锁定价，谁在承受这杯更贵的咖啡</title>
@@ -58,30 +58,30 @@
 <p>此外，巴西问题还会外溢到其他产区定价。比如，当阿拉比卡偏紧时，品牌会增加罗布斯塔拼配比例，以控制成本；但如果越南等罗布斯塔供应同样紧张，替代空间就会收窄，最终形成“全行业一起涨”。这也是为什么消费者会发现，既不是只有精品咖啡贵了，也不是只有超市速溶涨了，而是几乎所有咖啡形态都在承压。</p>
 <p>从判断框架看，接下来需重点关注三类信号：</p>
 <table>
-  <thead>
-      <tr>
-          <th>关键变量</th>
-          <th>对价格的影响</th>
-          <th>行业应对</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>巴西天气与开花结果情况</td>
-          <td>决定阿拉比卡价格预期</td>
-          <td>提前锁定合同、增加替代产区</td>
-      </tr>
-      <tr>
-          <td>出口与港口物流节奏</td>
-          <td>影响现货可得性</td>
-          <td>提高安全库存</td>
-      </tr>
-      <tr>
-          <td>越南等罗布斯塔供应</td>
-          <td>决定拼配降本空间</td>
-          <td>调整产品配方与SKU结构</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>关键变量</th>
+					<th>对价格的影响</th>
+					<th>行业应对</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>巴西天气与开花结果情况</td>
+					<td>决定阿拉比卡价格预期</td>
+					<td>提前锁定合同、增加替代产区</td>
+			</tr>
+			<tr>
+					<td>出口与港口物流节奏</td>
+					<td>影响现货可得性</td>
+					<td>提高安全库存</td>
+			</tr>
+			<tr>
+					<td>越南等罗布斯塔供应</td>
+					<td>决定拼配降本空间</td>
+					<td>调整产品配方与SKU结构</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果这三项同时偏紧，咖啡涨价就很难在短期内结束。</p>
 <h2 id="零售端会如何传导连锁品牌为什么不一定直接提价">零售端会如何传导？连锁品牌为什么不一定直接提价？</h2>

@@ -1,0 +1,54 @@
+# Coffee Prism（咖啡棱镜）
+
+> 中文精品咖啡专业指南站。700+ 篇原创深度文章覆盖咖啡冲煮、咖啡豆、器具选购与咖啡健康，
+> 并出版两本 PDF 电子书。Coffee Prism is a Chinese-language specialty-coffee education
+> site (coffeeprism.com) serving readers in Singapore, mainland China and the global
+> Chinese-speaking community.
+
+站点内容以简体中文撰写，面向家庭咖啡爱好者：从零基础到进阶，提供可复现的冲煮参数
+（粉水比、水温、研磨度、时间）、器具分预算选购建议与基于科学共识的咖啡健康知识。
+
+## 核心指南（Pillar Pages）
+
+- [咖啡冲煮方法完全指南](https://www.coffeeprism.com/brewing-methods/): 手冲/意式/法压/爱乐压/摩卡壶/冷萃 6 大冲煮方法的系统对比与参数速查
+- [手冲咖啡（V60）完全指南](https://www.coffeeprism.com/brewing-methods/pour-over-v60/): 注水手法、粉水比 1:15、水温 88-94°C、常见失败诊断
+- [意式浓缩完全指南](https://www.coffeeprism.com/brewing-methods/espresso/): 萃取参数（18g/36g/25-30s）、压力、奶咖体系
+- [法压壶完全指南](https://www.coffeeprism.com/brewing-methods/french-press/): 浸泡式萃取参数与油脂口感控制
+- [爱乐压完全指南](https://www.coffeeprism.com/brewing-methods/aeropress/): 正压/反压做法与冠军配方
+- [摩卡壶完全指南](https://www.coffeeprism.com/brewing-methods/moka-pot/): 火力控制与防苦技巧
+- [冷萃咖啡完全指南](https://www.coffeeprism.com/brewing-methods/cold-brew/): 冷萃 vs 冰滴、浸泡时长与比例
+- [咖啡豆完全指南 2026](https://www.coffeeprism.com/coffee-beans/): 阿拉比卡 vs 罗布斯塔、20+ 产区、4 大处理法、烘焙度与新鲜度科学
+- [咖啡器具选购指南 2026](https://www.coffeeprism.com/coffee-equipment/): 磨豆机/滤杯/咖啡机/秤，按预算分级的组合方案
+- [咖啡与健康完全指南](https://www.coffeeprism.com/health/): 咖啡因代谢、心血管、睡眠、抗氧化——基于科学共识
+
+## 电子书（PDF Ebooks）
+
+- [《咖啡冲煮完全指南 2026》](https://www.coffeeprism.com/guide/comprehensive/): 75 页 / 25,000 字 / 13 章，覆盖从咖啡豆到拉花全流程，含参数速查表。$3.99，PDF 下载，7 天无理由退款
+- [《手冲咖啡大师之路》](https://www.coffeeprism.com/guide/pourover/): 58 页 / 22,000 字，6 个 WBrC 世界冲煮冠军配方详解 + 萃取动力学。$4.99，PDF 下载，7 天无理由退款
+
+## 精选文章
+
+- [家用咖啡设备的最佳组合完全攻略](https://www.coffeeprism.com/posts/jia-yong-ka-pei-she-bei-de-zui-jia-zu-he-wan-quan/): 不同预算下磨豆机+冲煮器具的搭配逻辑
+- [2024年最佳手动咖啡研磨器推荐](https://www.coffeeprism.com/posts/2024-04-15-best-manual-coffee-grinders/): 手摇磨豆机横评与选购
+- [单一产地咖啡豆的风味特点深度解析](https://www.coffeeprism.com/posts/dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dian-shen/): 产区与风味的对应关系
+- [埃塞俄比亚咖啡豆的多样性深度解析](https://www.coffeeprism.com/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/): 耶加雪菲、西达摩等产区详解
+- [家庭咖啡烘焙入门指南](https://www.coffeeprism.com/posts/jia-ting-ka-pei-hong-bei-ru-men-zhi-nan-xin-shou-w/): 新手在家烘豆的完整流程
+- [直火 vs 热风烘焙的区别深度解析](https://www.coffeeprism.com/posts/zhi-huo-vsre-feng-hong-bei-de-qu-bie-shen-du-jie-x/): 两种烘焙方式的风味差异
+- [摩卡壶的传统与现代技巧完全攻略](https://www.coffeeprism.com/posts/mo-qia-hu-de-chuan-tong-yu-xian-dai-ji-qiao-wan-qu/): 意式家庭咖啡的经典做法
+- [爱乐压的创新玩法完全攻略](https://www.coffeeprism.com/posts/ai-le-ya-de-chuang-xin-wan-fa-wan-quan-gong-lue-yu/): 反压法与比赛配方
+- [咖啡与认知功能的科学研究](https://www.coffeeprism.com/posts/ka-pei-yu-ren-zhi-gong-neng-de-ke-xue-yan-jiu-shen/): 咖啡因与大脑认知的研究综述
+- [咖啡中的抗氧化物质研究](https://www.coffeeprism.com/posts/ka-pei-zhong-de-kang-yang-hua-wu-zhi-yan-jiu-shen/): 绿原酸等成分的健康证据
+- [咖啡与巧克力的完美匹配攻略](https://www.coffeeprism.com/posts/ka-pei-yu-qiao-ke-li-de-wan-mei-pi-pei-wan-quan-go/): 烘焙度与可可含量的搭配公式
+- [气候变化对咖啡产业的威胁深度解析](https://www.coffeeprism.com/posts/qi-hou-bian-hua-dui-ka-pei-chan-ye-de-wei-xie-shen/): 产区迁移与价格影响
+- [意大利经典咖啡品牌的历史](https://www.coffeeprism.com/posts/yi-da-li-jing-dian-ka-pei-pin-pai-de-li-shi-shen-d/): Lavazza、illy 等品牌故事
+- [北欧咖啡文化与品牌特色](https://www.coffeeprism.com/posts/bei-ou-ka-pei-wen-hua-yu-pin-pai-te-se-shen-du-jie/): 浅烘美学与 fika 文化
+- [咖啡节与展会介绍完全攻略](https://www.coffeeprism.com/posts/ka-pei-jie-yu-zhan-hui-jie-shao-wan-quan-gong-lue/): 全球咖啡展会日历与逛展技巧
+- [为什么我们要做一本《咖啡冲煮完全指南》](https://www.coffeeprism.com/posts/complete-guide-launch/): 电子书创作理念
+- [《手冲咖啡大师之路》发售说明](https://www.coffeeprism.com/posts/pourover-deep-dive/): 手冲专精电子书的内容框架
+
+## Optional
+
+- [关于我们](https://www.coffeeprism.com/about/): 站点定位与内容原则
+- [全部文章归档](https://www.coffeeprism.com/posts/): 700+ 篇文章按时间排列
+- [分类索引](https://www.coffeeprism.com/categories/): 按主题浏览全部内容
+- [Sitemap](https://www.coffeeprism.com/sitemap.xml): XML 站点地图

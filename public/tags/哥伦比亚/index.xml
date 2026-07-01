@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>可持续咖啡包装的发展：环保与风味的双重革命</title>
@@ -53,34 +53,34 @@
 <h2 id="三实践指南五步构建可持续咖啡体系">三、实践指南：五步构建可持续咖啡体系</h2>
 <h3 id="31-需求评估三维模型">3.1 需求评估三维模型</h3>
 <table>
-  <thead>
-      <tr>
-          <th>评估维度</th>
-          <th>家庭用户</th>
-          <th>咖啡馆</th>
-          <th>烘焙商</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>保鲜需求</td>
-          <td>每月消耗500g以下</td>
-          <td>日均消耗3-5kg</td>
-          <td>大宗仓储周转</td>
-      </tr>
-      <tr>
-          <td>成本阈值</td>
-          <td>溢价接受度＜30%</td>
-          <td>包装占成本比＜15%</td>
-          <td>供应链改造预算</td>
-      </tr>
-      <tr>
-          <td>环保权重</td>
-          <td>可家庭堆肥</td>
-          <td>品牌形象提升</td>
-          <td>碳足迹认证需求</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>评估维度</th>
+					<th>家庭用户</th>
+					<th>咖啡馆</th>
+					<th>烘焙商</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>保鲜需求</td>
+					<td>每月消耗500g以下</td>
+					<td>日均消耗3-5kg</td>
+					<td>大宗仓储周转</td>
+			</tr>
+			<tr>
+					<td>成本阈值</td>
+					<td>溢价接受度＜30%</td>
+					<td>包装占成本比＜15%</td>
+					<td>供应链改造预算</td>
+			</tr>
+			<tr>
+					<td>环保权重</td>
+					<td>可家庭堆肥</td>
+					<td>品牌形象提升</td>
+					<td>碳足迹认证需求</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="32-实操步骤分解">3.2 实操步骤分解</h3>
 <ol>

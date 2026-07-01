@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E4%BC%A0%E7%BB%9F%E4%B8%8E%E7%8E%B0%E4%BB%A3%E6%8A%80%E5%B7%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>摩卡壶的传统与现代技巧完全攻略</title>
@@ -34,38 +34,38 @@
 <h3 id="摩卡壶与手冲意式机有什么区别">摩卡壶与手冲、意式机有什么区别</h3>
 <p>如果你在犹豫该选摩卡壶还是别的器具，最简单的判断是：摩卡壶适合追求“厚度、强度和牛奶搭配能力”的人。</p>
 <table>
-  <thead>
-      <tr>
-          <th>器具</th>
-          <th style="text-align: right">压力水平</th>
-          <th>风味特点</th>
-          <th>操作难度</th>
-          <th style="text-align: right">典型预算</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>摩卡壶</td>
-          <td style="text-align: right">约1-2 bar</td>
-          <td>浓郁、厚重、坚果可可感强</td>
-          <td>中等</td>
-          <td style="text-align: right">¥80-¥500+</td>
-      </tr>
-      <tr>
-          <td>手冲</td>
-          <td style="text-align: right">常压</td>
-          <td>干净、层次明显、酸甜清晰</td>
-          <td>中等</td>
-          <td style="text-align: right">¥100-¥800+</td>
-      </tr>
-      <tr>
-          <td>半自动意式机</td>
-          <td style="text-align: right">约9 bar</td>
-          <td>质地浓稠、油脂丰富、适合奶咖</td>
-          <td>较高</td>
-          <td style="text-align: right">¥2000-¥10000+</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>器具</th>
+					<th style="text-align: right">压力水平</th>
+					<th>风味特点</th>
+					<th>操作难度</th>
+					<th style="text-align: right">典型预算</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>摩卡壶</td>
+					<td style="text-align: right">约1-2 bar</td>
+					<td>浓郁、厚重、坚果可可感强</td>
+					<td>中等</td>
+					<td style="text-align: right">¥80-¥500+</td>
+			</tr>
+			<tr>
+					<td>手冲</td>
+					<td style="text-align: right">常压</td>
+					<td>干净、层次明显、酸甜清晰</td>
+					<td>中等</td>
+					<td style="text-align: right">¥100-¥800+</td>
+			</tr>
+			<tr>
+					<td>半自动意式机</td>
+					<td style="text-align: right">约9 bar</td>
+					<td>质地浓稠、油脂丰富、适合奶咖</td>
+					<td>较高</td>
+					<td style="text-align: right">¥2000-¥10000+</td>
+			</tr>
+	</tbody>
 </table>
 <p>对中国市场来说，摩卡壶这几年重新走红并不意外。一方面，家庭咖啡消费持续增长；另一方面，像瑞幸、Manner、M Stand 等品牌把消费者口味教育得更成熟了，更多人开始在家追求“接近门店”的浓度与奶咖基底。摩卡壶正好卡在“成本不高、风味够强、学习曲线可接受”的区间里。</p>
 <h2 id="摩卡壶的传统与现代技巧历史演变与发展趋势">摩卡壶的传统与现代技巧历史演变与发展趋势</h2>
@@ -159,35 +159,35 @@
 <strong>不锈钢摩卡壶</strong>的优势是更耐用、兼容更多炉具、清洁更省心；不足是导热逻辑不同，风味表现和升温节奏与铝壶略有差异。</p>
 <p>选购建议可以简单归纳：</p>
 <table>
-  <thead>
-      <tr>
-          <th>需求</th>
-          <th>建议材质</th>
-          <th>说明</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>喜欢传统意式体验</td>
-          <td>铝制</td>
-          <td>经典外形与导热反应更接近传统使用感</td>
-      </tr>
-      <tr>
-          <td>家里主要是电磁炉</td>
-          <td>不锈钢</td>
-          <td>兼容性更高</td>
-      </tr>
-      <tr>
-          <td>预算有限</td>
-          <td>铝制</td>
-          <td>¥80-¥200区间选择多</td>
-      </tr>
-      <tr>
-          <td>想长期耐用</td>
-          <td>不锈钢</td>
-          <td>结构更稳，维护宽容度更高</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>需求</th>
+					<th>建议材质</th>
+					<th>说明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>喜欢传统意式体验</td>
+					<td>铝制</td>
+					<td>经典外形与导热反应更接近传统使用感</td>
+			</tr>
+			<tr>
+					<td>家里主要是电磁炉</td>
+					<td>不锈钢</td>
+					<td>兼容性更高</td>
+			</tr>
+			<tr>
+					<td>预算有限</td>
+					<td>铝制</td>
+					<td>¥80-¥200区间选择多</td>
+			</tr>
+			<tr>
+					<td>想长期耐用</td>
+					<td>不锈钢</td>
+					<td>结构更稳，维护宽容度更高</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="容量怎么选1人份2人份还是3人份">容量怎么选：1人份、2人份还是3人份</h3>
 <p>摩卡壶标注的“杯数”通常是意式小杯，不是马克杯容量。很多新手最容易买错的，就是按中式大杯概念选壶，结果不是不够喝，就是天天浪费豆子。</p>

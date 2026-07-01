@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%B6%A8%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡涨价还会持续吗？从咖啡豆价格到供应链成本，拆解一杯咖啡为何越来越贵</title>
@@ -155,40 +155,40 @@
 <p>这会带来一个重要后果：价格上涨并不会迅速压制总需求，反而会推动消费分层。</p>
 <p>可以用下面这个结构来理解当前供需矛盾：</p>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th>当前表现</th>
-          <th>对价格的影响</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>巴西产量预期</td>
-          <td>存在天气与结果量不确定性</td>
-          <td>推高阿拉比卡风险溢价</td>
-      </tr>
-      <tr>
-          <td>越南供应节奏</td>
-          <td>罗布斯塔供应偏紧时常被放大交易</td>
-          <td>速溶和拼配成本上升</td>
-      </tr>
-      <tr>
-          <td>全球消费需求</td>
-          <td>北美、欧洲稳定，亚洲仍有增长空间</td>
-          <td>对价格形成支撑</td>
-      </tr>
-      <tr>
-          <td>库存水平</td>
-          <td>交易所可交割库存变化敏感</td>
-          <td>库存偏低时价格更易剧烈波动</td>
-      </tr>
-      <tr>
-          <td>物流与金融成本</td>
-          <td>运费、利率、保险波动</td>
-          <td>抬高贸易商与烘焙商成本</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th>当前表现</th>
+					<th>对价格的影响</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>巴西产量预期</td>
+					<td>存在天气与结果量不确定性</td>
+					<td>推高阿拉比卡风险溢价</td>
+			</tr>
+			<tr>
+					<td>越南供应节奏</td>
+					<td>罗布斯塔供应偏紧时常被放大交易</td>
+					<td>速溶和拼配成本上升</td>
+			</tr>
+			<tr>
+					<td>全球消费需求</td>
+					<td>北美、欧洲稳定，亚洲仍有增长空间</td>
+					<td>对价格形成支撑</td>
+			</tr>
+			<tr>
+					<td>库存水平</td>
+					<td>交易所可交割库存变化敏感</td>
+					<td>库存偏低时价格更易剧烈波动</td>
+			</tr>
+			<tr>
+					<td>物流与金融成本</td>
+					<td>运费、利率、保险波动</td>
+					<td>抬高贸易商与烘焙商成本</td>
+			</tr>
+	</tbody>
 </table>
 <p>我在观察国内一些精品烘焙品牌时发现，一个很典型的现象是：当阿拉比卡价格高企，品牌会更频繁推出“季节拼配”而非长期固定拼配。原因不复杂，固定风味的维护成本变高，灵活调整豆单才能保住毛利率。这说明上涨不只是价格问题，更是产品稳定性的问题。</p>
 <p>因此，短期内市场最核心的不是“咖啡会不会涨”，而是“还会不会继续剧烈波动”。只要供给端没有出现连续、明确且超预期的恢复信号，<strong>咖啡豆价格</strong>就很难快速回到过去的低位区间。</p>
@@ -369,34 +369,34 @@
 <p>家用市场则是第三条线。随着门店咖啡价格上升，越来越多消费者会转向家用手冲、胶囊和自动咖啡机。对这部分人来说，一包看似更贵的精品豆，换算到单杯后可能仍低于门店价格。这也是为什么过去几年家用器具和入门设备持续增长。对新手而言，像<a href="https://www.amazon.com/s?k=V60%20dripper&amp;tag=coffeeprism-20">V60 dripper</a>、<a href="https://www.amazon.com/s?k=manual%20coffee%20grinder&amp;tag=coffeeprism-20">manual coffee grinder</a>、<a href="https://www.amazon.com/s?k=espresso%20machine&amp;tag=coffeeprism-20">espresso machine</a>这类产品的搜索热度，往往会随着门店价格走高而受益。</p>
 <p>我的判断是，未来两年行业会出现更明显的“三层结构”：</p>
 <table>
-  <thead>
-      <tr>
-          <th>市场层级</th>
-          <th>代表特征</th>
-          <th>价格策略</th>
-          <th>风险点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>大众连锁</td>
-          <td>高频、促销、标准化</td>
-          <td>通过套餐与会员弱化涨价感知</td>
-          <td>毛利被长期压缩</td>
-      </tr>
-      <tr>
-          <td>城市精品</td>
-          <td>风味、产地、体验</td>
-          <td>用故事与品质承接提价</td>
-          <td>客流频次下降</td>
-      </tr>
-      <tr>
-          <td>家用消费</td>
-          <td>性价比、自主冲煮</td>
-          <td>单杯成本可控</td>
-          <td>学习门槛与设备投入</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>市场层级</th>
+					<th>代表特征</th>
+					<th>价格策略</th>
+					<th>风险点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>大众连锁</td>
+					<td>高频、促销、标准化</td>
+					<td>通过套餐与会员弱化涨价感知</td>
+					<td>毛利被长期压缩</td>
+			</tr>
+			<tr>
+					<td>城市精品</td>
+					<td>风味、产地、体验</td>
+					<td>用故事与品质承接提价</td>
+					<td>客流频次下降</td>
+			</tr>
+			<tr>
+					<td>家用消费</td>
+					<td>性价比、自主冲煮</td>
+					<td>单杯成本可控</td>
+					<td>学习门槛与设备投入</td>
+			</tr>
+	</tbody>
 </table>
 <p>这三层结构不是相互替代，而是会长期并存。但共同点是：低价神话会越来越难维持，成本真实化会成为行业常态。</p>
 <h2 id="对中国咖啡市场消费者的影响">对中国咖啡市场/消费者的影响</h2>
@@ -476,34 +476,34 @@
 <p>为什么 Dutch Bros 这样的品牌愿意“吞成本”？因为价格弹性是真实存在的。对高频消费者来说，一杯贵 1 元、2 元，看似不大，但当每天、每周反复购买时，消费习惯会改变。消费者可能从品牌 A 转向品牌 B，从现制转向便利店咖啡，从精品手冲转向胶囊或冻干。品牌真正害怕的不是单杯毛利下降，而是用户流失后的长期 LTV 下滑。</p>
 <p>我在观察中国连锁咖啡价格战时也有类似感受：消费者已经被高度教育成“先看活动价”。这意味着标价不是唯一价格，实际支付价才决定购买决策。因此，不少连锁品牌会采用三种吸收策略，而不是直接提菜单价：</p>
 <table>
-  <thead>
-      <tr>
-          <th>策略</th>
-          <th>表面动作</th>
-          <th>实际目的</th>
-          <th>对消费者感知</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>延迟提价</td>
-          <td>标价不变，少做促销</td>
-          <td>维持价格锚点</td>
-          <td>感知较弱</td>
-      </tr>
-      <tr>
-          <td>结构性提价</td>
-          <td>热门单品不动，边缘产品提价</td>
-          <td>降低舆论风险</td>
-          <td>感知中等</td>
-      </tr>
-      <tr>
-          <td>隐性调价</td>
-          <td>缩减优惠券、会员权益、换小杯型</td>
-          <td>抬高实付价格</td>
-          <td>初期不明显</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>策略</th>
+					<th>表面动作</th>
+					<th>实际目的</th>
+					<th>对消费者感知</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>延迟提价</td>
+					<td>标价不变，少做促销</td>
+					<td>维持价格锚点</td>
+					<td>感知较弱</td>
+			</tr>
+			<tr>
+					<td>结构性提价</td>
+					<td>热门单品不动，边缘产品提价</td>
+					<td>降低舆论风险</td>
+					<td>感知中等</td>
+			</tr>
+			<tr>
+					<td>隐性调价</td>
+					<td>缩减优惠券、会员权益、换小杯型</td>
+					<td>抬高实付价格</td>
+					<td>初期不明显</td>
+			</tr>
+	</tbody>
 </table>
 <p>这三种方式在中国市场并不陌生。很多消费者会说“怎么感觉没涨价，但越来越买不到以前的低价了”，本质就是终端零售价传导的滞后性。</p>
 <p>更深一层看，能扛住成本的通常不是最会做咖啡的品牌，而是现金流、规模采购和组织效率更强的品牌。大型连锁可以通过长期合同、期货对冲、集中烘焙、SKU 精简和高周转系统去消化冲击；小型精品店则更依赖产品溢价和忠诚客群。一旦豆价持续高位，中间层品牌会最难受——既没有头部的规模，也没有精品店足够强的风味叙事。</p>
@@ -622,40 +622,40 @@
 <p>咖啡是典型的全球贸易商品。产地报价只是起点，真正进入烘焙厂或门店杯中的成本，还包括海运、保险、仓储、融资和汇率成本。尤其对中国市场而言，进口咖啡豆通常以美元结算，人民币汇率变化会放大采购压力。</p>
 <p>结构上可以理解为：</p>
 <table>
-  <thead>
-      <tr>
-          <th>成本环节</th>
-          <th style="text-align: right">是否易波动</th>
-          <th style="text-align: right">对终端价格影响</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>生豆采购</td>
-          <td style="text-align: right">高</td>
-          <td style="text-align: right">高</td>
-      </tr>
-      <tr>
-          <td>海运物流</td>
-          <td style="text-align: right">中高</td>
-          <td style="text-align: right">中</td>
-      </tr>
-      <tr>
-          <td>汇率</td>
-          <td style="text-align: right">高</td>
-          <td style="text-align: right">中高</td>
-      </tr>
-      <tr>
-          <td>烘焙与损耗</td>
-          <td style="text-align: right">中</td>
-          <td style="text-align: right">中</td>
-      </tr>
-      <tr>
-          <td>门店房租人工</td>
-          <td style="text-align: right">中高</td>
-          <td style="text-align: right">高</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>成本环节</th>
+					<th style="text-align: right">是否易波动</th>
+					<th style="text-align: right">对终端价格影响</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>生豆采购</td>
+					<td style="text-align: right">高</td>
+					<td style="text-align: right">高</td>
+			</tr>
+			<tr>
+					<td>海运物流</td>
+					<td style="text-align: right">中高</td>
+					<td style="text-align: right">中</td>
+			</tr>
+			<tr>
+					<td>汇率</td>
+					<td style="text-align: right">高</td>
+					<td style="text-align: right">中高</td>
+			</tr>
+			<tr>
+					<td>烘焙与损耗</td>
+					<td style="text-align: right">中</td>
+					<td style="text-align: right">中</td>
+			</tr>
+			<tr>
+					<td>门店房租人工</td>
+					<td style="text-align: right">中高</td>
+					<td style="text-align: right">高</td>
+			</tr>
+	</tbody>
 </table>
 <p>也就是说，即使国际期货价格不再继续大涨，只要物流和汇率仍不稳定，<strong>连锁咖啡定价</strong>依然承压。</p>
 <h3 id="4-咖啡供给恢复慢是这个行业最被低估的事实">4. 咖啡供给恢复慢，是这个行业最被低估的事实</h3>
@@ -923,30 +923,30 @@
 <p>此外，巴西问题还会外溢到其他产区定价。比如，当阿拉比卡偏紧时，品牌会增加罗布斯塔拼配比例，以控制成本；但如果越南等罗布斯塔供应同样紧张，替代空间就会收窄，最终形成“全行业一起涨”。这也是为什么消费者会发现，既不是只有精品咖啡贵了，也不是只有超市速溶涨了，而是几乎所有咖啡形态都在承压。</p>
 <p>从判断框架看，接下来需重点关注三类信号：</p>
 <table>
-  <thead>
-      <tr>
-          <th>关键变量</th>
-          <th>对价格的影响</th>
-          <th>行业应对</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>巴西天气与开花结果情况</td>
-          <td>决定阿拉比卡价格预期</td>
-          <td>提前锁定合同、增加替代产区</td>
-      </tr>
-      <tr>
-          <td>出口与港口物流节奏</td>
-          <td>影响现货可得性</td>
-          <td>提高安全库存</td>
-      </tr>
-      <tr>
-          <td>越南等罗布斯塔供应</td>
-          <td>决定拼配降本空间</td>
-          <td>调整产品配方与SKU结构</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>关键变量</th>
+					<th>对价格的影响</th>
+					<th>行业应对</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>巴西天气与开花结果情况</td>
+					<td>决定阿拉比卡价格预期</td>
+					<td>提前锁定合同、增加替代产区</td>
+			</tr>
+			<tr>
+					<td>出口与港口物流节奏</td>
+					<td>影响现货可得性</td>
+					<td>提高安全库存</td>
+			</tr>
+			<tr>
+					<td>越南等罗布斯塔供应</td>
+					<td>决定拼配降本空间</td>
+					<td>调整产品配方与SKU结构</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果这三项同时偏紧，咖啡涨价就很难在短期内结束。</p>
 <h2 id="零售端会如何传导连锁品牌为什么不一定直接提价">零售端会如何传导？连锁品牌为什么不一定直接提价？</h2>
@@ -1230,34 +1230,34 @@
 <p>咖啡涨价来自多重成本叠加。上游是生豆价格波动，中游有烘焙、包装、运输成本，下游还有房租、人工和平台抽佣。尤其在一线城市和成熟连锁市场，门店饮品的终端价格越来越不是“豆子贵不贵”能单独解释的，而是整个服务链条都在变贵。消费者过去还能接受“花钱买方便”，但当价格越过某个心理阈值，家庭冲煮就会从“爱好”升级为“理性选择”。</p>
 <p>我们可以用一个简单的成本结构来理解：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th style="text-align: right">单杯成本区间</th>
-          <th>主要支付内容</th>
-          <th>消费者感知</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>连锁门店美式/拿铁</td>
-          <td style="text-align: right">较高</td>
-          <td>房租、人工、设备、品牌、便利性</td>
-          <td>即买即喝，但价格敏感</td>
-      </tr>
-      <tr>
-          <td>家庭胶囊/挂耳</td>
-          <td style="text-align: right">中等</td>
-          <td>单份原料、设备折旧</td>
-          <td>稳定、省时、适合日常</td>
-      </tr>
-      <tr>
-          <td>家庭手冲/意式豆</td>
-          <td style="text-align: right">较低到中等</td>
-          <td>咖啡豆、滤纸、奶</td>
-          <td>门槛略高，但性价比强</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th style="text-align: right">单杯成本区间</th>
+					<th>主要支付内容</th>
+					<th>消费者感知</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>连锁门店美式/拿铁</td>
+					<td style="text-align: right">较高</td>
+					<td>房租、人工、设备、品牌、便利性</td>
+					<td>即买即喝，但价格敏感</td>
+			</tr>
+			<tr>
+					<td>家庭胶囊/挂耳</td>
+					<td style="text-align: right">中等</td>
+					<td>单份原料、设备折旧</td>
+					<td>稳定、省时、适合日常</td>
+			</tr>
+			<tr>
+					<td>家庭手冲/意式豆</td>
+					<td style="text-align: right">较低到中等</td>
+					<td>咖啡豆、滤纸、奶</td>
+					<td>门槛略高，但性价比强</td>
+			</tr>
+	</tbody>
 </table>
 <p>这里真正关键的不是“家庭一定更便宜”，而是“家庭的边际成本更低”。消费者一旦买了机器、磨豆机或滤杯，后续每多喝一杯，成本增加有限。而门店消费则是每一杯都要重新支付完整服务溢价。</p>
 <p>这种变化会迫使品牌做出两类调整。</p>

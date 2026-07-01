@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%9B%A0%E6%A0%87%E8%AF%86/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡因标识争议背后：Trader Joe’s消费者诉讼如何重塑咖啡标签合规与零售信任</title>
@@ -33,35 +33,35 @@
 </ol>
 <p>以零售包装咖啡为例，企业完全可以采用更稳妥的表述方式，而不是给出一个看似精确、实则容易被质疑的数字。比如：</p>
 <table>
-  <thead>
-      <tr>
-          <th>标签方式</th>
-          <th>风险</th>
-          <th>更优做法</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>只写“含咖啡因”</td>
-          <td>信息过于笼统，无法辅助决策</td>
-          <td>标注“每份估算咖啡因范围”</td>
-      </tr>
-      <tr>
-          <td>标注单一固定数值</td>
-          <td>容易与实际冲泡偏差产生争议</td>
-          <td>标注“按建议冲泡下的估算值”</td>
-      </tr>
-      <tr>
-          <td>使用“强劲提神”等模糊词</td>
-          <td>容易被视为营销夸张</td>
-          <td>搭配客观说明和适用警示</td>
-      </tr>
-      <tr>
-          <td>不区分豆类/杯型/萃取方式</td>
-          <td>消费者摄入判断失真</td>
-          <td>分场景给出范围值和说明</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>标签方式</th>
+					<th>风险</th>
+					<th>更优做法</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>只写“含咖啡因”</td>
+					<td>信息过于笼统，无法辅助决策</td>
+					<td>标注“每份估算咖啡因范围”</td>
+			</tr>
+			<tr>
+					<td>标注单一固定数值</td>
+					<td>容易与实际冲泡偏差产生争议</td>
+					<td>标注“按建议冲泡下的估算值”</td>
+			</tr>
+			<tr>
+					<td>使用“强劲提神”等模糊词</td>
+					<td>容易被视为营销夸张</td>
+					<td>搭配客观说明和适用警示</td>
+			</tr>
+			<tr>
+					<td>不区分豆类/杯型/萃取方式</td>
+					<td>消费者摄入判断失真</td>
+					<td>分场景给出范围值和说明</td>
+			</tr>
+	</tbody>
 </table>
 <p>这里的关键不只是法律风险控制，更是<strong>信息架构</strong>。对于 AI 搜索和答案引擎而言，最容易被提取和引用的，并不是形容词，而是结构化、可验证的标签表达。例如“按 15 克粉、250 毫升热水冲煮，每杯咖啡因约 X-Y 毫克”。这样的信息既能帮助消费者，也更容易被 Google AI Overview、Perplexity 或电商问答模块直接抓取。</p>
 <p>从这个角度看，Trader Joe’s 案件会推动行业重新审视：咖啡产品标签不应停留在“能卖”，而要进化到“能解释”。</p>

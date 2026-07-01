@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%97%A5%E6%9C%AC%E5%92%96%E5%95%A1%E5%93%81%E7%89%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>日本咖啡品牌的精益求精：从工艺到文化的完整指南</title>
@@ -236,30 +236,30 @@
 <hr>
 <h2 id="七必入装备推荐清单">七、必入装备推荐清单</h2>
 <table>
-  <thead>
-      <tr>
-          <th>产品名称</th>
-          <th>核心优势</th>
-          <th>中国购买渠道</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Kalita不锈钢手冲壶</td>
-          <td>0.5mm壶嘴精度，水流控制±3ml/s</td>
-          <td>天猫国际旗舰店</td>
-      </tr>
-      <tr>
-          <td>Fuji Royal R-220磨豆机</td>
-          <td>陶瓷磨盘，粒径差异&lt;15μm</td>
-          <td>亚马逊海外购</td>
-      </tr>
-      <tr>
-          <td>三洋工业咖啡密封罐</td>
-          <td>紫外线隔绝率99.7%，气压调节阀</td>
-          <td>京东自营</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产品名称</th>
+					<th>核心优势</th>
+					<th>中国购买渠道</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Kalita不锈钢手冲壶</td>
+					<td>0.5mm壶嘴精度，水流控制±3ml/s</td>
+					<td>天猫国际旗舰店</td>
+			</tr>
+			<tr>
+					<td>Fuji Royal R-220磨豆机</td>
+					<td>陶瓷磨盘，粒径差异&lt;15μm</td>
+					<td>亚马逊海外购</td>
+			</tr>
+			<tr>
+					<td>三洋工业咖啡密封罐</td>
+					<td>紫外线隔绝率99.7%，气压调节阀</td>
+					<td>京东自营</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="常见问题解答">常见问题解答</h2>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%9C%A8%E7%83%B9%E9%A5%AA%E4%B8%AD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡在烹饪中的创新应用完全攻略与实战技巧</title>
@@ -31,40 +31,40 @@
 <h3 id="烘焙度萃取方式与菜肴风格的关系">烘焙度、萃取方式与菜肴风格的关系</h3>
 <p>决定咖啡在烹饪中的创新应用效果的核心变量，是<strong>烘焙度</strong>与<strong>萃取浓度</strong>。浅烘更适合果酸型甜点和冷菜，中深烘更适合肉类与酱汁，深烘则适合烧烤、炖煮和巧克力类甜品。</p>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>典型风味</th>
-          <th>适合菜肴</th>
-          <th>使用建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>浅烘单品</td>
-          <td>柑橘、花香、莓果</td>
-          <td>沙拉酱、果酱、冷甜点</td>
-          <td>少量点缀，避免高温久煮</td>
-      </tr>
-      <tr>
-          <td>中烘单品/拼配</td>
-          <td>坚果、焦糖、可可</td>
-          <td>奶油酱、烤蔬菜、烘焙点心</td>
-          <td>最均衡，适合家庭入门</td>
-      </tr>
-      <tr>
-          <td>中深烘拼配</td>
-          <td>黑巧克力、烘烤、糖浆感</td>
-          <td>牛肉、猪肋排、红烧汁</td>
-          <td>建议做浓缩液或咖啡粉干擦</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td>低酸、顺滑、甜感高</td>
-          <td>腌料、甜品、冰饮料理</td>
-          <td>更稳定，容错率高</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>典型风味</th>
+					<th>适合菜肴</th>
+					<th>使用建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>浅烘单品</td>
+					<td>柑橘、花香、莓果</td>
+					<td>沙拉酱、果酱、冷甜点</td>
+					<td>少量点缀，避免高温久煮</td>
+			</tr>
+			<tr>
+					<td>中烘单品/拼配</td>
+					<td>坚果、焦糖、可可</td>
+					<td>奶油酱、烤蔬菜、烘焙点心</td>
+					<td>最均衡，适合家庭入门</td>
+			</tr>
+			<tr>
+					<td>中深烘拼配</td>
+					<td>黑巧克力、烘烤、糖浆感</td>
+					<td>牛肉、猪肋排、红烧汁</td>
+					<td>建议做浓缩液或咖啡粉干擦</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td>低酸、顺滑、甜感高</td>
+					<td>腌料、甜品、冰饮料理</td>
+					<td>更稳定，容错率高</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你是第一次尝试，家庭厨房最稳妥的方案是：用中深烘豆做1:8比例的浓咖啡液，再少量加入酱汁测试。设备上可从<a href="https://www.amazon.com/s?k=Hario%20V60&amp;tag=coffeeprism-20">Hario V60</a>、<a href="https://www.amazon.com/s?k=AeroPress&amp;tag=coffeeprism-20">AeroPress</a>或简单冷萃瓶开始，国内在淘宝、京东都很容易买到平替。</p>
 <h2 id="咖啡在烹饪中的创新应用趋势历史演变与中国市场变化">咖啡在烹饪中的创新应用趋势：历史演变与中国市场变化</h2>
@@ -162,40 +162,40 @@
 <p>做好咖啡在烹饪中的创新应用，不一定要高端设备，但需要稳定、易清洁、适合批量。优先选择能做“低杂质咖啡液”的工具，比追求复杂萃取更重要。</p>
 <h3 id="入门工具怎么选">入门工具怎么选</h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th>适合人群</th>
-          <th>优点</th>
-          <th>预算参考</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>法压壶</td>
-          <td>新手家庭用户</td>
-          <td>便宜、容量大、适合做料理用浓液</td>
-          <td>50-200元</td>
-      </tr>
-      <tr>
-          <td>手冲滤杯</td>
-          <td>已有咖啡习惯者</td>
-          <td>风味干净、适合精细控制</td>
-          <td>80-300元</td>
-      </tr>
-      <tr>
-          <td>AeroPress</td>
-          <td>小家庭、重视效率者</td>
-          <td>萃取快、浓度高、易清洁</td>
-          <td>280-450元</td>
-      </tr>
-      <tr>
-          <td>冷萃瓶</td>
-          <td>夏季料理和甜品玩家</td>
-          <td>低酸顺滑、可提前备料</td>
-          <td>60-200元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>适合人群</th>
+					<th>优点</th>
+					<th>预算参考</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>法压壶</td>
+					<td>新手家庭用户</td>
+					<td>便宜、容量大、适合做料理用浓液</td>
+					<td>50-200元</td>
+			</tr>
+			<tr>
+					<td>手冲滤杯</td>
+					<td>已有咖啡习惯者</td>
+					<td>风味干净、适合精细控制</td>
+					<td>80-300元</td>
+			</tr>
+			<tr>
+					<td>AeroPress</td>
+					<td>小家庭、重视效率者</td>
+					<td>萃取快、浓度高、易清洁</td>
+					<td>280-450元</td>
+			</tr>
+			<tr>
+					<td>冷萃瓶</td>
+					<td>夏季料理和甜品玩家</td>
+					<td>低酸顺滑、可提前备料</td>
+					<td>60-200元</td>
+			</tr>
+	</tbody>
 </table>
 <p>可参考：<a href="https://www.amazon.com/s?k=Hario%20French%20Press&amp;tag=coffeeprism-20">Hario French Press</a>、<a href="https://www.amazon.com/s?k=AeroPress&amp;tag=coffeeprism-20">AeroPress</a>、<a href="https://www.amazon.com/s?k=OXO%20Cold%20Brew%20Coffee%20Maker&amp;tag=coffeeprism-20">OXO Cold Brew Coffee Maker</a>。如果在国内购买，淘宝、京东和小红书团购渠道一般更便宜，售后也更方便。</p>
 <h3 id="适合料理的原料与辅料推荐">适合料理的原料与辅料推荐</h3>
@@ -311,42 +311,42 @@
 <h3 id="咖啡干腌料-rub-的精准配方">咖啡干腌料 rub 的精准配方</h3>
 <p>咖啡粉做干腌料，重点不是“多”，而是“细、匀、搭配合理”。建议基础配方如下，适合500 g 牛肉或猪肋排：</p>
 <table>
-  <thead>
-      <tr>
-          <th>配料</th>
-          <th style="text-align: right">用量</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>细研磨咖啡粉</td>
-          <td style="text-align: right">8 g</td>
-      </tr>
-      <tr>
-          <td>红糖</td>
-          <td style="text-align: right">12 g</td>
-      </tr>
-      <tr>
-          <td>甜椒粉</td>
-          <td style="text-align: right">6 g</td>
-      </tr>
-      <tr>
-          <td>黑胡椒</td>
-          <td style="text-align: right">3 g</td>
-      </tr>
-      <tr>
-          <td>盐</td>
-          <td style="text-align: right">6 g</td>
-      </tr>
-      <tr>
-          <td>蒜粉</td>
-          <td style="text-align: right">3 g</td>
-      </tr>
-      <tr>
-          <td>洋葱粉</td>
-          <td style="text-align: right">3 g</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>配料</th>
+					<th style="text-align: right">用量</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>细研磨咖啡粉</td>
+					<td style="text-align: right">8 g</td>
+			</tr>
+			<tr>
+					<td>红糖</td>
+					<td style="text-align: right">12 g</td>
+			</tr>
+			<tr>
+					<td>甜椒粉</td>
+					<td style="text-align: right">6 g</td>
+			</tr>
+			<tr>
+					<td>黑胡椒</td>
+					<td style="text-align: right">3 g</td>
+			</tr>
+			<tr>
+					<td>盐</td>
+					<td style="text-align: right">6 g</td>
+			</tr>
+			<tr>
+					<td>蒜粉</td>
+					<td style="text-align: right">3 g</td>
+			</tr>
+			<tr>
+					<td>洋葱粉</td>
+					<td style="text-align: right">3 g</td>
+			</tr>
+	</tbody>
 </table>
 <p>把材料混匀后均匀抹在肉表面，冷藏腌制2-8小时。短时间更突出表层香气，过夜则会更融合，但不建议超过24小时，否则盐分与咖啡都可能让表层偏干。空气炸锅可用180℃ 先烤8分钟，再根据厚度补时；烤箱可用190℃ 预热，厚排总时长15-22分钟。</p>
 <h3 id="咖啡甜点应用布朗尼奶冻与冰淇淋">咖啡甜点应用：布朗尼、奶冻与冰淇淋</h3>
@@ -459,30 +459,30 @@
 </ul>
 <h3 id="32-温度控制关键节点">3.2 温度控制关键节点</h3>
 <table>
-  <thead>
-      <tr>
-          <th>应用场景</th>
-          <th>最佳温度带</th>
-          <th>效果对比</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>腌渍肉类</td>
-          <td>4-7℃</td>
-          <td>低温慢萃风味物质</td>
-      </tr>
-      <tr>
-          <td>烘焙甜点</td>
-          <td>160-180℃</td>
-          <td>避免焦苦味产生</td>
-      </tr>
-      <tr>
-          <td>酱汁熬煮</td>
-          <td>82-85℃</td>
-          <td>保持香气分子活性</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>应用场景</th>
+					<th>最佳温度带</th>
+					<th>效果对比</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>腌渍肉类</td>
+					<td>4-7℃</td>
+					<td>低温慢萃风味物质</td>
+			</tr>
+			<tr>
+					<td>烘焙甜点</td>
+					<td>160-180℃</td>
+					<td>避免焦苦味产生</td>
+			</tr>
+			<tr>
+					<td>酱汁熬煮</td>
+					<td>82-85℃</td>
+					<td>保持香气分子活性</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="33-器具创新方案">3.3 器具创新方案</h3>
 <p>推荐国产「泰摩」冷萃壶（<a href="https://item.jd.com/100028325784.html">点击查看</a>），其专利过滤系统可分离咖啡油脂，特别适合制作需要清澈咖啡液的分子料理。</p>

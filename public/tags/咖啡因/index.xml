@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:33 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%9B%A0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南</title>
@@ -49,30 +49,30 @@
 </ul>
 <h3 id="32-不同冲煮方式的咖啡因含量对比">3.2 不同冲煮方式的咖啡因含量对比</h3>
 <table>
-  <thead>
-      <tr>
-          <th>冲煮方式</th>
-          <th>咖啡因含量（200ml）</th>
-          <th>相当于标准量</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>冷萃</td>
-          <td>180-200mg</td>
-          <td>1.2杯</td>
-      </tr>
-      <tr>
-          <td>意式浓缩</td>
-          <td>63-75mg</td>
-          <td>0.4杯</td>
-      </tr>
-      <tr>
-          <td>挂耳咖啡</td>
-          <td>120-150mg</td>
-          <td>0.8杯</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>冲煮方式</th>
+					<th>咖啡因含量（200ml）</th>
+					<th>相当于标准量</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>冷萃</td>
+					<td>180-200mg</td>
+					<td>1.2杯</td>
+			</tr>
+			<tr>
+					<td>意式浓缩</td>
+					<td>63-75mg</td>
+					<td>0.4杯</td>
+			</tr>
+			<tr>
+					<td>挂耳咖啡</td>
+					<td>120-150mg</td>
+					<td>0.8杯</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="四常见误区与科学解决方案">四、常见误区与科学解决方案</h2>
@@ -170,30 +170,30 @@
 <h2 id="四中国市场的实践指南">四、中国市场的实践指南</h2>
 <h3 id="41-本土化产品选择">4.1 本土化产品选择</h3>
 <table>
-  <thead>
-      <tr>
-          <th>品牌</th>
-          <th>产品</th>
-          <th>咖啡因含量(mg)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>瑞幸咖啡</td>
-          <td>标准美式</td>
-          <td>180</td>
-      </tr>
-      <tr>
-          <td>三顿半</td>
-          <td>3号超即溶</td>
-          <td>135</td>
-      </tr>
-      <tr>
-          <td>隅田川</td>
-          <td>挂耳咖啡</td>
-          <td>85</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>品牌</th>
+					<th>产品</th>
+					<th>咖啡因含量(mg)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>瑞幸咖啡</td>
+					<td>标准美式</td>
+					<td>180</td>
+			</tr>
+			<tr>
+					<td>三顿半</td>
+					<td>3号超即溶</td>
+					<td>135</td>
+			</tr>
+			<tr>
+					<td>隅田川</td>
+					<td>挂耳咖啡</td>
+					<td>85</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="42-智能监测工具推荐">4.2 智能监测工具推荐</h3>
 <ul>
@@ -347,30 +347,30 @@
 • <a href="https://www.amazon.com/s?k=Hario%E5%92%96%E5%95%A1%E5%9B%A0%E6%A3%80%E6%B5%8B%E8%AF%95%E7%BA%B8&amp;tag=coffeeprism-20">Hario咖啡因检测试纸</a>可快速测定饮品实际含量</p>
 <h3 id="42-精准摄入工具包">4.2 精准摄入工具包</h3>
 <table>
-  <thead>
-      <tr>
-          <th>产品名称</th>
-          <th>核心功能</th>
-          <th>中国购买渠道</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>泰摩智能称</td>
-          <td>精确到0.1g的咖啡因含量计算</td>
-          <td>天猫旗舰店</td>
-      </tr>
-      <tr>
-          <td>Withings Body+体脂秤</td>
-          <td>代谢率追踪+咖啡因建议</td>
-          <td>京东自营</td>
-      </tr>
-      <tr>
-          <td>三顿半数字溶咖啡</td>
-          <td>每颗标注80mg咖啡因</td>
-          <td>官方小程序</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产品名称</th>
+					<th>核心功能</th>
+					<th>中国购买渠道</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>泰摩智能称</td>
+					<td>精确到0.1g的咖啡因含量计算</td>
+					<td>天猫旗舰店</td>
+			</tr>
+			<tr>
+					<td>Withings Body+体脂秤</td>
+					<td>代谢率追踪+咖啡因建议</td>
+					<td>京东自营</td>
+			</tr>
+			<tr>
+					<td>三顿半数字溶咖啡</td>
+					<td>每颗标注80mg咖啡因</td>
+					<td>官方小程序</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="五常见问题解答">五、常见问题解答</h2>

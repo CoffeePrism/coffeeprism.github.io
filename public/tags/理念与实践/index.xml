@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:16:37 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:20:34 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%90%86%E5%BF%B5%E4%B8%8E%E5%AE%9E%E8%B7%B5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>精品咖啡品牌的理念与实践深度解析指南</title>
@@ -33,40 +33,40 @@
 <h3 id="如何判断一家品牌是否真正践行精品理念">如何判断一家品牌是否真正践行精品理念</h3>
 <p>可以从以下维度快速判断：</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>初级表现</th>
-          <th>高水平表现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>豆单信息</td>
-          <td>只写“埃塞/哥伦比亚”</td>
-          <td>写明产区、处理法、烘焙度、风味描述</td>
-      </tr>
-      <tr>
-          <td>出品稳定</td>
-          <td>靠个别咖啡师经验</td>
-          <td>有标准化配方、培训与校准流程</td>
-      </tr>
-      <tr>
-          <td>品牌叙事</td>
-          <td>强调装修与调性</td>
-          <td>能解释采购、风味与定价逻辑</td>
-      </tr>
-      <tr>
-          <td>消费者教育</td>
-          <td>菜单复杂但解释少</td>
-          <td>提供风味卡、试饮、培训活动</td>
-      </tr>
-      <tr>
-          <td>供应链</td>
-          <td>临时采购</td>
-          <td>长期合作、季节性上新、可追溯</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>初级表现</th>
+					<th>高水平表现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>豆单信息</td>
+					<td>只写“埃塞/哥伦比亚”</td>
+					<td>写明产区、处理法、烘焙度、风味描述</td>
+			</tr>
+			<tr>
+					<td>出品稳定</td>
+					<td>靠个别咖啡师经验</td>
+					<td>有标准化配方、培训与校准流程</td>
+			</tr>
+			<tr>
+					<td>品牌叙事</td>
+					<td>强调装修与调性</td>
+					<td>能解释采购、风味与定价逻辑</td>
+			</tr>
+			<tr>
+					<td>消费者教育</td>
+					<td>菜单复杂但解释少</td>
+					<td>提供风味卡、试饮、培训活动</td>
+			</tr>
+			<tr>
+					<td>供应链</td>
+					<td>临时采购</td>
+					<td>长期合作、季节性上新、可追溯</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你在选豆时想感受品牌对风味表达的重视，可以从基础器具开始，比如 <a href="https://www.amazon.com/s?k=Hario%20V60&amp;tag=coffeeprism-20">Hario V60</a> 或 <a href="https://www.amazon.com/s?k=Timemore%20Chestnut%20C3&amp;tag=coffeeprism-20">Timemore Chestnut C3</a> 这类入门经典；国内则可在淘宝、京东找到稳定货源和售后。</p>
 <h2 id="精品咖啡品牌的理念与实践的历史演变与发展趋势">精品咖啡品牌的理念与实践的历史演变与发展趋势</h2>
@@ -98,42 +98,42 @@
 <h3 id="门店出品标准化精品不等于随意发挥">门店出品标准化：精品不等于随意发挥</h3>
 <p>我在协助门店建立吧台SOP时，最常见的问题是“同一支豆，不同班次喝起来完全不一样”。要解决这个问题，需要固定关键参数：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>推荐范围</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>意式粉量</td>
-          <td>18-20g</td>
-      </tr>
-      <tr>
-          <td>浓缩液重</td>
-          <td>1:2至1:2.2</td>
-      </tr>
-      <tr>
-          <td>萃取时间</td>
-          <td>25-32秒</td>
-      </tr>
-      <tr>
-          <td>牛奶打发温度</td>
-          <td>55-65℃</td>
-      </tr>
-      <tr>
-          <td>手冲粉水比</td>
-          <td>1:15至1:17</td>
-      </tr>
-      <tr>
-          <td>手冲水温</td>
-          <td>88-94℃</td>
-      </tr>
-      <tr>
-          <td>手冲总时长</td>
-          <td>2:00-3:00</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>推荐范围</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>意式粉量</td>
+					<td>18-20g</td>
+			</tr>
+			<tr>
+					<td>浓缩液重</td>
+					<td>1:2至1:2.2</td>
+			</tr>
+			<tr>
+					<td>萃取时间</td>
+					<td>25-32秒</td>
+			</tr>
+			<tr>
+					<td>牛奶打发温度</td>
+					<td>55-65℃</td>
+			</tr>
+			<tr>
+					<td>手冲粉水比</td>
+					<td>1:15至1:17</td>
+			</tr>
+			<tr>
+					<td>手冲水温</td>
+					<td>88-94℃</td>
+			</tr>
+			<tr>
+					<td>手冲总时长</td>
+					<td>2:00-3:00</td>
+			</tr>
+	</tbody>
 </table>
 <p>参数不是越“职业”越好，而是要与豆子和客群匹配。比如日晒埃塞的轻盈花果香，通常不适合过高水温和过细研磨，否则容易出现涩感和发酵杂味。</p>
 <p>想提升家庭或小型门店的稳定性，可以考虑 <a href="https://www.amazon.com/s?k=Fellow%20Stagg%20EKG&amp;tag=coffeeprism-20">Fellow Stagg EKG</a>、<a href="https://www.amazon.com/s?k=Comandante%20C40&amp;tag=coffeeprism-20">Comandante C40</a>、<a href="https://www.amazon.com/s?k=Kalita%20Wave&amp;tag=coffeeprism-20">Kalita Wave</a>。若预算更看重性价比，国内可选择泰摩、MHW-3BOMBER 等品牌，在京东和天猫旗舰店更方便比价。</p>
@@ -182,35 +182,35 @@
 <p>国内替代方案上，泰摩、Hero、MHW-3BOMBER、京东京造等都能覆盖100-800元的主流预算带。</p>
 <h3 id="不同预算的选购思路">不同预算的选购思路</h3>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>适合人群</th>
-          <th>推荐配置</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>300-800元</td>
-          <td>入门爱好者</td>
-          <td>手冲壶+滤杯+秤+基础磨</td>
-      </tr>
-      <tr>
-          <td>800-2000元</td>
-          <td>进阶玩家</td>
-          <td>升级磨豆机与温控壶</td>
-      </tr>
-      <tr>
-          <td>2000-5000元</td>
-          <td>深度玩家/小工作室</td>
-          <td>高一致性手磨或电磨+完整感官工具</td>
-      </tr>
-      <tr>
-          <td>5000元以上</td>
-          <td>小型精品门店</td>
-          <td>商业意式机、专业磨、净水系统</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>适合人群</th>
+					<th>推荐配置</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>300-800元</td>
+					<td>入门爱好者</td>
+					<td>手冲壶+滤杯+秤+基础磨</td>
+			</tr>
+			<tr>
+					<td>800-2000元</td>
+					<td>进阶玩家</td>
+					<td>升级磨豆机与温控壶</td>
+			</tr>
+			<tr>
+					<td>2000-5000元</td>
+					<td>深度玩家/小工作室</td>
+					<td>高一致性手磨或电磨+完整感官工具</td>
+			</tr>
+			<tr>
+					<td>5000元以上</td>
+					<td>小型精品门店</td>
+					<td>商业意式机、专业磨、净水系统</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="工具如何服务品牌理念">工具如何服务品牌理念</h3>
 <p>设备采购不该只为了“看起来专业”。如果品牌强调教育和透明，建议配套：</p>
