@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%A7%91%E5%AD%A6%E7%A0%94%E7%A9%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡与认知功能的科学研究深度解析指南</title>
@@ -57,40 +57,40 @@
 <h3 id="咖啡因剂量怎么定从低剂量开始更科学">咖啡因剂量怎么定：从低剂量开始更科学</h3>
 <p>可以按以下方式估算起步量：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品类型</th>
-          <th style="text-align: right">常见份量</th>
-          <th style="text-align: right">估计咖啡因范围</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>浓缩 Espresso</td>
-          <td style="text-align: right">30 ml</td>
-          <td style="text-align: right">40-75 mg</td>
-      </tr>
-      <tr>
-          <td>美式 Americano</td>
-          <td style="text-align: right">240-350 ml</td>
-          <td style="text-align: right">80-180 mg</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300 ml</td>
-          <td style="text-align: right">90-180 mg</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td style="text-align: right">240-350 ml</td>
-          <td style="text-align: right">100-200+ mg</td>
-      </tr>
-      <tr>
-          <td>速溶咖啡</td>
-          <td style="text-align: right">1 杯</td>
-          <td style="text-align: right">50-100 mg</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品类型</th>
+					<th style="text-align: right">常见份量</th>
+					<th style="text-align: right">估计咖啡因范围</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>浓缩 Espresso</td>
+					<td style="text-align: right">30 ml</td>
+					<td style="text-align: right">40-75 mg</td>
+			</tr>
+			<tr>
+					<td>美式 Americano</td>
+					<td style="text-align: right">240-350 ml</td>
+					<td style="text-align: right">80-180 mg</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300 ml</td>
+					<td style="text-align: right">90-180 mg</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td style="text-align: right">240-350 ml</td>
+					<td style="text-align: right">100-200+ mg</td>
+			</tr>
+			<tr>
+					<td>速溶咖啡</td>
+					<td style="text-align: right">1 杯</td>
+					<td style="text-align: right">50-100 mg</td>
+			</tr>
+	</tbody>
 </table>
 <p>实操建议：</p>
 <ol>
@@ -159,40 +159,40 @@
 <h3 id="办公室与通勤场景便捷优先于极致风味">办公室与通勤场景：便捷优先于极致风味</h3>
 <p>办公室最难的是稳定和省事，而不是比赛级风味。以下类型更适合高频使用：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐工具</th>
-          <th>优点</th>
-          <th>注意点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>办公室</td>
-          <td>胶囊机</td>
-          <td>稳定、快速</td>
-          <td>胶囊成本较高</td>
-      </tr>
-      <tr>
-          <td>通勤</td>
-          <td>冷萃瓶/随行杯</td>
-          <td>易提前准备</td>
-          <td>咖啡因易偏高</td>
-      </tr>
-      <tr>
-          <td>出差</td>
-          <td>爱乐压</td>
-          <td>容错率高</td>
-          <td>需热水条件</td>
-      </tr>
-      <tr>
-          <td>宿舍</td>
-          <td>挂耳包</td>
-          <td>成本低、方便</td>
-          <td>品质波动较大</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐工具</th>
+					<th>优点</th>
+					<th>注意点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>办公室</td>
+					<td>胶囊机</td>
+					<td>稳定、快速</td>
+					<td>胶囊成本较高</td>
+			</tr>
+			<tr>
+					<td>通勤</td>
+					<td>冷萃瓶/随行杯</td>
+					<td>易提前准备</td>
+					<td>咖啡因易偏高</td>
+			</tr>
+			<tr>
+					<td>出差</td>
+					<td>爱乐压</td>
+					<td>容错率高</td>
+					<td>需热水条件</td>
+			</tr>
+			<tr>
+					<td>宿舍</td>
+					<td>挂耳包</td>
+					<td>成本低、方便</td>
+					<td>品质波动较大</td>
+			</tr>
+	</tbody>
 </table>
 <p>可参考 <a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>、<a href="https://www.amazon.com/s?k=YETI%20Tumbler&amp;tag=coffeeprism-20">YETI Tumbler</a>。中国市场替代方案很多，像泰摩随行杯、隅田川挂耳、永璞冷萃液都更容易购买。</p>
 <h3 id="咖啡豆怎么选不是越浅烘越醒脑">咖啡豆怎么选：不是越浅烘越“醒脑”</h3>

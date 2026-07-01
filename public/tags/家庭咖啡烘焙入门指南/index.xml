@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%AE%B6%E5%BA%AD%E5%92%96%E5%95%A1%E7%83%98%E7%84%99%E5%85%A5%E9%97%A8%E6%8C%87%E5%8D%97/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>家庭咖啡烘焙入门指南：新手完全攻略与实操技巧</title>
@@ -141,46 +141,46 @@
 <p>最可靠的方法不是看颜色，而是结合<strong>外观、气味、声音和冲煮结果</strong>四个维度。</p>
 <p>可以用这张表快速判断：</p>
 <table>
-  <thead>
-      <tr>
-          <th>现象</th>
-          <th>常见原因</th>
-          <th>杯中表现</th>
-          <th>调整建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>颜色不均、斑驳</td>
-          <td>热风/翻动不足</td>
-          <td>风味杂乱、甜感差</td>
-          <td>减少投豆量，提高均匀度</td>
-      </tr>
-      <tr>
-          <td>豆表发皱、香气闷</td>
-          <td>脱水不足</td>
-          <td>草本、生涩、尖酸</td>
-          <td>拉长前段或提升前段热量</td>
-      </tr>
-      <tr>
-          <td>表面过深、烟味重</td>
-          <td>发展过度</td>
-          <td>苦、焦、层次少</td>
-          <td>提前下豆，降低后段热量</td>
-      </tr>
-      <tr>
-          <td>闻起来香，喝起来空</td>
-          <td>梅纳阶段不足</td>
-          <td>香气浮、甜感弱</td>
-          <td>中段给足反应时间</td>
-      </tr>
-      <tr>
-          <td>酸尖薄、水感重</td>
-          <td>一爆后发展不足</td>
-          <td>不成熟酸</td>
-          <td>增加 10-20 秒发展时间</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>现象</th>
+					<th>常见原因</th>
+					<th>杯中表现</th>
+					<th>调整建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>颜色不均、斑驳</td>
+					<td>热风/翻动不足</td>
+					<td>风味杂乱、甜感差</td>
+					<td>减少投豆量，提高均匀度</td>
+			</tr>
+			<tr>
+					<td>豆表发皱、香气闷</td>
+					<td>脱水不足</td>
+					<td>草本、生涩、尖酸</td>
+					<td>拉长前段或提升前段热量</td>
+			</tr>
+			<tr>
+					<td>表面过深、烟味重</td>
+					<td>发展过度</td>
+					<td>苦、焦、层次少</td>
+					<td>提前下豆，降低后段热量</td>
+			</tr>
+			<tr>
+					<td>闻起来香，喝起来空</td>
+					<td>梅纳阶段不足</td>
+					<td>香气浮、甜感弱</td>
+					<td>中段给足反应时间</td>
+			</tr>
+			<tr>
+					<td>酸尖薄、水感重</td>
+					<td>一爆后发展不足</td>
+					<td>不成熟酸</td>
+					<td>增加 10-20 秒发展时间</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己的经验是，新手最常犯的问题不是“烤焦”，而是“没烤熟”。很多人怕深，结果在一爆刚开始就急着下豆，杯中会出现明显谷物味、柠檬皮般尖锐酸和干薄尾韵。</p>
 <h2 id="家庭咖啡烘焙入门指南的常见误区与专家建议">家庭咖啡烘焙入门指南的常见误区与专家建议</h2>

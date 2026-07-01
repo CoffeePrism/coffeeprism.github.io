@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%88%9B%E6%96%B0%E7%8E%A9%E6%B3%95/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>爱乐压的创新玩法完全攻略与实战技巧指南</title>
@@ -34,35 +34,35 @@
 <h3 id="影响风味的四个关键变量">影响风味的四个关键变量</h3>
 <p>爱乐压的创新玩法，要先抓住四个最关键的变量。抓准这四项，很多“玄学冲法”其实都能被解释。</p>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th style="text-align: right">常见范围</th>
-          <th>对风味的主要影响</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>粉水比</td>
-          <td style="text-align: right">1:5 到 1:18</td>
-          <td>决定浓度、层次和后续稀释空间</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td style="text-align: right">中细到中粗</td>
-          <td>决定萃取速度与干净度</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td style="text-align: right">80℃ 到 96℃</td>
-          <td>影响酸甜平衡与苦涩释放</td>
-      </tr>
-      <tr>
-          <td>滤材</td>
-          <td style="text-align: right">纸滤/金属滤/布滤</td>
-          <td>影响油脂感、清澈度与口感厚度</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th style="text-align: right">常见范围</th>
+					<th>对风味的主要影响</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>粉水比</td>
+					<td style="text-align: right">1:5 到 1:18</td>
+					<td>决定浓度、层次和后续稀释空间</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td style="text-align: right">中细到中粗</td>
+					<td>决定萃取速度与干净度</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td style="text-align: right">80℃ 到 96℃</td>
+					<td>影响酸甜平衡与苦涩释放</td>
+			</tr>
+			<tr>
+					<td>滤材</td>
+					<td style="text-align: right">纸滤/金属滤/布滤</td>
+					<td>影响油脂感、清澈度与口感厚度</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你只想先记一个结论：<strong>浅烘豆更依赖较高水温和更充分浸泡，中深烘豆更适合适度降温与缩短接触时间</strong>。这条规律在多数爱乐压创新配方里都成立。</p>
 <h3 id="纸滤金属滤和双滤叠加的差异">纸滤、金属滤和双滤叠加的差异</h3>
@@ -197,40 +197,40 @@
 <h3 id="磨豆机滤材和电子秤的预算建议">磨豆机、滤材和电子秤的预算建议</h3>
 <p>真正决定爱乐压上限的，往往不是爱乐压本体，而是磨豆一致性。尤其当你尝试浅烘、高甜感或清透型爱乐压的创新玩法时，均匀研磨非常关键。</p>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th style="text-align: right">入门预算</th>
-          <th style="text-align: right">进阶预算</th>
-          <th>选购重点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>手磨/电磨</td>
-          <td style="text-align: right">200-500元</td>
-          <td style="text-align: right">800-2000元</td>
-          <td>刀盘一致性、刻度清晰</td>
-      </tr>
-      <tr>
-          <td>电子秤</td>
-          <td style="text-align: right">60-150元</td>
-          <td style="text-align: right">200-400元</td>
-          <td>计时、响应速度</td>
-      </tr>
-      <tr>
-          <td>温度控制</td>
-          <td style="text-align: right">50-100元</td>
-          <td style="text-align: right">300-800元</td>
-          <td>温控壶或测温能力</td>
-      </tr>
-      <tr>
-          <td>滤材</td>
-          <td style="text-align: right">30-100元</td>
-          <td style="text-align: right">100-300元</td>
-          <td>纸滤、金属滤、阀门滤盖</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th style="text-align: right">入门预算</th>
+					<th style="text-align: right">进阶预算</th>
+					<th>选购重点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>手磨/电磨</td>
+					<td style="text-align: right">200-500元</td>
+					<td style="text-align: right">800-2000元</td>
+					<td>刀盘一致性、刻度清晰</td>
+			</tr>
+			<tr>
+					<td>电子秤</td>
+					<td style="text-align: right">60-150元</td>
+					<td style="text-align: right">200-400元</td>
+					<td>计时、响应速度</td>
+			</tr>
+			<tr>
+					<td>温度控制</td>
+					<td style="text-align: right">50-100元</td>
+					<td style="text-align: right">300-800元</td>
+					<td>温控壶或测温能力</td>
+			</tr>
+			<tr>
+					<td>滤材</td>
+					<td style="text-align: right">30-100元</td>
+					<td style="text-align: right">100-300元</td>
+					<td>纸滤、金属滤、阀门滤盖</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果预算有限，我建议顺序是：<strong>磨豆机 &gt; 电子秤 &gt; 滤材升级 &gt; 其他附件</strong>。这条投资顺序几乎不会错。</p>
 <h3 id="国内购买渠道与避坑建议">国内购买渠道与避坑建议</h3>

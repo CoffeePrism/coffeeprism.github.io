@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%AE%B6%E7%94%A8%E5%92%96%E5%95%A1%E8%AE%BE%E5%A4%87/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>家用咖啡设备的最佳组合完全攻略与选购指南</title>
@@ -34,40 +34,40 @@
 <p>很多人把预算全砸在一台高价机器上，却忽略了水、豆、秤、壶和清洁。结果就是机器不错，咖啡却忽好忽坏。更合理的思路是看整套链路是否平衡。</p>
 <p>下面这张表可以帮助快速理解：</p>
 <table>
-  <thead>
-      <tr>
-          <th>使用场景</th>
-          <th>推荐核心设备</th>
-          <th>适合人群</th>
-          <th>预算区间</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>手冲日常</td>
-          <td>手磨/电磨 + 滤杯 + 温控壶 + 电子秤</td>
-          <td>喜欢风味层次、愿意动手</td>
-          <td>500-3000元</td>
-      </tr>
-      <tr>
-          <td>奶咖日常</td>
-          <td>意式磨豆机 + 半自动机 + 奶缸</td>
-          <td>喜欢拿铁、卡布、澳白</td>
-          <td>4000-15000元</td>
-      </tr>
-      <tr>
-          <td>方便优先</td>
-          <td>全自动机</td>
-          <td>家庭多人、办公场景</td>
-          <td>2500-12000元</td>
-      </tr>
-      <tr>
-          <td>极简便捷</td>
-          <td>胶囊机</td>
-          <td>追求快速稳定</td>
-          <td>500-3000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>使用场景</th>
+					<th>推荐核心设备</th>
+					<th>适合人群</th>
+					<th>预算区间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>手冲日常</td>
+					<td>手磨/电磨 + 滤杯 + 温控壶 + 电子秤</td>
+					<td>喜欢风味层次、愿意动手</td>
+					<td>500-3000元</td>
+			</tr>
+			<tr>
+					<td>奶咖日常</td>
+					<td>意式磨豆机 + 半自动机 + 奶缸</td>
+					<td>喜欢拿铁、卡布、澳白</td>
+					<td>4000-15000元</td>
+			</tr>
+			<tr>
+					<td>方便优先</td>
+					<td>全自动机</td>
+					<td>家庭多人、办公场景</td>
+					<td>2500-12000元</td>
+			</tr>
+			<tr>
+					<td>极简便捷</td>
+					<td>胶囊机</td>
+					<td>追求快速稳定</td>
+					<td>500-3000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果只能记住一句话，我会建议：<strong>先决定咖啡类型，再决定家用咖啡设备的最佳组合，而不是反过来。</strong></p>
 <h2 id="家用咖啡设备的最佳组合发展趋势从能做咖啡走向稳定复刻">家用咖啡设备的最佳组合发展趋势：从“能做咖啡”走向“稳定复刻”</h2>
@@ -289,46 +289,46 @@
 <h3 id="建立自己的家庭冲煮记录表">建立自己的家庭冲煮记录表</h3>
 <p>这是我非常推荐的高阶习惯。你可以用手机备忘录、Notion或表格记录：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>示例</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>豆子信息</td>
-          <td>埃塞 74110 水洗</td>
-      </tr>
-      <tr>
-          <td>烘焙日期</td>
-          <td>4月5日</td>
-      </tr>
-      <tr>
-          <td>冲煮方式</td>
-          <td>V60</td>
-      </tr>
-      <tr>
-          <td>研磨刻度</td>
-          <td>18 clicks</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>92°C</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15</td>
-      </tr>
-      <tr>
-          <td>时间</td>
-          <td>2:35</td>
-      </tr>
-      <tr>
-          <td>风味结果</td>
-          <td>柑橘酸明显，尾段偏薄</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>示例</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>豆子信息</td>
+					<td>埃塞 74110 水洗</td>
+			</tr>
+			<tr>
+					<td>烘焙日期</td>
+					<td>4月5日</td>
+			</tr>
+			<tr>
+					<td>冲煮方式</td>
+					<td>V60</td>
+			</tr>
+			<tr>
+					<td>研磨刻度</td>
+					<td>18 clicks</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>92°C</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15</td>
+			</tr>
+			<tr>
+					<td>时间</td>
+					<td>2:35</td>
+			</tr>
+			<tr>
+					<td>风味结果</td>
+					<td>柑橘酸明显，尾段偏薄</td>
+			</tr>
+	</tbody>
 </table>
 <p>当你积累10-20次记录后，会明显减少“重新试错”的时间。这也是把家用咖啡设备的最佳组合真正用到位的方式。</p>
 <h3 id="多豆切换时如何减少浪费">多豆切换时如何减少浪费</h3>

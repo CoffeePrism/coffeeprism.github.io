@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E9%97%A8%E5%BA%97%E8%BF%90%E8%90%A5%E6%88%90%E6%9C%AC/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>星巴克提高美国门店薪酬后，咖啡行业用工正在重算：门店运营成本、效率与品牌竞争的新平衡</title>
@@ -54,46 +54,46 @@
 </ul>
 <h3 id="影响门店运营成本的几个关键变量">影响门店运营成本的几个关键变量</h3>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th>调薪/激励前</th>
-          <th>调薪/激励后可能变化</th>
-          <th>对利润的潜在影响</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>基础人工支出</td>
-          <td>较低或中等</td>
-          <td>上升</td>
-          <td>短期承压</td>
-      </tr>
-      <tr>
-          <td>员工流失率</td>
-          <td>偏高</td>
-          <td>可能下降</td>
-          <td>降低招聘培训损耗</td>
-      </tr>
-      <tr>
-          <td>出杯效率</td>
-          <td>不稳定</td>
-          <td>稳定性提升</td>
-          <td>提升翻台与订单承接能力</td>
-      </tr>
-      <tr>
-          <td>客诉/重做率</td>
-          <td>高峰波动大</td>
-          <td>可能下降</td>
-          <td>减少浪费</td>
-      </tr>
-      <tr>
-          <td>门店定价压力</td>
-          <td>可控</td>
-          <td>增强</td>
-          <td>可能部分转嫁给消费者</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th>调薪/激励前</th>
+					<th>调薪/激励后可能变化</th>
+					<th>对利润的潜在影响</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>基础人工支出</td>
+					<td>较低或中等</td>
+					<td>上升</td>
+					<td>短期承压</td>
+			</tr>
+			<tr>
+					<td>员工流失率</td>
+					<td>偏高</td>
+					<td>可能下降</td>
+					<td>降低招聘培训损耗</td>
+			</tr>
+			<tr>
+					<td>出杯效率</td>
+					<td>不稳定</td>
+					<td>稳定性提升</td>
+					<td>提升翻台与订单承接能力</td>
+			</tr>
+			<tr>
+					<td>客诉/重做率</td>
+					<td>高峰波动大</td>
+					<td>可能下降</td>
+					<td>减少浪费</td>
+			</tr>
+			<tr>
+					<td>门店定价压力</td>
+					<td>可控</td>
+					<td>增强</td>
+					<td>可能部分转嫁给消费者</td>
+			</tr>
+	</tbody>
 </table>
 <p>但这里也有风险。不是所有“加钱”都能换来“增效”。如果门店流程本身设计有问题，比如设备布局不合理、移动点单与现场点单动线冲突、SKU 过多、岗位培训碎片化，那么提高薪酬只能缓和症状，不能根治问题。星巴克能否让这次调整发挥作用，最终要看它是否同步优化了三件事：排班系统、门店工作流、激励考核透明度。</p>
 <p>从资本市场角度看，投资人通常接受“有逻辑的人力成本上升”，不接受“看不到回报的福利膨胀”。因此，未来观察星巴克时，不能只盯着薪资支出增长，更要看同店销售、交易笔数、订单等待时间和员工流失指标是否改善。</p>

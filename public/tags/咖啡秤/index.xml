@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%A7%A4/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡秤的应用与推荐：精准萃取的必备指南</title>
@@ -264,35 +264,35 @@
 </ul>
 <h4 id="2-关键参数对比"><strong>2. 关键参数对比</strong></h4>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>重要性说明</th>
-          <th>推荐标准</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>精度</td>
-          <td>影响粉水比准确性</td>
-          <td>≤0.1克</td>
-      </tr>
-      <tr>
-          <td>最大承重</td>
-          <td>需覆盖冲煮壶+水的总重量</td>
-          <td>≥2公斤</td>
-      </tr>
-      <tr>
-          <td>响应速度</td>
-          <td>避免注水延迟导致数据滞后</td>
-          <td>≤0.3秒</td>
-      </tr>
-      <tr>
-          <td>续航能力</td>
-          <td>频繁使用下的便利性</td>
-          <td>锂电池+Type-C充电</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>重要性说明</th>
+					<th>推荐标准</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>精度</td>
+					<td>影响粉水比准确性</td>
+					<td>≤0.1克</td>
+			</tr>
+			<tr>
+					<td>最大承重</td>
+					<td>需覆盖冲煮壶+水的总重量</td>
+					<td>≥2公斤</td>
+			</tr>
+			<tr>
+					<td>响应速度</td>
+					<td>避免注水延迟导致数据滞后</td>
+					<td>≤0.3秒</td>
+			</tr>
+			<tr>
+					<td>续航能力</td>
+					<td>频繁使用下的便利性</td>
+					<td>锂电池+Type-C充电</td>
+			</tr>
+	</tbody>
 </table>
 <h4 id="3-避坑指南常见选购误区"><strong>3. 避坑指南：常见选购误区</strong></h4>
 <ul>

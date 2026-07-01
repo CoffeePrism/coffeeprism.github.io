@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%B1%95%E4%BC%9A%E4%BB%8B%E7%BB%8D/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡节与展会介绍完全攻略与逛展指南</title>
@@ -36,46 +36,46 @@
 <h3 id="什么样的人适合参加什么活动">什么样的人适合参加什么活动</h3>
 <p>不同人群的最佳选择并不一样。下面这张表可以快速判断：</p>
 <table>
-  <thead>
-      <tr>
-          <th>参会目的</th>
-          <th>更适合的活动类型</th>
-          <th>重点看什么</th>
-          <th>预算建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>新手入门</td>
-          <td>大众咖啡节</td>
-          <td>风味体验、器具试用、品牌认知</td>
-          <td>100-500元</td>
-      </tr>
-      <tr>
-          <td>家用玩家</td>
-          <td>咖啡节+小型器具展</td>
-          <td>磨豆机、手冲壶、滤杯、豆子</td>
-          <td>300-2000元</td>
-      </tr>
-      <tr>
-          <td>咖啡馆主理人</td>
-          <td>专业展会</td>
-          <td>设备、供应链、培训、包材</td>
-          <td>2000-10000元以上</td>
-      </tr>
-      <tr>
-          <td>烘焙师/采购</td>
-          <td>专业展+生豆活动</td>
-          <td>产区、处理法、样品豆、烘焙机</td>
-          <td>5000元以上</td>
-      </tr>
-      <tr>
-          <td>内容创作者</td>
-          <td>咖啡节+赛事</td>
-          <td>品牌故事、视觉素材、趋势选题</td>
-          <td>500-3000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参会目的</th>
+					<th>更适合的活动类型</th>
+					<th>重点看什么</th>
+					<th>预算建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>新手入门</td>
+					<td>大众咖啡节</td>
+					<td>风味体验、器具试用、品牌认知</td>
+					<td>100-500元</td>
+			</tr>
+			<tr>
+					<td>家用玩家</td>
+					<td>咖啡节+小型器具展</td>
+					<td>磨豆机、手冲壶、滤杯、豆子</td>
+					<td>300-2000元</td>
+			</tr>
+			<tr>
+					<td>咖啡馆主理人</td>
+					<td>专业展会</td>
+					<td>设备、供应链、培训、包材</td>
+					<td>2000-10000元以上</td>
+			</tr>
+			<tr>
+					<td>烘焙师/采购</td>
+					<td>专业展+生豆活动</td>
+					<td>产区、处理法、样品豆、烘焙机</td>
+					<td>5000元以上</td>
+			</tr>
+			<tr>
+					<td>内容创作者</td>
+					<td>咖啡节+赛事</td>
+					<td>品牌故事、视觉素材、趋势选题</td>
+					<td>500-3000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你打算现场记录风味，建议带上<a href="https://www.amazon.com/s?k=Coffee%20Notebook&amp;tag=coffeeprism-20">Coffee Notebook</a>；如果要频繁试样，随身的<a href="https://www.amazon.com/s?k=Portable%20Cup%20Rinsing%20Bottle&amp;tag=coffeeprism-20">Portable Cup Rinsing Bottle</a>也很实用。国内替代品可在淘宝、京东搜索“咖啡风味笔记本”“便携漱口瓶”。</p>
 <h2 id="中国咖啡节与展会介绍的发展趋势从行业圈层走向大众消费">中国咖啡节与展会介绍的发展趋势：从行业圈层走向大众消费</h2>
@@ -114,40 +114,40 @@
 </ol>
 <p>一个比较实用的预算模型如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th style="text-align: right">新手逛展</th>
-          <th style="text-align: right">进阶玩家</th>
-          <th style="text-align: right">从业者</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>门票</td>
-          <td style="text-align: right">49-199元</td>
-          <td style="text-align: right">99-299元</td>
-          <td style="text-align: right">99-499元</td>
-      </tr>
-      <tr>
-          <td>交通</td>
-          <td style="text-align: right">50-500元</td>
-          <td style="text-align: right">100-1000元</td>
-          <td style="text-align: right">200-2000元</td>
-      </tr>
-      <tr>
-          <td>试饮/消费</td>
-          <td style="text-align: right">100-300元</td>
-          <td style="text-align: right">200-800元</td>
-          <td style="text-align: right">300-1500元</td>
-      </tr>
-      <tr>
-          <td>买豆/器具</td>
-          <td style="text-align: right">100-1000元</td>
-          <td style="text-align: right">500-3000元</td>
-          <td style="text-align: right">1000-10000元+</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th style="text-align: right">新手逛展</th>
+					<th style="text-align: right">进阶玩家</th>
+					<th style="text-align: right">从业者</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>门票</td>
+					<td style="text-align: right">49-199元</td>
+					<td style="text-align: right">99-299元</td>
+					<td style="text-align: right">99-499元</td>
+			</tr>
+			<tr>
+					<td>交通</td>
+					<td style="text-align: right">50-500元</td>
+					<td style="text-align: right">100-1000元</td>
+					<td style="text-align: right">200-2000元</td>
+			</tr>
+			<tr>
+					<td>试饮/消费</td>
+					<td style="text-align: right">100-300元</td>
+					<td style="text-align: right">200-800元</td>
+					<td style="text-align: right">300-1500元</td>
+			</tr>
+			<tr>
+					<td>买豆/器具</td>
+					<td style="text-align: right">100-1000元</td>
+					<td style="text-align: right">500-3000元</td>
+					<td style="text-align: right">1000-10000元+</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="现场逛展顺序先闻香再试饮先设备后周边">现场逛展顺序：先闻香再试饮，先设备后周边</h3>
 <p>这是我反复验证过的顺序，效率最高：</p>
@@ -231,38 +231,38 @@
 <h3 id="用展会建立自己的风味数据库">用展会建立自己的“风味数据库”</h3>
 <p>我会把每次逛展当作一次集中校准。比如同一天内连续喝肯尼亚、哥伦比亚、云南和埃塞豆，风味差异会比平时更鲜明。你可以建立一个最简单的表格：</p>
 <table>
-  <thead>
-      <tr>
-          <th>豆子</th>
-          <th>产区/处理法</th>
-          <th>风味关键词</th>
-          <th>酸甜平衡</th>
-          <th>是否回购</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>埃塞俄比亚</td>
-          <td>水洗</td>
-          <td>柑橘、白花、茶感</td>
-          <td>高酸高甜</td>
-          <td>是</td>
-      </tr>
-      <tr>
-          <td>云南</td>
-          <td>日晒</td>
-          <td>熟果、可可、发酵感</td>
-          <td>中酸中甜</td>
-          <td>视价格</td>
-      </tr>
-      <tr>
-          <td>肯尼亚</td>
-          <td>水洗</td>
-          <td>黑加仑、番茄、莓果</td>
-          <td>明亮</td>
-          <td>是</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>豆子</th>
+					<th>产区/处理法</th>
+					<th>风味关键词</th>
+					<th>酸甜平衡</th>
+					<th>是否回购</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>埃塞俄比亚</td>
+					<td>水洗</td>
+					<td>柑橘、白花、茶感</td>
+					<td>高酸高甜</td>
+					<td>是</td>
+			</tr>
+			<tr>
+					<td>云南</td>
+					<td>日晒</td>
+					<td>熟果、可可、发酵感</td>
+					<td>中酸中甜</td>
+					<td>视价格</td>
+			</tr>
+			<tr>
+					<td>肯尼亚</td>
+					<td>水洗</td>
+					<td>黑加仑、番茄、莓果</td>
+					<td>明亮</td>
+					<td>是</td>
+			</tr>
+	</tbody>
 </table>
 <p>长期记录后，你会发现自己到底偏爱哪类风味，而不是被流行词带着走。</p>
 <h3 id="从活动中捕捉未来趋势">从活动中捕捉未来趋势</h3>
@@ -318,40 +318,40 @@
 <h3 id="咖啡节与专业展会的区别">咖啡节与专业展会的区别</h3>
 <p>最简单的判断方法，是看目标和观众结构。咖啡节面向消费者，重点是“喝”和“玩”；展会面向从业者，重点是“看行业、找供应商、谈合作”。</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>咖啡节</th>
-          <th>专业展会</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>核心目标</td>
-          <td>品牌曝光、用户互动、限定销售</td>
-          <td>商务对接、设备展示、行业发布</td>
-      </tr>
-      <tr>
-          <td>适合人群</td>
-          <td>新手、爱好者、旅行者</td>
-          <td>店主、采购、烘焙师、咖啡师</td>
-      </tr>
-      <tr>
-          <td>场景特点</td>
-          <td>市集感强、社交密度高</td>
-          <td>信息密度高、步行量大</td>
-      </tr>
-      <tr>
-          <td>消费结构</td>
-          <td>饮品、周边、伴手礼</td>
-          <td>设备、原料、渠道合作</td>
-      </tr>
-      <tr>
-          <td>停留方式</td>
-          <td>2-4小时更常见</td>
-          <td>半天到2天更常见</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>咖啡节</th>
+					<th>专业展会</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>核心目标</td>
+					<td>品牌曝光、用户互动、限定销售</td>
+					<td>商务对接、设备展示、行业发布</td>
+			</tr>
+			<tr>
+					<td>适合人群</td>
+					<td>新手、爱好者、旅行者</td>
+					<td>店主、采购、烘焙师、咖啡师</td>
+			</tr>
+			<tr>
+					<td>场景特点</td>
+					<td>市集感强、社交密度高</td>
+					<td>信息密度高、步行量大</td>
+			</tr>
+			<tr>
+					<td>消费结构</td>
+					<td>饮品、周边、伴手礼</td>
+					<td>设备、原料、渠道合作</td>
+			</tr>
+			<tr>
+					<td>停留方式</td>
+					<td>2-4小时更常见</td>
+					<td>半天到2天更常见</td>
+			</tr>
+	</tbody>
 </table>
 <p>以我自己的逛展经验看，第一次参加的人最容易把两者混为一谈，结果要么穿得太轻松，逛展会时背不动资料和样品；要么安排得太紧，到了咖啡节反而没时间跟主理人聊天。提前识别活动性质，效率会高很多。</p>
 <h3 id="国内值得关注的咖啡节与展会城市">国内值得关注的咖啡节与展会城市</h3>
@@ -415,35 +415,35 @@
 <p>买豆子时，先看新鲜度和包装信息，再看是否适合你的冲煮器具。很多人在展会上被风味描述打动，回家才发现自己的设备根本冲不出现场效果。买器材也一样，别只看“冠军同款”，要看是否适配你的使用频率和预算。</p>
 <p>下面这张表适合现场快速决策：</p>
 <table>
-  <thead>
-      <tr>
-          <th>采购对象</th>
-          <th>优先看什么</th>
-          <th>不要忽略什么</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>咖啡豆</td>
-          <td>烘焙日期、处理法、适用场景</td>
-          <td>包装阀、净含量、价格/克数</td>
-      </tr>
-      <tr>
-          <td>手冲器具</td>
-          <td>稳定性、材质、清洁难度</td>
-          <td>滤纸和耗材成本</td>
-      </tr>
-      <tr>
-          <td>磨豆机</td>
-          <td>刀盘类型、均匀度、噪音</td>
-          <td>售后与配件渠道</td>
-      </tr>
-      <tr>
-          <td>咖啡机</td>
-          <td>温控、压力稳定、体积</td>
-          <td>维修成本、电压适配</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>采购对象</th>
+					<th>优先看什么</th>
+					<th>不要忽略什么</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>咖啡豆</td>
+					<td>烘焙日期、处理法、适用场景</td>
+					<td>包装阀、净含量、价格/克数</td>
+			</tr>
+			<tr>
+					<td>手冲器具</td>
+					<td>稳定性、材质、清洁难度</td>
+					<td>滤纸和耗材成本</td>
+			</tr>
+			<tr>
+					<td>磨豆机</td>
+					<td>刀盘类型、均匀度、噪音</td>
+					<td>售后与配件渠道</td>
+			</tr>
+			<tr>
+					<td>咖啡机</td>
+					<td>温控、压力稳定、体积</td>
+					<td>维修成本、电压适配</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你准备入门家用器材，常见可参考的产品包括：<a href="https://www.amazon.com/s?k=Hario%20V60%20Dripper&amp;tag=coffeeprism-20">Hario V60 Dripper</a>、<a href="https://www.amazon.com/s?k=Timemore%20Chestnut%20C3&amp;tag=coffeeprism-20">Timemore Chestnut C3</a>、<a href="https://www.amazon.com/s?k=Fellow%20Stagg%20EKG&amp;tag=coffeeprism-20">Fellow Stagg EKG</a>、<a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>。国内购买时，可对比淘宝、京东、天猫国际与品牌官方旗舰店，注意保修和滤纸等耗材是否容易补货。</p>
 <h2 id="咖啡节与展会介绍常见误区新手最容易踩的坑">咖啡节与展会介绍常见误区：新手最容易踩的坑</h2>
@@ -543,30 +543,30 @@
 <h3 id="如何根据目的选择活动类型">如何根据目的选择活动类型</h3>
 <p>判断是否值得去，先问自己三个问题：</p>
 <table>
-  <thead>
-      <tr>
-          <th>你的目的</th>
-          <th>更适合的活动</th>
-          <th>重点关注</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>想试喝、拍照、体验城市咖啡文化</td>
-          <td>咖啡节/咖啡市集</td>
-          <td>参展品牌、联名活动、门票价格</td>
-      </tr>
-      <tr>
-          <td>想买设备、找豆商、谈合作</td>
-          <td>专业展会</td>
-          <td>展商名单、论坛议程、比赛安排</td>
-      </tr>
-      <tr>
-          <td>想认识从业者、学习趋势</td>
-          <td>两者都可</td>
-          <td>沙龙讲座、赛事、社群活动</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>你的目的</th>
+					<th>更适合的活动</th>
+					<th>重点关注</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>想试喝、拍照、体验城市咖啡文化</td>
+					<td>咖啡节/咖啡市集</td>
+					<td>参展品牌、联名活动、门票价格</td>
+			</tr>
+			<tr>
+					<td>想买设备、找豆商、谈合作</td>
+					<td>专业展会</td>
+					<td>展商名单、论坛议程、比赛安排</td>
+			</tr>
+			<tr>
+					<td>想认识从业者、学习趋势</td>
+					<td>两者都可</td>
+					<td>沙龙讲座、赛事、社群活动</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果是第一次参加，我建议先从消费者友好的咖啡节入门，再升级到专业展会。随身带一个便携杯会更方便，也更环保，比如 <a href="https://www.amazon.com/s?k=KeepCup&amp;tag=coffeeprism-20">KeepCup</a> 这类可重复使用杯具，国内在淘宝和京东也容易找到类似替代品。</p>
 <h2 id="咖啡节与展会介绍的发展趋势中国市场与全球活动正在如何变化">咖啡节与展会介绍的发展趋势：中国市场与全球活动正在如何变化</h2>
@@ -628,34 +628,34 @@
 <h3 id="现场试饮的精确节奏建议">现场试饮的精确节奏建议</h3>
 <p>为了避免味觉疲劳，我通常按这个节奏控制：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>建议参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>每30分钟试饮杯数</td>
-          <td>2-3杯</td>
-      </tr>
-      <tr>
-          <td>两杯之间间隔</td>
-          <td>8-12分钟</td>
-      </tr>
-      <tr>
-          <td>每90分钟休息</td>
-          <td>15-20分钟</td>
-      </tr>
-      <tr>
-          <td>单日建议总试饮量</td>
-          <td>8-12杯</td>
-      </tr>
-      <tr>
-          <td>手冲与奶咖比例</td>
-          <td>2:1 更易保持判断力</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>建议参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>每30分钟试饮杯数</td>
+					<td>2-3杯</td>
+			</tr>
+			<tr>
+					<td>两杯之间间隔</td>
+					<td>8-12分钟</td>
+			</tr>
+			<tr>
+					<td>每90分钟休息</td>
+					<td>15-20分钟</td>
+			</tr>
+			<tr>
+					<td>单日建议总试饮量</td>
+					<td>8-12杯</td>
+			</tr>
+			<tr>
+					<td>手冲与奶咖比例</td>
+					<td>2:1 更易保持判断力</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果现场允许，我更建议优先选择小杯试饮。尤其是浅烘手冲样品，风味细节多，但也更容易让口腔疲劳。喝完后立刻写下三项：酸感、甜感、余韵。这样回家后才知道哪些品牌值得复购。</p>
 <h3 id="一天观展路线怎么排最合理">一天观展路线怎么排最合理</h3>
@@ -691,34 +691,34 @@
 <p>展会的确适合买器材，但前提是知道自己需要什么。以手冲为例，很多新手一上来就想买全套，结果回家发现最影响风味的不是壶，而是磨豆机和稳定参数。</p>
 <p>我一般会给新手这个优先级建议：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算优先级</th>
-          <th>推荐购买</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>第一优先</td>
-          <td>磨豆机</td>
-      </tr>
-      <tr>
-          <td>第二优先</td>
-          <td>电子秤</td>
-      </tr>
-      <tr>
-          <td>第三优先</td>
-          <td>滤杯与滤纸</td>
-      </tr>
-      <tr>
-          <td>第四优先</td>
-          <td>细口壶</td>
-      </tr>
-      <tr>
-          <td>第五优先</td>
-          <td>分享壶与收纳</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算优先级</th>
+					<th>推荐购买</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>第一优先</td>
+					<td>磨豆机</td>
+			</tr>
+			<tr>
+					<td>第二优先</td>
+					<td>电子秤</td>
+			</tr>
+			<tr>
+					<td>第三优先</td>
+					<td>滤杯与滤纸</td>
+			</tr>
+			<tr>
+					<td>第四优先</td>
+					<td>细口壶</td>
+			</tr>
+			<tr>
+					<td>第五优先</td>
+					<td>分享壶与收纳</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果预算有限，与其买昂贵周边，不如把钱投到稳定研磨上。像 <a href="https://www.amazon.com/s?k=Hario%20V60&amp;tag=coffeeprism-20">Hario V60</a> 和 <a href="https://www.amazon.com/s?k=Kalita%20Wave&amp;tag=coffeeprism-20">Kalita Wave</a> 这种基础器具，国内外都容易买到，性价比也更清晰。</p>
 <h2 id="咖啡节与展会介绍的产品工具推荐观展试饮与采购怎么选">咖啡节与展会介绍的产品工具推荐：观展、试饮与采购怎么选</h2>
@@ -848,30 +848,30 @@
 <h3 id="未来趋势精品化区域化与跨界化">未来趋势：精品化、区域化与跨界化</h3>
 <p>未来几年的趋势，大致可以概括为三点：</p>
 <table>
-  <thead>
-      <tr>
-          <th>趋势</th>
-          <th>具体表现</th>
-          <th>对观众的意义</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>精品化</td>
-          <td>单一产区、处理法、烘焙曲线表达更细</td>
-          <td>更容易喝出差异，不再只看品牌名气</td>
-      </tr>
-      <tr>
-          <td>区域化</td>
-          <td>云南、海南等本土产区内容增多</td>
-          <td>能直接接触中国咖啡种植与加工故事</td>
-      </tr>
-      <tr>
-          <td>跨界化</td>
-          <td>咖啡与餐饮、酒饮、设计、露营结合</td>
-          <td>活动更好玩，也更适合内容传播</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>趋势</th>
+					<th>具体表现</th>
+					<th>对观众的意义</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>精品化</td>
+					<td>单一产区、处理法、烘焙曲线表达更细</td>
+					<td>更容易喝出差异，不再只看品牌名气</td>
+			</tr>
+			<tr>
+					<td>区域化</td>
+					<td>云南、海南等本土产区内容增多</td>
+					<td>能直接接触中国咖啡种植与加工故事</td>
+			</tr>
+			<tr>
+					<td>跨界化</td>
+					<td>咖啡与餐饮、酒饮、设计、露营结合</td>
+					<td>活动更好玩，也更适合内容传播</td>
+			</tr>
+	</tbody>
 </table>
 <p>尤其值得注意的是云南咖啡。近几年，无论是生豆质量、处理法多样性，还是本土烘焙品牌的表达能力，都在提升。很多展会会专门设置云南咖啡专区，这对消费者理解“中国咖啡风味”非常关键。</p>
 <h2 id="如何参加咖啡节与展会介绍活动行前准备与现场路线最重要">如何参加咖啡节与展会介绍活动：行前准备与现场路线最重要</h2>
@@ -976,35 +976,35 @@
 <h3 id="300元以内第一次逛咖啡节的实用清单">300元以内：第一次逛咖啡节的实用清单</h3>
 <p>预算有限时，以下组合已经够用：</p>
 <table>
-  <thead>
-      <tr>
-          <th>装备</th>
-          <th style="text-align: right">参考价格</th>
-          <th>用途</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>便携水杯</td>
-          <td style="text-align: right">50-150元</td>
-          <td>补水、清口</td>
-      </tr>
-      <tr>
-          <td>小号笔记本/手机备忘录</td>
-          <td style="text-align: right">0-50元</td>
-          <td>记录风味与联系人</td>
-      </tr>
-      <tr>
-          <td>轻便托特包</td>
-          <td style="text-align: right">30-100元</td>
-          <td>装宣传册和小物</td>
-      </tr>
-      <tr>
-          <td>独立纸巾/湿巾</td>
-          <td style="text-align: right">10-30元</td>
-          <td>清洁和应急</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>装备</th>
+					<th style="text-align: right">参考价格</th>
+					<th>用途</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>便携水杯</td>
+					<td style="text-align: right">50-150元</td>
+					<td>补水、清口</td>
+			</tr>
+			<tr>
+					<td>小号笔记本/手机备忘录</td>
+					<td style="text-align: right">0-50元</td>
+					<td>记录风味与联系人</td>
+			</tr>
+			<tr>
+					<td>轻便托特包</td>
+					<td style="text-align: right">30-100元</td>
+					<td>装宣传册和小物</td>
+			</tr>
+			<tr>
+					<td>独立纸巾/湿巾</td>
+					<td style="text-align: right">10-30元</td>
+					<td>清洁和应急</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想带一只便携杯，像 <a href="https://www.amazon.com/s?k=KeepCup&amp;tag=coffeeprism-20">KeepCup</a> 或 <a href="https://www.amazon.com/s?k=Fellow%20Carter%20Mug&amp;tag=coffeeprism-20">Fellow Carter Mug</a> 都是常见选择。国内也可以选择更容易买到的平替款，关键是密封性和重量。</p>
 <h3 id="1000元以上重度爱好者与从业者进阶配置">1000元以上：重度爱好者与从业者进阶配置</h3>
@@ -1185,35 +1185,35 @@
 <h3 id="新手逛展必备工具清单">新手逛展必备工具清单</h3>
 <p>对于普通消费者，以下工具足够实用，预算也相对友好：</p>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th>作用</th>
-          <th style="text-align: right">参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>便携电子秤</td>
-          <td>记录粉水比与冲煮重量</td>
-          <td style="text-align: right">80-300元</td>
-      </tr>
-      <tr>
-          <td>密封罐</td>
-          <td>保存现场购买的咖啡豆</td>
-          <td style="text-align: right">50-200元</td>
-      </tr>
-      <tr>
-          <td>手冲分享壶/随行杯</td>
-          <td>现场或回家复现冲煮</td>
-          <td style="text-align: right">60-300元</td>
-      </tr>
-      <tr>
-          <td>记录卡/风味笔记本</td>
-          <td>比较不同品牌与豆子</td>
-          <td style="text-align: right">20-80元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>作用</th>
+					<th style="text-align: right">参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>便携电子秤</td>
+					<td>记录粉水比与冲煮重量</td>
+					<td style="text-align: right">80-300元</td>
+			</tr>
+			<tr>
+					<td>密封罐</td>
+					<td>保存现场购买的咖啡豆</td>
+					<td style="text-align: right">50-200元</td>
+			</tr>
+			<tr>
+					<td>手冲分享壶/随行杯</td>
+					<td>现场或回家复现冲煮</td>
+					<td style="text-align: right">60-300元</td>
+			</tr>
+			<tr>
+					<td>记录卡/风味笔记本</td>
+					<td>比较不同品牌与豆子</td>
+					<td style="text-align: right">20-80元</td>
+			</tr>
+	</tbody>
 </table>
 <p>对应产品可以参考 <a href="https://www.amazon.com/s?k=Coffee%20Scale&amp;tag=coffeeprism-20">Coffee Scale</a>、<a href="https://www.amazon.com/s?k=Coffee%20Server&amp;tag=coffeeprism-20">Coffee Server</a>、<a href="https://www.amazon.com/s?k=Travel%20Mug&amp;tag=coffeeprism-20">Travel Mug</a>。国内可替代搜索“泰摩黑镜”“HARIO分享壶”“MHW-3BOMBER随行杯”。</p>
 <h3 id="家用升级器具怎么选更划算">家用升级器具怎么选更划算</h3>
@@ -1479,40 +1479,40 @@
 <h3 id="时间与预算怎么配半日轻逛与全天深逛方案">时间与预算怎么配：半日轻逛与全天深逛方案</h3>
 <p>常见预算可以这样估算：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th style="text-align: right">半日轻逛</th>
-          <th style="text-align: right">全天深逛</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>门票</td>
-          <td style="text-align: right">39-99元</td>
-          <td style="text-align: right">99-199元</td>
-      </tr>
-      <tr>
-          <td>试饮/购买咖啡</td>
-          <td style="text-align: right">80-150元</td>
-          <td style="text-align: right">150-300元</td>
-      </tr>
-      <tr>
-          <td>器具/周边</td>
-          <td style="text-align: right">0-200元</td>
-          <td style="text-align: right">200-1000元以上</td>
-      </tr>
-      <tr>
-          <td>交通餐饮</td>
-          <td style="text-align: right">50-120元</td>
-          <td style="text-align: right">80-180元</td>
-      </tr>
-      <tr>
-          <td>合计</td>
-          <td style="text-align: right">169-569元</td>
-          <td style="text-align: right">529-1679元以上</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th style="text-align: right">半日轻逛</th>
+					<th style="text-align: right">全天深逛</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>门票</td>
+					<td style="text-align: right">39-99元</td>
+					<td style="text-align: right">99-199元</td>
+			</tr>
+			<tr>
+					<td>试饮/购买咖啡</td>
+					<td style="text-align: right">80-150元</td>
+					<td style="text-align: right">150-300元</td>
+			</tr>
+			<tr>
+					<td>器具/周边</td>
+					<td style="text-align: right">0-200元</td>
+					<td style="text-align: right">200-1000元以上</td>
+			</tr>
+			<tr>
+					<td>交通餐饮</td>
+					<td style="text-align: right">50-120元</td>
+					<td style="text-align: right">80-180元</td>
+			</tr>
+			<tr>
+					<td>合计</td>
+					<td style="text-align: right">169-569元</td>
+					<td style="text-align: right">529-1679元以上</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果目标是买器具，建议预留更高预算。展会折扣确实存在，但并不是所有产品都比电商更便宜。你可以先在京东、天猫、淘宝看平时价格，再判断现场是否值得入手。</p>
 <h3 id="现场执行技巧试饮顺序记录方法和体力分配">现场执行技巧：试饮顺序、记录方法和体力分配</h3>

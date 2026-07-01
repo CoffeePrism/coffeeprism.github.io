@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E8%B1%86%E7%A7%8D%E7%B1%BB/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>巴拿马翡翠庄园的瑰夏咖啡深度解析与选购指南</title>
@@ -42,34 +42,34 @@
 </ul>
 <p>这些条件会让豆子发展出更复杂的前体物质。冲煮后常见风味描述包括：</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>常见表现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>花香</td>
-          <td>茉莉、橙花、白花</td>
-      </tr>
-      <tr>
-          <td>果香</td>
-          <td>佛手柑、蜜桃、热带水果、柑橘</td>
-      </tr>
-      <tr>
-          <td>口感</td>
-          <td>茶感、丝滑、轻盈</td>
-      </tr>
-      <tr>
-          <td>酸质</td>
-          <td>明亮、柑橘型、细腻</td>
-      </tr>
-      <tr>
-          <td>余韵</td>
-          <td>花果香持久、甜感回甘明显</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>常见表现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>花香</td>
+					<td>茉莉、橙花、白花</td>
+			</tr>
+			<tr>
+					<td>果香</td>
+					<td>佛手柑、蜜桃、热带水果、柑橘</td>
+			</tr>
+			<tr>
+					<td>口感</td>
+					<td>茶感、丝滑、轻盈</td>
+			</tr>
+			<tr>
+					<td>酸质</td>
+					<td>明亮、柑橘型、细腻</td>
+			</tr>
+			<tr>
+					<td>余韵</td>
+					<td>花果香持久、甜感回甘明显</td>
+			</tr>
+	</tbody>
 </table>
 <p>对中国消费者来说，这种风味很像“高香型乌龙茶和白桃果汁之间的交集”，所以即便是不常喝浅烘手冲的人，也容易记住它。</p>
 <h2 id="巴拿马翡翠庄园的瑰夏咖啡的历史演变与市场趋势">巴拿马翡翠庄园的瑰夏咖啡的历史演变与市场趋势</h2>
@@ -116,46 +116,46 @@
 <h3 id="一套适合初学者的稳定参数">一套适合初学者的稳定参数</h3>
 <p>如果你第一次冲<strong>巴拿马翡翠庄园的瑰夏咖啡</strong>，建议从保守参数起步：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>建议参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>粉量</td>
-          <td>15g</td>
-      </tr>
-      <tr>
-          <td>水量</td>
-          <td>225g</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>90-92°C（水洗）/ 88-91°C（日晒）</td>
-      </tr>
-      <tr>
-          <td>研磨</td>
-          <td>中细，接近白砂糖略细</td>
-      </tr>
-      <tr>
-          <td>总时长</td>
-          <td>2:10-2:50</td>
-      </tr>
-      <tr>
-          <td>滤杯</td>
-          <td>V60 01/02</td>
-      </tr>
-      <tr>
-          <td>注水方式</td>
-          <td>3段或4段</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>建议参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>粉量</td>
+					<td>15g</td>
+			</tr>
+			<tr>
+					<td>水量</td>
+					<td>225g</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>90-92°C（水洗）/ 88-91°C（日晒）</td>
+			</tr>
+			<tr>
+					<td>研磨</td>
+					<td>中细，接近白砂糖略细</td>
+			</tr>
+			<tr>
+					<td>总时长</td>
+					<td>2:10-2:50</td>
+			</tr>
+			<tr>
+					<td>滤杯</td>
+					<td>V60 01/02</td>
+			</tr>
+			<tr>
+					<td>注水方式</td>
+					<td>3段或4段</td>
+			</tr>
+	</tbody>
 </table>
 <p>具体步骤：</p>
 <ol>
@@ -221,26 +221,26 @@
 <p>中国市场替代方案也很成熟。预算有限时，可以在京东、淘宝优先找泰摩、MHW-3BOMBER、Hario、Kinu、1Zpresso 等品牌的正规渠道。</p>
 <h3 id="不同预算怎么搭配更合理">不同预算怎么搭配更合理</h3>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>推荐搭配</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>500-1000元</td>
-          <td>手磨 + V60 + 基础电子秤</td>
-      </tr>
-      <tr>
-          <td>1000-2500元</td>
-          <td>进阶手磨/入门电磨 + 细口壶 + 稳定滤杯</td>
-      </tr>
-      <tr>
-          <td>2500元以上</td>
-          <td>高均匀度电磨 + 专业控温壶 + 精准电子秤</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>推荐搭配</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>500-1000元</td>
+					<td>手磨 + V60 + 基础电子秤</td>
+			</tr>
+			<tr>
+					<td>1000-2500元</td>
+					<td>进阶手磨/入门电磨 + 细口壶 + 稳定滤杯</td>
+			</tr>
+			<tr>
+					<td>2500元以上</td>
+					<td>高均匀度电磨 + 专业控温壶 + 精准电子秤</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你的目标只是喝明白翡翠庄园瑰夏，不必一开始就追求顶配。相反，把预算留给 2-3 次不同烘焙商的横向对比，更能建立认知。</p>
 <h3 id="如何判断购买渠道是否靠谱">如何判断购买渠道是否靠谱</h3>
@@ -333,35 +333,35 @@
 <h3 id="单一产地与拼配豆的风味区别">单一产地与拼配豆的风味区别</h3>
 <p>直接说结论：单一产地更强调“个性”，拼配豆更强调“平衡”和“稳定”。</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>单一产地咖啡豆</th>
-          <th>拼配咖啡豆</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>风味表达</td>
-          <td>更鲜明、更有辨识度</td>
-          <td>更均衡、更易接受</td>
-      </tr>
-      <tr>
-          <td>稳定性</td>
-          <td>受产季影响更大</td>
-          <td>通常更稳定</td>
-      </tr>
-      <tr>
-          <td>适合场景</td>
-          <td>手冲、品鉴、风味探索</td>
-          <td>意式、奶咖、日常商用</td>
-      </tr>
-      <tr>
-          <td>学习价值</td>
-          <td>高，适合建立风味认知</td>
-          <td>高，适合追求稳定出品</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>单一产地咖啡豆</th>
+					<th>拼配咖啡豆</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>风味表达</td>
+					<td>更鲜明、更有辨识度</td>
+					<td>更均衡、更易接受</td>
+			</tr>
+			<tr>
+					<td>稳定性</td>
+					<td>受产季影响更大</td>
+					<td>通常更稳定</td>
+			</tr>
+			<tr>
+					<td>适合场景</td>
+					<td>手冲、品鉴、风味探索</td>
+					<td>意式、奶咖、日常商用</td>
+			</tr>
+			<tr>
+					<td>学习价值</td>
+					<td>高，适合建立风味认知</td>
+					<td>高，适合追求稳定出品</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想快速理解<strong>单一产地咖啡豆的风味特点</strong>，建议先从同烘焙度下的两到三款不同产区豆子进行横向对比，而不是只喝单一豆款。</p>
 <h2 id="单一产地咖啡豆的风味特点有哪些产区品种与处理法的影响">单一产地咖啡豆的风味特点有哪些：产区、品种与处理法的影响</h2>
@@ -369,46 +369,46 @@
 <h3 id="不同产区的典型风味画像">不同产区的典型风味画像</h3>
 <p>全球主流精品咖啡产区中，以下风味最常见：</p>
 <table>
-  <thead>
-      <tr>
-          <th>产区</th>
-          <th>常见风味</th>
-          <th>口感特征</th>
-          <th>适合人群</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>埃塞俄比亚</td>
-          <td>茉莉花、柑橘、桃子、红茶</td>
-          <td>酸质明亮，香气高扬</td>
-          <td>喜欢花果香的人</td>
-      </tr>
-      <tr>
-          <td>肯尼亚</td>
-          <td>黑加仑、番茄、莓果、葡萄柚</td>
-          <td>酸质锐利，层次强</td>
-          <td>进阶玩家</td>
-      </tr>
-      <tr>
-          <td>哥伦比亚</td>
-          <td>焦糖、红苹果、坚果、柑橘</td>
-          <td>平衡感好，甜感稳定</td>
-          <td>新手友好</td>
-      </tr>
-      <tr>
-          <td>巴西</td>
-          <td>坚果、牛奶巧克力、黄糖</td>
-          <td>醇厚顺滑，酸度低</td>
-          <td>奶咖、浓缩爱好者</td>
-      </tr>
-      <tr>
-          <td>云南</td>
-          <td>坚果、可可、核果、花香</td>
-          <td>近年来干净度显著提升</td>
-          <td>想支持国产精品豆的人</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产区</th>
+					<th>常见风味</th>
+					<th>口感特征</th>
+					<th>适合人群</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>埃塞俄比亚</td>
+					<td>茉莉花、柑橘、桃子、红茶</td>
+					<td>酸质明亮，香气高扬</td>
+					<td>喜欢花果香的人</td>
+			</tr>
+			<tr>
+					<td>肯尼亚</td>
+					<td>黑加仑、番茄、莓果、葡萄柚</td>
+					<td>酸质锐利，层次强</td>
+					<td>进阶玩家</td>
+			</tr>
+			<tr>
+					<td>哥伦比亚</td>
+					<td>焦糖、红苹果、坚果、柑橘</td>
+					<td>平衡感好，甜感稳定</td>
+					<td>新手友好</td>
+			</tr>
+			<tr>
+					<td>巴西</td>
+					<td>坚果、牛奶巧克力、黄糖</td>
+					<td>醇厚顺滑，酸度低</td>
+					<td>奶咖、浓缩爱好者</td>
+			</tr>
+			<tr>
+					<td>云南</td>
+					<td>坚果、可可、核果、花香</td>
+					<td>近年来干净度显著提升</td>
+					<td>想支持国产精品豆的人</td>
+			</tr>
+	</tbody>
 </table>
 <p>中国市场上，云南精品豆近年进步很快。根据公开行业观察与多家烘焙商上新趋势，保山、普洱、孟连等地的高海拔水洗与日晒批次，已经能提供不错的甜感与干净度，在淘宝、京东及精品烘焙品牌小程序上都比较容易买到。</p>
 <h3 id="品种如何塑造单一产地风味">品种如何塑造单一产地风味</h3>
@@ -458,38 +458,38 @@
 <h3 id="手冲参数怎么设定更能突出风味">手冲参数怎么设定更能突出风味</h3>
 <p>以下是一套适合大多数单一产地浅中烘豆的 V60 参考参数：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>建议参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>粉量</td>
-          <td>15g</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15 到 1:16</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>90-93°C</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>中细，接近白砂糖颗粒</td>
-      </tr>
-      <tr>
-          <td>总萃取时间</td>
-          <td>2:15-3:00</td>
-      </tr>
-      <tr>
-          <td>悦口TDS参考</td>
-          <td>1.20%-1.45%</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>建议参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>粉量</td>
+					<td>15g</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15 到 1:16</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>90-93°C</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>中细，接近白砂糖颗粒</td>
+			</tr>
+			<tr>
+					<td>总萃取时间</td>
+					<td>2:15-3:00</td>
+			</tr>
+			<tr>
+					<td>悦口TDS参考</td>
+					<td>1.20%-1.45%</td>
+			</tr>
+	</tbody>
 </table>
 <p>实操步骤：</p>
 <ol>
@@ -547,40 +547,40 @@
 <h3 id="新手如何按风味偏好选豆">新手如何按风味偏好选豆</h3>
 <p>可以按“你平时喜欢什么味道”来选：</p>
 <table>
-  <thead>
-      <tr>
-          <th>偏好</th>
-          <th>推荐产地</th>
-          <th>处理法建议</th>
-          <th>价格区间</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>喜欢花香果酸</td>
-          <td>埃塞俄比亚</td>
-          <td>水洗</td>
-          <td>90-180元/250g</td>
-      </tr>
-      <tr>
-          <td>喜欢均衡甜感</td>
-          <td>哥伦比亚</td>
-          <td>水洗/蜜处理</td>
-          <td>80-160元/250g</td>
-      </tr>
-      <tr>
-          <td>喜欢巧克力坚果</td>
-          <td>巴西</td>
-          <td>日晒/半水洗</td>
-          <td>70-140元/250g</td>
-      </tr>
-      <tr>
-          <td>想支持国产</td>
-          <td>云南</td>
-          <td>水洗/日晒</td>
-          <td>60-150元/250g</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>偏好</th>
+					<th>推荐产地</th>
+					<th>处理法建议</th>
+					<th>价格区间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>喜欢花香果酸</td>
+					<td>埃塞俄比亚</td>
+					<td>水洗</td>
+					<td>90-180元/250g</td>
+			</tr>
+			<tr>
+					<td>喜欢均衡甜感</td>
+					<td>哥伦比亚</td>
+					<td>水洗/蜜处理</td>
+					<td>80-160元/250g</td>
+			</tr>
+			<tr>
+					<td>喜欢巧克力坚果</td>
+					<td>巴西</td>
+					<td>日晒/半水洗</td>
+					<td>70-140元/250g</td>
+			</tr>
+			<tr>
+					<td>想支持国产</td>
+					<td>云南</td>
+					<td>水洗/日晒</td>
+					<td>60-150元/250g</td>
+			</tr>
+	</tbody>
 </table>
 <p>对于刚入门的人，我更推荐哥伦比亚或云南水洗。它们通常兼顾甜感、清晰度与容错率，能帮助你理解<strong>单一产地咖啡豆的风味特点</strong>而不至于被强烈酸感劝退。</p>
 <h3 id="买豆时重点看哪些标签">买豆时重点看哪些标签</h3>
@@ -680,40 +680,40 @@
 <p>海拔越高，咖啡樱桃通常成熟更慢，糖分积累和酸质发展更充分。埃塞俄比亚许多精品产区位于1800-2300米，典型高海拔环境容易形成更明亮的酸值和更复杂的香气。与此同时，不同山谷、降雨节奏、土壤结构，也会让相邻社区的杯测表现截然不同。</p>
 <p>几个常见风味方向可以简化理解如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>影响因素</th>
-          <th>常见表现</th>
-          <th>典型风味倾向</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>高海拔</td>
-          <td>成熟慢、密度高</td>
-          <td>花香、柑橘、茶感</td>
-      </tr>
-      <tr>
-          <td>中高海拔</td>
-          <td>甜感更圆润</td>
-          <td>核果、蜂蜜、红糖</td>
-      </tr>
-      <tr>
-          <td>水洗处理</td>
-          <td>干净度高</td>
-          <td>柠檬、佛手柑、白花</td>
-      </tr>
-      <tr>
-          <td>日晒处理</td>
-          <td>发酵香明显</td>
-          <td>蓝莓、莓果、热带水果</td>
-      </tr>
-      <tr>
-          <td>较深烘焙</td>
-          <td>焦糖化增强</td>
-          <td>黑巧、坚果、可可</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>影响因素</th>
+					<th>常见表现</th>
+					<th>典型风味倾向</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>高海拔</td>
+					<td>成熟慢、密度高</td>
+					<td>花香、柑橘、茶感</td>
+			</tr>
+			<tr>
+					<td>中高海拔</td>
+					<td>甜感更圆润</td>
+					<td>核果、蜂蜜、红糖</td>
+			</tr>
+			<tr>
+					<td>水洗处理</td>
+					<td>干净度高</td>
+					<td>柠檬、佛手柑、白花</td>
+			</tr>
+			<tr>
+					<td>日晒处理</td>
+					<td>发酵香明显</td>
+					<td>蓝莓、莓果、热带水果</td>
+			</tr>
+			<tr>
+					<td>较深烘焙</td>
+					<td>焦糖化增强</td>
+					<td>黑巧、坚果、可可</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="原生种heirloom7411074112到底是什么意思">“原生种”“Heirloom”“74110/74112”到底是什么意思</h3>
 <p>“<strong>Heirloom</strong>”通常指埃塞本地传统品系的统称，适合营销和大类识别，但不够精准。更专业地看，一些常见编号如<strong>74110</strong>、<strong>74112</strong>，是埃塞俄比亚吉玛农业研究中心筛选推广的改良材料，因抗病性和适应性较好，在许多庄园与合作社出现频率较高。</p>
@@ -765,38 +765,38 @@
 <h3 id="不同处理法的推荐冲煮参数">不同处理法的推荐冲煮参数</h3>
 <p><strong>水洗处理</strong>适合突出清晰酸质和花香；<strong>日晒处理</strong>适合强调果汁感和甜度，但更怕萃取过度。参数不用神秘化，关键是匹配豆子的结构和烘焙深浅。</p>
 <table>
-  <thead>
-      <tr>
-          <th>处理法</th>
-          <th>推荐粉水比</th>
-          <th>水温</th>
-          <th>研磨建议</th>
-          <th>目标风味</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水洗</td>
-          <td>1:15.5</td>
-          <td>91-93℃</td>
-          <td>中细</td>
-          <td>干净、明亮、花香</td>
-      </tr>
-      <tr>
-          <td>日晒</td>
-          <td>1:16</td>
-          <td>89-91℃</td>
-          <td>中偏细</td>
-          <td>甜感、莓果、醇厚</td>
-      </tr>
-      <tr>
-          <td>蜜处理</td>
-          <td>1:15.5</td>
-          <td>90-92℃</td>
-          <td>中细</td>
-          <td>平衡、果甜、圆润</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>处理法</th>
+					<th>推荐粉水比</th>
+					<th>水温</th>
+					<th>研磨建议</th>
+					<th>目标风味</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水洗</td>
+					<td>1:15.5</td>
+					<td>91-93℃</td>
+					<td>中细</td>
+					<td>干净、明亮、花香</td>
+			</tr>
+			<tr>
+					<td>日晒</td>
+					<td>1:16</td>
+					<td>89-91℃</td>
+					<td>中偏细</td>
+					<td>甜感、莓果、醇厚</td>
+			</tr>
+			<tr>
+					<td>蜜处理</td>
+					<td>1:15.5</td>
+					<td>90-92℃</td>
+					<td>中细</td>
+					<td>平衡、果甜、圆润</td>
+			</tr>
+	</tbody>
 </table>
 <p>手冲器具可考虑这些常见选择：<a href="https://www.amazon.com/s?k=Hario%20V60&amp;tag=coffeeprism-20">Hario V60</a>、<a href="https://www.amazon.com/s?k=Timemore%20Chestnut%20C3&amp;tag=coffeeprism-20">Timemore Chestnut C3</a>、<a href="https://www.amazon.com/s?k=Fellow%20Stagg%20EKG&amp;tag=coffeeprism-20">Fellow Stagg EKG</a>。如果在国内购买，淘宝、京东和天猫的官方旗舰店通常更方便售后。</p>
 <h3 id="一套适合埃塞豆的v60冲煮步骤">一套适合埃塞豆的V60冲煮步骤</h3>
@@ -848,35 +848,35 @@
 <h3 id="新手到进阶的工具预算建议">新手到进阶的工具预算建议</h3>
 <p>不同预算下的配置思路如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>推荐配置</th>
-          <th>适合人群</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>200-500元</td>
-          <td>手冲壶+滤杯+滤纸+电子秤</td>
-          <td>新手入门</td>
-      </tr>
-      <tr>
-          <td>500-1200元</td>
-          <td>增加手磨或入门电磨</td>
-          <td>想稳定复现风味</td>
-      </tr>
-      <tr>
-          <td>1200-3000元</td>
-          <td>高一致性磨豆机+温控壶</td>
-          <td>进阶玩家</td>
-      </tr>
-      <tr>
-          <td>3000元以上</td>
-          <td>高端电磨+专业称重与水质控制</td>
-          <td>深度爱好者</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>推荐配置</th>
+					<th>适合人群</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>200-500元</td>
+					<td>手冲壶+滤杯+滤纸+电子秤</td>
+					<td>新手入门</td>
+			</tr>
+			<tr>
+					<td>500-1200元</td>
+					<td>增加手磨或入门电磨</td>
+					<td>想稳定复现风味</td>
+			</tr>
+			<tr>
+					<td>1200-3000元</td>
+					<td>高一致性磨豆机+温控壶</td>
+					<td>进阶玩家</td>
+			</tr>
+			<tr>
+					<td>3000元以上</td>
+					<td>高端电磨+专业称重与水质控制</td>
+					<td>深度爱好者</td>
+			</tr>
+	</tbody>
 </table>
 <p>可关注这些器具：<a href="https://www.amazon.com/s?k=Kalita%20Wave&amp;tag=coffeeprism-20">Kalita Wave</a>、<a href="https://www.amazon.com/s?k=Comandante%20C40&amp;tag=coffeeprism-20">Comandante C40</a>、<a href="https://www.amazon.com/s?k=Timemore%20Black%20Mirror&amp;tag=coffeeprism-20">Timemore Black Mirror</a>。在中国市场，京东自营和品牌旗舰店通常更适合比价，淘宝则更适合找滤纸、分享壶等耗材。</p>
 <h3 id="国内购买渠道与避坑建议">国内购买渠道与避坑建议</h3>
@@ -1129,35 +1129,35 @@
 <h2 id="四专业冲泡步骤详解">四、专业冲泡步骤详解</h2>
 <h3 id="41-手冲参数黄金组合">4.1 手冲参数黄金组合</h3>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>建议值</th>
-          <th>科学依据</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水温</td>
-          <td>92-94℃</td>
-          <td>充分萃取酸性物质</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>白砂糖颗粒</td>
-          <td>防止过度萃取单宁</td>
-      </tr>
-      <tr>
-          <td>水粉比</td>
-          <td>1:15</td>
-          <td>平衡body与干净度</td>
-      </tr>
-      <tr>
-          <td>冲煮时间</td>
-          <td>2分10秒</td>
-          <td>三段式注水最佳时长</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>建议值</th>
+					<th>科学依据</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水温</td>
+					<td>92-94℃</td>
+					<td>充分萃取酸性物质</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>白砂糖颗粒</td>
+					<td>防止过度萃取单宁</td>
+			</tr>
+			<tr>
+					<td>水粉比</td>
+					<td>1:15</td>
+					<td>平衡body与干净度</td>
+			</tr>
+			<tr>
+					<td>冲煮时间</td>
+					<td>2分10秒</td>
+					<td>三段式注水最佳时长</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="42-虹吸壶的进阶方案">4.2 虹吸壶的进阶方案</h3>
 <p>使用台湾知名咖啡师林东源的「三温冲煮法」：</p>
@@ -1454,35 +1454,35 @@
 <h3 id="21-化学成分的量化对比">2.1 化学成分的量化对比</h3>
 <p>通过SCA（精品咖啡协会）实验室检测可见：</p>
 <table>
-  <thead>
-      <tr>
-          <th>成分</th>
-          <th>阿拉比卡</th>
-          <th>罗布斯塔</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>咖啡因含量</td>
-          <td>0.8-1.4%</td>
-          <td>1.7-4.0%</td>
-      </tr>
-      <tr>
-          <td>绿原酸含量</td>
-          <td>5.5-8%</td>
-          <td>7-10%</td>
-      </tr>
-      <tr>
-          <td>蔗糖含量</td>
-          <td>6-9%</td>
-          <td>3-7%</td>
-      </tr>
-      <tr>
-          <td>脂类物质</td>
-          <td>15-17%</td>
-          <td>10-12%</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>成分</th>
+					<th>阿拉比卡</th>
+					<th>罗布斯塔</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>咖啡因含量</td>
+					<td>0.8-1.4%</td>
+					<td>1.7-4.0%</td>
+			</tr>
+			<tr>
+					<td>绿原酸含量</td>
+					<td>5.5-8%</td>
+					<td>7-10%</td>
+			</tr>
+			<tr>
+					<td>蔗糖含量</td>
+					<td>6-9%</td>
+					<td>3-7%</td>
+			</tr>
+			<tr>
+					<td>脂类物质</td>
+					<td>15-17%</td>
+					<td>10-12%</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="22-感官体验的具象化描述">2.2 感官体验的具象化描述</h3>
 <ul>
@@ -1590,35 +1590,35 @@
 </ol>
 <h3 id="二家用冲煮方案">（二）家用冲煮方案</h3>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>经典配置</th>
-          <th>风味强化方案</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水温</td>
-          <td>88℃</td>
-          <td>分段92℃-85℃</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:16</td>
-          <td>前段1:12+后段稀释</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>白砂糖颗粒（600μm）</td>
-          <td>粗盐粒（800μm）</td>
-      </tr>
-      <tr>
-          <td>萃取时间</td>
-          <td>2分30秒</td>
-          <td>3分15秒分段萃取</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>经典配置</th>
+					<th>风味强化方案</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水温</td>
+					<td>88℃</td>
+					<td>分段92℃-85℃</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:16</td>
+					<td>前段1:12+后段稀释</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>白砂糖颗粒（600μm）</td>
+					<td>粗盐粒（800μm）</td>
+			</tr>
+			<tr>
+					<td>萃取时间</td>
+					<td>2分30秒</td>
+					<td>3分15秒分段萃取</td>
+			</tr>
+	</tbody>
 </table>
 <p>实践表明，用Kalita Wave梯形滤杯能更好展现<strong>爪哇咖啡</strong>的醇厚度，而V60锥形滤杯则适合突出其香料层次。</p>
 <hr>
@@ -1919,34 +1919,34 @@
 </ul>
 <h3 id="42-家用冲泡参数建议">4.2 家用冲泡参数建议</h3>
 <table>
-  <thead>
-      <tr>
-          <th>器具类型</th>
-          <th>粉水比</th>
-          <th>水温</th>
-          <th>萃取时间</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>手冲</td>
-          <td>1:15</td>
-          <td>88℃</td>
-          <td>2分30秒</td>
-      </tr>
-      <tr>
-          <td>法压壶</td>
-          <td>1:12</td>
-          <td>92℃</td>
-          <td>4分钟</td>
-      </tr>
-      <tr>
-          <td>摩卡壶</td>
-          <td>1:8</td>
-          <td>/</td>
-          <td>1分10秒</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>器具类型</th>
+					<th>粉水比</th>
+					<th>水温</th>
+					<th>萃取时间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>手冲</td>
+					<td>1:15</td>
+					<td>88℃</td>
+					<td>2分30秒</td>
+			</tr>
+			<tr>
+					<td>法压壶</td>
+					<td>1:12</td>
+					<td>92℃</td>
+					<td>4分钟</td>
+			</tr>
+			<tr>
+					<td>摩卡壶</td>
+					<td>1:8</td>
+					<td>/</td>
+					<td>1分10秒</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="43-风味品鉴技巧">4.3 风味品鉴技巧</h3>
 <p>建议使用**&ldquo;三啖法&rdquo;<strong>：第一口感受酸质明亮度，第二口体会甜感持久度，第三口捕捉余韵复杂度。对比品尝保山&quot;黑蜜处理&quot;与普洱&quot;水洗处理&quot;的差异，能清晰辨识云南咖啡的</strong>地域风味图谱**。</p>
@@ -2414,30 +2414,30 @@
 <h3 id="51-爪哇曼特宁的认知偏差">5.1 「爪哇=曼特宁」的认知偏差</h3>
 <p>尽管同属印尼产区，爪哇与苏门答腊的咖啡存在本质差异：</p>
 <table>
-  <thead>
-      <tr>
-          <th>特征</th>
-          <th>爪哇咖啡</th>
-          <th>曼特宁咖啡</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>处理法</td>
-          <td>水洗/半水洗</td>
-          <td>湿刨法</td>
-      </tr>
-      <tr>
-          <td>酸度</td>
-          <td>明亮柑橘酸</td>
-          <td>低沉果酸</td>
-      </tr>
-      <tr>
-          <td>余韵</td>
-          <td>矿石感</td>
-          <td>木质调</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>特征</th>
+					<th>爪哇咖啡</th>
+					<th>曼特宁咖啡</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>处理法</td>
+					<td>水洗/半水洗</td>
+					<td>湿刨法</td>
+			</tr>
+			<tr>
+					<td>酸度</td>
+					<td>明亮柑橘酸</td>
+					<td>低沉果酸</td>
+			</tr>
+			<tr>
+					<td>余韵</td>
+					<td>矿石感</td>
+					<td>木质调</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="52-保存不当导致风味流失">5.2 保存不当导致风味流失</h3>
 <p>实验数据显示，爪哇咖啡在开封30天后，挥发性芳香物质会流失42%。建议使用<a href="https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%9C%9F%E7%A9%BA%E7%BD%90&amp;tag=coffeeprism-20">泰摩真空罐</a>，其专利单向阀设计可将风味保鲜期延长至90天。</p>
@@ -2621,34 +2621,34 @@
 <h3 id="52-手冲参数黄金公式">5.2 手冲参数黄金公式</h3>
 <p>针对不同<strong>单一产地咖啡豆的风味特点</strong>调整方案：</p>
 <table>
-  <thead>
-      <tr>
-          <th>风味类型</th>
-          <th>水温</th>
-          <th>粉水比</th>
-          <th>萃取时间</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>高酸果香</td>
-          <td>92℃</td>
-          <td>1:16</td>
-          <td>2'10&quot;</td>
-      </tr>
-      <tr>
-          <td>醇厚坚果</td>
-          <td>88℃</td>
-          <td>1:14</td>
-          <td>2'30&quot;</td>
-      </tr>
-      <tr>
-          <td>复杂发酵</td>
-          <td>90℃</td>
-          <td>1:15</td>
-          <td>2'20&quot;</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>风味类型</th>
+					<th>水温</th>
+					<th>粉水比</th>
+					<th>萃取时间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>高酸果香</td>
+					<td>92℃</td>
+					<td>1:16</td>
+					<td>2'10&quot;</td>
+			</tr>
+			<tr>
+					<td>醇厚坚果</td>
+					<td>88℃</td>
+					<td>1:14</td>
+					<td>2'30&quot;</td>
+			</tr>
+			<tr>
+					<td>复杂发酵</td>
+					<td>90℃</td>
+					<td>1:15</td>
+					<td>2'20&quot;</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="六产品与工具推荐">六、产品与工具推荐</h2>
@@ -4474,30 +4474,30 @@ AA并非品种名称，而是肯尼亚独创的咖啡豆分级标准：</p>
 </ul>
 <h4 id="2-冲煮参数框架以瑰夏为例">2. 冲煮参数框架（以瑰夏为例）</h4>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>建议范围</th>
-          <th>科学原理</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水温</td>
-          <td>88-92℃</td>
-          <td>保护挥发性芳香物质</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:16</td>
-          <td>平衡甜感与复杂度</td>
-      </tr>
-      <tr>
-          <td>萃取时间</td>
-          <td>2分10秒±5秒</td>
-          <td>避免单宁过度释出</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>建议范围</th>
+					<th>科学原理</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水温</td>
+					<td>88-92℃</td>
+					<td>保护挥发性芳香物质</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:16</td>
+					<td>平衡甜感与复杂度</td>
+			</tr>
+			<tr>
+					<td>萃取时间</td>
+					<td>2分10秒±5秒</td>
+					<td>避免单宁过度释出</td>
+			</tr>
+	</tbody>
 </table>
 <h4 id="3-本土化品鉴场景创新">3. 本土化品鉴场景创新</h4>
 <ul>

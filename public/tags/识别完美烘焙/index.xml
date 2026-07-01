@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E8%AF%86%E5%88%AB%E5%AE%8C%E7%BE%8E%E7%83%98%E7%84%99/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>识别完美烘焙的视觉与嗅觉线索深度解析指南</title>
@@ -79,35 +79,35 @@
 <p>最值得买的不是色值仪，而是稳定光源、白色托盘、密封罐和记录本。因为多数误判来自环境不一致，而不是缺设备。</p>
 <p>你可以准备以下基础组合：</p>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th>作用</th>
-          <th style="text-align: right">参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>白光台灯</td>
-          <td>观察颜色均匀度</td>
-          <td style="text-align: right">50-150元</td>
-      </tr>
-      <tr>
-          <td>白色陶瓷盘</td>
-          <td>衬托豆表颜色</td>
-          <td style="text-align: right">20-60元</td>
-      </tr>
-      <tr>
-          <td>单向排气储豆罐</td>
-          <td>稳定养豆状态</td>
-          <td style="text-align: right">80-300元</td>
-      </tr>
-      <tr>
-          <td>电子秤</td>
-          <td>固定评估样本量</td>
-          <td style="text-align: right">50-200元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>作用</th>
+					<th style="text-align: right">参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>白光台灯</td>
+					<td>观察颜色均匀度</td>
+					<td style="text-align: right">50-150元</td>
+			</tr>
+			<tr>
+					<td>白色陶瓷盘</td>
+					<td>衬托豆表颜色</td>
+					<td style="text-align: right">20-60元</td>
+			</tr>
+			<tr>
+					<td>单向排气储豆罐</td>
+					<td>稳定养豆状态</td>
+					<td style="text-align: right">80-300元</td>
+			</tr>
+			<tr>
+					<td>电子秤</td>
+					<td>固定评估样本量</td>
+					<td style="text-align: right">50-200元</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果希望提升体验，<a href="https://www.amazon.com/s?k=Fellow%20Ode%20Grinder&amp;tag=coffeeprism-20">Fellow Ode Grinder</a> 可帮助提高研磨一致性，<a href="https://www.amazon.com/s?k=Acaia%20Pearl&amp;tag=coffeeprism-20">Acaia Pearl</a> 适合更严谨的冲煮记录。国内预算有限时，泰摩、Hero、MHW-3BOMBER 都有不错替代。</p>
 <h3 id="进阶工具色值仪与样品对照卡怎么选">进阶工具：色值仪与样品对照卡怎么选</h3>
@@ -515,30 +515,30 @@
 <p><strong>实战技巧</strong>：在家庭烘焙时，可借助<a href="https://www.amazon.com/s?k=FreshRoast%20SR540%E5%AE%B6%E7%94%A8%E7%83%98%E7%84%99%E6%9C%BA&amp;tag=coffeeprism-20">FreshRoast SR540家用烘焙机</a>的透明仓实时观测，当闻到“爆米花甜香”时即标志一爆开始，此时关火可锁定浅焙花果调。</p>
 <h4 id="2-缺陷气味诊断表">2. <strong>缺陷气味诊断表</strong></h4>
 <table>
-  <thead>
-      <tr>
-          <th>气味特征</th>
-          <th>可能成因</th>
-          <th>解决方案</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>稻草/纸板味</td>
-          <td>脱水不足或生豆陈旧</td>
-          <td>延长脱水时间，换新豆</td>
-      </tr>
-      <tr>
-          <td>刺鼻烟熏味</td>
-          <td>排烟不畅导致闷烧</td>
-          <td>加强通风或降低火力</td>
-      </tr>
-      <tr>
-          <td>橡胶/塑料味</td>
-          <td>热解反应失控</td>
-          <td>调整升温速率</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>气味特征</th>
+					<th>可能成因</th>
+					<th>解决方案</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>稻草/纸板味</td>
+					<td>脱水不足或生豆陈旧</td>
+					<td>延长脱水时间，换新豆</td>
+			</tr>
+			<tr>
+					<td>刺鼻烟熏味</td>
+					<td>排烟不畅导致闷烧</td>
+					<td>加强通风或降低火力</td>
+			</tr>
+			<tr>
+					<td>橡胶/塑料味</td>
+					<td>热解反应失控</td>
+					<td>调整升温速率</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h3 id="四中国咖啡场景的特别指南">四、中国咖啡场景的特别指南</h3>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%B1%85%E5%AE%B6%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>居家咖啡正在改写全球消费版图：从咖啡涨价到消费场景迁移，美国信号对中国市场意味着什么</title>
@@ -33,34 +33,34 @@
 <p>咖啡涨价来自多重成本叠加。上游是生豆价格波动，中游有烘焙、包装、运输成本，下游还有房租、人工和平台抽佣。尤其在一线城市和成熟连锁市场，门店饮品的终端价格越来越不是“豆子贵不贵”能单独解释的，而是整个服务链条都在变贵。消费者过去还能接受“花钱买方便”，但当价格越过某个心理阈值，家庭冲煮就会从“爱好”升级为“理性选择”。</p>
 <p>我们可以用一个简单的成本结构来理解：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th style="text-align: right">单杯成本区间</th>
-          <th>主要支付内容</th>
-          <th>消费者感知</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>连锁门店美式/拿铁</td>
-          <td style="text-align: right">较高</td>
-          <td>房租、人工、设备、品牌、便利性</td>
-          <td>即买即喝，但价格敏感</td>
-      </tr>
-      <tr>
-          <td>家庭胶囊/挂耳</td>
-          <td style="text-align: right">中等</td>
-          <td>单份原料、设备折旧</td>
-          <td>稳定、省时、适合日常</td>
-      </tr>
-      <tr>
-          <td>家庭手冲/意式豆</td>
-          <td style="text-align: right">较低到中等</td>
-          <td>咖啡豆、滤纸、奶</td>
-          <td>门槛略高，但性价比强</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th style="text-align: right">单杯成本区间</th>
+					<th>主要支付内容</th>
+					<th>消费者感知</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>连锁门店美式/拿铁</td>
+					<td style="text-align: right">较高</td>
+					<td>房租、人工、设备、品牌、便利性</td>
+					<td>即买即喝，但价格敏感</td>
+			</tr>
+			<tr>
+					<td>家庭胶囊/挂耳</td>
+					<td style="text-align: right">中等</td>
+					<td>单份原料、设备折旧</td>
+					<td>稳定、省时、适合日常</td>
+			</tr>
+			<tr>
+					<td>家庭手冲/意式豆</td>
+					<td style="text-align: right">较低到中等</td>
+					<td>咖啡豆、滤纸、奶</td>
+					<td>门槛略高，但性价比强</td>
+			</tr>
+	</tbody>
 </table>
 <p>这里真正关键的不是“家庭一定更便宜”，而是“家庭的边际成本更低”。消费者一旦买了机器、磨豆机或滤杯，后续每多喝一杯，成本增加有限。而门店消费则是每一杯都要重新支付完整服务溢价。</p>
 <p>这种变化会迫使品牌做出两类调整。</p>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%88%B1%E5%A5%BD%E8%80%85/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡爱好者的城市指南完全攻略：从打卡到深度喝懂一座城</title>
@@ -73,35 +73,35 @@
 <h3 id="点单顺序比店单更重要">点单顺序比店单更重要</h3>
 <p>如果你想判断一家店的真实水平，优先顺序建议如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>目标</th>
-          <th>建议点单</th>
-          <th>原因</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>看基础出品</td>
-          <td>美式/拿铁</td>
-          <td>最能看出浓缩与奶咖平衡</td>
-      </tr>
-      <tr>
-          <td>看豆子表达</td>
-          <td>手冲单品</td>
-          <td>适合判断烘焙与萃取控制</td>
-      </tr>
-      <tr>
-          <td>看菜单创新</td>
-          <td>特调</td>
-          <td>观察风味设计而非只看颜值</td>
-      </tr>
-      <tr>
-          <td>看稳定性</td>
-          <td>同店不同天复购</td>
-          <td>比首次体验更有参考价值</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>目标</th>
+					<th>建议点单</th>
+					<th>原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>看基础出品</td>
+					<td>美式/拿铁</td>
+					<td>最能看出浓缩与奶咖平衡</td>
+			</tr>
+			<tr>
+					<td>看豆子表达</td>
+					<td>手冲单品</td>
+					<td>适合判断烘焙与萃取控制</td>
+			</tr>
+			<tr>
+					<td>看菜单创新</td>
+					<td>特调</td>
+					<td>观察风味设计而非只看颜值</td>
+			</tr>
+			<tr>
+					<td>看稳定性</td>
+					<td>同店不同天复购</td>
+					<td>比首次体验更有参考价值</td>
+			</tr>
+	</tbody>
 </table>
 <p>很多旅行者会先点特调，但这其实最容易被糖浆、奶油、果酱掩盖问题。更适合的顺序是：先意式基础，再手冲，最后特调。这样得到的城市样本更真实。</p>
 <h3 id="旅行手冲参数怎么设定更稳">旅行手冲参数怎么设定更稳</h3>
@@ -205,38 +205,38 @@
 我的记录通常包括：门店名、片区、烘焙类型、推荐豆单、最佳时段、排队情况、是否适合带电脑、是否适合买豆、复购意愿。</p>
 <p>你也可以做一个简单评分表：</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>分值建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>咖啡品质</td>
-          <td>40</td>
-      </tr>
-      <tr>
-          <td>稳定性</td>
-          <td>20</td>
-      </tr>
-      <tr>
-          <td>空间体验</td>
-          <td>15</td>
-      </tr>
-      <tr>
-          <td>服务沟通</td>
-          <td>10</td>
-      </tr>
-      <tr>
-          <td>性价比</td>
-          <td>10</td>
-      </tr>
-      <tr>
-          <td>交通便利</td>
-          <td>5</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>分值建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>咖啡品质</td>
+					<td>40</td>
+			</tr>
+			<tr>
+					<td>稳定性</td>
+					<td>20</td>
+			</tr>
+			<tr>
+					<td>空间体验</td>
+					<td>15</td>
+			</tr>
+			<tr>
+					<td>服务沟通</td>
+					<td>10</td>
+			</tr>
+			<tr>
+					<td>性价比</td>
+					<td>10</td>
+			</tr>
+			<tr>
+					<td>交通便利</td>
+					<td>5</td>
+			</tr>
+	</tbody>
 </table>
 <p>这类表格最大的价值，不是给店“打分”，而是帮助你未来更快筛选适合自己的城市路线。</p>
 <h2 id="常见问题解答">常见问题解答</h2>
@@ -301,34 +301,34 @@
 <h3 id="一地域风味解码">（一）地域风味解码</h3>
 <p>中国六大咖啡产区的风味特征：</p>
 <table>
-  <thead>
-      <tr>
-          <th>产区</th>
-          <th>代表豆种</th>
-          <th>风味特征</th>
-          <th>推荐体验城市</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>云南保山</td>
-          <td>铁皮卡</td>
-          <td>坚果调/柑橘尾韵</td>
-          <td>昆明</td>
-      </tr>
-      <tr>
-          <td>海南兴隆</td>
-          <td>罗布斯塔</td>
-          <td>焦糖甜感/浓郁body</td>
-          <td>三亚</td>
-      </tr>
-      <tr>
-          <td>台湾阿里山</td>
-          <td>艺伎</td>
-          <td>茉莉花香/水蜜桃酸甜</td>
-          <td>台北</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产区</th>
+					<th>代表豆种</th>
+					<th>风味特征</th>
+					<th>推荐体验城市</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>云南保山</td>
+					<td>铁皮卡</td>
+					<td>坚果调/柑橘尾韵</td>
+					<td>昆明</td>
+			</tr>
+			<tr>
+					<td>海南兴隆</td>
+					<td>罗布斯塔</td>
+					<td>焦糖甜感/浓郁body</td>
+					<td>三亚</td>
+			</tr>
+			<tr>
+					<td>台湾阿里山</td>
+					<td>艺伎</td>
+					<td>茉莉花香/水蜜桃酸甜</td>
+					<td>台北</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="二城市咖啡场景适配">（二）城市咖啡场景适配</h3>
 <ul>

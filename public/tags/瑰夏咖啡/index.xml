@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%91%B0%E5%A4%8F%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>巴拿马翡翠庄园的瑰夏咖啡深度解析与选购指南</title>
@@ -42,34 +42,34 @@
 </ul>
 <p>这些条件会让豆子发展出更复杂的前体物质。冲煮后常见风味描述包括：</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>常见表现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>花香</td>
-          <td>茉莉、橙花、白花</td>
-      </tr>
-      <tr>
-          <td>果香</td>
-          <td>佛手柑、蜜桃、热带水果、柑橘</td>
-      </tr>
-      <tr>
-          <td>口感</td>
-          <td>茶感、丝滑、轻盈</td>
-      </tr>
-      <tr>
-          <td>酸质</td>
-          <td>明亮、柑橘型、细腻</td>
-      </tr>
-      <tr>
-          <td>余韵</td>
-          <td>花果香持久、甜感回甘明显</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>常见表现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>花香</td>
+					<td>茉莉、橙花、白花</td>
+			</tr>
+			<tr>
+					<td>果香</td>
+					<td>佛手柑、蜜桃、热带水果、柑橘</td>
+			</tr>
+			<tr>
+					<td>口感</td>
+					<td>茶感、丝滑、轻盈</td>
+			</tr>
+			<tr>
+					<td>酸质</td>
+					<td>明亮、柑橘型、细腻</td>
+			</tr>
+			<tr>
+					<td>余韵</td>
+					<td>花果香持久、甜感回甘明显</td>
+			</tr>
+	</tbody>
 </table>
 <p>对中国消费者来说，这种风味很像“高香型乌龙茶和白桃果汁之间的交集”，所以即便是不常喝浅烘手冲的人，也容易记住它。</p>
 <h2 id="巴拿马翡翠庄园的瑰夏咖啡的历史演变与市场趋势">巴拿马翡翠庄园的瑰夏咖啡的历史演变与市场趋势</h2>
@@ -116,46 +116,46 @@
 <h3 id="一套适合初学者的稳定参数">一套适合初学者的稳定参数</h3>
 <p>如果你第一次冲<strong>巴拿马翡翠庄园的瑰夏咖啡</strong>，建议从保守参数起步：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>建议参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>粉量</td>
-          <td>15g</td>
-      </tr>
-      <tr>
-          <td>水量</td>
-          <td>225g</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>90-92°C（水洗）/ 88-91°C（日晒）</td>
-      </tr>
-      <tr>
-          <td>研磨</td>
-          <td>中细，接近白砂糖略细</td>
-      </tr>
-      <tr>
-          <td>总时长</td>
-          <td>2:10-2:50</td>
-      </tr>
-      <tr>
-          <td>滤杯</td>
-          <td>V60 01/02</td>
-      </tr>
-      <tr>
-          <td>注水方式</td>
-          <td>3段或4段</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>建议参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>粉量</td>
+					<td>15g</td>
+			</tr>
+			<tr>
+					<td>水量</td>
+					<td>225g</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>90-92°C（水洗）/ 88-91°C（日晒）</td>
+			</tr>
+			<tr>
+					<td>研磨</td>
+					<td>中细，接近白砂糖略细</td>
+			</tr>
+			<tr>
+					<td>总时长</td>
+					<td>2:10-2:50</td>
+			</tr>
+			<tr>
+					<td>滤杯</td>
+					<td>V60 01/02</td>
+			</tr>
+			<tr>
+					<td>注水方式</td>
+					<td>3段或4段</td>
+			</tr>
+	</tbody>
 </table>
 <p>具体步骤：</p>
 <ol>
@@ -221,26 +221,26 @@
 <p>中国市场替代方案也很成熟。预算有限时，可以在京东、淘宝优先找泰摩、MHW-3BOMBER、Hario、Kinu、1Zpresso 等品牌的正规渠道。</p>
 <h3 id="不同预算怎么搭配更合理">不同预算怎么搭配更合理</h3>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>推荐搭配</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>500-1000元</td>
-          <td>手磨 + V60 + 基础电子秤</td>
-      </tr>
-      <tr>
-          <td>1000-2500元</td>
-          <td>进阶手磨/入门电磨 + 细口壶 + 稳定滤杯</td>
-      </tr>
-      <tr>
-          <td>2500元以上</td>
-          <td>高均匀度电磨 + 专业控温壶 + 精准电子秤</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>推荐搭配</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>500-1000元</td>
+					<td>手磨 + V60 + 基础电子秤</td>
+			</tr>
+			<tr>
+					<td>1000-2500元</td>
+					<td>进阶手磨/入门电磨 + 细口壶 + 稳定滤杯</td>
+			</tr>
+			<tr>
+					<td>2500元以上</td>
+					<td>高均匀度电磨 + 专业控温壶 + 精准电子秤</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你的目标只是喝明白翡翠庄园瑰夏，不必一开始就追求顶配。相反，把预算留给 2-3 次不同烘焙商的横向对比，更能建立认知。</p>
 <h3 id="如何判断购买渠道是否靠谱">如何判断购买渠道是否靠谱</h3>

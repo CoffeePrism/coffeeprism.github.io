@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E8%BF%90%E8%90%A5/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>星巴克AI退场背后：咖啡门店数字化为何常败于“最后一米”？</title>
@@ -52,40 +52,40 @@ AI给出正确建议，大家觉得理所当然；给出错误建议，门店要
 <p>先给直接答案：<strong>咖啡门店数字化</strong>的真实ROI，不应只看是否减少人工，而要看它是否同时改善准确率、速度、培训成本和顾客体验。只盯着“替代多少人”，往往会高估AI价值，低估落地成本。</p>
 <p>很多连锁品牌在评估AI时，会优先问三个问题：能不能减少排班人数？能不能压低损耗？能不能提升单店利润？这当然没错，但在门店现场，至少还要加上四个隐性成本维度：</p>
 <table>
-  <thead>
-      <tr>
-          <th>ROI维度</th>
-          <th>看似收益</th>
-          <th>实际风险</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>人工替代</td>
-          <td>减少店长或店员决策负担</td>
-          <td>需要额外录入、复核，反而占用工时</td>
-      </tr>
-      <tr>
-          <td>库存优化</td>
-          <td>降低缺货与浪费</td>
-          <td>错误预测会造成更大损失</td>
-      </tr>
-      <tr>
-          <td>培训效率</td>
-          <td>新员工更快上手</td>
-          <td>系统复杂会增加学习曲线</td>
-      </tr>
-      <tr>
-          <td>标准化</td>
-          <td>总部更易管控</td>
-          <td>门店灵活性下降，现场应变变差</td>
-      </tr>
-      <tr>
-          <td>数据闭环</td>
-          <td>更利于总部决策</td>
-          <td>一线若不信任系统，数据会失真</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>ROI维度</th>
+					<th>看似收益</th>
+					<th>实际风险</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>人工替代</td>
+					<td>减少店长或店员决策负担</td>
+					<td>需要额外录入、复核，反而占用工时</td>
+			</tr>
+			<tr>
+					<td>库存优化</td>
+					<td>降低缺货与浪费</td>
+					<td>错误预测会造成更大损失</td>
+			</tr>
+			<tr>
+					<td>培训效率</td>
+					<td>新员工更快上手</td>
+					<td>系统复杂会增加学习曲线</td>
+			</tr>
+			<tr>
+					<td>标准化</td>
+					<td>总部更易管控</td>
+					<td>门店灵活性下降，现场应变变差</td>
+			</tr>
+			<tr>
+					<td>数据闭环</td>
+					<td>更利于总部决策</td>
+					<td>一线若不信任系统，数据会失真</td>
+			</tr>
+	</tbody>
 </table>
 <p>真正成熟的计算方式，应该是“净运营收益”而不是“技术想象收益”。一个简单公式可以这样理解：</p>
 <p><strong>门店AI净收益 = 节省的人力与损耗成本 + 增加的销售机会 - 系统采购与维护成本 - 培训成本 - 错误决策造成的损失 - 额外交互时间的机会成本</strong></p>

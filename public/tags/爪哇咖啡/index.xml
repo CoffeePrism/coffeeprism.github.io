@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E7%88%AA%E5%93%87%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>爪哇咖啡的历史与风味特征：从产地到杯中的完整指南</title>
@@ -47,35 +47,35 @@
 </ol>
 <h3 id="二家用冲煮方案">（二）家用冲煮方案</h3>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>经典配置</th>
-          <th>风味强化方案</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>水温</td>
-          <td>88℃</td>
-          <td>分段92℃-85℃</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:16</td>
-          <td>前段1:12+后段稀释</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>白砂糖颗粒（600μm）</td>
-          <td>粗盐粒（800μm）</td>
-      </tr>
-      <tr>
-          <td>萃取时间</td>
-          <td>2分30秒</td>
-          <td>3分15秒分段萃取</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>经典配置</th>
+					<th>风味强化方案</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>水温</td>
+					<td>88℃</td>
+					<td>分段92℃-85℃</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:16</td>
+					<td>前段1:12+后段稀释</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>白砂糖颗粒（600μm）</td>
+					<td>粗盐粒（800μm）</td>
+			</tr>
+			<tr>
+					<td>萃取时间</td>
+					<td>2分30秒</td>
+					<td>3分15秒分段萃取</td>
+			</tr>
+	</tbody>
 </table>
 <p>实践表明，用Kalita Wave梯形滤杯能更好展现<strong>爪哇咖啡</strong>的醇厚度，而V60锥形滤杯则适合突出其香料层次。</p>
 <hr>
@@ -175,30 +175,30 @@
 <h3 id="51-爪哇曼特宁的认知偏差">5.1 「爪哇=曼特宁」的认知偏差</h3>
 <p>尽管同属印尼产区，爪哇与苏门答腊的咖啡存在本质差异：</p>
 <table>
-  <thead>
-      <tr>
-          <th>特征</th>
-          <th>爪哇咖啡</th>
-          <th>曼特宁咖啡</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>处理法</td>
-          <td>水洗/半水洗</td>
-          <td>湿刨法</td>
-      </tr>
-      <tr>
-          <td>酸度</td>
-          <td>明亮柑橘酸</td>
-          <td>低沉果酸</td>
-      </tr>
-      <tr>
-          <td>余韵</td>
-          <td>矿石感</td>
-          <td>木质调</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>特征</th>
+					<th>爪哇咖啡</th>
+					<th>曼特宁咖啡</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>处理法</td>
+					<td>水洗/半水洗</td>
+					<td>湿刨法</td>
+			</tr>
+			<tr>
+					<td>酸度</td>
+					<td>明亮柑橘酸</td>
+					<td>低沉果酸</td>
+			</tr>
+			<tr>
+					<td>余韵</td>
+					<td>矿石感</td>
+					<td>木质调</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="52-保存不当导致风味流失">5.2 保存不当导致风味流失</h3>
 <p>实验数据显示，爪哇咖啡在开封30天后，挥发性芳香物质会流失42%。建议使用<a href="https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%9C%9F%E7%A9%BA%E7%BD%90&amp;tag=coffeeprism-20">泰摩真空罐</a>，其专利单向阀设计可将风味保鲜期延长至90天。</p>

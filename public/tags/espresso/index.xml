@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/espresso/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>意式浓缩 Espresso 完全指南：从原理到家用机参数</title>
@@ -28,40 +28,40 @@
 </ul>
 <h2 id="影响-espresso-的核心变量">影响 espresso 的核心变量</h2>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th>影响</th>
-          <th>怎么调</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td><strong>研磨度</strong></td>
-          <td>第一大变量</td>
-          <td>萃取时间不在 25-32 秒就调</td>
-      </tr>
-      <tr>
-          <td><strong>粉量</strong></td>
-          <td>决定粉床厚度</td>
-          <td>双份 18-20g 是甜区</td>
-      </tr>
-      <tr>
-          <td><strong>水温</strong></td>
-          <td>萃取效率</td>
-          <td>浅烘 94°C / 深烘 90°C</td>
-      </tr>
-      <tr>
-          <td><strong>压粉力度</strong></td>
-          <td>影响通道</td>
-          <td>13-15kg 即可，更重没意义</td>
-      </tr>
-      <tr>
-          <td><strong>豆子新鲜度</strong></td>
-          <td>crema 厚薄</td>
-          <td>烘焙 7-21 天最佳</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th>影响</th>
+					<th>怎么调</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td><strong>研磨度</strong></td>
+					<td>第一大变量</td>
+					<td>萃取时间不在 25-32 秒就调</td>
+			</tr>
+			<tr>
+					<td><strong>粉量</strong></td>
+					<td>决定粉床厚度</td>
+					<td>双份 18-20g 是甜区</td>
+			</tr>
+			<tr>
+					<td><strong>水温</strong></td>
+					<td>萃取效率</td>
+					<td>浅烘 94°C / 深烘 90°C</td>
+			</tr>
+			<tr>
+					<td><strong>压粉力度</strong></td>
+					<td>影响通道</td>
+					<td>13-15kg 即可，更重没意义</td>
+			</tr>
+			<tr>
+					<td><strong>豆子新鲜度</strong></td>
+					<td>crema 厚薄</td>
+					<td>烘焙 7-21 天最佳</td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="家用机选购建议">家用机选购建议</h2>
 <p>不要踩这两个坑：</p>
@@ -72,35 +72,35 @@
 <p>预算分配建议：<strong>总预算的 60% 给磨豆机</strong>，剩下给咖啡机。一台 ¥3000 磨豆机 + ¥5000 咖啡机的组合，远胜于 ¥1500 磨豆机 + ¥6500 咖啡机。</p>
 <h2 id="常见问题诊断">常见问题诊断</h2>
 <table>
-  <thead>
-      <tr>
-          <th>症状</th>
-          <th>原因</th>
-          <th>解法</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>流速过快 / 苦淡</td>
-          <td>磨太粗或粉量不足</td>
-          <td>磨细 1-2 格，加粉 1g</td>
-      </tr>
-      <tr>
-          <td>流速过慢 / 苦涩</td>
-          <td>磨太细或粉量过多</td>
-          <td>磨粗 1-2 格，减粉 1g</td>
-      </tr>
-      <tr>
-          <td>crema 很薄</td>
-          <td>豆子陈化或压粉过紧</td>
-          <td>换新豆，压粉力度减半</td>
-      </tr>
-      <tr>
-          <td>通道效应（一边流快）</td>
-          <td>布粉不均或粉床破裂</td>
-          <td>WDT + 平整布粉</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>症状</th>
+					<th>原因</th>
+					<th>解法</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>流速过快 / 苦淡</td>
+					<td>磨太粗或粉量不足</td>
+					<td>磨细 1-2 格，加粉 1g</td>
+			</tr>
+			<tr>
+					<td>流速过慢 / 苦涩</td>
+					<td>磨太细或粉量过多</td>
+					<td>磨粗 1-2 格，减粉 1g</td>
+			</tr>
+			<tr>
+					<td>crema 很薄</td>
+					<td>豆子陈化或压粉过紧</td>
+					<td>换新豆，压粉力度减半</td>
+			</tr>
+			<tr>
+					<td>通道效应（一边流快）</td>
+					<td>布粉不均或粉床破裂</td>
+					<td>WDT + 平整布粉</td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="拉花需要什么">拉花需要什么</h2>
 <p>要做拉花你还需要：</p>

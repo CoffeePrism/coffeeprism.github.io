@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E4%B8%B0%E4%BA%A7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡期货回落背后：巴西咖啡丰产预期，如何重塑咖啡价格与中国零售市场</title>
@@ -40,46 +40,46 @@
 <p>我在和烘焙从业者交流时，经常听到一个共识：高价周期里，企业最难受的不是某一批豆买贵了，而是未来无法稳定报价。因为门店菜单不能像期货盘一样每天改。对品牌来说，真正有价值的是成本波动收窄，让采购、定价和促销策略重新变得可预测。巴西丰产预期如果最终兑现，其最大意义可能不是让所有咖啡突然变便宜，而是让品牌重新掌握规划权。</p>
 <p>下面这张表，可以更直观看到传导差异：</p>
 <table>
-  <thead>
-      <tr>
-          <th>环节</th>
-          <th style="text-align: right">受巴西丰产影响程度</th>
-          <th style="text-align: right">传导速度</th>
-          <th>备注</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>国际阿拉比卡期货</td>
-          <td style="text-align: right">高</td>
-          <td style="text-align: right">快</td>
-          <td>预期先行，波动最大</td>
-      </tr>
-      <tr>
-          <td>进口生豆到岸成本</td>
-          <td style="text-align: right">中高</td>
-          <td style="text-align: right">中</td>
-          <td>受汇率、海运、升贴水影响</td>
-      </tr>
-      <tr>
-          <td>烘焙商出厂价</td>
-          <td style="text-align: right">中</td>
-          <td style="text-align: right">中慢</td>
-          <td>取决于库存周期与订单合同</td>
-      </tr>
-      <tr>
-          <td>连锁品牌单杯原料成本</td>
-          <td style="text-align: right">中</td>
-          <td style="text-align: right">慢</td>
-          <td>配方、损耗、促销政策会稀释影响</td>
-      </tr>
-      <tr>
-          <td>消费者实际支付价格</td>
-          <td style="text-align: right">低到中</td>
-          <td style="text-align: right">最慢</td>
-          <td>更多取决于品牌竞争和租金人工</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>环节</th>
+					<th style="text-align: right">受巴西丰产影响程度</th>
+					<th style="text-align: right">传导速度</th>
+					<th>备注</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>国际阿拉比卡期货</td>
+					<td style="text-align: right">高</td>
+					<td style="text-align: right">快</td>
+					<td>预期先行，波动最大</td>
+			</tr>
+			<tr>
+					<td>进口生豆到岸成本</td>
+					<td style="text-align: right">中高</td>
+					<td style="text-align: right">中</td>
+					<td>受汇率、海运、升贴水影响</td>
+			</tr>
+			<tr>
+					<td>烘焙商出厂价</td>
+					<td style="text-align: right">中</td>
+					<td style="text-align: right">中慢</td>
+					<td>取决于库存周期与订单合同</td>
+			</tr>
+			<tr>
+					<td>连锁品牌单杯原料成本</td>
+					<td style="text-align: right">中</td>
+					<td style="text-align: right">慢</td>
+					<td>配方、损耗、促销政策会稀释影响</td>
+			</tr>
+			<tr>
+					<td>消费者实际支付价格</td>
+					<td style="text-align: right">低到中</td>
+					<td style="text-align: right">最慢</td>
+					<td>更多取决于品牌竞争和租金人工</td>
+			</tr>
+	</tbody>
 </table>
 <p>因此，对市场参与者来说，更重要的问题不是“咖啡价格跌了多少”，而是“跌势能维持多久，能否覆盖采购合同周期”。如果只是短期回调，品牌可能只会利用机会补库；如果形成季度级别的宽松区间，菜单结构和促销策略才会出现更明显变化。</p>
 <h2 id="巴西丰产不等于全面宽松全球咖啡供需仍有三重不确定性">巴西丰产不等于全面宽松：全球咖啡供需仍有三重不确定性</h2>
@@ -180,40 +180,40 @@
 <p>但这里有明显分化。不是所有品牌都能立刻受益。</p>
 <h3 id="期货价格下跌后的受益顺序">期货价格下跌后的受益顺序</h3>
 <table>
-  <thead>
-      <tr>
-          <th>受益主体</th>
-          <th style="text-align: right">受益速度</th>
-          <th>原因</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>大型贸易商</td>
-          <td style="text-align: right">快</td>
-          <td>有库存管理和套保工具，可快速调整采购与销售策略</td>
-      </tr>
-      <tr>
-          <td>大型连锁品牌</td>
-          <td style="text-align: right">较快</td>
-          <td>采购体量大，合同周期长，议价能力强</td>
-      </tr>
-      <tr>
-          <td>中型烘焙厂</td>
-          <td style="text-align: right">中等</td>
-          <td>受制于库存周转与资金成本，但可逐步改善原料成本</td>
-      </tr>
-      <tr>
-          <td>独立精品咖啡馆</td>
-          <td style="text-align: right">较慢</td>
-          <td>采购量小、库存低、议价弱，且多使用高品质微批次豆</td>
-      </tr>
-      <tr>
-          <td>普通消费者</td>
-          <td style="text-align: right">最慢</td>
-          <td>零售价受租金、人力、营销等影响更大</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>受益主体</th>
+					<th style="text-align: right">受益速度</th>
+					<th>原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>大型贸易商</td>
+					<td style="text-align: right">快</td>
+					<td>有库存管理和套保工具，可快速调整采购与销售策略</td>
+			</tr>
+			<tr>
+					<td>大型连锁品牌</td>
+					<td style="text-align: right">较快</td>
+					<td>采购体量大，合同周期长，议价能力强</td>
+			</tr>
+			<tr>
+					<td>中型烘焙厂</td>
+					<td style="text-align: right">中等</td>
+					<td>受制于库存周转与资金成本，但可逐步改善原料成本</td>
+			</tr>
+			<tr>
+					<td>独立精品咖啡馆</td>
+					<td style="text-align: right">较慢</td>
+					<td>采购量小、库存低、议价弱，且多使用高品质微批次豆</td>
+			</tr>
+			<tr>
+					<td>普通消费者</td>
+					<td style="text-align: right">最慢</td>
+					<td>零售价受租金、人力、营销等影响更大</td>
+			</tr>
+	</tbody>
 </table>
 <p>以中国市场为例，像瑞幸这样的大型连锁品牌，如果通过长期合同、集中采购和供应链整合来管理成本，那么原料价格回落会首先体现在毛利稳定性增强，而不一定马上体现在单杯降价。反过来说，独立精品店即便买到更便宜的基础豆，也未必会大幅调低售价，因为门店运营成本在一杯咖啡中的占比更高。</p>
 <p>再看“成本传导”的现实约束。以一杯售价 15-30 元的大众现制咖啡为例，生豆成本虽然重要，但通常不是唯一决定因素。烘焙损耗、奶价、糖浆、杯盖吸管、配送补贴、平台抽成和店员工资都在影响最终价格。对于卖 9.9 元促销咖啡的连锁品牌来说，原料下跌更可能被用来缓解促销压力，而不是简单给消费者再降 1 元。</p>

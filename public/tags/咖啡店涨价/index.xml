@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E5%BA%97%E6%B6%A8%E4%BB%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡豆价格上涨冲击门店生意：从美国小店困境，看全球咖啡供应链与中国咖啡店涨价逻辑</title>
@@ -37,40 +37,40 @@
 <p>很多消费者以为房租才是最大问题，但在精品咖啡店，豆子和牛奶决定了“产品底线”。如果是意式浓缩基底，一杯双份浓缩通常使用 18-20 克粉；若门店出杯量大、对新鲜度要求高，豆价上涨会被快速放大。举例来说，假设熟豆采购价每公斤上涨 20-30 元，那么一杯咖啡的原料增量看似只有几毛钱，但在高频促销、低价套餐、外卖补贴普遍存在的市场里，这几毛钱足以侵蚀本就很薄的单杯利润。</p>
 <p>更关键的是，<strong>独立门店无法像大型连锁那样分摊风险</strong>。大型品牌通常有几项优势：</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>独立咖啡店</th>
-          <th>大型连锁品牌</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>采购规模</td>
-          <td>小，议价弱</td>
-          <td>大，议价强</td>
-      </tr>
-      <tr>
-          <td>合同周期</td>
-          <td>短，容易受现货波动影响</td>
-          <td>长，可锁定部分价格</td>
-      </tr>
-      <tr>
-          <td>库存能力</td>
-          <td>有限</td>
-          <td>更强</td>
-      </tr>
-      <tr>
-          <td>产品矩阵</td>
-          <td>相对单一</td>
-          <td>可用高毛利产品平衡</td>
-      </tr>
-      <tr>
-          <td>品牌承受涨价能力</td>
-          <td>低</td>
-          <td>相对更强</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>独立咖啡店</th>
+					<th>大型连锁品牌</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>采购规模</td>
+					<td>小，议价弱</td>
+					<td>大，议价强</td>
+			</tr>
+			<tr>
+					<td>合同周期</td>
+					<td>短，容易受现货波动影响</td>
+					<td>长，可锁定部分价格</td>
+			</tr>
+			<tr>
+					<td>库存能力</td>
+					<td>有限</td>
+					<td>更强</td>
+			</tr>
+			<tr>
+					<td>产品矩阵</td>
+					<td>相对单一</td>
+					<td>可用高毛利产品平衡</td>
+			</tr>
+			<tr>
+					<td>品牌承受涨价能力</td>
+					<td>低</td>
+					<td>相对更强</td>
+			</tr>
+	</tbody>
 </table>
 <p>这也是为什么同样面对<strong>咖啡豆价格上涨</strong>，独立店会更早感受到“卖得越多，利润越薄”的压力。对很多精品店来说，涨价并不容易，因为顾客不是单纯买咖啡因，而是在买体验、风味和“值不值”。一旦涨价，消费者会立刻将它与附近连锁品牌、便利店咖啡、茶饮替代品做比较。</p>
 <p>我在实际观察中发现，门店不会立刻粗暴地把美式从 20 元涨到 28 元，而更常见的做法是：</p>

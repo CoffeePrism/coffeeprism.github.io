@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E4%B8%8E%E5%81%A5%E5%BA%B7/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡与认知功能的科学研究深度解析指南</title>
@@ -57,40 +57,40 @@
 <h3 id="咖啡因剂量怎么定从低剂量开始更科学">咖啡因剂量怎么定：从低剂量开始更科学</h3>
 <p>可以按以下方式估算起步量：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品类型</th>
-          <th style="text-align: right">常见份量</th>
-          <th style="text-align: right">估计咖啡因范围</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>浓缩 Espresso</td>
-          <td style="text-align: right">30 ml</td>
-          <td style="text-align: right">40-75 mg</td>
-      </tr>
-      <tr>
-          <td>美式 Americano</td>
-          <td style="text-align: right">240-350 ml</td>
-          <td style="text-align: right">80-180 mg</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300 ml</td>
-          <td style="text-align: right">90-180 mg</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td style="text-align: right">240-350 ml</td>
-          <td style="text-align: right">100-200+ mg</td>
-      </tr>
-      <tr>
-          <td>速溶咖啡</td>
-          <td style="text-align: right">1 杯</td>
-          <td style="text-align: right">50-100 mg</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品类型</th>
+					<th style="text-align: right">常见份量</th>
+					<th style="text-align: right">估计咖啡因范围</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>浓缩 Espresso</td>
+					<td style="text-align: right">30 ml</td>
+					<td style="text-align: right">40-75 mg</td>
+			</tr>
+			<tr>
+					<td>美式 Americano</td>
+					<td style="text-align: right">240-350 ml</td>
+					<td style="text-align: right">80-180 mg</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300 ml</td>
+					<td style="text-align: right">90-180 mg</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td style="text-align: right">240-350 ml</td>
+					<td style="text-align: right">100-200+ mg</td>
+			</tr>
+			<tr>
+					<td>速溶咖啡</td>
+					<td style="text-align: right">1 杯</td>
+					<td style="text-align: right">50-100 mg</td>
+			</tr>
+	</tbody>
 </table>
 <p>实操建议：</p>
 <ol>
@@ -159,40 +159,40 @@
 <h3 id="办公室与通勤场景便捷优先于极致风味">办公室与通勤场景：便捷优先于极致风味</h3>
 <p>办公室最难的是稳定和省事，而不是比赛级风味。以下类型更适合高频使用：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐工具</th>
-          <th>优点</th>
-          <th>注意点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>办公室</td>
-          <td>胶囊机</td>
-          <td>稳定、快速</td>
-          <td>胶囊成本较高</td>
-      </tr>
-      <tr>
-          <td>通勤</td>
-          <td>冷萃瓶/随行杯</td>
-          <td>易提前准备</td>
-          <td>咖啡因易偏高</td>
-      </tr>
-      <tr>
-          <td>出差</td>
-          <td>爱乐压</td>
-          <td>容错率高</td>
-          <td>需热水条件</td>
-      </tr>
-      <tr>
-          <td>宿舍</td>
-          <td>挂耳包</td>
-          <td>成本低、方便</td>
-          <td>品质波动较大</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐工具</th>
+					<th>优点</th>
+					<th>注意点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>办公室</td>
+					<td>胶囊机</td>
+					<td>稳定、快速</td>
+					<td>胶囊成本较高</td>
+			</tr>
+			<tr>
+					<td>通勤</td>
+					<td>冷萃瓶/随行杯</td>
+					<td>易提前准备</td>
+					<td>咖啡因易偏高</td>
+			</tr>
+			<tr>
+					<td>出差</td>
+					<td>爱乐压</td>
+					<td>容错率高</td>
+					<td>需热水条件</td>
+			</tr>
+			<tr>
+					<td>宿舍</td>
+					<td>挂耳包</td>
+					<td>成本低、方便</td>
+					<td>品质波动较大</td>
+			</tr>
+	</tbody>
 </table>
 <p>可参考 <a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>、<a href="https://www.amazon.com/s?k=YETI%20Tumbler&amp;tag=coffeeprism-20">YETI Tumbler</a>。中国市场替代方案很多，像泰摩随行杯、隅田川挂耳、永璞冷萃液都更容易购买。</p>
 <h3 id="咖啡豆怎么选不是越浅烘越醒脑">咖啡豆怎么选：不是越浅烘越“醒脑”</h3>
@@ -284,46 +284,46 @@
 <p>需要区分<strong>咖啡</strong>和<strong>纯咖啡因补剂</strong>。咖啡除了咖啡因，还包含有机酸、挥发性芳香物质和少量多酚，这些成分会影响胃部舒适度和饮用体验。相比胶囊或能量胶，咖啡的优点是容易获得、价格低、仪式感强，缺点是剂量不够稳定。</p>
 <p>常见参考范围如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品/形式</th>
-          <th style="text-align: right">典型份量</th>
-          <th style="text-align: right">咖啡因范围（约）</th>
-          <th>特点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>单份浓缩</td>
-          <td style="text-align: right">30ml</td>
-          <td style="text-align: right">50-75mg</td>
-          <td>体积小，适合赛前</td>
-      </tr>
-      <tr>
-          <td>双份浓缩</td>
-          <td style="text-align: right">60ml</td>
-          <td style="text-align: right">100-150mg</td>
-          <td>常见于连锁咖啡</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300ml</td>
-          <td style="text-align: right">120-220mg</td>
-          <td>剂量波动较大</td>
-      </tr>
-      <tr>
-          <td>速溶黑咖啡</td>
-          <td style="text-align: right">1条/杯</td>
-          <td style="text-align: right">50-100mg</td>
-          <td>方便控制和携带</td>
-      </tr>
-      <tr>
-          <td>咖啡因胶囊</td>
-          <td style="text-align: right">1粒</td>
-          <td style="text-align: right">100-200mg</td>
-          <td>剂量更精确</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品/形式</th>
+					<th style="text-align: right">典型份量</th>
+					<th style="text-align: right">咖啡因范围（约）</th>
+					<th>特点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>单份浓缩</td>
+					<td style="text-align: right">30ml</td>
+					<td style="text-align: right">50-75mg</td>
+					<td>体积小，适合赛前</td>
+			</tr>
+			<tr>
+					<td>双份浓缩</td>
+					<td style="text-align: right">60ml</td>
+					<td style="text-align: right">100-150mg</td>
+					<td>常见于连锁咖啡</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300ml</td>
+					<td style="text-align: right">120-220mg</td>
+					<td>剂量波动较大</td>
+			</tr>
+			<tr>
+					<td>速溶黑咖啡</td>
+					<td style="text-align: right">1条/杯</td>
+					<td style="text-align: right">50-100mg</td>
+					<td>方便控制和携带</td>
+			</tr>
+			<tr>
+					<td>咖啡因胶囊</td>
+					<td style="text-align: right">1粒</td>
+					<td style="text-align: right">100-200mg</td>
+					<td>剂量更精确</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想从饮品入手，<a href="https://www.amazon.com/s?k=Espresso%20Machine&amp;tag=coffeeprism-20">Espresso Machine</a>、<a href="https://www.amazon.com/s?k=Coffee%20Scale&amp;tag=coffeeprism-20">Coffee Scale</a> 和 <a href="https://www.amazon.com/s?k=Pour%20Over%20Kettle&amp;tag=coffeeprism-20">Pour Over Kettle</a> 都是常见工具；在国内也可通过京东、天猫购买德龙、百胜图、泰摩等替代型号。</p>
 <h2 id="咖啡与运动表现的关系历史演变与中国市场趋势">咖啡与运动表现的关系历史演变与中国市场趋势</h2>
@@ -350,40 +350,40 @@
 <p>国际运动营养讨论中，常见有效范围是<strong>每公斤体重 3-6mg 咖啡因</strong>，但对日常训练者而言，不必一开始就用高剂量。很多人从 2-3mg/kg 就能感受到专注度和主观疲劳改善，而且副作用更少。</p>
 <p>举个简单例子：</p>
 <table>
-  <thead>
-      <tr>
-          <th>体重</th>
-          <th style="text-align: right">保守起始剂量</th>
-          <th style="text-align: right">常见有效区间</th>
-          <th>约等于</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>50kg</td>
-          <td style="text-align: right">100mg</td>
-          <td style="text-align: right">150-300mg</td>
-          <td>1-2 杯浓缩</td>
-      </tr>
-      <tr>
-          <td>60kg</td>
-          <td style="text-align: right">120mg</td>
-          <td style="text-align: right">180-360mg</td>
-          <td>1 杯手冲或双份浓缩</td>
-      </tr>
-      <tr>
-          <td>70kg</td>
-          <td style="text-align: right">140mg</td>
-          <td style="text-align: right">210-420mg</td>
-          <td>1 大杯美式到 2 杯浓缩</td>
-      </tr>
-      <tr>
-          <td>80kg</td>
-          <td style="text-align: right">160mg</td>
-          <td style="text-align: right">240-480mg</td>
-          <td>视耐受调整</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>体重</th>
+					<th style="text-align: right">保守起始剂量</th>
+					<th style="text-align: right">常见有效区间</th>
+					<th>约等于</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>50kg</td>
+					<td style="text-align: right">100mg</td>
+					<td style="text-align: right">150-300mg</td>
+					<td>1-2 杯浓缩</td>
+			</tr>
+			<tr>
+					<td>60kg</td>
+					<td style="text-align: right">120mg</td>
+					<td style="text-align: right">180-360mg</td>
+					<td>1 杯手冲或双份浓缩</td>
+			</tr>
+			<tr>
+					<td>70kg</td>
+					<td style="text-align: right">140mg</td>
+					<td style="text-align: right">210-420mg</td>
+					<td>1 大杯美式到 2 杯浓缩</td>
+			</tr>
+			<tr>
+					<td>80kg</td>
+					<td style="text-align: right">160mg</td>
+					<td style="text-align: right">240-480mg</td>
+					<td>视耐受调整</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你平时几乎不喝咖啡，先用 80-120mg 试水更稳妥。我自己的经验是，耐力训练更适合中低剂量，力量训练前若摄入过高，心率和焦虑感可能反而影响组间恢复。</p>
 <h3 id="最佳饮用时间与不同项目策略">最佳饮用时间与不同项目策略</h3>
@@ -426,40 +426,40 @@
 <h3 id="不同使用场景适合什么产品">不同使用场景适合什么产品</h3>
 <p>按场景划分会更好选：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐类型</th>
-          <th>优点</th>
-          <th>注意点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>通勤后去健身房</td>
-          <td>连锁热/冰美式</td>
-          <td>方便，即买即喝</td>
-          <td>注意糖浆和加料</td>
-      </tr>
-      <tr>
-          <td>晨练前在家</td>
-          <td>速溶黑咖啡</td>
-          <td>便宜、快、好控制</td>
-          <td>口感一般</td>
-      </tr>
-      <tr>
-          <td>比赛日前</td>
-          <td>浓缩或咖啡因胶囊</td>
-          <td>剂量更集中</td>
-          <td>先训练中测试</td>
-      </tr>
-      <tr>
-          <td>夏季户外</td>
-          <td>冷萃/冰美式</td>
-          <td>易入口</td>
-          <td>空腹慎用冰饮</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐类型</th>
+					<th>优点</th>
+					<th>注意点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>通勤后去健身房</td>
+					<td>连锁热/冰美式</td>
+					<td>方便，即买即喝</td>
+					<td>注意糖浆和加料</td>
+			</tr>
+			<tr>
+					<td>晨练前在家</td>
+					<td>速溶黑咖啡</td>
+					<td>便宜、快、好控制</td>
+					<td>口感一般</td>
+			</tr>
+			<tr>
+					<td>比赛日前</td>
+					<td>浓缩或咖啡因胶囊</td>
+					<td>剂量更集中</td>
+					<td>先训练中测试</td>
+			</tr>
+			<tr>
+					<td>夏季户外</td>
+					<td>冷萃/冰美式</td>
+					<td>易入口</td>
+					<td>空腹慎用冰饮</td>
+			</tr>
+	</tbody>
 </table>
 <p>实用产品可参考：<a href="https://www.amazon.com/s?k=Instant%20Coffee&amp;tag=coffeeprism-20">Instant Coffee</a>、<a href="https://www.amazon.com/s?k=Espresso%20Pods&amp;tag=coffeeprism-20">Espresso Pods</a>、<a href="https://www.amazon.com/s?k=Caffeine%20Pills&amp;tag=coffeeprism-20">Caffeine Pills</a>。国内替代购买渠道主要是京东、天猫、淘宝和品牌小程序。</p>
 <h3 id="豆子速溶胶囊哪种更适合训练前">豆子、速溶、胶囊哪种更适合训练前</h3>
@@ -570,40 +570,40 @@
 <h3 id="影响代谢结果的关键变量有哪些">影响代谢结果的关键变量有哪些</h3>
 <p>决定咖啡对代谢的影响是否“有效”的，不是某个单一成分，而是一组变量共同作用：</p>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th>对代谢的可能影响</th>
-          <th>实际建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>咖啡因剂量</td>
-          <td>剂量过低感受不明显，过高易焦虑心悸</td>
-          <td>单次约50-200mg更适合多数人</td>
-      </tr>
-      <tr>
-          <td>饮用时间</td>
-          <td>太晚喝会影响睡眠，间接拖累代谢</td>
-          <td>建议上午或运动前30-60分钟</td>
-      </tr>
-      <tr>
-          <td>加糖加奶</td>
-          <td>热量上升可能抵消代谢优势</td>
-          <td>控糖优先，奶量适中</td>
-      </tr>
-      <tr>
-          <td>空腹状态</td>
-          <td>可能提升主观刺激，但也易胃部不适</td>
-          <td>胃敏感者配少量食物</td>
-      </tr>
-      <tr>
-          <td>耐受性</td>
-          <td>常喝者效果可能减弱</td>
-          <td>不必一味加量，可周期调整</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th>对代谢的可能影响</th>
+					<th>实际建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>咖啡因剂量</td>
+					<td>剂量过低感受不明显，过高易焦虑心悸</td>
+					<td>单次约50-200mg更适合多数人</td>
+			</tr>
+			<tr>
+					<td>饮用时间</td>
+					<td>太晚喝会影响睡眠，间接拖累代谢</td>
+					<td>建议上午或运动前30-60分钟</td>
+			</tr>
+			<tr>
+					<td>加糖加奶</td>
+					<td>热量上升可能抵消代谢优势</td>
+					<td>控糖优先，奶量适中</td>
+			</tr>
+			<tr>
+					<td>空腹状态</td>
+					<td>可能提升主观刺激，但也易胃部不适</td>
+					<td>胃敏感者配少量食物</td>
+			</tr>
+			<tr>
+					<td>耐受性</td>
+					<td>常喝者效果可能减弱</td>
+					<td>不必一味加量，可周期调整</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你平时主要喝瑞幸生椰拿铁、Manner拿铁或便利店含糖咖啡，那么真正决定身体变化的，常常不是咖啡因本身，而是糖、脂肪和总热量。</p>
 <h2 id="咖啡对代谢的影响历史演变与中国消费趋势">咖啡对代谢的影响历史演变与中国消费趋势</h2>
@@ -667,50 +667,50 @@
 <h3 id="一套可落地的7天实践方案">一套可落地的7天实践方案</h3>
 <p>下面这套方案适合大多数健康成年人测试自己对咖啡对代谢的影响反应：</p>
 <table>
-  <thead>
-      <tr>
-          <th>天数</th>
-          <th>饮用建议</th>
-          <th>观察重点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>第1天</td>
-          <td>上午1杯小美式</td>
-          <td>心率、胃感受、精神状态</td>
-      </tr>
-      <tr>
-          <td>第2天</td>
-          <td>运动前1杯浓缩+水</td>
-          <td>出汗、耐力、饥饿感</td>
-      </tr>
-      <tr>
-          <td>第3天</td>
-          <td>改为无糖拿铁</td>
-          <td>胃部舒适度、饱腹感</td>
-      </tr>
-      <tr>
-          <td>第4天</td>
-          <td>不喝咖啡</td>
-          <td>观察依赖与疲劳感</td>
-      </tr>
-      <tr>
-          <td>第5天</td>
-          <td>午后半杯美式</td>
-          <td>睡眠是否受影响</td>
-      </tr>
-      <tr>
-          <td>第6天</td>
-          <td>冷萃1杯</td>
-          <td>刺激感是否更强</td>
-      </tr>
-      <tr>
-          <td>第7天</td>
-          <td>回顾记录</td>
-          <td>找出最适合自己的类型</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>天数</th>
+					<th>饮用建议</th>
+					<th>观察重点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>第1天</td>
+					<td>上午1杯小美式</td>
+					<td>心率、胃感受、精神状态</td>
+			</tr>
+			<tr>
+					<td>第2天</td>
+					<td>运动前1杯浓缩+水</td>
+					<td>出汗、耐力、饥饿感</td>
+			</tr>
+			<tr>
+					<td>第3天</td>
+					<td>改为无糖拿铁</td>
+					<td>胃部舒适度、饱腹感</td>
+			</tr>
+			<tr>
+					<td>第4天</td>
+					<td>不喝咖啡</td>
+					<td>观察依赖与疲劳感</td>
+			</tr>
+			<tr>
+					<td>第5天</td>
+					<td>午后半杯美式</td>
+					<td>睡眠是否受影响</td>
+			</tr>
+			<tr>
+					<td>第6天</td>
+					<td>冷萃1杯</td>
+					<td>刺激感是否更强</td>
+			</tr>
+			<tr>
+					<td>第7天</td>
+					<td>回顾记录</td>
+					<td>找出最适合自己的类型</td>
+			</tr>
+	</tbody>
 </table>
 <p>建议记录四个指标：</p>
 <ol>
@@ -777,40 +777,40 @@
 <h3 id="便利店连锁品牌怎么点更合理">便利店、连锁品牌怎么点更合理</h3>
 <p>如果你主要在外购买，可参考这个点单逻辑：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐点法</th>
-          <th>原因</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>通勤提神</td>
-          <td>中杯美式</td>
-          <td>热量低、咖啡因明确</td>
-      </tr>
-      <tr>
-          <td>运动前</td>
-          <td>双份浓缩或小杯美式</td>
-          <td>体积小、负担轻</td>
-      </tr>
-      <tr>
-          <td>胃敏感</td>
-          <td>无糖拿铁、燕麦拿铁少冰</td>
-          <td>缓和刺激</td>
-      </tr>
-      <tr>
-          <td>控热量</td>
-          <td>去糖、少奶、不要奶油顶</td>
-          <td>避免隐性热量</td>
-      </tr>
-      <tr>
-          <td>下午想喝</td>
-          <td>小杯或半咖产品</td>
-          <td>降低影响睡眠风险</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐点法</th>
+					<th>原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>通勤提神</td>
+					<td>中杯美式</td>
+					<td>热量低、咖啡因明确</td>
+			</tr>
+			<tr>
+					<td>运动前</td>
+					<td>双份浓缩或小杯美式</td>
+					<td>体积小、负担轻</td>
+			</tr>
+			<tr>
+					<td>胃敏感</td>
+					<td>无糖拿铁、燕麦拿铁少冰</td>
+					<td>缓和刺激</td>
+			</tr>
+			<tr>
+					<td>控热量</td>
+					<td>去糖、少奶、不要奶油顶</td>
+					<td>避免隐性热量</td>
+			</tr>
+			<tr>
+					<td>下午想喝</td>
+					<td>小杯或半咖产品</td>
+					<td>降低影响睡眠风险</td>
+			</tr>
+	</tbody>
 </table>
 <p>在瑞幸、Manner、Seesaw这类品牌点单时，别只看“爆款”。如果你关注咖啡对代谢的影响，选择简单配方通常更靠谱。想喝风味款，也可以把它当作偶尔满足，而不是每天的“健康咖啡”。</p>
 <h3 id="胶囊咖啡速溶黑咖啡值得买吗">胶囊咖啡、速溶黑咖啡值得买吗</h3>
@@ -945,45 +945,45 @@
 <h3 id="先算清你的咖啡因摄入量">先算清你的咖啡因摄入量</h3>
 <p>不同咖啡的咖啡因差异很大，不能只按“杯数”算。以下是大致范围：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品类型</th>
-          <th style="text-align: right">常见份量</th>
-          <th style="text-align: right">咖啡因大致范围</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>单份意式浓缩</td>
-          <td style="text-align: right">30ml</td>
-          <td style="text-align: right">50-75mg</td>
-      </tr>
-      <tr>
-          <td>双份浓缩</td>
-          <td style="text-align: right">60ml</td>
-          <td style="text-align: right">100-150mg</td>
-      </tr>
-      <tr>
-          <td>美式</td>
-          <td style="text-align: right">240-350ml</td>
-          <td style="text-align: right">80-180mg</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300ml</td>
-          <td style="text-align: right">120-220mg</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td style="text-align: right">300ml</td>
-          <td style="text-align: right">100-200mg，部分更高</td>
-      </tr>
-      <tr>
-          <td>速溶咖啡</td>
-          <td style="text-align: right">1条/杯</td>
-          <td style="text-align: right">50-100mg</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品类型</th>
+					<th style="text-align: right">常见份量</th>
+					<th style="text-align: right">咖啡因大致范围</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>单份意式浓缩</td>
+					<td style="text-align: right">30ml</td>
+					<td style="text-align: right">50-75mg</td>
+			</tr>
+			<tr>
+					<td>双份浓缩</td>
+					<td style="text-align: right">60ml</td>
+					<td style="text-align: right">100-150mg</td>
+			</tr>
+			<tr>
+					<td>美式</td>
+					<td style="text-align: right">240-350ml</td>
+					<td style="text-align: right">80-180mg</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300ml</td>
+					<td style="text-align: right">120-220mg</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td style="text-align: right">300ml</td>
+					<td style="text-align: right">100-200mg，部分更高</td>
+			</tr>
+			<tr>
+					<td>速溶咖啡</td>
+					<td style="text-align: right">1条/杯</td>
+					<td style="text-align: right">50-100mg</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你一天喝1杯大杯美式、1杯手冲、下午再来一罐含咖啡因饮料，总量很容易逼近上限。很多人以为自己“只喝两杯”，其实咖啡因已经偏高。</p>
 <h3 id="对心脏更友好的饮用时间与方法">对心脏更友好的饮用时间与方法</h3>
@@ -1025,34 +1025,34 @@
 <h3 id="更适合日常心血管友好饮用的器具">更适合日常心血管友好饮用的器具</h3>
 <p>对于大多数家庭用户，我优先推荐这三类：</p>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th>优点</th>
-          <th>适合人群</th>
-          <th style="text-align: right">参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>滤纸手冲</td>
-          <td>可过滤二萜类，风味清晰</td>
-          <td>新手到进阶</td>
-          <td style="text-align: right">50-500元</td>
-      </tr>
-      <tr>
-          <td>自动滴滤机</td>
-          <td>稳定省事，适合家庭</td>
-          <td>上班族、多人口家庭</td>
-          <td style="text-align: right">300-2000元</td>
-      </tr>
-      <tr>
-          <td>胶囊机</td>
-          <td>方便控量</td>
-          <td>通勤党</td>
-          <td style="text-align: right">400-3000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>优点</th>
+					<th>适合人群</th>
+					<th style="text-align: right">参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>滤纸手冲</td>
+					<td>可过滤二萜类，风味清晰</td>
+					<td>新手到进阶</td>
+					<td style="text-align: right">50-500元</td>
+			</tr>
+			<tr>
+					<td>自动滴滤机</td>
+					<td>稳定省事，适合家庭</td>
+					<td>上班族、多人口家庭</td>
+					<td style="text-align: right">300-2000元</td>
+			</tr>
+			<tr>
+					<td>胶囊机</td>
+					<td>方便控量</td>
+					<td>通勤党</td>
+					<td style="text-align: right">400-3000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>可关注的产品包括：</p>
 <ul>
@@ -1173,35 +1173,35 @@
 <p>做基础比较时，建议一次只改变一个变量。比如固定产区与处理法，只比较浅烘、中烘、深烘；或者固定烘焙度，只比较水洗和日晒。</p>
 <p>实操建议如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th>建议设置</th>
-          <th>原因</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>烘焙日期</td>
-          <td>7-30天内</td>
-          <td>兼顾排气与风味稳定</td>
-      </tr>
-      <tr>
-          <td>烘焙度</td>
-          <td>浅烘/中烘各一组</td>
-          <td>便于比较绿原酸与褐黑素差异</td>
-      </tr>
-      <tr>
-          <td>研磨</td>
-          <td>中细偏中</td>
-          <td>减少极端萃取误差</td>
-      </tr>
-      <tr>
-          <td>豆量</td>
-          <td>15g或18g固定</td>
-          <td>提高重复性</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th>建议设置</th>
+					<th>原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>烘焙日期</td>
+					<td>7-30天内</td>
+					<td>兼顾排气与风味稳定</td>
+			</tr>
+			<tr>
+					<td>烘焙度</td>
+					<td>浅烘/中烘各一组</td>
+					<td>便于比较绿原酸与褐黑素差异</td>
+			</tr>
+			<tr>
+					<td>研磨</td>
+					<td>中细偏中</td>
+					<td>减少极端萃取误差</td>
+			</tr>
+			<tr>
+					<td>豆量</td>
+					<td>15g或18g固定</td>
+					<td>提高重复性</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己做居家测试时，常用 15g 咖啡粉、240g 水、总时长 2分30秒到3分之间，这样最容易观察风味与功能成分释放的平衡。想降低误差，可使用 <a href="https://www.amazon.com/s?k=Burr%20Grinder&amp;tag=coffeeprism-20">Burr Grinder</a> 保持均匀研磨。</p>
 <h3 id="冲煮参数保留抗氧化成分的实用区间">冲煮参数：保留抗氧化成分的实用区间</h3>
@@ -1261,30 +1261,30 @@
 <p>优先选信息透明的豆子。理想标签应包括产区、海拔、处理法、品种、烘焙日期和风味描述。若只写“精品阿拉比卡”“大师拼配”，却没有更多细节，就不利于对比研究。</p>
 <p>推荐选择策略：</p>
 <table>
-  <thead>
-      <tr>
-          <th>使用目的</th>
-          <th>推荐类型</th>
-          <th>说明</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>比较绿原酸保留</td>
-          <td>浅烘单品豆</td>
-          <td>观察果酸与明亮度</td>
-      </tr>
-      <tr>
-          <td>平衡风味与稳定性</td>
-          <td>中烘拼配或单品</td>
-          <td>更易日常饮用</td>
-      </tr>
-      <tr>
-          <td>比较烘焙生成物</td>
-          <td>中深烘样品</td>
-          <td>对照褐黑素与苦感</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>使用目的</th>
+					<th>推荐类型</th>
+					<th>说明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>比较绿原酸保留</td>
+					<td>浅烘单品豆</td>
+					<td>观察果酸与明亮度</td>
+			</tr>
+			<tr>
+					<td>平衡风味与稳定性</td>
+					<td>中烘拼配或单品</td>
+					<td>更易日常饮用</td>
+			</tr>
+			<tr>
+					<td>比较烘焙生成物</td>
+					<td>中深烘样品</td>
+					<td>对照褐黑素与苦感</td>
+			</tr>
+	</tbody>
 </table>
 <p>在国内，Manner、Seesaw、部分独立精品店和天猫烘焙商家都能买到参数较清晰的咖啡豆。若想做更严谨比较，尽量一次购买同批次样品。</p>
 <h2 id="进阶玩家的咖啡中的抗氧化物质研究高阶技巧">进阶玩家的咖啡中的抗氧化物质研究高阶技巧</h2>
@@ -1385,42 +1385,42 @@
 <h3 id="家庭可执行的冲煮参数怎么设">家庭可执行的冲煮参数怎么设</h3>
 <p>如果你想做一套相对稳定的“咖啡中的抗氧化物质研究教程”，下面这组参数适合作为起点：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>推荐参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>冲煮器具</td>
-          <td>V60 02 或玻璃法压壶</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15 到 1:16</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>中细，接近白砂糖颗粒</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>90-93℃（浅烘可到93-94℃）</td>
-      </tr>
-      <tr>
-          <td>总萃取时间</td>
-          <td>2分15秒-3分</td>
-      </tr>
-      <tr>
-          <td>单次粉量</td>
-          <td>15g</td>
-      </tr>
-      <tr>
-          <td>出液量</td>
-          <td>225-240g</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>推荐参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>冲煮器具</td>
+					<td>V60 02 或玻璃法压壶</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15 到 1:16</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>中细，接近白砂糖颗粒</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>90-93℃（浅烘可到93-94℃）</td>
+			</tr>
+			<tr>
+					<td>总萃取时间</td>
+					<td>2分15秒-3分</td>
+			</tr>
+			<tr>
+					<td>单次粉量</td>
+					<td>15g</td>
+			</tr>
+			<tr>
+					<td>出液量</td>
+					<td>225-240g</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己做对比杯时，会每组至少冲3次，取平均感官表现并记录TDS。若有条件，可以搭配折光仪，比如 <a href="https://www.amazon.com/s?k=DiFluid%20R2%20Extract%20Refractometer&amp;tag=coffeeprism-20">DiFluid R2 Extract Refractometer</a>。它不能直接测抗氧化值，但能帮助你确认萃取率是否接近，避免因为萃取不足或过萃而干扰判断。</p>
 <h3 id="想进一步比较哪些工具最实用">想进一步比较，哪些工具最实用</h3>
@@ -1459,30 +1459,30 @@
 <h3 id="工具怎么选三类预算最值得投入">工具怎么选：三类预算最值得投入</h3>
 <p>如果预算有限，建议按优先级配置：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算档位</th>
-          <th>推荐配置</th>
-          <th>参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>入门档</td>
-          <td>电子秤 + V60 + 滤纸 + 分享壶</td>
-          <td>150-300元</td>
-      </tr>
-      <tr>
-          <td>进阶档</td>
-          <td>手磨/电磨 + 温控壶 + 精准秤</td>
-          <td>500-1500元</td>
-      </tr>
-      <tr>
-          <td>研究档</td>
-          <td>再加TDS仪、标准杯测杯、记录系统</td>
-          <td>1500-4000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算档位</th>
+					<th>推荐配置</th>
+					<th>参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>入门档</td>
+					<td>电子秤 + V60 + 滤纸 + 分享壶</td>
+					<td>150-300元</td>
+			</tr>
+			<tr>
+					<td>进阶档</td>
+					<td>手磨/电磨 + 温控壶 + 精准秤</td>
+					<td>500-1500元</td>
+			</tr>
+			<tr>
+					<td>研究档</td>
+					<td>再加TDS仪、标准杯测杯、记录系统</td>
+					<td>1500-4000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>对应海外产品可参考 <a href="https://www.amazon.com/s?k=Timemore%20Black%20Mirror%20Scale&amp;tag=coffeeprism-20">Timemore Black Mirror Scale</a>、<a href="https://www.amazon.com/s?k=Baratza%20Encore%20Grinder&amp;tag=coffeeprism-20">Baratza Encore Grinder</a>、<a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>。AeroPress 适合做不同时间和水温的对比实验，因为变量控制相对容易。</p>
 <h3 id="国内购买渠道怎么判断性价比">国内购买渠道怎么判断性价比</h3>
@@ -1657,30 +1657,30 @@
 </ul>
 <h3 id="32-不同冲煮方式的咖啡因含量对比">3.2 不同冲煮方式的咖啡因含量对比</h3>
 <table>
-  <thead>
-      <tr>
-          <th>冲煮方式</th>
-          <th>咖啡因含量（200ml）</th>
-          <th>相当于标准量</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>冷萃</td>
-          <td>180-200mg</td>
-          <td>1.2杯</td>
-      </tr>
-      <tr>
-          <td>意式浓缩</td>
-          <td>63-75mg</td>
-          <td>0.4杯</td>
-      </tr>
-      <tr>
-          <td>挂耳咖啡</td>
-          <td>120-150mg</td>
-          <td>0.8杯</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>冲煮方式</th>
+					<th>咖啡因含量（200ml）</th>
+					<th>相当于标准量</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>冷萃</td>
+					<td>180-200mg</td>
+					<td>1.2杯</td>
+			</tr>
+			<tr>
+					<td>意式浓缩</td>
+					<td>63-75mg</td>
+					<td>0.4杯</td>
+			</tr>
+			<tr>
+					<td>挂耳咖啡</td>
+					<td>120-150mg</td>
+					<td>0.8杯</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="四常见误区与科学解决方案">四、常见误区与科学解决方案</h2>
@@ -1778,30 +1778,30 @@
 <h2 id="四中国市场的实践指南">四、中国市场的实践指南</h2>
 <h3 id="41-本土化产品选择">4.1 本土化产品选择</h3>
 <table>
-  <thead>
-      <tr>
-          <th>品牌</th>
-          <th>产品</th>
-          <th>咖啡因含量(mg)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>瑞幸咖啡</td>
-          <td>标准美式</td>
-          <td>180</td>
-      </tr>
-      <tr>
-          <td>三顿半</td>
-          <td>3号超即溶</td>
-          <td>135</td>
-      </tr>
-      <tr>
-          <td>隅田川</td>
-          <td>挂耳咖啡</td>
-          <td>85</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>品牌</th>
+					<th>产品</th>
+					<th>咖啡因含量(mg)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>瑞幸咖啡</td>
+					<td>标准美式</td>
+					<td>180</td>
+			</tr>
+			<tr>
+					<td>三顿半</td>
+					<td>3号超即溶</td>
+					<td>135</td>
+			</tr>
+			<tr>
+					<td>隅田川</td>
+					<td>挂耳咖啡</td>
+					<td>85</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="42-智能监测工具推荐">4.2 智能监测工具推荐</h3>
 <ul>
@@ -2063,34 +2063,34 @@
 • 特殊人群需提前至12小时</p>
 <h3 id="23-替代方案精选指南">2.3 替代方案精选指南</h3>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th>咖啡因含量</th>
-          <th>推荐品牌</th>
-          <th>最佳饮用时段</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>低因咖啡</td>
-          <td>&lt;5mg/杯</td>
-          <td>星巴克低因系列</td>
-          <td>16:00后</td>
-      </tr>
-      <tr>
-          <td>大麦茶</td>
-          <td>0mg</td>
-          <td>伊藤园焙煎大麦茶</td>
-          <td>全天候</td>
-      </tr>
-      <tr>
-          <td>南非博士茶</td>
-          <td>0mg</td>
-          <td>Rooibos原叶茶</td>
-          <td>睡前2小时</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>咖啡因含量</th>
+					<th>推荐品牌</th>
+					<th>最佳饮用时段</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>低因咖啡</td>
+					<td>&lt;5mg/杯</td>
+					<td>星巴克低因系列</td>
+					<td>16:00后</td>
+			</tr>
+			<tr>
+					<td>大麦茶</td>
+					<td>0mg</td>
+					<td>伊藤园焙煎大麦茶</td>
+					<td>全天候</td>
+			</tr>
+			<tr>
+					<td>南非博士茶</td>
+					<td>0mg</td>
+					<td>Rooibos原叶茶</td>
+					<td>睡前2小时</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="三专业咖啡师的私藏技巧">三、专业咖啡师的私藏技巧</h2>
@@ -2377,30 +2377,30 @@
 <hr>
 <h2 id="五专业设备推荐精准掌控咖啡因">五、专业设备推荐：精准掌控咖啡因</h2>
 <table>
-  <thead>
-      <tr>
-          <th>产品名称</th>
-          <th>核心功能</th>
-          <th>中国购买渠道</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Acaia Pearl Scale</td>
-          <td>精确到0.1g的粉量控制</td>
-          <td>天猫国际旗舰店</td>
-      </tr>
-      <tr>
-          <td>Cometeer冻干咖啡</td>
-          <td>标准化每颗80mg咖啡因</td>
-          <td>京东全球购</td>
-      </tr>
-      <tr>
-          <td>Withings睡眠监测仪</td>
-          <td>实时追踪睡眠质量</td>
-          <td>小米有品</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产品名称</th>
+					<th>核心功能</th>
+					<th>中国购买渠道</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Acaia Pearl Scale</td>
+					<td>精确到0.1g的粉量控制</td>
+					<td>天猫国际旗舰店</td>
+			</tr>
+			<tr>
+					<td>Cometeer冻干咖啡</td>
+					<td>标准化每颗80mg咖啡因</td>
+					<td>京东全球购</td>
+			</tr>
+			<tr>
+					<td>Withings睡眠监测仪</td>
+					<td>实时追踪睡眠质量</td>
+					<td>小米有品</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="常见问题解答">常见问题解答</h2>
@@ -2443,40 +2443,40 @@
 <hr>
 <h2 id="二四大主流脱因技术对比">二、四大主流脱因技术对比</h2>
 <table>
-  <thead>
-      <tr>
-          <th>处理方式</th>
-          <th>咖啡因残留率</th>
-          <th>风味保留度</th>
-          <th>适用场景</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>瑞士水处理</td>
-          <td>≤0.1%</td>
-          <td>★★★★☆</td>
-          <td>精品手冲</td>
-      </tr>
-      <tr>
-          <td>二氧化碳超临界</td>
-          <td>≤0.3%</td>
-          <td>★★★★</td>
-          <td>意式浓缩</td>
-      </tr>
-      <tr>
-          <td>化学溶剂法</td>
-          <td>≤0.2%</td>
-          <td>★★☆</td>
-          <td>商业速溶</td>
-      </tr>
-      <tr>
-          <td>天然低因种</td>
-          <td>30%</td>
-          <td>★★★☆</td>
-          <td>日常饮用</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>处理方式</th>
+					<th>咖啡因残留率</th>
+					<th>风味保留度</th>
+					<th>适用场景</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>瑞士水处理</td>
+					<td>≤0.1%</td>
+					<td>★★★★☆</td>
+					<td>精品手冲</td>
+			</tr>
+			<tr>
+					<td>二氧化碳超临界</td>
+					<td>≤0.3%</td>
+					<td>★★★★</td>
+					<td>意式浓缩</td>
+			</tr>
+			<tr>
+					<td>化学溶剂法</td>
+					<td>≤0.2%</td>
+					<td>★★☆</td>
+					<td>商业速溶</td>
+			</tr>
+			<tr>
+					<td>天然低因种</td>
+					<td>30%</td>
+					<td>★★★☆</td>
+					<td>日常饮用</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="三家庭制作实操指南">三、家庭制作实操指南</h2>
@@ -2654,30 +2654,30 @@
 • <a href="https://www.amazon.com/s?k=Hario%E5%92%96%E5%95%A1%E5%9B%A0%E6%A3%80%E6%B5%8B%E8%AF%95%E7%BA%B8&amp;tag=coffeeprism-20">Hario咖啡因检测试纸</a>可快速测定饮品实际含量</p>
 <h3 id="42-精准摄入工具包">4.2 精准摄入工具包</h3>
 <table>
-  <thead>
-      <tr>
-          <th>产品名称</th>
-          <th>核心功能</th>
-          <th>中国购买渠道</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>泰摩智能称</td>
-          <td>精确到0.1g的咖啡因含量计算</td>
-          <td>天猫旗舰店</td>
-      </tr>
-      <tr>
-          <td>Withings Body+体脂秤</td>
-          <td>代谢率追踪+咖啡因建议</td>
-          <td>京东自营</td>
-      </tr>
-      <tr>
-          <td>三顿半数字溶咖啡</td>
-          <td>每颗标注80mg咖啡因</td>
-          <td>官方小程序</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产品名称</th>
+					<th>核心功能</th>
+					<th>中国购买渠道</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>泰摩智能称</td>
+					<td>精确到0.1g的咖啡因含量计算</td>
+					<td>天猫旗舰店</td>
+			</tr>
+			<tr>
+					<td>Withings Body+体脂秤</td>
+					<td>代谢率追踪+咖啡因建议</td>
+					<td>京东自营</td>
+			</tr>
+			<tr>
+					<td>三顿半数字溶咖啡</td>
+					<td>每颗标注80mg咖啡因</td>
+					<td>官方小程序</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="五常见问题解答">五、常见问题解答</h2>
@@ -2745,30 +2745,30 @@
 </code></pre><p><em>示例：60kg人群建议180mg（约2份意式浓缩或450ml手冲咖啡）</em></p>
 <h3 id="三中国特色的咖啡选择">（三）中国特色的咖啡选择</h3>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>咖啡因含量</th>
-          <th>适用场景</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>云南小粒手冲</td>
-          <td>80-100mg/200ml</td>
-          <td>晨跑前基础摄入</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡液</td>
-          <td>150mg/条</td>
-          <td>健身房即时补充</td>
-      </tr>
-      <tr>
-          <td>防弹咖啡</td>
-          <td>120mg/300ml</td>
-          <td>低碳饮食训练日</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>咖啡因含量</th>
+					<th>适用场景</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>云南小粒手冲</td>
+					<td>80-100mg/200ml</td>
+					<td>晨跑前基础摄入</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡液</td>
+					<td>150mg/条</td>
+					<td>健身房即时补充</td>
+			</tr>
+			<tr>
+					<td>防弹咖啡</td>
+					<td>120mg/300ml</td>
+					<td>低碳饮食训练日</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="三误区破解与安全指南">三、误区破解与安全指南</h2>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%B8%AD/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡中的抗氧化物质研究深度解析指南</title>
@@ -49,35 +49,35 @@
 <p>做基础比较时，建议一次只改变一个变量。比如固定产区与处理法，只比较浅烘、中烘、深烘；或者固定烘焙度，只比较水洗和日晒。</p>
 <p>实操建议如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th>建议设置</th>
-          <th>原因</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>烘焙日期</td>
-          <td>7-30天内</td>
-          <td>兼顾排气与风味稳定</td>
-      </tr>
-      <tr>
-          <td>烘焙度</td>
-          <td>浅烘/中烘各一组</td>
-          <td>便于比较绿原酸与褐黑素差异</td>
-      </tr>
-      <tr>
-          <td>研磨</td>
-          <td>中细偏中</td>
-          <td>减少极端萃取误差</td>
-      </tr>
-      <tr>
-          <td>豆量</td>
-          <td>15g或18g固定</td>
-          <td>提高重复性</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th>建议设置</th>
+					<th>原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>烘焙日期</td>
+					<td>7-30天内</td>
+					<td>兼顾排气与风味稳定</td>
+			</tr>
+			<tr>
+					<td>烘焙度</td>
+					<td>浅烘/中烘各一组</td>
+					<td>便于比较绿原酸与褐黑素差异</td>
+			</tr>
+			<tr>
+					<td>研磨</td>
+					<td>中细偏中</td>
+					<td>减少极端萃取误差</td>
+			</tr>
+			<tr>
+					<td>豆量</td>
+					<td>15g或18g固定</td>
+					<td>提高重复性</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己做居家测试时，常用 15g 咖啡粉、240g 水、总时长 2分30秒到3分之间，这样最容易观察风味与功能成分释放的平衡。想降低误差，可使用 <a href="https://www.amazon.com/s?k=Burr%20Grinder&amp;tag=coffeeprism-20">Burr Grinder</a> 保持均匀研磨。</p>
 <h3 id="冲煮参数保留抗氧化成分的实用区间">冲煮参数：保留抗氧化成分的实用区间</h3>
@@ -137,30 +137,30 @@
 <p>优先选信息透明的豆子。理想标签应包括产区、海拔、处理法、品种、烘焙日期和风味描述。若只写“精品阿拉比卡”“大师拼配”，却没有更多细节，就不利于对比研究。</p>
 <p>推荐选择策略：</p>
 <table>
-  <thead>
-      <tr>
-          <th>使用目的</th>
-          <th>推荐类型</th>
-          <th>说明</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>比较绿原酸保留</td>
-          <td>浅烘单品豆</td>
-          <td>观察果酸与明亮度</td>
-      </tr>
-      <tr>
-          <td>平衡风味与稳定性</td>
-          <td>中烘拼配或单品</td>
-          <td>更易日常饮用</td>
-      </tr>
-      <tr>
-          <td>比较烘焙生成物</td>
-          <td>中深烘样品</td>
-          <td>对照褐黑素与苦感</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>使用目的</th>
+					<th>推荐类型</th>
+					<th>说明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>比较绿原酸保留</td>
+					<td>浅烘单品豆</td>
+					<td>观察果酸与明亮度</td>
+			</tr>
+			<tr>
+					<td>平衡风味与稳定性</td>
+					<td>中烘拼配或单品</td>
+					<td>更易日常饮用</td>
+			</tr>
+			<tr>
+					<td>比较烘焙生成物</td>
+					<td>中深烘样品</td>
+					<td>对照褐黑素与苦感</td>
+			</tr>
+	</tbody>
 </table>
 <p>在国内，Manner、Seesaw、部分独立精品店和天猫烘焙商家都能买到参数较清晰的咖啡豆。若想做更严谨比较，尽量一次购买同批次样品。</p>
 <h2 id="进阶玩家的咖啡中的抗氧化物质研究高阶技巧">进阶玩家的咖啡中的抗氧化物质研究高阶技巧</h2>
@@ -261,42 +261,42 @@
 <h3 id="家庭可执行的冲煮参数怎么设">家庭可执行的冲煮参数怎么设</h3>
 <p>如果你想做一套相对稳定的“咖啡中的抗氧化物质研究教程”，下面这组参数适合作为起点：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>推荐参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>冲煮器具</td>
-          <td>V60 02 或玻璃法压壶</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15 到 1:16</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>中细，接近白砂糖颗粒</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>90-93℃（浅烘可到93-94℃）</td>
-      </tr>
-      <tr>
-          <td>总萃取时间</td>
-          <td>2分15秒-3分</td>
-      </tr>
-      <tr>
-          <td>单次粉量</td>
-          <td>15g</td>
-      </tr>
-      <tr>
-          <td>出液量</td>
-          <td>225-240g</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>推荐参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>冲煮器具</td>
+					<td>V60 02 或玻璃法压壶</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15 到 1:16</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>中细，接近白砂糖颗粒</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>90-93℃（浅烘可到93-94℃）</td>
+			</tr>
+			<tr>
+					<td>总萃取时间</td>
+					<td>2分15秒-3分</td>
+			</tr>
+			<tr>
+					<td>单次粉量</td>
+					<td>15g</td>
+			</tr>
+			<tr>
+					<td>出液量</td>
+					<td>225-240g</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己做对比杯时，会每组至少冲3次，取平均感官表现并记录TDS。若有条件，可以搭配折光仪，比如 <a href="https://www.amazon.com/s?k=DiFluid%20R2%20Extract%20Refractometer&amp;tag=coffeeprism-20">DiFluid R2 Extract Refractometer</a>。它不能直接测抗氧化值，但能帮助你确认萃取率是否接近，避免因为萃取不足或过萃而干扰判断。</p>
 <h3 id="想进一步比较哪些工具最实用">想进一步比较，哪些工具最实用</h3>
@@ -335,30 +335,30 @@
 <h3 id="工具怎么选三类预算最值得投入">工具怎么选：三类预算最值得投入</h3>
 <p>如果预算有限，建议按优先级配置：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算档位</th>
-          <th>推荐配置</th>
-          <th>参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>入门档</td>
-          <td>电子秤 + V60 + 滤纸 + 分享壶</td>
-          <td>150-300元</td>
-      </tr>
-      <tr>
-          <td>进阶档</td>
-          <td>手磨/电磨 + 温控壶 + 精准秤</td>
-          <td>500-1500元</td>
-      </tr>
-      <tr>
-          <td>研究档</td>
-          <td>再加TDS仪、标准杯测杯、记录系统</td>
-          <td>1500-4000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算档位</th>
+					<th>推荐配置</th>
+					<th>参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>入门档</td>
+					<td>电子秤 + V60 + 滤纸 + 分享壶</td>
+					<td>150-300元</td>
+			</tr>
+			<tr>
+					<td>进阶档</td>
+					<td>手磨/电磨 + 温控壶 + 精准秤</td>
+					<td>500-1500元</td>
+			</tr>
+			<tr>
+					<td>研究档</td>
+					<td>再加TDS仪、标准杯测杯、记录系统</td>
+					<td>1500-4000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>对应海外产品可参考 <a href="https://www.amazon.com/s?k=Timemore%20Black%20Mirror%20Scale&amp;tag=coffeeprism-20">Timemore Black Mirror Scale</a>、<a href="https://www.amazon.com/s?k=Baratza%20Encore%20Grinder&amp;tag=coffeeprism-20">Baratza Encore Grinder</a>、<a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>。AeroPress 适合做不同时间和水温的对比实验，因为变量控制相对容易。</p>
 <h3 id="国内购买渠道怎么判断性价比">国内购买渠道怎么判断性价比</h3>

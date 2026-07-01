@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%B6%88%E8%B4%B9%E8%80%85%E5%A6%82%E4%BD%95%E6%94%AF%E6%8C%81%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%92%96%E5%95%A1/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>消费者如何支持可持续咖啡：从入门到实践的完整指南</title>
@@ -48,34 +48,34 @@
 <hr>
 <h2 id="五产品推荐与采购指南">五、产品推荐与采购指南</h2>
 <table>
-  <thead>
-      <tr>
-          <th>产品类型</th>
-          <th>推荐品牌</th>
-          <th>核心优势</th>
-          <th>购买渠道</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>认证咖啡豆</td>
-          <td>炬点咖啡 云南雨林</td>
-          <td>碳足迹仅为进口豆1/3</td>
-          <td>淘宝旗舰店</td>
-      </tr>
-      <tr>
-          <td>环保器具</td>
-          <td>Hario V60金属滤网</td>
-          <td>终身免耗材，提升醇厚度</td>
-          <td>京东国际</td>
-      </tr>
-      <tr>
-          <td>可持续周边</td>
-          <td>Stojo可折叠随行杯</td>
-          <td>折叠后仅12cm高，食品级硅胶</td>
-          <td>小红书商城</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产品类型</th>
+					<th>推荐品牌</th>
+					<th>核心优势</th>
+					<th>购买渠道</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>认证咖啡豆</td>
+					<td>炬点咖啡 云南雨林</td>
+					<td>碳足迹仅为进口豆1/3</td>
+					<td>淘宝旗舰店</td>
+			</tr>
+			<tr>
+					<td>环保器具</td>
+					<td>Hario V60金属滤网</td>
+					<td>终身免耗材，提升醇厚度</td>
+					<td>京东国际</td>
+			</tr>
+			<tr>
+					<td>可持续周边</td>
+					<td>Stojo可折叠随行杯</td>
+					<td>折叠后仅12cm高，食品级硅胶</td>
+					<td>小红书商城</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="常见问题解答">常见问题解答</h2>

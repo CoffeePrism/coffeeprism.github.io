@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E9%87%87%E6%94%B6/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡价格上涨背后：巴西咖啡采收延迟，如何冲击全球供应链与中国杯测价格</title>
@@ -84,40 +84,40 @@
 </ul>
 <p>下面这张表可以概括不同类型企业的受影响方式：</p>
 <table>
-  <thead>
-      <tr>
-          <th>产业角色</th>
-          <th>主要压力点</th>
-          <th>短期应对</th>
-          <th>中期风险</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>生豆贸易商</td>
-          <td>现货紧张、装运延迟、履约压力</td>
-          <td>提高升贴水、扩大安全库存</td>
-          <td>资金占用增加</td>
-      </tr>
-      <tr>
-          <td>烘焙商</td>
-          <td>原料成本、风味稳定性</td>
-          <td>调整拼配、锁远期合同</td>
-          <td>毛利被压缩</td>
-      </tr>
-      <tr>
-          <td>连锁品牌</td>
-          <td>杯饮成本、促销模型</td>
-          <td>减少补贴、优化SKU</td>
-          <td>客单价承压</td>
-      </tr>
-      <tr>
-          <td>精品咖啡馆</td>
-          <td>小批量采购议价弱</td>
-          <td>缩减豆单、提高单品售价</td>
-          <td>顾客流失风险</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>产业角色</th>
+					<th>主要压力点</th>
+					<th>短期应对</th>
+					<th>中期风险</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>生豆贸易商</td>
+					<td>现货紧张、装运延迟、履约压力</td>
+					<td>提高升贴水、扩大安全库存</td>
+					<td>资金占用增加</td>
+			</tr>
+			<tr>
+					<td>烘焙商</td>
+					<td>原料成本、风味稳定性</td>
+					<td>调整拼配、锁远期合同</td>
+					<td>毛利被压缩</td>
+			</tr>
+			<tr>
+					<td>连锁品牌</td>
+					<td>杯饮成本、促销模型</td>
+					<td>减少补贴、优化SKU</td>
+					<td>客单价承压</td>
+			</tr>
+			<tr>
+					<td>精品咖啡馆</td>
+					<td>小批量采购议价弱</td>
+					<td>缩减豆单、提高单品售价</td>
+					<td>顾客流失风险</td>
+			</tr>
+	</tbody>
 </table>
 <p>值得注意的是，大品牌并不一定最脆弱。相反，规模大的连锁通常拥有更强的谈判能力、采购分散能力和财务缓冲。真正容易受伤的是夹在中间的独立烘焙商与中小精品店：它们既没有足够规模去锁低价，也不能像大众连锁那样用超强流量摊薄成本。</p>
 <h2 id="价格上涨会不会直接传导到中国消费者的一杯咖啡">价格上涨会不会直接传导到中国消费者的一杯咖啡</h2>

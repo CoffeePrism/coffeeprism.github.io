@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%B8%8E%E8%BF%90%E5%8A%A8%E8%A1%A8%E7%8E%B0/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡与运动表现的关系深度解析指南</title>
@@ -32,46 +32,46 @@
 <p>需要区分<strong>咖啡</strong>和<strong>纯咖啡因补剂</strong>。咖啡除了咖啡因，还包含有机酸、挥发性芳香物质和少量多酚，这些成分会影响胃部舒适度和饮用体验。相比胶囊或能量胶，咖啡的优点是容易获得、价格低、仪式感强，缺点是剂量不够稳定。</p>
 <p>常见参考范围如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品/形式</th>
-          <th style="text-align: right">典型份量</th>
-          <th style="text-align: right">咖啡因范围（约）</th>
-          <th>特点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>单份浓缩</td>
-          <td style="text-align: right">30ml</td>
-          <td style="text-align: right">50-75mg</td>
-          <td>体积小，适合赛前</td>
-      </tr>
-      <tr>
-          <td>双份浓缩</td>
-          <td style="text-align: right">60ml</td>
-          <td style="text-align: right">100-150mg</td>
-          <td>常见于连锁咖啡</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300ml</td>
-          <td style="text-align: right">120-220mg</td>
-          <td>剂量波动较大</td>
-      </tr>
-      <tr>
-          <td>速溶黑咖啡</td>
-          <td style="text-align: right">1条/杯</td>
-          <td style="text-align: right">50-100mg</td>
-          <td>方便控制和携带</td>
-      </tr>
-      <tr>
-          <td>咖啡因胶囊</td>
-          <td style="text-align: right">1粒</td>
-          <td style="text-align: right">100-200mg</td>
-          <td>剂量更精确</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品/形式</th>
+					<th style="text-align: right">典型份量</th>
+					<th style="text-align: right">咖啡因范围（约）</th>
+					<th>特点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>单份浓缩</td>
+					<td style="text-align: right">30ml</td>
+					<td style="text-align: right">50-75mg</td>
+					<td>体积小，适合赛前</td>
+			</tr>
+			<tr>
+					<td>双份浓缩</td>
+					<td style="text-align: right">60ml</td>
+					<td style="text-align: right">100-150mg</td>
+					<td>常见于连锁咖啡</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300ml</td>
+					<td style="text-align: right">120-220mg</td>
+					<td>剂量波动较大</td>
+			</tr>
+			<tr>
+					<td>速溶黑咖啡</td>
+					<td style="text-align: right">1条/杯</td>
+					<td style="text-align: right">50-100mg</td>
+					<td>方便控制和携带</td>
+			</tr>
+			<tr>
+					<td>咖啡因胶囊</td>
+					<td style="text-align: right">1粒</td>
+					<td style="text-align: right">100-200mg</td>
+					<td>剂量更精确</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想从饮品入手，<a href="https://www.amazon.com/s?k=Espresso%20Machine&amp;tag=coffeeprism-20">Espresso Machine</a>、<a href="https://www.amazon.com/s?k=Coffee%20Scale&amp;tag=coffeeprism-20">Coffee Scale</a> 和 <a href="https://www.amazon.com/s?k=Pour%20Over%20Kettle&amp;tag=coffeeprism-20">Pour Over Kettle</a> 都是常见工具；在国内也可通过京东、天猫购买德龙、百胜图、泰摩等替代型号。</p>
 <h2 id="咖啡与运动表现的关系历史演变与中国市场趋势">咖啡与运动表现的关系历史演变与中国市场趋势</h2>
@@ -98,40 +98,40 @@
 <p>国际运动营养讨论中，常见有效范围是<strong>每公斤体重 3-6mg 咖啡因</strong>，但对日常训练者而言，不必一开始就用高剂量。很多人从 2-3mg/kg 就能感受到专注度和主观疲劳改善，而且副作用更少。</p>
 <p>举个简单例子：</p>
 <table>
-  <thead>
-      <tr>
-          <th>体重</th>
-          <th style="text-align: right">保守起始剂量</th>
-          <th style="text-align: right">常见有效区间</th>
-          <th>约等于</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>50kg</td>
-          <td style="text-align: right">100mg</td>
-          <td style="text-align: right">150-300mg</td>
-          <td>1-2 杯浓缩</td>
-      </tr>
-      <tr>
-          <td>60kg</td>
-          <td style="text-align: right">120mg</td>
-          <td style="text-align: right">180-360mg</td>
-          <td>1 杯手冲或双份浓缩</td>
-      </tr>
-      <tr>
-          <td>70kg</td>
-          <td style="text-align: right">140mg</td>
-          <td style="text-align: right">210-420mg</td>
-          <td>1 大杯美式到 2 杯浓缩</td>
-      </tr>
-      <tr>
-          <td>80kg</td>
-          <td style="text-align: right">160mg</td>
-          <td style="text-align: right">240-480mg</td>
-          <td>视耐受调整</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>体重</th>
+					<th style="text-align: right">保守起始剂量</th>
+					<th style="text-align: right">常见有效区间</th>
+					<th>约等于</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>50kg</td>
+					<td style="text-align: right">100mg</td>
+					<td style="text-align: right">150-300mg</td>
+					<td>1-2 杯浓缩</td>
+			</tr>
+			<tr>
+					<td>60kg</td>
+					<td style="text-align: right">120mg</td>
+					<td style="text-align: right">180-360mg</td>
+					<td>1 杯手冲或双份浓缩</td>
+			</tr>
+			<tr>
+					<td>70kg</td>
+					<td style="text-align: right">140mg</td>
+					<td style="text-align: right">210-420mg</td>
+					<td>1 大杯美式到 2 杯浓缩</td>
+			</tr>
+			<tr>
+					<td>80kg</td>
+					<td style="text-align: right">160mg</td>
+					<td style="text-align: right">240-480mg</td>
+					<td>视耐受调整</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你平时几乎不喝咖啡，先用 80-120mg 试水更稳妥。我自己的经验是，耐力训练更适合中低剂量，力量训练前若摄入过高，心率和焦虑感可能反而影响组间恢复。</p>
 <h3 id="最佳饮用时间与不同项目策略">最佳饮用时间与不同项目策略</h3>
@@ -174,40 +174,40 @@
 <h3 id="不同使用场景适合什么产品">不同使用场景适合什么产品</h3>
 <p>按场景划分会更好选：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐类型</th>
-          <th>优点</th>
-          <th>注意点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>通勤后去健身房</td>
-          <td>连锁热/冰美式</td>
-          <td>方便，即买即喝</td>
-          <td>注意糖浆和加料</td>
-      </tr>
-      <tr>
-          <td>晨练前在家</td>
-          <td>速溶黑咖啡</td>
-          <td>便宜、快、好控制</td>
-          <td>口感一般</td>
-      </tr>
-      <tr>
-          <td>比赛日前</td>
-          <td>浓缩或咖啡因胶囊</td>
-          <td>剂量更集中</td>
-          <td>先训练中测试</td>
-      </tr>
-      <tr>
-          <td>夏季户外</td>
-          <td>冷萃/冰美式</td>
-          <td>易入口</td>
-          <td>空腹慎用冰饮</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐类型</th>
+					<th>优点</th>
+					<th>注意点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>通勤后去健身房</td>
+					<td>连锁热/冰美式</td>
+					<td>方便，即买即喝</td>
+					<td>注意糖浆和加料</td>
+			</tr>
+			<tr>
+					<td>晨练前在家</td>
+					<td>速溶黑咖啡</td>
+					<td>便宜、快、好控制</td>
+					<td>口感一般</td>
+			</tr>
+			<tr>
+					<td>比赛日前</td>
+					<td>浓缩或咖啡因胶囊</td>
+					<td>剂量更集中</td>
+					<td>先训练中测试</td>
+			</tr>
+			<tr>
+					<td>夏季户外</td>
+					<td>冷萃/冰美式</td>
+					<td>易入口</td>
+					<td>空腹慎用冰饮</td>
+			</tr>
+	</tbody>
 </table>
 <p>实用产品可参考：<a href="https://www.amazon.com/s?k=Instant%20Coffee&amp;tag=coffeeprism-20">Instant Coffee</a>、<a href="https://www.amazon.com/s?k=Espresso%20Pods&amp;tag=coffeeprism-20">Espresso Pods</a>、<a href="https://www.amazon.com/s?k=Caffeine%20Pills&amp;tag=coffeeprism-20">Caffeine Pills</a>。国内替代购买渠道主要是京东、天猫、淘宝和品牌小程序。</p>
 <h3 id="豆子速溶胶囊哪种更适合训练前">豆子、速溶、胶囊哪种更适合训练前</h3>
@@ -396,30 +396,30 @@
 </code></pre><p><em>示例：60kg人群建议180mg（约2份意式浓缩或450ml手冲咖啡）</em></p>
 <h3 id="三中国特色的咖啡选择">（三）中国特色的咖啡选择</h3>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>咖啡因含量</th>
-          <th>适用场景</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>云南小粒手冲</td>
-          <td>80-100mg/200ml</td>
-          <td>晨跑前基础摄入</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡液</td>
-          <td>150mg/条</td>
-          <td>健身房即时补充</td>
-      </tr>
-      <tr>
-          <td>防弹咖啡</td>
-          <td>120mg/300ml</td>
-          <td>低碳饮食训练日</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>咖啡因含量</th>
+					<th>适用场景</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>云南小粒手冲</td>
+					<td>80-100mg/200ml</td>
+					<td>晨跑前基础摄入</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡液</td>
+					<td>150mg/条</td>
+					<td>健身房即时补充</td>
+			</tr>
+			<tr>
+					<td>防弹咖啡</td>
+					<td>120mg/300ml</td>
+					<td>低碳饮食训练日</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="三误区破解与安全指南">三、误区破解与安全指南</h2>

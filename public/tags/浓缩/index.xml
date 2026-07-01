@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E6%B5%93%E7%BC%A9/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡与甜点的风味互补完全攻略与技巧指南</title>
@@ -48,46 +48,46 @@
 </ul>
 <h3 id="常见咖啡风格与甜点方向速查表">常见咖啡风格与甜点方向速查表</h3>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡风格</th>
-          <th>常见风味</th>
-          <th>适合甜点</th>
-          <th>搭配理由</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>浅烘手冲</td>
-          <td>柑橘、花香、核果</td>
-          <td>柠檬挞、玛德琳、原味戚风</td>
-          <td>提亮清香，避免厚重压味</td>
-      </tr>
-      <tr>
-          <td>中烘手冲/美式</td>
-          <td>焦糖、红果、坚果</td>
-          <td>曲奇、苹果派、焦糖布丁</td>
-          <td>平衡度高，适配范围广</td>
-      </tr>
-      <tr>
-          <td>意式浓缩</td>
-          <td>可可、烘烤坚果、焦糖</td>
-          <td>提拉米苏、布朗尼、歌剧院</td>
-          <td>强度足，能承受高甜高脂</td>
-      </tr>
-      <tr>
-          <td>拿铁/卡布</td>
-          <td>奶香、麦芽、柔和苦甜</td>
-          <td>可颂、芝士蛋糕、肉桂卷</td>
-          <td>奶感与烘焙香协同</td>
-      </tr>
-      <tr>
-          <td>冷萃</td>
-          <td>低酸、顺滑、可可感</td>
-          <td>巧克力甜点、冰淇淋、巴斯克</td>
-          <td>冰凉顺口，适合夏季场景</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡风格</th>
+					<th>常见风味</th>
+					<th>适合甜点</th>
+					<th>搭配理由</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>浅烘手冲</td>
+					<td>柑橘、花香、核果</td>
+					<td>柠檬挞、玛德琳、原味戚风</td>
+					<td>提亮清香，避免厚重压味</td>
+			</tr>
+			<tr>
+					<td>中烘手冲/美式</td>
+					<td>焦糖、红果、坚果</td>
+					<td>曲奇、苹果派、焦糖布丁</td>
+					<td>平衡度高，适配范围广</td>
+			</tr>
+			<tr>
+					<td>意式浓缩</td>
+					<td>可可、烘烤坚果、焦糖</td>
+					<td>提拉米苏、布朗尼、歌剧院</td>
+					<td>强度足，能承受高甜高脂</td>
+			</tr>
+			<tr>
+					<td>拿铁/卡布</td>
+					<td>奶香、麦芽、柔和苦甜</td>
+					<td>可颂、芝士蛋糕、肉桂卷</td>
+					<td>奶感与烘焙香协同</td>
+			</tr>
+			<tr>
+					<td>冷萃</td>
+					<td>低酸、顺滑、可可感</td>
+					<td>巧克力甜点、冰淇淋、巴斯克</td>
+					<td>冰凉顺口，适合夏季场景</td>
+			</tr>
+	</tbody>
 </table>
 <p>想在家快速实践，可以从稳定器具入手，比如 <a href="https://www.amazon.com/s?k=V60%20Dripper&amp;tag=coffeeprism-20">V60 Dripper</a>、<a href="https://www.amazon.com/s?k=Timemore%20Chestnut%20C3&amp;tag=coffeeprism-20">Timemore Chestnut C3</a> 这类入门组合；国内淘宝、京东通常更容易买到同款或平替。</p>
 <h2 id="咖啡与甜点的风味互补趋势从欧洲传统到中国咖啡馆日常">咖啡与甜点的风味互补趋势：从欧洲传统到中国咖啡馆日常</h2>
@@ -163,40 +163,40 @@
 </ol>
 <h3 id="四组高成功率搭配示例">四组高成功率搭配示例</h3>
 <table>
-  <thead>
-      <tr>
-          <th>甜点</th>
-          <th>推荐咖啡</th>
-          <th>参数建议</th>
-          <th>风味效果</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>巴斯克芝士蛋糕</td>
-          <td>中浅烘哥伦比亚手冲</td>
-          <td>91°C，1:15</td>
-          <td>奶香更净，焦糖感更长</td>
-      </tr>
-      <tr>
-          <td>提拉米苏</td>
-          <td>双份浓缩或小拿铁</td>
-          <td>1:2，28秒</td>
-          <td>可可、奶油、酒香更集中</td>
-      </tr>
-      <tr>
-          <td>柠檬挞</td>
-          <td>埃塞水洗手冲</td>
-          <td>90°C，1:16</td>
-          <td>柑橘调呼应，口感清亮</td>
-      </tr>
-      <tr>
-          <td>布朗尼</td>
-          <td>冷萃或中深烘美式</td>
-          <td>冷萃1:8浓缩后加水</td>
-          <td>可可感叠加，甜腻下降</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>甜点</th>
+					<th>推荐咖啡</th>
+					<th>参数建议</th>
+					<th>风味效果</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>巴斯克芝士蛋糕</td>
+					<td>中浅烘哥伦比亚手冲</td>
+					<td>91°C，1:15</td>
+					<td>奶香更净，焦糖感更长</td>
+			</tr>
+			<tr>
+					<td>提拉米苏</td>
+					<td>双份浓缩或小拿铁</td>
+					<td>1:2，28秒</td>
+					<td>可可、奶油、酒香更集中</td>
+			</tr>
+			<tr>
+					<td>柠檬挞</td>
+					<td>埃塞水洗手冲</td>
+					<td>90°C，1:16</td>
+					<td>柑橘调呼应，口感清亮</td>
+			</tr>
+			<tr>
+					<td>布朗尼</td>
+					<td>冷萃或中深烘美式</td>
+					<td>冷萃1:8浓缩后加水</td>
+					<td>可可感叠加，甜腻下降</td>
+			</tr>
+	</tbody>
 </table>
 <p>相关工具可参考 <a href="https://www.amazon.com/s?k=Espresso%20Machine&amp;tag=coffeeprism-20">Espresso Machine</a>、<a href="https://www.amazon.com/s?k=Coffee%20Scale&amp;tag=coffeeprism-20">Coffee Scale</a>、<a href="https://www.amazon.com/s?k=Gooseneck%20Kettle&amp;tag=coffeeprism-20">Gooseneck Kettle</a>。如果预算控制在人民币 300-800 元，手冲壶、电子秤、滤杯就足以建立稳定基础。</p>
 <h2 id="咖啡与甜点的风味互补常见误区不是越苦越压甜">咖啡与甜点的风味互补常见误区：不是越苦越压甜</h2>
@@ -355,46 +355,46 @@
 <h3 id="平台差异决定内容策略">平台差异决定内容策略</h3>
 <p>不同平台，对咖啡内容的偏好并不一样。</p>
 <table>
-  <thead>
-      <tr>
-          <th>平台</th>
-          <th>用户动机</th>
-          <th>适合的咖啡内容</th>
-          <th>转化特点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>小红书</td>
-          <td>搜索灵感、种草</td>
-          <td>门店环境、出片角度、风味笔记</td>
-          <td>适合到店与新品种草</td>
-      </tr>
-      <tr>
-          <td>抖音</td>
-          <td>娱乐、即时消费</td>
-          <td>制作过程、探店、联名话题</td>
-          <td>适合爆发流量与团购</td>
-      </tr>
-      <tr>
-          <td>微信视频号</td>
-          <td>熟人传播、品牌触达</td>
-          <td>主理人故事、活动直播</td>
-          <td>适合私域沉淀</td>
-      </tr>
-      <tr>
-          <td>微博</td>
-          <td>话题扩散</td>
-          <td>联名发布、热点借势</td>
-          <td>适合品牌声量</td>
-      </tr>
-      <tr>
-          <td>B站</td>
-          <td>深度学习</td>
-          <td>手冲教程、器具评测、产区知识</td>
-          <td>适合建立专业信任</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>平台</th>
+					<th>用户动机</th>
+					<th>适合的咖啡内容</th>
+					<th>转化特点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>小红书</td>
+					<td>搜索灵感、种草</td>
+					<td>门店环境、出片角度、风味笔记</td>
+					<td>适合到店与新品种草</td>
+			</tr>
+			<tr>
+					<td>抖音</td>
+					<td>娱乐、即时消费</td>
+					<td>制作过程、探店、联名话题</td>
+					<td>适合爆发流量与团购</td>
+			</tr>
+			<tr>
+					<td>微信视频号</td>
+					<td>熟人传播、品牌触达</td>
+					<td>主理人故事、活动直播</td>
+					<td>适合私域沉淀</td>
+			</tr>
+			<tr>
+					<td>微博</td>
+					<td>话题扩散</td>
+					<td>联名发布、热点借势</td>
+					<td>适合品牌声量</td>
+			</tr>
+			<tr>
+					<td>B站</td>
+					<td>深度学习</td>
+					<td>手冲教程、器具评测、产区知识</td>
+					<td>适合建立专业信任</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想做内容，器材画面很重要。基础创作可从 <a href="https://www.amazon.com/s?k=iPhone%20Tripod&amp;tag=coffeeprism-20">iPhone Tripod</a>、<a href="https://www.amazon.com/s?k=LED%20Ring%20Light&amp;tag=coffeeprism-20">LED Ring Light</a> 这类低门槛设备开始，国内也能在淘宝、京东找到类似替代款，预算通常在50-300元。</p>
 <h2 id="咖啡与社交媒体的关系历史演变从打卡文化到内容资产">咖啡与社交媒体的关系历史演变：从打卡文化到内容资产</h2>
@@ -459,35 +459,35 @@
 <h3 id="发布节奏与数据复盘方法">发布节奏与数据复盘方法</h3>
 <p>社交平台运营离不开频率和复盘。一个常见的基础排期是：</p>
 <table>
-  <thead>
-      <tr>
-          <th>内容类型</th>
-          <th>频率建议</th>
-          <th>核心指标</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>探店/产品种草</td>
-          <td>每周2-3次</td>
-          <td>收藏率、点击率</td>
-      </tr>
-      <tr>
-          <td>专业知识科普</td>
-          <td>每周1-2次</td>
-          <td>完播率、停留时长</td>
-      </tr>
-      <tr>
-          <td>活动/上新通知</td>
-          <td>每周1次</td>
-          <td>私信、团购、到店核销</td>
-      </tr>
-      <tr>
-          <td>用户UGC转发</td>
-          <td>每周1次</td>
-          <td>互动率、社群增长</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>内容类型</th>
+					<th>频率建议</th>
+					<th>核心指标</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>探店/产品种草</td>
+					<td>每周2-3次</td>
+					<td>收藏率、点击率</td>
+			</tr>
+			<tr>
+					<td>专业知识科普</td>
+					<td>每周1-2次</td>
+					<td>完播率、停留时长</td>
+			</tr>
+			<tr>
+					<td>活动/上新通知</td>
+					<td>每周1次</td>
+					<td>私信、团购、到店核销</td>
+			</tr>
+			<tr>
+					<td>用户UGC转发</td>
+					<td>每周1次</td>
+					<td>互动率、社群增长</td>
+			</tr>
+	</tbody>
 </table>
 <p>我通常会优先看三个指标：<strong>收藏率、评论质量、到店反馈</strong>。点赞很热闹，但未必带来生意；收藏和评论中的具体提问，往往更接近真实消费意向。</p>
 <p>拍摄阶段可用 <a href="https://www.amazon.com/s?k=Smartphone%20Gimbal&amp;tag=coffeeprism-20">Smartphone Gimbal</a> 提升稳定性；如果需要俯拍手冲教程，<a href="https://www.amazon.com/s?k=Overhead%20Phone%20Mount&amp;tag=coffeeprism-20">Overhead Phone Mount</a> 更方便。国内同类设备在京东、拼多多通常更容易找到。</p>
@@ -535,35 +535,35 @@
 <h3 id="中阶工具适合门店长期运营">中阶工具：适合门店长期运营</h3>
 <p>如果门店已经稳定更新，每周能发3条以上内容，可以升级以下工具：</p>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th>作用</th>
-          <th>参考预算</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>稳定器</td>
-          <td>提升走拍流畅度</td>
-          <td>300-900元</td>
-      </tr>
-      <tr>
-          <td>桌面柔光灯</td>
-          <td>强化食物与咖啡质感</td>
-          <td>200-800元</td>
-      </tr>
-      <tr>
-          <td>简易反光板</td>
-          <td>改善阴影与皮肤色彩</td>
-          <td>30-100元</td>
-      </tr>
-      <tr>
-          <td>无线麦克风</td>
-          <td>提升口播清晰度</td>
-          <td>200-1000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>作用</th>
+					<th>参考预算</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>稳定器</td>
+					<td>提升走拍流畅度</td>
+					<td>300-900元</td>
+			</tr>
+			<tr>
+					<td>桌面柔光灯</td>
+					<td>强化食物与咖啡质感</td>
+					<td>200-800元</td>
+			</tr>
+			<tr>
+					<td>简易反光板</td>
+					<td>改善阴影与皮肤色彩</td>
+					<td>30-100元</td>
+			</tr>
+			<tr>
+					<td>无线麦克风</td>
+					<td>提升口播清晰度</td>
+					<td>200-1000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果经常拍拉花或萃取过程，<a href="https://www.amazon.com/s?k=Macro%20Lens%20for%20Phone&amp;tag=coffeeprism-20">Macro Lens for Phone</a> 也很有用，能放大 crema、奶泡纹理和水流细节。</p>
 <h3 id="运营工具内容管理比拍摄更重要">运营工具：内容管理比拍摄更重要</h3>
@@ -682,40 +682,40 @@
 <h3 id="咖啡因剂量怎么定从低剂量开始更科学">咖啡因剂量怎么定：从低剂量开始更科学</h3>
 <p>可以按以下方式估算起步量：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品类型</th>
-          <th style="text-align: right">常见份量</th>
-          <th style="text-align: right">估计咖啡因范围</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>浓缩 Espresso</td>
-          <td style="text-align: right">30 ml</td>
-          <td style="text-align: right">40-75 mg</td>
-      </tr>
-      <tr>
-          <td>美式 Americano</td>
-          <td style="text-align: right">240-350 ml</td>
-          <td style="text-align: right">80-180 mg</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300 ml</td>
-          <td style="text-align: right">90-180 mg</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td style="text-align: right">240-350 ml</td>
-          <td style="text-align: right">100-200+ mg</td>
-      </tr>
-      <tr>
-          <td>速溶咖啡</td>
-          <td style="text-align: right">1 杯</td>
-          <td style="text-align: right">50-100 mg</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品类型</th>
+					<th style="text-align: right">常见份量</th>
+					<th style="text-align: right">估计咖啡因范围</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>浓缩 Espresso</td>
+					<td style="text-align: right">30 ml</td>
+					<td style="text-align: right">40-75 mg</td>
+			</tr>
+			<tr>
+					<td>美式 Americano</td>
+					<td style="text-align: right">240-350 ml</td>
+					<td style="text-align: right">80-180 mg</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300 ml</td>
+					<td style="text-align: right">90-180 mg</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td style="text-align: right">240-350 ml</td>
+					<td style="text-align: right">100-200+ mg</td>
+			</tr>
+			<tr>
+					<td>速溶咖啡</td>
+					<td style="text-align: right">1 杯</td>
+					<td style="text-align: right">50-100 mg</td>
+			</tr>
+	</tbody>
 </table>
 <p>实操建议：</p>
 <ol>
@@ -784,40 +784,40 @@
 <h3 id="办公室与通勤场景便捷优先于极致风味">办公室与通勤场景：便捷优先于极致风味</h3>
 <p>办公室最难的是稳定和省事，而不是比赛级风味。以下类型更适合高频使用：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐工具</th>
-          <th>优点</th>
-          <th>注意点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>办公室</td>
-          <td>胶囊机</td>
-          <td>稳定、快速</td>
-          <td>胶囊成本较高</td>
-      </tr>
-      <tr>
-          <td>通勤</td>
-          <td>冷萃瓶/随行杯</td>
-          <td>易提前准备</td>
-          <td>咖啡因易偏高</td>
-      </tr>
-      <tr>
-          <td>出差</td>
-          <td>爱乐压</td>
-          <td>容错率高</td>
-          <td>需热水条件</td>
-      </tr>
-      <tr>
-          <td>宿舍</td>
-          <td>挂耳包</td>
-          <td>成本低、方便</td>
-          <td>品质波动较大</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐工具</th>
+					<th>优点</th>
+					<th>注意点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>办公室</td>
+					<td>胶囊机</td>
+					<td>稳定、快速</td>
+					<td>胶囊成本较高</td>
+			</tr>
+			<tr>
+					<td>通勤</td>
+					<td>冷萃瓶/随行杯</td>
+					<td>易提前准备</td>
+					<td>咖啡因易偏高</td>
+			</tr>
+			<tr>
+					<td>出差</td>
+					<td>爱乐压</td>
+					<td>容错率高</td>
+					<td>需热水条件</td>
+			</tr>
+			<tr>
+					<td>宿舍</td>
+					<td>挂耳包</td>
+					<td>成本低、方便</td>
+					<td>品质波动较大</td>
+			</tr>
+	</tbody>
 </table>
 <p>可参考 <a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>、<a href="https://www.amazon.com/s?k=YETI%20Tumbler&amp;tag=coffeeprism-20">YETI Tumbler</a>。中国市场替代方案很多，像泰摩随行杯、隅田川挂耳、永璞冷萃液都更容易购买。</p>
 <h3 id="咖啡豆怎么选不是越浅烘越醒脑">咖啡豆怎么选：不是越浅烘越“醒脑”</h3>
@@ -909,46 +909,46 @@
 <p>需要区分<strong>咖啡</strong>和<strong>纯咖啡因补剂</strong>。咖啡除了咖啡因，还包含有机酸、挥发性芳香物质和少量多酚，这些成分会影响胃部舒适度和饮用体验。相比胶囊或能量胶，咖啡的优点是容易获得、价格低、仪式感强，缺点是剂量不够稳定。</p>
 <p>常见参考范围如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品/形式</th>
-          <th style="text-align: right">典型份量</th>
-          <th style="text-align: right">咖啡因范围（约）</th>
-          <th>特点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>单份浓缩</td>
-          <td style="text-align: right">30ml</td>
-          <td style="text-align: right">50-75mg</td>
-          <td>体积小，适合赛前</td>
-      </tr>
-      <tr>
-          <td>双份浓缩</td>
-          <td style="text-align: right">60ml</td>
-          <td style="text-align: right">100-150mg</td>
-          <td>常见于连锁咖啡</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300ml</td>
-          <td style="text-align: right">120-220mg</td>
-          <td>剂量波动较大</td>
-      </tr>
-      <tr>
-          <td>速溶黑咖啡</td>
-          <td style="text-align: right">1条/杯</td>
-          <td style="text-align: right">50-100mg</td>
-          <td>方便控制和携带</td>
-      </tr>
-      <tr>
-          <td>咖啡因胶囊</td>
-          <td style="text-align: right">1粒</td>
-          <td style="text-align: right">100-200mg</td>
-          <td>剂量更精确</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品/形式</th>
+					<th style="text-align: right">典型份量</th>
+					<th style="text-align: right">咖啡因范围（约）</th>
+					<th>特点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>单份浓缩</td>
+					<td style="text-align: right">30ml</td>
+					<td style="text-align: right">50-75mg</td>
+					<td>体积小，适合赛前</td>
+			</tr>
+			<tr>
+					<td>双份浓缩</td>
+					<td style="text-align: right">60ml</td>
+					<td style="text-align: right">100-150mg</td>
+					<td>常见于连锁咖啡</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300ml</td>
+					<td style="text-align: right">120-220mg</td>
+					<td>剂量波动较大</td>
+			</tr>
+			<tr>
+					<td>速溶黑咖啡</td>
+					<td style="text-align: right">1条/杯</td>
+					<td style="text-align: right">50-100mg</td>
+					<td>方便控制和携带</td>
+			</tr>
+			<tr>
+					<td>咖啡因胶囊</td>
+					<td style="text-align: right">1粒</td>
+					<td style="text-align: right">100-200mg</td>
+					<td>剂量更精确</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想从饮品入手，<a href="https://www.amazon.com/s?k=Espresso%20Machine&amp;tag=coffeeprism-20">Espresso Machine</a>、<a href="https://www.amazon.com/s?k=Coffee%20Scale&amp;tag=coffeeprism-20">Coffee Scale</a> 和 <a href="https://www.amazon.com/s?k=Pour%20Over%20Kettle&amp;tag=coffeeprism-20">Pour Over Kettle</a> 都是常见工具；在国内也可通过京东、天猫购买德龙、百胜图、泰摩等替代型号。</p>
 <h2 id="咖啡与运动表现的关系历史演变与中国市场趋势">咖啡与运动表现的关系历史演变与中国市场趋势</h2>
@@ -975,40 +975,40 @@
 <p>国际运动营养讨论中，常见有效范围是<strong>每公斤体重 3-6mg 咖啡因</strong>，但对日常训练者而言，不必一开始就用高剂量。很多人从 2-3mg/kg 就能感受到专注度和主观疲劳改善，而且副作用更少。</p>
 <p>举个简单例子：</p>
 <table>
-  <thead>
-      <tr>
-          <th>体重</th>
-          <th style="text-align: right">保守起始剂量</th>
-          <th style="text-align: right">常见有效区间</th>
-          <th>约等于</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>50kg</td>
-          <td style="text-align: right">100mg</td>
-          <td style="text-align: right">150-300mg</td>
-          <td>1-2 杯浓缩</td>
-      </tr>
-      <tr>
-          <td>60kg</td>
-          <td style="text-align: right">120mg</td>
-          <td style="text-align: right">180-360mg</td>
-          <td>1 杯手冲或双份浓缩</td>
-      </tr>
-      <tr>
-          <td>70kg</td>
-          <td style="text-align: right">140mg</td>
-          <td style="text-align: right">210-420mg</td>
-          <td>1 大杯美式到 2 杯浓缩</td>
-      </tr>
-      <tr>
-          <td>80kg</td>
-          <td style="text-align: right">160mg</td>
-          <td style="text-align: right">240-480mg</td>
-          <td>视耐受调整</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>体重</th>
+					<th style="text-align: right">保守起始剂量</th>
+					<th style="text-align: right">常见有效区间</th>
+					<th>约等于</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>50kg</td>
+					<td style="text-align: right">100mg</td>
+					<td style="text-align: right">150-300mg</td>
+					<td>1-2 杯浓缩</td>
+			</tr>
+			<tr>
+					<td>60kg</td>
+					<td style="text-align: right">120mg</td>
+					<td style="text-align: right">180-360mg</td>
+					<td>1 杯手冲或双份浓缩</td>
+			</tr>
+			<tr>
+					<td>70kg</td>
+					<td style="text-align: right">140mg</td>
+					<td style="text-align: right">210-420mg</td>
+					<td>1 大杯美式到 2 杯浓缩</td>
+			</tr>
+			<tr>
+					<td>80kg</td>
+					<td style="text-align: right">160mg</td>
+					<td style="text-align: right">240-480mg</td>
+					<td>视耐受调整</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你平时几乎不喝咖啡，先用 80-120mg 试水更稳妥。我自己的经验是，耐力训练更适合中低剂量，力量训练前若摄入过高，心率和焦虑感可能反而影响组间恢复。</p>
 <h3 id="最佳饮用时间与不同项目策略">最佳饮用时间与不同项目策略</h3>
@@ -1051,40 +1051,40 @@
 <h3 id="不同使用场景适合什么产品">不同使用场景适合什么产品</h3>
 <p>按场景划分会更好选：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐类型</th>
-          <th>优点</th>
-          <th>注意点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>通勤后去健身房</td>
-          <td>连锁热/冰美式</td>
-          <td>方便，即买即喝</td>
-          <td>注意糖浆和加料</td>
-      </tr>
-      <tr>
-          <td>晨练前在家</td>
-          <td>速溶黑咖啡</td>
-          <td>便宜、快、好控制</td>
-          <td>口感一般</td>
-      </tr>
-      <tr>
-          <td>比赛日前</td>
-          <td>浓缩或咖啡因胶囊</td>
-          <td>剂量更集中</td>
-          <td>先训练中测试</td>
-      </tr>
-      <tr>
-          <td>夏季户外</td>
-          <td>冷萃/冰美式</td>
-          <td>易入口</td>
-          <td>空腹慎用冰饮</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐类型</th>
+					<th>优点</th>
+					<th>注意点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>通勤后去健身房</td>
+					<td>连锁热/冰美式</td>
+					<td>方便，即买即喝</td>
+					<td>注意糖浆和加料</td>
+			</tr>
+			<tr>
+					<td>晨练前在家</td>
+					<td>速溶黑咖啡</td>
+					<td>便宜、快、好控制</td>
+					<td>口感一般</td>
+			</tr>
+			<tr>
+					<td>比赛日前</td>
+					<td>浓缩或咖啡因胶囊</td>
+					<td>剂量更集中</td>
+					<td>先训练中测试</td>
+			</tr>
+			<tr>
+					<td>夏季户外</td>
+					<td>冷萃/冰美式</td>
+					<td>易入口</td>
+					<td>空腹慎用冰饮</td>
+			</tr>
+	</tbody>
 </table>
 <p>实用产品可参考：<a href="https://www.amazon.com/s?k=Instant%20Coffee&amp;tag=coffeeprism-20">Instant Coffee</a>、<a href="https://www.amazon.com/s?k=Espresso%20Pods&amp;tag=coffeeprism-20">Espresso Pods</a>、<a href="https://www.amazon.com/s?k=Caffeine%20Pills&amp;tag=coffeeprism-20">Caffeine Pills</a>。国内替代购买渠道主要是京东、天猫、淘宝和品牌小程序。</p>
 <h3 id="豆子速溶胶囊哪种更适合训练前">豆子、速溶、胶囊哪种更适合训练前</h3>
@@ -1195,45 +1195,45 @@
 <p>和欧美许多独立咖啡馆相比，中国市场的一个突出特征是高频数字触达。瑞幸就是典型代表，它把咖啡消费高度线上化；Manner、Seesaw、M Stand等则在不同程度上平衡线下体验与线上转化。数字化的价值不只是卖得更多，更在于品牌能够快速测试新品、优化定价并监控复购。</p>
 <h3 id="典型品牌定位对比">典型品牌定位对比</h3>
 <table>
-  <thead>
-      <tr>
-          <th>品牌类型</th>
-          <th>代表品牌</th>
-          <th style="text-align: right">价格区间</th>
-          <th>核心优势</th>
-          <th>主要挑战</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>高效率连锁</td>
-          <td>瑞幸、库迪</td>
-          <td style="text-align: right">9.9-20元</td>
-          <td>数字化强、扩张快</td>
-          <td>同质化竞争</td>
-      </tr>
-      <tr>
-          <td>社区精品型</td>
-          <td>Manner</td>
-          <td style="text-align: right">15-30元</td>
-          <td>性价比高、品质稳定</td>
-          <td>高峰期服务压力</td>
-      </tr>
-      <tr>
-          <td>空间审美型</td>
-          <td>M Stand、% Arabica中国门店生态相关玩家</td>
-          <td style="text-align: right">28-45元</td>
-          <td>视觉传播强、客单高</td>
-          <td>复购难度更高</td>
-      </tr>
-      <tr>
-          <td>精品体验型</td>
-          <td>Seesaw、独立精品店</td>
-          <td style="text-align: right">25-50元</td>
-          <td>风味教育、品牌内容深</td>
-          <td>规模复制难</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>品牌类型</th>
+					<th>代表品牌</th>
+					<th style="text-align: right">价格区间</th>
+					<th>核心优势</th>
+					<th>主要挑战</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>高效率连锁</td>
+					<td>瑞幸、库迪</td>
+					<td style="text-align: right">9.9-20元</td>
+					<td>数字化强、扩张快</td>
+					<td>同质化竞争</td>
+			</tr>
+			<tr>
+					<td>社区精品型</td>
+					<td>Manner</td>
+					<td style="text-align: right">15-30元</td>
+					<td>性价比高、品质稳定</td>
+					<td>高峰期服务压力</td>
+			</tr>
+			<tr>
+					<td>空间审美型</td>
+					<td>M Stand、% Arabica中国门店生态相关玩家</td>
+					<td style="text-align: right">28-45元</td>
+					<td>视觉传播强、客单高</td>
+					<td>复购难度更高</td>
+			</tr>
+			<tr>
+					<td>精品体验型</td>
+					<td>Seesaw、独立精品店</td>
+					<td style="text-align: right">25-50元</td>
+					<td>风味教育、品牌内容深</td>
+					<td>规模复制难</td>
+			</tr>
+	</tbody>
 </table>
 <h2 id="中国新兴咖啡品牌的发展历程与趋势从网红打卡走向精细化运营">中国新兴咖啡品牌的发展历程与趋势：从网红打卡走向精细化运营</h2>
 <p>中国新兴咖啡品牌的发展已经进入“拼内功”的阶段。早期拼融资、拼开店速度，现在更看重单店模型、产品结构和供应链效率。</p>
@@ -1322,40 +1322,40 @@
 <p>如果是日出杯100-300杯的门店，优先考虑双锅炉或热稳定性较强的意式机。磨豆机则要关注刀盘一致性、散热和清洁便利性。</p>
 <h4 id="设备选择重点">设备选择重点</h4>
 <table>
-  <thead>
-      <tr>
-          <th>设备类型</th>
-          <th>关注要点</th>
-          <th>适合场景</th>
-          <th style="text-align: right">预算参考</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>意式机</td>
-          <td>温控稳定、蒸汽压力、售后</td>
-          <td>连锁店/精品店</td>
-          <td style="text-align: right">2万-10万元以上</td>
-      </tr>
-      <tr>
-          <td>磨豆机</td>
-          <td>刀盘均匀度、出粉速度</td>
-          <td>全场景</td>
-          <td style="text-align: right">3000-2万元</td>
-      </tr>
-      <tr>
-          <td>滴滤设备</td>
-          <td>恒温与批量效率</td>
-          <td>办公/快取店</td>
-          <td style="text-align: right">2000-1万元</td>
-      </tr>
-      <tr>
-          <td>手冲器具</td>
-          <td>稳定性与培训难度</td>
-          <td>精品展示</td>
-          <td style="text-align: right">300-3000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>设备类型</th>
+					<th>关注要点</th>
+					<th>适合场景</th>
+					<th style="text-align: right">预算参考</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>意式机</td>
+					<td>温控稳定、蒸汽压力、售后</td>
+					<td>连锁店/精品店</td>
+					<td style="text-align: right">2万-10万元以上</td>
+			</tr>
+			<tr>
+					<td>磨豆机</td>
+					<td>刀盘均匀度、出粉速度</td>
+					<td>全场景</td>
+					<td style="text-align: right">3000-2万元</td>
+			</tr>
+			<tr>
+					<td>滴滤设备</td>
+					<td>恒温与批量效率</td>
+					<td>办公/快取店</td>
+					<td style="text-align: right">2000-1万元</td>
+			</tr>
+			<tr>
+					<td>手冲器具</td>
+					<td>稳定性与培训难度</td>
+					<td>精品展示</td>
+					<td style="text-align: right">300-3000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果是做形象展示区，可以增加<a href="https://www.amazon.com/s?k=V60%20Dripper&amp;tag=coffeeprism-20">V60 Dripper</a>、<a href="https://www.amazon.com/s?k=Kalita%20Wave&amp;tag=coffeeprism-20">Kalita Wave</a>、<a href="https://www.amazon.com/s?k=Hario%20Scale&amp;tag=coffeeprism-20">Hario Scale</a>等基础器具。国内替代渠道可以看淘宝、京东的Hario、泰摩、MHW-3BOMBER官方店。</p>
 <h3 id="零售产品怎么配挂耳咖啡豆杯具更容易增加客单">零售产品怎么配：挂耳、咖啡豆、杯具更容易增加客单</h3>
@@ -1465,40 +1465,40 @@
 <h3 id="影响代谢结果的关键变量有哪些">影响代谢结果的关键变量有哪些</h3>
 <p>决定咖啡对代谢的影响是否“有效”的，不是某个单一成分，而是一组变量共同作用：</p>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th>对代谢的可能影响</th>
-          <th>实际建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>咖啡因剂量</td>
-          <td>剂量过低感受不明显，过高易焦虑心悸</td>
-          <td>单次约50-200mg更适合多数人</td>
-      </tr>
-      <tr>
-          <td>饮用时间</td>
-          <td>太晚喝会影响睡眠，间接拖累代谢</td>
-          <td>建议上午或运动前30-60分钟</td>
-      </tr>
-      <tr>
-          <td>加糖加奶</td>
-          <td>热量上升可能抵消代谢优势</td>
-          <td>控糖优先，奶量适中</td>
-      </tr>
-      <tr>
-          <td>空腹状态</td>
-          <td>可能提升主观刺激，但也易胃部不适</td>
-          <td>胃敏感者配少量食物</td>
-      </tr>
-      <tr>
-          <td>耐受性</td>
-          <td>常喝者效果可能减弱</td>
-          <td>不必一味加量，可周期调整</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th>对代谢的可能影响</th>
+					<th>实际建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>咖啡因剂量</td>
+					<td>剂量过低感受不明显，过高易焦虑心悸</td>
+					<td>单次约50-200mg更适合多数人</td>
+			</tr>
+			<tr>
+					<td>饮用时间</td>
+					<td>太晚喝会影响睡眠，间接拖累代谢</td>
+					<td>建议上午或运动前30-60分钟</td>
+			</tr>
+			<tr>
+					<td>加糖加奶</td>
+					<td>热量上升可能抵消代谢优势</td>
+					<td>控糖优先，奶量适中</td>
+			</tr>
+			<tr>
+					<td>空腹状态</td>
+					<td>可能提升主观刺激，但也易胃部不适</td>
+					<td>胃敏感者配少量食物</td>
+			</tr>
+			<tr>
+					<td>耐受性</td>
+					<td>常喝者效果可能减弱</td>
+					<td>不必一味加量，可周期调整</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你平时主要喝瑞幸生椰拿铁、Manner拿铁或便利店含糖咖啡，那么真正决定身体变化的，常常不是咖啡因本身，而是糖、脂肪和总热量。</p>
 <h2 id="咖啡对代谢的影响历史演变与中国消费趋势">咖啡对代谢的影响历史演变与中国消费趋势</h2>
@@ -1562,50 +1562,50 @@
 <h3 id="一套可落地的7天实践方案">一套可落地的7天实践方案</h3>
 <p>下面这套方案适合大多数健康成年人测试自己对咖啡对代谢的影响反应：</p>
 <table>
-  <thead>
-      <tr>
-          <th>天数</th>
-          <th>饮用建议</th>
-          <th>观察重点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>第1天</td>
-          <td>上午1杯小美式</td>
-          <td>心率、胃感受、精神状态</td>
-      </tr>
-      <tr>
-          <td>第2天</td>
-          <td>运动前1杯浓缩+水</td>
-          <td>出汗、耐力、饥饿感</td>
-      </tr>
-      <tr>
-          <td>第3天</td>
-          <td>改为无糖拿铁</td>
-          <td>胃部舒适度、饱腹感</td>
-      </tr>
-      <tr>
-          <td>第4天</td>
-          <td>不喝咖啡</td>
-          <td>观察依赖与疲劳感</td>
-      </tr>
-      <tr>
-          <td>第5天</td>
-          <td>午后半杯美式</td>
-          <td>睡眠是否受影响</td>
-      </tr>
-      <tr>
-          <td>第6天</td>
-          <td>冷萃1杯</td>
-          <td>刺激感是否更强</td>
-      </tr>
-      <tr>
-          <td>第7天</td>
-          <td>回顾记录</td>
-          <td>找出最适合自己的类型</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>天数</th>
+					<th>饮用建议</th>
+					<th>观察重点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>第1天</td>
+					<td>上午1杯小美式</td>
+					<td>心率、胃感受、精神状态</td>
+			</tr>
+			<tr>
+					<td>第2天</td>
+					<td>运动前1杯浓缩+水</td>
+					<td>出汗、耐力、饥饿感</td>
+			</tr>
+			<tr>
+					<td>第3天</td>
+					<td>改为无糖拿铁</td>
+					<td>胃部舒适度、饱腹感</td>
+			</tr>
+			<tr>
+					<td>第4天</td>
+					<td>不喝咖啡</td>
+					<td>观察依赖与疲劳感</td>
+			</tr>
+			<tr>
+					<td>第5天</td>
+					<td>午后半杯美式</td>
+					<td>睡眠是否受影响</td>
+			</tr>
+			<tr>
+					<td>第6天</td>
+					<td>冷萃1杯</td>
+					<td>刺激感是否更强</td>
+			</tr>
+			<tr>
+					<td>第7天</td>
+					<td>回顾记录</td>
+					<td>找出最适合自己的类型</td>
+			</tr>
+	</tbody>
 </table>
 <p>建议记录四个指标：</p>
 <ol>
@@ -1672,40 +1672,40 @@
 <h3 id="便利店连锁品牌怎么点更合理">便利店、连锁品牌怎么点更合理</h3>
 <p>如果你主要在外购买，可参考这个点单逻辑：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>推荐点法</th>
-          <th>原因</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>通勤提神</td>
-          <td>中杯美式</td>
-          <td>热量低、咖啡因明确</td>
-      </tr>
-      <tr>
-          <td>运动前</td>
-          <td>双份浓缩或小杯美式</td>
-          <td>体积小、负担轻</td>
-      </tr>
-      <tr>
-          <td>胃敏感</td>
-          <td>无糖拿铁、燕麦拿铁少冰</td>
-          <td>缓和刺激</td>
-      </tr>
-      <tr>
-          <td>控热量</td>
-          <td>去糖、少奶、不要奶油顶</td>
-          <td>避免隐性热量</td>
-      </tr>
-      <tr>
-          <td>下午想喝</td>
-          <td>小杯或半咖产品</td>
-          <td>降低影响睡眠风险</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>推荐点法</th>
+					<th>原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>通勤提神</td>
+					<td>中杯美式</td>
+					<td>热量低、咖啡因明确</td>
+			</tr>
+			<tr>
+					<td>运动前</td>
+					<td>双份浓缩或小杯美式</td>
+					<td>体积小、负担轻</td>
+			</tr>
+			<tr>
+					<td>胃敏感</td>
+					<td>无糖拿铁、燕麦拿铁少冰</td>
+					<td>缓和刺激</td>
+			</tr>
+			<tr>
+					<td>控热量</td>
+					<td>去糖、少奶、不要奶油顶</td>
+					<td>避免隐性热量</td>
+			</tr>
+			<tr>
+					<td>下午想喝</td>
+					<td>小杯或半咖产品</td>
+					<td>降低影响睡眠风险</td>
+			</tr>
+	</tbody>
 </table>
 <p>在瑞幸、Manner、Seesaw这类品牌点单时，别只看“爆款”。如果你关注咖啡对代谢的影响，选择简单配方通常更靠谱。想喝风味款，也可以把它当作偶尔满足，而不是每天的“健康咖啡”。</p>
 <h3 id="胶囊咖啡速溶黑咖啡值得买吗">胶囊咖啡、速溶黑咖啡值得买吗</h3>
@@ -1827,30 +1827,30 @@
 <p>结论是三类场景最刚需：高峰期门店、标准化连锁、重视复现的家庭玩家。中国咖啡消费近年持续增长，一线和新一线城市对“出杯速度快但品质不能掉”的要求很高，这正推动设备升级。</p>
 <p>具体看，需求主要来自：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场景</th>
-          <th>主要需求</th>
-          <th>适合设备</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>精品咖啡馆</td>
-          <td>风味稳定、可展示专业度</td>
-          <td>压力曲线意式机、定量磨豆机</td>
-      </tr>
-      <tr>
-          <td>连锁门店</td>
-          <td>培训成本低、出杯快</td>
-          <td>超自动奶咖系统、联网监控设备</td>
-      </tr>
-      <tr>
-          <td>家庭玩家</td>
-          <td>操作友好、可复刻</td>
-          <td>智能手冲机、单剂量磨豆机、称重联动设备</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场景</th>
+					<th>主要需求</th>
+					<th>适合设备</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>精品咖啡馆</td>
+					<td>风味稳定、可展示专业度</td>
+					<td>压力曲线意式机、定量磨豆机</td>
+			</tr>
+			<tr>
+					<td>连锁门店</td>
+					<td>培训成本低、出杯快</td>
+					<td>超自动奶咖系统、联网监控设备</td>
+			</tr>
+			<tr>
+					<td>家庭玩家</td>
+					<td>操作友好、可复刻</td>
+					<td>智能手冲机、单剂量磨豆机、称重联动设备</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果预算有限，家庭用户优先升级磨豆机和电子秤，通常比先换更昂贵的咖啡机更有效。</p>
 <h2 id="高科技咖啡设备的发展趋势历史演变从机械时代到联网生态">高科技咖啡设备的发展趋势历史演变：从机械时代到联网生态</h2>
@@ -1880,38 +1880,38 @@
 <p>结论是：智能手冲最关键的不是自动注水本身，而是把每次注水动作控制在同一标准。家庭玩家若使用V60或类似滤杯，可从15克粉、240克水、92℃、总时长2分15秒到2分45秒开始。</p>
 <p>一套适合中浅烘豆的基础方案如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>建议值</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>咖啡粉</td>
-          <td>15克</td>
-      </tr>
-      <tr>
-          <td>水量</td>
-          <td>240克</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:16</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>91-93℃</td>
-      </tr>
-      <tr>
-          <td>闷蒸</td>
-          <td>30秒，注水30-40克</td>
-      </tr>
-      <tr>
-          <td>总时长</td>
-          <td>2:15-2:45</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>建议值</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>咖啡粉</td>
+					<td>15克</td>
+			</tr>
+			<tr>
+					<td>水量</td>
+					<td>240克</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:16</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>91-93℃</td>
+			</tr>
+			<tr>
+					<td>闷蒸</td>
+					<td>30秒，注水30-40克</td>
+			</tr>
+			<tr>
+					<td>总时长</td>
+					<td>2:15-2:45</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果设备支持程序化注水，可设置为三段：闷蒸、主体注水、收尾补水。像<a href="https://www.amazon.com/s?k=Fellow%20Stagg%20EKG&amp;tag=coffeeprism-20">Fellow Stagg EKG</a>、<a href="https://www.amazon.com/s?k=Acaia%20Pearl&amp;tag=coffeeprism-20">Acaia Pearl</a>常被用作智能手冲系统的核心组件。淘宝和京东上也有国产替代方案，价格通常更友好，但建议优先看控温精度、称重延迟和售后评价。</p>
 <h3 id="奶泡与奶咖自动化怎样兼顾效率与口感">奶泡与奶咖自动化：怎样兼顾效率与口感</h3>
@@ -1948,35 +1948,35 @@
 <p>结论很明确：家庭预算有限时，磨豆机是优先级最高的设备。因为研磨均匀度直接决定萃取是否稳定，这一点常常比咖啡机档次更重要。</p>
 <p>可参考以下预算思路：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算区间</th>
-          <th>建议配置</th>
-          <th>适合人群</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>1000-3000元</td>
-          <td>手冲壶+电子秤+入门电磨</td>
-          <td>新手家庭</td>
-      </tr>
-      <tr>
-          <td>3000-8000元</td>
-          <td>单剂量磨豆机+温控壶+基础意式机</td>
-          <td>进阶玩家</td>
-      </tr>
-      <tr>
-          <td>8000-15000元</td>
-          <td>智能半自动机+高稳定磨豆机</td>
-          <td>重度爱好者</td>
-      </tr>
-      <tr>
-          <td>15000元以上</td>
-          <td>双锅炉/压力曲线机+高端磨豆机</td>
-          <td>发烧友</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算区间</th>
+					<th>建议配置</th>
+					<th>适合人群</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>1000-3000元</td>
+					<td>手冲壶+电子秤+入门电磨</td>
+					<td>新手家庭</td>
+			</tr>
+			<tr>
+					<td>3000-8000元</td>
+					<td>单剂量磨豆机+温控壶+基础意式机</td>
+					<td>进阶玩家</td>
+			</tr>
+			<tr>
+					<td>8000-15000元</td>
+					<td>智能半自动机+高稳定磨豆机</td>
+					<td>重度爱好者</td>
+			</tr>
+			<tr>
+					<td>15000元以上</td>
+					<td>双锅炉/压力曲线机+高端磨豆机</td>
+					<td>发烧友</td>
+			</tr>
+	</tbody>
 </table>
 <p>可关注<a href="https://www.amazon.com/s?k=DF64&amp;tag=coffeeprism-20">DF64</a>、<a href="https://www.amazon.com/s?k=Niche%20Zero&amp;tag=coffeeprism-20">Niche Zero</a>、<a href="https://www.amazon.com/s?k=Fellow%20Ode&amp;tag=coffeeprism-20">Fellow Ode</a>等机型。国内平台常见同类替代品不少，但应重点看刀盘规格、静电控制、残粉量和保修服务。</p>
 <h3 id="门店经营者怎么选看效率维护和培训成本">门店经营者怎么选：看效率、维护和培训成本</h3>
@@ -2091,35 +2091,35 @@
 </ul>
 <h3 id="进阶判断风味问题的快速逻辑">进阶判断风味问题的快速逻辑</h3>
 <table>
-  <thead>
-      <tr>
-          <th>杯中表现</th>
-          <th>常见原因</th>
-          <th>优先调整建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>尖酸、薄、尾段短</td>
-          <td>萃取不足</td>
-          <td>研磨略细、水温升1-2℃</td>
-      </tr>
-      <tr>
-          <td>苦涩、舌面干</td>
-          <td>萃取过度或细粉扰动过多</td>
-          <td>研磨略粗、减少搅动</td>
-      </tr>
-      <tr>
-          <td>香气有但中段空</td>
-          <td>粉层受水不均</td>
-          <td>优化闷蒸、控制注水中心</td>
-      </tr>
-      <tr>
-          <td>甜感弱、杂味多</td>
-          <td>水质或滤杯流速不匹配</td>
-          <td>调整用水TDS、换滤杯或滤纸</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>杯中表现</th>
+					<th>常见原因</th>
+					<th>优先调整建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>尖酸、薄、尾段短</td>
+					<td>萃取不足</td>
+					<td>研磨略细、水温升1-2℃</td>
+			</tr>
+			<tr>
+					<td>苦涩、舌面干</td>
+					<td>萃取过度或细粉扰动过多</td>
+					<td>研磨略粗、减少搅动</td>
+			</tr>
+			<tr>
+					<td>香气有但中段空</td>
+					<td>粉层受水不均</td>
+					<td>优化闷蒸、控制注水中心</td>
+			</tr>
+			<tr>
+					<td>甜感弱、杂味多</td>
+					<td>水质或滤杯流速不匹配</td>
+					<td>调整用水TDS、换滤杯或滤纸</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想更稳定地练习变量控制，电子秤、温控壶和一致性更好的磨豆机，比频繁换豆更值得优先升级。<a href="https://www.amazon.com/s?k=Timemore%20grinder&amp;tag=coffeeprism-20">Timemore grinder</a> 与 <a href="https://www.amazon.com/s?k=Hario%20V60%20dripper&amp;tag=coffeeprism-20">Hario V60 dripper</a> 都是进阶门槛较低的常见选择，国内在淘宝、京东也容易找到同类替代。</p>
 <h2 id="手冲咖啡的进阶技巧历史演变与趋势从器具崇拜走向萃取科学">手冲咖啡的进阶技巧历史演变与趋势：从器具崇拜走向萃取科学</h2>
@@ -2180,40 +2180,40 @@
 <h3 id="如何通过只调一项快速优化风味">如何通过“只调一项”快速优化风味</h3>
 <p>你可以按下面的顺序排查：</p>
 <table>
-  <thead>
-      <tr>
-          <th>目标</th>
-          <th>第一调整项</th>
-          <th>第二调整项</th>
-          <th>尽量最后调整</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>提高甜感</td>
-          <td>研磨略细</td>
-          <td>粉水比改为1:15.5</td>
-          <td>大幅升温</td>
-      </tr>
-      <tr>
-          <td>增加花香与清晰度</td>
-          <td>减少扰动</td>
-          <td>略粗研磨</td>
-          <td>延长总时长</td>
-      </tr>
-      <tr>
-          <td>压低尖酸</td>
-          <td>升高1-2℃</td>
-          <td>延长总时长10-15秒</td>
-          <td>直接加粉</td>
-      </tr>
-      <tr>
-          <td>降低苦涩</td>
-          <td>研磨略粗</td>
-          <td>降温1℃</td>
-          <td>大幅缩短闷蒸</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>目标</th>
+					<th>第一调整项</th>
+					<th>第二调整项</th>
+					<th>尽量最后调整</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>提高甜感</td>
+					<td>研磨略细</td>
+					<td>粉水比改为1:15.5</td>
+					<td>大幅升温</td>
+			</tr>
+			<tr>
+					<td>增加花香与清晰度</td>
+					<td>减少扰动</td>
+					<td>略粗研磨</td>
+					<td>延长总时长</td>
+			</tr>
+			<tr>
+					<td>压低尖酸</td>
+					<td>升高1-2℃</td>
+					<td>延长总时长10-15秒</td>
+					<td>直接加粉</td>
+			</tr>
+			<tr>
+					<td>降低苦涩</td>
+					<td>研磨略粗</td>
+					<td>降温1℃</td>
+					<td>大幅缩短闷蒸</td>
+			</tr>
+	</tbody>
 </table>
 <p>建议每次只改一个变量，并记录三项结果：香气、入口、尾韵。只要坚持10次以上，你会发现自己的<strong>手冲咖啡的进阶技巧教程</strong>已经开始形成个人体系。</p>
 <p>如果想提升称量与时间控制的一致性，<a href="https://www.amazon.com/s?k=Timemore%20scale&amp;tag=coffeeprism-20">Timemore scale</a> 或 <a href="https://www.amazon.com/s?k=Hario%20kettle&amp;tag=coffeeprism-20">Hario kettle</a> 这类工具会明显提高练习效率。</p>
@@ -2259,35 +2259,35 @@
 <p>如果预算在500元以内，先把“有秤、能稳定磨、能细水流”解决，风味提升最明显。若预算在1500元到3000元，就可以考虑电磨与更好的温控系统。</p>
 <h3 id="不同预算下的实用搭配建议">不同预算下的实用搭配建议</h3>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>推荐方向</th>
-          <th>适合人群</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>300-600元</td>
-          <td>入门手磨 + 基础滤杯 + 电子秤</td>
-          <td>刚开始建立参数意识</td>
-      </tr>
-      <tr>
-          <td>600-1500元</td>
-          <td>更均匀手磨/入门电磨 + 温控壶</td>
-          <td>已经想提升复刻率</td>
-      </tr>
-      <tr>
-          <td>1500-3000元</td>
-          <td>中端电磨 + 多滤杯体系</td>
-          <td>希望做风味微调</td>
-      </tr>
-      <tr>
-          <td>3000元以上</td>
-          <td>高一致性电磨 + 专业控温/水质方案</td>
-          <td>深度发烧友</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>推荐方向</th>
+					<th>适合人群</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>300-600元</td>
+					<td>入门手磨 + 基础滤杯 + 电子秤</td>
+					<td>刚开始建立参数意识</td>
+			</tr>
+			<tr>
+					<td>600-1500元</td>
+					<td>更均匀手磨/入门电磨 + 温控壶</td>
+					<td>已经想提升复刻率</td>
+			</tr>
+			<tr>
+					<td>1500-3000元</td>
+					<td>中端电磨 + 多滤杯体系</td>
+					<td>希望做风味微调</td>
+			</tr>
+			<tr>
+					<td>3000元以上</td>
+					<td>高一致性电磨 + 专业控温/水质方案</td>
+					<td>深度发烧友</td>
+			</tr>
+	</tbody>
 </table>
 <p>可关注的常见器具包括：<a href="https://www.amazon.com/s?k=Fellow%20Stagg%20EKG&amp;tag=coffeeprism-20">Fellow Stagg EKG</a>、<a href="https://www.amazon.com/s?k=Comandante%20grinder&amp;tag=coffeeprism-20">Comandante grinder</a>、<a href="https://www.amazon.com/s?k=Kalita%20Wave&amp;tag=coffeeprism-20">Kalita Wave</a>。如果在国内购买，淘宝、京东、天猫国际通常能找到行货或平替；对于预算敏感用户，泰摩、MHW-3BOMBER等国产品牌也有不错的性价比选择。</p>
 <h3 id="滤杯怎么选不是最好而是最匹配">滤杯怎么选：不是最好，而是最匹配</h3>
@@ -2392,35 +2392,35 @@
 <h3 id="影响风味的四个关键变量">影响风味的四个关键变量</h3>
 <p>爱乐压的创新玩法，要先抓住四个最关键的变量。抓准这四项，很多“玄学冲法”其实都能被解释。</p>
 <table>
-  <thead>
-      <tr>
-          <th>变量</th>
-          <th style="text-align: right">常见范围</th>
-          <th>对风味的主要影响</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>粉水比</td>
-          <td style="text-align: right">1:5 到 1:18</td>
-          <td>决定浓度、层次和后续稀释空间</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td style="text-align: right">中细到中粗</td>
-          <td>决定萃取速度与干净度</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td style="text-align: right">80℃ 到 96℃</td>
-          <td>影响酸甜平衡与苦涩释放</td>
-      </tr>
-      <tr>
-          <td>滤材</td>
-          <td style="text-align: right">纸滤/金属滤/布滤</td>
-          <td>影响油脂感、清澈度与口感厚度</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>变量</th>
+					<th style="text-align: right">常见范围</th>
+					<th>对风味的主要影响</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>粉水比</td>
+					<td style="text-align: right">1:5 到 1:18</td>
+					<td>决定浓度、层次和后续稀释空间</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td style="text-align: right">中细到中粗</td>
+					<td>决定萃取速度与干净度</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td style="text-align: right">80℃ 到 96℃</td>
+					<td>影响酸甜平衡与苦涩释放</td>
+			</tr>
+			<tr>
+					<td>滤材</td>
+					<td style="text-align: right">纸滤/金属滤/布滤</td>
+					<td>影响油脂感、清澈度与口感厚度</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你只想先记一个结论：<strong>浅烘豆更依赖较高水温和更充分浸泡，中深烘豆更适合适度降温与缩短接触时间</strong>。这条规律在多数爱乐压创新配方里都成立。</p>
 <h3 id="纸滤金属滤和双滤叠加的差异">纸滤、金属滤和双滤叠加的差异</h3>
@@ -2555,40 +2555,40 @@
 <h3 id="磨豆机滤材和电子秤的预算建议">磨豆机、滤材和电子秤的预算建议</h3>
 <p>真正决定爱乐压上限的，往往不是爱乐压本体，而是磨豆一致性。尤其当你尝试浅烘、高甜感或清透型爱乐压的创新玩法时，均匀研磨非常关键。</p>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th style="text-align: right">入门预算</th>
-          <th style="text-align: right">进阶预算</th>
-          <th>选购重点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>手磨/电磨</td>
-          <td style="text-align: right">200-500元</td>
-          <td style="text-align: right">800-2000元</td>
-          <td>刀盘一致性、刻度清晰</td>
-      </tr>
-      <tr>
-          <td>电子秤</td>
-          <td style="text-align: right">60-150元</td>
-          <td style="text-align: right">200-400元</td>
-          <td>计时、响应速度</td>
-      </tr>
-      <tr>
-          <td>温度控制</td>
-          <td style="text-align: right">50-100元</td>
-          <td style="text-align: right">300-800元</td>
-          <td>温控壶或测温能力</td>
-      </tr>
-      <tr>
-          <td>滤材</td>
-          <td style="text-align: right">30-100元</td>
-          <td style="text-align: right">100-300元</td>
-          <td>纸滤、金属滤、阀门滤盖</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th style="text-align: right">入门预算</th>
+					<th style="text-align: right">进阶预算</th>
+					<th>选购重点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>手磨/电磨</td>
+					<td style="text-align: right">200-500元</td>
+					<td style="text-align: right">800-2000元</td>
+					<td>刀盘一致性、刻度清晰</td>
+			</tr>
+			<tr>
+					<td>电子秤</td>
+					<td style="text-align: right">60-150元</td>
+					<td style="text-align: right">200-400元</td>
+					<td>计时、响应速度</td>
+			</tr>
+			<tr>
+					<td>温度控制</td>
+					<td style="text-align: right">50-100元</td>
+					<td style="text-align: right">300-800元</td>
+					<td>温控壶或测温能力</td>
+			</tr>
+			<tr>
+					<td>滤材</td>
+					<td style="text-align: right">30-100元</td>
+					<td style="text-align: right">100-300元</td>
+					<td>纸滤、金属滤、阀门滤盖</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果预算有限，我建议顺序是：<strong>磨豆机 &gt; 电子秤 &gt; 滤材升级 &gt; 其他附件</strong>。这条投资顺序几乎不会错。</p>
 <h3 id="国内购买渠道与避坑建议">国内购买渠道与避坑建议</h3>
@@ -2693,35 +2693,35 @@
 <h3 id="咖啡内容的核心传播元素有哪些">咖啡内容的核心传播元素有哪些</h3>
 <p>如果把一条高表现的咖啡内容拆开，通常会有以下四个要素：</p>
 <table>
-  <thead>
-      <tr>
-          <th>要素</th>
-          <th>作用</th>
-          <th>常见表现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>视觉锚点</td>
-          <td>让用户停下来看</td>
-          <td>拉花、杯型、门头、色调</td>
-      </tr>
-      <tr>
-          <td>信息价值</td>
-          <td>让用户觉得“有用”</td>
-          <td>价格、口味、排队时长、位置</td>
-      </tr>
-      <tr>
-          <td>情绪价值</td>
-          <td>让用户想收藏</td>
-          <td>氛围感、放松感、效率感</td>
-      </tr>
-      <tr>
-          <td>社交价值</td>
-          <td>让用户愿意转发</td>
-          <td>热门店、联名、限时活动</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>要素</th>
+					<th>作用</th>
+					<th>常见表现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>视觉锚点</td>
+					<td>让用户停下来看</td>
+					<td>拉花、杯型、门头、色调</td>
+			</tr>
+			<tr>
+					<td>信息价值</td>
+					<td>让用户觉得“有用”</td>
+					<td>价格、口味、排队时长、位置</td>
+			</tr>
+			<tr>
+					<td>情绪价值</td>
+					<td>让用户想收藏</td>
+					<td>氛围感、放松感、效率感</td>
+			</tr>
+			<tr>
+					<td>社交价值</td>
+					<td>让用户愿意转发</td>
+					<td>热门店、联名、限时活动</td>
+			</tr>
+	</tbody>
 </table>
 <p>对于个人创作者，器材不必一开始就买太贵，但稳定的成像和收音能显著提升内容质感。入门可看 <a href="https://www.amazon.com/s?k=DJI%20Osmo%20Mobile&amp;tag=coffeeprism-20">DJI Osmo Mobile</a> 或 <a href="https://www.amazon.com/s?k=Rode%20Wireless%20GO&amp;tag=coffeeprism-20">Rode Wireless GO</a>，国内则可在京东、天猫寻找同类稳定器与无线麦克风。</p>
 <h2 id="咖啡与社交媒体的关系如何演变中国市场趋势与历史变化">咖啡与社交媒体的关系如何演变：中国市场趋势与历史变化</h2>
@@ -2832,35 +2832,35 @@
 </ol>
 <p>不同预算可参考：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>配置建议</th>
-          <th>适合人群</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>500元内</td>
-          <td>三脚架+小补光灯+反光板</td>
-          <td>新手图文创作者</td>
-      </tr>
-      <tr>
-          <td>500-1500元</td>
-          <td>稳定器+补光灯+收音</td>
-          <td>短视频初级用户</td>
-      </tr>
-      <tr>
-          <td>1500-5000元</td>
-          <td>灯光+麦克风+手机扩展镜头</td>
-          <td>门店日常运营</td>
-      </tr>
-      <tr>
-          <td>5000元以上</td>
-          <td>相机+定焦镜头+专业灯</td>
-          <td>品牌团队</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>配置建议</th>
+					<th>适合人群</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>500元内</td>
+					<td>三脚架+小补光灯+反光板</td>
+					<td>新手图文创作者</td>
+			</tr>
+			<tr>
+					<td>500-1500元</td>
+					<td>稳定器+补光灯+收音</td>
+					<td>短视频初级用户</td>
+			</tr>
+			<tr>
+					<td>1500-5000元</td>
+					<td>灯光+麦克风+手机扩展镜头</td>
+					<td>门店日常运营</td>
+			</tr>
+			<tr>
+					<td>5000元以上</td>
+					<td>相机+定焦镜头+专业灯</td>
+					<td>品牌团队</td>
+			</tr>
+	</tbody>
 </table>
 <p>拍咖啡时，光线甚至比设备更重要。自然光最好用侧光或45度光位，避免顶光把油脂和拉花细节压平。室内拍摄建议色温控制在<strong>4300K-5600K</strong>之间，更容易保持真实质感。</p>
 <h3 id="内容制作与排版软件怎么选">内容制作与排版软件怎么选</h3>
@@ -2971,38 +2971,38 @@
 <h3 id="摩卡壶与手冲意式机有什么区别">摩卡壶与手冲、意式机有什么区别</h3>
 <p>如果你在犹豫该选摩卡壶还是别的器具，最简单的判断是：摩卡壶适合追求“厚度、强度和牛奶搭配能力”的人。</p>
 <table>
-  <thead>
-      <tr>
-          <th>器具</th>
-          <th style="text-align: right">压力水平</th>
-          <th>风味特点</th>
-          <th>操作难度</th>
-          <th style="text-align: right">典型预算</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>摩卡壶</td>
-          <td style="text-align: right">约1-2 bar</td>
-          <td>浓郁、厚重、坚果可可感强</td>
-          <td>中等</td>
-          <td style="text-align: right">¥80-¥500+</td>
-      </tr>
-      <tr>
-          <td>手冲</td>
-          <td style="text-align: right">常压</td>
-          <td>干净、层次明显、酸甜清晰</td>
-          <td>中等</td>
-          <td style="text-align: right">¥100-¥800+</td>
-      </tr>
-      <tr>
-          <td>半自动意式机</td>
-          <td style="text-align: right">约9 bar</td>
-          <td>质地浓稠、油脂丰富、适合奶咖</td>
-          <td>较高</td>
-          <td style="text-align: right">¥2000-¥10000+</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>器具</th>
+					<th style="text-align: right">压力水平</th>
+					<th>风味特点</th>
+					<th>操作难度</th>
+					<th style="text-align: right">典型预算</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>摩卡壶</td>
+					<td style="text-align: right">约1-2 bar</td>
+					<td>浓郁、厚重、坚果可可感强</td>
+					<td>中等</td>
+					<td style="text-align: right">¥80-¥500+</td>
+			</tr>
+			<tr>
+					<td>手冲</td>
+					<td style="text-align: right">常压</td>
+					<td>干净、层次明显、酸甜清晰</td>
+					<td>中等</td>
+					<td style="text-align: right">¥100-¥800+</td>
+			</tr>
+			<tr>
+					<td>半自动意式机</td>
+					<td style="text-align: right">约9 bar</td>
+					<td>质地浓稠、油脂丰富、适合奶咖</td>
+					<td>较高</td>
+					<td style="text-align: right">¥2000-¥10000+</td>
+			</tr>
+	</tbody>
 </table>
 <p>对中国市场来说，摩卡壶这几年重新走红并不意外。一方面，家庭咖啡消费持续增长；另一方面，像瑞幸、Manner、M Stand 等品牌把消费者口味教育得更成熟了，更多人开始在家追求“接近门店”的浓度与奶咖基底。摩卡壶正好卡在“成本不高、风味够强、学习曲线可接受”的区间里。</p>
 <h2 id="摩卡壶的传统与现代技巧历史演变与发展趋势">摩卡壶的传统与现代技巧历史演变与发展趋势</h2>
@@ -3096,35 +3096,35 @@
 <strong>不锈钢摩卡壶</strong>的优势是更耐用、兼容更多炉具、清洁更省心；不足是导热逻辑不同，风味表现和升温节奏与铝壶略有差异。</p>
 <p>选购建议可以简单归纳：</p>
 <table>
-  <thead>
-      <tr>
-          <th>需求</th>
-          <th>建议材质</th>
-          <th>说明</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>喜欢传统意式体验</td>
-          <td>铝制</td>
-          <td>经典外形与导热反应更接近传统使用感</td>
-      </tr>
-      <tr>
-          <td>家里主要是电磁炉</td>
-          <td>不锈钢</td>
-          <td>兼容性更高</td>
-      </tr>
-      <tr>
-          <td>预算有限</td>
-          <td>铝制</td>
-          <td>¥80-¥200区间选择多</td>
-      </tr>
-      <tr>
-          <td>想长期耐用</td>
-          <td>不锈钢</td>
-          <td>结构更稳，维护宽容度更高</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>需求</th>
+					<th>建议材质</th>
+					<th>说明</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>喜欢传统意式体验</td>
+					<td>铝制</td>
+					<td>经典外形与导热反应更接近传统使用感</td>
+			</tr>
+			<tr>
+					<td>家里主要是电磁炉</td>
+					<td>不锈钢</td>
+					<td>兼容性更高</td>
+			</tr>
+			<tr>
+					<td>预算有限</td>
+					<td>铝制</td>
+					<td>¥80-¥200区间选择多</td>
+			</tr>
+			<tr>
+					<td>想长期耐用</td>
+					<td>不锈钢</td>
+					<td>结构更稳，维护宽容度更高</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="容量怎么选1人份2人份还是3人份">容量怎么选：1人份、2人份还是3人份</h3>
 <p>摩卡壶标注的“杯数”通常是意式小杯，不是马克杯容量。很多新手最容易买错的，就是按中式大杯概念选壶，结果不是不够喝，就是天天浪费豆子。</p>
@@ -3281,58 +3281,58 @@
 <h3 id="适合家庭复制的参数模板">适合家庭复制的参数模板</h3>
 <p>下面这张表适合刚开始尝试<strong>咖啡与异国美食的融合教程</strong>的人直接套用。</p>
 <table>
-  <thead>
-      <tr>
-          <th>菜品类型</th>
-          <th>推荐咖啡</th>
-          <th>冲煮方式</th>
-          <th>粉水比</th>
-          <th>水温</th>
-          <th>时间</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>泰式/越南式酸辣海鲜</td>
-          <td>埃塞俄比亚水洗、中美洲浅烘</td>
-          <td>V60手冲</td>
-          <td>1:15-1:16</td>
-          <td>90-92℃</td>
-          <td>2:30-3:00</td>
-      </tr>
-      <tr>
-          <td>印度咖喱/中东炖肉</td>
-          <td>巴西拼配、哥伦比亚中烘</td>
-          <td>法压/聪明杯</td>
-          <td>1:14-1:15</td>
-          <td>92-94℃</td>
-          <td>4:00</td>
-      </tr>
-      <tr>
-          <td>墨西哥卷饼/烤肉</td>
-          <td>巴西、危地马拉中烘</td>
-          <td>美式或Aeropress</td>
-          <td>1:13-1:15</td>
-          <td>85-92℃</td>
-          <td>1:30-2:30</td>
-      </tr>
-      <tr>
-          <td>地中海烤蔬菜/奶酪</td>
-          <td>肯尼亚、耶加雪菲浅烘</td>
-          <td>手冲/冷萃</td>
-          <td>1:15 / 1:8浓缩冷萃后稀释</td>
-          <td>91℃ / 冷藏8-12小时</td>
-          <td>3:00 / 过夜</td>
-      </tr>
-      <tr>
-          <td>中东甜点</td>
-          <td>日晒埃塞、也门风味型豆</td>
-          <td>摩卡壶/浓缩</td>
-          <td>1:7-1:10</td>
-          <td>90-93℃</td>
-          <td>25-30秒浓缩</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>菜品类型</th>
+					<th>推荐咖啡</th>
+					<th>冲煮方式</th>
+					<th>粉水比</th>
+					<th>水温</th>
+					<th>时间</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>泰式/越南式酸辣海鲜</td>
+					<td>埃塞俄比亚水洗、中美洲浅烘</td>
+					<td>V60手冲</td>
+					<td>1:15-1:16</td>
+					<td>90-92℃</td>
+					<td>2:30-3:00</td>
+			</tr>
+			<tr>
+					<td>印度咖喱/中东炖肉</td>
+					<td>巴西拼配、哥伦比亚中烘</td>
+					<td>法压/聪明杯</td>
+					<td>1:14-1:15</td>
+					<td>92-94℃</td>
+					<td>4:00</td>
+			</tr>
+			<tr>
+					<td>墨西哥卷饼/烤肉</td>
+					<td>巴西、危地马拉中烘</td>
+					<td>美式或Aeropress</td>
+					<td>1:13-1:15</td>
+					<td>85-92℃</td>
+					<td>1:30-2:30</td>
+			</tr>
+			<tr>
+					<td>地中海烤蔬菜/奶酪</td>
+					<td>肯尼亚、耶加雪菲浅烘</td>
+					<td>手冲/冷萃</td>
+					<td>1:15 / 1:8浓缩冷萃后稀释</td>
+					<td>91℃ / 冷藏8-12小时</td>
+					<td>3:00 / 过夜</td>
+			</tr>
+			<tr>
+					<td>中东甜点</td>
+					<td>日晒埃塞、也门风味型豆</td>
+					<td>摩卡壶/浓缩</td>
+					<td>1:7-1:10</td>
+					<td>90-93℃</td>
+					<td>25-30秒浓缩</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想要更稳定的萃取，磨豆机和电子秤比“高级壶”更值得优先买。可参考<a href="https://www.amazon.com/s?k=Coffee%20Grinder%20Burr&amp;tag=coffeeprism-20">Coffee Grinder Burr</a> 和 <a href="https://www.amazon.com/s?k=Coffee%20Scale%20Timer&amp;tag=coffeeprism-20">Coffee Scale Timer</a>。</p>
 <h3 id="5组值得直接尝试的经典融合组合">5组值得直接尝试的经典融合组合</h3>
@@ -3482,45 +3482,45 @@
 <h3 id="先算清你的咖啡因摄入量">先算清你的咖啡因摄入量</h3>
 <p>不同咖啡的咖啡因差异很大，不能只按“杯数”算。以下是大致范围：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品类型</th>
-          <th style="text-align: right">常见份量</th>
-          <th style="text-align: right">咖啡因大致范围</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>单份意式浓缩</td>
-          <td style="text-align: right">30ml</td>
-          <td style="text-align: right">50-75mg</td>
-      </tr>
-      <tr>
-          <td>双份浓缩</td>
-          <td style="text-align: right">60ml</td>
-          <td style="text-align: right">100-150mg</td>
-      </tr>
-      <tr>
-          <td>美式</td>
-          <td style="text-align: right">240-350ml</td>
-          <td style="text-align: right">80-180mg</td>
-      </tr>
-      <tr>
-          <td>手冲咖啡</td>
-          <td style="text-align: right">240-300ml</td>
-          <td style="text-align: right">120-220mg</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td style="text-align: right">300ml</td>
-          <td style="text-align: right">100-200mg，部分更高</td>
-      </tr>
-      <tr>
-          <td>速溶咖啡</td>
-          <td style="text-align: right">1条/杯</td>
-          <td style="text-align: right">50-100mg</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品类型</th>
+					<th style="text-align: right">常见份量</th>
+					<th style="text-align: right">咖啡因大致范围</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>单份意式浓缩</td>
+					<td style="text-align: right">30ml</td>
+					<td style="text-align: right">50-75mg</td>
+			</tr>
+			<tr>
+					<td>双份浓缩</td>
+					<td style="text-align: right">60ml</td>
+					<td style="text-align: right">100-150mg</td>
+			</tr>
+			<tr>
+					<td>美式</td>
+					<td style="text-align: right">240-350ml</td>
+					<td style="text-align: right">80-180mg</td>
+			</tr>
+			<tr>
+					<td>手冲咖啡</td>
+					<td style="text-align: right">240-300ml</td>
+					<td style="text-align: right">120-220mg</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td style="text-align: right">300ml</td>
+					<td style="text-align: right">100-200mg，部分更高</td>
+			</tr>
+			<tr>
+					<td>速溶咖啡</td>
+					<td style="text-align: right">1条/杯</td>
+					<td style="text-align: right">50-100mg</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你一天喝1杯大杯美式、1杯手冲、下午再来一罐含咖啡因饮料，总量很容易逼近上限。很多人以为自己“只喝两杯”，其实咖啡因已经偏高。</p>
 <h3 id="对心脏更友好的饮用时间与方法">对心脏更友好的饮用时间与方法</h3>
@@ -3562,34 +3562,34 @@
 <h3 id="更适合日常心血管友好饮用的器具">更适合日常心血管友好饮用的器具</h3>
 <p>对于大多数家庭用户，我优先推荐这三类：</p>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th>优点</th>
-          <th>适合人群</th>
-          <th style="text-align: right">参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>滤纸手冲</td>
-          <td>可过滤二萜类，风味清晰</td>
-          <td>新手到进阶</td>
-          <td style="text-align: right">50-500元</td>
-      </tr>
-      <tr>
-          <td>自动滴滤机</td>
-          <td>稳定省事，适合家庭</td>
-          <td>上班族、多人口家庭</td>
-          <td style="text-align: right">300-2000元</td>
-      </tr>
-      <tr>
-          <td>胶囊机</td>
-          <td>方便控量</td>
-          <td>通勤党</td>
-          <td style="text-align: right">400-3000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>优点</th>
+					<th>适合人群</th>
+					<th style="text-align: right">参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>滤纸手冲</td>
+					<td>可过滤二萜类，风味清晰</td>
+					<td>新手到进阶</td>
+					<td style="text-align: right">50-500元</td>
+			</tr>
+			<tr>
+					<td>自动滴滤机</td>
+					<td>稳定省事，适合家庭</td>
+					<td>上班族、多人口家庭</td>
+					<td style="text-align: right">300-2000元</td>
+			</tr>
+			<tr>
+					<td>胶囊机</td>
+					<td>方便控量</td>
+					<td>通勤党</td>
+					<td style="text-align: right">400-3000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>可关注的产品包括：</p>
 <ul>
@@ -3684,35 +3684,35 @@
 我自己的经验是，浅烘埃塞俄比亚水洗豆配酸奶碗和水果时，柑橘、茉莉一类的高香会被放大；但如果配培根和煎蛋，酸质会显得偏尖，反而不够顺口。相反，中深烘巴西或哥伦比亚配黄油吐司、可颂、芝士三明治，通常更稳妥。</p>
 <p>可以这样快速判断：</p>
 <table>
-  <thead>
-      <tr>
-          <th>早餐类型</th>
-          <th>推荐咖啡类型</th>
-          <th>适配原因</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>酸奶、水果、燕麦</td>
-          <td>浅烘手冲、美式</td>
-          <td>保留果酸与清爽感</td>
-      </tr>
-      <tr>
-          <td>吐司、可颂、贝果</td>
-          <td>中烘手冲、澳白</td>
-          <td>黄油与坚果甜感相互衬托</td>
-      </tr>
-      <tr>
-          <td>鸡蛋、火腿、芝士三明治</td>
-          <td>中深烘美式、拿铁</td>
-          <td>脂肪和蛋白质需要更厚实的咖啡支撑</td>
-      </tr>
-      <tr>
-          <td>中式包子、烧麦、油条</td>
-          <td>拼配浓缩、奶咖</td>
-          <td>咸鲜和油脂适合苦甜更明确的风味</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>早餐类型</th>
+					<th>推荐咖啡类型</th>
+					<th>适配原因</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>酸奶、水果、燕麦</td>
+					<td>浅烘手冲、美式</td>
+					<td>保留果酸与清爽感</td>
+			</tr>
+			<tr>
+					<td>吐司、可颂、贝果</td>
+					<td>中烘手冲、澳白</td>
+					<td>黄油与坚果甜感相互衬托</td>
+			</tr>
+			<tr>
+					<td>鸡蛋、火腿、芝士三明治</td>
+					<td>中深烘美式、拿铁</td>
+					<td>脂肪和蛋白质需要更厚实的咖啡支撑</td>
+			</tr>
+			<tr>
+					<td>中式包子、烧麦、油条</td>
+					<td>拼配浓缩、奶咖</td>
+					<td>咸鲜和油脂适合苦甜更明确的风味</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="早餐营养结构决定咖啡喝起来是否舒服">早餐营养结构，决定咖啡喝起来是否舒服</h3>
 <p>早餐不仅是味道搭配，也是生理搭配。空腹大量摄入高浓度咖啡，可能让部分人出现心悸、胃部不适或饥饿反弹。<br>
@@ -3889,46 +3889,46 @@
 <p>咖啡最早作为饮品传播时，就与社交和食物密切相关。中东地区的咖啡饮用传统强调香料、甜味和待客礼仪；到了欧洲，咖啡馆逐渐成为公共讨论空间，糕点、面包和咖啡形成固定组合。维也纳咖啡馆文化就是典型例子，咖啡与蛋糕几乎不可分割。</p>
 <p>如果把这段历史放到旅行体验里，你会发现不同城市的“咖啡+食物”组合，其实是当地社会习惯的浓缩：</p>
 <table>
-  <thead>
-      <tr>
-          <th>地区/城市</th>
-          <th>代表咖啡形式</th>
-          <th>常见搭配食物</th>
-          <th>体验特征</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>土耳其</td>
-          <td>土耳其咖啡</td>
-          <td>软糖、坚果</td>
-          <td>高浓度、香料感强</td>
-      </tr>
-      <tr>
-          <td>维也纳</td>
-          <td>黑咖啡/奶咖</td>
-          <td>蛋糕、酥点</td>
-          <td>仪式感、慢节奏</td>
-      </tr>
-      <tr>
-          <td>意大利</td>
-          <td>Espresso</td>
-          <td>可颂、三明治</td>
-          <td>快速、日常化</td>
-      </tr>
-      <tr>
-          <td>北欧</td>
-          <td>滤泡咖啡</td>
-          <td>肉桂卷、开放三明治</td>
-          <td>清爽、重视烘焙本味</td>
-      </tr>
-      <tr>
-          <td>日本</td>
-          <td>手冲、深烘店配方</td>
-          <td>吐司、布丁、洋果子</td>
-          <td>精细、重空间感</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>地区/城市</th>
+					<th>代表咖啡形式</th>
+					<th>常见搭配食物</th>
+					<th>体验特征</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>土耳其</td>
+					<td>土耳其咖啡</td>
+					<td>软糖、坚果</td>
+					<td>高浓度、香料感强</td>
+			</tr>
+			<tr>
+					<td>维也纳</td>
+					<td>黑咖啡/奶咖</td>
+					<td>蛋糕、酥点</td>
+					<td>仪式感、慢节奏</td>
+			</tr>
+			<tr>
+					<td>意大利</td>
+					<td>Espresso</td>
+					<td>可颂、三明治</td>
+					<td>快速、日常化</td>
+			</tr>
+			<tr>
+					<td>北欧</td>
+					<td>滤泡咖啡</td>
+					<td>肉桂卷、开放三明治</td>
+					<td>清爽、重视烘焙本味</td>
+			</tr>
+			<tr>
+					<td>日本</td>
+					<td>手冲、深烘店配方</td>
+					<td>吐司、布丁、洋果子</td>
+					<td>精细、重空间感</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="中国咖啡旅行的新趋势本地化与复合消费">中国咖啡旅行的新趋势：本地化与复合消费</h3>
 <p><strong>直接答案：中国的咖啡旅行正在从“模仿西式咖啡馆体验”转向“咖啡+中式风味+城市更新”模式。</strong> 这使得结合咖啡的美食之旅在本地更有可玩性。</p>
@@ -3970,40 +3970,40 @@
 <p><strong>直接答案：最实用的配餐公式是“同风味呼应、异风味平衡、强度要匹配”。</strong> 这套方法在旅行中最好用，因为不依赖复杂设备。</p>
 <p>常见搭配可以按下表快速判断：</p>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>风味特征</th>
-          <th>推荐搭配</th>
-          <th>不建议搭配</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>浅烘手冲</td>
-          <td>花香、柑橘、莓果、茶感</td>
-          <td>水果塔、酸奶、轻乳酪、可颂</td>
-          <td>重油巧克力蛋糕</td>
-      </tr>
-      <tr>
-          <td>中烘手冲</td>
-          <td>焦糖、核果、巧克力、平衡</td>
-          <td>黄油曲奇、布丁、奶酪蛋糕</td>
-          <td>过酸水果甜点</td>
-      </tr>
-      <tr>
-          <td>深烘/意式</td>
-          <td>苦甜、可可、坚果、厚重</td>
-          <td>提拉米苏、可颂火腿芝士、坚果塔</td>
-          <td>过于清淡的日式和果子</td>
-      </tr>
-      <tr>
-          <td>奶咖</td>
-          <td>甜感、奶油感、口感圆润</td>
-          <td>肉桂卷、布里欧修、咸派</td>
-          <td>高糖奶油蛋糕叠加</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>风味特征</th>
+					<th>推荐搭配</th>
+					<th>不建议搭配</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>浅烘手冲</td>
+					<td>花香、柑橘、莓果、茶感</td>
+					<td>水果塔、酸奶、轻乳酪、可颂</td>
+					<td>重油巧克力蛋糕</td>
+			</tr>
+			<tr>
+					<td>中烘手冲</td>
+					<td>焦糖、核果、巧克力、平衡</td>
+					<td>黄油曲奇、布丁、奶酪蛋糕</td>
+					<td>过酸水果甜点</td>
+			</tr>
+			<tr>
+					<td>深烘/意式</td>
+					<td>苦甜、可可、坚果、厚重</td>
+					<td>提拉米苏、可颂火腿芝士、坚果塔</td>
+					<td>过于清淡的日式和果子</td>
+			</tr>
+			<tr>
+					<td>奶咖</td>
+					<td>甜感、奶油感、口感圆润</td>
+					<td>肉桂卷、布里欧修、咸派</td>
+					<td>高糖奶油蛋糕叠加</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你自己在旅途中冲煮，参考参数如下：</p>
 <ul>
@@ -4051,46 +4051,46 @@
 <h3 id="旅行咖啡工具怎么选轻量化比发烧配置更重要">旅行咖啡工具怎么选：轻量化比“发烧配置”更重要</h3>
 <p>适合大多数人的基础组合如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th>用途</th>
-          <th style="text-align: right">建议价格区间</th>
-          <th>选购重点</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>手摇磨豆机</td>
-          <td>保证新鲜研磨</td>
-          <td style="text-align: right">200-800元</td>
-          <td>刀盘稳定、重量适中</td>
-      </tr>
-      <tr>
-          <td>滤杯/压滤器</td>
-          <td>核心冲煮器具</td>
-          <td style="text-align: right">50-350元</td>
-          <td>耐用、易清洗</td>
-      </tr>
-      <tr>
-          <td>电子秤</td>
-          <td>控制粉水比</td>
-          <td style="text-align: right">80-300元</td>
-          <td>计时功能、便携</td>
-      </tr>
-      <tr>
-          <td>保温壶/分享壶</td>
-          <td>出行保温</td>
-          <td style="text-align: right">100-300元</td>
-          <td>密封性、容量</td>
-      </tr>
-      <tr>
-          <td>滤纸收纳盒</td>
-          <td>防潮防压</td>
-          <td style="text-align: right">20-80元</td>
-          <td>体积小、便携</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>用途</th>
+					<th style="text-align: right">建议价格区间</th>
+					<th>选购重点</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>手摇磨豆机</td>
+					<td>保证新鲜研磨</td>
+					<td style="text-align: right">200-800元</td>
+					<td>刀盘稳定、重量适中</td>
+			</tr>
+			<tr>
+					<td>滤杯/压滤器</td>
+					<td>核心冲煮器具</td>
+					<td style="text-align: right">50-350元</td>
+					<td>耐用、易清洗</td>
+			</tr>
+			<tr>
+					<td>电子秤</td>
+					<td>控制粉水比</td>
+					<td style="text-align: right">80-300元</td>
+					<td>计时功能、便携</td>
+			</tr>
+			<tr>
+					<td>保温壶/分享壶</td>
+					<td>出行保温</td>
+					<td style="text-align: right">100-300元</td>
+					<td>密封性、容量</td>
+			</tr>
+			<tr>
+					<td>滤纸收纳盒</td>
+					<td>防潮防压</td>
+					<td style="text-align: right">20-80元</td>
+					<td>体积小、便携</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果预算有限，国内平台替代方案很多。像泰摩、MHW-3BOMBER、Hero 等品牌，在淘宝和京东都容易买到，售后也更方便。</p>
 <h3 id="值得关注的旅行友好型产品">值得关注的旅行友好型产品</h3>
@@ -4204,34 +4204,34 @@
 </ul>
 <p>这些条件会让豆子发展出更复杂的前体物质。冲煮后常见风味描述包括：</p>
 <table>
-  <thead>
-      <tr>
-          <th>维度</th>
-          <th>常见表现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>花香</td>
-          <td>茉莉、橙花、白花</td>
-      </tr>
-      <tr>
-          <td>果香</td>
-          <td>佛手柑、蜜桃、热带水果、柑橘</td>
-      </tr>
-      <tr>
-          <td>口感</td>
-          <td>茶感、丝滑、轻盈</td>
-      </tr>
-      <tr>
-          <td>酸质</td>
-          <td>明亮、柑橘型、细腻</td>
-      </tr>
-      <tr>
-          <td>余韵</td>
-          <td>花果香持久、甜感回甘明显</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>维度</th>
+					<th>常见表现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>花香</td>
+					<td>茉莉、橙花、白花</td>
+			</tr>
+			<tr>
+					<td>果香</td>
+					<td>佛手柑、蜜桃、热带水果、柑橘</td>
+			</tr>
+			<tr>
+					<td>口感</td>
+					<td>茶感、丝滑、轻盈</td>
+			</tr>
+			<tr>
+					<td>酸质</td>
+					<td>明亮、柑橘型、细腻</td>
+			</tr>
+			<tr>
+					<td>余韵</td>
+					<td>花果香持久、甜感回甘明显</td>
+			</tr>
+	</tbody>
 </table>
 <p>对中国消费者来说，这种风味很像“高香型乌龙茶和白桃果汁之间的交集”，所以即便是不常喝浅烘手冲的人，也容易记住它。</p>
 <h2 id="巴拿马翡翠庄园的瑰夏咖啡的历史演变与市场趋势">巴拿马翡翠庄园的瑰夏咖啡的历史演变与市场趋势</h2>
@@ -4278,46 +4278,46 @@
 <h3 id="一套适合初学者的稳定参数">一套适合初学者的稳定参数</h3>
 <p>如果你第一次冲<strong>巴拿马翡翠庄园的瑰夏咖啡</strong>，建议从保守参数起步：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>建议参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>粉量</td>
-          <td>15g</td>
-      </tr>
-      <tr>
-          <td>水量</td>
-          <td>225g</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>90-92°C（水洗）/ 88-91°C（日晒）</td>
-      </tr>
-      <tr>
-          <td>研磨</td>
-          <td>中细，接近白砂糖略细</td>
-      </tr>
-      <tr>
-          <td>总时长</td>
-          <td>2:10-2:50</td>
-      </tr>
-      <tr>
-          <td>滤杯</td>
-          <td>V60 01/02</td>
-      </tr>
-      <tr>
-          <td>注水方式</td>
-          <td>3段或4段</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>建议参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>粉量</td>
+					<td>15g</td>
+			</tr>
+			<tr>
+					<td>水量</td>
+					<td>225g</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>90-92°C（水洗）/ 88-91°C（日晒）</td>
+			</tr>
+			<tr>
+					<td>研磨</td>
+					<td>中细，接近白砂糖略细</td>
+			</tr>
+			<tr>
+					<td>总时长</td>
+					<td>2:10-2:50</td>
+			</tr>
+			<tr>
+					<td>滤杯</td>
+					<td>V60 01/02</td>
+			</tr>
+			<tr>
+					<td>注水方式</td>
+					<td>3段或4段</td>
+			</tr>
+	</tbody>
 </table>
 <p>具体步骤：</p>
 <ol>
@@ -4383,26 +4383,26 @@
 <p>中国市场替代方案也很成熟。预算有限时，可以在京东、淘宝优先找泰摩、MHW-3BOMBER、Hario、Kinu、1Zpresso 等品牌的正规渠道。</p>
 <h3 id="不同预算怎么搭配更合理">不同预算怎么搭配更合理</h3>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>推荐搭配</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>500-1000元</td>
-          <td>手磨 + V60 + 基础电子秤</td>
-      </tr>
-      <tr>
-          <td>1000-2500元</td>
-          <td>进阶手磨/入门电磨 + 细口壶 + 稳定滤杯</td>
-      </tr>
-      <tr>
-          <td>2500元以上</td>
-          <td>高均匀度电磨 + 专业控温壶 + 精准电子秤</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>推荐搭配</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>500-1000元</td>
+					<td>手磨 + V60 + 基础电子秤</td>
+			</tr>
+			<tr>
+					<td>1000-2500元</td>
+					<td>进阶手磨/入门电磨 + 细口壶 + 稳定滤杯</td>
+			</tr>
+			<tr>
+					<td>2500元以上</td>
+					<td>高均匀度电磨 + 专业控温壶 + 精准电子秤</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你的目标只是喝明白翡翠庄园瑰夏，不必一开始就追求顶配。相反，把预算留给 2-3 次不同烘焙商的横向对比，更能建立认知。</p>
 <h3 id="如何判断购买渠道是否靠谱">如何判断购买渠道是否靠谱</h3>
@@ -4494,45 +4494,45 @@
 <p>历史上，咖啡馆常被称为“便士大学（Penny University）”。17世纪英国，顾客花一便士买一杯咖啡，就能进入信息与观点流通的场所。今天这个逻辑并没有消失，只是形式变了：从报纸与小册子，转为Wi-Fi、播客、社交媒体和线下活动。</p>
 <p>如果把不同业态做个简化对比，会更容易理解：</p>
 <table>
-  <thead>
-      <tr>
-          <th>场所类型</th>
-          <th>核心商品</th>
-          <th style="text-align: right">停留属性</th>
-          <th style="text-align: right">社交属性</th>
-          <th style="text-align: right">知识传播</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>酒馆</td>
-          <td>酒精</td>
-          <td style="text-align: right">强</td>
-          <td style="text-align: right">强</td>
-          <td style="text-align: right">中</td>
-      </tr>
-      <tr>
-          <td>茶馆</td>
-          <td>茶</td>
-          <td style="text-align: right">强</td>
-          <td style="text-align: right">强</td>
-          <td style="text-align: right">中高</td>
-      </tr>
-      <tr>
-          <td>快餐店</td>
-          <td>餐食</td>
-          <td style="text-align: right">弱</td>
-          <td style="text-align: right">弱</td>
-          <td style="text-align: right">低</td>
-      </tr>
-      <tr>
-          <td>咖啡馆</td>
-          <td>咖啡/轻食/空间</td>
-          <td style="text-align: right">强</td>
-          <td style="text-align: right">中高</td>
-          <td style="text-align: right">高</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>场所类型</th>
+					<th>核心商品</th>
+					<th style="text-align: right">停留属性</th>
+					<th style="text-align: right">社交属性</th>
+					<th style="text-align: right">知识传播</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>酒馆</td>
+					<td>酒精</td>
+					<td style="text-align: right">强</td>
+					<td style="text-align: right">强</td>
+					<td style="text-align: right">中</td>
+			</tr>
+			<tr>
+					<td>茶馆</td>
+					<td>茶</td>
+					<td style="text-align: right">强</td>
+					<td style="text-align: right">强</td>
+					<td style="text-align: right">中高</td>
+			</tr>
+			<tr>
+					<td>快餐店</td>
+					<td>餐食</td>
+					<td style="text-align: right">弱</td>
+					<td style="text-align: right">弱</td>
+					<td style="text-align: right">低</td>
+			</tr>
+			<tr>
+					<td>咖啡馆</td>
+					<td>咖啡/轻食/空间</td>
+					<td style="text-align: right">强</td>
+					<td style="text-align: right">中高</td>
+					<td style="text-align: right">高</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="咖啡空间设计与身份表达的三角关系">咖啡、空间设计与身份表达的三角关系</h3>
 <p>现代咖啡馆文化已经不是单纯卖饮料，而是卖“可被认同的生活方式”。豆单、器具、音乐、照明、座位密度、品牌视觉，都会共同构成用户的身份投射。</p>
@@ -4561,40 +4561,40 @@
 <p>直接方法是观察这5项：菜单、设备、空间、服务语言、客群停留方式。五项越一致，文化表达越清晰。</p>
 <p>一个实用判断表如下：</p>
 <table>
-  <thead>
-      <tr>
-          <th>观察维度</th>
-          <th>看什么</th>
-          <th>代表什么</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>菜单</td>
-          <td>美式/拿铁占比，是否有SOE、手冲</td>
-          <td>大众化或精品化</td>
-      </tr>
-      <tr>
-          <td>设备</td>
-          <td>双锅炉意式机、磨豆机、滤杯器具</td>
-          <td>专业程度与效率取向</td>
-      </tr>
-      <tr>
-          <td>空间</td>
-          <td>吧台长度、座位密度、插座与光线</td>
-          <td>社交型/办公型/快取型</td>
-      </tr>
-      <tr>
-          <td>服务</td>
-          <td>是否解释风味、是否主动推荐</td>
-          <td>教育型或效率型</td>
-      </tr>
-      <tr>
-          <td>客群</td>
-          <td>外带为主还是久坐交流为主</td>
-          <td>场景定位</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>观察维度</th>
+					<th>看什么</th>
+					<th>代表什么</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>菜单</td>
+					<td>美式/拿铁占比，是否有SOE、手冲</td>
+					<td>大众化或精品化</td>
+			</tr>
+			<tr>
+					<td>设备</td>
+					<td>双锅炉意式机、磨豆机、滤杯器具</td>
+					<td>专业程度与效率取向</td>
+			</tr>
+			<tr>
+					<td>空间</td>
+					<td>吧台长度、座位密度、插座与光线</td>
+					<td>社交型/办公型/快取型</td>
+			</tr>
+			<tr>
+					<td>服务</td>
+					<td>是否解释风味、是否主动推荐</td>
+					<td>教育型或效率型</td>
+			</tr>
+			<tr>
+					<td>客群</td>
+					<td>外带为主还是久坐交流为主</td>
+					<td>场景定位</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你打算在家复刻咖啡馆体验，基础设备可以从<a href="https://www.amazon.com/s?k=Breville%20Barista%20Express&amp;tag=coffeeprism-20">Breville Barista Express</a>、<a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>、<a href="https://www.amazon.com/s?k=Kalita%20Wave&amp;tag=coffeeprism-20">Kalita Wave</a>开始；国内则可在京东、淘宝寻找同类型号或国产替代。</p>
 <h3 id="用精确参数感受精品咖啡馆的方法论">用精确参数感受“精品咖啡馆”的方法论</h3>
@@ -4723,40 +4723,40 @@
 <h3 id="烘焙度萃取方式与菜肴风格的关系">烘焙度、萃取方式与菜肴风格的关系</h3>
 <p>决定咖啡在烹饪中的创新应用效果的核心变量，是<strong>烘焙度</strong>与<strong>萃取浓度</strong>。浅烘更适合果酸型甜点和冷菜，中深烘更适合肉类与酱汁，深烘则适合烧烤、炖煮和巧克力类甜品。</p>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>典型风味</th>
-          <th>适合菜肴</th>
-          <th>使用建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>浅烘单品</td>
-          <td>柑橘、花香、莓果</td>
-          <td>沙拉酱、果酱、冷甜点</td>
-          <td>少量点缀，避免高温久煮</td>
-      </tr>
-      <tr>
-          <td>中烘单品/拼配</td>
-          <td>坚果、焦糖、可可</td>
-          <td>奶油酱、烤蔬菜、烘焙点心</td>
-          <td>最均衡，适合家庭入门</td>
-      </tr>
-      <tr>
-          <td>中深烘拼配</td>
-          <td>黑巧克力、烘烤、糖浆感</td>
-          <td>牛肉、猪肋排、红烧汁</td>
-          <td>建议做浓缩液或咖啡粉干擦</td>
-      </tr>
-      <tr>
-          <td>冷萃咖啡</td>
-          <td>低酸、顺滑、甜感高</td>
-          <td>腌料、甜品、冰饮料理</td>
-          <td>更稳定，容错率高</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>典型风味</th>
+					<th>适合菜肴</th>
+					<th>使用建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>浅烘单品</td>
+					<td>柑橘、花香、莓果</td>
+					<td>沙拉酱、果酱、冷甜点</td>
+					<td>少量点缀，避免高温久煮</td>
+			</tr>
+			<tr>
+					<td>中烘单品/拼配</td>
+					<td>坚果、焦糖、可可</td>
+					<td>奶油酱、烤蔬菜、烘焙点心</td>
+					<td>最均衡，适合家庭入门</td>
+			</tr>
+			<tr>
+					<td>中深烘拼配</td>
+					<td>黑巧克力、烘烤、糖浆感</td>
+					<td>牛肉、猪肋排、红烧汁</td>
+					<td>建议做浓缩液或咖啡粉干擦</td>
+			</tr>
+			<tr>
+					<td>冷萃咖啡</td>
+					<td>低酸、顺滑、甜感高</td>
+					<td>腌料、甜品、冰饮料理</td>
+					<td>更稳定，容错率高</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你是第一次尝试，家庭厨房最稳妥的方案是：用中深烘豆做1:8比例的浓咖啡液，再少量加入酱汁测试。设备上可从<a href="https://www.amazon.com/s?k=Hario%20V60&amp;tag=coffeeprism-20">Hario V60</a>、<a href="https://www.amazon.com/s?k=AeroPress&amp;tag=coffeeprism-20">AeroPress</a>或简单冷萃瓶开始，国内在淘宝、京东都很容易买到平替。</p>
 <h2 id="咖啡在烹饪中的创新应用趋势历史演变与中国市场变化">咖啡在烹饪中的创新应用趋势：历史演变与中国市场变化</h2>
@@ -4854,40 +4854,40 @@
 <p>做好咖啡在烹饪中的创新应用，不一定要高端设备，但需要稳定、易清洁、适合批量。优先选择能做“低杂质咖啡液”的工具，比追求复杂萃取更重要。</p>
 <h3 id="入门工具怎么选">入门工具怎么选</h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具</th>
-          <th>适合人群</th>
-          <th>优点</th>
-          <th>预算参考</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>法压壶</td>
-          <td>新手家庭用户</td>
-          <td>便宜、容量大、适合做料理用浓液</td>
-          <td>50-200元</td>
-      </tr>
-      <tr>
-          <td>手冲滤杯</td>
-          <td>已有咖啡习惯者</td>
-          <td>风味干净、适合精细控制</td>
-          <td>80-300元</td>
-      </tr>
-      <tr>
-          <td>AeroPress</td>
-          <td>小家庭、重视效率者</td>
-          <td>萃取快、浓度高、易清洁</td>
-          <td>280-450元</td>
-      </tr>
-      <tr>
-          <td>冷萃瓶</td>
-          <td>夏季料理和甜品玩家</td>
-          <td>低酸顺滑、可提前备料</td>
-          <td>60-200元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具</th>
+					<th>适合人群</th>
+					<th>优点</th>
+					<th>预算参考</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>法压壶</td>
+					<td>新手家庭用户</td>
+					<td>便宜、容量大、适合做料理用浓液</td>
+					<td>50-200元</td>
+			</tr>
+			<tr>
+					<td>手冲滤杯</td>
+					<td>已有咖啡习惯者</td>
+					<td>风味干净、适合精细控制</td>
+					<td>80-300元</td>
+			</tr>
+			<tr>
+					<td>AeroPress</td>
+					<td>小家庭、重视效率者</td>
+					<td>萃取快、浓度高、易清洁</td>
+					<td>280-450元</td>
+			</tr>
+			<tr>
+					<td>冷萃瓶</td>
+					<td>夏季料理和甜品玩家</td>
+					<td>低酸顺滑、可提前备料</td>
+					<td>60-200元</td>
+			</tr>
+	</tbody>
 </table>
 <p>可参考：<a href="https://www.amazon.com/s?k=Hario%20French%20Press&amp;tag=coffeeprism-20">Hario French Press</a>、<a href="https://www.amazon.com/s?k=AeroPress&amp;tag=coffeeprism-20">AeroPress</a>、<a href="https://www.amazon.com/s?k=OXO%20Cold%20Brew%20Coffee%20Maker&amp;tag=coffeeprism-20">OXO Cold Brew Coffee Maker</a>。如果在国内购买，淘宝、京东和小红书团购渠道一般更便宜，售后也更方便。</p>
 <h3 id="适合料理的原料与辅料推荐">适合料理的原料与辅料推荐</h3>
@@ -5028,45 +5028,45 @@
 <h3 id="空间与出品的关键参数不是玄学而是设计选择">空间与出品的关键参数：不是玄学，而是设计选择</h3>
 <p>好的咖啡馆体验往往来自一组可量化参数，而不是模糊审美。以下参数对文化呈现影响很大：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th style="text-align: right">常见建议范围</th>
-          <th>文化影响</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>店内照度</td>
-          <td style="text-align: right">300-500 lux</td>
-          <td>偏低更放松，偏高更高效</td>
-      </tr>
-      <tr>
-          <td>背景音乐音量</td>
-          <td style="text-align: right">55-70 dB</td>
-          <td>过高不利交流与办公</td>
-      </tr>
-      <tr>
-          <td>意式萃取时间</td>
-          <td style="text-align: right">25-32秒</td>
-          <td>影响风味稳定与效率</td>
-      </tr>
-      <tr>
-          <td>奶温</td>
-          <td style="text-align: right">55-65℃</td>
-          <td>兼顾甜感与入口舒适度</td>
-      </tr>
-      <tr>
-          <td>单桌最小宽度</td>
-          <td style="text-align: right">60-70cm</td>
-          <td>决定停留舒适性</td>
-      </tr>
-      <tr>
-          <td>高峰出杯时长</td>
-          <td style="text-align: right">2-4分钟/杯</td>
-          <td>决定通勤客容忍度</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th style="text-align: right">常见建议范围</th>
+					<th>文化影响</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>店内照度</td>
+					<td style="text-align: right">300-500 lux</td>
+					<td>偏低更放松，偏高更高效</td>
+			</tr>
+			<tr>
+					<td>背景音乐音量</td>
+					<td style="text-align: right">55-70 dB</td>
+					<td>过高不利交流与办公</td>
+			</tr>
+			<tr>
+					<td>意式萃取时间</td>
+					<td style="text-align: right">25-32秒</td>
+					<td>影响风味稳定与效率</td>
+			</tr>
+			<tr>
+					<td>奶温</td>
+					<td style="text-align: right">55-65℃</td>
+					<td>兼顾甜感与入口舒适度</td>
+			</tr>
+			<tr>
+					<td>单桌最小宽度</td>
+					<td style="text-align: right">60-70cm</td>
+					<td>决定停留舒适性</td>
+			</tr>
+			<tr>
+					<td>高峰出杯时长</td>
+					<td style="text-align: right">2-4分钟/杯</td>
+					<td>决定通勤客容忍度</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己在做门店观察时，会特别关注声音和座位密度。很多店装修很好，但音乐过大、桌距过近，实际并不适合停留。这类店容易成为短期打卡点，却难形成稳定社群。</p>
 <h2 id="咖啡馆文化的历史与演变的常见误区与专家建议">咖啡馆文化的历史与演变的常见误区与专家建议</h2>
@@ -5102,34 +5102,34 @@
 <h3 id="想在家复刻咖啡馆奶咖核心设备怎么选">想在家复刻咖啡馆奶咖：核心设备怎么选</h3>
 <p>如果你更喜欢连锁店和社区咖啡馆里的奶咖，可以从意式基础设备入手：</p>
 <table>
-  <thead>
-      <tr>
-          <th>设备</th>
-          <th>推荐产品</th>
-          <th>适合人群</th>
-          <th style="text-align: right">价格参考</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>半自动咖啡机</td>
-          <td><a href="https://www.amazon.com/s?k=Breville%20Barista%20Express&amp;tag=coffeeprism-20">Breville Barista Express</a></td>
-          <td>进阶家庭用户</td>
-          <td style="text-align: right">4000-7000元</td>
-      </tr>
-      <tr>
-          <td>胶囊机</td>
-          <td><a href="https://www.amazon.com/s?k=Nespresso%20Vertuo&amp;tag=coffeeprism-20">Nespresso Vertuo</a></td>
-          <td>追求便利者</td>
-          <td style="text-align: right">1000-3000元</td>
-      </tr>
-      <tr>
-          <td>奶泡杯</td>
-          <td><a href="https://www.amazon.com/s?k=Motta%20Milk%20Pitcher&amp;tag=coffeeprism-20">Motta Milk Pitcher</a></td>
-          <td>想练拉花者</td>
-          <td style="text-align: right">100-300元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>设备</th>
+					<th>推荐产品</th>
+					<th>适合人群</th>
+					<th style="text-align: right">价格参考</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>半自动咖啡机</td>
+					<td><a href="https://www.amazon.com/s?k=Breville%20Barista%20Express&amp;tag=coffeeprism-20">Breville Barista Express</a></td>
+					<td>进阶家庭用户</td>
+					<td style="text-align: right">4000-7000元</td>
+			</tr>
+			<tr>
+					<td>胶囊机</td>
+					<td><a href="https://www.amazon.com/s?k=Nespresso%20Vertuo&amp;tag=coffeeprism-20">Nespresso Vertuo</a></td>
+					<td>追求便利者</td>
+					<td style="text-align: right">1000-3000元</td>
+			</tr>
+			<tr>
+					<td>奶泡杯</td>
+					<td><a href="https://www.amazon.com/s?k=Motta%20Milk%20Pitcher&amp;tag=coffeeprism-20">Motta Milk Pitcher</a></td>
+					<td>想练拉花者</td>
+					<td style="text-align: right">100-300元</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果预算有限，国内平台也可考虑德龙、柏翠、小熊等品牌的入门方案。重点不是一次买到“最专业”，而是明确自己要复刻的是“效率型奶咖”还是“风味型咖啡馆体验”。</p>
 <h3 id="文化研究者和开店者值得长期关注的工具">文化研究者和开店者：值得长期关注的工具</h3>
@@ -5339,46 +5339,46 @@
 <p>最可靠的方法不是看颜色，而是结合<strong>外观、气味、声音和冲煮结果</strong>四个维度。</p>
 <p>可以用这张表快速判断：</p>
 <table>
-  <thead>
-      <tr>
-          <th>现象</th>
-          <th>常见原因</th>
-          <th>杯中表现</th>
-          <th>调整建议</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>颜色不均、斑驳</td>
-          <td>热风/翻动不足</td>
-          <td>风味杂乱、甜感差</td>
-          <td>减少投豆量，提高均匀度</td>
-      </tr>
-      <tr>
-          <td>豆表发皱、香气闷</td>
-          <td>脱水不足</td>
-          <td>草本、生涩、尖酸</td>
-          <td>拉长前段或提升前段热量</td>
-      </tr>
-      <tr>
-          <td>表面过深、烟味重</td>
-          <td>发展过度</td>
-          <td>苦、焦、层次少</td>
-          <td>提前下豆，降低后段热量</td>
-      </tr>
-      <tr>
-          <td>闻起来香，喝起来空</td>
-          <td>梅纳阶段不足</td>
-          <td>香气浮、甜感弱</td>
-          <td>中段给足反应时间</td>
-      </tr>
-      <tr>
-          <td>酸尖薄、水感重</td>
-          <td>一爆后发展不足</td>
-          <td>不成熟酸</td>
-          <td>增加 10-20 秒发展时间</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>现象</th>
+					<th>常见原因</th>
+					<th>杯中表现</th>
+					<th>调整建议</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>颜色不均、斑驳</td>
+					<td>热风/翻动不足</td>
+					<td>风味杂乱、甜感差</td>
+					<td>减少投豆量，提高均匀度</td>
+			</tr>
+			<tr>
+					<td>豆表发皱、香气闷</td>
+					<td>脱水不足</td>
+					<td>草本、生涩、尖酸</td>
+					<td>拉长前段或提升前段热量</td>
+			</tr>
+			<tr>
+					<td>表面过深、烟味重</td>
+					<td>发展过度</td>
+					<td>苦、焦、层次少</td>
+					<td>提前下豆，降低后段热量</td>
+			</tr>
+			<tr>
+					<td>闻起来香，喝起来空</td>
+					<td>梅纳阶段不足</td>
+					<td>香气浮、甜感弱</td>
+					<td>中段给足反应时间</td>
+			</tr>
+			<tr>
+					<td>酸尖薄、水感重</td>
+					<td>一爆后发展不足</td>
+					<td>不成熟酸</td>
+					<td>增加 10-20 秒发展时间</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己的经验是，新手最常犯的问题不是“烤焦”，而是“没烤熟”。很多人怕深，结果在一爆刚开始就急着下豆，杯中会出现明显谷物味、柠檬皮般尖锐酸和干薄尾韵。</p>
 <h2 id="家庭咖啡烘焙入门指南的常见误区与专家建议">家庭咖啡烘焙入门指南的常见误区与专家建议</h2>
@@ -5675,35 +5675,35 @@
 </ul>
 <h3 id="不同预算的推荐方案">不同预算的推荐方案</h3>
 <table>
-  <thead>
-      <tr>
-          <th>预算</th>
-          <th>推荐组合</th>
-          <th>适合人群</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>100-300元</td>
-          <td>摩卡壶 + 预磨粉 + 小咖啡杯</td>
-          <td>新手尝试意式传统</td>
-      </tr>
-      <tr>
-          <td>300-600元</td>
-          <td>土耳其壶 + 手摇磨 + 小铜杯</td>
-          <td>喜欢文化体验与展示</td>
-      </tr>
-      <tr>
-          <td>600-1200元</td>
-          <td>入门意式机/高端摩卡壶 + 电子秤 + 磨豆机</td>
-          <td>想稳定日常饮用</td>
-      </tr>
-      <tr>
-          <td>800元以上</td>
-          <td>Jebena套装 + 精品豆 + 香氛配件</td>
-          <td>偏重社交仪式感玩家</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算</th>
+					<th>推荐组合</th>
+					<th>适合人群</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>100-300元</td>
+					<td>摩卡壶 + 预磨粉 + 小咖啡杯</td>
+					<td>新手尝试意式传统</td>
+			</tr>
+			<tr>
+					<td>300-600元</td>
+					<td>土耳其壶 + 手摇磨 + 小铜杯</td>
+					<td>喜欢文化体验与展示</td>
+			</tr>
+			<tr>
+					<td>600-1200元</td>
+					<td>入门意式机/高端摩卡壶 + 电子秤 + 磨豆机</td>
+					<td>想稳定日常饮用</td>
+			</tr>
+			<tr>
+					<td>800元以上</td>
+					<td>Jebena套装 + 精品豆 + 香氛配件</td>
+					<td>偏重社交仪式感玩家</td>
+			</tr>
+	</tbody>
 </table>
 <p>国内购买渠道上，淘宝适合找风格化器具，京东更适合买标准化家电，小红书和闲鱼则适合参考真实使用反馈。若追求正品摩卡壶、磨豆机和咖啡杯具，也可以看天猫国际和品牌官方旗舰店。</p>
 <h3 id="豆子怎么配才更接近传统风格">豆子怎么配才更接近传统风格</h3>
@@ -5848,34 +5848,34 @@
 <p>传统意大利品牌很适合奶咖，但关键在牛奶处理。建议使用 200-250 ml 冷藏全脂牛奶，蒸汽打发到 <strong>55-65℃</strong>，避免超过 70℃，否则甜感下降、奶腥味上升。</p>
 <p>配方上可以这样试：</p>
 <table>
-  <thead>
-      <tr>
-          <th>饮品</th>
-          <th style="text-align: right">浓缩咖啡</th>
-          <th style="text-align: right">牛奶量</th>
-          <th>适合品牌</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>卡布奇诺</td>
-          <td style="text-align: right">30-36g</td>
-          <td style="text-align: right">120-150ml</td>
-          <td>Kimbo、Segafredo</td>
-      </tr>
-      <tr>
-          <td>拿铁</td>
-          <td style="text-align: right">30-40g</td>
-          <td style="text-align: right">180-220ml</td>
-          <td>Lavazza、Kimbo</td>
-      </tr>
-      <tr>
-          <td>澳白</td>
-          <td style="text-align: right">36-40g</td>
-          <td style="text-align: right">120-150ml</td>
-          <td>illy、Lavazza</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>饮品</th>
+					<th style="text-align: right">浓缩咖啡</th>
+					<th style="text-align: right">牛奶量</th>
+					<th>适合品牌</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>卡布奇诺</td>
+					<td style="text-align: right">30-36g</td>
+					<td style="text-align: right">120-150ml</td>
+					<td>Kimbo、Segafredo</td>
+			</tr>
+			<tr>
+					<td>拿铁</td>
+					<td style="text-align: right">30-40g</td>
+					<td style="text-align: right">180-220ml</td>
+					<td>Lavazza、Kimbo</td>
+			</tr>
+			<tr>
+					<td>澳白</td>
+					<td style="text-align: right">36-40g</td>
+					<td style="text-align: right">120-150ml</td>
+					<td>illy、Lavazza</td>
+			</tr>
+	</tbody>
 </table>
 <p>如果你想搭配家用设备一起入门，可搜索 <a href="https://www.amazon.com/s?k=DeLonghi%20Espresso%20Machine&amp;tag=coffeeprism-20">DeLonghi Espresso Machine</a> 或 <a href="https://www.amazon.com/s?k=Breville%20Barista%20Express&amp;tag=coffeeprism-20">Breville Barista Express</a>。在中国市场，德龙渠道更成熟，售后也相对方便。</p>
 <h2 id="意大利经典咖啡品牌的历史常见误区与专家建议别把经典等同于单一风味">意大利经典咖啡品牌的历史常见误区与专家建议：别把“经典”等同于“单一风味”</h2>
@@ -6002,42 +6002,42 @@
 <h3 id="家庭可执行的冲煮参数怎么设">家庭可执行的冲煮参数怎么设</h3>
 <p>如果你想做一套相对稳定的“咖啡中的抗氧化物质研究教程”，下面这组参数适合作为起点：</p>
 <table>
-  <thead>
-      <tr>
-          <th>项目</th>
-          <th>推荐参数</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>冲煮器具</td>
-          <td>V60 02 或玻璃法压壶</td>
-      </tr>
-      <tr>
-          <td>粉水比</td>
-          <td>1:15 到 1:16</td>
-      </tr>
-      <tr>
-          <td>研磨度</td>
-          <td>中细，接近白砂糖颗粒</td>
-      </tr>
-      <tr>
-          <td>水温</td>
-          <td>90-93℃（浅烘可到93-94℃）</td>
-      </tr>
-      <tr>
-          <td>总萃取时间</td>
-          <td>2分15秒-3分</td>
-      </tr>
-      <tr>
-          <td>单次粉量</td>
-          <td>15g</td>
-      </tr>
-      <tr>
-          <td>出液量</td>
-          <td>225-240g</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>项目</th>
+					<th>推荐参数</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>冲煮器具</td>
+					<td>V60 02 或玻璃法压壶</td>
+			</tr>
+			<tr>
+					<td>粉水比</td>
+					<td>1:15 到 1:16</td>
+			</tr>
+			<tr>
+					<td>研磨度</td>
+					<td>中细，接近白砂糖颗粒</td>
+			</tr>
+			<tr>
+					<td>水温</td>
+					<td>90-93℃（浅烘可到93-94℃）</td>
+			</tr>
+			<tr>
+					<td>总萃取时间</td>
+					<td>2分15秒-3分</td>
+			</tr>
+			<tr>
+					<td>单次粉量</td>
+					<td>15g</td>
+			</tr>
+			<tr>
+					<td>出液量</td>
+					<td>225-240g</td>
+			</tr>
+	</tbody>
 </table>
 <p>我自己做对比杯时，会每组至少冲3次，取平均感官表现并记录TDS。若有条件，可以搭配折光仪，比如 <a href="https://www.amazon.com/s?k=DiFluid%20R2%20Extract%20Refractometer&amp;tag=coffeeprism-20">DiFluid R2 Extract Refractometer</a>。它不能直接测抗氧化值，但能帮助你确认萃取率是否接近，避免因为萃取不足或过萃而干扰判断。</p>
 <h3 id="想进一步比较哪些工具最实用">想进一步比较，哪些工具最实用</h3>
@@ -6076,30 +6076,30 @@
 <h3 id="工具怎么选三类预算最值得投入">工具怎么选：三类预算最值得投入</h3>
 <p>如果预算有限，建议按优先级配置：</p>
 <table>
-  <thead>
-      <tr>
-          <th>预算档位</th>
-          <th>推荐配置</th>
-          <th>参考价格</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>入门档</td>
-          <td>电子秤 + V60 + 滤纸 + 分享壶</td>
-          <td>150-300元</td>
-      </tr>
-      <tr>
-          <td>进阶档</td>
-          <td>手磨/电磨 + 温控壶 + 精准秤</td>
-          <td>500-1500元</td>
-      </tr>
-      <tr>
-          <td>研究档</td>
-          <td>再加TDS仪、标准杯测杯、记录系统</td>
-          <td>1500-4000元</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算档位</th>
+					<th>推荐配置</th>
+					<th>参考价格</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>入门档</td>
+					<td>电子秤 + V60 + 滤纸 + 分享壶</td>
+					<td>150-300元</td>
+			</tr>
+			<tr>
+					<td>进阶档</td>
+					<td>手磨/电磨 + 温控壶 + 精准秤</td>
+					<td>500-1500元</td>
+			</tr>
+			<tr>
+					<td>研究档</td>
+					<td>再加TDS仪、标准杯测杯、记录系统</td>
+					<td>1500-4000元</td>
+			</tr>
+	</tbody>
 </table>
 <p>对应海外产品可参考 <a href="https://www.amazon.com/s?k=Timemore%20Black%20Mirror%20Scale&amp;tag=coffeeprism-20">Timemore Black Mirror Scale</a>、<a href="https://www.amazon.com/s?k=Baratza%20Encore%20Grinder&amp;tag=coffeeprism-20">Baratza Encore Grinder</a>、<a href="https://www.amazon.com/s?k=AeroPress%20Coffee%20Maker&amp;tag=coffeeprism-20">AeroPress Coffee Maker</a>。AeroPress 适合做不同时间和水温的对比实验，因为变量控制相对容易。</p>
 <h3 id="国内购买渠道怎么判断性价比">国内购买渠道怎么判断性价比</h3>
@@ -6213,30 +6213,30 @@
 </ol>
 <h3 id="52-设备选购指南">5.2 设备选购指南</h3>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th>推荐产品</th>
-          <th>核心优势</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>入门级</td>
-          <td>泰摩栗子C智能版</td>
-          <td>APP曲线预设+陶瓷保温</td>
-      </tr>
-      <tr>
-          <td>进阶款</td>
-          <td>Behmor 1600 Plus</td>
-          <td>美国UL认证+1kg容量</td>
-      </tr>
-      <tr>
-          <td>商用优选</td>
-          <td>飞马CR-100</td>
-          <td>燃气加热+双循环排烟</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>推荐产品</th>
+					<th>核心优势</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>入门级</td>
+					<td>泰摩栗子C智能版</td>
+					<td>APP曲线预设+陶瓷保温</td>
+			</tr>
+			<tr>
+					<td>进阶款</td>
+					<td>Behmor 1600 Plus</td>
+					<td>美国UL认证+1kg容量</td>
+			</tr>
+			<tr>
+					<td>商用优选</td>
+					<td>飞马CR-100</td>
+					<td>燃气加热+双循环排烟</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="常见问题解答">常见问题解答</h2>
@@ -6400,30 +6400,30 @@
 <h3 id="52-烘焙度与地域匹配">5.2 烘焙度与地域匹配</h3>
 <p>实验数据显示：</p>
 <table>
-  <thead>
-      <tr>
-          <th>国家</th>
-          <th>主流烘焙度</th>
-          <th>焦糖化反应温度</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>法国</td>
-          <td>深度</td>
-          <td>230℃以上</td>
-      </tr>
-      <tr>
-          <td>澳大利亚</td>
-          <td>中浅</td>
-          <td>205-215℃</td>
-      </tr>
-      <tr>
-          <td>墨西哥</td>
-          <td>肉桂烘焙</td>
-          <td>196℃</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>国家</th>
+					<th>主流烘焙度</th>
+					<th>焦糖化反应温度</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>法国</td>
+					<td>深度</td>
+					<td>230℃以上</td>
+			</tr>
+			<tr>
+					<td>澳大利亚</td>
+					<td>中浅</td>
+					<td>205-215℃</td>
+			</tr>
+			<tr>
+					<td>墨西哥</td>
+					<td>肉桂烘焙</td>
+					<td>196℃</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="六全球风味体验包推荐">六、全球风味体验包推荐</h2>
@@ -6521,45 +6521,45 @@
 </ul>
 <h2 id="五经典产品横向评测">五、经典产品横向评测</h2>
 <table>
-  <thead>
-      <tr>
-          <th>品牌</th>
-          <th>主力产品</th>
-          <th>风味特征</th>
-          <th>建议冲煮方式</th>
-          <th>国内参考价</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>Lavazza</td>
-          <td>Qualità Oro</td>
-          <td>蜂蜜/烤杏仁</td>
-          <td>摩卡壶</td>
-          <td>¥125/250g</td>
-      </tr>
-      <tr>
-          <td>Illy</td>
-          <td>Classico</td>
-          <td>茉莉花/焦糖</td>
-          <td>半自动咖啡机</td>
-          <td>¥168/250g</td>
-      </tr>
-      <tr>
-          <td>Segafredo</td>
-          <td>Intermezzo</td>
-          <td>黑巧克力/香料</td>
-          <td>法压壶</td>
-          <td>¥98/250g</td>
-      </tr>
-      <tr>
-          <td>Pellini</td>
-          <td>Top Premium</td>
-          <td>柑橘/太妃糖</td>
-          <td>手冲</td>
-          <td>¥198/200g</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>品牌</th>
+					<th>主力产品</th>
+					<th>风味特征</th>
+					<th>建议冲煮方式</th>
+					<th>国内参考价</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>Lavazza</td>
+					<td>Qualità Oro</td>
+					<td>蜂蜜/烤杏仁</td>
+					<td>摩卡壶</td>
+					<td>¥125/250g</td>
+			</tr>
+			<tr>
+					<td>Illy</td>
+					<td>Classico</td>
+					<td>茉莉花/焦糖</td>
+					<td>半自动咖啡机</td>
+					<td>¥168/250g</td>
+			</tr>
+			<tr>
+					<td>Segafredo</td>
+					<td>Intermezzo</td>
+					<td>黑巧克力/香料</td>
+					<td>法压壶</td>
+					<td>¥98/250g</td>
+			</tr>
+			<tr>
+					<td>Pellini</td>
+					<td>Top Premium</td>
+					<td>柑橘/太妃糖</td>
+					<td>手冲</td>
+					<td>¥198/200g</td>
+			</tr>
+	</tbody>
 </table>
 <p><em>数据来源：2024年意大利咖啡协会官方评测报告</em></p>
 <h2 id="常见问题解答">常见问题解答</h2>
@@ -6623,30 +6623,30 @@
 </ul>
 <h3 id="32-工具配置方案">3.2 工具配置方案</h3>
 <table>
-  <thead>
-      <tr>
-          <th>工具类型</th>
-          <th>入门级（200元内）</th>
-          <th>专业级</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>拉花杯</td>
-          <td>Hero复古300ml宽口杯</td>
-          <td>Barista Gear竞技版</td>
-      </tr>
-      <tr>
-          <td>雕花针</td>
-          <td>医用不锈钢探针</td>
-          <td>日本HARIO套装</td>
-      </tr>
-      <tr>
-          <td>温度计</td>
-          <td>长柄数显温度计</td>
-          <td>智能蓝牙测温仪</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>工具类型</th>
+					<th>入门级（200元内）</th>
+					<th>专业级</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>拉花杯</td>
+					<td>Hero复古300ml宽口杯</td>
+					<td>Barista Gear竞技版</td>
+			</tr>
+			<tr>
+					<td>雕花针</td>
+					<td>医用不锈钢探针</td>
+					<td>日本HARIO套装</td>
+			</tr>
+			<tr>
+					<td>温度计</td>
+					<td>长柄数显温度计</td>
+					<td>智能蓝牙测温仪</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="四新手必学的五步创作法">四、新手必学的五步创作法</h2>
@@ -6658,30 +6658,30 @@
 </ol>
 <h3 id="42-常见图案难度表">4.2 常见图案难度表</h3>
 <table>
-  <thead>
-      <tr>
-          <th>图案</th>
-          <th>练习时长</th>
-          <th>失败率</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>爱心</td>
-          <td>20小时</td>
-          <td>38%</td>
-      </tr>
-      <tr>
-          <td>树叶</td>
-          <td>50小时</td>
-          <td>65%</td>
-      </tr>
-      <tr>
-          <td>天鹅</td>
-          <td>100小时</td>
-          <td>82%</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>图案</th>
+					<th>练习时长</th>
+					<th>失败率</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>爱心</td>
+					<td>20小时</td>
+					<td>38%</td>
+			</tr>
+			<tr>
+					<td>树叶</td>
+					<td>50小时</td>
+					<td>65%</td>
+			</tr>
+			<tr>
+					<td>天鹅</td>
+					<td>100小时</td>
+					<td>82%</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="五避开五大认知误区">五、避开五大认知误区</h2>
@@ -6899,30 +6899,30 @@
 <h2 id="四中国市场的实践指南">四、中国市场的实践指南</h2>
 <h3 id="41-本土化产品选择">4.1 本土化产品选择</h3>
 <table>
-  <thead>
-      <tr>
-          <th>品牌</th>
-          <th>产品</th>
-          <th>咖啡因含量(mg)</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>瑞幸咖啡</td>
-          <td>标准美式</td>
-          <td>180</td>
-      </tr>
-      <tr>
-          <td>三顿半</td>
-          <td>3号超即溶</td>
-          <td>135</td>
-      </tr>
-      <tr>
-          <td>隅田川</td>
-          <td>挂耳咖啡</td>
-          <td>85</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>品牌</th>
+					<th>产品</th>
+					<th>咖啡因含量(mg)</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>瑞幸咖啡</td>
+					<td>标准美式</td>
+					<td>180</td>
+			</tr>
+			<tr>
+					<td>三顿半</td>
+					<td>3号超即溶</td>
+					<td>135</td>
+			</tr>
+			<tr>
+					<td>隅田川</td>
+					<td>挂耳咖啡</td>
+					<td>85</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="42-智能监测工具推荐">4.2 智能监测工具推荐</h3>
 <ul>
@@ -7004,30 +7004,30 @@
 <hr>
 <h2 id="四专业设备与家用方案对比">四、专业设备与家用方案对比</h2>
 <table>
-  <thead>
-      <tr>
-          <th>设备类型</th>
-          <th>商用推荐</th>
-          <th>家用平替方案</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>奶缸</td>
-          <td>WPM惠家450ml拉花缸</td>
-          <td>网易严选304不锈钢奶杯</td>
-      </tr>
-      <tr>
-          <td>温度计</td>
-          <td>Acaia智能蓝牙温度计</td>
-          <td>厨房用探针式温度计</td>
-      </tr>
-      <tr>
-          <td>打发器</td>
-          <td>兰奇里奥蒸汽棒</td>
-          <td>宜家手持电动奶泡器</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>设备类型</th>
+					<th>商用推荐</th>
+					<th>家用平替方案</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>奶缸</td>
+					<td>WPM惠家450ml拉花缸</td>
+					<td>网易严选304不锈钢奶杯</td>
+			</tr>
+			<tr>
+					<td>温度计</td>
+					<td>Acaia智能蓝牙温度计</td>
+					<td>厨房用探针式温度计</td>
+			</tr>
+			<tr>
+					<td>打发器</td>
+					<td>兰奇里奥蒸汽棒</td>
+					<td>宜家手持电动奶泡器</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="五常见误区破解">五、常见误区破解</h2>
@@ -7199,30 +7199,30 @@
 </ul>
 <h3 id="32-温度控制关键节点">3.2 温度控制关键节点</h3>
 <table>
-  <thead>
-      <tr>
-          <th>应用场景</th>
-          <th>最佳温度带</th>
-          <th>效果对比</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>腌渍肉类</td>
-          <td>4-7℃</td>
-          <td>低温慢萃风味物质</td>
-      </tr>
-      <tr>
-          <td>烘焙甜点</td>
-          <td>160-180℃</td>
-          <td>避免焦苦味产生</td>
-      </tr>
-      <tr>
-          <td>酱汁熬煮</td>
-          <td>82-85℃</td>
-          <td>保持香气分子活性</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>应用场景</th>
+					<th>最佳温度带</th>
+					<th>效果对比</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>腌渍肉类</td>
+					<td>4-7℃</td>
+					<td>低温慢萃风味物质</td>
+			</tr>
+			<tr>
+					<td>烘焙甜点</td>
+					<td>160-180℃</td>
+					<td>避免焦苦味产生</td>
+			</tr>
+			<tr>
+					<td>酱汁熬煮</td>
+					<td>82-85℃</td>
+					<td>保持香气分子活性</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="33-器具创新方案">3.3 器具创新方案</h3>
 <p>推荐国产「泰摩」冷萃壶（<a href="https://item.jd.com/100028325784.html">点击查看</a>），其专利过滤系统可分离咖啡油脂，特别适合制作需要清澈咖啡液的分子料理。</p>
@@ -7503,34 +7503,34 @@
 • 特殊人群需提前至12小时</p>
 <h3 id="23-替代方案精选指南">2.3 替代方案精选指南</h3>
 <table>
-  <thead>
-      <tr>
-          <th>类型</th>
-          <th>咖啡因含量</th>
-          <th>推荐品牌</th>
-          <th>最佳饮用时段</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>低因咖啡</td>
-          <td>&lt;5mg/杯</td>
-          <td>星巴克低因系列</td>
-          <td>16:00后</td>
-      </tr>
-      <tr>
-          <td>大麦茶</td>
-          <td>0mg</td>
-          <td>伊藤园焙煎大麦茶</td>
-          <td>全天候</td>
-      </tr>
-      <tr>
-          <td>南非博士茶</td>
-          <td>0mg</td>
-          <td>Rooibos原叶茶</td>
-          <td>睡前2小时</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>类型</th>
+					<th>咖啡因含量</th>
+					<th>推荐品牌</th>
+					<th>最佳饮用时段</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>低因咖啡</td>
+					<td>&lt;5mg/杯</td>
+					<td>星巴克低因系列</td>
+					<td>16:00后</td>
+			</tr>
+			<tr>
+					<td>大麦茶</td>
+					<td>0mg</td>
+					<td>伊藤园焙煎大麦茶</td>
+					<td>全天候</td>
+			</tr>
+			<tr>
+					<td>南非博士茶</td>
+					<td>0mg</td>
+					<td>Rooibos原叶茶</td>
+					<td>睡前2小时</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="三专业咖啡师的私藏技巧">三、专业咖啡师的私藏技巧</h2>
@@ -7639,30 +7639,30 @@
 <h2 id="三智能设备选购的黄金法则">三、智能设备选购的黄金法则</h2>
 <h3 id="31-需求分层定位法">3.1 需求分层定位法</h3>
 <table>
-  <thead>
-      <tr>
-          <th>用户类型</th>
-          <th>核心需求</th>
-          <th>推荐配置</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>入门玩家</td>
-          <td>便捷稳定</td>
-          <td>小米胶囊机+智能温控壶（预算＜￥1,500）</td>
-      </tr>
-      <tr>
-          <td>进阶爱好者</td>
-          <td>参数调控</td>
-          <td>惠家KD270S+泰摩S3磨豆机（预算￥5,000）</td>
-      </tr>
-      <tr>
-          <td>专业发烧友</td>
-          <td>实验室级控制</td>
-          <td>Decent DE1PRO+EK43S磨（预算＞￥30,000）</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>用户类型</th>
+					<th>核心需求</th>
+					<th>推荐配置</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>入门玩家</td>
+					<td>便捷稳定</td>
+					<td>小米胶囊机+智能温控壶（预算＜￥1,500）</td>
+			</tr>
+			<tr>
+					<td>进阶爱好者</td>
+					<td>参数调控</td>
+					<td>惠家KD270S+泰摩S3磨豆机（预算￥5,000）</td>
+			</tr>
+			<tr>
+					<td>专业发烧友</td>
+					<td>实验室级控制</td>
+					<td>Decent DE1PRO+EK43S磨（预算＞￥30,000）</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="32-关键参数避坑指南">3.2 关键参数避坑指南</h3>
 <ul>
@@ -8052,30 +8052,30 @@
 <h2 id="二影响作品成败的五大黄金参数">二、影响作品成败的五大黄金参数</h2>
 <h3 id="21-奶泡的物理特性控制">2.1 奶泡的物理特性控制</h3>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>理想范围</th>
-          <th>测量工具</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>温度</td>
-          <td>60-65℃</td>
-          <td>红外测温仪</td>
-      </tr>
-      <tr>
-          <td>绵密度</td>
-          <td>0.8cm厚度</td>
-          <td>视觉分层检测法</td>
-      </tr>
-      <tr>
-          <td>流动性</td>
-          <td>5秒铺满杯面</td>
-          <td>倾倒速度测试</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>理想范围</th>
+					<th>测量工具</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>温度</td>
+					<td>60-65℃</td>
+					<td>红外测温仪</td>
+			</tr>
+			<tr>
+					<td>绵密度</td>
+					<td>0.8cm厚度</td>
+					<td>视觉分层检测法</td>
+			</tr>
+			<tr>
+					<td>流动性</td>
+					<td>5秒铺满杯面</td>
+					<td>倾倒速度测试</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="22-咖啡机与工具的协同效应">2.2 咖啡机与工具的协同效应</h3>
 <p>家用场景推荐<a href="https://www.amazon.com/s?k=Breville%20BES870&amp;tag=coffeeprism-20">Breville BES870</a>（内置压力表可监控萃取状态），搭配<a href="https://detail.tmall.com/item.htm?id=656787458312">泰摩鱼3代拉花杯</a>（490ml容量+尖嘴设计适合中式拿铁杯型）。</p>
@@ -8108,26 +8108,26 @@
 <h2 id="五工具选择的实战建议">五、工具选择的实战建议</h2>
 <h3 id="51-不同预算的装备方案">5.1 不同预算的装备方案</h3>
 <table>
-  <thead>
-      <tr>
-          <th>预算区间</th>
-          <th>核心配置方案</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>500元内</td>
-          <td>手动打奶器+宽口马克杯+温度计</td>
-      </tr>
-      <tr>
-          <td>1500-3000</td>
-          <td>入门级意式机+泰摩镜面拉花缸</td>
-      </tr>
-      <tr>
-          <td>5000+</td>
-          <td>双锅炉咖啡机+韩国Fellow Atmos系列</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>预算区间</th>
+					<th>核心配置方案</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>500元内</td>
+					<td>手动打奶器+宽口马克杯+温度计</td>
+			</tr>
+			<tr>
+					<td>1500-3000</td>
+					<td>入门级意式机+泰摩镜面拉花缸</td>
+			</tr>
+			<tr>
+					<td>5000+</td>
+					<td>双锅炉咖啡机+韩国Fellow Atmos系列</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="52-中国市场的替代方案">5.2 中国市场的替代方案</h3>
 <ul>
@@ -8329,35 +8329,35 @@
 <hr>
 <h2 id="五专业设备选购指南中国特供版">五、专业设备选购指南（中国特供版）</h2>
 <table>
-  <thead>
-      <tr>
-          <th>品类</th>
-          <th>性价比之选（200元内）</th>
-          <th>专业进阶款（500-1000元）</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>拉花缸</td>
-          <td>Hero骑士350ml</td>
-          <td>Motta原装600ml</td>
-      </tr>
-      <tr>
-          <td>咖啡机</td>
-          <td>东菱DL-5700</td>
-          <td>柏翠PE3899</td>
-      </tr>
-      <tr>
-          <td>温度计</td>
-          <td>香山CK-3506</td>
-          <td>Acaia Pyxis蓝牙版</td>
-      </tr>
-      <tr>
-          <td>练习耗材</td>
-          <td>维记餐饮装鲜奶</td>
-          <td>必如超级奶</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>品类</th>
+					<th>性价比之选（200元内）</th>
+					<th>专业进阶款（500-1000元）</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>拉花缸</td>
+					<td>Hero骑士350ml</td>
+					<td>Motta原装600ml</td>
+			</tr>
+			<tr>
+					<td>咖啡机</td>
+					<td>东菱DL-5700</td>
+					<td>柏翠PE3899</td>
+			</tr>
+			<tr>
+					<td>温度计</td>
+					<td>香山CK-3506</td>
+					<td>Acaia Pyxis蓝牙版</td>
+			</tr>
+			<tr>
+					<td>练习耗材</td>
+					<td>维记餐饮装鲜奶</td>
+					<td>必如超级奶</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="六常见问题深度解析">六、常见问题深度解析</h2>
@@ -8449,30 +8449,30 @@
 <h2 id="三专业级品鉴指南解锁全球咖啡密码">三、专业级品鉴指南：解锁全球咖啡密码</h2>
 <h3 id="1-器具选择黄金法则">1. 器具选择黄金法则</h3>
 <table>
-  <thead>
-      <tr>
-          <th>咖啡类型</th>
-          <th>推荐器具</th>
-          <th>水温控制</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>土耳其咖啡</td>
-          <td>Cezve铜壶</td>
-          <td>95℃直接煮沸</td>
-      </tr>
-      <tr>
-          <td>意大利浓缩</td>
-          <td>9bar压力咖啡机</td>
-          <td>92℃±1℃</td>
-      </tr>
-      <tr>
-          <td>日式手冲</td>
-          <td>珐琅波纹滤杯</td>
-          <td>88-90℃分段注水</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>咖啡类型</th>
+					<th>推荐器具</th>
+					<th>水温控制</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>土耳其咖啡</td>
+					<td>Cezve铜壶</td>
+					<td>95℃直接煮沸</td>
+			</tr>
+			<tr>
+					<td>意大利浓缩</td>
+					<td>9bar压力咖啡机</td>
+					<td>92℃±1℃</td>
+			</tr>
+			<tr>
+					<td>日式手冲</td>
+					<td>珐琅波纹滤杯</td>
+					<td>88-90℃分段注水</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="2-风味轮实战应用">2. 风味轮实战应用</h3>
 <p>埃塞俄比亚耶加雪菲（茉莉花香+柠檬酸）VS巴西圣多斯（坚果+巧克力）的冲煮差异：</p>
@@ -9087,30 +9087,30 @@
 <h2 id="四中国市场的实用指南">四、中国市场的实用指南</h2>
 <h3 id="41-选购避坑指南">4.1 选购避坑指南</h3>
 <table>
-  <thead>
-      <tr>
-          <th>参数</th>
-          <th>优质特征</th>
-          <th>劣质表现</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>生产日期</td>
-          <td>烘焙后3个月内</td>
-          <td>无明确日期</td>
-      </tr>
-      <tr>
-          <td>豆型</td>
-          <td>完整无碎豆</td>
-          <td>碎豆率＞15%</td>
-      </tr>
-      <tr>
-          <td>油脂表现</td>
-          <td>Crema持续3分钟</td>
-          <td>30秒内消散</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数</th>
+					<th>优质特征</th>
+					<th>劣质表现</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>生产日期</td>
+					<td>烘焙后3个月内</td>
+					<td>无明确日期</td>
+			</tr>
+			<tr>
+					<td>豆型</td>
+					<td>完整无碎豆</td>
+					<td>碎豆率＞15%</td>
+			</tr>
+			<tr>
+					<td>油脂表现</td>
+					<td>Crema持续3分钟</td>
+					<td>30秒内消散</td>
+			</tr>
+	</tbody>
 </table>
 <h3 id="42-本土化饮用方案">4.2 本土化饮用方案</h3>
 <p>针对中国水质特点（平均硬度120ppm），建议：</p>

@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:30 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>深度解析直火vs热风烘焙的区别：从原理到实战的完整指南</title>
@@ -111,40 +111,40 @@
 <hr>
 <h2 id="三关键参数对照表">三、关键参数对照表</h2>
 <table>
-  <thead>
-      <tr>
-          <th>参数指标</th>
-          <th>直火烘焙</th>
-          <th>热风烘焙</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>升温速率</td>
-          <td>2-3℃/秒</td>
-          <td>4-5℃/秒</td>
-      </tr>
-      <tr>
-          <td>脱水阶段耗时</td>
-          <td>5-7分钟</td>
-          <td>3-5分钟</td>
-      </tr>
-      <tr>
-          <td>一爆温差</td>
-          <td>豆表/芯差15℃</td>
-          <td>整体温差5℃以内</td>
-      </tr>
-      <tr>
-          <td>焦糖化程度</td>
-          <td>多层梯度焦糖化</td>
-          <td>均匀焦糖化</td>
-      </tr>
-      <tr>
-          <td>设备维护成本</td>
-          <td>滚筒每月需除碳</td>
-          <td>滤网每周清洁</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>参数指标</th>
+					<th>直火烘焙</th>
+					<th>热风烘焙</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>升温速率</td>
+					<td>2-3℃/秒</td>
+					<td>4-5℃/秒</td>
+			</tr>
+			<tr>
+					<td>脱水阶段耗时</td>
+					<td>5-7分钟</td>
+					<td>3-5分钟</td>
+			</tr>
+			<tr>
+					<td>一爆温差</td>
+					<td>豆表/芯差15℃</td>
+					<td>整体温差5℃以内</td>
+			</tr>
+			<tr>
+					<td>焦糖化程度</td>
+					<td>多层梯度焦糖化</td>
+					<td>均匀焦糖化</td>
+			</tr>
+			<tr>
+					<td>设备维护成本</td>
+					<td>滚筒每月需除碳</td>
+					<td>滤网每周清洁</td>
+			</tr>
+	</tbody>
 </table>
 <hr>
 <h2 id="四实战烘焙曲线解析">四、实战烘焙曲线解析</h2>

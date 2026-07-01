@@ -6,7 +6,7 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 01 Jul 2026 15:48:36 -0700</lastBuildDate>
+    <lastBuildDate>Wed, 01 Jul 2026 22:52:29 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%BB%B7%E6%A0%BC%E4%B8%8B%E8%B7%8C/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>巴西咖啡产量创新高，咖啡价格下跌：全球供需拐点正在如何重塑中国咖啡市场</title>
@@ -38,35 +38,35 @@
 <p>但问题在于，全球咖啡供需并不是“巴西一家说了算”。越南罗布斯塔产量、哥伦比亚阿拉比卡恢复情况、中美洲病虫害、非洲精品豆供应，以及全球消费端增速，都会改变最终结果。尤其是近几年，<strong>罗布斯塔与阿拉比卡的替代关系</strong>越来越重要。当阿拉比卡过贵时，工业拼配和部分连锁配方会增加罗布斯塔比例；当阿拉比卡价格回落时，烘焙商又可能提升阿拉比卡使用量，重新改写需求结构。</p>
 <p>这意味着什么？意味着即使巴西丰产导致阿拉比卡价格回落，也不一定带来全市场“同步、同幅度”的下跌。举例来说：</p>
 <table>
-  <thead>
-      <tr>
-          <th>影响层面</th>
-          <th style="text-align: right">价格反应速度</th>
-          <th>主要驱动因素</th>
-      </tr>
-  </thead>
-  <tbody>
-      <tr>
-          <td>国际期货盘面</td>
-          <td style="text-align: right">快</td>
-          <td>产量预期、基金持仓、美元走势</td>
-      </tr>
-      <tr>
-          <td>生豆现货采购</td>
-          <td style="text-align: right">中</td>
-          <td>升贴水、库存、船期、质量稳定性</td>
-      </tr>
-      <tr>
-          <td>烘焙商成本</td>
-          <td style="text-align: right">中慢</td>
-          <td>锁价合同、库存周期、拼配策略</td>
-      </tr>
-      <tr>
-          <td>门店零售价</td>
-          <td style="text-align: right">慢</td>
-          <td>房租、人力、品牌策略、促销强度</td>
-      </tr>
-  </tbody>
+	<thead>
+			<tr>
+					<th>影响层面</th>
+					<th style="text-align: right">价格反应速度</th>
+					<th>主要驱动因素</th>
+			</tr>
+	</thead>
+	<tbody>
+			<tr>
+					<td>国际期货盘面</td>
+					<td style="text-align: right">快</td>
+					<td>产量预期、基金持仓、美元走势</td>
+			</tr>
+			<tr>
+					<td>生豆现货采购</td>
+					<td style="text-align: right">中</td>
+					<td>升贴水、库存、船期、质量稳定性</td>
+			</tr>
+			<tr>
+					<td>烘焙商成本</td>
+					<td style="text-align: right">中慢</td>
+					<td>锁价合同、库存周期、拼配策略</td>
+			</tr>
+			<tr>
+					<td>门店零售价</td>
+					<td style="text-align: right">慢</td>
+					<td>房租、人力、品牌策略、促销强度</td>
+			</tr>
+	</tbody>
 </table>
 <p>我在观察国内烘焙品牌采购时发现，很多企业并不会因为单次回调就立刻全面切换采购策略。原因很简单：价格只是采购决策的一部分，稳定性和可复制性同样关键。尤其对连锁品牌而言，风味波动比采购价多出几元更麻烦，因为门店出品一旦不稳定，消费者感知会非常直接。</p>
 <p>另一个不能忽视的变量是库存。国际咖啡价格如果此前已经处于高位，产业链下游通常会倾向于低库存运转，等待更合适的补货点。一旦价格明显回落，就可能触发阶段性补库。这样一来，盘面虽然下跌，但现货采购需求反而可能短暂回升，对价格形成支撑。所以“巴西增产=一路大跌”的线性推导，并不成立。</p>
