@@ -6,21 +6,21 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Tue, 14 Jul 2026 19:31:37 &#43;0000</lastBuildDate>
+    <lastBuildDate>Wed, 15 Jul 2026 19:22:36 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/categories/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>咖啡与食物搭配</title>
+      <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E4%B8%8E%E9%A3%9F%E7%89%A9%E6%90%AD%E9%85%8D/</link>
+      <pubDate>Wed, 15 Jul 2026 19:22:33 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E4%B8%8E%E9%A3%9F%E7%89%A9%E6%90%AD%E9%85%8D/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
     <item>
       <title>咖啡旅行</title>
       <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E6%97%85%E8%A1%8C/</link>
       <pubDate>Tue, 14 Jul 2026 19:29:04 &#43;0800</pubDate>
       <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E6%97%85%E8%A1%8C/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>咖啡与食物搭配</title>
-      <link>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E4%B8%8E%E9%A3%9F%E7%89%A9%E6%90%AD%E9%85%8D/</link>
-      <pubDate>Sun, 12 Jul 2026 19:15:48 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E4%B8%8E%E9%A3%9F%E7%89%A9%E6%90%AD%E9%85%8D/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
