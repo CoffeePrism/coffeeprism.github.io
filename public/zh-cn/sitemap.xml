@@ -3,7 +3,7 @@
   xmlns:xhtml="http://www.w3.org/1999/xhtml">
   <url>
     <loc>https://www.coffeeprism.com/</loc>
-    <lastmod>2026-08-08T18:48:12+08:00</lastmod>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -18,12 +18,12 @@
                 />
   </url><url>
     <loc>https://www.coffeeprism.com/posts/</loc>
-    <lastmod>2026-08-08T18:48:12+08:00</lastmod>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/tags/</loc>
-    <lastmod>2026-08-08T18:48:12+08:00</lastmod>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -38,7 +38,7 @@
                 />
   </url><url>
     <loc>https://www.coffeeprism.com/categories/</loc>
-    <lastmod>2026-08-08T18:48:12+08:00</lastmod>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
     <xhtml:link
@@ -51,6 +51,41 @@
                 hreflang="en"
                 href="https://www.coffeeprism.com/en/categories/"
                 />
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</loc>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E5%88%86%E5%B1%82/</loc>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E8%BF%9E%E9%94%81%E5%92%96%E5%95%A1%E8%B0%83%E6%95%B4/</loc>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E5%85%B3%E5%BA%97/</loc>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/posts/xing-ba-ke-guan-dian-bei-hou-lian-suo-ka-pei-diao/</loc>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
+  </url><url>
+    <loc>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</loc>
+    <lastmod>2026-08-09T18:50:29+08:00</lastmod>
+    <changefreq>weekly</changefreq>
+    <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86/</loc>
     <lastmod>2026-08-08T18:48:12+08:00</lastmod>
@@ -127,27 +162,12 @@
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</loc>
-    <lastmod>2026-08-02T19:19:53+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/categories/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9%E5%88%86%E6%9E%90/</loc>
-    <lastmod>2026-08-02T19:19:53+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
     <loc>https://www.coffeeprism.com/tags/%E5%B9%B3%E4%BB%B7%E5%92%96%E5%95%A1%E6%B6%A8%E4%BB%B7/</loc>
     <lastmod>2026-08-02T19:19:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
   </url><url>
     <loc>https://www.coffeeprism.com/posts/ping-jie-ka-pei-zhang-jie-bei-hou-han-guo-lian-suo/</loc>
-    <lastmod>2026-08-02T19:19:53+08:00</lastmod>
-    <changefreq>weekly</changefreq>
-    <priority>0.5</priority>
-  </url><url>
-    <loc>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</loc>
     <lastmod>2026-08-02T19:19:53+08:00</lastmod>
     <changefreq>weekly</changefreq>
     <priority>0.5</priority>
