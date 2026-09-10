@@ -6,13 +6,85 @@
     <description>专业的咖啡爱好者网站，提供咖啡豆介绍、冲泡方式和咖啡装备评测</description>
     <generator>Hugo</generator>
     <language>zh-cn</language>
-    <lastBuildDate>Wed, 09 Sep 2026 20:49:07 &#43;0000</lastBuildDate>
+    <lastBuildDate>Thu, 10 Sep 2026 20:45:27 &#43;0000</lastBuildDate>
     <atom:link href="https://www.coffeeprism.com/tags/index.xml" rel="self" type="application/rss+xml" />
     <item>
       <title>咖啡豆</title>
       <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86/</link>
-      <pubDate>Fri, 04 Sep 2026 20:37:40 &#43;0800</pubDate>
+      <pubDate>Thu, 10 Sep 2026 20:43:13 &#43;0800</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%B1%86/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>咖啡节</title>
+      <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%8A%82/</link>
+      <pubDate>Thu, 10 Sep 2026 20:43:13 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%8A%82/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>手冲</title>
+      <link>https://www.coffeeprism.com/tags/%E6%89%8B%E5%86%B2/</link>
+      <pubDate>Thu, 10 Sep 2026 20:43:13 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E6%89%8B%E5%86%B2/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>意式</title>
+      <link>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F/</link>
+      <pubDate>Thu, 10 Sep 2026 20:43:13 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>展会介绍</title>
+      <link>https://www.coffeeprism.com/tags/%E5%B1%95%E4%BC%9A%E4%BB%8B%E7%BB%8D/</link>
+      <pubDate>Thu, 10 Sep 2026 20:43:13 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E5%B1%95%E4%BC%9A%E4%BB%8B%E7%BB%8D/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>第三空间</title>
+      <link>https://www.coffeeprism.com/tags/%E7%AC%AC%E4%B8%89%E7%A9%BA%E9%97%B4/</link>
+      <pubDate>Thu, 10 Sep 2026 20:42:12 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E7%AC%AC%E4%B8%89%E7%A9%BA%E9%97%B4/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>咖啡热点</title>
+      <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</link>
+      <pubDate>Thu, 10 Sep 2026 20:42:12 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>咖啡消费趋势</title>
+      <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF/</link>
+      <pubDate>Thu, 10 Sep 2026 20:42:12 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E6%B6%88%E8%B4%B9%E8%B6%8B%E5%8A%BF/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>星巴克门店改造</title>
+      <link>https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E9%97%A8%E5%BA%97%E6%94%B9%E9%80%A0/</link>
+      <pubDate>Thu, 10 Sep 2026 20:42:12 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E6%98%9F%E5%B7%B4%E5%85%8B%E9%97%A8%E5%BA%97%E6%94%B9%E9%80%A0/</guid>
+      <description></description>
+      <content:encoded><![CDATA[]]></content:encoded>
+    </item>
+    <item>
+      <title>行业分析</title>
+      <link>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</link>
+      <pubDate>Thu, 10 Sep 2026 20:42:12 &#43;0800</pubDate>
+      <guid>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -25,26 +97,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>手冲</title>
-      <link>https://www.coffeeprism.com/tags/%E6%89%8B%E5%86%B2/</link>
-      <pubDate>Fri, 04 Sep 2026 20:37:40 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E6%89%8B%E5%86%B2/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
       <title>异国美食的融合</title>
       <link>https://www.coffeeprism.com/tags/%E5%BC%82%E5%9B%BD%E7%BE%8E%E9%A3%9F%E7%9A%84%E8%9E%8D%E5%90%88/</link>
       <pubDate>Fri, 04 Sep 2026 20:37:40 &#43;0800</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E5%BC%82%E5%9B%BD%E7%BE%8E%E9%A3%9F%E7%9A%84%E8%9E%8D%E5%90%88/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>意式</title>
-      <link>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F/</link>
-      <pubDate>Fri, 04 Sep 2026 20:37:40 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E6%84%8F%E5%BC%8F/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -81,26 +137,10 @@
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
     <item>
-      <title>咖啡热点</title>
-      <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</link>
-      <pubDate>Thu, 03 Sep 2026 20:49:10 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E7%83%AD%E7%82%B9/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
       <title>全球咖啡供应</title>
       <link>https://www.coffeeprism.com/tags/%E5%85%A8%E7%90%83%E5%92%96%E5%95%A1%E4%BE%9B%E5%BA%94/</link>
       <pubDate>Thu, 03 Sep 2026 20:49:10 &#43;0800</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E5%85%A8%E7%90%83%E5%92%96%E5%95%A1%E4%BE%9B%E5%BA%94/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>行业分析</title>
-      <link>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</link>
-      <pubDate>Thu, 03 Sep 2026 20:49:10 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E8%A1%8C%E4%B8%9A%E5%88%86%E6%9E%90/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -165,22 +205,6 @@
       <link>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E5%87%BA%E5%8F%A3/</link>
       <pubDate>Tue, 25 Aug 2026 18:47:28 &#43;0800</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E5%B7%B4%E8%A5%BF%E5%92%96%E5%95%A1%E5%87%BA%E5%8F%A3/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>咖啡节</title>
-      <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%8A%82/</link>
-      <pubDate>Mon, 24 Aug 2026 18:54:29 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E8%8A%82/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>展会介绍</title>
-      <link>https://www.coffeeprism.com/tags/%E5%B1%95%E4%BC%9A%E4%BB%8B%E7%BB%8D/</link>
-      <pubDate>Mon, 24 Aug 2026 18:54:29 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E5%B1%95%E4%BC%9A%E4%BB%8B%E7%BB%8D/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
@@ -381,30 +405,6 @@
       <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%B8%8E%E6%97%A9%E9%A4%90/</link>
       <pubDate>Wed, 15 Jul 2026 19:22:33 &#43;0800</pubDate>
       <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%B8%8E%E6%97%A9%E9%A4%90/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>最佳组合</title>
-      <link>https://www.coffeeprism.com/tags/%E6%9C%80%E4%BD%B3%E7%BB%84%E5%90%88/</link>
-      <pubDate>Wed, 15 Jul 2026 19:22:33 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E6%9C%80%E4%BD%B3%E7%BB%84%E5%90%88/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>风味互补</title>
-      <link>https://www.coffeeprism.com/tags/%E9%A3%8E%E5%91%B3%E4%BA%92%E8%A1%A5/</link>
-      <pubDate>Sun, 12 Jul 2026 19:14:56 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E9%A3%8E%E5%91%B3%E4%BA%92%E8%A1%A5/</guid>
-      <description></description>
-      <content:encoded><![CDATA[]]></content:encoded>
-    </item>
-    <item>
-      <title>咖啡与甜点</title>
-      <link>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%B8%8E%E7%94%9C%E7%82%B9/</link>
-      <pubDate>Sun, 12 Jul 2026 19:14:56 &#43;0800</pubDate>
-      <guid>https://www.coffeeprism.com/tags/%E5%92%96%E5%95%A1%E4%B8%8E%E7%94%9C%E7%82%B9/</guid>
       <description></description>
       <content:encoded><![CDATA[]]></content:encoded>
     </item>
