@@ -5,6 +5,7 @@ draft: false
 categories: ["咖啡设备与器具"]
 tags: ["咖啡秤"]
 description: "你需要一台专业咖啡秤，因为精准称量与计时能稳定粉水比、控制萃取率，并把风味差异转化为可复现的冲煮结果。文章详解咖啡秤在手冲咖啡中的精度、计时与风味作用，帮助你掌握从称量到风味的科学艺术。"
+aliases: ["/posts/2025-05-17-055340-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-de-ke-x-e04a1c02/"]
 ---
 
 ## 当咖啡遇见克度——为什么你需要一台专业咖啡秤

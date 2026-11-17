@@ -5,6 +5,7 @@ draft: false
 categories: ["咖啡豆种类"]
 tags: ["稀有咖啡品种及其价值"]
 description: "稀有咖啡品种的价值，来自基因独特性、严苛种植条件与极低产量共同塑造的不可复制风味。聚焦瑰夏等全球稀有咖啡豆种类，解析味觉密码、收藏价值与中国爱好者的品鉴选购要点，了解精品咖啡的终极魅力。"
+aliases: ["/posts/2025-06-29-181924-xun-dou-zhi-lu-quan-qiu-xi-you-ka-pei-pin-chong-de-33810b23/"]
 ---
 
 ---
