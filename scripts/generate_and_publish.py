@@ -35,37 +35,32 @@ LLM_CONNECT_TIMEOUT = 15
 LLM_READ_TIMEOUT = int(os.getenv("LLM_READ_TIMEOUT") or 600)
 
 
+def _model_list(value, default):
+    """模型变量支持逗号分隔多个，按顺序回退（免费模型随时可能被限流/下架）。"""
+    models = [m.strip() for m in (value or "").split(",") if m.strip()]
+    return models or [m.strip() for m in default.split(",") if m.strip()]
+
+
 def _build_providers():
-    """按优先级组装可用的 provider 列表（只收录配置了 key 的）。"""
-    providers = []
+    """按优先级组装可用的 (provider, model) 列表（只收录配置了 key 的）。"""
+    configs = []
     if os.getenv("LLM_API_KEY") and os.getenv("LLM_BASE_URL"):
-        providers.append({
-            "name": "custom",
-            "base_url": os.environ["LLM_BASE_URL"].rstrip("/"),
-            "api_key": os.environ["LLM_API_KEY"],
-            "model": os.getenv("LLM_MODEL") or DEFAULT_OPENROUTER_MODEL,
-            "headers": {},
-        })
+        configs.append(("custom", os.environ["LLM_BASE_URL"].rstrip("/"), os.environ["LLM_API_KEY"],
+                        _model_list(os.getenv("LLM_MODEL"), DEFAULT_OPENROUTER_MODEL), {}))
     if os.getenv("OPENROUTER_API_KEY"):
-        providers.append({
-            "name": "openrouter",
-            "base_url": "https://openrouter.ai/api/v1",
-            "api_key": os.environ["OPENROUTER_API_KEY"],
-            "model": os.getenv("OPENROUTER_MODEL") or DEFAULT_OPENROUTER_MODEL,
-            "headers": {"HTTP-Referer": "https://www.coffeeprism.com", "X-Title": "Coffee Prism"},
-        })
+        configs.append(("openrouter", "https://openrouter.ai/api/v1", os.environ["OPENROUTER_API_KEY"],
+                        _model_list(os.getenv("OPENROUTER_MODEL"), DEFAULT_OPENROUTER_MODEL),
+                        {"HTTP-Referer": "https://www.coffeeprism.com", "X-Title": "Coffee Prism"}))
     if os.getenv("NVIDIA_API_KEY"):
-        providers.append({
-            "name": "nvidia",
-            "base_url": "https://integrate.api.nvidia.com/v1",
-            "api_key": os.environ["NVIDIA_API_KEY"],
-            "model": os.getenv("NVIDIA_MODEL") or DEFAULT_NVIDIA_MODEL,
-            "headers": {},
-        })
-    for p in providers:
-        p["dead"] = False
-        p["conn_failures"] = 0
-        p["send_max_tokens"] = True
+        configs.append(("nvidia", "https://integrate.api.nvidia.com/v1", os.environ["NVIDIA_API_KEY"],
+                        _model_list(os.getenv("NVIDIA_MODEL"), DEFAULT_NVIDIA_MODEL), {}))
+    providers = []
+    for name, base_url, api_key, models, headers in configs:
+        for model in models:
+            providers.append({
+                "name": name, "base_url": base_url, "api_key": api_key, "model": model,
+                "headers": headers, "dead": False, "conn_failures": 0, "send_max_tokens": True,
+            })
     return providers
 
 
@@ -128,9 +123,17 @@ def call_llm(messages, max_retries=3):
                 print(f"  ⚠️  {tag} 不接受 max_tokens={LLM_MAX_TOKENS}，去掉该参数重试: {body}")
                 p["send_max_tokens"] = False
                 continue
-            if resp.status_code in (400, 401, 402, 403, 404):
-                # 鉴权失败 / 余额不足 / 模型不存在 / 请求格式不被接受：重试没有意义
-                print(f"  ❌ {tag} HTTP {resp.status_code}，本次运行跳过该 provider: {body}")
+            if resp.status_code in (401, 403):
+                # key 无效：同一个 key 下的所有模型都不用再试
+                print(f"  ❌ {tag} HTTP {resp.status_code}，key 无效，本次运行跳过 {p['name']} 的全部模型: {body}")
+                for q in PROVIDERS:
+                    if q["name"] == p["name"]:
+                        q["dead"] = True
+                break
+            if resp.status_code in (400, 402, 404):
+                # 余额不足（付费模型）/ 模型不存在或已下架 / 请求格式不被接受：
+                # 只跳过这个模型，同 key 的其他模型（如免费模型）继续试
+                print(f"  ❌ {tag} HTTP {resp.status_code}，本次运行跳过该模型: {body}")
                 p["dead"] = True
                 break
             # 429 / 5xx / 其它：退避重试
