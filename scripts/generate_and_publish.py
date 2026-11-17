@@ -2,6 +2,7 @@
 # -*- coding: utf-8 -*-
 
 import os
+import sys
 import datetime
 import re
 import json
@@ -16,30 +17,220 @@ import slugify
 import requests
 
 # --- Configuration ---
-# linq.ai proxy API (no auth required)
-LINQAI_API_URL = "https://x.linq.ai/api/ai"
-MODEL_NAME = "gpt-5.4"
-
 # 使用环境变量获取Amazon Associate Tag
 AMAZON_ASSOCIATE_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "coffeeprism-20")
 
+# --- LLM providers ---
+# 历史教训：2026-04 起改用的免费无鉴权代理 x.linq.ai 在 2026-09 下旬开始
+# 返回 500、2026-10 底彻底不可达，而脚本仍 exit 0 —— CI 连续近两个月
+# "绿灯" 但 0 篇产出。现在改为：
+#   1. 只用有 API key 的 OpenAI 兼容接口，按顺序回退（自定义 → OpenRouter → NVIDIA）
+#   2. 鉴权/余额/模型不存在等不可恢复错误 → 本次运行直接跳过该 provider
+#   3. 连接失败快速熔断（不再 3 次 × 120s 地干等）
+#   4. 一篇都没生成 → 进程非 0 退出，让 Actions 标红并发邮件
+DEFAULT_OPENROUTER_MODEL = "openai/gpt-5.4"   # 与 2026-04 起的存量文章同一模型，文风连续
+DEFAULT_NVIDIA_MODEL = "z-ai/glm-5.3-flash"   # NVIDIA 免费额度兜底
+LLM_MAX_TOKENS = int(os.getenv("LLM_MAX_TOKENS") or 16000)
+LLM_CONNECT_TIMEOUT = 15
+LLM_READ_TIMEOUT = int(os.getenv("LLM_READ_TIMEOUT") or 600)
 
-def call_linqai(messages, model=MODEL_NAME, max_retries=3):
-    """调用 linq.ai API，支持重试"""
-    for attempt in range(max_retries):
-        try:
-            resp = requests.post(LINQAI_API_URL, json={
-                "messages": messages,
-                "model": model
-            }, timeout=120)
-            resp.raise_for_status()
-            data = resp.json()
-            return data.get("response", "")
-        except Exception as e:
-            print(f"  API调用失败 (尝试 {attempt+1}/{max_retries}): {e}")
-            if attempt < max_retries - 1:
-                time.sleep(5 * (attempt + 1))
+
+def _build_providers():
+    """按优先级组装可用的 provider 列表（只收录配置了 key 的）。"""
+    providers = []
+    if os.getenv("LLM_API_KEY") and os.getenv("LLM_BASE_URL"):
+        providers.append({
+            "name": "custom",
+            "base_url": os.environ["LLM_BASE_URL"].rstrip("/"),
+            "api_key": os.environ["LLM_API_KEY"],
+            "model": os.getenv("LLM_MODEL") or DEFAULT_OPENROUTER_MODEL,
+            "headers": {},
+        })
+    if os.getenv("OPENROUTER_API_KEY"):
+        providers.append({
+            "name": "openrouter",
+            "base_url": "https://openrouter.ai/api/v1",
+            "api_key": os.environ["OPENROUTER_API_KEY"],
+            "model": os.getenv("OPENROUTER_MODEL") or DEFAULT_OPENROUTER_MODEL,
+            "headers": {"HTTP-Referer": "https://www.coffeeprism.com", "X-Title": "Coffee Prism"},
+        })
+    if os.getenv("NVIDIA_API_KEY"):
+        providers.append({
+            "name": "nvidia",
+            "base_url": "https://integrate.api.nvidia.com/v1",
+            "api_key": os.environ["NVIDIA_API_KEY"],
+            "model": os.getenv("NVIDIA_MODEL") or DEFAULT_NVIDIA_MODEL,
+            "headers": {},
+        })
+    for p in providers:
+        p["dead"] = False
+        p["conn_failures"] = 0
+        p["send_max_tokens"] = True
+    return providers
+
+
+PROVIDERS = _build_providers()
+# 给日志/提示用的"当前模型"名（第一个可用 provider 的模型）
+MODEL_NAME = PROVIDERS[0]["model"] if PROVIDERS else "(未配置)"
+
+
+def describe_providers():
+    if not PROVIDERS:
+        return "❌ 未配置任何 LLM key（需要 OPENROUTER_API_KEY / NVIDIA_API_KEY / LLM_API_KEY+LLM_BASE_URL 之一）"
+    return " → ".join(f"{p['name']}:{p['model']}" for p in PROVIDERS)
+
+
+def _short(text, n=300):
+    text = re.sub(r'\s+', ' ', text or '')
+    return text[:n]
+
+
+def call_llm(messages, max_retries=3):
+    """调用 OpenAI 兼容的 chat/completions 接口，按 provider 顺序回退。
+    成功返回文本，全部失败返回 None。"""
+    for p in PROVIDERS:
+        if p["dead"]:
+            continue
+        for attempt in range(1, max_retries + 1):
+            payload = {"model": p["model"], "messages": messages, "temperature": 0.7}
+            if p["send_max_tokens"]:
+                payload["max_tokens"] = LLM_MAX_TOKENS
+            headers = {"Authorization": f"Bearer {p['api_key']}", "Content-Type": "application/json", **p["headers"]}
+            tag = f"[{p['name']}:{p['model']}] (尝试 {attempt}/{max_retries})"
+            try:
+                resp = requests.post(f"{p['base_url']}/chat/completions", headers=headers, json=payload,
+                                     timeout=(LLM_CONNECT_TIMEOUT, LLM_READ_TIMEOUT))
+            except (requests.ConnectionError, requests.Timeout) as e:
+                p["conn_failures"] += 1
+                print(f"  ⚠️  {tag} 网络错误: {_short(str(e), 160)}")
+                if p["conn_failures"] >= 3:
+                    print(f"  🔌 {p['name']} 连续 {p['conn_failures']} 次网络失败，本次运行熔断")
+                    p["dead"] = True
+                    break
+                time.sleep(5 * attempt)
+                continue
+
+            if resp.status_code == 200:
+                try:
+                    data = resp.json()
+                    content = ((data.get("choices") or [{}])[0].get("message") or {}).get("content") or ""
+                except ValueError:
+                    content = ""
+                p["conn_failures"] = 0
+                if content.strip():
+                    return content
+                print(f"  ⚠️  {tag} 返回空内容: {_short(resp.text, 200)}")
+                time.sleep(3)
+                continue
+
+            body = _short(resp.text)
+            if resp.status_code == 400 and p["send_max_tokens"] and "max" in body.lower() and "token" in body.lower():
+                print(f"  ⚠️  {tag} 不接受 max_tokens={LLM_MAX_TOKENS}，去掉该参数重试: {body}")
+                p["send_max_tokens"] = False
+                continue
+            if resp.status_code in (400, 401, 402, 403, 404):
+                # 鉴权失败 / 余额不足 / 模型不存在 / 请求格式不被接受：重试没有意义
+                print(f"  ❌ {tag} HTTP {resp.status_code}，本次运行跳过该 provider: {body}")
+                p["dead"] = True
+                break
+            # 429 / 5xx / 其它：退避重试
+            print(f"  ⚠️  {tag} HTTP {resp.status_code}: {body}")
+            time.sleep(10 * attempt)
     return None
+
+
+# 兼容旧名字（scripts/ 里其他脚本或旧分支可能还在引用）
+call_linqai = call_llm
+
+
+# --- 标题相似度（用于选题去重 / 近似重复标题拦截） ---
+# 以「规范化标题的汉字二元组」做包含度：|A∩B| / min(|A|,|B|)。
+# 在现有 756 个标题上校准过：>=0.6 基本都是同一选题换说法
+# （如「咖啡节与展会介绍：从入门到精通的实用宝典」vs「…完全攻略」）。
+_GENERIC_TITLE_WORDS = [
+    "从入门到精通", "你需要知道的", "完全指南", "完整指南", "实用指南", "实用宝典", "终极指南",
+    "深度解析", "深度指南", "完全攻略", "全攻略", "实战技巧", "实战指南", "攻略", "指南", "技巧",
+    "详解", "解析", "入门", "进阶", "全面", "揭秘", "探索", "解码", "秘密", "密码", "最佳", "完美",
+    "如何", "为什么", "一文读懂", "咖啡",
+]
+DUP_TITLE_THRESHOLD = 0.6      # 成稿标题与已有标题的包含度上限
+DUP_CANDIDATE_THRESHOLD = 0.5  # 选题阶段更严格
+
+
+def _norm_title(t):
+    t = re.sub(r'[^\w]', '', t or '')
+    for w in _GENERIC_TITLE_WORDS:
+        t = t.replace(w, '')
+    return t
+
+
+def _bigrams(s):
+    if len(s) < 2:
+        return {s} if s else set()
+    return {s[i:i + 2] for i in range(len(s) - 1)}
+
+
+def title_similarity(a, b):
+    A, B = _bigrams(_norm_title(a)), _bigrams(_norm_title(b))
+    if not A or not B:
+        return 0.0
+    return len(A & B) / min(len(A), len(B))
+
+
+def most_similar_title(title, existing_titles):
+    """返回 (相似度, 最相近的已有标题)。"""
+    best = (0.0, "")
+    for t in existing_titles:
+        s = title_similarity(title, t)
+        if s > best[0]:
+            best = (s, t)
+    return best
+
+
+def load_existing_posts():
+    """读取全部已发布文章的 (title, category, date)。用 front matter，
+    不用文件 mtime —— CI 每次 checkout 后所有文件 mtime 都是"现在"。"""
+    posts = []
+    for p in Path("content/posts").glob("*.md"):
+        try:
+            with open(p, encoding="utf-8") as f:
+                head = f.read(1500)
+        except Exception:
+            continue
+        tm = re.search(r'^title:\s*"?(.*?)"?\s*$', head, re.M)
+        cm = re.search(r'^categories:\s*\[\s*"([^"]+)"', head, re.M)
+        dm = re.search(r'^date:\s*(\d{4}-\d{2}-\d{2})', head, re.M)
+        if tm and tm.group(1):
+            posts.append({
+                "title": tm.group(1).replace('\\"', '"'),
+                "category": cm.group(1) if cm else "",
+                "date": dm.group(1) if dm else "",
+            })
+    return posts
+
+
+def unique_slug(slug, fallback_suffix):
+    """slug 撞车时追加后缀。历史上 68 篇文章共用 18 个 slug（同一选题的标题
+    前缀相同 → slugify 截断到 50 字符后完全一样），Hugo 输出到同一路径，
+    50 篇被互相覆盖、首页卡片标题与打开的文章对不上。"""
+    taken = set()
+    for p in Path("content/posts").glob("*.md"):
+        try:
+            with open(p, encoding="utf-8") as f:
+                head = f.read(2500)
+        except Exception:
+            continue
+        m = re.search(r'^slug:\s*"?([^"\n]+?)"?\s*$', head, re.M)
+        taken.add(m.group(1) if m else p.stem)
+    if slug not in taken:
+        return slug
+    return f"{slug}-{fallback_suffix}"
+
+
+def yaml_str(s):
+    """front matter 字符串安全转义（JSON 字符串是合法 YAML）。
+    之前用 f-string 直接拼 "..."，标题/摘要里一旦出现英文双引号就会让 Hugo 构建失败。"""
+    return json.dumps(s or "", ensure_ascii=False)
 
 # 咖啡主题列表
 COFFEE_TOPICS = [
@@ -178,47 +369,20 @@ COFFEE_TOPICS = [
     }
 ]
 
-def get_recent_subtopics(days=60):
-    """扫最近 N 天发布的文章，提取它们覆盖的 (main_topic, specific_topic)
-    pair 集合。用于避免再次生成同主题文章。"""
-    import datetime as _dt
-    cutoff = _dt.date.today() - _dt.timedelta(days=days)
-    seen = set()
-    posts_dir = Path("content/posts")
-    if not posts_dir.exists():
-        return seen
-    for p in posts_dir.glob("*.md"):
-        # Skip files older than cutoff by mtime (cheap filter)
-        try:
-            mtime = _dt.date.fromtimestamp(p.stat().st_mtime)
-            if mtime < cutoff:
-                continue
-        except Exception:
-            continue
-        try:
-            with open(p, encoding="utf-8") as f:
-                head = f.read(1500)
-        except Exception:
-            continue
-        # Parse category + title
-        cat_m = re.search(r'^categories:\s*\[(.*?)\]', head, re.M)
-        title_m = re.search(r'^title:\s*"([^"]+)"', head, re.M)
-        if not cat_m or not title_m:
-            continue
-        cat = (re.findall(r'"([^"]+)"', cat_m.group(1)) or [""])[0]
-        title = title_m.group(1)
-        # Match against COFFEE_TOPICS to find which subtopic this article covers
-        for topic in COFFEE_TOPICS:
-            if topic["title"] != cat:
-                continue
-            for sub in topic["subtopics"]:
-                # Subtopic is "覆盖" by an article if any 5-char window of subtopic
-                # appears in title. Crude but works for our titles.
-                key_phrase = sub.split("：")[0].split("与")[0].split("和")[0]
-                if len(key_phrase) >= 4 and key_phrase in title:
-                    seen.add((cat, sub))
-                    break
-    return seen
+def get_subtopic_coverage(existing_posts):
+    """统计每个 (类目, 子主题) 已有多少篇近似文章（全量、按标题相似度）。
+
+    旧实现有两个 bug，导致选题池实际上只剩 9 个子主题、反复产出近似重复文章：
+      1. 用文件 mtime 判断"最近 60 天"，CI checkout 后所有文件都算最近；
+      2. 用 split("与") 取关键短语，「咖啡与X」类子主题只剩「咖啡」，永远判不中。
+    """
+    coverage = {}
+    for topic in COFFEE_TOPICS:
+        cat_titles = [p["title"] for p in existing_posts if p["category"] == topic["title"]]
+        for sub in topic["subtopics"]:
+            coverage[(topic["title"], sub)] = sum(
+                1 for t in cat_titles if title_similarity(sub, t) >= DUP_CANDIDATE_THRESHOLD)
+    return coverage
 
 
 def get_category_counts(days=14):
@@ -248,54 +412,89 @@ def get_category_counts(days=14):
     return counts
 
 
-def select_random_coffee_topics(count=2):
-    """选 count 个 (category, subtopic)，自动：
-    1. 跳过最近 60 天已覆盖的 (category, subtopic) 对
-    2. 优先选最近 14 天文章数最少的类目（保证主题平衡）
+def select_random_coffee_topics(count, existing_posts):
+    """选 count 个「种子」(category, subtopic)：
+    1. 不同类目优先（同一次运行不出两篇同类目）
+    2. 优先最近 14 天发文最少的类目（保证主题平衡）
+    3. 类目内优先已有近似文章最少的子主题
+
+    注意：83 个子主题现在都已有文章，种子只决定方向，真正的选题由
+    plan_fresh_topic() 在种子下找一个站内还没写过的长尾角度。
     """
-    recent = get_recent_subtopics(days=60)
+    coverage = get_subtopic_coverage(existing_posts)
     cat_counts = get_category_counts(days=14)
-
-    if recent:
-        print(f"📋 最近 60 天已覆盖 {len(recent)} 个 (类目, 子主题) 组合，将自动跳过")
     print(f"📊 最近 14 天类目分布: {dict(sorted(cat_counts.items(), key=lambda x: -x[1]))}")
+    uncovered = sum(1 for v in coverage.values() if v == 0)
+    print(f"📋 子主题覆盖：{len(coverage)} 个中 {uncovered} 个尚无近似文章")
 
-    # 给每个类目按"最近发文少"排优先级
-    min_count = min(cat_counts.values()) if cat_counts else 0
-    underrepresented = [t for t, n in cat_counts.items() if n <= min_count + 1]
+    categories = [t["title"] for t in COFFEE_TOPICS]
+    random.shuffle(categories)
+    categories.sort(key=lambda c: cat_counts.get(c, 0))  # 冷门类目在前（同数量时随机）
 
-    # 构建可用 pool，权重倾向冷门类目
-    weighted_pool = []
-    for topic in COFFEE_TOPICS:
-        is_under = topic["title"] in underrepresented
-        weight = 3 if is_under else 1
-        for sub in topic["subtopics"]:
-            if (topic["title"], sub) not in recent:
-                for _ in range(weight):  # 冷门类目放 3 份进池
-                    weighted_pool.append({
-                        "main_topic": topic["title"],
-                        "specific_topic": sub,
-                    })
-
-    if not weighted_pool:
-        print("⚠️  所有主题都被覆盖过，回退到完全随机选择")
-        weighted_pool = [
-            {"main_topic": t["title"], "specific_topic": s}
-            for t in COFFEE_TOPICS for s in t["subtopics"]
-        ]
-
-    # 随机抽 count 个不同的 (category, subtopic)
     selected = []
-    seen_pairs = set()
-    attempts = 0
-    while len(selected) < count and attempts < count * 50:
-        attempts += 1
-        cand = random.choice(weighted_pool)
-        key = (cand["main_topic"], cand["specific_topic"])
-        if key not in seen_pairs:
-            seen_pairs.add(key)
-            selected.append(cand)
+    for cat in categories[:count]:
+        subs = next(t["subtopics"] for t in COFFEE_TOPICS if t["title"] == cat)
+        min_cov = min(coverage[(cat, s)] for s in subs)
+        least = [s for s in subs if coverage[(cat, s)] <= min_cov + 1]
+        sub = random.choice(least)
+        selected.append({"main_topic": cat, "specific_topic": sub, "seed": sub,
+                         "seed_coverage": coverage[(cat, sub)]})
     return selected
+
+
+def plan_fresh_topic(seed_topic, existing_posts, n_candidates=6):
+    """在种子子主题下，让 LLM 提出站内还没覆盖的具体长尾选题，
+    过滤掉与已有标题近似的，返回第一个可用选题；失败返回 None。"""
+    cat = seed_topic["main_topic"]
+    seed = seed_topic["specific_topic"]
+    all_titles = [p["title"] for p in existing_posts]
+    cat_titles = [p["title"] for p in existing_posts if p["category"] == cat]
+    # 种子本身还没写过就直接用
+    if seed_topic.get("seed_coverage", 1) == 0:
+        return dict(seed_topic)
+
+    listing = "\n".join(f"- {t}" for t in cat_titles[-120:])
+    prompt = f"""你是 Coffee Prism（中文咖啡知识站）的选题编辑。
+类目：{cat}
+种子方向：{seed}
+
+本站这个类目下已经发布的文章标题如下（新选题不能与它们重复，换个说法也不行）：
+{listing}
+
+请提出 {n_candidates} 个新的中文长尾选题，要求：
+1. 每个选题是真实读者会在搜索引擎或 AI 助手里问的具体问题/需求（例如「X 和 Y 哪个好」「X 怎么选」「新手做 X 的步骤」「X 失败的原因」），优先：购买决策、具体操作方法、问题排查；
+2. 与上面已有标题的核心关键词或搜索意图明显不同；
+3. 与种子方向相关，但可以更具体、更细分；
+4. 每个选题 6-20 个汉字，会直接作为文章的主关键词使用，不要书名号和标点。
+
+只输出一个 JSON 字符串数组，不要任何其它文字，例如：["选题一", "选题二"]"""
+
+    raw = call_llm([
+        {"role": "system", "content": "你是严谨的中文内容选题编辑。只按要求的格式输出。"},
+        {"role": "user", "content": prompt},
+    ])
+    if not raw:
+        print("  ❌ 选题规划失败（LLM 无响应）")
+        return None
+    m = re.search(r'\[.*\]', _strip_thinking(raw), re.S)
+    try:
+        candidates = json.loads(m.group(0)) if m else []
+    except json.JSONDecodeError:
+        candidates = []
+    candidates = [c.strip().strip('《》"“”') for c in candidates if isinstance(c, str) and c.strip()]
+    if not candidates:
+        print(f"  ❌ 选题规划结果无法解析: {_short(raw, 200)}")
+        return None
+
+    for cand in candidates:
+        score, near = most_similar_title(cand, all_titles)
+        if score >= DUP_CANDIDATE_THRESHOLD:
+            print(f"  ↩️  跳过选题「{cand}」：与已有「{near}」相似度 {score:.2f}")
+            continue
+        print(f"  ✅ 新选题「{cand}」（最相近已有标题相似度 {score:.2f}）")
+        return {"main_topic": cat, "specific_topic": cand, "seed": seed}
+    print("  ❌ 所有候选选题都与已有文章近似，本篇跳过")
+    return None
 
 
 # Topic → pillar URL mapping. New articles get a pillar link injected at top.
@@ -365,7 +564,9 @@ def get_system_prompt():
 ## 写作原则
 
 ### E-E-A-T 信号（Google核心排名因素）
-- **Experience（经验）**：融入第一人称实操经验，如"我在使用V60冲泡时发现..."
+- **Experience（经验）**：给出可复现的操作参数、常见失误与判断方法（如"萃取偏酸时先把研磨调细一格"）。
+  禁止虚构个人经历或测试（不要写"我自己测试了……""我在店里发现……"）——编造的亲身经历
+  一旦被识别，会同时伤害读者信任与搜索引擎评价
 - **Expertise（专业）**：引用具体数据、研究和行业标准（SCA标准、CQI评分等）
 - **Authoritativeness（权威）**：引用可验证的来源（学术论文、行业报告、权威机构）
 - **Trustworthiness（可信）**：客观公正，优缺点并述，标注信息来源
@@ -555,7 +756,7 @@ def generate_article(topic_info):
         {"role": "user", "content": get_article_prompt(specific_topic, main_topic)},
     ]
 
-    raw = call_linqai(messages)
+    raw = call_llm(messages)
     if not raw:
         print("❌ API 未返回任何内容")
         return None
@@ -575,7 +776,7 @@ def generate_article(topic_info):
                 f"中国市场案例、深度故障排查等。仍然用 <TITLE></TITLE> + <DESCRIPTION></DESCRIPTION> + <BODY></BODY> 格式输出。"
             )},
         ]
-        raw2 = call_linqai(retry_messages)
+        raw2 = call_llm(retry_messages)
         if raw2:
             t2, d2, b2 = parse_structured_output(raw2)
             cc2 = _body_chars(b2)
@@ -905,6 +1106,7 @@ def save_article(article_content, topic_info):
         if not slug: # Handle cases where title results in empty slug
              slug = "article"
         filename = f"{today}-{timestamp}-{slug}-{unique_id}.md"
+        slug = unique_slug(slug, unique_id[:6])
         filepath = content_dir / filename
         
         # Determine category and tags using improved extraction
@@ -921,20 +1123,22 @@ def save_article(article_content, topic_info):
 
         # Create Front Matter with SEO optimization
         faq_json = json.dumps(faq_items, ensure_ascii=False) if faq_items else "[]"
+        seed_line = f"topic_seed: {yaml_str(topic_info['seed'])}\n" if topic_info.get("seed") else ""
         front_matter = f"""---
-title: "{title}"
+title: {yaml_str(title)}
 date: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
 lastmod: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
 draft: false
-categories: ["{category}"]
+categories: [{yaml_str(category)}]
 tags: {json.dumps(tags, ensure_ascii=False)}
-description: "{seo_description}"
+description: {yaml_str(seo_description)}
 keywords: {json.dumps(tags[:5], ensure_ascii=False)}
 author: "Coffee Prism"
 faq: {faq_json}
-slug: "{slug}"
+slug: {yaml_str(slug)}
 canonicalURL: "https://www.coffeeprism.com/posts/{slug}/"
----
+topic_keyword: {yaml_str(topic_info['specific_topic'])}
+{seed_line}---
 
 """
         
@@ -1240,8 +1444,8 @@ SKIP
 如果找到值得分析的新闻，请按以下JSON格式回复（不要添加任何其他文字）：
 {{"news_index": 编号, "headline": "新闻标题", "angle": "建议的分析角度（一句话）", "why_trending": "为什么这是热点（一句话）", "target_keywords": ["关键词1", "关键词2", "关键词3"]}}"""
 
-    print("  正在用 GPT-5.4 评估新闻热度...")
-    result = call_linqai([
+    print(f"  正在用 {MODEL_NAME} 评估新闻热度...")
+    result = call_llm([
         {"role": "system", "content": "你是咖啡行业分析专家。只按要求的格式回复，不要多余解释。"},
         {"role": "user", "content": prompt}
     ])
@@ -1369,7 +1573,7 @@ def generate_trending_article(news_item):
         {"role": "user", "content": get_trending_article_prompt(news_item)}
     ]
 
-    article_content = call_linqai(messages)
+    article_content = call_llm(messages)
     if not article_content:
         print("  热点文章生成失败")
         return None
@@ -1398,6 +1602,12 @@ def save_trending_article(article_content, news_item):
     if title == "默认标题":
         title = news_item["title"][:60]
 
+    # 近似重复拦截：同一条行业新闻（如"咖啡价格上涨"）常连续多天出现
+    score, near = most_similar_title(title, [p["title"] for p in load_existing_posts()])
+    if score >= DUP_TITLE_THRESHOLD:
+        print(f"  ❌ 热点文章标题「{title}」与已有「{near}」近似（{score:.2f}），跳过")
+        return False
+
     today = datetime.date.today().strftime("%Y-%m-%d")
     timestamp = datetime.datetime.now().strftime("%H%M%S")
     unique_id = str(uuid.uuid4())[:8]
@@ -1405,6 +1615,7 @@ def save_trending_article(article_content, news_item):
     if not slug:
         slug = "trending-analysis"
     filename = f"{today}-{timestamp}-trending-{slug}-{unique_id}.md"
+    slug = unique_slug(slug, unique_id[:6])
 
     content_dir = Path("content/posts")
     content_dir.mkdir(parents=True, exist_ok=True)
@@ -1421,20 +1632,20 @@ def save_trending_article(article_content, news_item):
     faq_json = json.dumps(faq_items, ensure_ascii=False) if faq_items else "[]"
 
     front_matter = f"""---
-title: "{title}"
+title: {yaml_str(title)}
 date: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
 lastmod: {today}T{datetime.datetime.now().strftime('%H:%M:%S')}+08:00
 draft: false
 categories: ["咖啡热点分析"]
 tags: {json.dumps(tags, ensure_ascii=False)}
-description: "{seo_description}"
+description: {yaml_str(seo_description)}
 keywords: {json.dumps(tags[:5], ensure_ascii=False)}
 author: "Coffee Prism"
 faq: {faq_json}
-slug: "{slug}"
+slug: {yaml_str(slug)}
 canonicalURL: "https://www.coffeeprism.com/posts/{slug}/"
 trending: true
-news_source: "{news_item.get('link', '')}"
+news_source: {yaml_str(news_item.get('link', ''))}
 ---
 
 """
@@ -1486,22 +1697,15 @@ def process_and_save_article(article_content, topic, label=""):
         print(f"❌ {label}文章过短（{char_count} 字 < {MIN_CHARS}），跳过本篇不写入仓库")
         return False
 
-    # Gate 3: 重名标题检测
+    # Gate 3: 重名 / 近似重名标题检测（站内已有 500+ 篇存在近似重复，别再加）
     try:
-        existing_titles = set()
-        for p in Path("content/posts").glob("*.md"):
-            try:
-                with open(p, encoding="utf-8") as f:
-                    for line in f:
-                        if line.startswith("title:"):
-                            t = line.split("title:", 1)[1].strip().strip('"').strip("'")
-                            if t:
-                                existing_titles.add(t)
-                            break
-            except Exception:
-                continue
+        existing_titles = [p["title"] for p in load_existing_posts()]
         if title in existing_titles:
             print(f"❌ {label}标题「{title}」已存在，跳过避免关键词内卷")
+            return False
+        score, near = most_similar_title(title, existing_titles)
+        if score >= DUP_TITLE_THRESHOLD:
+            print(f"❌ {label}标题「{title}」与已有「{near}」近似（{score:.2f}），跳过避免关键词内卷")
             return False
     except Exception as e:
         print(f"⚠️  重名检查跳过（非致命）：{e}")
@@ -1544,7 +1748,7 @@ def inject_related_for_latest(title):
         try:
             with open(p, encoding="utf-8") as f:
                 head = f.read(800)
-            if f'title: "{title}"' in head:
+            if f'title: {yaml_str(title)}' in head or f'title: "{title}"' in head:
                 result = subprocess.run(
                     ["python3", "scripts/inject_internal_links.py",
                      "--apply", "--files", str(p)],
@@ -1578,12 +1782,15 @@ def _count_recent_trending(days=7):
 
 
 TRENDING_QUOTA_DAYS = 7
-TRENDING_QUOTA = 2  # 7 天内最多 2 篇热点分析
-REGULAR_ARTICLES_PER_RUN = 3
+TRENDING_QUOTA = int(os.getenv("TRENDING_QUOTA") or 2)  # 7 天内最多 N 篇热点分析
+REGULAR_ARTICLES_PER_RUN = int(os.getenv("REGULAR_ARTICLES_PER_RUN") or 3)
 
 
 def main():
     print("开始自动文章生成流程...")
+    print(f"🤖 LLM providers: {describe_providers()}")
+    if not PROVIDERS:
+        return 2
 
     random.seed(time.time())
     articles_saved = 0
@@ -1628,14 +1835,22 @@ def main():
     print(f"=== 第二阶段：常规主题文章生成（目标 {REGULAR_ARTICLES_PER_RUN} 篇）===")
     print("=" * 60)
 
-    topics = select_random_coffee_topics(REGULAR_ARTICLES_PER_RUN)
+    existing_posts = load_existing_posts()
+    seeds = select_random_coffee_topics(REGULAR_ARTICLES_PER_RUN, existing_posts)
 
-    for i, topic in enumerate(topics, 1):
+    for i, seed in enumerate(seeds, 1):
         print(f"\n{'='*60}")
         print(f"--- 生成第 {i} 篇常规文章 ---")
-        print(f"主题: {topic['main_topic']} - {topic['specific_topic']}")
+        print(f"种子: {seed['main_topic']} - {seed['specific_topic']}（已有近似文章 {seed['seed_coverage']} 篇）")
         print(f"{'='*60}")
 
+        if all(p["dead"] for p in PROVIDERS):
+            print("❌ 所有 LLM provider 均不可用，停止生成")
+            break
+
+        topic = plan_fresh_topic(seed, existing_posts)
+        if not topic:
+            continue
         article_content = generate_article(topic)
         if not article_content:
             print(f"❌ 无法生成关于「{topic['main_topic']}：{topic['specific_topic']}」的文章，跳过")
@@ -1644,10 +1859,19 @@ def main():
         print(f"\n✅ 文章生成成功！开始后处理...")
         if process_and_save_article(article_content, topic, label=f"第{i}篇"):
             articles_saved += 1
+            # 让同一次运行里的后续选题也能看到这篇（防止同批次撞题）
+            existing_posts = load_existing_posts()
 
     print(f"\n{'='*60}")
     print(f"自动文章生成完成！共保存 {articles_saved} 篇文章。")
     print(f"{'='*60}")
 
+    if articles_saved == 0:
+        # 非 0 退出码 → Actions 标红并邮件通知，不再"绿灯但 0 产出"
+        print("::error title=未生成任何文章::请检查上方日志：LLM provider 不可用（key 失效 / 余额不足 / 服务不可达），或选题全部与已有文章重复、未通过质量门槛")
+        return 1
+    return 0
+
+
 if __name__ == "__main__":
-    main() 
+    sys.exit(main())
