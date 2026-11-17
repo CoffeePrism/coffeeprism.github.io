@@ -457,7 +457,7 @@ def plan_fresh_topic(seed_topic, existing_posts, n_candidates=6):
         return dict(seed_topic)
 
     listing = "\n".join(f"- {t}" for t in cat_titles[-120:])
-    prompt = f"""你是 Coffee Prism（中文咖啡知识站）的选题编辑。
+    prompt = f"""你是 Coffee Prism（中文咖啡知识站）的选题编辑。今天是 {datetime.date.today().isoformat()}。
 类目：{cat}
 种子方向：{seed}
 
@@ -555,7 +555,9 @@ def inject_pillar_link(article_content, category):
 
 def get_system_prompt():
     """SEO/AEO/GEO 优化的系统提示词"""
-    return """你是 Coffee Prism 的首席内容策略师，同时精通咖啡专业知识、搜索引擎优化（SEO）、答案引擎优化（AEO）和生成式引擎优化（GEO）。
+    # 告诉模型今天的日期：免费模型的训练截止较早，会在标题里写「2025最新」之类过期年份
+    today = datetime.date.today()
+    return f"今天是 {today.isoformat()}（{today.year} 年）。涉及年份时以此为准，不要写过期年份。\n\n" + """你是 Coffee Prism 的首席内容策略师，同时精通咖啡专业知识、搜索引擎优化（SEO）、答案引擎优化（AEO）和生成式引擎优化（GEO）。
 
 你的核心使命：创作能被 Google、百度、ChatGPT、Perplexity、Google AI Overview 等引擎优先引用的高质量中文咖啡内容。
 
@@ -601,6 +603,7 @@ def get_article_prompt(specific_topic, main_topic):
 - 15-35个中文字符
 - 使用 "指南"、"技巧"、"深度解析"、"完全攻略" 等高点击率词
 - 不要使用书名号《》
+- 一般不要在标题里写年份；确有必要时只能写 {datetime.date.today().year} 年
 
 ### 正文结构
 
