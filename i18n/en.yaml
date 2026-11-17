@@ -33,3 +33,5 @@
   translation: "We respect your privacy and never share your email. One-click unsubscribe."
 - id: adLabel
   translation: "Sponsored"
+- id: affiliateDisclosure
+  translation: "As an Amazon Associate, Coffee Prism earns from qualifying purchases. This never changes the price you pay."
