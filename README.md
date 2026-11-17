@@ -21,7 +21,7 @@ Coffee Prism 主要包含以下内容板块：
 
 - **静态网站生成器**: [Hugo](https://gohugo.io/)
 - **主题**: 基于PaperMod的定制主题
-- **自动化内容生成**: OpenAI API + NewsAPI
+- **自动化内容生成**: OpenAI 兼容 LLM 接口（OpenRouter 等）+ Google News RSS
 - **工作流自动化**: 自定义工作流脚本
 
 ## 本地开发
@@ -78,23 +78,33 @@ hugo new content brewing-methods/method-name.md
 
 ## 自动内容生成
 
-Coffee Prism 利用 OpenAI API 和 NewsAPI 自动生成咖啡相关文章:
+`.github/workflows/auto_publish.yml` 每天 18:00 UTC 运行 `scripts/generate_and_publish.py`：
 
-1. 脚本 `scripts/generate_and_publish.py` 从 NewsAPI 获取最新咖啡新闻
-2. 使用 OpenAI API 基于这些新闻生成原创文章
-3. 自动添加亚马逊推广链接 (跟踪 ID: coffeeprism-20)
-4. 生成的文章自动发布到网站
+1. 从 Google News RSS 抓咖啡新闻，LLM 判断是否值得写热点分析（7 天最多 `TRENDING_QUOTA` 篇，默认 2）
+2. 选 `REGULAR_ARTICLES_PER_RUN`（默认 3）个类目「种子」，LLM 在种子下提出站内还没写过的长尾选题，
+   与全部已有标题做相似度去重后再写文章（近似重复标题、slug 撞车都会被拦截）
+3. 质量门槛（XML 结构化输出 / 字数 / 重名）→ Amazon 联盟链接 → pillar 内链 → 保存到 `content/posts/`
+4. Hugo 构建 → 只把 `content/` 提交回 main → 部署 GitHub Pages → IndexNow 推送
+5. **一篇都没生成时，运行会被标红并邮件通知**（网站本身照常构建部署）
 
-定时任务自动运行内容生成脚本。
+### LLM 配置（仓库 Settings → Secrets and variables → Actions）
 
-要手动运行内容生成:
+按顺序回退，未配置的自动跳过：
+
+| 顺序 | Secret | 可选 Variable（模型） | 默认模型 |
+|---|---|---|---|
+| 1 | `LLM_API_KEY` + Variable `LLM_BASE_URL`（任意 OpenAI 兼容接口） | `LLM_MODEL` | `openai/gpt-5.4` |
+| 2 | `OPENROUTER_API_KEY` | `OPENROUTER_MODEL` | `openai/gpt-5.4` |
+| 3 | `NVIDIA_API_KEY` | `NVIDIA_MODEL` | `z-ai/glm-5.3-flash` |
+
+其他 Variables：`REGULAR_ARTICLES_PER_RUN`、`TRENDING_QUOTA`。手动触发时可在 Actions 页面选择篇数，
+或取消「生成新文章」只做构建部署（改了模板/配置时用）。
+
+本地运行：
 
 ```bash
-# 设置必要的环境变量
-export OPENAI_API_KEY="your-openai-api-key"
-export NEWSAPI_KEY="your-newsapi-key"
-
-# 运行生成脚本
+pip install -r requirements.txt
+export OPENROUTER_API_KEY="sk-or-..."   # 或 LLM_API_KEY + LLM_BASE_URL
 python scripts/generate_and_publish.py
 ```
 
@@ -115,5 +125,3 @@ python scripts/generate_and_publish.py
 
 本项目内容采用 [CC BY-NC-SA 4.0](https://creativecommons.org/licenses/by-nc-sa/4.0/) 许可证。
 代码部分采用 [MIT 许可证](LICENSE)。
-
-newsapi: 8e8f884ce8274f698b09aa3f11992b6f

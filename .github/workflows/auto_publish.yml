@@ -3,9 +3,22 @@ name: 自动文章生成与发布
 on:
   # 2026-05-04 恢复：generator 已加 4 道质量门槛（XML 输出 / 字数重试 /
   # 主题去重 / pillar 链接），不会再批量产出薄内容。
+  # 2026-11-17：免费代理 x.linq.ai 失效，2026-09-19 之后 0 产出却一直绿灯。
+  # 现改用 repo secrets 里的 OPENROUTER_API_KEY / NVIDIA_API_KEY（或自定义
+  # LLM_API_KEY + vars.LLM_BASE_URL）；0 产出时网站照常构建部署，但整个
+  # 运行会被标红（见最后的 report job），GitHub 会邮件通知。
   schedule:
     - cron: '0 18 * * *'
   workflow_dispatch:
+    inputs:
+      generate:
+        description: '生成新文章（取消勾选 = 只构建部署当前代码，例如改了模板/配置）'
+        type: boolean
+        default: true
+      articles:
+        description: '本次常规文章篇数（留空 = 仓库变量 REGULAR_ARTICLES_PER_RUN，默认 3）'
+        required: false
+        default: ''
 
 permissions:
   contents: write
@@ -19,6 +32,9 @@ concurrency:
 jobs:
   generate-and-build:
     runs-on: ubuntu-latest
+    timeout-minutes: 90
+    outputs:
+      generate_outcome: ${{ steps.generate.outcome }}
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
@@ -39,7 +55,10 @@ jobs:
       - name: 设置Hugo
         uses: peaceiris/actions-hugo@v3
         with:
-          hugo-version: 'latest'
+          # 锁定版本：'latest' 会在 Hugo 移除已弃用的配置项（languageCode 等，
+          # 构建日志里已有 deprecated 警告）时让每日任务突然构建失败。
+          # 升级时先本地 `hugo --minify` 验证再改这里。
+          hugo-version: '0.170.0'
           extended: true
 
       - name: 配置Git
@@ -48,23 +67,37 @@ jobs:
           git config --global user.email "autobot@coffeeprism.com"
 
       - name: 生成文章
+        id: generate
+        if: ${{ github.event_name != 'workflow_dispatch' || inputs.generate }}
+        # 失败不阻断构建部署（模板/配置改动照常上线），由 report job 统一标红
+        continue-on-error: true
         env:
           AMAZON_ASSOCIATE_TAG: ${{ secrets.AMAZON_ASSOCIATE_TAG }}
+          # LLM：按 自定义 → OpenRouter → NVIDIA 顺序回退，未配置的自动跳过
+          LLM_API_KEY: ${{ secrets.LLM_API_KEY }}
+          LLM_BASE_URL: ${{ vars.LLM_BASE_URL }}
+          LLM_MODEL: ${{ vars.LLM_MODEL }}
+          OPENROUTER_API_KEY: ${{ secrets.OPENROUTER_API_KEY }}
+          OPENROUTER_MODEL: ${{ vars.OPENROUTER_MODEL }}
+          NVIDIA_API_KEY: ${{ secrets.NVIDIA_API_KEY }}
+          NVIDIA_MODEL: ${{ vars.NVIDIA_MODEL }}
+          REGULAR_ARTICLES_PER_RUN: ${{ inputs.articles || vars.REGULAR_ARTICLES_PER_RUN }}
+          TRENDING_QUOTA: ${{ vars.TRENDING_QUOTA }}
         run: python scripts/generate_and_publish.py
 
       - name: 构建网站
         run: hugo --minify --themesDir ./themes
 
-      - name: 提交并推送到main分支
+      - name: 提交新文章到main分支
+        # 只提交 content/。public/ 不再入库：Pages 用下面上传的构建产物部署。
+        # 以前每天强推 public/ 的时间戳变动，让"没有新文章"也天天出现
+        # 「添加新文章」提交，掩盖了 2026-09 起的断更。
         run: |
           git add content
-          git add -f public
-
-          if [[ -z $(git status -s) ]]; then
-            echo "没有需要提交的更改"
+          if git diff --cached --quiet; then
+            echo "没有新文章需要提交"
             exit 0
           fi
-
           git commit -m "自动发布: 添加新文章 - $(date +%Y-%m-%d)"
           git push origin main
 
@@ -98,3 +131,19 @@ jobs:
         run: |
           sleep 60  # 等 Pages CDN 生效，确保 key 文件可被 IndexNow 验证
           python3 scripts/indexnow_submit.py
+
+  report:
+    # 文章生成失败（0 产出 / 无可用 LLM）时把整个运行标红 → GitHub 邮件通知。
+    # 放在部署之后，保证网站本身照常更新。
+    runs-on: ubuntu-latest
+    needs: [generate-and-build, deploy]
+    if: ${{ always() }}
+    steps:
+      - name: 检查文章生成结果
+        run: |
+          outcome="${{ needs.generate-and-build.outputs.generate_outcome }}"
+          echo "生成步骤结果: ${outcome:-（未运行）}"
+          if [ "$outcome" = "failure" ]; then
+            echo "::error title=今日没有发布新文章::打开 generate-and-build → 生成文章 步骤查看原因（LLM key 失效/余额不足/服务不可达，或选题全部重复）"
+            exit 1
+          fi
