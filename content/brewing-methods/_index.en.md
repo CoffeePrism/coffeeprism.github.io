@@ -1,7 +1,7 @@
 ---
 toc: true
-title: "Coffee Brewing Methods: The Complete Guide to 6 Techniques"
-description: "Every coffee brewing method controls four variables: water flow, temperature, pressure, and contact time. Compare all six methods with recipes and parameters."
+title: "6 Coffee Brewing Methods Compared: Ratios, Grind & Time"
+description: "Pour-over, espresso, French press, AeroPress, moka pot and cold brew compared side by side: ratio, grind size, water temperature, brew time and which to choose."
 keywords: ["coffee brewing methods", "pour-over coffee", "espresso", "French press", "AeroPress", "moka pot", "cold brew"]
 date: 2026-05-02
 lastmod: 2026-05-02

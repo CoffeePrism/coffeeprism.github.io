@@ -32,8 +32,6 @@ howto:
       text: "Wrap the bottom chamber in a damp towel or run it under cold water to stop extraction instantly and avoid a bitter, over-extracted finish."
 ---
 
-# The Complete Moka Pot Guide
-
 The moka pot was invented in Italy in 1933 by Alfonso Bialetti, and more than **300 million** units have been sold worldwide. It uses **steam pressure (about 1.5 bar)** to push hot water through a bed of finely ground coffee — the classic "**poor man's espresso**": close to espresso in strength, at a fraction of the price.
 
 ## Moka Pot ≠ Espresso

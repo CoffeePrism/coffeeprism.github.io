@@ -1,10 +1,10 @@
 ---
-title: "意式浓缩 Espresso 完全指南：从原理到家用机参数"
+title: "意式浓缩咖啡怎么做：Espresso 萃取参数与家用机调试"
 date: 2026-05-02
 draft: false
 categories: ["冲泡方法"]
 tags: ["Espresso", "意式浓缩", "家用咖啡机", "拉花"]
-description: "意式浓缩 Espresso 完全指南：9 bar 萃取压力、9g/9g/30 秒标准配方、家用半自动机参数调试、常见问题诊断。一杯稳定 espresso 的入门到精通教程。"
+description: "意式浓缩（Espresso）从入门到稳定出品：18g 粉量、25–30 秒萃取、9 bar 压力怎么配合，研磨度如何调整，以及偏酸、偏苦、流速过快的诊断方法。"
 howto:
   name: "标准意式浓缩 Espresso 制作流程"
   description: "用半自动咖啡机萃取 1 杯 30g 双份 espresso 的标准流程，约 30 秒。"
@@ -33,8 +33,6 @@ howto:
     - name: "评估调整"
       text: "时间过短 → 磨细；过长 → 磨粗。每次只调一格，直到稳定在 25-30 秒。"
 ---
-
-# 意式浓缩 Espresso 完全指南
 
 Espresso 不是一种冲煮方式——它是一类**高压浓缩萃取**：约 **9 bar** 压力把热水快速推过细研磨的咖啡粉床，约 **25-30 秒**萃出 30ml 浓缩液。
 

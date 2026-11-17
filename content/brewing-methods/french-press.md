@@ -1,10 +1,10 @@
 ---
-title: "法压壶 French Press 完全指南：浸泡式萃取的科学"
+title: "法压壶怎么用：粉水比、研磨度与 4 分钟浸泡步骤"
 date: 2026-05-02
 draft: false
 categories: ["冲泡方法"]
 tags: ["法压壶", "French Press", "浸泡式咖啡"]
-description: "法压壶 French Press 完全指南：粗研磨参数、4 分钟浸泡法、95°C 水温控制、油脂保留与口感醇厚的科学。一杯稳定法压咖啡的 6 步教程。"
+description: "法压壶（French Press）冲泡教程：粗研磨、1:15–1:17 粉水比、95°C 水温、4 分钟浸泡后压滤，做出醇厚少渣的咖啡，并解决苦涩、浑浊等问题。"
 howto:
   name: "标准法压壶咖啡"
   description: "用 1 升法压壶冲一壶 4 杯量的浸泡式咖啡，总时间约 5 分钟。"
@@ -32,8 +32,6 @@ howto:
     - name: "下压 + 倒出"
       text: "缓慢把滤网压到底（约 15 秒匀速），立即把咖啡倒入分享壶或杯子，避免后段过萃。"
 ---
-
-# 法压壶 French Press 完全指南
 
 法压壶是**浸泡式（immersion）萃取**的代表，与手冲（percolation 滴滤）的核心区别：
 

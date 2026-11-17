@@ -1,10 +1,10 @@
 ---
-title: "摩卡壶 Moka Pot 完全指南：意大利百年传统的家用版"
+title: "摩卡壶怎么用：避开 3 个常见错误，煮出不苦不糊的咖啡"
 date: 2026-05-02
 draft: false
 categories: ["冲泡方法"]
 tags: ["摩卡壶", "Moka Pot", "Bialetti", "意式家用"]
-description: "摩卡壶 Moka Pot 完全指南：1.5 bar 蒸汽萃取原理、Bialetti 经典款、家用炉摩卡的 6 步教程。常见烧糊问题诊断与解决。"
+description: "摩卡壶（Moka Pot）使用教程：为什么要用热水、小火慢煮、听到滋滋声就离火，研磨度怎么选，以及烧糊、发苦、出液慢等常见问题的解决办法。"
 howto:
   name: "经典摩卡壶咖啡（3-cup Bialetti）"
   description: "用 3 杯量 Bialetti Moka Pot 萃取 150ml 浓郁咖啡，约 5 分钟。"
@@ -31,8 +31,6 @@ howto:
     - name: "冷水降温"
       text: "用湿毛巾或冷水冲底壶让萃取立即停止，避免后段过萃。"
 ---
-
-# 摩卡壶 Moka Pot 完全指南
 
 摩卡壶是 1933 年 Alfonso Bialetti 在意大利发明的家用咖啡器具，至今全球已售出超过 **3 亿台**。它用**蒸汽压力（约 1.5 bar）** 把热水推过细研磨的咖啡粉床，是「**穷人的 espresso**」——浓度接近 espresso 但没那么贵。
 
