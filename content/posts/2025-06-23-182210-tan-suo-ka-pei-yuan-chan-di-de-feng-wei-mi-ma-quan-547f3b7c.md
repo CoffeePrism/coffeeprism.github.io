@@ -5,6 +5,7 @@ draft: false
 categories: ["咖啡豆种类"]
 tags: ["单一产地咖啡豆"]
 description: "单一产地咖啡豆的风味密码，来自原产地的海拔、土壤、品种与处理法差异。了解埃塞俄比亚耶加雪菲、西达摩与肯尼亚咖啡的花香、果酸与黑醋栗调性，掌握全球单一产地咖啡豆品鉴指南。"
+aliases: ["/posts/2025-08-08-183227-tan-suo-ka-pei-yuan-chan-di-de-feng-wei-mi-ma-quan-d388cac0/"]
 ---
 
 ---

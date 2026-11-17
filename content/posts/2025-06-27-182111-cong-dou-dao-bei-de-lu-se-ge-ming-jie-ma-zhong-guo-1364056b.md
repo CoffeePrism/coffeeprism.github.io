@@ -5,6 +5,7 @@ draft: false
 categories: ["可持续咖啡"]
 tags: ["咖啡产业"]
 description: "中国咖啡产业的碳足迹主要来自种植、加工运输、烘焙与消费废弃四大环节，影响可持续未来。文章解码一杯咖啡从豆到杯的生态成本，结合云南有机咖啡、认证标准与减碳路径，帮助消费者与品牌掌握更绿色的选择。"
+aliases: ["/posts/2025-04-26-181603-mo-ren-biao-ti-a88f8ff1/", "/posts/2025-05-19-181857-mo-ren-biao-ti-81fad388/", "/posts/2025-06-15-181709-mo-ren-biao-ti-03b0ef9f/", "/posts/2025-07-18-181930-cong-dou-dao-bei-de-lu-se-ge-ming-jie-ma-zhong-guo-b17cedb8/"]
 ---
 
 ---
