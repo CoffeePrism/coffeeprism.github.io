@@ -118,7 +118,8 @@ jobs:
         uses: actions/deploy-pages@v4
 
   indexnow:
-    # deploy 成功后把 sitemap 全量 URL 推给 IndexNow（Bing/Copilot 等）。
+    # deploy 成功后把最近 3 天有变化的 URL（按 sitemap lastmod）推给 IndexNow
+    # （Bing/Copilot 等）。不要每天推全量：Bing 会提示 “Avoid IndexNow Batch Mode”。
     # Bing 索引喂 Copilot、DeepSeek 候选集、豆包全网搜索 —— 即时推送比
     # 等爬虫快几天到几周。失败不影响发布（continue-on-error）。
     runs-on: ubuntu-latest
