@@ -34,8 +34,6 @@ howto:
       text: "Shot too fast → grind finer; too slow → grind coarser. Change one step at a time until you land in the 25-30 second window."
 ---
 
-# The Complete Espresso Guide
-
 Espresso isn't just another brewing method — it's a category of **high-pressure concentrated extraction**: roughly **9 bar** of pressure forces hot water through a bed of finely ground coffee, producing about 30ml of concentrate in **25-30 seconds**.
 
 It's the foundation of the **latte, cappuccino, flat white, and macchiato**.

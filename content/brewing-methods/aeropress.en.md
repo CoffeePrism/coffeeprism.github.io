@@ -33,8 +33,6 @@ howto:
       text: "Screw the filter cap on tight, flip the AeroPress onto your cup, and press down steadily for about 30 seconds."
 ---
 
-# The Complete AeroPress Guide
-
 The AeroPress is a portable coffee maker invented by Aerobie in 2005. It combines two extraction methods in one device: **immersion plus pressure filtration**. It's cheap, packable, easy to clean, and remarkably forgiving — which makes it the best choice for **travel, the office, camping, and business trips**.
 
 It even has its own annual competition, the **World AeroPress Championship (WAC)**, which has produced a steady stream of inventive recipes.

@@ -33,8 +33,6 @@ howto:
       text: "Slowly press the plunger all the way down (about 15 seconds at a steady pace), then immediately pour the coffee into a carafe or cups to prevent over-extraction."
 ---
 
-# The Complete French Press Guide
-
 The French press is the classic example of **immersion brewing**, and the core difference from [pour-over](/en/brewing-methods/pour-over-v60/) (percolation) is this:
 
 - **Pour-over**: water flows through the coffee bed, contacting the grounds only briefly

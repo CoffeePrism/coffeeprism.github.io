@@ -33,8 +33,6 @@ howto:
       text: "Run it through a V60 paper filter once more for a clear concentrate. Stored in a sealed bottle in the fridge, it keeps for 7-10 days."
 ---
 
-# The Complete Guide to Cold Brew Coffee
-
 Cold brew is not "hot coffee poured over ice" — it's coffee extracted by **steeping grounds in cold water for many hours**. The result is fundamentally different from hot brewing:
 
 - **About 67% less acidity** (cold water can't extract most of the acids)

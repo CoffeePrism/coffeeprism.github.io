@@ -34,8 +34,6 @@ howto:
       text: "Aim for a total brew time of 2:30-3:30. Remove the dripper as the last of the water drains through."
 ---
 
-# V60 Pour-Over Coffee Guide: From Beginner to Pro
-
 The V60 is a cone-shaped dripper developed by the renowned Japanese coffee equipment brand Hario, named after its 60-degree cone angle. Since its debut, the V60 has become one of the most beloved [pour-over brewers](/en/brewing-methods/) among coffee enthusiasts and professional baristas worldwide. This deceptively simple cone gives you precise control over nearly every variable that affects extraction, producing coffee with remarkable clarity and layered flavor.
 
 ## What Makes the V60 Special
