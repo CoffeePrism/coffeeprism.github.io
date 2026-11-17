@@ -97,6 +97,10 @@ hugo new content brewing-methods/method-name.md
 | 2 | `OPENROUTER_API_KEY` | `OPENROUTER_MODEL` | `openai/gpt-5.4` |
 | 3 | `NVIDIA_API_KEY` | `NVIDIA_MODEL` | `z-ai/glm-5.3-flash` |
 
+模型 Variable 可写多个（逗号分隔），按顺序回退；401/403 跳过整个 key，402/404 只跳过当前模型。
+当前生产配置（2026-11-17 实测选定的 OpenRouter 免费模型，免费额度：充值 <$10 的账户 50 次/天）：
+`OPENROUTER_MODEL=baidu/ernie-5.5-flash-preview:free,nvidia/nemotron-3-ultra-550b-a55b:free`
+
 其他 Variables：`REGULAR_ARTICLES_PER_RUN`、`TRENDING_QUOTA`。手动触发时可在 Actions 页面选择篇数，
 或取消「生成新文章」只做构建部署（改了模板/配置时用）。
 
