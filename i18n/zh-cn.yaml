@@ -33,3 +33,5 @@
   translation: "我们尊重你的隐私，不会分享你的邮箱。随时一键退订。"
 - id: adLabel
   translation: "推广内容"
+- id: affiliateDisclosure
+  translation: "Coffee Prism 是亚马逊联盟（Amazon Associates）成员：读者通过本站链接完成的合格购买，我们可能获得佣金，你的购买价格不会因此改变。"

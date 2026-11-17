@@ -11,6 +11,9 @@
 		<div class="footer__copyright">
 			&copy; {{ now.Format "2006" }} {{ .Site.Params.copyright | default .Site.Title }} · {{ i18n "footerTagline" }}
 		</div>
+		<div class="footer-small footer-disclosure">
+			{{ i18n "affiliateDisclosure" }}
+		</div>
 		<div class="footer-small">
 			{{ T "footer_credits" | safeHTML }}
 		</div>

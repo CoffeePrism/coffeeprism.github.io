@@ -1,0 +1,30 @@
+{{- /*
+  Markdown 链接渲染钩子。
+  逻辑照搬 Hugo 内置钩子（v0.170.0 tpl/tplimpl/embedded/templates/_markup/render-link.html，
+  负责把 ./xx.md、站内路径解析成真实 permalink），只额外做一件事：
+  Amazon 联盟链接加 rel="sponsored nofollow noopener" 并新标签页打开 ——
+  Google 要求付费/联盟链接用 rel=sponsored 标注，否则可能被当作链接操纵。
+*/ -}}
+{{- $u := urls.Parse .Destination -}}
+{{- $href := $u.String -}}
+{{- if strings.HasPrefix $u.String "#" -}}
+	{{- $href = printf "%s#%s" .PageInner.RelPermalink $u.Fragment -}}
+{{- else if and $href (not $u.IsAbs) -}}
+	{{- $path := strings.TrimPrefix "./" $u.Path -}}
+	{{- with or
+		($.PageInner.GetPage $path)
+		($.PageInner.Resources.Get $path)
+		(resources.Get $path)
+	-}}
+		{{- $href = .RelPermalink -}}
+		{{- with $u.RawQuery -}}
+			{{- $href = printf "%s?%s" $href . -}}
+		{{- end -}}
+		{{- with $u.Fragment -}}
+			{{- $href = printf "%s#%s" $href . -}}
+		{{- end -}}
+	{{- end -}}
+{{- end -}}
+{{- $isAffiliate := and $u.IsAbs (or (strings.Contains $u.Host "amazon.") (strings.Contains $u.Host "amzn.")) -}}
+<a href="{{ $href }}" {{- with .Title }} title="{{ . }}" {{- end }} {{- if $isAffiliate }} rel="sponsored nofollow noopener" target="_blank" {{- end }}>{{ .Text }}</a>
+{{- /**/ -}}

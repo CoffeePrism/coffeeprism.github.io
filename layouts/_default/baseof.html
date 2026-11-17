@@ -9,6 +9,8 @@
 	{{- /* tags 页低价值：noindex 但 follow 保留内链权重（robots.txt 已不再 Disallow） */}}
 	{{- if and (in (slice "term" "taxonomy") .Kind) (eq (.Data.Plural | default "") "tags") }}
 	<meta name="robots" content="noindex,follow">
+	{{- else if .Params.robotsNoIndex }}
+	<meta name="robots" content="noindex,follow">
 	{{- end }}
 	<link rel="canonical" href="{{ .Permalink }}">
 	{{- /* hreflang：有翻译版本的页面输出双向 alternate（含自身），zh 为 x-default */}}
@@ -16,7 +18,8 @@
 	{{- range .AllTranslations }}
 	<link rel="alternate" hreflang="{{ .Language.LanguageCode }}" href="{{ .Permalink }}">
 	{{- end }}
-	{{- range .AllTranslations }}{{ if eq .Language.Lang site.Home.Language.Lang }}
+	{{- /* x-default 固定指向中文版（之前比较的是 site.Home —— 即"当前语言"的首页，导致每个页面都把自己声明成 x-default） */}}
+	{{- range .AllTranslations }}{{ if eq .Language.Lang "zh-cn" }}
 	<link rel="alternate" hreflang="x-default" href="{{ .Permalink }}">
 	{{- end }}{{ end }}
 	{{- end }}
@@ -45,13 +48,9 @@
 	<script async src="https://pagead2.googlesyndication.com/pagead/js/adsbygoogle.js?client=ca-pub-2507974090472113"
 	     crossorigin="anonymous"></script>
 
-	{{- $googleFontsLink := .Site.Params.googleFontsLink | default "https://fonts.googleapis.com/css?family=Open+Sans:400,400i,700" }}
-	{{- if hasPrefix $googleFontsLink "https://fonts.googleapis.com/" }}
-	<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-	<link rel="dns-prefetch" href="//fonts.googleapis.com">
-	<link rel="dns-prefetch" href="//fonts.gstatic.com">
-	<link rel="stylesheet" {{ printf `href="%s"` $googleFontsLink | safeHTMLAttr }}>
-	{{- end }}
+	{{- /* 已移除主题默认的 Google Fonts（Open Sans）样式表：主题只把它用在 body 上，
+	     而 static/css/custom.css 已把 body 字体改成系统中文字体，它从未被使用；
+	     且 fonts.googleapis.com 在中国大陆基本不可达，这个阻塞渲染的请求会拖慢首屏。 */}}
 
 	{{ $style := resources.Get "css/style.css" | resources.ExecuteAsTemplate "css/style.css" . -}}
 	<link rel="stylesheet" href="{{ $style.RelPermalink }}">
