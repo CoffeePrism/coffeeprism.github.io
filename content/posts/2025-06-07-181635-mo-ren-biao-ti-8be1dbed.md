@@ -9,7 +9,6 @@ aliases: ["/posts/2025-06-29-181924-xun-dou-zhi-lu-quan-qiu-xi-you-ka-pei-pin-ch
 ---
 
 ---
-**标题：寻豆之旅：全球稀有咖啡品种的味觉密码与收藏价值**
 
 ---
 

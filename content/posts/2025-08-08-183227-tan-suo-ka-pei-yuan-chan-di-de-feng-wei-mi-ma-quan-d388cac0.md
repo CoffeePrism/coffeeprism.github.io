@@ -71,8 +71,6 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-06-23-182210-tan-suo-ka-pe
 
 记住：最好的咖啡永远在下一杯。保持好奇心，建立自己的风味档案，甚至尝试用Excel记录每支豆子的冲煮变量——这正是精品咖啡的终极乐趣所在。
 
-（全文约1450字）
-
 <!-- related-reading-start -->
 
 ## 相关阅读

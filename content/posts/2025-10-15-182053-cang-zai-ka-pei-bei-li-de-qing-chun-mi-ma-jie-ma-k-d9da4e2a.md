@@ -80,8 +80,6 @@ description: "咖啡之所以具有抗氧化价值，关键在于绿原酸、咖
 购置一个[智能保温咖啡杯](https://www.amazon.com/s?k=%E6%99%BA%E8%83%BD%E4%BF%9D%E6%B8%A9%E5%92%96%E5%95%A1%E6%9D%AF&tag=coffeeprism-20)，将咖啡温度维持在60-65℃，既能保护抗氧化物质，又可避免高温烫伤食道黏膜。每日3-4杯（约400ml）为理想摄入量，让咖啡成为您抗氧化的温柔盟友。
 
 ---  
-（全文约1380字，科学数据来源：PubMed、ScienceDirect及中国咖啡产业报告）
-
 <!-- related-reading-start -->
 
 ## 相关阅读
