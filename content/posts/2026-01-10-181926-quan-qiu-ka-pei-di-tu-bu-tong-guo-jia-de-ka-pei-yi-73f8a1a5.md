@@ -113,7 +113,7 @@ author: "Coffee Prism"
 - [深度解析：不同国家的咖啡饮用习惯与文化密码](/posts/2025-11-17-181918-shen-du-jie-xi-bu-tong-guo-jia-de-ka-pei-yin-yong-9a47282b/)
 - [全球咖啡文化巡礼：不同国家的咖啡饮用习惯全解析](/posts/2025-11-26-181705-quan-qiu-ka-pei-wen-hua-xun-li-bu-tong-guo-jia-de-2aea4204/)
 - [全球咖啡文化解密：不同国家的咖啡饮用习惯全攻略](/posts/2025-12-11-181936-quan-qiu-ka-pei-wen-hua-jie-mi-bu-tong-guo-jia-de-c2b1c378/)
-- [咖啡因的生理作用与适宜摄入量：从科学认知到日常实践](/posts/2025-11-02-181547-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-008ef72b/)
+- [咖啡因的生理作用与适宜摄入量：从科学认知到日常实践](/posts/2025-12-28-182031-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-209cdb84/)
 
 <!-- related-reading-end -->
 
