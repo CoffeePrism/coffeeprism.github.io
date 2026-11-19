@@ -16,6 +16,9 @@ from pathlib import Path
 import slugify
 import requests
 
+sys.path.insert(0, str(Path(__file__).resolve().parent))
+import content_checks  # noqa: E402  (scripts/content_checks.py)
+
 # --- Configuration ---
 # 使用环境变量获取Amazon Associate Tag
 AMAZON_ASSOCIATE_TAG = os.getenv("AMAZON_ASSOCIATE_TAG", "coffeeprism-20")
@@ -553,147 +556,77 @@ def inject_pillar_link(article_content, category):
             return head + block + tail
     return block.lstrip() + article_content
 
+# 常见的 AI 腔句式：提示词里禁止，scripts/content_checks.py 会统计密度。
+AI_TELLS = "「不是……而是……」「不仅……更……」「值得注意的是」「需要指出的是」「总而言之」「综上所述」「总的来说」「让我们……」「在当今……时代」「说白了」「核心是：」「完美」「终极」「解锁」「密码」「一站式」「赋能」"
+
+
 def get_system_prompt():
-    """SEO/AEO/GEO 优化的系统提示词"""
-    # 告诉模型今天的日期：免费模型的训练截止较早，会在标题里写「2025最新」之类过期年份
+    """系统提示词：事实规则优先。
+
+    旧版要求模型写 3-5 个「有来源的数字」、1-2 段专家引语和中国市场数据，却不给
+    任何来源，免费模型只能编造。现在只允许写有把握的通识和常见操作参数；
+    统计、价格、研究、引语一律不写（热点文章只能用新闻原文里的事实）。
+    """
     today = datetime.date.today()
-    return f"今天是 {today.isoformat()}（{today.year} 年）。涉及年份时以此为准，不要写过期年份。\n\n" + """你是 Coffee Prism 的首席内容策略师，同时精通咖啡专业知识、搜索引擎优化（SEO）、答案引擎优化（AEO）和生成式引擎优化（GEO）。
+    return f"今天是 {today.isoformat()}（{today.year} 年）。涉及年份时以此为准，不要写过期年份。\n\n" + f"""你是 Coffee Prism（中文咖啡知识站）的编辑，为在家做咖啡、买咖啡的中文读者写实用、准确的文章。
 
-你的核心使命：创作能被 Google、百度、ChatGPT、Perplexity、Google AI Overview 等引擎优先引用的高质量中文咖啡内容。
+## 事实规则（最重要，违反会导致文章被丢弃）
+- 只写你有把握、业内普遍认可的知识。拿不准的内容宁可不写。
+- 禁止编造：统计数字、市场规模、增长率、调查结果、价格、销量、研究结论、论文、机构报告、专家或冠军的语录、具体人名和店铺的经历。
+- 不要写「据……报告」「研究表明」「数据显示」「调查发现」「专家指出」这类说法，也不要用 > 引用块引用任何人或机构。
+- 操作参数（水温、粉水比、研磨度、萃取时间、克数）可以写，用常见范围表达（如「90–96°C」），并说明这是起点、需要按口味调整。
+- 不要声称你或「我们」做过测试、品鉴、拜访，或拥有任何资质。
+- 不要写网址，除了下文规定格式的 Amazon 搜索链接。
 
-## 你的专业身份
-- 10年以上咖啡行业经验的SCA认证咖啡师
-- 深入了解中国咖啡市场（瑞幸、Manner、M Stand、Seesaw等品牌生态）
-- 熟悉全球咖啡产区、处理法、烘焙与冲泡科学
-
-## 写作原则
-
-### E-E-A-T 信号（Google核心排名因素）
-- **Experience（经验）**：给出可复现的操作参数、常见失误与判断方法（如"萃取偏酸时先把研磨调细一格"）。
-  禁止虚构个人经历或测试（不要写"我自己测试了……""我在店里发现……"）——编造的亲身经历
-  一旦被识别，会同时伤害读者信任与搜索引擎评价
-- **Expertise（专业）**：引用具体数据、研究和行业标准（SCA标准、CQI评分等）
-- **Authoritativeness（权威）**：引用可验证的来源（学术论文、行业报告、权威机构）
-- **Trustworthiness（可信）**：客观公正，优缺点并述，标注信息来源
-
-### AEO/GEO 优化（面向AI引擎）
-- 每个H2章节的开头用1-2句话直接回答该节的核心问题（AI引擎会优先提取这些"直答"）
-- FAQ部分的每个回答都以简洁的定义句开头，再展开详细解释
-- 使用清晰的因果逻辑和对比结构，便于AI理解和引用
-- 在合适的位置使用编号列表、表格对比、步骤说明等结构化格式
-- 包含具体的数字、比例、温度、时间等可被AI直接引用的精确数据
-
-### 内容质量标准
-- 每篇文章3000-4000字，内容必须深入透彻
-- 70%段落叙述 + 30%结构化元素（列表、表格、步骤）
-- 每段3-5句话，使用短句和过渡词
-- 提供独创观点和实用建议，而非泛泛而谈
-- 关键术语首次出现时用**加粗**标注，并给出简要解释"""
+## 写作风格
+- 开门见山：第一段直接回答标题里的问题。
+- 用具体做法、判断方法和常见错误代替空泛形容；一段只讲一件事，句子短一些。
+- 不要用这些 AI 腔：{AI_TELLS}。
+- 不滥用加粗；同一事物始终用同一个名称；不要堆砌关键词。"""
 
 
 def get_article_prompt(specific_topic, main_topic):
     """生成针对特定主题的文章提示词"""
-    return f"""请为 Coffee Prism 网站创作一篇关于「{specific_topic}」（所属类目：{main_topic}）的深度文章。
+    year = datetime.date.today().year
+    return f"""请为 Coffee Prism 写一篇关于「{specific_topic}」（类目：{main_topic}）的文章。
 
-## 输出格式要求（严格遵循）
+## 标题
+- 15–30 个汉字，包含「{specific_topic}」或它的自然说法，写清楚读者能得到什么。
+- 不要用《》，不要用「终极」「完全指南」「深度解析」「解锁」「密码」这类套话。
+- 一般不写年份；确有必要时只能写 {year} 年。
 
-### 第一行：文章标题
-- 以 `# ` 开头（H1 Markdown格式）
-- 包含核心关键词「{specific_topic}」
-- 15-35个中文字符
-- 使用 "指南"、"技巧"、"深度解析"、"完全攻略" 等高点击率词
-- 不要使用书名号《》
-- 一般不要在标题里写年份；确有必要时只能写 {datetime.date.today().year} 年
+## 正文
+- 第一段 80–150 字：直接回答读者最想知道的问题，能单独成段被引用。主关键词在第一段出现一次即可，不要加粗。
+- 之后按读者真正需要的步骤或问题组织，3–6 个 H2；每个 H2 开头一两句先给结论。需要时再用 H3、列表或表格（表格只放操作参数和对比，不放编造的数据）。
+- 至少 1 个 H2 用读者会问的自然问句。不要让每个 H2 都以「{specific_topic}的……」开头。
+- 写具体：怎么做、怎么判断做对了、常见错误和怎么调整。
+- 如果确实有读者常问的问题，加一个「## 常见问题解答」，3–5 个 H3 问题，每个回答 50–120 字，第一句就是答案。
+- 不需要「要点速览」和「总结」章节，不要写总结式结尾。
+- 长度跟着内容走：去空白 1500–3000 字，讲清楚就停，不要注水。
+- 产品推荐：确有需要时最多 3 个，格式 [产品英文名](https://www.amazon.com/s?k=英文搜索词)，不写价格。
+- 面向中国读者：可以提淘宝、京东等购买渠道和人民币，但不写具体价格、销量和市场数据。
+- 再次提醒：不写统计、研究、报告、价格、引语和亲身经历；没有把握的句子删掉。
 
-### 正文结构
+## 输出格式（必须严格遵守，否则文章会被丢弃）
 
-**引言（200-300字）—— GEO 最关键的一段**
-- 第一段前两句必须直接回答标题隐含的核心问题（结论先行，80-120字能独立成段被 AI 引用）
-- 之后才允许场景、背景或数据铺垫
-- 主关键词在前100字最多出现1次，不要加粗
-
-**要点速览（引言之后）**
-- 引言后紧跟一个 `## 要点速览` H2，用 3-5 个 bullet 总结全文核心答案
-- 每个 bullet 一句话、自包含（不用代词指代），是 AI 引擎最爱提取的格式
-
-**主体内容（5-7个H2章节，每个含2-3个H3）**
-
-每个H2章节要求：
-1. 开头1-2句话直接给出该节核心结论（answer capsule，40-60字）
-2. 然后展开详细论述，包含数据、案例、对比
-3. 每个段落 ≤4 句；每节内容自包含——重述主语实体（写"手冲咖啡的水温"而非"它的水温"），不依赖上文才能读懂
-4. 自然融入相关产品推荐（使用格式：[产品名英文](https://www.amazon.com/s?k=产品英文搜索词)）
-
-H2 标题规则（重要——机器可检测的堆砌信号会被 AI 引擎降权）：
-- 全文最多 2 个 H2 可含主关键词「{specific_topic}」，其余用语义变体或相关概念
-- 至少 3 个 H2 用自然问句格式（带"？"），如"为什么水温对萃取影响这么大？"
-- 严禁每个 H2 都以「{specific_topic}的…」开头
-
-**数据与引用（GEO 研究证明这是提升 AI 引用率最有效的两个手段）**
-- 全文包含 3-5 个具体、可信的数字/参数（温度、比例、时间、价格、百分比），
-  有来源的注明来源（如"据 SCA 金杯标准""ICO 2025 年报告"），没有可靠来源就用
-  普遍认可的经验参数，禁止编造研究
-- 包含 1-2 段引用格式（Markdown blockquote `>`）呈现的行业共识或专家观点，
-  注明出处（如 SCA、WBrC 冠军、知名烘焙师的公开观点），内容必须真实可信
-- 至少包含 1 个 Markdown 表格（参数对照、预算分级等）
-
-**常见问题解答（FAQ）** —— 这部分非常重要！
-- 独立的H2章节，标题为"## 常见问题解答"
-- 包含5-7个H3问题
-- 问题必须是真实用户会搜索的自然问句，禁止套用"如何选择适合XX的工具？"这类模板句式；
-  所有问题中最多 1 个含主关键词
-- 每个回答80-150字：第一句就是结论（但禁止出现"直接答案："、"直答："等标签字样），再补充细节
-- 这些FAQ将被用于生成 JSON-LD FAQ Schema，且会渲染在页面上
-
-**总结段落（150-200字）**
-- 用 `## 总结` 作为最后一个 H2（必须在 FAQ 之后）
-- 总结3-5个核心要点
-- 给出具体的行动建议
-- 以鼓励探索的语气结尾
-
-## SEO关键词策略
-- 主关键词「{specific_topic}」自然出现5-8次（含FAQ），超过10次视为堆砌需重写
-- 使用LSI语义相关词（同义词、相关概念）替代重复主关键词
-- 关键词密度控制在1%左右，严禁堆砌（研究显示堆砌会让 AI 引用率下降 ~9%）
-
-## 中国市场本地化
-- 引用中国咖啡市场数据和趋势
-- 提及国内知名咖啡品牌和获取渠道
-- 考虑价格区间用人民币
-- 提供淘宝/京东等国内平台的替代方案说明
-
-## 禁止事项
-- 不要使用"在本文中"、"总而言之"、"综上所述"等元语言
-- 不要使用过度营销的话术
-- 不要编造不存在的数据或研究（宁可不引也不要编）
-- 不要在正文开头输出 `---`（front matter分隔符）
-- 不要输出任何 YAML front matter
-
-## ⚠️ 输出格式（必须严格遵守，否则文章会被丢弃不发布）
-
-请用以下 **XML 标记** 把标题与正文分开输出。**这是最重要的格式要求**：
+用以下 XML 标记分开输出：
 
 <TITLE>
-这里只放纯文本标题（15-35 字，不带 # 或《》或 ** 等任何符号）
+纯文本标题（不带 # 《》 ** 等符号）
 </TITLE>
 
 <DESCRIPTION>
-100-150字纯文本摘要：第一句直接回答标题隐含的核心问题，禁止任何 Markdown 符号
-（**、>、[] 等），禁止"本文将"之类元语言。这段会成为 meta description 和
-搜索/AI 引擎展示的摘要。
+80–140 字纯文本摘要：第一句直接回答标题里的问题；不要 Markdown 符号，不要「本文将」。
 </DESCRIPTION>
 
 <BODY>
-这里是完整的 Markdown 正文（所有 H2/H3、段落、列表、表格、FAQ 都在这里）。
-正文不要再重复标题，直接从引言段开始。
+完整 Markdown 正文，从第一段开始，不要重复标题，不要 front matter 或 ---。
 </BODY>
 
-正文字符数（不算空白）必须 ≥ 2500 字，目标 3000-4000 字。少于 2500 字的文章会被自动丢弃。
-
-现在请创作这篇文章。"""
+现在请写这篇文章。"""
 
 
-MIN_BODY_CHARS = 2500
+MIN_BODY_CHARS = 1500
 
 
 def _strip_thinking(text):
@@ -714,7 +647,10 @@ def parse_structured_output(raw):
 
     title_match = re.search(r'<TITLE>\s*(.*?)\s*</TITLE>', raw, re.DOTALL | re.IGNORECASE)
     desc_match = re.search(r'<DESCRIPTION>\s*(.*?)\s*</DESCRIPTION>', raw, re.DOTALL | re.IGNORECASE)
-    body_match = re.search(r'<BODY>\s*(.*?)\s*</BODY>', raw, re.DOTALL | re.IGNORECASE)
+    # Models sometimes omit </BODY>. Take the rest of the output then, instead of
+    # falling back to the raw text, which once published tags and a blockquote as
+    # the title (three posts, 2026-05-22 and 2026-11-18).
+    body_match = re.search(r'<BODY>\s*(.*?)\s*(?:</BODY>|\Z)', raw, re.DOTALL | re.IGNORECASE)
 
     desc = None
     if desc_match:
@@ -725,7 +661,7 @@ def parse_structured_output(raw):
 
     if title_match and body_match:
         title = title_match.group(1).strip()
-        body = body_match.group(1).strip()
+        body = re.sub(r'</?(?:TITLE|DESCRIPTION|BODY)>', '', body_match.group(1), flags=re.IGNORECASE).strip()
         # Sanitize title: drop H markers, asterisks, book marks, leftover quotes
         title = title.lstrip('#').strip().strip('*').strip()
         title = title.strip('《》').strip('"').strip("'").strip()
@@ -777,9 +713,9 @@ def generate_article(topic_info):
         retry_messages = list(messages) + [
             {"role": "assistant", "content": raw},
             {"role": "user", "content": (
-                f"上一版正文只有 {char_count} 字（去空白），低于 {MIN_BODY_CHARS} 字最低要求。"
-                f"请保留已有所有内容并大幅扩展到 3000-4000 字：补充更多实操参数、对比数据、"
-                f"中国市场案例、深度故障排查等。仍然用 <TITLE></TITLE> + <DESCRIPTION></DESCRIPTION> + <BODY></BODY> 格式输出。"
+                f"上一版正文只有 {char_count} 字（去空白），低于 {MIN_BODY_CHARS} 字。"
+                f"请保留已有内容，补充更多具体步骤、判断方法和常见错误及调整办法，"
+                f"不要补充统计数字、价格、研究、引语或亲身经历。仍然用 <TITLE></TITLE> + <DESCRIPTION></DESCRIPTION> + <BODY></BODY> 格式输出。"
             )},
         ]
         raw2 = call_llm(retry_messages)
@@ -930,6 +866,9 @@ def extract_title(article_content):
         if title_found: # Already found title via marker on previous line
             break
             
+        if cleaned_line.startswith(('>', '<')):
+            continue  # blockquotes (the injected guide link) and stray tags are never titles
+
         if not current_line_is_marker:
             # If no marker, treat this line as potential title
             # Basic check: not too long, doesn't look like paragraph start
@@ -1194,10 +1133,8 @@ def check_content_quality(article_content, title, specific_topic):
     char_count = len(article_content.replace(' ', '').replace('\n', ''))
     print(f"📊 文章长度: {char_count} 字符")
     
-    if char_count < 2000:
-        issues.append(f"⚠️  文章过短 ({char_count}字)，建议至少2500字以上")
-    elif char_count < 2500:
-        warnings.append(f"⚡ 文章略短 ({char_count}字)，建议增加到2500-3500字")
+    if char_count < MIN_BODY_CHARS:
+        issues.append(f"⚠️  文章过短 ({char_count}字)，低于 {MIN_BODY_CHARS} 字")
     else:
         print(f"✅ 文章长度良好 ({char_count}字)")
     
@@ -1212,9 +1149,9 @@ def check_content_quality(article_content, title, specific_topic):
     keyword_density = (keyword_count * len(specific_topic) / char_count) * 100 if char_count > 0 else 0
     print(f"📈 关键词「{specific_topic}」出现 {keyword_count} 次，密度: {keyword_density:.2f}%")
     
-    if keyword_count < 5:
-        issues.append(f"⚠️  关键词出现次数过少 ({keyword_count}次)，建议8-12次")
-    elif keyword_count > 20:
+    if keyword_count < 2:
+        warnings.append(f"⚡ 关键词只出现 {keyword_count} 次，检查标题和首段是否写到了主题")
+    elif keyword_count > 15:
         warnings.append(f"⚡ 关键词可能过多 ({keyword_count}次)，注意避免堆砌")
     else:
         print(f"✅ 关键词频率合理")
@@ -1224,8 +1161,8 @@ def check_content_quality(article_content, title, specific_topic):
     h3_count = article_content.count('\n### ')
     print(f"📋 标题结构: {h2_count} 个H2标题, {h3_count} 个H3标题")
     
-    if h2_count < 4:
-        issues.append(f"⚠️  H2标题过少 ({h2_count}个)，建议至少5-7个主要章节")
+    if h2_count < 2:
+        issues.append(f"⚠️  H2标题过少 ({h2_count}个)")
     else:
         print(f"✅ 标题结构良好")
     
@@ -1240,16 +1177,16 @@ def check_content_quality(article_content, title, specific_topic):
     paragraphs = [p for p in article_content.split('\n\n') if len(p.strip()) > 50]
     print(f"📝 有效段落数: {len(paragraphs)}")
     
-    if len(paragraphs) < 10:
-        warnings.append(f"⚡ 段落较少 ({len(paragraphs)}个)，建议增加内容深度")
+    if len(paragraphs) < 5:
+        warnings.append(f"⚡ 段落较少 ({len(paragraphs)}个)")
     
     # 7. 检查产品链接
     amazon_links = article_content.count('amazon.com')
     print(f"🔗 Amazon产品链接: {amazon_links} 个")
     
     if amazon_links == 0:
-        warnings.append("⚡ 未发现Amazon产品链接，可适当添加2-4个相关产品推荐")
-    elif amazon_links > 5:
+        pass  # 产品链接可有可无，不为凑链接改文章
+    elif amazon_links > 3:
         warnings.append(f"⚡ Amazon链接较多 ({amazon_links}个)，避免过度商业化")
     
     # 输出结果
@@ -1496,78 +1433,47 @@ SKIP
         return None
 
 
+def news_has_facts(news_item, min_chars=120):
+    """True when the news summary carries real content beyond its own headline."""
+    summary = re.sub(r"\s+", " ", news_item.get("summary") or "")
+    for part in re.split(r"\s+-\s+", news_item.get("title") or ""):
+        if part.strip():
+            summary = summary.replace(part.strip(), " ")
+    return len(re.sub(r"\s+", "", summary)) >= min_chars
+
+
 def get_trending_article_prompt(news_item):
-    """生成热点分析文章的提示词"""
-    return f"""请为 Coffee Prism 网站撰写一篇针对以下咖啡行业热点新闻的**深度分析文章**。
+    """热点文章提示词：事实只能来自新闻条目本身，并链接原文。"""
+    return f"""请为 Coffee Prism 写一篇解读下面这条咖啡行业新闻的文章。
 
-## 新闻信息
-- **标题**: {news_item['title']}
-- **摘要**: {news_item['summary']}
-- **来源链接**: {news_item['link']}
-- **建议分析角度**: {news_item.get('angle', '多角度深度分析')}
-- **目标关键词**: {', '.join(news_item.get('target_keywords', []))}
+## 新闻信息（这是全文唯一的事实来源）
+- 标题：{news_item['title']}
+- 摘要：{news_item['summary']}
+- 原文链接：{news_item['link']}
+- 建议角度：{news_item.get('angle', '这件事对普通咖啡消费者意味着什么')}
+- 目标关键词：{', '.join(news_item.get('target_keywords', []))}
 
-## 文章要求
+## 事实规则（违反会导致文章被丢弃）
+- 关于这条新闻的事实（数字、日期、公司、人物、表态）只能来自上面的标题和摘要。摘要里没有的，不要补充、推测或编造。
+- 正文里不要提「标题」「摘要」这些字眼，也不要讨论新闻没写什么；直接写已知事实，没有的信息就不写。
+- 第一次提到这条新闻时，用 Markdown 链接到原文：[新闻来源]({news_item['link']})。不要写其他网址（Amazon 搜索链接除外）。
+- 不要写统计表格，不要用 > 引用块，不要虚构任何人的话；需要引用时只能原样引用摘要里的句子并注明来自原文。
+- 背景知识只写业内普遍认可的常识，不写市场规模、价格、销量或增长率。
+- 分析和判断要明确写成编辑观点（如「我们认为」「可能」），不要写成事实，不要给出带数字的预测。
 
-这是一篇**热点深度分析**文章，不同于常规知识科普。要求：
+## 结构
+- 标题 15–30 字，准确概括事件，不标题党，不用「震惊」「重磅」。
+- 第一段：2–3 句说清发生了什么、为什么值得关注，并链接原文。
+- 2–4 个 H2：事件要点（只用新闻里的事实）、相关背景常识、对国内咖啡爱好者的实际影响（可以怎么做、要注意什么）、编辑观点。
+- 可选「## 常见问题解答」：2–4 个读者真正会问的问题，回答 50–120 字，第一句就是答案。
+- 长度：去空白 1200–2500 字。素材有限就写短，不要注水。
+- 产品推荐最多 2 个，格式 [产品英文名](https://www.amazon.com/s?k=英文搜索词)，不写价格，不生硬。
 
-### 输出格式
-- 第一行以 `# ` 开头的标题（包含核心关键词，吸引眼球但不标题党）
-- 不要输出 front matter 或 `---`
+## 输出格式
+- 第一行以 `# ` 开头的标题，然后是正文。
+- 不要输出 front matter 或 `---`。
 
-### 结构框架（3500-5000字）
-
-**开篇速报（200字）**
-- 用2-3句话概述新闻事件核心
-- 立即点明这件事为什么重要，对谁有影响
-
-**关键数据速览（开篇速报之后）**
-- 一个 Markdown 表格，列出本事件相关的 ≥5 个具体数字（金额、百分比、日期、
-  门店数、产量等），每行注明数据来源（新闻摘要里的数字优先；行业公认数据
-  注明出处如 ICO/SCA/公司财报；没有可靠数字的行不要编造，宁可少列）
-- GEO 研究显示：带来源的统计数据能显著提升 AI 引擎引用率，这个表是全文最重要的模块之一
-
-**事件回顾与背景（400-600字）**
-- 完整还原事件经过
-- 补充必要的背景信息和行业上下文
-- 引用具体数据和来源；至少 1 处用 blockquote（`>`）直接引用新闻原文或
-  当事方公开表态（注明来源），禁止虚构引语
-
-**多角度深度分析（1500-2000字，3-4个H2章节）**
-- 每个角度用独立的H2章节
-- 分析角度建议：经济/市场影响、行业格局变化、消费者影响、中国市场关联
-- 每个分析点都要有论据支撑（数据、案例、对比）
-- 给出你的专业判断，不要只是罗列信息
-
-**对中国咖啡市场/消费者的影响（400-600字）**
-- 这条新闻对国内咖啡行业意味着什么
-- 消费者应该关注什么
-- 引用国内品牌（瑞幸、Manner、Seesaw、M Stand等）作为分析参照
-
-**未来展望与预测（300-400字）**
-- 基于当前趋势的合理预测
-- 给出2-3个可能的发展场景
-
-**常见问题解答（FAQ）**
-- 4-6个问题，以H3格式
-- 问题围绕读者最关心的实际影响
-- 每个回答80-150字，先直答再展开
-
-**专家观点/编辑点评（150-200字）**
-- 以Coffee Prism编辑身份给出总结性观点
-
-### 写作风格
-- 新闻分析的专业语气，不是知识科普的轻松语气
-- 有观点、有判断、有预测，而非四平八稳的报道
-- 数据驱动，避免空泛的形容词
-- 适当使用产品推荐链接（格式：[产品名](https://www.amazon.com/s?k=英文产品名)），但不要生硬
-
-### 禁止事项
-- 不要编造不存在的数据或引用来源
-- 不要在标题中使用"震惊"、"重磅"等低质词
-- 不要输出 front matter
-
-现在请撰写这篇热点深度分析文章。"""
+现在请写这篇文章。"""
 
 
 def generate_trending_article(news_item):
@@ -1575,7 +1481,7 @@ def generate_trending_article(news_item):
     print(f"\n🔥 正在生成热点分析文章: {news_item['title'][:50]}...")
 
     messages = [
-        {"role": "system", "content": get_system_prompt() + "\n\n你现在的角色是咖啡行业热点分析师，擅长将新闻事件转化为有深度、有洞察的分析文章。你的分析应该体现出专业的行业理解和独到的视角。"},
+        {"role": "system", "content": get_system_prompt() + "\n\n本篇是新闻解读：例外地，必须用 Markdown 链接新闻原文一次；关于新闻的事实只能来自给定的标题和摘要。"},
         {"role": "user", "content": get_trending_article_prompt(news_item)}
     ]
 
@@ -1681,6 +1587,63 @@ news_source: {yaml_str(news_item.get('link', ''))}
         return False
 
 
+def _split_generated(article_content):
+    """'# 标题\n\n<!-- seo-description: … -->\n\n正文' -> (title, description, body)."""
+    m = re.match(r"\s*#\s+(.+?)\n+(?:<!-- seo-description: (.*?) -->\n+)?", article_content, re.S)
+    if not m:
+        return "", "", article_content
+    return m.group(1).strip(), (m.group(2) or "").strip(), article_content[m.end():]
+
+
+def _join_generated(title, desc, body):
+    head = f"# {title}\n\n" + (f"<!-- seo-description: {desc} -->\n\n" if desc else "")
+    return head + body.strip()
+
+
+def _numbers(text):
+    return set(re.findall(r"\d+(?:\.\d+)?", text))
+
+
+def enforce_fact_rules(article_content, allowed_urls=(), source_text="", label=""):
+    """Block invented facts (scripts/content_checks.py). One repair round: the model may only
+    delete or rephrase the flagged sentences. Returns the article, or None to skip it."""
+    title, desc, body = _split_generated(article_content)
+    problems = content_checks.findings(title, desc + "\n\n" + body, allowed_urls=allowed_urls, source_text=source_text)
+    density = content_checks.ai_tell_density(body)
+    if density > 1.0:
+        print(f"⚡ {label}AI 腔句式偏多（每千字 {density} 处）")
+    if not problems:
+        print(f"✅ {label}事实规则检查通过")
+        return article_content
+    print(f"⚠️  {label}发现 {len(problems)} 处违反事实规则，请模型删改一次：")
+    for code, snippet in problems[:12]:
+        print(f"   [{code}] {snippet}")
+    listing = "\n".join(f"- [{code}] {snippet}" for code, snippet in problems[:12])
+    raw = call_llm([
+        {"role": "system", "content": get_system_prompt()},
+        {"role": "user", "content": (
+            "下面这篇文章里有违反事实规则的内容（编造的统计、研究、报告、引语、价格、网址或亲身经历）：\n"
+            f"{listing}\n\n"
+            "请删除这些句子，或改写成不含这些数字、来源、引语和价格的说法。不要新增任何事实、数字、人名、"
+            "机构或网址；其余内容尽量保持原样。按原格式输出：\n"
+            f"<TITLE>\n{title}\n</TITLE>\n<DESCRIPTION>\n{desc}\n</DESCRIPTION>\n<BODY>\n{body.strip()}\n</BODY>"
+        )},
+    ])
+    _, new_desc, new_body = parse_structured_output(raw)
+    if not new_body or new_body.strip() == (raw or "").strip():
+        print(f"❌ {label}删改失败（模型没有按格式返回），跳过本篇")
+        return None
+    new_desc = new_desc or desc
+    remaining = content_checks.findings(title, new_desc + "\n\n" + new_body, allowed_urls=allowed_urls, source_text=source_text)
+    added = _numbers(new_desc + new_body) - _numbers(desc + body)
+    if remaining or added or len(new_body) < 0.6 * len(body):
+        why = [c for c, _ in remaining][:5] or (["新增了数字 " + ", ".join(sorted(added)[:5])] if added else ["删改后篇幅过短"])
+        print(f"❌ {label}删改后仍不合格（{'; '.join(why)}），跳过本篇")
+        return None
+    print(f"✅ {label}删改后通过事实规则检查")
+    return _join_generated(title, new_desc, new_body)
+
+
 def process_and_save_article(article_content, topic, label=""):
     """文章后处理通用流程：硬质量门槛 -> Amazon链接 -> 保存。
 
@@ -1692,8 +1655,9 @@ def process_and_save_article(article_content, topic, label=""):
     MIN_CHARS = 1500  # 历史问题：80% 文章 < 200 字。强制下限避免再产出薄内容
     title, _ = extract_title(article_content)
 
-    # Gate 1: title 提取失败
-    if not title or title in ("默认标题", "---") or title.startswith("##"):
+    # Gate 1: title 提取失败（含把标签或导读引用块误当标题的情况）
+    if (not title or title in ("默认标题", "---") or title.startswith(("#", ">", "<"))
+            or "📚" in title or re.search(r"</?(?:TITLE|BODY|DESCRIPTION)>", title, re.IGNORECASE)):
         print(f"❌ {label}标题提取失败（得到 '{title}'），跳过本篇不写入仓库")
         return False
 
@@ -1715,6 +1679,10 @@ def process_and_save_article(article_content, topic, label=""):
             return False
     except Exception as e:
         print(f"⚠️  重名检查跳过（非致命）：{e}")
+
+    article_content = enforce_fact_rules(article_content, label=label)
+    if article_content is None:
+        return False
 
     try:
         check_content_quality(article_content, title, topic['specific_topic'])
@@ -1815,9 +1783,21 @@ def main():
         try:
             news_items = fetch_coffee_news()
             trending = evaluate_news_worthiness(news_items)
+            if trending and not news_has_facts(trending):
+                # Google News RSS 的「摘要」通常只是标题加媒体名。只能用新闻原文事实的规则下，
+                # 只有标题写不出有内容的文章，旧版就是在这里编造了数据表和引语。
+                print(f"\n📋 热点「{trending['title'][:40]}」只有标题、没有可用的事实，跳过热点文章")
+                trending = None
             if trending:
                 print(f"\n🔥 发现值得分析的热点: {trending['title'][:60]}")
                 trending_content = generate_trending_article(trending)
+                if trending_content:
+                    trending_content = enforce_fact_rules(
+                        trending_content,
+                        allowed_urls=[trending["link"]],
+                        source_text=f"{trending['title']}\n{trending.get('summary', '')}",
+                        label="热点文章：",
+                    )
                 if trending_content:
                     try:
                         trending_content = validate_and_update_amazon_links(trending_content)
