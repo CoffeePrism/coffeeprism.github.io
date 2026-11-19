@@ -45,8 +45,8 @@ type: "page"
 如果你**喝完咖啡 6 小时还睡不着**——你大概率是慢代谢型，下午 2 点之后就别喝了。
 
 📖 **深读**：
-- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2026-01-15-182847-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-de7f3e88/)
-- [从清晨唤醒到健康守护：解码咖啡因的科学密码](/posts/2025-09-27-181526-cong-qing-chen-huan-xing-dao-jian-kang-shou-hu-jie-d0f0be7b/)
+- [咖啡因的生理作用与适宜摄入量：从科学到实践的完整指南](/posts/2025-12-28-182031-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-209cdb84/)
+- [从清晨唤醒到健康守护：解码咖啡因的科学密码](/posts/2025-12-28-182031-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-209cdb84/)
 
 ---
 

@@ -177,6 +177,6 @@ topic_seed: "冷萃咖啡的制作与风味特点"
 - [中国新兴咖啡品牌发展全攻略：从市场突围到品质革命](/posts/2025-12-07-181811-zhong-guo-xin-xing-ka-pei-pin-pai-fa-zhan-quan-gon-10330622/)
 - [全球咖啡地图：不同国家的咖啡饮用习惯深度解析](/posts/2026-01-10-181926-quan-qiu-ka-pei-di-tu-bu-tong-guo-jia-de-ka-pei-yi-73f8a1a5/)
 - [咖啡产地旅行指南：探索全球精品产区的完整攻略](/posts/2025-12-13-181734-ka-pei-chan-di-lu-xing-zhi-nan-tan-suo-quan-qiu-ji-011f8e01/)
-- [咖啡因的生理作用与适宜摄入量：从科学认知到日常实践](/posts/2025-11-02-181547-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-008ef72b/)
+- [咖啡因的生理作用与适宜摄入量：从科学认知到日常实践](/posts/2025-12-28-182031-ka-pei-yin-de-sheng-li-zuo-yong-yu-gua-yi-she-ru-l-209cdb84/)
 
 <!-- related-reading-end -->
