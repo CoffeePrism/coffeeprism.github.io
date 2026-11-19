@@ -199,7 +199,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/ka-pei-yu-yi-zhu-de-jiao-rong-s
 
 ## 相关阅读
 
-- [> 📚 想要系统化的纯净版本？看 [咖啡豆完全指南](/coffee-beans/) — 一篇页面把这个领域的核心知识全串起来。](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka/)
+- [咖啡与艺术的交融深度解析与实用指南](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka/)
 - [咖啡与艺术的交融深度解析与实用指南](/posts/ka-pei-yu-yi-zhu-de-jiao-rong-shen-du-jie-xi-yu-sh/)
 - [咖啡与艺术的交融深度解析与灵感指南](/posts/ka-pei-yu-yi-zhu-de-jiao-rong-shen-du-jie-xi-yu-li/)
 - [咖啡与艺术的交融深度解析指南](/posts/ka-pei-yu-yi-zhu-de-jiao-rong-shen-du-jie-xi-zhi-n/)

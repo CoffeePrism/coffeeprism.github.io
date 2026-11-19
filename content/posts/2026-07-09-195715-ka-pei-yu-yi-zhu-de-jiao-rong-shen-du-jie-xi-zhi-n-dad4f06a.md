@@ -199,7 +199,7 @@ M Stand 擅长用工业风和摄影感构图形成强视觉辨识度，Seesaw �
 
 ## 相关阅读
 
-- [> 📚 想要系统化的纯净版本？看 [咖啡豆完全指南](/coffee-beans/) — 一篇页面把这个领域的核心知识全串起来。](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka/)
+- [咖啡与艺术的交融深度解析与实用指南](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka/)
 - [咖啡与艺术的交融深度解析与实用指南](/posts/ka-pei-yu-yi-zhu-de-jiao-rong-shen-du-jie-xi-yu-sh/)
 - [咖啡与艺术的交融：从拉花到生活的美学实践](/posts/2025-12-14-181908-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-shen-1cc74d0d/)
 - [咖啡与艺术的交融：从拉花到策展的创意实践](/posts/2025-12-08-182113-ka-pei-yu-yi-zhu-de-jiao-rong-cong-la-hua-dao-ce-z-ee2cb15e/)

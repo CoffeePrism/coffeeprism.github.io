@@ -147,8 +147,8 @@ topic_seed: "结合咖啡的美食之旅"
 
 ## 相关阅读
 
-- [> 📚 想要系统化的纯净版本？看 [咖啡豆完全指南](/coffee-beans/) — 一篇页面把这个领域的核心知识全串起来。](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka-13f4b7/)
-- [> 📚 想要系统化的纯净版本？看 [咖啡豆完全指南](/coffee-beans/) — 一篇页面把这个领域的核心知识全串起来。](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka-083e5b/)
+- [烘焙曲线升温太快会怎样？深度解析与补救指南](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka-13f4b7/)
+- [爪哇咖啡豆怎么选：产区风味与避坑完全攻略](/posts/xiang-yao-xi-tong-hua-de-chun-jing-ban-ben-kan-ka-083e5b/)
 - [中国新兴咖啡品牌的发展深度解析指南](/posts/zhong-guo-xin-xing-ka-pei-pin-pai-de-fa-zhan-shen/)
 - [咖啡与心脏健康的科学真相：你需要知道的全部知识](/posts/2025-12-24-182044-ka-pei-yu-xin-zang-jian-kang-de-ke-xue-zhen-xiang-916af751/)
 
