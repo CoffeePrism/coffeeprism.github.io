@@ -1,270 +1,154 @@
 ---
 toc: true
-title: "咖啡豆入门指南：种类、产区、处理法与烘焙度怎么选"
-description: "咖啡豆怎么选？讲清阿拉比卡与罗布斯塔的区别、埃塞俄比亚、哥伦比亚等主要产区的风味、水洗与日晒处理法，以及烘焙度和新鲜度怎么看。"
-keywords: ["咖啡豆", "阿拉比卡", "罗布斯塔", "咖啡产区", "瑰夏", "处理法", "烘焙度", "咖啡品种"]
+title: "咖啡豆怎么选？种类、产区、处理法、烘焙度对照表"
+description: "咖啡豆怎么选：先看烘焙日期，再按冲煮方式选烘焙度，按想喝的风味选处理法和产区。用对照表讲清阿拉比卡与罗布斯塔、主要产区、水洗/日晒/蜜处理和浅焙到深焙的区别，附包装标签清单。"
+keywords: ["咖啡豆", "咖啡豆怎么选", "阿拉比卡", "罗布斯塔", "咖啡产区", "瑰夏", "处理法", "烘焙度", "咖啡品种"]
 date: 2026-05-02
-lastmod: 2026-05-02
+lastmod: 2026-11-24
 type: "page"
 ---
 
+**挑咖啡豆按这个顺序看：先看烘焙日期，买最近烘焙的整豆；再按冲煮方式选烘焙度，手冲多选浅到中焙，意式和加奶多选中到深焙；最后按想喝的风味选处理法和产区，想要干净、酸度清楚就选水洗，想要更甜、果香更重就选日晒或蜜处理。** 下面每一步都有一张对照表，数字都标了出处，来源列在文末。
 
-如果你只想喝一杯能喝的咖啡，**任何一包豆子都行**。
-如果你想让每一杯都好喝，**必须从豆子开始懂**。
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/)
 
-这篇指南把咖啡豆的所有关键变量——**物种、品种、产区、处理法、烘焙度、新鲜度**——按你做决定的顺序串起来。每一个小节末尾都链接到我们写过的深度文章，你可以挑感兴趣的章节深读。
+## 阿拉比卡和罗布斯塔有什么区别？
 
-> 📘 想要 75 页系统化的 PDF 实战手册？看 [《咖啡冲煮完全指南 2026》](/guide/comprehensive/) — 25,000 字 + 7 张原创图表 + 参数速查表，$3.99，7 天无理由退款。
+精品咖啡豆几乎都是阿拉比卡。罗布斯塔更苦、更醇厚，咖啡因更高，多用在速溶咖啡和意式拼配里。市面上的咖啡基本都来自这两个物种：利比里卡（Liberica）和埃克塞尔萨（Excelsa）加起来的产量估计不到 1,000 吨，按 2025 年发表在《自然·植物》上的一项研究，只占全球咖啡出口的约 0.01%（[Daily Coffee News 报道](https://dailycoffeenews.com/2025/08/21/study-says-liberica-and-excelsa-are-separate-species-with-implications-for-cultivation/)）。
 
----
-
-## 一、咖啡豆是什么——先把基础理清
-
-**严格地说，咖啡豆不是豆**——它是咖啡树果实（咖啡樱桃）里的种子。每颗樱桃通常有两颗对称排列的种子，大约 5% 的樱桃只有一颗圆形种子，行业叫 **圆豆（Peaberry）**，风味通常更集中。
-
-全球 95% 以上的商业咖啡来自两个物种：
-
-### 阿拉比卡（Coffea arabica）—— 占全球产量约 60%
-
-- 起源于埃塞俄比亚高原
-- 适合海拔 **900–2000 米**
-- 风味层次丰富、酸度明亮、甜感好
-- 咖啡因含量低（约 1.2–1.5%）
-- 对病虫害敏感，种植成本高
-- **几乎所有精品咖啡都是阿拉比卡**
-
-### 罗布斯塔（Coffea canephora，商名 Robusta）—— 占全球产量约 40%
-
-- 原产于非洲中西部
-- 适合海拔 **200–900 米** 的低地
-- 风味偏苦、木质、橡胶感
-- 咖啡因含量高（约 2.2–2.7%，几乎是阿拉比卡的两倍）
-- 抗病、产量高、成本低
-- **常用于即溶咖啡、意式拼配豆**
-
-**一句话区分**：阿拉比卡追求风味，罗布斯塔追求产量与强度。
-
-📖 **深读**：
-- [阿拉比卡与罗布斯塔的区别与特点：从品种到风味的终极指南](/posts/2025-12-19-182009-a-la-bi-qia-yu-luo-bu-si-ta-de-qu-bie-yu-te-dian-c-2aeef5a9/)
-- [阿拉比卡与罗布斯塔：从基因密码到杯中风味的深度解码](/posts/2025-05-22-182109-mo-ren-biao-ti-ac6f09b4/)
-- [探秘咖啡世界：阿拉比卡与罗布斯塔的区别与魅力](/posts/2025-04-18-033645-tan-mi-ka-pei-shi-jie-a-la-bi-qia-yu-luo-bu-si-ta-de-qu-bie-yu-mei-li-170df25e/)
-
----
-
-## 二、阿拉比卡的品种树——精品咖啡的核心战场
-
-阿拉比卡之下还有数百个亚品种（varieties）。在精品咖啡里，你会反复听到这几个名字：
-
-| 品种 | 代表产地 | 风味特征 |
+| | 阿拉比卡 Arabica（*Coffea arabica*） | 罗布斯塔 Robusta（*Coffea canephora*） |
 |---|---|---|
-| **Typica 铁皮卡** | 全球广泛 | 温和平衡、经典风味 |
-| **Bourbon 波旁** | 中南美 | 甜感突出、果香 |
-| **Geisha / Gesha 瑰夏** | 巴拿马、埃塞 | 茉莉花、佛手柑、极高酸质 |
-| **SL28 / SL34** | 肯尼亚 | 黑加仑、番茄、浓郁酸甜 |
-| **Caturra 卡杜拉** | 哥伦比亚、巴西 | 果酸明显、产量高 |
-| **Pacamara 帕卡玛拉** | 萨尔瓦多 | 大颗粒、风味独特 |
+| 占全球产量 | 2025/26 产季约 53%，2026/27 预测约 56% | 2025/26 产季约 47%，2026/27 预测约 44% |
+| 来历 | 由 *C. canephora* 和野生种 *C. eugenioides* 自然杂交形成，起源于埃塞俄比亚 | 原生物种，本身就是阿拉比卡的亲本之一 |
+| 种植环境 | 偏好山地，例如肯尼亚的产区在海拔 1,400–2,200 米 | 偏好低海拔 |
+| 生豆咖啡因（干重） | 约 0.9%–1.5% | 约 1.2%–2.4% |
+| 常见风味 | 酸度明亮，花香、果香，层次多 | 苦味重，木质、坚果、可可感，醇厚 |
+| 常见用途 | 单品手冲、精品意式 | 速溶咖啡、意式拼配、越南滴滤咖啡 |
 
-**瑰夏（Geisha）** 值得单独说——2004 年巴拿马翡翠庄园（Hacienda La Esmeralda）用瑰夏拿下 BOP 冠军后，这个品种成了精品咖啡的代名词。优质瑰夏在拍卖会上能拍到 **每磅数千美元**。
+产量占比是按[美国农业部（USDA）2026 年 7 月的《咖啡：世界市场与贸易》报告](https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf)里的产量算的。巴西的阿拉比卡有大小年，所以这个比例每年都在变。杂交来历见[世界咖啡研究组织（WCR）](https://worldcoffeeresearch.org/news/2020/study-all-arabica-derived-from-a-single-ancestral-plant)，起源地见[法国农业国际合作研究发展中心（CIRAD）](https://www.cirad.fr/en/press-area/press-releases/2020/arabica-coffee-super-individual-limited-genetic-diversity)，咖啡因数据见 [Olechno 等人 2021 年的综述](https://pmc.ncbi.nlm.nih.gov/articles/PMC8228209/)。
 
-📖 **深读**：
-- [巴拿马翡翠庄园的瑰夏咖啡：从品种传奇到冲煮艺术的完全指南](/posts/2025-10-28-182018-ba-na-ma-fei-cui-zhuang-yuan-de-gui-xia-ka-pei-con-b96d6c27/)
-- [翡翠庄园瑰夏：解密咖啡界的香槟传奇](/posts/2025-07-17-182120-fei-cui-zhuang-yuan-gui-xia-jie-mi-ka-pei-jie-de-x-0709d9fa/)
-- [稀有咖啡品种及其价值：从产地到杯中的完整指南](/posts/2025-11-24-182127-xi-you-ka-pei-pin-chong-ji-qi-jie-zhi-cong-chan-di-7d60e176/)
-- [寻豆之旅：全球稀有咖啡品种的味觉密码与收藏价值](/posts/2025-06-29-181924-xun-dou-zhi-lu-quan-qiu-xi-you-ka-pei-pin-chong-de-33810b23/)
+延伸阅读：[阿拉比卡和罗布斯塔的详细对比](/posts/2025-12-19-182009-a-la-bi-qia-yu-luo-bu-si-ta-de-qu-bie-yu-te-dian-c-2aeef5a9/)
 
----
+## 精品咖啡里常见的品种有哪些？
 
-## 三、产区与风味——咖啡带的全球地图
+阿拉比卡下面还有很多品种（variety）。下表的来历以[世界咖啡研究组织的品种目录](https://varieties.worldcoffeeresearch.org/arabica/varieties)为准；风味一栏是杯测里常见的描述，同一个品种换了产地和处理法，味道会差很多。
 
-咖啡产区位于南北回归线之间的 **"咖啡带（Coffee Belt）"**。我们把它分三个大区：
+| 品种 | 来历 | 常见风味描述 |
+|---|---|---|
+| 铁皮卡 Typica | 据信源自埃塞俄比亚西南部，经也门、印度、爪哇传到欧洲和美洲；20 世纪 40 年代以前，中南美洲的咖啡园大多种它 | 干净、温和 |
+| 波旁 Bourbon | 18 世纪初，法国传教士把它从也门带到波旁岛（今留尼汪），之后传到巴西 | 甜感好、圆润 |
+| 瑰夏 Gesha / Geisha | 20 世纪 30 年代采自埃塞俄比亚的森林，1953 年进入哥斯达黎加的热带农业研究与高等教育中心（CATIE），60 年代在巴拿马推广 | 茉莉花香、柑橘、茶感 |
+| SL28 | 1935 年在肯尼亚的斯科特农业实验室（Scott Agricultural Laboratories）从一棵树选育出来 | 黑醋栗、浓郁的果酸 |
+| SL34 | 20 世纪 30 年代末由同一实验室选出，母树在卡贝特（Kabete）的洛雷绍庄园（Loresho Estate） | 果酸明亮、醇厚 |
+| 卡杜拉 Caturra | 波旁的自然突变，在巴西米纳斯吉拉斯州的一个农场发现 | 酸度明亮，近似波旁 |
+| 帕卡马拉 Pacamara | 萨尔瓦多咖啡研究所（ISIC）用帕卡斯（Pacas）和象豆（Maragogipe）杂交育成 | 豆粒大，风味鲜明 |
 
-### 🌍 非洲产区——花香、果酸、复杂
+**瑰夏为什么贵？** 它的名气来自巴拿马。翡翠庄园（Hacienda La Esmeralda）的瑰夏在 2004 年的"巴拿马最佳咖啡"（Best of Panama）比赛中夺冠，以每磅 21 美元成交，是当时生豆拍卖的最高价（[Daily Coffee News](https://dailycoffeenews.com/2018/07/20/natural-geisha-breaks-best-of-panama-auction-record-at-803-per-pound)）。2025 年，同一庄园的一批水洗瑰夏拍出每公斤 30,204 美元，约合每磅 13,705 美元，至今仍是这项拍卖的纪录（[Sprudge](https://sprudge.com/a-panama-gesha-broke-price-records-again-390362.html)）。拍卖价只代表顶级竞赛批次，普通瑰夏的零售价要低得多。
 
-非洲咖啡通常以**明亮酸度 + 复杂水果风味**著称。
+延伸阅读：[翡翠庄园与巴拿马瑰夏](/posts/2025-10-28-182018-ba-na-ma-fei-cui-zhuang-yuan-de-gui-xia-ka-pei-con-b96d6c27/)
 
-#### 埃塞俄比亚 — 咖啡的故乡
+## 主要产区的咖啡豆是什么味道？
 
-境内野生咖啡品种仍在不断被发现，遗传多样性冠绝全球。主要产区：耶加雪菲（Yirgacheffe）、西达摩（Sidamo）、古吉（Guji）、哈拉尔（Harrar）。
+产区决定风味的大方向：东非的埃塞俄比亚和肯尼亚多花香和明亮的果酸，中南美多坚果、巧克力，口感均衡，印尼苏门答腊厚重、酸低。产量上，[美国农业部](https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf)预测 2026/27 产季巴西第一（占全球产量近四成），越南第二（也是最大的罗布斯塔生产国和第二大出口国），哥伦比亚第三，埃塞俄比亚第四，印度尼西亚第五。
 
-📖 **深读**：
-- [埃塞俄比亚咖啡豆的多样性深度解析指南](/posts/ai-sai-e-bi-ya-ka-pei-dou-de-duo-yang-xing-shen-du/)
-- [咖啡基因库的觉醒：解码埃塞俄比亚咖啡豆的千面风味](/posts/2025-08-13-182310-ka-pei-ji-yin-ku-de-jue-xing-jie-ma-ai-sai-e-bi-ya-2a65e576/)
-- [探索单一产地咖啡豆的风味密码：从埃塞俄比亚到云南的味觉之旅](/posts/2025-08-25-181917-mo-ren-biao-ti-80a0f175/)
-
-#### 肯尼亚 — SL28 / SL34 的家
-
-风味关键词：**黑加仑、黑醋栗、番茄、葡萄柚**。等级 AA > AB > C > PB（圆豆），AA 代表豆径最大。肯尼亚咖啡的酸是所有产区里最难模仿的。
-
-📖 **深读**：
-- [深度解析：肯尼亚 AA 咖啡豆的独特风味](/posts/2026-01-20-182629-shen-du-jie-xi-ken-ni-ya-aaka-pei-dou-de-du-te-fen-e8459ac8/)
-- [肯尼亚 AA 咖啡豆：东非高原的黑色宝石与味觉革命](/posts/2025-09-23-182144-ken-ni-ya-aaka-pei-dou-dong-fei-gao-yuan-de-hei-se-4f21a80c/)
-
-### 🌎 中南美产区——均衡、稳定、平易近人
-
-中南美洲咖啡是**均衡派**的代表，适合新手入门。
-
-#### 哥伦比亚 — 全球第三大生产国
-
-风味关键词：**坚果、巧克力、红苹果、均衡**。慧兰（Huila）、娜玲珑（Nariño）、考卡（Cauca）是知名产区。
-
-📖 **深读**：
-- [哥伦比亚咖啡豆的特色与历史：从产地到杯中的完整指南](/posts/2026-01-08-181924-ge-lun-bi-ya-ka-pei-dou-de-te-se-yu-li-shi-cong-ch-fb9d70d2/)
-- [哥伦比亚咖啡豆：丰富风味与悠久历史的完美结合](/posts/2025-04-18-042639-ge-lun-bi-ya-ka-pei-dou-feng-fu-feng-wei-yu-you-jiu-li-shi-de-wan-mei-jie-he-905a3c71/)
-
-#### 巴西 — 全球最大产国，意式拼配的主力
-
-低酸、高醇厚度、坚果与巧克力风味。喜拉多（Cerrado）、南米纳斯（Sul de Minas）是旗舰。
-
-📖 **深读**：
-- [巴西咖啡丰收引发咖啡豆价格下跌：中国咖啡供应链会迎来真正的降本窗口吗？](/posts/2026-04-21-072409-trending-ba-xi-ka-pei-feng-shou-yin-fa-ka-pei-dou-jie-ge-xi-233344b1/)
-
-#### 巴拿马 — 瑰夏的圣地
-
-顶级瑰夏（Geisha Naturals）拍卖价曾突破 **10,000 美元/磅**。
-
-📖 **深读**：
-- [巴拿马翡翠庄园的瑰夏咖啡深度解析与选购指南](/posts/ba-na-ma-fei-cui-zhuang-yuan-de-gui-xia-ka-pei-she/)
-
-### 🌏 亚洲与太平洋产区——厚重、独特
-
-#### 印度尼西亚 — 苏门答腊曼特宁
-
-以**湿刨法（Wet Hulling）**闻名：草本、木质、泥土、低酸、厚实、苦甜巧克力。
-
-#### 越南 — 全球第二大咖啡出口国
-
-罗布斯塔为主，独特的"越南滴滤咖啡"文化（炼乳 + 深烘）。
-
-📖 **深读**：
-- [越南滴滤咖啡的独特魅力：从文化底蕴到冲煮艺术的完全指南](/posts/2025-12-13-181751-yue-nan-di-lu-ka-pei-de-du-te-mei-li-cong-wen-hua-97b68ff2/)
-- [时光沉淀的醇香：解密越南滴滤咖啡的慢萃哲学](/posts/2025-07-26-181906-shi-guang-chen-dian-de-chun-xiang-jie-mi-yue-nan-d-eddfa9ff/)
-
-#### 中国云南 — 近 15 年崛起的精品咖啡产区
-
-保山、普洱、临沧为主。Catimor 占大多数，但精品庄园开始引入 SL28、瑰夏。
-
-📖 **深读**：
-- [云南小粒咖啡的发展与特点：从产地到杯中的完整指南](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/)
-- [北回归线的红宝石：云南小粒咖啡的百年蜕变与风味密码](/posts/2025-10-10-181849-mo-ren-biao-ti-c81ee9d2/)
-- [云南小粒咖啡：中国咖啡原产地的觉醒与风味密码](/posts/2025-08-17-182302-yun-nan-xiao-li-ka-pei-zhong-guo-ka-pei-yuan-chan-07890e29/)
-
----
-
-## 四、处理法——比品种影响更大
-
-采下来的咖啡樱桃要经过"处理"——把果肉果皮黏液去掉，留下干燥的种子。**处理法对最终风味的影响，甚至超过品种本身**。
-
-### 1. 水洗（Washed / Wet Process）
-
-去果皮 → 发酵槽 12–36 小时 → 清水冲洗 → 干燥。
-**风味关键词**：干净（Clean）、酸度明亮、风味层次分明。
-**典型产区**：中美洲、肯尼亚。
-
-### 2. 日晒（Natural / Dry Process）
-
-整颗樱桃直接晾晒 14–30 天。
-**风味关键词**：甜感强烈、浆果、红酒、发酵感。
-**典型产区**：埃塞俄比亚（耶加雪菲日晒）、巴西。
-
-### 3. 蜜处理（Honey Process）
-
-去果皮但保留一定比例的黏液，再晾晒。按保留量分白蜜、黄蜜、红蜜、黑蜜。**典型产区**：哥斯达黎加、巴拿马。
-
-### 4. 厌氧发酵（Anaerobic Fermentation）
-
-樱桃装入密封罐，缺氧发酵 48–120 小时。
-**风味关键词**：威士忌、肉桂、菠萝、热带水果。
-**典型产区**：哥伦比亚、哥斯达黎加、云南精品庄园。
-
-> **新手建议**：先从水洗开始建立"干净咖啡"的味觉基准，再去尝日晒、蜜处理、厌氧。
-
----
-
-## 五、烘焙度——风味的第二大变量
-
-同一颗豆子，烘成浅焙和深焙是两个完全不同的东西。
-
-| 烘焙度 | Agtron 值 | 风味特征 | 适合方式 |
+| 产区 | 常见产地 | 常见风味 | 补充 |
 |---|---|---|---|
-| **极浅焙** | 95+ | 酸亮、花香、果香、轻盈 | 手冲、杯测 |
-| **浅焙** | 75–85 | 酸度明亮、风味层次最丰富 | 手冲为主 |
-| **中浅焙** | 65–75 | 平衡、甜感好、酸甜兼具 | 手冲 + 部分意式 |
-| **中焙** | 55–65 | 醇厚、平衡、坚果巧克力 | 通用 |
-| **中深焙** | 45–55 | 焦糖、可可、低酸 | 意式、拿铁 |
-| **深焙** | 35–45 | 烟熏、苦巧克力、低酸 | 意式、奶咖 |
+| 埃塞俄比亚 Ethiopia | 耶加雪菲 Yirgacheffe、西达摩 Sidamo、古吉 Guji、哈拉尔 Harrar | 花香、柑橘、莓果 | 阿拉比卡的起源地 |
+| 肯尼亚 Kenya | 涅里 Nyeri、基里尼亚加 Kirinyaga、基安布 Kiambu | 黑醋栗、葡萄柚，酸度高而明亮 | 按豆子大小分级：AA 留在 18 目筛（7.2 毫米）上，AB 留在 16 目筛（6.35 毫米）上，PB 是圆豆 |
+| 哥伦比亚 Colombia | 慧兰 Huila、纳里尼奥 Nariño、考卡 Cauca | 焦糖、坚果、红苹果，均衡 | |
+| 巴西 Brazil | 喜拉多 Cerrado、南米纳斯 Sul de Minas | 坚果、巧克力，酸低、醇厚 | 意式拼配常用 |
+| 巴拿马 Panama | 博克特 Boquete | 瑰夏的花香和柑橘调 | 见上一节 |
+| 印度尼西亚 Indonesia（苏门答腊） | 曼特宁 Mandheling | 草本、香料、泥土感，醇厚、酸低 | 常用湿刨法，见下一节 |
+| 越南 Vietnam | | 以罗布斯塔为主：苦、醇厚 | 越南滴滤咖啡常加炼乳 |
+| 中国云南 Yunnan | 普洱、临沧、保山、德宏、西双版纳 | 坚果、红糖、柑橘 | 中国约 98% 的咖啡产自云南；传统种植以卡蒂莫（Catimor）系品种为主 |
 
-📖 **深读**：
-- [咖啡风味密码破解：烘焙度对咖啡风味的影响完全指南](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
-- [解锁咖啡风味密码：从浅烘到深烘的味觉之旅](/posts/2025-05-05-181451-jie-suo-ka-pei-feng-wei-mi-ma-cong-qian-hong-dao-s-2f9380b8/)
-- [烘焙度：解锁咖啡风味的黄金密码](/posts/2025-05-06-181817-hong-bei-du-jie-suo-ka-pei-feng-wei-de-huang-jin-m-2297eef6/)
+肯尼亚的分级见[国际咖啡组织（ICO）的肯尼亚咖啡概况](https://ico.org/documents/cy2018-19/icc-124-7e-profile-kenya.pdf)，云南的占比见[新华社 2025 年的报道](https://english.www.gov.cn/archive/statistics/202502/25/content_WS67bd5f34c6d0868f4e8eff30.html)。
 
----
+延伸阅读：[埃塞俄比亚耶加雪菲](/coffee-beans/ethiopian-yirgacheffe/) · [肯尼亚 AA](/posts/2026-01-20-182629-shen-du-jie-xi-ken-ni-ya-aaka-pei-dou-de-du-te-fen-e8459ac8/) · [哥伦比亚咖啡豆](/posts/2026-01-08-181924-ge-lun-bi-ya-ka-pei-dou-de-te-se-yu-li-shi-cong-ch-fb9d70d2/) · [云南小粒咖啡](/posts/2025-11-21-181916-yun-nan-xiao-li-ka-pei-de-fa-zhan-yu-te-dian-cong-e636a59f/) · [越南滴滤咖啡](/posts/2025-12-13-181751-yue-nan-di-lu-ka-pei-de-du-te-mei-li-cong-wen-hua-97b68ff2/)
 
-## 六、新鲜度与保存——你买的"保质期 24 个月"是个误导
+## 水洗、日晒、蜜处理有什么区别？
 
-**烘焙后的咖啡豆有保质期，但和包装上的「保质期 24 个月」无关**。真正决定风味的是**风味巅峰期**：
+处理法就是把咖啡果的果皮、果肉去掉、把种子干燥的方法，它对风味影响很大：水洗的咖啡通常更干净、酸度更清楚，日晒的更甜，果香和发酵感更重。
 
-| 时间 | 状态 |
+| 处理法 | 怎么做 | 风味倾向 | 常见产地 |
+|---|---|---|---|
+| 水洗 Washed | 去掉果皮果肉，靠发酵或酶去掉黏液，洗净后干燥 | 干净、酸度明亮 | 肯尼亚、哥伦比亚、中美洲 |
+| 日晒 Natural | 整颗咖啡果直接晒干再脱壳，晒干要 10 天到 3 周 | 甜，浆果、红酒、发酵感 | 埃塞俄比亚、巴西 |
+| 蜜处理 Honey | 去掉果皮，留着黏液一起晒，晒到含水量 11%–12% | 介于水洗和日晒之间，甜感好 | 哥斯达黎加、巴拿马 |
+| 湿刨 Wet-hulled | 带壳豆在含水量还有 35%–45% 时就脱壳，再继续干燥 | 厚重、酸低、泥土和香料感 | 印度尼西亚 |
+| 厌氧发酵 Anaerobic | 把咖啡果或去皮的豆子放进密封、少氧的容器里发酵，通常一到几天，没有统一标准 | 浓烈的热带水果、酒感、香料感 | 哥伦比亚、哥斯达黎加等 |
+
+日晒和蜜处理的做法见 [Haile 和 Kang 2019 年的综述](https://cdn.intechopen.com/pdfs/70151.pdf)。湿刨法见[联合国粮农组织（FAO）等机构对曼特宁风味的研究](https://www.fao.org/fileadmin/user_upload/agns/pdf/coffee/Annex-E.6.pdf)；这项研究也指出，曼特宁的风味和湿刨法到底有多大关系，目前还没有定论。厌氧发酵的一个实验例子见 [Molecules 2022 年的论文](https://pmc.ncbi.nlm.nih.gov/articles/PMC8954866/)。
+
+**想尝出处理法的差别：** 买同一产区的一支水洗豆和一支日晒豆，用同样的参数冲，对比着喝。
+
+## 浅焙和深焙怎么选？
+
+手冲想喝出产地风味，选浅到中焙；做意式、加奶，选中到深焙。烘焙越深，酸越少，苦味和焦糖、可可味越重。
+
+| 烘焙度 | 大致对应的 Agtron 色卡 | 风味 | 适合 |
+|---|---|---|---|
+| 浅焙 | #95–#75 | 酸亮、花香、果香 | 手冲、杯测 |
+| 中焙 | #65–#55 | 酸甜平衡、焦糖、坚果 | 手冲、美式、部分意式 |
+| 中深焙 | #45 | 可可、焦糖，酸低 | 意式、拿铁 |
+| 深焙 | #35–#25 | 苦、烟熏、黑巧克力 | 意式、奶咖 |
+
+精品咖啡协会（SCA）用的 Agtron 烘焙色卡共 8 片，编号从 #95（很浅）到 #25（很深），每片相差 10（[HunterLab 的介绍](https://www.hunterlab.com/en/blog/what-are-the-scaa-roast-coffee-standards/)）。表里浅、中、深的划分是大致对应，各家烘焙商的"中焙"差别很大，包装上的风味描述往往比"中焙"两个字更有参考价值。
+
+延伸阅读：[烘焙度对风味的影响](/posts/2025-12-10-182123-ka-pei-feng-wei-mi-ma-po-jie-hong-bei-du-dui-ka-pe-9ef4b7fa/)
+
+## 咖啡豆买回来多久喝完？怎么保存？
+
+整豆最好在烘焙后大约 3 周内喝完，磨成粉以后风味大约只能保持 1 小时，所以尽量现磨现冲（[SCA](https://sca.coffee/sca-news/coffee-decoded-9-fresh-coffee)）。保存要密封、避光，放在阴凉处，一次少买一点（[美国国家咖啡协会 NCA](https://www.aboutcoffee.org/beans/storage-and-shelf-life/)）。
+
+美国国家咖啡协会给的保存时间：
+
+| 状态 | 保存时间 |
 |---|---|
-| 烘焙后 0–3 天 | 排气期，风味未稳定 |
-| **烘焙后 4–21 天** | **风味巅峰** |
-| 烘焙后 21–60 天 | 风味开始衰减但仍可接受 |
-| 烘焙后 60 天+ | 明显陈化，酸质下降，木质感上升 |
+| 咖啡豆，常温 | 1–3 周 |
+| 咖啡豆，冷藏 | 2 周 |
+| 咖啡豆，冷冻 | 3–4 个月 |
+| 咖啡粉，常温 | 1–2 周 |
 
-### 储存要点
-- 不透明密封罐（有单向排气阀更好）
-- 避光、干燥、常温（15–25 ℃）
-- **不要放冰箱**——反复进出温差导致水汽凝结
-- **研磨后氧化速度比整豆快 30 倍以上**——始终现冲现磨
+两家机构的说法不矛盾：精品咖啡协会说的是"风味最新鲜"的时间，咖啡协会这张表说的是"还能喝"的时间。要不要放冰箱或冷冻，业内看法不一，因为咖啡豆会吸潮、吸异味；真要冷冻，一定用完全密封的容器。
 
-📖 **深读**：
-- [烘焙咖啡的保鲜与储存完全指南：从新手到行家的必修课](/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/)
-- [咖啡豆的生命周期：从烘焙到保鲜的完整科学指南](/posts/2025-07-03-182419-mo-ren-biao-ti-f01bf39a/)
-- [解锁咖啡风味的黄金法则：从烘焙到储存的完整保鲜指南](/posts/2025-06-03-181914-jie-suo-ka-pei-feng-wei-de-huang-jin-fa-ze-cong-ho-b57c0abe/)
+延伸阅读：[咖啡豆的保鲜和储存](/posts/2026-01-05-182242-hong-bei-ka-pei-de-bao-xian-yu-chu-cun-wan-quan-zh-70ef1729/)
 
----
+## 包装上要看哪些信息？
 
-## 七、怎么挑、怎么买——一包好豆子的包装上必有这些信息
+一包信息完整的咖啡豆，包装上通常会写：
 
-一包真正的精品咖啡，包装上**至少**应该标注：
+1. **烘焙日期**：不是保质期。没有烘焙日期，就没法判断豆子新不新鲜。
+2. **国家和产区**：能写到庄园或合作社更好。
+3. **品种**：比如瑰夏、波旁、SL28。
+4. **处理法**：水洗、日晒、蜜处理等。
+5. **烘焙度**
+6. **风味描述**：比如"柑橘、茉莉花、红茶"。
 
-1. **烘焙日期**（不是保质期！）
-2. **国家 / 产区 / 庄园**（越具体越好）
-3. **品种**（Variety）
-4. **处理法**
-5. **海拔**
-6. **烘焙度**
-7. **风味描述**（Tasting Notes）
+## 接下来看什么？
 
-如果只写"Arabica 100%，保质期 12 个月"——这基本上是商业豆，不是精品。
+- 想把豆子冲好：[咖啡冲泡方法大全](/brewing-methods/)，有手冲、意式、法压壶、摩卡壶、爱乐压和冷萃的参数。
+- 想挑器具：[咖啡器具选购指南](/coffee-equipment/)。
 
-📖 **深读**：
-- [家用咖啡设备的最佳组合完全攻略与选购指南](/posts/jia-yong-ka-pei-she-bei-de-zui-jia-zu-he-wan-quan/)
-- [咖啡产地旅行指南：从庄园到杯测的完全攻略](/posts/2026-04-07-185907-ka-pei-chan-di-lu-xing-zhi-nan-cong-zhuang-yuan-da-ec106a9d/)
+> ☕ **想系统学冲煮？** [《咖啡冲煮完全指南 2026》PDF 电子书 $3.99](/guide/comprehensive/)
 
----
+> ☕ **想练好手冲？** [《手冲咖啡大师之路》PDF 电子书 $4.99](/guide/pourover/)
 
-## 八、把所有这些串起来——下一步看哪些内容
+## 参考资料
 
-读到这里你已经建立了咖啡豆的认知地图。下一步根据兴趣分流：
+- 美国农业部海外农业局（USDA FAS）：[Coffee: World Markets and Trade](https://apps.fas.usda.gov/psdonline/circulars/2026/07/coffee.pdf)（2026 年 7 月）
+- 国际咖啡组织（ICO）：[Country Coffee Profile: Kenya](https://ico.org/documents/cy2018-19/icc-124-7e-profile-kenya.pdf)（2019 年）
+- 世界咖啡研究组织（WCR）：[Arabica 品种目录](https://varieties.worldcoffeeresearch.org/arabica/varieties)，其中的 [Typica](https://varieties.worldcoffeeresearch.org/varieties/typica)、[Bourbon](https://varieties.worldcoffeeresearch.org/varieties/bourbon)、[Geisha (Panama)](https://varieties.worldcoffeeresearch.org/varieties/geisha-panama)、[SL28](https://varieties.worldcoffeeresearch.org/varieties/sl28)、[SL34](https://varieties.worldcoffeeresearch.org/varieties/sl34)、[Caturra](https://varieties.worldcoffeeresearch.org/varieties/caturra)、[Pacamara](https://varieties.worldcoffeeresearch.org/varieties/pacamara) 页面；[阿拉比卡来自一次自然杂交](https://worldcoffeeresearch.org/news/2020/study-all-arabica-derived-from-a-single-ancestral-plant)（2020 年）。WCR 的瑰夏页面把翡翠庄园参赛的年份记为 2005 年，本文采用 Daily Coffee News 的 2004 年。
+- 法国农业国际合作研究发展中心（CIRAD）：[Arabica coffee: a "super individual" with limited genetic diversity](https://www.cirad.fr/en/press-area/press-releases/2020/arabica-coffee-super-individual-limited-genetic-diversity)（2020 年）；[Coffee: plant and uses](https://www.cirad.fr/en/our-activities-our-impact/tropical-value-chains/coffee/plant-and-uses)
+- Olechno 等：[Influence of Various Factors on Caffeine Content in Coffee Brews](https://pmc.ncbi.nlm.nih.gov/articles/PMC8228209/)，*Foods*，2021 年
+- Daily Coffee News：[Best of Panama 拍卖纪录](https://dailycoffeenews.com/2018/07/20/natural-geisha-breaks-best-of-panama-auction-record-at-803-per-pound)（2018 年）；[利比里卡和埃克塞尔萨的研究](https://dailycoffeenews.com/2025/08/21/study-says-liberica-and-excelsa-are-separate-species-with-implications-for-cultivation/)（2025 年）
+- Sprudge：[A Panama Gesha Broke Price Records Again](https://sprudge.com/a-panama-gesha-broke-price-records-again-390362.html)（2025 年）
+- 新华社（中国政府网英文版）：[Yunnan coffee industry](https://english.www.gov.cn/archive/statistics/202502/25/content_WS67bd5f34c6d0868f4e8eff30.html)（2025 年 2 月）
+- Haile 和 Kang：[The Harvest and Post-Harvest Management Practices' Impact on Coffee Quality](https://cdn.intechopen.com/pdfs/70151.pdf)（IntechOpen，2019 年）
+- FAO / CFC / ICO：[Origins of Mandheling Coffee Character](https://www.fao.org/fileadmin/user_upload/agns/pdf/coffee/Annex-E.6.pdf)
+- *Molecules*：[厌氧发酵对咖啡风味影响的研究](https://pmc.ncbi.nlm.nih.gov/articles/PMC8954866/)（2022 年）
+- 精品咖啡协会（SCA）：[Coffee Decoded: What is "freshly roasted" coffee?](https://sca.coffee/sca-news/coffee-decoded-9-fresh-coffee)
+- 美国国家咖啡协会（NCA）：[Coffee storage and shelf life](https://www.aboutcoffee.org/beans/storage-and-shelf-life/)
+- HunterLab：[What are the SCAA roast coffee standards?](https://www.hunterlab.com/en/blog/what-are-the-scaa-roast-coffee-standards/)（2023 年）
 
-### 🔬 想搞懂萃取怎么把这些豆子变成杯中的咖啡
-看 [冲泡方式分类](/brewing-methods/)，里面有手冲 / 意式 / 法压 / 摩卡壶 / 爱乐压 / 冷萃所有方法的实战参数。
-
-### ⚙️ 想了解器具怎么选
-看 [咖啡产品分类](/coffee-equipment/)，包括磨豆机、滤杯、家用 espresso 机、电子秤的对比和推荐。
-
-### 📘 想要一本系统化的纸质（PDF）参考书
-- [《咖啡冲煮完全指南 2026》$3.99](/guide/comprehensive/) — 25,000 字、75 页、13 章，适合零基础到进阶。
-- [《手冲咖啡大师之路》$4.99](/guide/pourover/) — 22,000 字、58 页、6 个 WBrC 冠军配方深度拆解。
-- 两本都支持 **7 天无理由退款**。
-
----
-
-## 关于 Coffee Prism
-
-我们是一群在中国做了 5 年精品咖啡内容的人。运营 coffeeprism.com 至今写过 500+ 篇文章，跨咖啡烘焙、手冲、家用 espresso、可持续咖啡、产区文化等领域。每一个推荐的器具都自己测过，每一个参数都至少交叉验证 2 个独立来源。
-
-写这一类系统化指南的目标是：**让中文咖啡爱好者有一个说人话的、有依据的、可查阅的咖啡知识源**。
-
-如果这篇指南对你有帮助，欢迎收藏分享，或者订阅我们的 [RSS](/index.xml) 获取最新内容。
+本页于 2026 年 11 月 24 日根据以上资料重写，核对日期同日。旧版里没有出处的说法已删除，包括价格、产量比例、"研磨后氧化快 30 倍以上"，以及"每个器具都自己测过"的自我介绍。
