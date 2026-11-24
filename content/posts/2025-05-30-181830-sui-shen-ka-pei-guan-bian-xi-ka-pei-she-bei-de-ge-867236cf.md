@@ -18,7 +18,7 @@ description: "便携咖啡设备正以微型化萃取技术、材料创新与稳
 ### 1. 压力系统的微型化革命
 传统意式咖啡机需要15Bar压力才能完成合格萃取，而Wacaco Nanopresso通过专利活塞结构，在手掌大小的设备中实现了9Bar稳定压力输出。这种突破使得户外浓缩咖啡的品质达到专业级标准，实测萃取率可达19-22%的理想区间。
 
-推荐设备：[Wacaco Nanopresso手压咖啡机](https://www.amazon.com/s?k=Wacaco%20Nanopresso%E6%89%8B%E5%8E%8B%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)
+推荐设备：[Wacaco Nanopresso手压咖啡机](https://www.amazon.com/s?k=Wacaco+Nanopresso+portable+espresso+maker&tag=coffeeprism-20)
 
 ### 2. 热管理的材料创新
 日本品牌Aeropress Go采用医疗级聚丙烯材质，在保持98℃水温稳定性的同时，将整套设备重量控制在400g以内。这种热稳定性对中浅烘豆的酸甜平衡至关重要，实测温差波动不超过±2℃。
@@ -26,7 +26,7 @@ description: "便携咖啡设备正以微型化萃取技术、材料创新与稳
 ### 3. 模块化设计哲学
 Snow Peak与Kalita联名的钛合金折叠滴滤器，通过精密计算的折叠结构，将传统梯形滤杯的体积压缩80%。这种设计思维不仅考虑便携性，更保留了水流控制的关键结构，确保萃取均匀度。
 
-推荐设备：[Snow Peak钛合金折叠咖啡滤杯](https://www.amazon.com/s?k=Snow%20Peak%E9%92%9B%E5%90%88%E9%87%91%E6%8A%98%E5%8F%A0%E5%92%96%E5%95%A1%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)
+推荐设备：[Snow Peak钛合金折叠咖啡滤杯](https://www.amazon.com/s?k=Snow+Peak+titanium+collapsible+coffee+dripper&tag=coffeeprism-20)
 
 ## 三、中国市场的特殊进化路径
 与欧美市场不同，中国便携咖啡设备的发展呈现出独特的"三级跳"特征。小米生态链企业泰摩（Timemore）推出的C3手摇磨豆机，针对亚洲人手型优化的28mm握柄直径，搭配特制六星刀盘，在便携性与研磨均匀度间找到完美平衡，成为现象级产品。
@@ -43,7 +43,7 @@ Snow Peak与Kalita联名的钛合金折叠滴滤器，通过精密计算的折�
 ### 3. 通勤场景：极简主义实践
 国产品牌CAFEDE KONA的智能温控随行杯，通过真空镀膜技术实现6小时82℃保温，配合内置的微型电子秤和计时器，让地铁通勤时间变成手冲咖啡的创作时刻。
 
-推荐设备：[CAFEDE KONA智能温控咖啡随行杯](https://www.amazon.com/s?k=CAFEDE%20KONA%E6%99%BA%E8%83%BD%E6%B8%A9%E6%8E%A7%E5%92%96%E5%95%A1%E9%9A%8F%E8%A1%8C%E6%9D%AF&tag=coffeeprism-20)
+推荐设备：[CAFEDE KONA智能温控咖啡随行杯](https://www.amazon.com/s?k=smart+temperature+control+travel+coffee+mug&tag=coffeeprism-20)
 
 ## 五、专家选购建议
 1. 重量与性能的黄金分割点：建议将设备总重控制在随身行李的15%以内，同时确保核心功能完整。例如选择磨豆机时，优先考虑陶瓷芯+金属刀盘组合，在300g重量级实现专业级研磨。

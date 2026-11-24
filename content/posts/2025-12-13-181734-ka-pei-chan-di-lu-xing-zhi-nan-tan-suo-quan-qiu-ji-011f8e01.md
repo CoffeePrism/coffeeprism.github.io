@@ -84,7 +84,7 @@ author: "Coffee Prism"
 ## 五、专业咖啡师的装备清单
 
 ### 5.1 必备工具推荐
-1. **[Hario V60手冲套装](https://www.amazon.com/s?k=Hario%20V60%E6%89%8B%E5%86%B2%E5%A5%97%E8%A3%85&tag=coffeeprism-20)**：轻便易清洗
+1. **[Hario V60手冲套装](https://www.amazon.com/s?k=Hario+V60+pour+over+set&tag=coffeeprism-20)**：轻便易清洗
 2. **Aeropress Go旅行版**：3分钟快速冲泡
 3. **智能杯测勺**（带温度感应功能）
 
@@ -105,7 +105,7 @@ author: "Coffee Prism"
 
 ## 行动指南：开启你的咖啡溯源之旅
 
-现在登录「World Coffee Research」官网，查询2024年全球咖啡花期预报。建议首次体验者选择国内成熟路线（如云南保山+普洱10日游），搭配[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，在旅途中随时品鉴不同处理法的风味差异。
+现在登录「World Coffee Research」官网，查询2024年全球咖啡花期预报。建议首次体验者选择国内成熟路线（如云南保山+普洱10日游），搭配[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)，在旅途中随时品鉴不同处理法的风味差异。
 
 记住：真正的**咖啡产地旅行指南**不仅是路线规划，更是对咖啡文明的深度对话。当你站在卢旺达火山土壤上，亲手触摸咖啡树的年轮时，那杯日常的咖啡将永远不再平凡。
 

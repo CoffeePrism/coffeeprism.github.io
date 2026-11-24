@@ -18,7 +18,7 @@ description: "斯堪的纳维亚咖啡文化的核心，在于以fika仪式、�
 瑞典品牌Johan & Nyström则开创了"风味地图"概念，将咖啡品鉴提升到葡萄酒鉴赏的高度。他们的危地马拉云雾庄园豆[Guatemala Cloud Forest Coffee](https://www.amazon.com/s?k=Guatemala%20Cloud%20Forest%20Coffee&tag=coffeeprism-20)带有明显的北欧烘焙特色——浅度烘焙保留花果香气，酸度明亮如北极晨光。这种烘焙理念挑战了传统深烘认知，却完美契合北欧人追求纯净口感的审美取向。
 
 ## 设计思维驱动的咖啡仪式
-在北欧设计师手中，咖啡器具成为功能美学的载体。芬兰国宝品牌iittala与咖啡大师合作设计的[Ruutu拿铁杯](https://www.amazon.com/s?k=Ruutu%E6%8B%BF%E9%93%81%E6%9D%AF&tag=coffeeprism-20)，将棱镜折射原理融入杯体结构，让咖啡色泽产生迷人的光学变化。这种将实用器具艺术化的设计哲学，正是北欧咖啡文化"日常即仪式"的具象化表达。
+在北欧设计师手中，咖啡器具成为功能美学的载体。芬兰国宝品牌iittala与咖啡大师合作设计的[Ruutu拿铁杯](https://www.amazon.com/s?k=latte+cup&tag=coffeeprism-20)，将棱镜折射原理融入杯体结构，让咖啡色泽产生迷人的光学变化。这种将实用器具艺术化的设计哲学，正是北欧咖啡文化"日常即仪式"的具象化表达。
 
 丹麦Bodum法压壶[French Press Coffee Maker](https://www.amazon.com/s?k=French%20Press%20Coffee%20Maker&tag=coffeeprism-20)的爆红绝非偶然，其双层玻璃结构既能展现咖啡油脂的舞蹈，又符合北欧人对材料真实性的苛求。笔者在哥本哈根咖啡实验室的体验证明，配合中粗研磨的肯尼亚AA豆，93℃水温下4分钟的浸泡，能完美呈现北欧式冲泡的精髓——让时间成为风味的催化剂。
 

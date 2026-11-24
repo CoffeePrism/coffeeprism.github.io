@@ -56,7 +56,7 @@ AA并非品种名称，而是肯尼亚独创的咖啡豆分级标准：
 **烘焙度选择**  
 - 浅焙（City+）：最大限度保留花果调性，适合手冲爱好者  
 - 中浅焙（Full City）：平衡酸质与醇厚度，意式浓缩最佳选择  
-推荐尝试[Fellow Atmos 手动咖啡烘焙度测试套装](https://www.amazon.com/s?k=Fellow%20Atmos%20%E6%89%8B%E5%8A%A8%E5%92%96%E5%95%A1%E7%83%98%E7%84%99%E5%BA%A6%E6%B5%8B%E8%AF%95%E5%A5%97%E8%A3%85&tag=coffeeprism-20)，逐步掌握烘焙曲线对风味的影响。
+推荐尝试[Fellow Atmos 手动咖啡烘焙度测试套装](https://www.amazon.com/s?k=coffee+roast+level+test+kit&tag=coffeeprism-20)，逐步掌握烘焙曲线对风味的影响。
 
 **手冲参数**  
 - 水温：92-94℃（高温激发酸质，低温突出甜感）  
@@ -64,7 +64,7 @@ AA并非品种名称，而是肯尼亚独创的咖啡豆分级标准：
 - 研磨度：白砂糖颗粒（EK43刻度8-9）  
 - 萃取时间：2分10秒-2分30秒  
 
-建议使用[Kalita Wave 185蛋糕杯](https://www.amazon.com/s?k=Kalita%20Wave%20185%E8%9B%8B%E7%B3%95%E6%9D%AF&tag=coffeeprism-20)进行冲煮，其平底设计能均匀萃取AA豆的复杂层次。
+建议使用[Kalita Wave 185蛋糕杯](https://www.amazon.com/s?k=Kalita+Wave+185+dripper&tag=coffeeprism-20)进行冲煮，其平底设计能均匀萃取AA豆的复杂层次。
 
 **意式浓缩方案**  
 - 粉量：18-19g  
@@ -85,7 +85,7 @@ AA并非品种名称，而是肯尼亚独创的咖啡豆分级标准：
 **购买避坑指南**  
 - 警惕「过季豆」：肯尼亚新产季为每年12月-次年3月，超过10个月的豆子会丧失活力  
 - 认准处理厂代码：如「AB Gathaithi」代表涅里产区的加赛西处理厂  
-- 最佳赏味期：烘焙后21-45天（建议使用[Asobu 真空咖啡储存罐](https://www.amazon.com/s?k=Asobu%20%E7%9C%9F%E7%A9%BA%E5%92%96%E5%95%A1%E5%82%A8%E5%AD%98%E7%BD%90&tag=coffeeprism-20)延长保鲜）
+- 最佳赏味期：烘焙后21-45天（建议使用[Asobu 真空咖啡储存罐](https://www.amazon.com/s?k=Asobu+vacuum+coffee+canister&tag=coffeeprism-20)延长保鲜）
 
 ---
 

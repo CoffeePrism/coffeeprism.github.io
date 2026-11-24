@@ -34,6 +34,12 @@ class FindingsTest(unittest.TestCase):
         )
         self.assertEqual(codes("标题", body), ["first-hand-claim", "price", "quote-block", "statistic", "unsourced-attribution"])
 
+    def test_amazon_links_need_english_queries(self):
+        for url in ("https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20",
+                    "https://www.amazon.com/s?k=比乐蒂摩卡壶&tag=coffeeprism-20"):
+            self.assertEqual(codes("磨豆机怎么选", f"可以看看 [磨豆机]({url})。"), ["amazon-chinese-query"])
+        self.assertEqual(codes("磨豆机怎么选", "可以看看 [磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)。"), [])
+
     def test_links_and_years(self):
         self.assertEqual(codes("2025年最新咖啡豆推荐", "看 [官网](https://example.org/x)。2027年会更好。"),
                          ["external-link", "future-year", "title-year"])

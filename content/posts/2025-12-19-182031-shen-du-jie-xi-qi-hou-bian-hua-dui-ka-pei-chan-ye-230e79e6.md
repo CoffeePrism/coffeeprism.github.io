@@ -44,7 +44,7 @@ author: "Coffee Prism"
 2. 选择云南等高海拔产区咖啡
 3. 使用可重复利用的咖啡器具
 
-**[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)** 因其耐用性（平均使用寿命10年以上）和可回收材质，成为专业咖啡师首推的手冲工具。
+**[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)** 因其耐用性（平均使用寿命10年以上）和可回收材质，成为专业咖啡师首推的手冲工具。
 
 ---
 
@@ -59,7 +59,7 @@ author: "Coffee Prism"
 - 支持小批量烘焙商减少库存浪费
 - 参与咖啡渣回收制作植物肥料
 
-**[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)** 采用6061航空铝材，终身免更换刀盘的设计，较传统磨豆机减少70%金属损耗。
+**[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)** 采用6061航空铝材，终身免更换刀盘的设计，较传统磨豆机减少70%金属损耗。
 
 ---
 
@@ -88,7 +88,7 @@ author: "Coffee Prism"
 重点关注三个维度：1）认证标识（如有机认证）2）处理工艺（日晒/蜜处理优于水洗）3）包装材料（可降解或重复充填包装）。
 
 ### 咖啡爱好者现在应该囤积咖啡豆吗？
-专业仓储成本可能抵消保存效益，建议改为支持采用氮气锁鲜的小包装产品。例如[三顿半数字星球系列](https://www.amazon.com/s?k=%E4%B8%89%E9%A1%BF%E5%8D%8A%E6%95%B0%E5%AD%97%E6%98%9F%E7%90%83%E7%B3%BB%E5%88%97&tag=coffeeprism-20)采用100%可回收罐体，保质期达18个月。
+专业仓储成本可能抵消保存效益，建议改为支持采用氮气锁鲜的小包装产品。例如[三顿半数字星球系列](https://www.amazon.com/s?k=Saturnbird+instant+coffee&tag=coffeeprism-20)采用100%可回收罐体，保质期达18个月。
 
 ---
 

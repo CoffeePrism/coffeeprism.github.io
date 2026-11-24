@@ -36,7 +36,7 @@ description: "爪哇咖啡是印尼最具历史底蕴的咖啡豆之一，凭借
 - **"火山岩水洗"**：利用富含矿物质的火山泉水进行发酵，增强咖啡的body厚度
 
 **品鉴建议**：  
-尝试用[Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)手冲中海拔水洗豆，92℃水温搭配1:16粉水比，能完美展现其茉莉花与青苹果的风味层次。
+尝试用[Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)手冲中海拔水洗豆，92℃水温搭配1:16粉水比，能完美展现其茉莉花与青苹果的风味层次。
 
 ---
 
@@ -48,7 +48,7 @@ description: "爪哇咖啡是印尼最具历史底蕴的咖啡豆之一，凭借
 3. **新兴潜力股**：JavaNica（铁皮卡与卡蒂姆的定向杂交）
 
 **中国消费者注意**：  
-市面常见的"爪哇老树种"多指Ateng品种，其特有的檀木香气与中国普洱茶存在有趣的感官共鸣，建议搭配[景德镇手作陶瓷杯](https://www.amazon.com/s?k=%E6%99%AF%E5%BE%B7%E9%95%87%E6%89%8B%E4%BD%9C%E9%99%B6%E7%93%B7%E6%9D%AF&tag=coffeeprism-20)品鉴，瓷器的高温烧结特性更能突显其细腻尾韵。
+市面常见的"爪哇老树种"多指Ateng品种，其特有的檀木香气与中国普洱茶存在有趣的感官共鸣，建议搭配[景德镇手作陶瓷杯](https://www.amazon.com/s?k=handmade+ceramic+cup&tag=coffeeprism-20)品鉴，瓷器的高温烧结特性更能突显其细腻尾韵。
 
 ---
 
@@ -70,7 +70,7 @@ description: "爪哇咖啡是印尼最具历史底蕴的咖啡豆之一，凭借
 - **差异性**：爪哇咖啡的矿物质感更突出，酸质更内敛
 
 **本地化冲煮方案**：  
-尝试用云南小粒咖啡与爪哇咖啡以3:7比例拼配，使用[Timemore C3手摇磨豆机](https://www.amazon.com/s?k=Timemore%20C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)研磨至白砂糖粗细，采用冰滴方式萃取，能获得荔枝与乌龙茶交织的独特风味。
+尝试用云南小粒咖啡与爪哇咖啡以3:7比例拼配，使用[Timemore C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+C3+hand+grinder&tag=coffeeprism-20)研磨至白砂糖粗细，采用冰滴方式萃取，能获得荔枝与乌龙茶交织的独特风味。
 
 ---
 

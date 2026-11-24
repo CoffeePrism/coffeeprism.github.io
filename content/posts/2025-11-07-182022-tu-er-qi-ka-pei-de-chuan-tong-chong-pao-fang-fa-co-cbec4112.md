@@ -86,9 +86,9 @@ howto:
 ## 四、标准操作流程详解
 
 ### 4.1 器具准备
-1. **Cezve铜壶**：容量100-150ml为佳（推荐[Sozen品牌](https://www.amazon.com/s?k=Sozen%E5%93%81%E7%89%8C&tag=coffeeprism-20)）
+1. **Cezve铜壶**：容量100-150ml为佳（推荐Sozen品牌）
 2. **Demitasse杯**：预热的50ml陶瓷杯
-3. **炭火炉**：可选用[Butterfly传统炭炉](https://www.amazon.com/s?k=Butterfly%E4%BC%A0%E7%BB%9F%E7%82%AD%E7%82%89&tag=coffeeprism-20)或电磁炉替代
+3. **炭火炉**：可选用[Butterfly传统炭炉](https://www.amazon.com/s?k=charcoal+grill&tag=coffeeprism-20)或电磁炉替代
 
 ### 4.2 七步冲泡法
 1. **冰水预冷**：将铜壶浸入冰水30秒（降低首次沸腾速度）
@@ -105,7 +105,7 @@ howto:
 
 ### 5.1 泡沫消散过快
 **成因**：研磨过粗或水温骤升  
-**对策**：使用筛粉器（推荐[Hario粉碎筛](https://www.amazon.com/s?k=Hario%E7%B2%89%E7%A2%8E%E7%AD%9B&tag=coffeeprism-20)），控制每分钟升温不超过5℃
+**对策**：使用筛粉器（推荐[Hario粉碎筛](https://www.amazon.com/s?k=Hario+coffee+sieve&tag=coffeeprism-20)），控制每分钟升温不超过5℃
 
 ### 5.2 咖啡渣悬浮
 **成因**：搅拌时机错误  
@@ -129,9 +129,9 @@ howto:
 ## 七、推荐工具与购买指南
 
 ### 7.1 必备工具组
-- **[Sozen手工铜壶](https://www.amazon.com/s?k=Sozen%E6%89%8B%E5%B7%A5%E9%93%9C%E5%A3%B6&tag=coffeeprism-20)**：纯铜锻造，导热均匀
-- **[PeDe复古磨豆机](https://www.amazon.com/s?k=PeDe%E5%A4%8D%E5%8F%A4%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)**：土耳其专用超细研磨
-- **[Kurukahveci咖啡粉](https://www.amazon.com/s?k=Kurukahveci%E5%92%96%E5%95%A1%E7%B2%89&tag=coffeeprism-20)**：百年老店预磨配方
+- **[Sozen手工铜壶](https://www.amazon.com/s?k=copper+Turkish+coffee+pot&tag=coffeeprism-20)**：纯铜锻造，导热均匀
+- **[PeDe复古磨豆机](https://www.amazon.com/s?k=vintage+coffee+grinder&tag=coffeeprism-20)**：土耳其专用超细研磨
+- **[Kurukahveci咖啡粉](https://www.amazon.com/s?k=Turkish+ground+coffee&tag=coffeeprism-20)**：百年老店预磨配方
 
 ### 7.2 中国本土替代方案
 - **铜壶平替**：云南手工锤纹铜壶（淘宝搜索"土耳其咖啡壶"）

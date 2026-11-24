@@ -21,7 +21,7 @@ description: "咖啡烘焙后最佳保鲜关键在于避光、密封、常温干
 实验数据显示：频繁进出冰箱的咖啡豆，因冷凝水反复浸润，氧化速度比常温储存快1.8倍。除非采用专业冷冻方案（-18℃真空分装），普通家用冰箱弊大于利。
 
 ### 误区2：透明容器展示咖啡豆  
-紫外线会使脂类物质加速裂解，某品牌瑰夏豆在玻璃罐存放两周后，花香物质流失达41%。建议选择陶瓷或不透光金属容器，如[Airscape咖啡储存罐](https://www.amazon.com/s?k=Airscape%E5%92%96%E5%95%A1%E5%82%A8%E5%AD%98%E7%BD%90&tag=coffeeprism-20)。
+紫外线会使脂类物质加速裂解，某品牌瑰夏豆在玻璃罐存放两周后，花香物质流失达41%。建议选择陶瓷或不透光金属容器，如[Airscape咖啡储存罐](https://www.amazon.com/s?k=Airscape+coffee+canister&tag=coffeeprism-20)。
 
 ### 误区3：依赖单向排气阀包装长期保存  
 虽然单向阀能排出二氧化碳，但无法隔绝氧气渗透。测试表明：开封后的咖啡袋即便重新密封，其氧气浓度在12小时内就会回升至环境水平。
@@ -31,7 +31,7 @@ description: "咖啡烘焙后最佳保鲜关键在于避光、密封、常温干
 ## 三、专业级储存方案：从家庭到咖啡馆的实践指南  
 ### 温湿度控制黄金三角  
 - **温度**：18-22℃区间最佳，每升高5℃氧化速率倍增  
-- **湿度**：建议维持55-65%RH，南方雨季可搭配[电子防潮箱](https://www.amazon.com/s?k=%E7%94%B5%E5%AD%90%E9%98%B2%E6%BD%AE%E7%AE%B1&tag=coffeeprism-20)  
+- **湿度**：建议维持55-65%RH，南方雨季可搭配[电子防潮箱](https://www.amazon.com/s?k=electronic+dry+cabinet&tag=coffeeprism-20)  
 - **光照**：紫外线强度超过50μW/cm²即产生破坏  
 
 ### 分装策略的精细化管理  
@@ -42,7 +42,7 @@ description: "咖啡烘焙后最佳保鲜关键在于避光、密封、常温干
 - 真空罐保存30天后风味保留率82%  
 - 普通密封罐67%  
 - 原包装袋58%  
-推荐使用带气压计的[Fellow Atmos真空罐](https://www.amazon.com/s?k=Fellow%20Atmos%E7%9C%9F%E7%A9%BA%E7%BD%90&tag=coffeeprism-20)，其专利硅胶密封圈能根据气压自动调节。
+推荐使用带气压计的[Fellow Atmos真空罐](https://www.amazon.com/s?k=Fellow+Atmos+vacuum+canister&tag=coffeeprism-20)，其专利硅胶密封圈能根据气压自动调节。
 
 ---
 
@@ -65,7 +65,7 @@ description: "咖啡烘焙后最佳保鲜关键在于避光、密封、常温干
 2. **研磨前唤醒**：提前2小时取出所需豆量，使其恢复至室温  
 3. **感官日记**：建立风味变化记录表，精准掌握每支豆子的生命周期  
 
-对于入门爱好者，建议从[Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)开始实践现磨原则。记住：最好的储存容器，永远是咖啡豆原本的细胞结构。
+对于入门爱好者，建议从[Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore+hand+grinder&tag=coffeeprism-20)开始实践现磨原则。记住：最好的储存容器，永远是咖啡豆原本的细胞结构。
 
 ---
 

@@ -53,13 +53,13 @@ description: "专业咖啡机决定家庭咖啡风味的关键在于9bar压力�
 ## 四、专家设备推荐清单
 
 1. **进阶之选**：Breville Dual Boiler  
-   双锅炉系统配合LCD触控屏，特别适合喜欢尝试不同萃取参数的玩家。[购买链接](https://www.amazon.com/s?k=%E8%B4%AD%E4%B9%B0%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
+   双锅炉系统配合LCD触控屏，特别适合喜欢尝试不同萃取参数的玩家。
 
 2. **意式经典**：Rancilio Silvia Pro X  
-   商业级组件下放的家用机型，蒸汽强度媲美咖啡馆设备。[购买链接](https://www.amazon.com/s?k=%E8%B4%AD%E4%B9%B0%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
+   商业级组件下放的家用机型，蒸汽强度媲美咖啡馆设备。
 
 3. **国产精品**：Gemilai CRM3605  
-   专为亚洲饮食文化设计的可调节预浸泡功能，完美适配浅烘豆趋势。[购买链接](https://www.amazon.com/s?k=%E8%B4%AD%E4%B9%B0%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
+   专为亚洲饮食文化设计的可调节预浸泡功能，完美适配浅烘豆趋势。
 
 ---
 

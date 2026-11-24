@@ -34,7 +34,7 @@ description: "爱乐压通过压力、温度与粉水比的灵活控制，完全
 - **深烘豆**：1:17（15g粉/255ml水）柔化苦味
 - **特殊处理法**：1:10双段式萃取（先注入50ml，30秒后再补足）
 
-推荐使用[Acaia Pearl精密电子秤](https://www.amazon.com/s?k=Acaia%20Pearl%E7%B2%BE%E5%AF%86%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)进行精准计量。
+推荐使用[Acaia Pearl精密电子秤](https://www.amazon.com/s?k=Acaia+Pearl+scale&tag=coffeeprism-20)进行精准计量。
 
 ### 2.2 水温的时空魔法
 通过分段注水创造温度梯度：
@@ -59,7 +59,7 @@ description: "爱乐压通过压力、温度与粉水比的灵活控制，完全
 - **核心阶段**（中1/3行程）：匀速1秒/cm获取甜感
 - **收尾阶段**（后1/3行程）：快压0.5秒/cm抑制苦味
 
-建议搭配[Fellow Prismo压力盖](https://www.amazon.com/s?k=Fellow%20Prismo%E5%8E%8B%E5%8A%9B%E7%9B%96&tag=coffeeprism-20)提升稳定性。
+建议搭配[Fellow Prismo压力盖](https://www.amazon.com/s?k=Fellow+Prismo+pressure+cap&tag=coffeeprism-20)提升稳定性。
 
 ---
 
@@ -72,7 +72,7 @@ description: "爱乐压通过压力、温度与粉水比的灵活控制，完全
 - 3次分段注水（60-80-100ml）
 
 ### 4.2 水质改良方案
-使用[Brita滤水壶](https://www.amazon.com/s?k=Brita%E6%BB%A4%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)处理自来水后，添加：
+使用[Brita滤水壶](https://www.amazon.com/s?k=Brita+water+pitcher&tag=coffeeprism-20)处理自来水后，添加：
 - 10ppm碳酸氢钠（提升甜感）
 - 5ppm硫酸镁（增强body感）
 
@@ -81,10 +81,10 @@ description: "爱乐压通过压力、温度与粉水比的灵活控制，完全
 ## 五、专业设备升级路线
 
 ### 5.1 研磨系统优化
-推荐[1Zpresso JX-Pro手磨](https://www.amazon.com/s?k=1Zpresso%20JX-Pro%E6%89%8B%E7%A3%A8&tag=coffeeprism-20)，其微调结构可实现5μm级精度控制，特别适合爱乐压需要的均匀颗粒分布。
+推荐[1Zpresso JX-Pro手磨](https://www.amazon.com/s?k=1Zpresso+JX-Pro+hand+grinder&tag=coffeeprism-20)，其微调结构可实现5μm级精度控制，特别适合爱乐压需要的均匀颗粒分布。
 
 ### 5.2 压力可视化改造
-加装[压力表套装](https://www.amazon.com/s?k=%E5%8E%8B%E5%8A%9B%E8%A1%A8%E5%A5%97%E8%A3%85&tag=coffeeprism-20)后，可精确监控0.5-2bar压力区间，配合不同烘焙度的豆子调整施压曲线。
+加装[压力表套装](https://www.amazon.com/s?k=pressure+gauge+set&tag=coffeeprism-20)后，可精确监控0.5-2bar压力区间，配合不同烘焙度的豆子调整施压曲线。
 
 ---
 

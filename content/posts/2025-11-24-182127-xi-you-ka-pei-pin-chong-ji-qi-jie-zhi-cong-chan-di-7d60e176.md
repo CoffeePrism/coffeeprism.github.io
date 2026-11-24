@@ -76,7 +76,7 @@ author: "Coffee Prism"
 
 ## 七、精选购买清单
 
-1. [巴拿马翡翠庄园绿标瑰夏](https://www.amazon.com/s?k=%E5%B7%B4%E6%8B%BF%E9%A9%AC%E7%BF%A1%E7%BF%A0%E5%BA%84%E5%9B%AD%E7%BB%BF%E6%A0%87%E7%91%B0%E5%A4%8F&tag=coffeeprism-20)  
+1. [巴拿马翡翠庄园绿标瑰夏](https://www.amazon.com/s?k=Panama+Geisha+coffee+beans&tag=coffeeprism-20)  
    - 特点：茉莉花与杏桃风味明显，适合作为稀有咖啡入门款
    - 国内渠道：淘宝「咖啡公社」旗舰店有30g体验装
 

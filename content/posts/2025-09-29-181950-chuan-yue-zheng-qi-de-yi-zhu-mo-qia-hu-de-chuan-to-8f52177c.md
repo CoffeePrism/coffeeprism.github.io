@@ -50,7 +50,7 @@ description: "摩卡壶历经90年仍焕发新生，关键在于1-1.5 bar蒸汽�
 **本土咖啡豆推荐**：
 - 云南日晒卡蒂姆：适合传统冷水慢萃法，展现红酒发酵风味
 - 海南罗布斯塔混合拼配：与现代快速萃取法结合，呈现浓郁焦糖感
-尝试用[Torch Coffee云南小粒](https://www.amazon.com/s?k=Torch%20Coffee%E4%BA%91%E5%8D%97%E5%B0%8F%E7%B2%92&tag=coffeeprism-20)进行对比测试，其蜜处理工艺与摩卡壶的相性尤为突出。
+尝试用[Torch Coffee云南小粒](https://www.amazon.com/s?k=Yunnan+coffee+beans&tag=coffeeprism-20)进行对比测试，其蜜处理工艺与摩卡壶的相性尤为突出。
 
 ## 五、专家诊断室：五个典型问题解析
 

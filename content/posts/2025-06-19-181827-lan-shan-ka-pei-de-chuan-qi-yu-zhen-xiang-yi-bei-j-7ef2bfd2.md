@@ -38,8 +38,8 @@ description: "蓝山咖啡之所以价值千金，在于牙买加法定产区、
 
 **专家冲泡建议**：  
 1. 使用88-92℃水温（避免高温破坏细腻酸质）  
-2. 粉水比1:15（建议搭配[Timemore电子秤](https://www.amazon.com/s?k=Timemore%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)精准控制）  
-3. 中度研磨（参考[Baratza Encore磨豆机](https://www.amazon.com/s?k=Baratza%20Encore%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)的20档刻度）  
+2. 粉水比1:15（建议搭配[Timemore电子秤](https://www.amazon.com/s?k=Timemore+coffee+scale&tag=coffeeprism-20)精准控制）  
+3. 中度研磨（参考[Baratza Encore磨豆机](https://www.amazon.com/s?k=Baratza+Encore+grinder&tag=coffeeprism-20)的20档刻度）  
 4. 三段式注水法：30秒闷蒸后分两次注水，总萃取时间控制在2分30秒  
 
 ---
@@ -55,7 +55,7 @@ description: "蓝山咖啡之所以价值千金，在于牙买加法定产区、
 - 拒绝单价低于200元/100g的“蓝山咖啡”  
 - 要求商家出示CIB认证文件  
 - 优先选择日本UCC、台湾金车等有信誉的烘焙商  
-- 尝试小包装试饮（推荐[UCC蓝山挂耳咖啡](https://www.amazon.com/s?k=UCC%E8%93%9D%E5%B1%B1%E6%8C%82%E8%80%B3%E5%92%96%E5%95%A1&tag=coffeeprism-20)作为入门选择）  
+- 尝试小包装试饮（推荐[UCC蓝山挂耳咖啡](https://www.amazon.com/s?k=UCC+Blue+Mountain+drip+bag+coffee&tag=coffeeprism-20)作为入门选择）  
 
 ---
 
@@ -68,7 +68,7 @@ description: "蓝山咖啡之所以价值千金，在于牙买加法定产区、
 ### 本地化建议：中国消费者的智慧选择
 
 1. **替代方案**：尝试云南保山小粒咖啡，其坚果调性与中高海拔特性与蓝山有相似之处  
-2. **器具投资**：将预算更多投向[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)等专业设备  
+2. **器具投资**：将预算更多投向[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)等专业设备  
 3. **社群学习**：加入本土咖啡爱好者社群（如豆瓣“手冲咖啡研究所”小组），共享购买渠道信息  
 
 ---

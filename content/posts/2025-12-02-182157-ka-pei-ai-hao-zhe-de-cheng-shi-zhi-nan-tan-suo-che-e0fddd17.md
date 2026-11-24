@@ -72,19 +72,19 @@ author: "Coffee Prism"
 ## 六、专业设备推荐
 
 ### 6.1 探店必备工具
-[泰摩手冲壶](https://www.amazon.cn/dp/B08B5J7Y9Q)（精准控温）
+[泰摩手冲壶](https://www.amazon.com/s?k=Timemore+pour+over+kettle&tag=coffeeprism-20)（精准控温）
 [华为Watch GT4](https://www.vmall.com/)（记录咖啡因摄入）
 [三顿半返航计划地图](https://www.saturnbird.com/)（获取限量版城市指南）
 
 ### 6.2 家庭冲煮延伸
-建议搭配[费列罗咖啡秤](https://www.amazon.cn/dp/B07R5JZ2X5)（0.1g精度）和[巫师2.0磨豆机](https://item.jd.com/100038125582.html)，复现咖啡馆级体验。
+建议搭配[费列罗咖啡秤](https://www.amazon.com/s?k=coffee+scale&tag=coffeeprism-20)（0.1g精度）和[巫师2.0磨豆机](https://item.jd.com/100038125582.html)，复现咖啡馆级体验。
 
 ---
 
 ## 常见问题解答
 
 ### 如何建立个人咖啡风味库？  
-建议从「中国咖啡豆三大产区」（云南保山、普洱、德宏）入手，每次探店记录3种风味描述。使用[咖啡风味轮](https://www.amazon.cn/dp/B09JQZGVYB)辅助训练，每月品鉴15款以上豆子。
+建议从「中国咖啡豆三大产区」（云南保山、普洱、德宏）入手，每次探店记录3种风味描述。使用[咖啡风味轮](https://www.amazon.com/s?k=coffee+flavor+wheel&tag=coffeeprism-20)辅助训练，每月品鉴15款以上豆子。
 
 ### 预算有限如何探店？  
 选择「咖啡品鉴套餐」，如Manner的25元三杯套装。关注咖啡馆「杯测日」（通常每月首个周六），可免费品尝5-8款豆子。

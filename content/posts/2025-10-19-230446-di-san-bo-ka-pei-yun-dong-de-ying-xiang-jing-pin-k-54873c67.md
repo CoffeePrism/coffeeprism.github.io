@@ -78,9 +78,9 @@ author: "Coffee Prism"
 ## 六、高性价比装备推荐
 
 ### 6.1 入门必备三件套
-- [泰摩栗子C手摇磨豆机](https://www.amazon.cn/s?k=Timemore+Chestnut+C)：420不锈钢磨芯，15档调节
-- [Brewista智能手冲壶](https://www.amazon.cn/s?k=Brewista)：±1℃温控，2.5mm细长壶嘴
-- [Acaia Pearl电子秤](https://www.amazon.cn/s?k=Acaia+Pearl)：0.1g精度，自动计时功能
+- [泰摩栗子C手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C&tag=coffeeprism-20)：420不锈钢磨芯，15档调节
+- [Brewista智能手冲壶](https://www.amazon.com/s?k=Brewista&tag=coffeeprism-20)：±1℃温控，2.5mm细长壶嘴
+- [Acaia Pearl电子秤](https://www.amazon.com/s?k=Acaia+Pearl&tag=coffeeprism-20)：0.1g精度，自动计时功能
 
 ### 6.2 进阶玩家推荐
 - 小型烘焙机：JY-300B（热风+直火双模式）

@@ -38,7 +38,7 @@ description: "低因咖啡能在保留咖啡风味的同时将咖啡因减少97%
 - **手冲**：水温88-90℃，研磨度比常规粗1档（如白砂糖颗粒），采用分段注水降低苦涩风险。  
 - **意式浓缩**：将粉量增加1-2g，萃取时间缩短至20-25秒，搭配[Breville Bambino Plus](https://www.amazon.com/s?k=Breville%20Bambino%20Plus&tag=coffeeprism-20)等小型意式机更易控制稳定性。  
 
-**本地化贴士**：中国南方潮湿环境易使低因豆受潮，建议使用真空密封罐保存，并搭配[Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)的快速排水设计提升口感。
+**本地化贴士**：中国南方潮湿环境易使低因豆受潮，建议使用真空密封罐保存，并搭配[Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)的快速排水设计提升口感。
 
 ---
 

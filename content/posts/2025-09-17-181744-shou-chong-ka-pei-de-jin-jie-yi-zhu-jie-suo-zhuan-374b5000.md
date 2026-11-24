@@ -15,11 +15,11 @@ description: "手冲咖啡进阶的关键，在于精准控制水质、注水轨
 ---
 
 ## 被忽视的隐形杀手：水质革命  
-中国南北水质差异显著，北京自来水总溶解固体（TDS）值约350ppm，而杭州仅80ppm。笔者曾用同款[耶加雪菲咖啡豆](https://www.amazon.com/s?k=%E8%80%B6%E5%8A%A0%E9%9B%AA%E8%8F%B2%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)在不同城市测试，北京冲煮会出现明显的矿物感，而杭州则凸显柑橘酸质。
+中国南北水质差异显著，北京自来水总溶解固体（TDS）值约350ppm，而杭州仅80ppm。笔者曾用同款[耶加雪菲咖啡豆](https://www.amazon.com/s?k=Yirgacheffe+coffee+beans&tag=coffeeprism-20)在不同城市测试，北京冲煮会出现明显的矿物感，而杭州则凸显柑橘酸质。
 
 **专家建议**：  
 1. 理想冲泡水TDS值应控制在75-125ppm  
-2. 使用[Brita滤水壶](https://www.amazon.com/s?k=Brita%E6%BB%A4%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)调整基础水质  
+2. 使用[Brita滤水壶](https://www.amazon.com/s?k=Brita+water+pitcher&tag=coffeeprism-20)调整基础水质  
 3. 添加3%的镁离子可提升甜感（参照2016年《Food Chemistry》研究）  
 
 ---
@@ -47,7 +47,7 @@ description: "手冲咖啡进阶的关键，在于精准控制水质、注水轨
 ---
 
 ## 器具预热的蝴蝶效应  
-多数人低估了器具温度对萃取的影响。笔者用红外测温仪检测发现，未经预热的[Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)在注水30秒后温度会骤降11.2℃，这直接导致咖啡中段萃取不足。
+多数人低估了器具温度对萃取的影响。笔者用红外测温仪检测发现，未经预热的[Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)在注水30秒后温度会骤降11.2℃，这直接导致咖啡中段萃取不足。
 
 **专业预热方案**：  
 1. 先用93℃热水顺时针冲洗滤纸10秒  
@@ -67,7 +67,7 @@ description: "手冲咖啡进阶的关键，在于精准控制水质、注水轨
 ## 风味调校的东方智慧  
 针对中国消费者偏好的"茶感"风味，建议尝试：  
 - 使用90℃水温+1:17粉水比，模拟普洱茶温润口感  
-- 选择云南日晒豆搭配[Kalita蛋糕滤杯](https://www.amazon.com/s?k=Kalita%E8%9B%8B%E7%B3%95%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)  
+- 选择云南日晒豆搭配[Kalita蛋糕滤杯](https://www.amazon.com/s?k=Kalita+cake+dripper&tag=coffeeprism-20)  
 - 在第三段注水时加入5%的山泉水  
 
 ---

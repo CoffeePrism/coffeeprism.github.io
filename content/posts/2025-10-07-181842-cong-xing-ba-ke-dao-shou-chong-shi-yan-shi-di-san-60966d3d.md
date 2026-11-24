@@ -31,10 +31,10 @@ description: "第三波咖啡运动通过溯源、透明与手冲工艺，重塑
 云南保山咖啡农开始用"微批次"概念处理300公斤以下的精品豆，上海烘焙工坊引进德国Probat烘焙机进行"曲线定制"。当云南普洱生豆在[Coffee Collective](https://www.amazon.com/s?k=Coffee%20Collective&tag=coffeeprism-20)的北欧浅烘下绽放出普洱茶韵，中国终于在全球咖啡地图上拥有了风味话语权。
 
 **2. 咖啡馆的空间革命**  
-北京胡同里的Metal Hands用虹吸壶演绎日式匠艺，成都Gout&Co以"咖啡Omakase"形式提供定制冲煮方案。这些空间摒弃了商务社交属性，转而营造专注风味的"咖啡实验室"氛围。就连传统连锁品牌也推出手冲专区，如星巴克臻选店配备的[Chemex手冲壶](https://www.amazon.com/s?k=Chemex%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)。
+北京胡同里的Metal Hands用虹吸壶演绎日式匠艺，成都Gout&Co以"咖啡Omakase"形式提供定制冲煮方案。这些空间摒弃了商务社交属性，转而营造专注风味的"咖啡实验室"氛围。就连传统连锁品牌也推出手冲专区，如星巴克臻选店配备的[Chemex手冲壶](https://www.amazon.com/s?k=Chemex+pour+over+coffee+maker&tag=coffeeprism-20)。
 
 **3. 消费行为的进化图谱**  
-据2023年《中国精品咖啡消费白皮书》，62%的受访者能准确区分中浅烘与深烘的区别，38%拥有家用[Baratza Encore磨豆机](https://www.amazon.com/s?k=Baratza%20Encore%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)。消费者开始关注咖啡豆的二氧化碳排放量，部分品牌甚至推出"碳中和咖啡"认证。
+据2023年《中国精品咖啡消费白皮书》，62%的受访者能准确区分中浅烘与深烘的区别，38%拥有家用[Baratza Encore磨豆机](https://www.amazon.com/s?k=Baratza+Encore+grinder&tag=coffeeprism-20)。消费者开始关注咖啡豆的二氧化碳排放量，部分品牌甚至推出"碳中和咖啡"认证。
 
 ---
 
@@ -52,7 +52,7 @@ description: "第三波咖啡运动通过溯源、透明与手冲工艺，重塑
 
 ### 四、给中国咖啡爱好者的实践指南  
 **1. 家庭咖啡角搭建原则**  
-- 磨豆机比咖啡机更重要：推荐[1Zpresso Q2手摇磨](https://www.amazon.com/s?k=1Zpresso%20Q2%E6%89%8B%E6%91%87%E7%A3%A8&tag=coffeeprism-20)  
+- 磨豆机比咖啡机更重要：推荐[1Zpresso Q2手摇磨](https://www.amazon.com/s?k=1Zpresso+Q2+hand+grinder&tag=coffeeprism-20)  
 - 建立风味坐标系：从埃塞水洗/巴西日晒/云南蜜处理三支豆开始横向对比  
 - 水质改造：TDS值80-120的矿泉水最能凸显咖啡层次  
 

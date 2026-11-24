@@ -20,11 +20,11 @@ description: "判断咖啡烘焙是否完美，关键看颜色变化、银皮脱
 
 ### 二、视觉线索：颜色、银皮与油脂的进化论  
 #### 1. 烘焙阶段的色彩语言  
-- **浅焙（Light Roast）**：豆表呈肉桂色，银皮（生豆表层薄膜）残留明显，如[埃塞俄比亚耶加雪菲](https://www.amazon.com/s?k=%E5%9F%83%E5%A1%9E%E4%BF%84%E6%AF%94%E4%BA%9A%E8%80%B6%E5%8A%A0%E9%9B%AA%E8%8F%B2&tag=coffeeprism-20)这类花果调豆种，浅焙能保留其茉莉与柠檬草香气。  
-- **中焙（Medium Roast）**：均匀的栗棕色，银皮脱落约70%，适合[哥伦比亚蕙兰](https://www.amazon.com/s?k=%E5%93%A5%E4%BC%A6%E6%AF%94%E4%BA%9A%E8%95%99%E5%85%B0&tag=coffeeprism-20)这类追求平衡感的豆子，焦糖化反应带来蜂蜜与烤坚果尾韵。  
+- **浅焙（Light Roast）**：豆表呈肉桂色，银皮（生豆表层薄膜）残留明显，如[埃塞俄比亚耶加雪菲](https://www.amazon.com/s?k=Ethiopia+Yirgacheffe+coffee+beans&tag=coffeeprism-20)这类花果调豆种，浅焙能保留其茉莉与柠檬草香气。  
+- **中焙（Medium Roast）**：均匀的栗棕色，银皮脱落约70%，适合[哥伦比亚蕙兰](https://www.amazon.com/s?k=Colombia+Huila+coffee+beans&tag=coffeeprism-20)这类追求平衡感的豆子，焦糖化反应带来蜂蜜与烤坚果尾韵。  
 - **深焙（Dark Roast）**：表面泛油光的深褐色，常见于意式浓缩基底豆，但需警惕「过度碳化」——若豆体出现凹凸裂痕，说明纤维结构已遭破坏。  
 
-**专家提示**：使用[便携式色度仪](https://www.amazon.com/s?k=%E4%BE%BF%E6%90%BA%E5%BC%8F%E8%89%B2%E5%BA%A6%E4%BB%AA&tag=coffeeprism-20)虽能精准测量，但肉眼观察更需关注整体均匀度，而非单颗豆子的色差。  
+**专家提示**：使用[便携式色度仪](https://www.amazon.com/s?k=portable+coffee+roast+color+meter&tag=coffeeprism-20)虽能精准测量，但肉眼观察更需关注整体均匀度，而非单颗豆子的色差。  
 
 #### 2. 银皮脱落的「时间密码」  
 银皮在烘焙中后期随豆体膨胀而脱落，其时机直接影响风味：  
@@ -35,7 +35,7 @@ description: "判断咖啡烘焙是否完美，关键看颜色变化、银皮脱
 
 ### 三、嗅觉线索：从青草味到焦糖化的气味图谱  
 #### 1. 烘焙前期的「危险信号」  
-脱水期（100-150℃）若闻到类似青椒或稻草的生涩味，说明热能传递不均。建议使用[热风式烘焙机](https://www.amazon.com/s?k=%E7%83%AD%E9%A3%8E%E5%BC%8F%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)提升气流稳定性，尤其适合家庭烘焙新手。  
+脱水期（100-150℃）若闻到类似青椒或稻草的生涩味，说明热能传递不均。建议使用[热风式烘焙机](https://www.amazon.com/s?k=hot+air+coffee+roaster&tag=coffeeprism-20)提升气流稳定性，尤其适合家庭烘焙新手。  
 
 #### 2. 一爆与二爆的香气跃迁  
 - **一爆（First Crack）**：约196℃，豆体释放水蒸气发出爆裂声，此时出现烤面包与蔗糖香，是浅焙的最佳停止点  
@@ -47,22 +47,22 @@ description: "判断咖啡烘焙是否完美，关键看颜色变化、银皮脱
 
 ### 四、实战技巧：家庭烘焙的感官训练法  
 #### 1. 建立「风味记忆库」  
-将不同烘焙度的[参考豆样本](https://www.amazon.com/s?k=%E5%8F%82%E8%80%83%E8%B1%86%E6%A0%B7%E6%9C%AC&tag=coffeeprism-20)按色阶排列，每天对比研磨前后的色泽变化。推荐用[陶瓷手冲杯](https://www.amazon.com/s?k=%E9%99%B6%E7%93%B7%E6%89%8B%E5%86%B2%E6%9D%AF&tag=coffeeprism-20)进行杯测，避免器具材质干扰风味判断。  
+将不同烘焙度的参考豆样本按色阶排列，每天对比研磨前后的色泽变化。推荐用[陶瓷手冲杯](https://www.amazon.com/s?k=ceramic+pour+over+cup&tag=coffeeprism-20)进行杯测，避免器具材质干扰风味判断。  
 
 #### 2. 烘焙日志的黄金法则  
 记录关键参数：  
 - 一爆温度/时间  
 - 银皮脱落比例  
 - 出炉后豆表褶皱形态  
-配合[智能烘焙记录本](https://www.amazon.com/s?k=%E6%99%BA%E8%83%BD%E7%83%98%E7%84%99%E8%AE%B0%E5%BD%95%E6%9C%AC&tag=coffeeprism-20)，三个月后即可建立个人烘焙模型。  
+配合[智能烘焙记录本](https://www.amazon.com/s?k=coffee+roasting+logbook&tag=coffeeprism-20)，三个月后即可建立个人烘焙模型。  
 
 ---
 
 ### 五、给中国爱好者的特别指南  
 1. **湿度适应性**：江南梅雨季烘焙时，建议将生豆预烘时间延长15%，避免「外焦内生」  
 2. **本土器具推荐**：  
-- 泰摩栗子C3手摇磨豆机（适配浅中焙）[链接](https://www.amazon.com/s?k=%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)  
-- 巫师2.0家用热风机（精准控温±2℃）[链接](https://www.amazon.com/s?k=%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)  
+- 泰摩栗子C3手摇磨豆机（适配浅中焙）  
+- 巫师2.0家用热风机（精准控温±2℃）  
 
 ---
 

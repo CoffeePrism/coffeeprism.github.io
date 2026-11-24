@@ -88,7 +88,7 @@ Yahoo Finance 近日报道，全球**咖啡豆价格**持续上行，但以 Dutc
 1. **降低购买频率**：从每天一杯变成每周三四杯  
 2. **降低客单价**：从特调、厚乳、风味饮品转向美式  
 3. **更换渠道**：从连锁门店转向便利店、办公室咖啡机、挂耳和胶囊  
-4. **提升在家冲泡比例**：购买[咖啡磨豆机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)、[胶囊咖啡机](https://www.amazon.com/s?k=%E8%83%B6%E5%9B%8A%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)、[手冲咖啡滤杯](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%92%96%E5%95%A1%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)  
+4. **提升在家冲泡比例**：购买[咖啡磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)、[胶囊咖啡机](https://www.amazon.com/s?k=capsule+coffee+machine&tag=coffeeprism-20)、[手冲咖啡滤杯](https://www.amazon.com/s?k=pour+over+coffee+dripper&tag=coffeeprism-20)  
 
 我自己在近两年观察到一个明显变化：不少原本只喝门店奶咖的消费者，开始接受“工作日喝便宜咖啡，周末喝好咖啡”的分层消费模式。也就是说，咖啡不再只是单一品牌忠诚，而开始按场景分配预算。通勤需要的是稳定提神和低价，社交或独处时才愿意为风味、空间和服务买单。
 

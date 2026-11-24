@@ -100,8 +100,8 @@ author: "Coffee Prism"
 ## 五、产品推荐与工具清单
 
 ### 5.1 家用进阶机型推荐
-- [德龙EC9865](https://www.amazon.com/s?k=%E5%BE%B7%E9%BE%99EC9865&tag=coffeeprism-20)：双锅炉系统，适合日均5杯以上用户
-- [铂富BES878](https://www.amazon.com/s?k=%E9%93%82%E5%AF%8CBES878&tag=coffeeprism-20)：内置磨豆机的一体化解决方案
+- [德龙EC9865](https://www.amazon.com/s?k=DeLonghi+EC9865&tag=coffeeprism-20)：双锅炉系统，适合日均5杯以上用户
+- [铂富BES878](https://www.amazon.com/s?k=Breville+BES878+espresso+machine&tag=coffeeprism-20)：内置磨豆机的一体化解决方案
 
 ### 5.2 专业维护工具包
 - Cafiza清洁粉（500g装可满足半年用量）

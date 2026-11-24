@@ -29,12 +29,12 @@ aliases: ["/posts/2025-06-29-181924-xun-dou-zhi-lu-quan-qiu-xi-you-ka-pei-pin-ch
 #### 1. 瑰夏（Geisha）：咖啡界的“香槟王”  
 - **起源**：埃塞俄比亚Gesha森林野生种，经巴拿马翡翠庄园（Hacienda La Esmeralda）驯化  
 - **风味**：佛手柑、白桃、伯爵茶尾韵  
-- **中国适配建议**：搭配90℃水温的[Hario V60手冲壶](https://www.amazon.com/s?k=Hario%20V60%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)，突出其细腻酸质  
+- **中国适配建议**：搭配90℃水温的[Hario V60手冲壶](https://www.amazon.com/s?k=Hario+V60+pour+over+kettle&tag=coffeeprism-20)，突出其细腻酸质  
 
 #### 2. 帕卡马拉（Pacamara）：中美洲的巨豆奇迹  
 - **基因背景**：萨尔瓦多培育的波旁与象豆杂交种  
 - **风味特征**：番石榴、黑巧克力、触感如丝绸  
-- **冲煮关键**：建议使用[Comandante C40磨豆机](https://www.amazon.com/s?k=Comandante%20C40%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)控制粗研磨，避免过度萃取  
+- **冲煮关键**：建议使用[Comandante C40磨豆机](https://www.amazon.com/s?k=Comandante+C40+grinder&tag=coffeeprism-20)控制粗研磨，避免过度萃取  
 
 #### 3. 尤克特选（Eugenioides）：颠覆咖啡因认知的“白化种”  
 - **科学价值**：咖啡因含量仅为阿拉比卡的1/10，自带焦糖布丁与蜂蜜风味  
@@ -64,7 +64,7 @@ aliases: ["/posts/2025-06-29-181924-xun-dou-zhi-lu-quan-qiu-xi-you-ka-pei-pin-ch
 #### 1. 购买渠道的三重验证  
 - **溯源系统**：查看区块链追溯码（如云南豆的“咖云链”）  
 - **烘焙日期**：最佳风味期为烘焙后21-45天  
-- **存储方案**：使用[Fellow Atmos真空罐](https://www.amazon.com/s?k=Fellow%20Atmos%E7%9C%9F%E7%A9%BA%E7%BD%90&tag=coffeeprism-20)隔绝湿气  
+- **存储方案**：使用[Fellow Atmos真空罐](https://www.amazon.com/s?k=Fellow+Atmos+vacuum+canister&tag=coffeeprism-20)隔绝湿气  
 
 #### 2. 冲煮参数框架（以瑰夏为例）  
 | 参数        | 建议范围       | 科学原理               |  
@@ -92,7 +92,7 @@ aliases: ["/posts/2025-06-29-181924-xun-dou-zhi-lu-quan-qiu-xi-you-ka-pei-pin-ch
 ---
 
 **延伸产品推荐**：  
-- 精确控温的[Fellow Stagg EKG电水壶](https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%E7%94%B5%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)  
+- 精确控温的[Fellow Stagg EKG电水壶](https://www.amazon.com/s?k=Fellow+Stagg+EKG+electric+kettle&tag=coffeeprism-20)  
 - 专业级生豆储存罐[Airscape Coffee Container](https://www.amazon.com/s?k=Airscape%20Coffee%20Container&tag=coffeeprism-20)
 
 <!-- related-reading-start -->

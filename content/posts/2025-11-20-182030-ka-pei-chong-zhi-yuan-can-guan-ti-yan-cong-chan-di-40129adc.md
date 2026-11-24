@@ -47,7 +47,7 @@ author: "Coffee Prism"
 专业向导建议携带：
 - **防晒三件套**：UV400太阳镜、SPF50+防晒霜、宽檐帽
 - **多功能工具**：瑞士军刀（用于剖开咖啡鲜果）、温湿度计
-- **记录设备**：防尘笔记本+三防手机，推荐[华为Mate60 Pro](https://www.amazon.com/s?k=%E5%8D%8E%E4%B8%BAMate60%20Pro&tag=coffeeprism-20)的微距拍摄功能
+- **记录设备**：防尘笔记本+三防手机，推荐华为Mate60 Pro的微距拍摄功能
 
 ---
 

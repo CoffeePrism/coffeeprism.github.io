@@ -26,13 +26,13 @@ description: "埃塞俄比亚咖啡豆风味丰富的核心，在于其超过600
 
 ### 二、三大核心产区：风土如何塑造风味  
 #### 1. 耶加雪菲（Yirgacheffe）：花香与茶感的极致  
-海拔1900-2200米的云雾森林，赋予耶加雪菲标志性的柑橘酸质和茉莉花香。这里的咖啡多采用「水洗处理法」，通过发酵去果胶后呈现清澈的绿茶尾韵。推荐尝试[耶加雪菲G1水洗豆](https://www.amazon.com/s?k=%E8%80%B6%E5%8A%A0%E9%9B%AA%E8%8F%B2G1%E6%B0%B4%E6%B4%97%E8%B1%86&tag=coffeeprism-20)，搭配陶瓷滤杯突出其细腻层次。
+海拔1900-2200米的云雾森林，赋予耶加雪菲标志性的柑橘酸质和茉莉花香。这里的咖啡多采用「水洗处理法」，通过发酵去果胶后呈现清澈的绿茶尾韵。推荐尝试[耶加雪菲G1水洗豆](https://www.amazon.com/s?k=Ethiopia+Yirgacheffe+G1+coffee+beans&tag=coffeeprism-20)，搭配陶瓷滤杯突出其细腻层次。
 
 #### 2. 西达摩（Sidamo）：果酱般的日晒狂想曲  
 西达摩的「日晒处理法」将咖啡果铺晒21-30天，果肉糖分渗入豆体，形成蓝莓、芒果等热带水果风味。2023年COE冠军豆「班莎玛琪」便产自西达摩的遮荫森林，其酒香尾韵颠覆了传统非洲豆的认知。
 
 #### 3. 哈拉尔（Harrar）：野性之味与历史沉淀  
-作为埃塞最古老的贸易豆，哈拉尔以「自然干燥法」保留粗犷的香料感和红酒酸度。当地仍用骆驼运输咖啡豆，震动与高温催化出独特的发酵感，适合搭配[摩卡壶](https://www.amazon.com/s?k=%E6%91%A9%E5%8D%A1%E5%A3%B6&tag=coffeeprism-20)制作浓郁短饮。
+作为埃塞最古老的贸易豆，哈拉尔以「自然干燥法」保留粗犷的香料感和红酒酸度。当地仍用骆驼运输咖啡豆，震动与高温催化出独特的发酵感，适合搭配[摩卡壶](https://www.amazon.com/s?k=moka+pot&tag=coffeeprism-20)制作浓郁短饮。
 
 ---
 
@@ -44,7 +44,7 @@ description: "埃塞俄比亚咖啡豆风味丰富的核心，在于其超过600
 
 #### 2. 本土化冲煮建议  
 针对中国家庭常用器具：  
-- 手冲新手可选[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，均匀研磨度能平衡埃塞豆的酸质；  
+- 手冲新手可选[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)，均匀研磨度能平衡埃塞豆的酸质；  
 - 意式机用户可将西达摩日晒豆与云南豆拼配，制作带果酱风味的奶咖。
 
 ---
@@ -71,8 +71,8 @@ description: "埃塞俄比亚咖啡豆风味丰富的核心，在于其超过600
 
 ---  
 **延伸产品推荐**：  
-- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)  
-- [Acaia咖啡电子秤](https://www.amazon.com/s?k=Acaia%E5%92%96%E5%95%A1%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)
+- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)  
+- [Acaia咖啡电子秤](https://www.amazon.com/s?k=Acaia+coffee+scale&tag=coffeeprism-20)
 
 <!-- related-reading-start -->
 

@@ -82,7 +82,7 @@ author: "Coffee Prism"
 ## 七、精选设备与工具推荐
 
 ### 7.1 家用入门套装
-[泰摩Cube 3智能烘焙机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9Cube%203%E6%99%BA%E8%83%BD%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)：
+[泰摩Cube 3智能烘焙机](https://www.amazon.com/s?k=Timemore+Cube+3+coffee+roaster&tag=coffeeprism-20)：
 - 专利双热源系统
 - 支持APP曲线记录
 - 300g容量适合家庭使用

@@ -36,7 +36,7 @@ author: "Coffee Prism"
 ## 三、构建文化体验的五大核心要素
 
 ### 3.1 在地性感知训练
-携带专业工具包：[Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)、[Acaia电子秤](https://www.amazon.com/s?k=Acaia%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)，在云南保山与咖农同住三天，记录不同海拔咖啡樱桃的糖分变化。真正的文化体验需要身体参与，而非被动接受。
+携带专业工具包：[Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)、[Acaia电子秤](https://www.amazon.com/s?k=Acaia+coffee+scale&tag=coffeeprism-20)，在云南保山与咖农同住三天，记录不同海拔咖啡樱桃的糖分变化。真正的文化体验需要身体参与，而非被动接受。
 
 ### 3.2 仪式解码能力培养
 在日本京都百年町屋咖啡馆，观察店主如何用25分钟完成一杯手冲：前3分钟专注焚香静心，中间15分钟与客人讨论当日天气，最后7分钟才是冲煮操作。这种仪式节奏本身就是文化密码。
@@ -76,7 +76,7 @@ author: "Coffee Prism"
 ## 七、文化旅者的装备清单
 
 ### 7.1 必备工具组
-- [Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)：中国品牌的高性价比之选，精准的200微米调节刻度适合记录不同产区的研磨差异
+- [Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore+hand+grinder&tag=coffeeprism-20)：中国品牌的高性价比之选，精准的200微米调节刻度适合记录不同产区的研磨差异
 - 本土化替代方案：淘宝"咖啡邮局"出品的《中国咖啡地图》，收录27个产区的文化禁忌指南
 
 ### 7.2 智能辅助设备

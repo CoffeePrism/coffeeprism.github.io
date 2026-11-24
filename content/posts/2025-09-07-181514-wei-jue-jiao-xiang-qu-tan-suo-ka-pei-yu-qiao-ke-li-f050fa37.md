@@ -47,7 +47,7 @@ description: "咖啡与巧克力的科学搭配关键在于匹配酸度、苦味
 - 深烘焙咖啡（曼特宁）→ 100%单一产地黑巧克力  
 
 **专家建议**：  
-> “先让咖啡与巧克力在口腔中分别融化，再轻啜咖啡，感受两者交融时的风味演变——这才是真正的‘第四空间体验’。”（参考[Chemex手冲壶](https://www.amazon.com/s?k=Chemex%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)提升冲煮精度）
+> “先让咖啡与巧克力在口腔中分别融化，再轻啜咖啡，感受两者交融时的风味演变——这才是真正的‘第四空间体验’。”（参考[Chemex手冲壶](https://www.amazon.com/s?k=Chemex+pour+over+coffee+maker&tag=coffeeprism-20)提升冲煮精度）
 
 **2. 进阶玩法：地域风味联动**  
 - 巴西黄波旁咖啡 × 秘鲁玛拉尼昂巧克力（坚果调性共鸣）  
@@ -68,8 +68,8 @@ description: "咖啡与巧克力的科学搭配关键在于匹配酸度、苦味
 - 结合中式点心文化→ 龙井绿茶风味的白巧克力+水洗云南咖啡  
 
 **2. 设备选择建议**  
-- 家用场景：[Timemore C2手摇磨豆机](https://www.amazon.com/s?k=Timemore%20C2%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)（精准控制研磨度）  
-- 专业场景：[Fellow Stagg EKG温控壶](https://www.amazon.com/s?k=Fellow%20Stagg%20EKG%E6%B8%A9%E6%8E%A7%E5%A3%B6&tag=coffeeprism-20)（稳定萃取水温）  
+- 家用场景：[Timemore C2手摇磨豆机](https://www.amazon.com/s?k=Timemore+C2+hand+grinder&tag=coffeeprism-20)（精准控制研磨度）  
+- 专业场景：[Fellow Stagg EKG温控壶](https://www.amazon.com/s?k=Fellow+Stagg+EKG+kettle&tag=coffeeprism-20)（稳定萃取水温）  
 
 **3. 文化融合创新**  
 上海某独立咖啡馆的实验案例：  
@@ -101,7 +101,7 @@ description: "咖啡与巧克力的科学搭配关键在于匹配酸度、苦味
 记住：最好的搭配永远是你享受的那一种。  
 
 **明日实验建议**：  
-用[V60滤杯](https://www.amazon.com/s?k=V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)冲煮一支水洗云南豆，搭配70%含量的Xinjiang可可巧克力，记录下第一口的风味惊喜。
+用[V60滤杯](https://www.amazon.com/s?k=V60+dripper&tag=coffeeprism-20)冲煮一支水洗云南豆，搭配70%含量的Xinjiang可可巧克力，记录下第一口的风味惊喜。
 
 <!-- related-reading-start -->
 

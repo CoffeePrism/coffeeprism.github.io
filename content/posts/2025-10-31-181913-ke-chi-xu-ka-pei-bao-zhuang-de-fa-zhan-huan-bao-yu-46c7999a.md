@@ -78,7 +78,7 @@ author: "Coffee Prism"
 - 优先选择本色包装（未漂白处理更环保）
 
 ### 4.2 日常使用技巧
-- 开封后转移至[KONA真空密封罐](https://www.amazon.com/s?k=KONA%E7%9C%9F%E7%A9%BA%E5%AF%86%E5%B0%81%E7%BD%90&tag=coffeeprism-20)，残留在原包装的咖啡油脂会加速材料分解
+- 开封后转移至[KONA真空密封罐](https://www.amazon.com/s?k=KONA+vacuum+canister&tag=coffeeprism-20)，残留在原包装的咖啡油脂会加速材料分解
 - 清洗可重复使用的金属罐时，用咖啡渣替代化学清洁剂
 - 折叠废弃包装时保留完整标识，方便后期分类回收
 
@@ -112,7 +112,7 @@ author: "Coffee Prism"
 
 ## 七、精选产品推荐
 
-1. [Ecopack可堆肥咖啡袋](https://www.amazon.com/s?k=Ecopack%E5%8F%AF%E5%A0%86%E8%82%A5%E5%92%96%E5%95%A1%E8%A2%8B&tag=coffeeprism-20)：通过双重认证的站立式包装，内置竹纤维滤网
+1. [Ecopack可堆肥咖啡袋](https://www.amazon.com/s?k=Ecopack+compostable+coffee+bags&tag=coffeeprism-20)：通过双重认证的站立式包装，内置竹纤维滤网
 2. 国产黑马「绿客」咖啡渣复合包装：含30%咖啡渣再生材料，支持定制尺寸
 3. HARIO可重复使用金属罐：搭配湿度指示器，京东月销2000+的爆款
 

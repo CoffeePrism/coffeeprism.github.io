@@ -73,7 +73,7 @@ author: "Coffee Prism"
 ## 七、工具推荐清单
 
 ### 7.1 新手入门套装
-- [Hario冷萃瓶](https://www.amazon.com/s?k=Hario%E5%86%B7%E8%90%83%E7%93%B6&tag=coffeeprism-20)：日本进口硼硅玻璃，带刻度密封瓶（￥198）
+- [Hario冷萃瓶](https://www.amazon.com/s?k=Hario+cold+brew+bottle&tag=coffeeprism-20)：日本进口硼硅玻璃，带刻度密封瓶（￥198）
 - 泰摩Slim Plus磨豆机：CNC不锈钢磨芯，精准调节研磨度（￥359）
 
 ### 7.2 进阶玩家必备

@@ -84,7 +84,7 @@ author: "Coffee Prism"
 
 ### 误区1：直接使用未处理咖啡渣
 **后果**：潮湿渣体易发霉滋生细菌  
-**解决方案**：必须经过干燥灭菌处理，可购买家用食物烘干机（推荐[Bear食品烘干机](https://www.amazon.com/s?k=Bear%E9%A3%9F%E5%93%81%E7%83%98%E5%B9%B2%E6%9C%BA&tag=coffeeprism-20)）
+**解决方案**：必须经过干燥灭菌处理，可购买家用食物烘干机（推荐[Bear食品烘干机](https://www.amazon.com/s?k=Bear+food+dehydrator&tag=coffeeprism-20)）
 
 ### 误区2：单一场景过度使用
 **案例**：某咖啡馆每周向同一花圃倾倒50kg咖啡渣，导致土壤酸化  
@@ -109,7 +109,7 @@ author: "Coffee Prism"
 ## 推荐产品与工具
 
 ### 家用必备三件套
-1. [Hario咖啡渣干燥罐](https://www.amazon.com/s?k=Hario%E5%92%96%E5%95%A1%E6%B8%A3%E5%B9%B2%E7%87%A5%E7%BD%90&tag=coffeeprism-20)：双层滤网设计，京东售价158元
+1. [Hario咖啡渣干燥罐](https://www.amazon.com/s?k=Hario+coffee+grounds+drying+container&tag=coffeeprism-20)：双层滤网设计，京东售价158元
 2. 三顿半返航计划回收盒：可兑换限定周边产品
 3. Brewista智能温控烘干机：精准控制5℃温差
 

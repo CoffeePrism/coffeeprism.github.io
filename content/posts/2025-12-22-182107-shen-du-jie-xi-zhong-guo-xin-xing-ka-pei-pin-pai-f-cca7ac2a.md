@@ -69,7 +69,7 @@ author: "Coffee Prism"
 某初创品牌耗资200万打造300㎡概念店，日均客流量不足百人。建议新手选择「15-30㎡店型」，将装修成本控制在5000元/㎡以内。
 
 ### 4.2 忽视产品标准化
-实测显示手工咖啡师出品差异可达23%，推荐使用[德龙EC9865半自动咖啡机](https://www.amazon.com/s?k=%E5%BE%B7%E9%BE%99EC9865%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)，其PID温控系统能将萃取温差控制在±1℃。
+实测显示手工咖啡师出品差异可达23%，推荐使用[德龙EC9865半自动咖啡机](https://www.amazon.com/s?k=DeLonghi+EC9865+espresso+machine&tag=coffeeprism-20)，其PID温控系统能将萃取温差控制在±1℃。
 
 ### 4.3 错判本土化节奏
 将「龙井美式」调整为「桂花拿铁」后，某品牌区域销量提升70%。建议采用「本地时令食材+咖啡」的组合公式。
@@ -77,7 +77,7 @@ author: "Coffee Prism"
 ## 五、专业咖啡师的进阶建议
 
 ### 5.1 建立风味数据库
-使用[三顿半数字咖啡](https://www.amazon.com/s?k=%E4%B8%89%E9%A1%BF%E5%8D%8A%E6%95%B0%E5%AD%97%E5%92%96%E5%95%A1&tag=coffeeprism-20)进行盲测训练，记录超过200种风味特征。某冠军咖啡师通过该方法将杯测准确率提升至92%。
+使用[三顿半数字咖啡](https://www.amazon.com/s?k=Saturnbird+instant+coffee&tag=coffeeprism-20)进行盲测训练，记录超过200种风味特征。某冠军咖啡师通过该方法将杯测准确率提升至92%。
 
 ### 5.2 掌握「五感营销」
 - 听觉：磨豆机转速与音效的关系  
@@ -90,8 +90,8 @@ author: "Coffee Prism"
 ## 六、产品推荐与购买指南
 
 ### 6.1 家用设备选择
-- 入门级：[泰摩栗子C手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)（研磨均匀度达85%）  
-- 进阶级：[惠家KD-310半自动咖啡机](https://www.amazon.com/s?k=%E6%83%A0%E5%AE%B6KD-310%E5%8D%8A%E8%87%AA%E5%8A%A8%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)（双锅炉系统稳定）  
+- 入门级：[泰摩栗子C手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C+hand+grinder&tag=coffeeprism-20)（研磨均匀度达85%）  
+- 进阶级：[惠家KD-310半自动咖啡机](https://www.amazon.com/s?k=espresso+machine&tag=coffeeprism-20)（双锅炉系统稳定）  
 
 ### 6.2 本土精品咖啡豆
 - 云南保山「天皓庄园」日晒处理（柑橘调明显）  
@@ -112,7 +112,7 @@ author: "Coffee Prism"
 可与本地农场合作制作有机堆肥，或加工成除味包、蜡烛等周边产品，提升品牌环保形象。
 
 ### 外卖包装如何优化？
-选择[双层隔热杯](https://www.amazon.com/s?k=%E5%8F%8C%E5%B1%82%E9%9A%94%E7%83%AD%E6%9D%AF&tag=coffeeprism-20)，搭配可降解腰封。某品牌通过改进包装使外卖差评率下降67%。
+选择[双层隔热杯](https://www.amazon.com/s?k=double+wall+insulated+cup&tag=coffeeprism-20)，搭配可降解腰封。某品牌通过改进包装使外卖差评率下降67%。
 
 ---
 

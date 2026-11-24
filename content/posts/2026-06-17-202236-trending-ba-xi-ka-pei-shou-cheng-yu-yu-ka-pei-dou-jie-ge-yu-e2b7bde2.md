@@ -126,7 +126,7 @@ news_source: "https://news.google.com/rss/articles/CBMiswFBVV95cUxPelhCeG9acWR3c
 2. 常喝品牌是否更换拼配说明、产区信息或豆单结构  
 3. 门店促销频率是否明显下降，这往往比“明涨价”更早出现  
 
-如果你在家冲煮，提前准备一台稳定研磨设备和可复现冲煮工具，会更容易适应不同批次豆子的变化，比如[咖啡磨豆机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)或[V60滤杯](https://www.amazon.com/s?k=V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)。原料波动期，冲煮端的稳定性会更重要。
+如果你在家冲煮，提前准备一台稳定研磨设备和可复现冲煮工具，会更容易适应不同批次豆子的变化，比如[咖啡磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)或[V60滤杯](https://www.amazon.com/s?k=V60+dripper&tag=coffeeprism-20)。原料波动期，冲煮端的稳定性会更重要。
 
 ## 未来展望与预测
 

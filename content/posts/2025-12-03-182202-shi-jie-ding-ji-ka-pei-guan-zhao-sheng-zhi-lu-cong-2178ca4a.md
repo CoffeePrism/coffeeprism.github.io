@@ -66,10 +66,10 @@ author: "Coffee Prism"
 ## 专业设备选购指南  
 
 ### H2 便携冲煮套装  
-[司令官C40手摇磨豆机](https://www.amazon.com/s?k=%E5%8F%B8%E4%BB%A4%E5%AE%98C40%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20) 采用特制氮钢刀盘，粒径均匀度达98%，堪称移动咖啡实验室标配。国内用户可选择平替款[泰摩栗子X](https://detail.tmall.com/item.htm?id=611147235801)，在500元价位实现类似性能。  
+[司令官C40手摇磨豆机](https://www.amazon.com/s?k=Comandante+C40+hand+grinder&tag=coffeeprism-20) 采用特制氮钢刀盘，粒径均匀度达98%，堪称移动咖啡实验室标配。国内用户可选择平替款[泰摩栗子X](https://detail.tmall.com/item.htm?id=611147235801)，在500元价位实现类似性能。  
 
 ### H2 风味记录工具  
-[33 Coffee Co. 的咖啡品鉴护照](https://www.amazon.com/s?k=33%20Coffee%20Co.%20%E7%9A%84%E5%92%96%E5%95%A1%E5%93%81%E9%89%B4%E6%8A%A4%E7%85%A7&tag=coffeeprism-20) 提供标准化风味轮和冲泡参数记录页，已获Q Grader认证。中文版可关注[咖啡公社](https://coffeecommune.com)出品的《环球咖啡品鉴手帐》。  
+33 Coffee Co. 的咖啡品鉴护照 提供标准化风味轮和冲泡参数记录页，已获Q Grader认证。中文版可关注[咖啡公社](https://coffeecommune.com)出品的《环球咖啡品鉴手帐》。  
 
 ---
 

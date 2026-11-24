@@ -87,7 +87,7 @@ news_source: "https://news.google.com/rss/articles/CBMiywFBVV95cUxQaXFDVFNaY0xrc
 
 对国内品牌来说，星巴克这次争议提供了三个启示。第一，价格上调必须附带清晰的价值说明。第二，高端化不能只做视觉和门店层面，更要落实到杯中体验。第三，品牌语言必须尊重消费者感受，避免“替用户定义可负担”。这比单纯做一次新品营销更重要。
 
-如果是家庭用户，这也可能推动一部分消费迁移到居家冲煮。比如入门用户会考虑[手冲咖啡壶](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%92%96%E5%95%A1%E5%A3%B6&tag=coffeeprism-20)、[咖啡磨豆机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)或[胶囊咖啡机](https://www.amazon.com/s?k=%E8%83%B6%E5%9B%8A%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)，因为当外购咖啡价格持续上升时，自制的经济性会被重新发现。
+如果是家庭用户，这也可能推动一部分消费迁移到居家冲煮。比如入门用户会考虑[手冲咖啡壶](https://www.amazon.com/s?k=pour+over+coffee+kettle&tag=coffeeprism-20)、[咖啡磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)或[胶囊咖啡机](https://www.amazon.com/s?k=capsule+coffee+machine&tag=coffeeprism-20)，因为当外购咖啡价格持续上升时，自制的经济性会被重新发现。
 
 ## 未来展望与预测
 

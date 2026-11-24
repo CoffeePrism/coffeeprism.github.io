@@ -28,7 +28,7 @@ description: "法压壶想冲出纯净又醇厚的咖啡，关键在研磨度、
 ### 二、选购法压壶的3个黄金标准
 
 **2.1 材质决定使用寿命**  
-- **玻璃壶身+不锈钢框架**：推荐[Bodum经典法压壶](https://www.amazon.com/s?k=Bodum%E7%BB%8F%E5%85%B8%E6%B3%95%E5%8E%8B%E5%A3%B6&tag=coffeeprism-20)，其耐热玻璃可承受100℃高温，双层滤网设计能有效拦截细粉。  
+- **玻璃壶身+不锈钢框架**：推荐[Bodum经典法压壶](https://www.amazon.com/s?k=Bodum+French+press&tag=coffeeprism-20)，其耐热玻璃可承受100℃高温，双层滤网设计能有效拦截细粉。  
 - **全不锈钢型号**：适合户外使用，但需注意内壁可能吸附风味残留。  
 
 **2.2 滤网系统的精密程度**  
@@ -43,12 +43,12 @@ description: "法压壶想冲出纯净又醇厚的咖啡，关键在研磨度、
 
 **3.1 研磨度的精确控制**  
 - **目标颗粒**：粗砂糖状（粒径约1.2-1.5mm）  
-- **设备建议**：使用[Timemore C2手摇磨豆机](https://www.amazon.com/s?k=Timemore%20C2%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)进行校准，过度细粉会导致过度萃取和渣感。  
+- **设备建议**：使用[Timemore C2手摇磨豆机](https://www.amazon.com/s?k=Timemore+C2+hand+grinder&tag=coffeeprism-20)进行校准，过度细粉会导致过度萃取和渣感。  
 
 **3.2 水温曲线的动态管理**  
 - **浅烘焙豆**：92-96℃（突出花果香气）  
 - **深烘焙豆**：88-90℃（抑制焦苦味）  
-- **实测技巧**：将沸腾水静置30秒后使用，或配备带温控功能的[Bonavita电热水壶](https://www.amazon.com/s?k=Bonavita%E7%94%B5%E7%83%AD%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)。  
+- **实测技巧**：将沸腾水静置30秒后使用，或配备带温控功能的[Bonavita电热水壶](https://www.amazon.com/s?k=Bonavita+electric+kettle&tag=coffeeprism-20)。  
 
 **3.3 粉水比的黄金公式**  
 推荐1:15比例（例如20g粉对应300ml水），可根据豆种特性微调：  
@@ -75,7 +75,7 @@ description: "法压壶想冲出纯净又醇厚的咖啡，关键在研磨度、
 云南保山小粒咖啡因酸度明亮，建议采用92℃水温+4分钟萃取；海南兴隆罗布斯塔豆油脂丰富，可缩短至3分10秒避免苦涩。  
 
 **4.3 冬季保温的巧思**  
-将法压壶置于60℃温水浴中保温，比直接加热更稳定。搭配[Stanley保温杯](https://www.amazon.com/s?k=Stanley%E4%BF%9D%E6%B8%A9%E6%9D%AF&tag=coffeeprism-20)可保持风味2小时不散失。
+将法压壶置于60℃温水浴中保温，比直接加热更稳定。搭配[Stanley保温杯](https://www.amazon.com/s?k=Stanley+insulated+tumbler&tag=coffeeprism-20)可保持风味2小时不散失。
 
 ---
 
@@ -99,9 +99,9 @@ description: "法压壶想冲出纯净又醇厚的咖啡，关键在研磨度、
 ---
 
 **产品推荐清单**  
-1. [Bodum巴西经典法压壶](https://www.amazon.com/s?k=Bodum%E5%B7%B4%E8%A5%BF%E7%BB%8F%E5%85%B8%E6%B3%95%E5%8E%8B%E5%A3%B6&tag=coffeeprism-20)  
-2. [Timemore C2手摇磨豆机](https://www.amazon.com/s?k=Timemore%20C2%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)  
-3. [云南保山日晒小粒咖啡豆](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E4%BF%9D%E5%B1%B1%E6%97%A5%E6%99%92%E5%B0%8F%E7%B2%92%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)  
+1. [Bodum巴西经典法压壶](https://www.amazon.com/s?k=Bodum+Brazil+French+press&tag=coffeeprism-20)  
+2. [Timemore C2手摇磨豆机](https://www.amazon.com/s?k=Timemore+C2+hand+grinder&tag=coffeeprism-20)  
+3. [云南保山日晒小粒咖啡豆](https://www.amazon.com/s?k=Baoshan+natural+process+coffee+beans&tag=coffeeprism-20)  
 
 （注：本文提及产品链接仅供参考，实际购买前请核对产品参数与用户评价）
 

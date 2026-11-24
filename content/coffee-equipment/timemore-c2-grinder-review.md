@@ -15,7 +15,7 @@ Timemore是一个来自中国的咖啡器具品牌，以其优秀的设计、制
 
 ## 外观与设计
 
-[Timemore C2 手动咖啡研磨器](https://www.amazon.com/s?k=Timemore%20C2%20%E6%89%8B%E5%8A%A8%E5%92%96%E5%95%A1%E7%A0%94%E7%A3%A8%E5%99%A8&tag=coffeeprism-20)采用了简约现代的设计风格：
+[Timemore C2 手动咖啡研磨器](https://www.amazon.com/s?k=Timemore+C2+hand+grinder&tag=coffeeprism-20)采用了简约现代的设计风格：
 
 - **尺寸**：整体高度约18厘米，直径约5厘米，便于手持
 - **材质**：铝合金主体，不锈钢研磨刀盘，CNC精密加工
@@ -101,7 +101,7 @@ Timemore C2与同价位的几款热门手动研磨器对比：
 
 Timemore C2在同价位研磨器中提供了卓越的性价比：
 
-- **价格**：约50-60美元区间，[Amazon链接](https://www.amazon.com/s?k=Amazon%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
+- **价格**：约50-60美元区间，
 - **性能回报**：研磨性能接近一些100美元以上的手动研磨器
 - **长期投资**：耐用设计意味着较长使用寿命，长期成本更低
 

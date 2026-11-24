@@ -22,7 +22,7 @@ description: "中国咖啡创业者正以云南精品咖啡、在地化品牌叙
 
 **创业者启示**："精品咖啡不是舶来品，而是土地的语言。"张寅在采访中强调。Torch的包装设计融入傣族织锦元素，每包咖啡豆附带可溯源的微批次信息，这种"在地化叙事"使其在海外市场获得溢价空间。
 
-**专家建议**：选购云南咖啡时，可关注[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，其精密钢芯能精准呈现云南豆的细腻酸质。搭配[泰摩鱼3智能手冲壶](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%B1%BC3%E6%99%BA%E8%83%BD%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)，92℃水温能更好释放花果调性。
+**专家建议**：选购云南咖啡时，可关注[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)，其精密钢芯能精准呈现云南豆的细腻酸质。搭配[泰摩鱼3智能手冲壶](https://www.amazon.com/s?k=Timemore+Fish+3+smart+kettle&tag=coffeeprism-20)，92℃水温能更好释放花果调性。
 
 ---
 
@@ -34,7 +34,7 @@ description: "中国咖啡创业者正以云南精品咖啡、在地化品牌叙
 
 **在地化实践**：针对中国消费者偏好，明谦开发出"茶咖系列"，用凤凰单枞、正山小种等传统茶汤替代常规奶咖基底。这种文化融合产品贡献了45%的夏季销售额。
 
-**专业贴士**：家庭复刻创意咖啡可选用[Hario冷萃壶](https://www.amazon.com/s?k=Hario%E5%86%B7%E8%90%83%E5%A3%B6&tag=coffeeprism-20)，12小时低温萃取能保留更多芳香物质。搭配[正山小种红茶](https://www.amazon.com/s?k=%E6%AD%A3%E5%B1%B1%E5%B0%8F%E7%A7%8D%E7%BA%A2%E8%8C%B6&tag=coffeeprism-20)，建议茶水比1:50进行预调配。
+**专业贴士**：家庭复刻创意咖啡可选用[Hario冷萃壶](https://www.amazon.com/s?k=Hario+cold+brew+pitcher&tag=coffeeprism-20)，12小时低温萃取能保留更多芳香物质。搭配[正山小种红茶](https://www.amazon.com/s?k=Lapsang+Souchong+black+tea&tag=coffeeprism-20)，建议茶水比1:50进行预调配。
 
 ---
 
@@ -46,7 +46,7 @@ description: "中国咖啡创业者正以云南精品咖啡、在地化品牌叙
 
 **消费洞察**：针对中国家庭场景，辛鹿推出"七日风味盒"，内含7包不同产区的挂耳咖啡。这种"环球风味之旅"概念满足了中国消费者对多样性的需求，复购率达68%。
 
-**设备推荐**：追求新鲜烘焙的消费者可选择[Fellow Atmos真空储豆罐](https://www.amazon.com/s?k=Fellow%20Atmos%E7%9C%9F%E7%A9%BA%E5%82%A8%E8%B1%86%E7%BD%90&tag=coffeeprism-20)，其专利气阀设计可将咖啡豆保鲜期延长至45天。搭配[泰摩S2电子秤](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9S2%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)，0.1g精度确保冲泡一致性。
+**设备推荐**：追求新鲜烘焙的消费者可选择[Fellow Atmos真空储豆罐](https://www.amazon.com/s?k=Fellow+Atmos+canister&tag=coffeeprism-20)，其专利气阀设计可将咖啡豆保鲜期延长至45天。搭配[泰摩S2电子秤](https://www.amazon.com/s?k=Timemore+S2+scale&tag=coffeeprism-20)，0.1g精度确保冲泡一致性。
 
 ---
 

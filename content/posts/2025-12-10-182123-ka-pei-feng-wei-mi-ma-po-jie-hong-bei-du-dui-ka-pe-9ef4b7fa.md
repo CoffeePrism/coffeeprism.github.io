@@ -73,7 +73,7 @@ author: "Coffee Prism"
 2023年中国咖啡消费调查报告显示，48%的消费者认为深焙咖啡更"专业"，实则埃塞俄比亚原生种在浅焙时能展现茉莉花与佛手柑的细腻风味，过度烘焙反而破坏其特色。
 
 ### 5.2 忽略养豆期的致命错误
-刚烘焙的咖啡豆需要3-7天养豆期，浅焙豆建议72小时排气，深焙豆需延长至120小时。使用[泰摩真空醒豆罐](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%9C%9F%E7%A9%BA%E9%86%92%E8%B1%86%E7%BD%90&tag=coffeeprism-20)可将风味稳定期延长30%。
+刚烘焙的咖啡豆需要3-7天养豆期，浅焙豆建议72小时排气，深焙豆需延长至120小时。使用[泰摩真空醒豆罐](https://www.amazon.com/s?k=Timemore+vacuum+canister&tag=coffeeprism-20)可将风味稳定期延长30%。
 
 ---
 
@@ -96,9 +96,9 @@ author: "Coffee Prism"
 ## 七、设备选购指南
 
 ### 7.1 入门必备三件套
-- [Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)：锥形结构完美展现浅焙层次
-- [泰摩栗子C手摇磨](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C%E6%89%8B%E6%91%87%E7%A3%A8&tag=coffeeprism-20)：24档微调适应不同烘焙度
-- [Acaia Pearl电子秤](https://www.amazon.com/s?k=Acaia%20Pearl%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)：0.1g精度掌控萃取变量
+- [Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)：锥形结构完美展现浅焙层次
+- [泰摩栗子C手摇磨](https://www.amazon.com/s?k=Timemore+Chestnut+C+hand+grinder&tag=coffeeprism-20)：24档微调适应不同烘焙度
+- [Acaia Pearl电子秤](https://www.amazon.com/s?k=Acaia+Pearl+scale&tag=coffeeprism-20)：0.1g精度掌控萃取变量
 
 ---
 

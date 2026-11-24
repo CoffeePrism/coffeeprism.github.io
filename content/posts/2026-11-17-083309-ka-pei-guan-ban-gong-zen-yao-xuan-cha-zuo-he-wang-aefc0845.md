@@ -102,19 +102,19 @@ topic_seed: "咖啡馆作为社交和工作空间的演变"
 
 延长线的线长是核心参数：1.5米适合吧台位，3米可以覆盖中央大长桌的两侧座位，5米适合插座在墙角且被家具遮挡的情况。插头优先选二相扁插，三相插头在部分老门店的两孔插座上无法插入。带独立开关的型号可以避免反复插拔。
 
-推荐型号：[Anker 安克 延长线插座 3米](https://www.amazon.com/s?k=Anker%20%E5%AE%89%E5%85%8B%20%E5%BB%B6%E9%95%BF%E7%BA%BF%E6%8F%92%E5%BA%A7%203%E7%B1%B3&tag=coffeeprism-20)、[Belkin 便携延长线插座](https://www.amazon.com/s?k=Belkin%20%E4%BE%BF%E6%90%BA%E5%BB%B6%E9%95%BF%E7%BA%BF%E6%8F%92%E5%BA%A7&tag=coffeeprism-20)。
+推荐型号：[Anker 安克 延长线插座 3米](https://www.amazon.com/s?k=Anker+extension+cord+10+ft&tag=coffeeprism-20)、[Belkin 便携延长线插座](https://www.amazon.com/s?k=Belkin+portable+power+strip&tag=coffeeprism-20)。
 
 ### 充电宝与笔记本续航
 
 笔记本办公场景下，充电宝需要支持USB Power Delivery协议，输出功率65W以上才能给多数轻薄本正常供电。20000mAh容量的充电宝在转换效率约80%的情况下，可给13英寸笔记本补充约1.5到2小时续航。国内主流品牌价格区间在180到350元，京东和天猫的官方旗舰店售后更可靠。
 
-推荐型号：[Anker 737 充电宝 24000mAh 140W](https://www.amazon.com/s?k=Anker%20737%20%E5%85%85%E7%94%B5%E5%AE%9D%2024000mAh%20140W&tag=coffeeprism-20)、[Baseus 倍思 65W 充电宝](https://www.amazon.com/s?k=Baseus%20%E5%80%8D%E6%80%9D%2065W%20%E5%85%85%E7%94%B5%E5%AE%9D&tag=coffeeprism-20)。
+推荐型号：[Anker 737 充电宝 24000mAh 140W](https://www.amazon.com/s?k=Anker+737+power+bank&tag=coffeeprism-20)、[Baseus 倍思 65W 充电宝](https://www.amazon.com/s?k=Baseus+65W+power+bank&tag=coffeeprism-20)。
 
 ### 降噪耳机与网络稳定性
 
 降噪耳机对咖啡馆办公的价值不只是隔绝噪音，还包括减少因环境干扰导致的会议重复沟通。选择支持多点连接的双设备配对型号，可以在电脑和手机之间快速切换。若门店Wi-Fi不稳定，改用有线连接需要额外准备一个USB-C转以太网适配器，价格区间在60到150元。
 
-推荐型号：[Sony WH-1000XM5 降噪耳机](https://www.amazon.com/s?k=Sony%20WH-1000XM5%20%E9%99%8D%E5%99%AA%E8%80%B3%E6%9C%BA&tag=coffeeprism-20)、[Anker USB-C 以太网适配器](https://www.amazon.com/s?k=Anker%20USB-C%20%E4%BB%A5%E5%A4%AA%E7%BD%91%E9%80%82%E9%85%8D%E5%99%A8&tag=coffeeprism-20)。
+推荐型号：[Sony WH-1000XM5 降噪耳机](https://www.amazon.com/s?k=Sony+WH-1000XM5+headphones&tag=coffeeprism-20)、[Anker USB-C 以太网适配器](https://www.amazon.com/s?k=Anker+USB-C+ethernet+adapter&tag=coffeeprism-20)。
 
 ## 咖啡馆办公的礼仪与消费边界
 

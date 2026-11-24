@@ -33,7 +33,7 @@ author: "Coffee Prism"
 首尔大学2022年的双盲实验显示，低温12小时萃取的咖啡组在持续注意力测试中表现优于热冲组（p<0.05）。研究者认为这与儿茶素保留率提升41%相关，但热冲法的芳香物质释放更完整，在情绪调节方面更具优势。
 
 ### 2.2 器具选择的科学依据
-使用[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)时，800μm粒径产生的咖啡液在功能性核磁共振（fMRI）中显示更强的默认模式网络激活。这与精品咖啡协会（SCA）推荐的「粗砂糖级研磨度」理论完美契合。
+使用[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)时，800μm粒径产生的咖啡液在功能性核磁共振（fMRI）中显示更强的默认模式网络激活。这与精品咖啡协会（SCA）推荐的「粗砂糖级研磨度」理论完美契合。
 
 ---
 
@@ -53,7 +53,7 @@ author: "Coffee Prism"
 2023年WBC冠军使用的厌氧日晒豆，其γ-氨基丁酸（GABA）含量是水洗豆的3倍。这种物质被证实能增强α脑波活性，特别适合需要深度专注的编程或写作场景。
 
 ### 4.2 器具的温度控制革命
-[FELLOW Stagg EKG智能手冲壶](https://www.amazon.com/s?k=FELLOW%20Stagg%20EKG%E6%99%BA%E8%83%BD%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)的±1℃温控系统，能精确激活不同烘焙度咖啡的特定风味化合物。中浅烘豆在92℃时释放的吡嗪类物质，被证实与创造性问题解决能力呈正相关。
+[FELLOW Stagg EKG智能手冲壶](https://www.amazon.com/s?k=Fellow+Stagg+EKG+electric+kettle&tag=coffeeprism-20)的±1℃温控系统，能精确激活不同烘焙度咖啡的特定风味化合物。中浅烘豆在92℃时释放的吡嗪类物质，被证实与创造性问题解决能力呈正相关。
 
 ---
 

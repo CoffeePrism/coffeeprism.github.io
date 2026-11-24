@@ -53,7 +53,7 @@ author: "Coffee Prism"
 瑞幸咖啡推出的「碳中和拿铁」，采用云南碳汇咖啡豆搭配植物基奶源，每杯碳足迹较传统产品降低76%。Manner Coffee的「自带杯减5元」政策，使可重复使用杯具使用率提升至41%。
 
 ### 3.3 家用设备的环保选择
-[泰摩咖啡秤](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E5%92%96%E5%95%A1%E7%A7%A4&tag=coffeeprism-20)采用太阳能充电设计，减少电池污染。[Hario V60不锈钢滤网](https://www.amazon.com/s?k=Hario%20V60%E4%B8%8D%E9%94%88%E9%92%A2%E6%BB%A4%E7%BD%91&tag=coffeeprism-20)可完全替代滤纸，使用寿命达10年以上。
+[泰摩咖啡秤](https://www.amazon.com/s?k=Timemore+coffee+scale&tag=coffeeprism-20)采用太阳能充电设计，减少电池污染。[Hario V60不锈钢滤网](https://www.amazon.com/s?k=Hario+V60+stainless+steel+filter&tag=coffeeprism-20)可完全替代滤纸，使用寿命达10年以上。
 
 ---
 

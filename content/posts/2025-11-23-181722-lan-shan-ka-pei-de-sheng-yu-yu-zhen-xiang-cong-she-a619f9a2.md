@@ -51,7 +51,7 @@ author: "Coffee Prism"
 2. 100% Jamaica Blue Mountain字样
 3. 钢印式生产批号（非印刷体）
 
-某知名烘焙商推出的[Clifton Mount Estate蓝山一号](https://www.amazon.com/s?k=Clifton%20Mount%20Estate%E8%93%9D%E5%B1%B1%E4%B8%80%E5%8F%B7&tag=coffeeprism-20)，因其可追溯至具体庄园地块，成为专业咖啡师首推选择。
+某知名烘焙商推出的[Clifton Mount Estate蓝山一号](https://www.amazon.com/s?k=Clifton+Mount+Blue+Mountain+coffee+beans&tag=coffeeprism-20)，因其可追溯至具体庄园地块，成为专业咖啡师首推选择。
 
 ---
 
@@ -65,7 +65,7 @@ author: "Coffee Prism"
 东京咖啡研究所对比测试发现，用Kalita扇形滤杯比V60更能展现蓝山的醇厚质地，层次感提升23%。
 
 ### 4.2 风味发展阶段控制
-前段（0-45秒）重点萃取果酸，中段（46-1:30）获取甜感，尾段（1:31后）需截流避免木质味。使用[泰摩黑镜智能秤](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%BB%91%E9%95%9C%E6%99%BA%E8%83%BD%E7%A7%A4&tag=coffeeprism-20)配合分段注水，可精准复刻冠军冲煮方案。
+前段（0-45秒）重点萃取果酸，中段（46-1:30）获取甜感，尾段（1:31后）需截流避免木质味。使用[泰摩黑镜智能秤](https://www.amazon.com/s?k=Timemore+Black+Mirror+scale&tag=coffeeprism-20)配合分段注水，可精准复刻冠军冲煮方案。
 
 ---
 

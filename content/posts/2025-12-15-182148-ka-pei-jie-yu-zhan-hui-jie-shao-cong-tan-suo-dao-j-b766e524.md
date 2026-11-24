@@ -62,7 +62,7 @@ author: "Coffee Prism"
 查看三个关键指标：①主办方资质（优选中国咖啡协会认证） ②往届参展商数量（超过80家为佳） ③专业活动占比（SCA认证课程、Q Grader考核等）。避开纯商业推销型展会。
 
 ### 展会购买的咖啡豆如何保存？
-现场购买时选择充氮包装（氧气残留量＜3%），回家后立即分装至[Airscape密封罐](https://www.amazon.com/s?k=Airscape%E5%AF%86%E5%B0%81%E7%BD%90&tag=coffeeprism-20)。每100g豆子搭配1个62mm Boveda保湿包，可维持最佳风味达45天。
+现场购买时选择充氮包装（氧气残留量＜3%），回家后立即分装至[Airscape密封罐](https://www.amazon.com/s?k=Airscape+coffee+canister&tag=coffeeprism-20)。每100g豆子搭配1个62mm Boveda保湿包，可维持最佳风味达45天。
 
 ### 值得关注的国内咖啡节有哪些？
 首推三大标杆：①上海国际咖啡美食节（全产业链覆盖） ②云南咖啡生豆大赛（精品咖啡发源地） ③CTI咖啡拉花大赛（观赏性最强）。区域型推荐成都CAFEEX和厦门咖旅节。

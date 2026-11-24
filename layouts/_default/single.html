@@ -29,6 +29,10 @@
 			{{- partial "post_toc.html" . -}}
 			<div class="post__main">
 				{{ partial "post_thumbnail.html" (dict "class" "post" "page" .) }}
+				{{- /* 亚马逊联盟要求披露，FTC 要求在链接之前、用正文语言披露，页脚一处不够。 */ -}}
+				{{- if strings.Contains .Content "amazon.com/s?" }}
+				<p class="affiliate-note">{{ i18n "affiliateNote" }}</p>
+				{{- end }}
 				<div class="content post__content clearfix" itemprop="articleBody">
 					{{ .Content }}
 				</div>

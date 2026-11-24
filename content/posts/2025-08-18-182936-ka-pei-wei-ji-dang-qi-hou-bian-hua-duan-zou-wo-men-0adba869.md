@@ -34,13 +34,13 @@ description: "气候变化正让全球咖啡减产并走向稀缺：到2050年�
 #### 2.1 回归传统：遮荫种植的生态智慧  
 在埃塞俄比亚的原始咖啡林中，咖啡树与香蕉、牛油果共生，形成天然的温湿度调节系统。这种传统农法不仅能降低3-5℃地表温度，还能增加30%的授粉昆虫多样性。中国云南的咖啡庄园开始试点"咖啡+澳洲坚果"的混种模式，既提升抗风险能力，又能通过坚果销售补贴咖啡农收入。  
 
-**专家建议**：选择标有"Bird Friendly"认证的咖啡豆，这类产品强制要求遮荫树覆盖率达40%以上。[参考产品：云南有机遮荫种植咖啡豆](https://www.amazon.com/s?k=%E5%8F%82%E8%80%83%E4%BA%A7%E5%93%81%EF%BC%9A%E4%BA%91%E5%8D%97%E6%9C%89%E6%9C%BA%E9%81%AE%E8%8D%AB%E7%A7%8D%E6%A4%8D%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)  
+**专家建议**：选择标有"Bird Friendly"认证的咖啡豆，这类产品强制要求遮荫树覆盖率达40%以上。[参考产品：云南有机遮荫种植咖啡豆](https://www.amazon.com/s?k=Yunnan+shade+grown+organic+coffee+beans&tag=coffeeprism-20)  
 
 #### 2.2 基因库：咖啡界的诺亚方舟  
 伦敦皇家植物园保存着超过10万份咖啡野生品种样本，其中来自西非的Coffea stenophylla能在年均温24.9℃环境生长，且具有柑橘与茉莉花香。中国农科院近年也启动云南野生咖啡种质资源保护计划，试图从滇南的丛林中发现耐热基因。  
 
 #### 2.3 碳足迹革命：从种植到杯中的闭环  
-星巴克与云南庄园合作的"碳中和咖啡"项目，通过沼气池处理咖啡果皮，将甲烷转化为能源，同时用果肉堆肥替代化肥。消费者层面，改用可重复使用的[不锈钢咖啡随行杯](https://www.amazon.com/s?k=%E4%B8%8D%E9%94%88%E9%92%A2%E5%92%96%E5%95%A1%E9%9A%8F%E8%A1%8C%E6%9D%AF&tag=coffeeprism-20)，每年可减少156个纸杯消耗。  
+星巴克与云南庄园合作的"碳中和咖啡"项目，通过沼气池处理咖啡果皮，将甲烷转化为能源，同时用果肉堆肥替代化肥。消费者层面，改用可重复使用的[不锈钢咖啡随行杯](https://www.amazon.com/s?k=stainless+steel+travel+coffee+mug&tag=coffeeprism-20)，每年可减少156个纸杯消耗。  
 
 ---
 
@@ -57,11 +57,11 @@ description: "气候变化正让全球咖啡减产并走向稀缺：到2050年�
 - 用发酵咖啡果皮制成生物农药  
 - 开发深烘配方弥补高温导致的酸度下降  
 
-**在地推荐**：尝试采用云南日晒处理的[保山铁皮卡咖啡豆](https://www.amazon.com/s?k=%E4%BF%9D%E5%B1%B1%E9%93%81%E7%9A%AE%E5%8D%A1%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)，其坚果与黑巧风味更能适应气候变化带来的烘焙挑战。  
+**在地推荐**：尝试采用云南日晒处理的[保山铁皮卡咖啡豆](https://www.amazon.com/s?k=Baoshan+Typica+coffee+beans&tag=coffeeprism-20)，其坚果与黑巧风味更能适应气候变化带来的烘焙挑战。  
 
 #### 3.3 家庭冲煮的可持续实践  
 - 将咖啡渣与椰壳混合制作盆栽基质  
-- 选择可降解的[植物纤维咖啡滤纸](https://www.amazon.com/s?k=%E6%A4%8D%E7%89%A9%E7%BA%A4%E7%BB%B4%E5%92%96%E5%95%A1%E6%BB%A4%E7%BA%B8&tag=coffeeprism-20)  
+- 选择可降解的[植物纤维咖啡滤纸](https://www.amazon.com/s?k=plant+fiber+coffee+filters&tag=coffeeprism-20)  
 - 调整研磨度减少萃取能耗：中粗研磨+4分钟浸泡式冲煮，比极细研磨的意式浓缩节能37%  
 
 ---
@@ -78,7 +78,7 @@ description: "气候变化正让全球咖啡减产并走向稀缺：到2050年�
 
 **延伸阅读工具**  
 - 《咖啡气候地图集》（World Coffee Research出版）  
-- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)：可重复使用的手冲器具典范  
+- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)：可重复使用的手冲器具典范  
 - 纪录片《苦味：咖啡的最后一章》（Bitter Seeds）  
 
 ---  

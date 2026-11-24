@@ -53,7 +53,7 @@ author: "Coffee Prism"
 ## 四、实操指南：三步实现日式精品咖啡
 
 ### 4.1 器具选择的黄金法则
-推荐工具：[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)（锥形角度精确58°，肋槽深度1.5mm）  
+推荐工具：[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)（锥形角度精确58°，肋槽深度1.5mm）  
 中国替代方案：泰摩冰瞳滤杯（采用类似设计，价格降低40%）
 
 ### 4.2 参数设定的数字密码
@@ -97,7 +97,7 @@ author: "Coffee Prism"
 ## 常见问题解答
 
 ### 初学者如何入门日本咖啡品牌的精益求精？
-建议从「三温区手冲法」开始：先用88℃水润湿滤纸，92℃水进行首次注水，最后用85℃水收尾。搭配[Hario Scale电子秤](https://www.amazon.com/s?k=Hario%20Scale%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)，三个月内冲泡稳定性可提升60%。
+建议从「三温区手冲法」开始：先用88℃水润湿滤纸，92℃水进行首次注水，最后用85℃水收尾。搭配[Hario Scale电子秤](https://www.amazon.com/s?k=Hario+V60+drip+scale&tag=coffeeprism-20)，三个月内冲泡稳定性可提升60%。
 
 ### 日系咖啡器具值得高价购入吗？
 以Kalita Wave滤杯为例，其专利的平底设计相比普通滤杯，能使萃取均匀度提升42%。建议优先选择带有JBC（日本咖啡师协会）认证的产品。

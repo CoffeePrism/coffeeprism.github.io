@@ -39,7 +39,7 @@ description: "精品咖啡品牌正通过可追溯种植、科学烘焙与品牌
 苏州品牌「草芥咖啡」将鸡头米糖浆融入冷萃，北京「Metal Hands」用盖碗呈现Dirty，这些创新绝非简单的本土元素堆砌。正如SCA认证评审王璐所言："真正的文化融合，是用咖啡语言重新诠释在地食材的味觉逻辑。"
 
 ### 渠道革命：从第三空间到随身场景
-Manner开创的"自带杯减5元"模式，本质是重构咖啡消费场景。配合京东到家数据显示，2023年精品挂耳咖啡销量同比增长89%，说明中国消费者正在建立家庭咖啡场景的消费习惯。[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20) 和 [Timemore手冲壶](https://www.amazon.com/s?k=Timemore%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20) 的持续热销，印证着居家精品化趋势。
+Manner开创的"自带杯减5元"模式，本质是重构咖啡消费场景。配合京东到家数据显示，2023年精品挂耳咖啡销量同比增长89%，说明中国消费者正在建立家庭咖啡场景的消费习惯。[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20) 和 [Timemore手冲壶](https://www.amazon.com/s?k=Timemore+pour+over+kettle&tag=coffeeprism-20) 的持续热销，印证着居家精品化趋势。
 
 ---
 

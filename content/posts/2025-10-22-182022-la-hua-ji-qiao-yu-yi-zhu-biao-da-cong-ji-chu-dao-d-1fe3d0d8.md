@@ -73,7 +73,7 @@ author: "Coffee Prism"
 | 浓缩杯         | 50ml标准容量            | 三顿半限定款       |
 
 ### 5.2 进阶装备解析
-[Rattleware拉花缸](https://www.amazon.com/s?k=Rattleware%E6%8B%89%E8%8A%B1%E7%BC%B8&tag=coffeeprism-20)的弧形内壁设计，可减少奶泡回旋时的能量损耗；[Hario奶泡温度计](https://www.amazon.com/s?k=Hario%E5%A5%B6%E6%B3%A1%E6%B8%A9%E5%BA%A6%E8%AE%A1&tag=coffeeprism-20)的±0.5℃精度，帮助精准控制微气泡生成阶段。
+[Rattleware拉花缸](https://www.amazon.com/s?k=Rattleware+milk+pitcher&tag=coffeeprism-20)的弧形内壁设计，可减少奶泡回旋时的能量损耗；[Hario奶泡温度计](https://www.amazon.com/s?k=Hario+milk+thermometer&tag=coffeeprism-20)的±0.5℃精度，帮助精准控制微气泡生成阶段。
 
 ---
 

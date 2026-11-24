@@ -34,4 +34,6 @@
 - id: adLabel
   translation: "Sponsored"
 - id: affiliateDisclosure
-  translation: "As an Amazon Associate, Coffee Prism earns from qualifying purchases. This never changes the price you pay."
+  translation: "As an Amazon Associate I earn from qualifying purchases. This never changes the price you pay."
+- id: affiliateNote
+  translation: "This article contains Amazon affiliate links: we may earn a commission, at no extra cost to you."

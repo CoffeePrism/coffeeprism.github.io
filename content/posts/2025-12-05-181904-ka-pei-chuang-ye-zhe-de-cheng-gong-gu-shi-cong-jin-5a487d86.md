@@ -78,7 +78,7 @@ author: "Coffee Prism"
 ## 五、避开五大致命误区  
 
 ### 5.1 设备采购陷阱  
-案例：某创业者花费8万元购入La Marzocco咖啡机，日均出杯量仅30杯，设备回本周期长达7年。建议选择[惠家KD-310](https://www.amazon.com/s?k=%E6%83%A0%E5%AE%B6KD-310&tag=coffeeprism-20)这类商用入门机型。  
+案例：某创业者花费8万元购入La Marzocco咖啡机，日均出杯量仅30杯，设备回本周期长达7年。建议选择[惠家KD-310](https://www.amazon.com/s?k=espresso+machine&tag=coffeeprism-20)这类商用入门机型。  
 
 ### 5.2 盲目跟风创意  
 「酱油拿铁」「茅台咖啡」等网红产品生命周期通常不超过3个月，需建立基础产品护城河。  
@@ -90,7 +90,7 @@ author: "Coffee Prism"
 ### 6.1 风味调控秘籍  
 - 通过调整研磨度（±50微米）改变萃取率  
 - 测试显示：94℃水温比92℃甜感提升23%  
-- 使用[TDS浓度仪](https://www.amazon.com/s?k=TDS%E6%B5%93%E5%BA%A6%E4%BB%AA&tag=coffeeprism-20)精准把控萃取质量  
+- 使用[TDS浓度仪](https://www.amazon.com/s?k=TDS+meter&tag=coffeeprism-20)精准把控萃取质量  
 
 ---
 

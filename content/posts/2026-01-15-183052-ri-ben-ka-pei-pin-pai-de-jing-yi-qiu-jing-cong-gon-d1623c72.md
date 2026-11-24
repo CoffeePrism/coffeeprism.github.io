@@ -41,7 +41,7 @@ author: "Coffee Prism"
 3. **注水节奏**：第一段注水30%唤醒咖啡粉，第二段70%匀速画圈  
 
 ### 3.2 进阶玩家的设备升级
-专业咖啡师推荐的「三段式温控手冲壶」[Hario Buono](https://www.amazon.com/s?k=Hario%20Buono&tag=coffeeprism-20)，其鹅颈壶嘴可精准控制0.5mm/s的水流速度。搭配[Tiamo电子秤](https://www.amazon.com/s?k=Tiamo%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)的0.1g精度称量，整套设备投入约800元即可达到咖啡馆水准。
+专业咖啡师推荐的「三段式温控手冲壶」[Hario Buono](https://www.amazon.com/s?k=Hario%20Buono&tag=coffeeprism-20)，其鹅颈壶嘴可精准控制0.5mm/s的水流速度。搭配[Tiamo电子秤](https://www.amazon.com/s?k=Tiamo+coffee+scale&tag=coffeeprism-20)的0.1g精度称量，整套设备投入约800元即可达到咖啡馆水准。
 
 ---
 

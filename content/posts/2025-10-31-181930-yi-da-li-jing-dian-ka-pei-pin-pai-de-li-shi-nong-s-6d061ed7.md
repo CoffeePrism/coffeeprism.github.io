@@ -92,17 +92,14 @@ H3：认准三个标识：1）100%意大利烘焙（包装标注Tostato in Itali
 1. **illy Classico 中烘咖啡粉**
    - 推荐理由：采用专利加压罐装，开封后保鲜期达24个月
    - 适合人群：办公室快节奏人群
-   - [购买链接](https://www.amazon.com/s?k=%E8%B4%AD%E4%B9%B0%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
 
 2. **Lavazza Super Crema 咖啡豆**
    - 亮点：连续5年获得IIAC金奖
    - 冲泡建议：摩卡壶最佳伴侣
-   - [购买链接](https://www.amazon.com/s?k=%E8%B4%AD%E4%B9%B0%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
 
 3. **Bialetti Moka Express 3杯份**
    - 历史价值：1933年至今售出3亿台
    - 使用技巧：全程小火避免过萃
-   - [购买链接](https://www.amazon.com/s?k=%E8%B4%AD%E4%B9%B0%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)
 
 ---
 

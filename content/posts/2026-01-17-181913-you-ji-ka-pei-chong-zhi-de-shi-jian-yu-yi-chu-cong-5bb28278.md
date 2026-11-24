@@ -55,7 +55,7 @@ author: "Coffee Prism"
 5. 认证规划：建议从日本JAS有机认证切入国际市场
 
 ### 4.2 家庭种植的微型实践
-阳台族可用[VIVOSUN 5加仑种植袋](https://www.amazon.com/s?k=VIVOSUN%205%E5%8A%A0%E4%BB%91%E7%A7%8D%E6%A4%8D%E8%A2%8B&tag=coffeeprism-20)进行小规模试验。每周施用自制的咖啡渣堆肥（需完全发酵），配合LED植物生长灯，可实现年产1.5kg鲜果的产量。
+阳台族可用[VIVOSUN 5加仑种植袋](https://www.amazon.com/s?k=Vivosun+5+gallon+grow+bags&tag=coffeeprism-20)进行小规模试验。每周施用自制的咖啡渣堆肥（需完全发酵），配合LED植物生长灯，可实现年产1.5kg鲜果的产量。
 
 ---
 
@@ -75,7 +75,7 @@ author: "Coffee Prism"
 优质有机咖啡往往呈现更复杂的**地域风味**。例如海南澄迈的有机罗布斯塔，会带有明显的可可尾韵，这是土壤中高锰含量与有机种植共同作用的结果。
 
 ### 6.2 冲煮参数的特别调整
-由于有机咖啡豆密度通常更高，建议将研磨度调粗10%，水温降低2°C。使用[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)能更好展现其层次感。
+由于有机咖啡豆密度通常更高，建议将研磨度调粗10%，水温降低2°C。使用[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)能更好展现其层次感。
 
 ---
 
@@ -86,7 +86,7 @@ author: "Coffee Prism"
 - 鹰集咖啡「云南小粒有机挂耳」：采用氮气锁鲜包装，酸甜平衡突出
 
 ### 7.2 工具选购要点
-家庭烘焙者可选择[Behmor 1600家用烘焙机](https://www.amazon.com/s?k=Behmor%201600%E5%AE%B6%E7%94%A8%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)，其慢火烘焙模式特别适合有机豆的复杂风味发展。淘宝搜索「有机咖啡种植工具包」，300元内即可获得全套基础设备。
+家庭烘焙者可选择[Behmor 1600家用烘焙机](https://www.amazon.com/s?k=Behmor+1600+coffee+roaster&tag=coffeeprism-20)，其慢火烘焙模式特别适合有机豆的复杂风味发展。淘宝搜索「有机咖啡种植工具包」，300元内即可获得全套基础设备。
 
 ---
 

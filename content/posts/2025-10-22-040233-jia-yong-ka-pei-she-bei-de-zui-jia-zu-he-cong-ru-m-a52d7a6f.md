@@ -83,12 +83,12 @@ author: "Coffee Prism"
 ## 七、2023年度推荐设备清单
 
 ### 7.1 性价比之选
-- [泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)：304不锈钢锥刀，25档微调
-- [Brewista Smart Pour温控壶](https://www.amazon.com/s?k=Brewista%20Smart%20Pour%E6%B8%A9%E6%8E%A7%E5%A3%B6&tag=coffeeprism-20)：0.3℃精度，流速控制系统
+- [泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)：304不锈钢锥刀，25档微调
+- [Brewista Smart Pour温控壶](https://www.amazon.com/s?k=Brewista+Smart+Pour+kettle&tag=coffeeprism-20)：0.3℃精度，流速控制系统
 
 ### 7.2 专业进阶必备
-- [司令官C40磨豆机](https://www.amazon.com/s?k=%E5%8F%B8%E4%BB%A4%E5%AE%98C40%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)：红点设计奖，40mm镀氮钢刀
-- [Flair 58手动咖啡机](https://www.amazon.com/s?k=Flair%2058%E6%89%8B%E5%8A%A8%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)：9bar压力，58mm专业冲煮头
+- [司令官C40磨豆机](https://www.amazon.com/s?k=Comandante+C40+grinder&tag=coffeeprism-20)：红点设计奖，40mm镀氮钢刀
+- [Flair 58手动咖啡机](https://www.amazon.com/s?k=Flair+58+espresso+maker&tag=coffeeprism-20)：9bar压力，58mm专业冲煮头
 
 
 ## 常见问题解答

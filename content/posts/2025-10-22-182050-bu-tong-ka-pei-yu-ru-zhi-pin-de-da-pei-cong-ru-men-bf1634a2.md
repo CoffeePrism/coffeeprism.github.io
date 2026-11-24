@@ -73,7 +73,7 @@ author: "Coffee Prism"
 
 ## 六、专业设备推荐（中国特供版）
 ### 6.1 基础工具套装
-- [Nanopresso手动咖啡机](https://www.amazon.com/s?k=Nanopresso%E6%89%8B%E5%8A%A8%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)（便携式意式浓缩）
+- [Nanopresso手动咖啡机](https://www.amazon.com/s?k=Nanopresso+portable+espresso+maker&tag=coffeeprism-20)（便携式意式浓缩）
 - [泰摩智能温控奶泡器](https://item.jd.com/100038318110.html)（±1℃精准控温）
 - [Hario量勺套装](https://www.tmall.com/)（精确测量粉奶比例）
 

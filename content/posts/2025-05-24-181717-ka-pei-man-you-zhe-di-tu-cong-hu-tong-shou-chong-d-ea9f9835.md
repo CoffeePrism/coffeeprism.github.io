@@ -40,9 +40,9 @@ The Coffee Collective的创始人曾三度获得世界咖啡师大赛冠军，�
 在派克市场1912号原址致敬过后，真正的探险应该转向Capitol Hill街区。在这里，Storyville Coffee用定制Modbar系统演绎着科技与人文的交响，而Elm Coffee Roasters的「咖啡品鉴航班」则像葡萄酒tasting一样专业。特别关注正在兴起的「咖啡鸡尾酒」运动，用冷萃咖啡为基酒调制的Espresso Martini，颠覆你对咖啡因饮品的认知。
 
 ## 咖啡旅人的行囊清单
-1. **便携装备**：[AeroPress Go旅行咖啡套装](https://www.amazon.com/s?k=AeroPress%20Go%E6%97%85%E8%A1%8C%E5%92%96%E5%95%A1%E5%A5%97%E8%A3%85&tag=coffeeprism-20)的革新设计将压滤壶与收纳杯合二为一，实测在高原地区也能稳定萃取。搭配[Comandante C40手摇磨豆机](https://www.amazon.com/s?k=Comandante%20C40%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，即使安第斯山脉营地也能享受现磨咖啡香。
+1. **便携装备**：[AeroPress Go旅行咖啡套装](https://www.amazon.com/s?k=AeroPress+Go+travel+coffee+set&tag=coffeeprism-20)的革新设计将压滤壶与收纳杯合二为一，实测在高原地区也能稳定萃取。搭配[Comandante C40手摇磨豆机](https://www.amazon.com/s?k=Comandante+C40+hand+grinder&tag=coffeeprism-20)，即使安第斯山脉营地也能享受现磨咖啡香。
    
-2. **风味记录**：建议携带专用[咖啡品鉴笔记本](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E5%93%81%E9%89%B4%E7%AC%94%E8%AE%B0%E6%9C%AC&tag=coffeeprism-20)，按「干香-湿香-酸质-甜感-体脂-余韵」六大维度建立个人风味数据库。
+2. **风味记录**：建议携带专用[咖啡品鉴笔记本](https://www.amazon.com/s?k=coffee+tasting+notebook&tag=coffeeprism-20)，按「干香-湿香-酸质-甜感-体脂-余韵」六大维度建立个人风味数据库。
 
 3. **文化礼仪**：在东京咖啡馆请勿外带食物，意大利站着喝咖啡更本地化，而北欧「Fika」时间强调慢享哲学——这些细节往往比咖啡本身更影响体验深度。
 

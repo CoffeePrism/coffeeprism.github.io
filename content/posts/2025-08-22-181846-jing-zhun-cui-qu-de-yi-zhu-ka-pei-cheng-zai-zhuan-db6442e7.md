@@ -34,7 +34,7 @@ description: "咖啡爱好者需要咖啡秤，因为精准控制粉水比与萃
 
 ### **二、如何选择适合你的咖啡秤？**  
 #### **1. 明确需求：从入门到专业的分级选择**  
-- **入门级（100-300元）**：适合家庭用户或手冲新手，推荐基础款电子秤，如[Hario V60电子秤](https://www.amazon.com/s?k=Hario%20V60%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)，精度0.1克，附带简易计时功能。  
+- **入门级（100-300元）**：适合家庭用户或手冲新手，推荐基础款电子秤，如[Hario V60电子秤](https://www.amazon.com/s?k=Hario+V60+drip+coffee+scale&tag=coffeeprism-20)，精度0.1克，附带简易计时功能。  
 - **进阶级（300-800元）**：适合追求数据可视化的爱好者，例如[Timemore Black Mirror Basic](https://www.amazon.com/s?k=Timemore%20Black%20Mirror%20Basic&tag=coffeeprism-20)，支持蓝牙连接手机App记录冲煮曲线。  
 - **专业级（800元以上）**：如[Acaia Pearl](https://www.amazon.com/s?k=Acaia%20Pearl&tag=coffeeprism-20)，拥有高灵敏度传感器与智能校准功能，常见于精品咖啡馆。  
 
@@ -58,7 +58,7 @@ description: "咖啡爱好者需要咖啡秤，因为精准控制粉水比与萃
 进口品牌（如Acaia）需确认是否支持220V电压，或配备适配器。建议通过京东、天猫国际等平台购买，享受官方保修服务。  
 
 #### **2. 文化融合：当咖啡遇上茶饮**  
-中国用户常兼顾咖啡与茶冲煮，可选择多功能秤（如[泰摩黑镜](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%BB%91%E9%95%9C&tag=coffeeprism-20)），其“自动去皮”和“双单位切换”功能兼容茶叶称量需求。  
+中国用户常兼顾咖啡与茶冲煮，可选择多功能秤（如[泰摩黑镜](https://www.amazon.com/s?k=Timemore+Black+Mirror+scale&tag=coffeeprism-20)），其“自动去皮”和“双单位切换”功能兼容茶叶称量需求。  
 
 #### **3. 社群经验分享：本土品牌的崛起**  
 近年来，国产品牌如泰摩（Timemore）、Hero凭借高性价比抢占市场。例如Hero电子秤以200元价位提供0.1克精度，在小红书等平台获得大量用户好评。

@@ -26,5 +26,9 @@
 	{{- end -}}
 {{- end -}}
 {{- $isAffiliate := and $u.IsAbs (or (strings.Contains $u.Host "amazon.") (strings.Contains $u.Host "amzn.")) -}}
+{{- /* 漏了联盟 tag 的 amazon.com 链接在渲染时补上，否则点击不计佣金。 */ -}}
+{{- if and $isAffiliate (strings.HasSuffix $u.Host "amazon.com") (not (strings.Contains $u.RawQuery "tag=")) -}}
+	{{- $href = printf "%s%stag=%s" $href (cond (eq $u.RawQuery "") "?" "&") (site.Params.amazonTag | default "coffeeprism-20") -}}
+{{- end -}}
 <a href="{{ $href }}" {{- with .Title }} title="{{ . }}" {{- end }} {{- if $isAffiliate }} rel="sponsored nofollow noopener" target="_blank" {{- end }}>{{ .Text }}</a>
 {{- /**/ -}}

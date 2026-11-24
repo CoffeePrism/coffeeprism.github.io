@@ -47,7 +47,7 @@ author: "Coffee Prism"
 3. **火候节奏**：参考巴西黄波旁，前3分钟中火，5-8分钟强火，一爆后立即退火
 
 ### 3.2 热风烘焙的"气流密码"
-使用国产[泰摩雕刻家](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%9B%95%E5%88%BB%E5%AE%B6&tag=coffeeprism-20)时：
+使用国产[泰摩雕刻家](https://www.amazon.com/s?k=Timemore+Sculptor+078+grinder&tag=coffeeprism-20)时：
 - 浅烘焙：保持3.5m/s风速，入豆温190℃
 - 中深烘焙：降至2.8m/s，入豆温210℃
 - 冷却阶段：立即启动双风扇10级强冷
@@ -68,7 +68,7 @@ author: "Coffee Prism"
 
 ### 5.1 家用优选方案
 - **直火入门**：Hario手网+红外测温仪（预算500元内）
-- **热风进阶**：[泰摩雕刻家078](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%9B%95%E5%88%BB%E5%AE%B6078&tag=coffeeprism-20)（热风+直火双模式）
+- **热风进阶**：[泰摩雕刻家078](https://www.amazon.com/s?k=Timemore+Sculptor+078+grinder&tag=coffeeprism-20)（热风+直火双模式）
 
 ### 5.2 商用设备对比
 - 直火代表：日本富士5kg级（约18万元）
@@ -79,7 +79,7 @@ author: "Coffee Prism"
 ## 六、常见问题解答
 
 ### 6.1 哪种烘焙方式更适合新手？
-建议从热风烘焙入手，国产[柏翠PE3899](https://www.amazon.com/s?k=%E6%9F%8F%E7%BF%A0PE3899&tag=coffeeprism-20)的智能温控系统能降低80%的操作门槛。掌握基础后再挑战直火烘焙的"火候艺术"。
+建议从热风烘焙入手，国产[柏翠PE3899](https://www.amazon.com/s?k=home+coffee+roaster&tag=coffeeprism-20)的智能温控系统能降低80%的操作门槛。掌握基础后再挑战直火烘焙的"火候艺术"。
 
 ### 6.2 如何判断烘焙方式对风味的影响？
 进行杯测对比：同一批云南卡蒂姆分别用两种方式烘焙至Agtron#65，直火版会呈现更明显的黑巧克力尾韵，热风版则突出柑橘酸质。

@@ -94,10 +94,10 @@ author: "Coffee Prism"
 ## 六、产品推荐与选购指南
 
 ### 6.1 家庭用户首选
-[Ecopack 450系列](https://www.amazon.com/s?k=Ecopack%20450%E7%B3%BB%E5%88%97&tag=coffeeprism-20)：12μmPLA复合膜，通过家庭堆肥认证，适合250g小包装。实测开封30天后咖啡香气保留率达87%。
+Ecopack 450系列：12μmPLA复合膜，通过家庭堆肥认证，适合250g小包装。实测开封30天后咖啡香气保留率达87%。
 
 ### 6.2 商用场景方案
-[Linkyo不锈钢储豆罐](https://www.amazon.com/s?k=Linkyo%E4%B8%8D%E9%94%88%E9%92%A2%E5%82%A8%E8%B1%86%E7%BD%90&tag=coffeeprism-20)：食品级304不锈钢配合硅胶密封圈，循环使用200次后成本降至单次0.17元，广受上海独立咖啡馆青睐。
+[Linkyo不锈钢储豆罐](https://www.amazon.com/s?k=Linkyo+stainless+steel+canister&tag=coffeeprism-20)：食品级304不锈钢配合硅胶密封圈，循环使用200次后成本降至单次0.17元，广受上海独立咖啡馆青睐。
 
 ---
 

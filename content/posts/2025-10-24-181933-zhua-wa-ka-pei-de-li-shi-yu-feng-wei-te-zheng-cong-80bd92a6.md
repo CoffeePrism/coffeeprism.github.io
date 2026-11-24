@@ -71,7 +71,7 @@ author: "Coffee Prism"
 | 余韵        | 矿石感          | 木质调          |
 
 ### 5.2 保存不当导致风味流失
-实验数据显示，爪哇咖啡在开封30天后，挥发性芳香物质会流失42%。建议使用[泰摩真空罐](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%9C%9F%E7%A9%BA%E7%BD%90&tag=coffeeprism-20)，其专利单向阀设计可将风味保鲜期延长至90天。
+实验数据显示，爪哇咖啡在开封30天后，挥发性芳香物质会流失42%。建议使用[泰摩真空罐](https://www.amazon.com/s?k=Timemore+vacuum+canister&tag=coffeeprism-20)，其专利单向阀设计可将风味保鲜期延长至90天。
 
 ---
 

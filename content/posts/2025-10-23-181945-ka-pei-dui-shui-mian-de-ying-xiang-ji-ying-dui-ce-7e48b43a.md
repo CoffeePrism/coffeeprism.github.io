@@ -86,7 +86,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-11-27-181828-ka-pei-dui-sh
 
 ## 六、产品推荐：智慧之选
 
-1. **[Hario V60低因咖啡套装](https://www.amazon.com/s?k=Hario%20V60%E4%BD%8E%E5%9B%A0%E5%92%96%E5%95%A1%E5%A5%97%E8%A3%85&tag=coffeeprism-20)**
+1. **[Hario V60低因咖啡套装](https://www.amazon.com/s?k=Hario+V60+decaf+coffee+set&tag=coffeeprism-20)**
    - 搭配日本进口低温慢萃滤杯
    - 含5种风味低因咖啡组合包
    - 京东价299元，性价比首选

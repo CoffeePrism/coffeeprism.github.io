@@ -44,9 +44,9 @@ author: "Coffee Prism"
 
 ### 3.1 器具选择黄金组合
 推荐中国消费者入门配置：
-- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)（￥98）：60度锥角设计最佳流速
-- [Kalita Wave不锈钢手冲壶](https://www.amazon.com/s?k=Kalita%20Wave%E4%B8%8D%E9%94%88%E9%92%A2%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)（￥268）：细长壶嘴精准控流
-- [小川咖啡定制滤纸](https://www.amazon.com/s?k=%E5%B0%8F%E5%B7%9D%E5%92%96%E5%95%A1%E5%AE%9A%E5%88%B6%E6%BB%A4%E7%BA%B8&tag=coffeeprism-20)（￥45/100片）：无漂白处理零异味
+- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)（￥98）：60度锥角设计最佳流速
+- [Kalita Wave不锈钢手冲壶](https://www.amazon.com/s?k=Kalita+Wave+stainless+steel+kettle&tag=coffeeprism-20)（￥268）：细长壶嘴精准控流
+- [小川咖啡定制滤纸](https://www.amazon.com/s?k=custom+coffee+filter+paper&tag=coffeeprism-20)（￥45/100片）：无漂白处理零异味
 
 ### 3.2 四段注水法的科学参数
 参照**堀口俊英**的冠军冲泡方案：

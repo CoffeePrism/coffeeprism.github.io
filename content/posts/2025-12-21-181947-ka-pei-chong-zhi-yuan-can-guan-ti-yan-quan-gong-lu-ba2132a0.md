@@ -72,7 +72,7 @@ author: "Coffee Prism"
 警惕「精品咖啡庄园」的文字游戏——真正有资质的庄园必定展示SCA评分85+的证书，而非简单标注"精品级"。在印尼苏门答腊，有庄园用曼特宁冒充黄金曼特宁，关键识别点是看豆粒大小是否均匀。
 
 ### 5.2 处理法的常见误导
-某云南庄园宣称的"72小时厌氧发酵"，实际监测显示发酵桶温度波动超过±5℃，导致发酵不均匀。正确做法应使用[Yoshan双温区发酵罐](https://www.amazon.com/s?k=Yoshan%E5%8F%8C%E6%B8%A9%E5%8C%BA%E5%8F%91%E9%85%B5%E7%BD%90&tag=coffeeprism-20)，维持28±1℃恒温环境。
+某云南庄园宣称的"72小时厌氧发酵"，实际监测显示发酵桶温度波动超过±5℃，导致发酵不均匀。正确做法应使用Yoshan双温区发酵罐，维持28±1℃恒温环境。
 
 ---
 
@@ -89,8 +89,8 @@ author: "Coffee Prism"
 ## 七、装备与工具精选
 
 ### 7.1 检测类工具
-- [Hanna HI9814土壤检测仪](https://www.amazon.com/s?k=Hanna%20HI9814%E5%9C%9F%E5%A3%A4%E6%A3%80%E6%B5%8B%E4%BB%AA&tag=coffeeprism-20)：5分钟测出土壤NPK值
-- [Atago PAL-COFFEE糖度计](https://www.amazon.com/s?k=Atago%20PAL-COFFEE%E7%B3%96%E5%BA%A6%E8%AE%A1&tag=coffeeprism-20)：专为咖啡鲜果设计的折射仪
+- [Hanna HI9814土壤检测仪](https://www.amazon.com/s?k=Hanna+HI9814+soil+tester&tag=coffeeprism-20)：5分钟测出土壤NPK值
+- [Atago PAL-COFFEE糖度计](https://www.amazon.com/s?k=Atago+PAL-COFFEE+refractometer&tag=coffeeprism-20)：专为咖啡鲜果设计的折射仪
 
 ### 7.2 记录类装备
 - 小米智能笔记本：实时转录专家讲解

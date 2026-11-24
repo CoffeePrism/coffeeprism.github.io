@@ -67,7 +67,7 @@ author: "Coffee Prism"
 ## 五、专业咖啡师的私藏建议
 
 ### 5.1 设备侦察清单
-- **磨豆机**：Mahlkönig EK43（[亚马逊链接](https://www.amazon.com/s?k=%E4%BA%9A%E9%A9%AC%E9%80%8A%E9%93%BE%E6%8E%A5&tag=coffeeprism-20)）
+- **磨豆机**：Mahlkönig EK43
 - **冲煮设备**：Hario V60陶瓷滤杯（京东月销2000+）
 
 ### 5.2 对话话术模板

@@ -23,7 +23,7 @@ description: "家庭咖啡烘焙入门要点是选对生豆、掌握烘焙度并
 
 2. **生咖啡豆**：选择优质的生豆是烘焙成功的关键。建议从信誉良好的供应商处购买，以确保豆子的质量和新鲜度。
 
-3. **手动磨豆机**：为了在烘焙后立即研磨新鲜咖啡豆，一台[Hario Skerton 手动磨豆机](https://www.amazon.com/s?k=Hario%20Skerton%20%E6%89%8B%E5%8A%A8%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)是个不错的选择。
+3. **手动磨豆机**：为了在烘焙后立即研磨新鲜咖啡豆，一台[Hario Skerton 手动磨豆机](https://www.amazon.com/s?k=Hario+Skerton+hand+grinder&tag=coffeeprism-20)是个不错的选择。
 
 #### 三、家庭咖啡烘焙的步骤
 

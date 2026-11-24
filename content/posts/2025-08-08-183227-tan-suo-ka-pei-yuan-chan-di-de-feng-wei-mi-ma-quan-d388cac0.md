@@ -26,14 +26,14 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-06-23-182210-tan-suo-ka-pe
 ## 二、解码三大黄金产区的风味基因
 
 ### 1. 拉丁美洲：平衡之美的教科书
-在安第斯山脉的晨雾中，哥伦比亚蕙兰产区的卡斯蒂约品种正经历着缓慢成熟。这里的咖啡以焦糖甜感打底，点缀着坚果与可可的醇厚，尾韵常带柑橘类酸质，堪称新手的理想入门选择。建议尝试中浅烘焙，用[Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)展现其层次感。
+在安第斯山脉的晨雾中，哥伦比亚蕙兰产区的卡斯蒂约品种正经历着缓慢成熟。这里的咖啡以焦糖甜感打底，点缀着坚果与可可的醇厚，尾韵常带柑橘类酸质，堪称新手的理想入门选择。建议尝试中浅烘焙，用[Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)展现其层次感。
 
-而哥斯达黎加的蜜处理法则带来革新：在塔拉珠产区，去除果皮保留果胶的咖啡豆，会在发酵中发展出成熟芒果般的甜感。这种介于水洗与日晒之间的处理法，特别适合搭配[Chemex咖啡壶](https://www.amazon.com/s?k=Chemex%E5%92%96%E5%95%A1%E5%A3%B6&tag=coffeeprism-20)的清澈口感。
+而哥斯达黎加的蜜处理法则带来革新：在塔拉珠产区，去除果皮保留果胶的咖啡豆，会在发酵中发展出成熟芒果般的甜感。这种介于水洗与日晒之间的处理法，特别适合搭配[Chemex咖啡壶](https://www.amazon.com/s?k=Chemex+coffee+maker&tag=coffeeprism-20)的清澈口感。
 
 **专家建议**：巴西喜拉多产区的黄波旁值得关注，其低酸度与牛奶巧克力风味，特别契合中国消费者对醇厚口感的偏好。
 
 ### 2. 非洲大陆：狂野的果香交响曲
-埃塞俄比亚西达摩的G1级日晒豆，堪称咖啡界的"水果炸弹"。在海拔2300米的歌迪贝处理厂，咖啡樱桃在非洲艳阳下缓慢干燥，酝酿出蓝莓酱、麝香葡萄与紫罗兰的复合香气。建议使用92℃水温，配合1:15的粉水比，在[Kalita蛋糕杯](https://www.amazon.com/s?k=Kalita%E8%9B%8B%E7%B3%95%E6%9D%AF&tag=coffeeprism-20)中释放其野性魅力。
+埃塞俄比亚西达摩的G1级日晒豆，堪称咖啡界的"水果炸弹"。在海拔2300米的歌迪贝处理厂，咖啡樱桃在非洲艳阳下缓慢干燥，酝酿出蓝莓酱、麝香葡萄与紫罗兰的复合香气。建议使用92℃水温，配合1:15的粉水比，在[Kalita蛋糕杯](https://www.amazon.com/s?k=Kalita+cake+dripper&tag=coffeeprism-20)中释放其野性魅力。
 
 而肯尼亚的SL28品种则展现另一种精密：双重水洗法造就的番茄酸质，与黑醋栗的明亮感形成张力十足的味觉体验。值得注意的是，中国市场上常见的AA级肯尼亚豆，建议在烘焙后15-20天达到风味巅峰期。
 
@@ -61,7 +61,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-06-23-182210-tan-suo-ka-pe
 
 在上海的独立咖啡馆里，一场有趣的实验正在进行：将云南厌氧发酵豆与埃塞日晒豆以3:7比例拼配，竟呈现出杨梅果脯般的在地风味。这种"本土+国际"的创作思路，正推动着中国咖啡文化的独特演进。
 
-对家庭冲煮者而言，建议从[Timemore栗子C手磨](https://www.amazon.com/s?k=Timemore%E6%A0%97%E5%AD%90C%E6%89%8B%E7%A3%A8&tag=coffeeprism-20)起步，其稳定的研磨性能足以应对多数单一产地豆。而注重仪式感的消费者，可收藏日本[Kinto咖啡杯](https://www.amazon.com/s?k=Kinto%E5%92%96%E5%95%A1%E6%9D%AF&tag=coffeeprism-20)，其渐缩杯口设计能更好地聚拢香气。
+对家庭冲煮者而言，建议从[Timemore栗子C手磨](https://www.amazon.com/s?k=Timemore+Chestnut+C+hand+grinder&tag=coffeeprism-20)起步，其稳定的研磨性能足以应对多数单一产地豆。而注重仪式感的消费者，可收藏日本[Kinto咖啡杯](https://www.amazon.com/s?k=Kinto+coffee+cup&tag=coffeeprism-20)，其渐缩杯口设计能更好地聚拢香气。
 
 ---
 

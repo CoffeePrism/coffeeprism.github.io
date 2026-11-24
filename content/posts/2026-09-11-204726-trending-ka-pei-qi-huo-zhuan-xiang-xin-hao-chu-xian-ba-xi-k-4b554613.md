@@ -146,7 +146,7 @@ news_source: "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemlmT19vMVpqR
 精品店的问题更复杂。精品门店大量使用高品质阿拉比卡，但生豆成本只是售价的一部分，房租、人力、设备折旧和低翻台率同样关键。即便咖啡期货回落，一杯手冲的零售价也未必明显下降。相较降价，精品店更可能：
 - 优化豆单结构
 - 推出更多巴西拼配和高性价比单品
-- 增加零售豆和器具销售，如 [V60滤杯](https://www.amazon.com/s?k=V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20) 或 [手冲磨豆机](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)
+- 增加零售豆和器具销售，如 [V60滤杯](https://www.amazon.com/s?k=V60+dripper&tag=coffeeprism-20) 或 [手冲磨豆机](https://www.amazon.com/s?k=pour+over+coffee+grinder&tag=coffeeprism-20)
 
 ## 对中国咖啡市场/消费者的影响
 
@@ -170,7 +170,7 @@ news_source: "https://news.google.com/rss/articles/CBMitwFBVV95cUxQemlmT19vMVpqR
 2. **豆单是否出现更多巴西和拼配产品**：说明供应压力缓解。  
 3. **零售咖啡豆价格是否松动**：电商渠道通常比门店菜单更早反映原料变化。  
 
-如果你近期准备自购咖啡豆或升级家庭设备，未来一到两个采购周期内，市场上高性价比巴西拼配和入门精品豆的选择可能会增加。像 [意式咖啡机](https://www.amazon.com/s?k=%E6%84%8F%E5%BC%8F%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20) 和 [家用磨豆机](https://www.amazon.com/s?k=%E5%AE%B6%E7%94%A8%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20) 的使用者，会更容易感受到豆价边际回落带来的红利。
+如果你近期准备自购咖啡豆或升级家庭设备，未来一到两个采购周期内，市场上高性价比巴西拼配和入门精品豆的选择可能会增加。像 [意式咖啡机](https://www.amazon.com/s?k=espresso+machine&tag=coffeeprism-20) 和 [家用磨豆机](https://www.amazon.com/s?k=home+coffee+grinder&tag=coffeeprism-20) 的使用者，会更容易感受到豆价边际回落带来的红利。
 
 ## 未来展望与预测
 

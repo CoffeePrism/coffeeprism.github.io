@@ -140,7 +140,7 @@ Barchart 的报道切中了一个交易层面的现实：**库存下降并不自
 1. 烘焙商是否清楚披露产区与批次变化  
 2. 同价位产品是否悄悄降低克重  
 3. 风味描述是否与实际杯测一致  
-4. 是否值得在价格波动期囤一些耐用设备，如[咖啡磨豆机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)或[手冲套装](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%A5%97%E8%A3%85&tag=coffeeprism-20)，提升在家冲煮性价比  
+4. 是否值得在价格波动期囤一些耐用设备，如[咖啡磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)或[手冲套装](https://www.amazon.com/s?k=pour+over+coffee+set&tag=coffeeprism-20)，提升在家冲煮性价比  
 
 ## 对中国咖啡市场/消费者的影响
 

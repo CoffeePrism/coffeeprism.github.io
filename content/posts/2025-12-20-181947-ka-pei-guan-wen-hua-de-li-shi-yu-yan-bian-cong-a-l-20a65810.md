@@ -70,7 +70,7 @@ author: "Coffee Prism"
 5. 香氛策略（哥伦比亚店用咖啡花香掩盖厕所异味）
 
 ### 5.2 家用场景的体验升级（H3）
-• [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20) 配合92℃水温  
+• [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20) 配合92℃水温  
 • 用手机App测量研磨均匀度  
 • 自创「咖啡护照」记录风味旅程  
 • 每周四晚举办家庭杯测会  
