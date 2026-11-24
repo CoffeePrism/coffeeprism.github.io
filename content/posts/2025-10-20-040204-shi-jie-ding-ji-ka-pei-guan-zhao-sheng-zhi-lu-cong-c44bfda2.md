@@ -25,7 +25,7 @@ author: "Coffee Prism"
 理想的朝圣路线应遵循**3:5:2法则**：30%选择百年历史名店（如佛罗伦萨的Gilli咖啡馆），50%探访现代精品咖啡馆（如哥本哈根的Coffee Collective），20%留给在地特色空间（如首尔传统韩屋改造的咖啡馆）。这种组合既能感受传统技艺的传承，又能体验前沿创新。
 
 ### 2.2 装备系统的智慧选择
-推荐携带三件核心装备：[TIMEMORE手冲壶](https://www.amazon.com/s?k=TIMEMORE%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)（精准控温）、[MOLESKINE咖啡品鉴笔记本](https://www.amazon.com/s?k=MOLESKINE%E5%92%96%E5%95%A1%E5%93%81%E9%89%B4%E7%AC%94%E8%AE%B0%E6%9C%AC&tag=coffeeprism-20)（结构化记录模板）、便携式TDS检测笔（量化萃取浓度）。国内用户可选择淘宝「泰摩旗舰店」的同款产品，价格较海外直购低15-20%。
+推荐携带三件核心装备：[TIMEMORE手冲壶](https://www.amazon.com/s?k=Timemore+pour+over+kettle&tag=coffeeprism-20)（精准控温）、[MOLESKINE咖啡品鉴笔记本](https://www.amazon.com/s?k=Moleskine+notebook&tag=coffeeprism-20)（结构化记录模板）、便携式TDS检测笔（量化萃取浓度）。国内用户可选择淘宝「泰摩旗舰店」的同款产品，价格较海外直购低15-20%。
 
 ## 三、避开常见认知陷阱
 
@@ -62,13 +62,13 @@ author: "Coffee Prism"
 首推东京的%Arabica（标准化出品易感知风味差异）和柏林的Five Elephant（提供详尽的产地卡片）。国内可选择Manner Coffee的品鉴套装，包含6支不同处理法的10g装咖啡，售价仅88元，是建立味觉记忆的经济选择。
 
 ### 如何记录朝圣之旅的收获？
-推荐使用「3×3笔记法」：每天记录3个风味特征、3个空间细节、3个交流收获。配合华为MatePad Paper的OCR功能，可将手写笔记即时转为数字档案。重要票据建议用[富士instax打印机](https://www.amazon.com/s?k=%E5%AF%8C%E5%A3%ABinstax%E6%89%93%E5%8D%B0%E6%9C%BA&tag=coffeeprism-20)留存实体记忆。
+推荐使用「3×3笔记法」：每天记录3个风味特征、3个空间细节、3个交流收获。配合华为MatePad Paper的OCR功能，可将手写笔记即时转为数字档案。重要票据建议用[富士instax打印机](https://www.amazon.com/s?k=Fujifilm+Instax+printer&tag=coffeeprism-20)留存实体记忆。
 
 ---
 
 ## 行动指南：开启你的咖啡修行
 
-真正的咖啡朝圣不在于打卡数量，而在深度体验的质量。建议每季度设定一个主题（如「日式法兰绒萃取」或「肯尼亚SL28品种探索」），通过国内精品馆预演、国际朝圣实践、回家复盘精进的三段式循环。当你在台北的Simple Kaffa用自带的[C40磨豆机](https://www.amazon.com/s?k=C40%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)与咖啡师切磋参数时，这场跨越时空的对话，终将酿成属于你的咖啡圣经。
+真正的咖啡朝圣不在于打卡数量，而在深度体验的质量。建议每季度设定一个主题（如「日式法兰绒萃取」或「肯尼亚SL28品种探索」），通过国内精品馆预演、国际朝圣实践、回家复盘精进的三段式循环。当你在台北的Simple Kaffa用自带的[C40磨豆机](https://www.amazon.com/s?k=C40+grinder&tag=coffeeprism-20)与咖啡师切磋参数时，这场跨越时空的对话，终将酿成属于你的咖啡圣经。
 
 欢迎在评论区分享你的朝圣故事，或咨询具体路线规划。下期将揭秘「全球TOP10咖啡烘焙工坊深度评测」，助你完善咖啡修行版图。
 

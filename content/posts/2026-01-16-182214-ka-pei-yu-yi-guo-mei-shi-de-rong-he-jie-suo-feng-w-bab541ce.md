@@ -44,7 +44,7 @@ author: "Coffee Prism"
 实验证明，咖啡中的绿原酸能与肉类脂肪结合产生类焦糖物质。尝试用哥伦比亚蕙兰的苹果酸搭配韩式烤牛肠，酸度值建议控制在4.5-5.3PH范围。
 
 ### （三）温度梯度的掌控艺术
-冰滴咖啡+日式寿司的搭配中，-2℃的咖啡冰球能延缓鲜鱼氧化。建议准备专业温控设备如[泰摩智能温控壶](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%99%BA%E8%83%BD%E6%B8%A9%E6%8E%A7%E5%A3%B6&tag=coffeeprism-20)，精准把握每5℃的温度差带来的风味变化。
+冰滴咖啡+日式寿司的搭配中，-2℃的咖啡冰球能延缓鲜鱼氧化。建议准备专业温控设备如[泰摩智能温控壶](https://www.amazon.com/s?k=Timemore+smart+temperature+kettle&tag=coffeeprism-20)，精准把握每5℃的温度差带来的风味变化。
 
 ---
 
@@ -80,7 +80,7 @@ author: "Coffee Prism"
 上海「Ops」主理人推荐：用厌氧发酵豆的发酵感搭配臭豆腐，通过相似风味元素的叠加制造惊喜。关键是将咖啡的发酵时间控制在36-48小时区间。
 
 ### （二）器具选择的隐藏技巧
-搭配海鲜类料理时，虹吸壶萃取的咖啡因含量比手冲低23%，更适合保持料理的细腻口感。推荐使用[Kalita Wave滤杯](https://www.amazon.com/s?k=Kalita%20Wave%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)，其平底设计能更好呈现均衡风味。
+搭配海鲜类料理时，虹吸壶萃取的咖啡因含量比手冲低23%，更适合保持料理的细腻口感。推荐使用[Kalita Wave滤杯](https://www.amazon.com/s?k=Kalita+Wave+dripper&tag=coffeeprism-20)，其平底设计能更好呈现均衡风味。
 
 ---
 

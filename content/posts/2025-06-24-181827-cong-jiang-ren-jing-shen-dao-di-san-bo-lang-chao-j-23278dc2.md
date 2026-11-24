@@ -21,7 +21,7 @@ description: "日本咖啡品牌的极致追求，源于将匠人精神、茶道
 
 日本咖啡协会数据显示，目前全国约5.3万家咖啡馆，密度是中国的4.6倍。这种高度竞争催生出惊人的垂直细分：有专注深烘的「琥珀女王」流派，钻研冰滴技术的「京都派」，以及将虹吸壶玩出72种手法的「实验室派」。  
 
-**专家建议**：中国爱好者可关注[Kalita Wave滤杯](https://www.amazon.com/s?k=Kalita%20Wave%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)，其平底设计能均匀萃取，特别适合日式慢速冲煮法。
+**专家建议**：中国爱好者可关注[Kalita Wave滤杯](https://www.amazon.com/s?k=Kalita+Wave+dripper&tag=coffeeprism-20)，其平底设计能均匀萃取，特别适合日式慢速冲煮法。
 
 ---
 
@@ -33,7 +33,7 @@ description: "日本咖啡品牌的极致追求，源于将匠人精神、茶道
    名古屋老铺「コメダ珈琲」用特制法兰绒滤布取代滤纸，使油脂更完整保留。而东京「Glitch Coffee」的"三段变速注水法"，会根据不同产区的豆子调整水流加速度。  
 
 3. **设备革命**  
-   三洋电机的「The Roaster」家用烘焙机，能通过AI算法模拟职人手法。值得中国家庭考虑的是[Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，其双轴承结构能稳定输出日式冲煮所需的均匀粉末。
+   三洋电机的「The Roaster」家用烘焙机，能通过AI算法模拟职人手法。值得中国家庭考虑的是[Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore+hand+grinder&tag=coffeeprism-20)，其双轴承结构能稳定输出日式冲煮所需的均匀粉末。
 
 4. **感官体系**  
    %Arabica研发的"风味罗盘"将酸甜苦咸鲜量化成雷达图，这种科学化品鉴方式，正被上海分店用于培训中国咖啡师。
@@ -50,7 +50,7 @@ description: "日本咖啡品牌的极致追求，源于将匠人精神、茶道
 ### 四、中国市场的启示：本土化与反哺  
 日本品牌进入中国时展现出惊人适应力：%Arabica在上海武康路店增设抹茶拿铁，东京「猿田彦珈琲」与喜茶联名推出柚香冷萃。更值得关注的是反向输出——云南保山咖啡豆经日本烘焙商加工后，溢价率可达300%。  
 
-建议尝试[Key Coffee巴西混合豆](https://www.amazon.com/s?k=Key%20Coffee%E5%B7%B4%E8%A5%BF%E6%B7%B7%E5%90%88%E8%B1%86&tag=coffeeprism-20)，其巧克力尾韵特别适合搭配中式茶点。在家复刻日式冰滴时，可尝试用15℃冷水慢滴8小时，比常规做法更能凸显清冽口感。
+建议尝试[Key Coffee巴西混合豆](https://www.amazon.com/s?k=Key+Coffee+Brazil+blend+coffee&tag=coffeeprism-20)，其巧克力尾韵特别适合搭配中式茶点。在家复刻日式冰滴时，可尝试用15℃冷水慢滴8小时，比常规做法更能凸显清冽口感。
 
 ---
 

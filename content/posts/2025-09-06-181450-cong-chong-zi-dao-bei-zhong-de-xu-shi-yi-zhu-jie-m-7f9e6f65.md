@@ -20,7 +20,7 @@ description: "精品咖啡品牌通过可追溯产地、杯测评分与风土叙
 #### （1）溯源：从种植园到烘焙曲线  
 真正的精品咖啡品牌绝不会以“100%阿拉比卡”作为营销终点。美国精品咖啡协会（SCAA）对“精品咖啡”的定义包含两个核心：可追溯的种植源（Traceability）与杯测80分以上的品质（Cupping Score）。例如，埃塞俄比亚的耶加雪菲产区，其咖啡豆的柑橘花香源自海拔2000米以上的火山土壤与遮阴种植法。品牌若能将这类农学知识转化为“风土叙事”，便能建立专业信任感。  
 
-**专家建议**：选购单品豆时，优先关注标注了“处理法”（如水洗/日晒/蜜处理）与“海拔高度”的产品，例如[云南保山小粒咖啡豆](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E4%BF%9D%E5%B1%B1%E5%B0%8F%E7%B2%92%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)近年因精准标注海拔（1200-1600米）而受资深爱好者青睐。
+**专家建议**：选购单品豆时，优先关注标注了“处理法”（如水洗/日晒/蜜处理）与“海拔高度”的产品，例如[云南保山小粒咖啡豆](https://www.amazon.com/s?k=Baoshan+Yunnan+coffee+beans&tag=coffeeprism-20)近年因精准标注海拔（1200-1600米）而受资深爱好者青睐。
 
 ---
 
@@ -36,7 +36,7 @@ description: "精品咖啡品牌通过可追溯产地、杯测评分与风土叙
 #### （2）场景革命：第三空间的本土解构  
 相比星巴克的“商务社交”场景，中国精品品牌更擅长制造“碎片化体验”。Manner的2㎡快取窗口解决效率需求，%Arabica的纯白空间满足打卡传播，而北京胡同里的Metal Hands则用民国家具与手冲仪式感构建“时光胶囊”。  
 
-**产品推荐**：想要复刻咖啡馆仪式感，可搭配[Timemore手冲壶](https://www.amazon.com/s?k=Timemore%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)与[Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)，这两款器具能精准控制水流与萃取时间。
+**产品推荐**：想要复刻咖啡馆仪式感，可搭配[Timemore手冲壶](https://www.amazon.com/s?k=Timemore+pour+over+kettle&tag=coffeeprism-20)与[Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)，这两款器具能精准控制水流与萃取时间。
 
 ---
 

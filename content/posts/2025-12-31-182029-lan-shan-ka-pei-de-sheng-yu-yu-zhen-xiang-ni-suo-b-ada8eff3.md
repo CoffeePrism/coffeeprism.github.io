@@ -68,7 +68,7 @@ author: "Coffee Prism"
 价格差异源于产量和政策：蓝山年产量仅瑰夏的1/8，且日本长期持有优先采购权。但就风味而言，两者属于不同风格，瑰夏的爆炸式花果香与蓝山的温润平衡各有拥趸。
 
 ### 国内哪里能买到正品蓝山咖啡？
-推荐[Clifton Mount庄园直供装](https://www.amazon.com/s?k=Clifton%20Mount%E5%BA%84%E5%9B%AD%E7%9B%B4%E4%BE%9B%E8%A3%85&tag=coffeeprism-20)和[Jablum经典蓝山](https://www.amazon.com/s?k=Jablum%E7%BB%8F%E5%85%B8%E8%93%9D%E5%B1%B1&tag=coffeeprism-20)，这两个品牌在CIB官网可查认证信息。注意查看「100% Blue Mountain Coffee」标识，混合豆会标注「Blue Mountain Blend」。
+推荐[Clifton Mount庄园直供装](https://www.amazon.com/s?k=Clifton+Mount+Blue+Mountain+coffee+beans&tag=coffeeprism-20)和[Jablum经典蓝山](https://www.amazon.com/s?k=Jablum+Blue+Mountain+coffee&tag=coffeeprism-20)，这两个品牌在CIB官网可查认证信息。注意查看「100% Blue Mountain Coffee」标识，混合豆会标注「Blue Mountain Blend」。
 
 ### 蓝山咖啡值得新手尝试吗？
 建议先建立咖啡品鉴基础：能分辨耶加雪菲的酸度、曼特宁的醇厚后再体验蓝山。直接饮用建议选择虹吸壶冲煮，拿铁制作则会浪费其细腻风味。

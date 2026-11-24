@@ -17,7 +17,7 @@ author: "Coffee Prism"
 意大利人日均饮用4.3杯浓缩咖啡，85%的咖啡馆设有站立吧台。**Espresso文化**的奥秘在于：
 - **快节奏社交**：3分钟站立饮用模式契合南方生活节奏
 - **黄金配比**：7克粉萃取25ml液体，压力精确到9bar
-- 特色器具推荐：[比乐蒂摩卡壶](https://www.amazon.com/s?k=%E6%AF%94%E4%B9%90%E8%92%82%E6%91%A9%E5%8D%A1%E5%A3%B6&tag=coffeeprism-20)（全球每秒售出1.2个）
+- 特色器具推荐：[比乐蒂摩卡壶](https://www.amazon.com/s?k=Bialetti+moka+pot&tag=coffeeprism-20)（全球每秒售出1.2个）
 
 北欧的「第三波咖啡浪潮」则颠覆传统：
 - 瑞典Fika文化：日均咖啡消费量8.2kg（全球第三）
@@ -32,7 +32,7 @@ author: "Coffee Prism"
 ### 3. 美洲篇：从快消到精品的两极分化
 巴西作为全球最大咖啡产国（年产369万吨），却流行超甜咖啡：
 - 每杯添加10-15g蔗糖的Cafezinho
-- 使用[Melitta滤杯](https://www.amazon.com/s?k=Melitta%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)的家庭手冲率达73%
+- 使用[Melitta滤杯](https://www.amazon.com/s?k=Melitta+dripper&tag=coffeeprism-20)的家庭手冲率达73%
 
 美国则呈现多元化趋势：
 - 星巴克Drive-Thru占门店销售额的45%

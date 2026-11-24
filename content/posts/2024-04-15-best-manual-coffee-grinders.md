@@ -25,7 +25,7 @@ tags: ["咖啡研磨器", "手动研磨器", "咖啡器具"]
 
 ### 1. Timemore C2 MAX
 
-[Timemore C2 MAX手动咖啡研磨器](https://www.amazon.com/s?k=Timemore%20C2%20MAX%E6%89%8B%E5%8A%A8%E5%92%96%E5%95%A1%E7%A0%94%E7%A3%A8%E5%99%A8&tag=coffeeprism-20)是一款性价比极高的选择。作为Timemore家族的入门款，C2 MAX保持了品牌一贯的优良设计和制造工艺，同时价格更加亲民。
+[Timemore C2 MAX手动咖啡研磨器](https://www.amazon.com/s?k=Timemore+C2+MAX+hand+grinder&tag=coffeeprism-20)是一款性价比极高的选择。作为Timemore家族的入门款，C2 MAX保持了品牌一贯的优良设计和制造工艺，同时价格更加亲民。
 
 **优点：**
 - 铝合金机身，轻巧坚固

@@ -61,6 +61,7 @@ summaryLength = 80
   #   3. 把这里的占位 "" 改成那串数字
   # 留空字符串则该位置不渲染广告（默认禁用，安全保底）。
   adsenseClient = "ca-pub-2507974090472113"
+  amazonTag = "coffeeprism-20"
   adsenseInArticleSlot = ""
 
   [Params.style.vars]

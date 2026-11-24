@@ -25,7 +25,7 @@ description: "可持续咖啡选择要看从种植、加工到消费全链路减
 - 化肥使用量减少60%
 - 土壤固碳能力增加2倍
 
-[雨林联盟认证咖啡豆](https://www.amazon.com/s?k=%E9%9B%A8%E6%9E%97%E8%81%94%E7%9B%9F%E8%AE%A4%E8%AF%81%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)正是这种模式的产物，建议消费者优先选择带有认证标志的产品。
+[雨林联盟认证咖啡豆](https://www.amazon.com/s?k=Rainforest+Alliance+certified+coffee+beans&tag=coffeeprism-20)正是这种模式的产物，建议消费者优先选择带有认证标志的产品。
 
 ### 2. 加工环节的技术突破
 传统日晒法与水洗法的碳排放差异达到1:3。危地马拉创新的"生态水洗"技术通过：
@@ -36,7 +36,7 @@ description: "可持续咖啡选择要看从种植、加工到消费全链路减
 这种闭环系统使加工环节碳排放降低45%，值得中国产区借鉴。
 
 ### 3. 消费终端的创新方案
-德国品牌[Ecoffee Cup竹纤维随行杯](https://www.amazon.com/s?k=Ecoffee%20Cup%E7%AB%B9%E7%BA%A4%E7%BB%B4%E9%9A%8F%E8%A1%8C%E6%9D%AF&tag=coffeeprism-20)采用可降解材料，生命周期碳排放比塑料杯低78%。国内品牌Manner推出的"自带杯减5元"政策，每年减少300万个一次性杯使用。
+德国品牌[Ecoffee Cup竹纤维随行杯](https://www.amazon.com/s?k=Ecoffee+Cup+bamboo+travel+cup&tag=coffeeprism-20)采用可降解材料，生命周期碳排放比塑料杯低78%。国内品牌Manner推出的"自带杯减5元"政策，每年减少300万个一次性杯使用。
 
 ## 中国市场的特殊挑战与机遇
 ### 本土化解决方案
@@ -58,7 +58,7 @@ description: "可持续咖啡选择要看从种植、加工到消费全链路减
    - 使用可重复使用的金属滤网替代纸质滤杯
 
 2. **设备使用智慧**：
-   [AeroPress Go旅行咖啡机](https://www.amazon.com/s?k=AeroPress%20Go%E6%97%85%E8%A1%8C%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)的低碳设计值得推荐，其：
+   [AeroPress Go旅行咖啡机](https://www.amazon.com/s?k=AeroPress+Go+travel+coffee+maker&tag=coffeeprism-20)的低碳设计值得推荐，其：
    - 无需电力运作
    - 冲泡时间缩短至1分钟
    - 可循环使用3000次以上
@@ -74,7 +74,7 @@ description: "可持续咖啡选择要看从种植、加工到消费全链路减
 
 正如东京大学环境研究教授山本良一所言："真正的咖啡革命，是让每杯咖啡都成为生态修复的起点。"当我们下次端起咖啡杯时，选择不仅关乎口味偏好，更是在参与一场全球性的绿色转型运动。
 
-**行动建议**：从下次购买开始，尝试选择带有环保认证的[云南有机小粒咖啡](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E6%9C%89%E6%9C%BA%E5%B0%8F%E7%B2%92%E5%92%96%E5%95%A1&tag=coffeeprism-20)，并用自带杯前往咖啡馆。你的每个微小选择，都在为地球的可持续发展投票。
+**行动建议**：从下次购买开始，尝试选择带有环保认证的[云南有机小粒咖啡](https://www.amazon.com/s?k=Yunnan+organic+coffee+beans&tag=coffeeprism-20)，并用自带杯前往咖啡馆。你的每个微小选择，都在为地球的可持续发展投票。
 
 <!-- related-reading-start -->
 

@@ -15,7 +15,7 @@ description: "手冲滤杯会直接影响咖啡萃取速度、风味层次与口
 
 ### 1. V60滤杯
 
-V60滤杯可谓是手冲咖啡界的明星产品。由日本公司Hario设计，这款滤杯以其60度的锥形设计而命名。V60滤杯的内壁有螺旋状的凸纹，可以有效引导水流，确保均匀萃取。其材质有陶瓷、玻璃、塑料和金属等多种选择。陶瓷材质的V60（[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)）能够保持温度稳定，是许多咖啡师的首选。
+V60滤杯可谓是手冲咖啡界的明星产品。由日本公司Hario设计，这款滤杯以其60度的锥形设计而命名。V60滤杯的内壁有螺旋状的凸纹，可以有效引导水流，确保均匀萃取。其材质有陶瓷、玻璃、塑料和金属等多种选择。陶瓷材质的V60（[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)）能够保持温度稳定，是许多咖啡师的首选。
 
 ### 2. Kalita Wave滤杯
 
@@ -23,7 +23,7 @@ Kalita Wave滤杯以其独特的波浪形滤纸而闻名。这种滤杯的底部
 
 ### 3. Chemex滤杯
 
-Chemex滤杯是一种结合滤杯和壶身的设计，拥有经典的玻璃锥形外观。其特殊的厚滤纸能够有效去除咖啡中的油脂和杂质，带来清爽、纯净的口感。对于喜欢干净、透明风味的咖啡爱好者，Chemex（[Chemex经典滤杯](https://www.amazon.com/s?k=Chemex%E7%BB%8F%E5%85%B8%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)）是不二选择。
+Chemex滤杯是一种结合滤杯和壶身的设计，拥有经典的玻璃锥形外观。其特殊的厚滤纸能够有效去除咖啡中的油脂和杂质，带来清爽、纯净的口感。对于喜欢干净、透明风味的咖啡爱好者，Chemex（[Chemex经典滤杯](https://www.amazon.com/s?k=Chemex+classic+dripper&tag=coffeeprism-20)）是不二选择。
 
 ## 滤杯对咖啡风味的影响
 

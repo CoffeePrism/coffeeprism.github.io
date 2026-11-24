@@ -35,7 +35,7 @@ author: "Coffee Prism"
 ## 三、现代实践的四维体系
 
 ### 3.1 器具选择的黄金法则
-土耳其仪式必备的**Cezve铜壶**，其锥形设计能让咖啡粉均匀沉淀；埃塞俄比亚的**Jebena陶壶**多孔结构可自然过滤渣滓。建议初学者从[泰摩手冲套装](https://www.amazon.cn/s?k=Timemore)入手，其国产设计兼顾性价比与专业度。
+土耳其仪式必备的**Cezve铜壶**，其锥形设计能让咖啡粉均匀沉淀；埃塞俄比亚的**Jebena陶壶**多孔结构可自然过滤渣滓。建议初学者从[泰摩手冲套装](https://www.amazon.com/s?k=Timemore&tag=coffeeprism-20)入手，其国产设计兼顾性价比与专业度。
 
 ### 3.2 五感调谐的进阶心法
 瑞典Fika文化强调「视觉舒适度优先」，要求咖啡桌必须摆放蜡烛与鲜花；也门仪式则重视嗅觉层次，必配乳香作为前调。实验数据显示，使用骨瓷杯相比玻璃杯能提升15%的甜味感知度。
@@ -58,10 +58,10 @@ author: "Coffee Prism"
 
 ## 六、必备工具精选指南
 
-1. [Hario V60陶瓷滤杯](https://www.amazon.cn/s?k=Hario+V60)：锥形角度完美复刻日式手冲精髓  
-2. [Zassenhaus土耳其咖啡壶](https://www.amazon.cn/s?k=Zassenhaus)：铜制手柄防烫设计  
-3. [泰摩栗子C手摇磨](https://www.amazon.cn/s?k=Timemore+Chestnut)：国产精工代表作  
-4. [Kinto慢品杯](https://www.amazon.cn/s?k=Kinto)：壁厚2.1mm的黄金保温比例
+1. [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60&tag=coffeeprism-20)：锥形角度完美复刻日式手冲精髓  
+2. [Zassenhaus土耳其咖啡壶](https://www.amazon.com/s?k=Zassenhaus&tag=coffeeprism-20)：铜制手柄防烫设计  
+3. [泰摩栗子C手摇磨](https://www.amazon.com/s?k=Timemore+Chestnut&tag=coffeeprism-20)：国产精工代表作  
+4. [Kinto慢品杯](https://www.amazon.com/s?k=Kinto&tag=coffeeprism-20)：壁厚2.1mm的黄金保温比例
 
 ---
 
@@ -71,7 +71,7 @@ author: "Coffee Prism"
 准备生豆在家烘焙是关键，可用铸铁锅代替传统陶盘。仪式必备的爆米花象征丰收，可用烤箱制作。三次注水分别对应「Abol」、「Tona」、「Baraka」生命三阶段。
 
 ### 土耳其咖啡占卜需要哪些特殊器具？  
-除传统的Cezve铜壶外，需准备白色骨瓷杯（方便观察渣痕）、银制托盘和占卜图鉴。新手建议从[土耳其咖啡套装](https://www.amazon.cn/s?k=Turkish+Coffee+Set)入门。
+除传统的Cezve铜壶外，需准备白色骨瓷杯（方便观察渣痕）、银制托盘和占卜图鉴。新手建议从[土耳其咖啡套装](https://www.amazon.com/s?k=Turkish+Coffee+Set&tag=coffeeprism-20)入门。
 
 ### 为什么说虹吸壶最能体现咖啡仪式感？  
 虹吸壶的实验室器皿造型自带戏剧性，从酒精灯点火到咖啡液回流的过程充满观赏性。台湾冠军咖啡师王策建议，控制火源与搅拌节奏是精髓所在。

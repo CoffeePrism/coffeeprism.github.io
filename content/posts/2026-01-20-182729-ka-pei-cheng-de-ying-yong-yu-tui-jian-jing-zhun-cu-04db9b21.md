@@ -69,7 +69,7 @@ author: "Coffee Prism"
 ## 四、2023年度推荐清单
 
 ### 4.1 性价比之选：泰摩黑镜Nano
-[泰摩黑镜Nano](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%BB%91%E9%95%9CNano&tag=coffeeprism-20)以￥299价位提供0.1g精度+自动计时，实测连续工作30小时后误差仍＜0.3g。
+[泰摩黑镜Nano](https://www.amazon.com/s?k=Timemore+Black+Mirror+Nano+scale&tag=coffeeprism-20)以￥299价位提供0.1g精度+自动计时，实测连续工作30小时后误差仍＜0.3g。
 
 ### 4.2 专业进阶推荐：Acaia Pearl S
 [Acaia Pearl S](https://www.amazon.com/s?k=Acaia%20Pearl%20S&tag=coffeeprism-20)的智能冲煮指导模式，能根据实时流量自动计算萃取率，特别适合参赛级选手。

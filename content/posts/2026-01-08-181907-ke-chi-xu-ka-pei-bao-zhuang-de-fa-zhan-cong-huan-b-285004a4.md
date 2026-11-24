@@ -52,7 +52,7 @@ author: "Coffee Prism"
 采用氮气+二氧化碳混合填充技术，在无铝箔的情况下仍能保持18个月保质期。成都某烘焙工坊的实验证明，多层纸基复合材料比单层铝塑包装的抗氧化性能提升22%。
 
 ### 3.3 成本控制的创新方案
-建议中小品牌采用「模块化包装」设计，如[Ecopack可堆肥自立袋](https://www.amazon.com/s?k=Ecopack%E5%8F%AF%E5%A0%86%E8%82%A5%E8%87%AA%E7%AB%8B%E8%A2%8B&tag=coffeeprism-20)，既满足环保要求，又能通过标准化生产降低30%成本。
+建议中小品牌采用「模块化包装」设计，如[Ecopack可堆肥自立袋](https://www.amazon.com/s?k=Ecopack+compostable+stand+up+pouches&tag=coffeeprism-20)，既满足环保要求，又能通过标准化生产降低30%成本。
 
 ---
 
@@ -85,11 +85,11 @@ author: "Coffee Prism"
 ## 六、产品推荐与购买指南
 
 ### 6.1 专业级解决方案
-- [Terravia咖啡植物基包装膜](https://www.amazon.com/s?k=Terravia%E5%92%96%E5%95%A1%E6%A4%8D%E7%89%A9%E5%9F%BA%E5%8C%85%E8%A3%85%E8%86%9C&tag=coffeeprism-20)：采用海藻提取物制成，保鲜性能媲美铝箔
+- Terravia咖啡植物基包装膜：采用海藻提取物制成，保鲜性能媲美铝箔
 - 淘宝「绿洲计划」咖啡渣再生罐（国产平替款，支持定制LOGO）
 
 ### 6.2 家庭装优选
-京东热销的[Ecoffee可堆肥挂耳包](https://www.amazon.com/s?k=Ecoffee%E5%8F%AF%E5%A0%86%E8%82%A5%E6%8C%82%E8%80%B3%E5%8C%85&tag=coffeeprism-20)，采用无胶水超声波封合技术，每包价格仅比传统包装贵0.3元。
+京东热销的[Ecoffee可堆肥挂耳包](https://www.amazon.com/s?k=Ecoffee+compostable+drip+bags&tag=coffeeprism-20)，采用无胶水超声波封合技术，每包价格仅比传统包装贵0.3元。
 
 ---
 

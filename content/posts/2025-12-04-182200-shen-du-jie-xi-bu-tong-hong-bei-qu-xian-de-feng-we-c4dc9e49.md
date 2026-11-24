@@ -102,7 +102,7 @@ author: "Coffee Prism"
 ## 常见问题解答
 
 ### 如何判断家庭烘焙机的温度准确性？  
-建议使用[Fluke红外测温仪](https://www.amazon.com/s?k=Fluke%E7%BA%A2%E5%A4%96%E6%B5%8B%E6%B8%A9%E4%BB%AA&tag=coffeeprism-20)进行校准。多数家用机显示温度与实际豆温存在5-8℃偏差，需在首锅烘焙时建立补偿参数。
+建议使用[Fluke红外测温仪](https://www.amazon.com/s?k=Fluke+infrared+thermometer&tag=coffeeprism-20)进行校准。多数家用机显示温度与实际豆温存在5-8℃偏差，需在首锅烘焙时建立补偿参数。
 
 ### 不同烘焙曲线的风味表现会随保存时间变化吗？  
 快烘曲线（＜9分钟）的咖啡豆最佳风味期在养豆7-10天后出现，而慢烘曲线（＞12分钟）的风味高峰会提前至3-5天。建议在豆袋标注烘焙曲线类型。

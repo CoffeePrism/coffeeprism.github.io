@@ -12,10 +12,10 @@ description: "咖啡旅行是用风味与空间读懂城市灵魂的方式：从
 
 ## 行前必修课：咖啡旅人的专业准备
 ### 构建专属咖啡风味坐标系
-资深咖啡顾问李夏阳建议："出发前三个月，建议系统建立自己的感官记忆库。"从云南保山的水洗卡蒂姆到巴拿马翡翠庄园的日晒瑰夏，用[Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)现磨不同产区的单品豆，在标准杯测流程中记录酸度、甜感与醇厚度的变化曲线。当你能清晰分辨肯尼亚AA的番茄酸与危地马拉的坚果调时，就具备了在异国咖啡馆点单的底气。
+资深咖啡顾问李夏阳建议："出发前三个月，建议系统建立自己的感官记忆库。"从云南保山的水洗卡蒂姆到巴拿马翡翠庄园的日晒瑰夏，用[Timemore手摇磨豆机](https://www.amazon.com/s?k=Timemore+hand+grinder&tag=coffeeprism-20)现磨不同产区的单品豆，在标准杯测流程中记录酸度、甜感与醇厚度的变化曲线。当你能清晰分辨肯尼亚AA的番茄酸与危地马拉的坚果调时，就具备了在异国咖啡馆点单的底气。
 
 ### 便携器具的智慧选择
-资深旅咖陈墨的随身装备堪称典范：200g容量的[Fellow Atmos真空咖啡罐](https://www.amazon.com/s?k=Fellow%20Atmos%E7%9C%9F%E7%A9%BA%E5%92%96%E5%95%A1%E7%BD%90&tag=coffeeprism-20)保持豆子新鲜度，折叠式[Wacaco Nanopresso手压咖啡机](https://www.amazon.com/s?k=Wacaco%20Nanopresso%E6%89%8B%E5%8E%8B%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)满足随时制作意式浓缩的需求，配合可重复使用的金属过滤网，即使在青藏高原的帐篷里也能还原咖啡馆级的风味体验。
+资深旅咖陈墨的随身装备堪称典范：200g容量的[Fellow Atmos真空咖啡罐](https://www.amazon.com/s?k=Fellow+Atmos+vacuum+canister&tag=coffeeprism-20)保持豆子新鲜度，折叠式[Wacaco Nanopresso手压咖啡机](https://www.amazon.com/s?k=Wacaco+Nanopresso+portable+espresso+maker&tag=coffeeprism-20)满足随时制作意式浓缩的需求，配合可重复使用的金属过滤网，即使在青藏高原的帐篷里也能还原咖啡馆级的风味体验。
 
 ## 城市咖啡探索的三大黄金法则
 ### 解码空间里的风味密码
@@ -29,7 +29,7 @@ description: "咖啡旅行是用风味与空间读懂城市灵魂的方式：从
 
 ## 中国咖啡地图的隐藏瑰宝
 ### 本土产区的觉醒之路
-云南普洱的咖啡庄园正在书写东方咖啡新传奇。在Torch Coffee实验室，我品尝到经72小时厌氧发酵的孟连卡蒂姆，其酒香尾韵丝毫不逊中美洲名庄。建议咖啡旅人参加11月的云南收获季体验，从鲜果采摘、水洗处理到杯测品鉴，全程见证"中国味道"的诞生。可选购[云南小粒咖啡礼盒](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E5%B0%8F%E7%B2%92%E5%92%96%E5%95%A1%E7%A4%BC%E7%9B%92&tag=coffeeprism-20)作为旅行手信，其性价比远超进口精品豆。
+云南普洱的咖啡庄园正在书写东方咖啡新传奇。在Torch Coffee实验室，我品尝到经72小时厌氧发酵的孟连卡蒂姆，其酒香尾韵丝毫不逊中美洲名庄。建议咖啡旅人参加11月的云南收获季体验，从鲜果采摘、水洗处理到杯测品鉴，全程见证"中国味道"的诞生。可选购[云南小粒咖啡礼盒](https://www.amazon.com/s?k=Yunnan+coffee+gift+set&tag=coffeeprism-20)作为旅行手信，其性价比远超进口精品豆。
 
 ### 城市咖啡场景的范式革命
 深圳的"咖啡+"生态令人惊叹：在华侨城创意园的Akimbo Cafe，咖啡师会为你定制印有人像拉花的氮气冷萃；南头古城的Kuddo Coffee将潮汕橄榄与埃塞耶加雪菲创意融合；而海上世界文化艺术中心的%Arabica则化身城市观景台，建议选择工作日上午10点造访，在晨光中观赏咖啡师行云流水的冲煮表演。

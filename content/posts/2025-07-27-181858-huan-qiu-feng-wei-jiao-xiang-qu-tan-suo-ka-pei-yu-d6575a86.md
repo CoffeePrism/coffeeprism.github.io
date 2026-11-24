@@ -54,9 +54,9 @@ description: "咖啡与异国美食如何搭配？关键在平衡酸甜苦香与
 ---
 
 ### 四、家庭实践的实用工具指南  
-1. **精准控制变量**：推荐使用[Timemore Chestnut C2手摇磨豆机](https://www.amazon.com/s?k=Timemore%20Chestnut%20C2%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，均匀的研磨度是风味表达的基础。  
-2. **灵活萃取方式**：搭配不同料理时，可切换手冲（清淡料理）与法压壶（重口味菜肴）。[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)适合呈现咖啡的细腻层次。  
-3. **本土咖啡探索**：支持中国云南精品豆，如[云南保山铁皮卡咖啡豆](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E4%BF%9D%E5%B1%B1%E9%93%81%E7%9A%AE%E5%8D%A1%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)，其柔和的茶感与中餐适配性极高。
+1. **精准控制变量**：推荐使用[Timemore Chestnut C2手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C2+hand+grinder&tag=coffeeprism-20)，均匀的研磨度是风味表达的基础。  
+2. **灵活萃取方式**：搭配不同料理时，可切换手冲（清淡料理）与法压壶（重口味菜肴）。[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)适合呈现咖啡的细腻层次。  
+3. **本土咖啡探索**：支持中国云南精品豆，如[云南保山铁皮卡咖啡豆](https://www.amazon.com/s?k=Baoshan+Typica+coffee+beans&tag=coffeeprism-20)，其柔和的茶感与中餐适配性极高。
 
 ---
 

@@ -98,12 +98,12 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-11-22-181742-dan-yi-chan-d
 ## 六、产品与工具推荐  
 
 ### 6.1 新手入门套装  
-- **[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)**：23μm精准刻度，完美展现**单一产地咖啡豆的风味特点**  
-- **[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)**：肋骨设计提升酸甜平衡度  
+- **[泰摩栗子C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)**：23μm精准刻度，完美展现**单一产地咖啡豆的风味特点**  
+- **[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)**：肋骨设计提升酸甜平衡度  
 
 ### 6.2 进阶者必备  
-- **[Acaia Pearl电子秤](https://www.amazon.com/s?k=Acaia%20Pearl%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)**：0.1g精度+自动计时  
-- **[Coffee Review风味指南](https://www.amazon.com/s?k=Coffee%20Review%E9%A3%8E%E5%91%B3%E6%8C%87%E5%8D%97&tag=coffeeprism-20)**：收录2000+真实测评数据  
+- **[Acaia Pearl电子秤](https://www.amazon.com/s?k=Acaia+Pearl+scale&tag=coffeeprism-20)**：0.1g精度+自动计时  
+- **Coffee Review风味指南**：收录2000+真实测评数据  
 
 ---
 

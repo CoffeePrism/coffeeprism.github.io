@@ -17,9 +17,9 @@ description: "虹吸壶咖啡通过气压差与精准控温实现93-95℃萃取�
 虹吸壶的运作本质是气压差的精妙游戏。当底部烧瓶中的水受热汽化，蒸汽压将液态水推升至上部萃取室。此时93-95℃的热水与咖啡粉相遇，通过精确控制接触时间完成风味物质的溶解。在移开热源后，下部烧瓶冷却形成的负压，又将咖啡液"吸回"完成分离。
 
 这个过程中，有三个关键物理参数需要掌控：
-1. 水温曲线：建议使用带温度探针的电磁炉[Bonavita温控电陶炉](https://www.amazon.com/s?k=Bonavita%E6%B8%A9%E6%8E%A7%E7%94%B5%E9%99%B6%E7%82%89&tag=coffeeprism-20)
+1. 水温曲线：建议使用带温度探针的电磁炉[Bonavita温控电陶炉](https://www.amazon.com/s?k=Bonavita+electric+hot+plate&tag=coffeeprism-20)
 2. 粉水接触时间：理想区间在1分10秒至1分30秒
-3. 粉层扰动频率：通过竹制搅拌棒[Hario木质搅拌棒](https://www.amazon.com/s?k=Hario%E6%9C%A8%E8%B4%A8%E6%90%85%E6%8B%8C%E6%A3%92&tag=coffeeprism-20)实现均匀萃取
+3. 粉层扰动频率：通过竹制搅拌棒[Hario木质搅拌棒](https://www.amazon.com/s?k=Hario+wooden+stirring+paddle&tag=coffeeprism-20)实现均匀萃取
 
 ### 中国咖啡场景的适配建议
 考虑到国内普遍水质偏硬（特别是北方地区），建议搭配使用TDS检测笔。笔者实测发现，当水中钙镁离子含量超过150ppm时，云南日晒豆的果酸表现会被明显压制。可选用农夫山泉婴儿水（TDS≈45）或经Brita过滤的自来水。
@@ -42,7 +42,7 @@ description: "虹吸壶咖啡通过气压差与精准控温实现93-95℃萃取�
 - 中层：水溶性滋味（酸质/甜感）
 - 底层：大分子胶质（醇厚度/余韵）
 
-建议选用广口品鉴杯[Loveramics广口咖啡杯](https://www.amazon.com/s?k=Loveramics%E5%B9%BF%E5%8F%A3%E5%92%96%E5%95%A1%E6%9D%AF&tag=coffeeprism-20)，饮用时先闻上层蒸汽携带的香气，再分三口体会风味演变。有趣的是，云南保山产的铁皮卡在虹吸冲煮下，会展现出与手冲截然不同的甘蔗甜尾韵。
+建议选用广口品鉴杯[Loveramics广口咖啡杯](https://www.amazon.com/s?k=Loveramics+wide+mouth+coffee+cup&tag=coffeeprism-20)，饮用时先闻上层蒸汽携带的香气，再分三口体会风味演变。有趣的是，云南保山产的铁皮卡在虹吸冲煮下，会展现出与手冲截然不同的甘蔗甜尾韵。
 
 ---
 
@@ -62,7 +62,7 @@ description: "虹吸壶咖啡通过气压差与精准控温实现93-95℃萃取�
 2. 海南兴隆罗布斯塔（中烘）：巧克力/香料调
 3. 台湾阿里山铁皮卡（浅烘）：茶感/青梅调
 
-特别推荐尝试云南保山酒桶发酵豆，在虹吸壶中能放大其威士忌酒香。研磨度建议比手冲细10%，使用[Timemore C3手摇磨豆机](https://www.amazon.com/s?k=Timemore%20C3%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)时可设定在14-16格。
+特别推荐尝试云南保山酒桶发酵豆，在虹吸壶中能放大其威士忌酒香。研磨度建议比手冲细10%，使用[Timemore C3手摇磨豆机](https://www.amazon.com/s?k=Timemore+C3+hand+grinder&tag=coffeeprism-20)时可设定在14-16格。
 
 ---
 

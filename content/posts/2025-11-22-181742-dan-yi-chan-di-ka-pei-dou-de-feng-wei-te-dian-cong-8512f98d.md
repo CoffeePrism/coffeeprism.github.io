@@ -58,7 +58,7 @@ aliases: ["/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dia
 2. 后者在舌根停留的杏仁余韵
 
 ### 4.3 风味日记记录模板
-建立包含「干香→破渣香→味觉→余韵」四维度的品鉴档案，建议使用[咖啡猎人专用品鉴笔记本](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%8C%8E%E4%BA%BA%E4%B8%93%E7%94%A8%E5%93%81%E9%89%B4%E7%AC%94%E8%AE%B0%E6%9C%AC&tag=coffeeprism-20)，其环形风味轮设计能有效引导系统记录。
+建立包含「干香→破渣香→味觉→余韵」四维度的品鉴档案，建议使用咖啡猎人专用品鉴笔记本，其环形风味轮设计能有效引导系统记录。
 
 ## 五、避开新手误区：三大认知陷阱破解
 
@@ -69,7 +69,7 @@ aliases: ["/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dia
 并非所有牙买加咖啡都是蓝山等级，注意认准JACRA认证标志，避免为「蓝山风味」等擦边球宣传买单。
 
 ### 5.3 新鲜度的科学管理
-实验证明，单品咖啡豆的最佳风味期在烘焙后7-21天，使用[泰摩真空醒豆罐](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%9C%9F%E7%A9%BA%E9%86%92%E8%B1%86%E7%BD%90&tag=coffeeprism-20)可将风味峰值延长40%。
+实验证明，单品咖啡豆的最佳风味期在烘焙后7-21天，使用[泰摩真空醒豆罐](https://www.amazon.com/s?k=Timemore+vacuum+canister&tag=coffeeprism-20)可将风味峰值延长40%。
 
 ## 六、专业咖啡师的私房建议
 
@@ -86,7 +86,7 @@ aliases: ["/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dia
 - 豆单：八平方咖啡「云南日晒瑰夏」（每克0.8元的惊艳性价比）
 
 ### 7.2 国际经典组合
-- 手冲壶：[Brewista天鹅颈壶](https://www.amazon.com/s?k=Brewista%E5%A4%A9%E9%B9%85%E9%A2%88%E5%A3%B6&tag=coffeeprism-20)（精准水流控制）
+- 手冲壶：[Brewista天鹅颈壶](https://www.amazon.com/s?k=Brewista+gooseneck+kettle&tag=coffeeprism-20)（精准水流控制）
 - 豆单：瑞典Drop Coffee「埃塞俄比亚班可果丁丁」（2023年北欧烘焙大赛冠军豆）
 
 ---
@@ -97,13 +97,13 @@ aliases: ["/posts/2025-10-19-230428-dan-yi-chan-di-ka-pei-dou-de-feng-wei-te-dia
 云南咖啡以保山、普洱、德宏产区为代表，呈现独特的「东方风味谱系」：日晒处理法带来成熟李子的甜感，水洗豆则带有乌龙茶尾韵。2022年COE大赛优胜批次更发展出山竹般的清甜酸质。
 
 ### 如何判断单一产地咖啡豆的新鲜度？
-观察三项黄金指标：1）烘焙日期在21天内 2）研磨时呈现均匀的浅棕色粉末 3）注水时产生持续30秒以上的「汉堡包」膨胀层。建议使用[泰摩电子秤](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)精确记录萃取时间。
+观察三项黄金指标：1）烘焙日期在21天内 2）研磨时呈现均匀的浅棕色粉末 3）注水时产生持续30秒以上的「汉堡包」膨胀层。建议使用[泰摩电子秤](https://www.amazon.com/s?k=Timemore+coffee+scale&tag=coffeeprism-20)精确记录萃取时间。
 
 ### 不同烘焙度如何影响风味特点？
 浅烘（Agtron75+）突出产区原生风味，如肯尼亚的番茄酸质；中烘（Agtron65）展现焦糖化甜感，适合危地马拉咖啡；深烘（Agtron45）则会覆盖大部分地域特征，仅保留醇厚度。
 
 ### 单品咖啡需要特定冲煮器具吗？
-推荐组合：V60滤杯（突出干净度）＋蛋糕杯（增强body感）交替使用。预算有限可选择[Hario入门套装](https://www.amazon.com/s?k=Hario%E5%85%A5%E9%97%A8%E5%A5%97%E8%A3%85&tag=coffeeprism-20)，其云朵分享壶能直观观察咖啡油脂状态。
+推荐组合：V60滤杯（突出干净度）＋蛋糕杯（增强body感）交替使用。预算有限可选择[Hario入门套装](https://www.amazon.com/s?k=Hario+starter+set&tag=coffeeprism-20)，其云朵分享壶能直观观察咖啡油脂状态。
 
 ### 如何保存开封后的咖啡豆？
 采用「3层防护法」：原袋密封＋避光罐＋冰箱冷冻室（-18℃）。实验表明，分装成50g小份冷冻保存，两个月后风味损失仅9%，远超常温保存的37%劣化率。

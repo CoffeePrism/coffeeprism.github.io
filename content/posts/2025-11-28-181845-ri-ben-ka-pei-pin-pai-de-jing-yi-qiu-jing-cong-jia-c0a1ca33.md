@@ -60,7 +60,7 @@ author: "Coffee Prism"
 
 ### 4.1 手冲器具选购要点
 - 滤杯：首选**Kalita Wave 155**（适合浅烘豆）或**Hario V60 02**（适合深烘豆）
-- 手冲壶：[Bonavita 温控壶](https://www.amazon.com/s?k=Bonavita%20%E6%B8%A9%E6%8E%A7%E5%A3%B6&tag=coffeeprism-20)（精确到±1℃控温）
+- 手冲壶：[Bonavita 温控壶](https://www.amazon.com/s?k=Bonavita+gooseneck+kettle&tag=coffeeprism-20)（精确到±1℃控温）
 
 ### 4.2 咖啡豆选购策略
 - 入门级：**UCC 职人系列**（京东自营，烘焙后15天内到货）

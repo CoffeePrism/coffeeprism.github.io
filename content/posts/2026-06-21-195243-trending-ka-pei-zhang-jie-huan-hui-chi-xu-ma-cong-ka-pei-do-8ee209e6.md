@@ -132,7 +132,7 @@ news_source: "https://news.google.com/rss/articles/CBMi9wFBVV95cUxQV2M2YjZpZTRKL
 2. 精品豆、挂耳、胶囊和家用咖啡设备的性价比会重新被评估；  
 3. 在门店价格上行背景下，更多人会转向家庭场景。  
 
-如果你是高频饮用者，家用设备的投入会越来越值得考虑，比如[咖啡磨豆机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)、[意式浓缩机](https://www.amazon.com/s?k=%E6%84%8F%E5%BC%8F%E6%B5%93%E7%BC%A9%E6%9C%BA&tag=coffeeprism-20)、[手冲咖啡壶](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%92%96%E5%95%A1%E5%A3%B6&tag=coffeeprism-20)。在豆价高位时期，提升萃取效率和减少浪费，本身就是对冲成本的方法。
+如果你是高频饮用者，家用设备的投入会越来越值得考虑，比如[咖啡磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)、[意式浓缩机](https://www.amazon.com/s?k=espresso+machine&tag=coffeeprism-20)、[手冲咖啡壶](https://www.amazon.com/s?k=pour+over+coffee+kettle&tag=coffeeprism-20)。在豆价高位时期，提升萃取效率和减少浪费，本身就是对冲成本的方法。
 
 ## 未来展望与预测
 

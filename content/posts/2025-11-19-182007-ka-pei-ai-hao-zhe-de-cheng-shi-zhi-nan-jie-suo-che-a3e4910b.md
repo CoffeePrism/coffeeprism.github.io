@@ -100,8 +100,8 @@ author: "Coffee Prism"
 ## 七、必备工具推荐
 
 ### 7.1 便携检测套装
-[泰摩黑镜咖啡浓度仪](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%BB%91%E9%95%9C%E5%92%96%E5%95%A1%E6%B5%93%E5%BA%A6%E4%BB%AA&tag=coffeeprism-20)（国产高精度TDS检测）
-[爱乐压Go旅行套装](https://www.amazon.com/s?k=%E7%88%B1%E4%B9%90%E5%8E%8BGo%E6%97%85%E8%A1%8C%E5%A5%97%E8%A3%85&tag=coffeeprism-20)（2023红点设计奖）
+[泰摩黑镜咖啡浓度仪](https://www.amazon.com/s?k=Timemore+Black+Mirror+coffee+TDS+meter&tag=coffeeprism-20)（国产高精度TDS检测）
+[爱乐压Go旅行套装](https://www.amazon.com/s?k=AeroPress+Go+travel+set&tag=coffeeprism-20)（2023红点设计奖）
 
 ### 7.2 信息管理工具
 「咖啡猎人」App（中国首个专业探店工具，含水质数据库）

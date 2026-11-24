@@ -89,7 +89,7 @@ Trung Nguyen等本土品牌特有的「4:1拼配法」（4份深度烘焙罗布�
 
 ### （H2）打造专属越南咖啡角的必备清单  
 （H3）**经典phin滤杯推荐**  
-1. [Trung Nguyen不锈钢滤杯](https://www.amazon.com/s?k=Trung%20Nguyen%E4%B8%8D%E9%94%88%E9%92%A2%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)（孔径精准，终身保修）  
+1. [Trung Nguyen不锈钢滤杯](https://www.amazon.com/s?k=Trung+Nguyen+stainless+steel+coffee+filter&tag=coffeeprism-20)（孔径精准，终身保修）  
 2. 越南本土品牌Hanoi Design铝制滤杯（导热快，适合快速降温）  
 
 （H3）**中国市场的平替方案**  

@@ -40,7 +40,7 @@ author: "Coffee Prism"
 ## 三、实践操作全流程指南
 
 ### 3.1 家庭咖啡保存方案
-- **短期储存**：使用不锈钢密封罐+单向排气阀（推荐[KeepCup真空罐](https://www.amazon.com/s?k=KeepCup%E7%9C%9F%E7%A9%BA%E7%BD%90&tag=coffeeprism-20)）
+- **短期储存**：使用不锈钢密封罐+单向排气阀（推荐[KeepCup真空罐](https://www.amazon.com/s?k=KeepCup+vacuum+canister&tag=coffeeprism-20)）
 - **长期保存**：分装冷冻时选择可堆肥袋（厚度需≥75μm）
 
 ### 3.2 商业场景解决方案
@@ -61,7 +61,7 @@ author: "Coffee Prism"
 ## 五、专业级保鲜技巧
 
 ### 5.1 气体置换技术进阶
-日本UCC研发的氮气+二氧化碳混合填充技术，在可降解包装中实现18个月保鲜期。家庭用户可使用[FoodSaver真空机](https://www.amazon.com/s?k=FoodSaver%E7%9C%9F%E7%A9%BA%E6%9C%BA&tag=coffeeprism-20)配合可重复使用硅胶袋。
+日本UCC研发的氮气+二氧化碳混合填充技术，在可降解包装中实现18个月保鲜期。家庭用户可使用[FoodSaver真空机](https://www.amazon.com/s?k=FoodSaver+vacuum+sealer&tag=coffeeprism-20)配合可重复使用硅胶袋。
 
 ### 5.2 智能包装应用
 内置RFID芯片的包装可实时监测咖啡豆新鲜度，英国PACKYRME系统已实现开袋后自动启动降解程序。国内厂商如陶朗科技正研发适用于小批量烘焙商的低成本方案。
@@ -71,7 +71,7 @@ author: "Coffee Prism"
 ## 六、产品推荐与采购指南
 
 ### 6.1 家庭优选方案
-- [Ecoffee Cup可堆肥咖啡袋](https://www.amazon.com/s?k=Ecoffee%20Cup%E5%8F%AF%E5%A0%86%E8%82%A5%E5%92%96%E5%95%A1%E8%A2%8B&tag=coffeeprism-20)：通过TUV家庭堆肥认证
+- [Ecoffee Cup可堆肥咖啡袋](https://www.amazon.com/s?k=Ecoffee+Cup+compostable+coffee+bags&tag=coffeeprism-20)：通过TUV家庭堆肥认证
 - 永璞咖啡「飞碟回收计划」：每返还10个空罐可兑换新品
 
 ### 6.2 商业级解决方案

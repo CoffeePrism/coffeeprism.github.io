@@ -27,10 +27,10 @@ description: "日本咖啡品牌凭借职人文化与极致工艺征服世界味
 这个1933年创立的品牌，在2019年与JAXA合作开发太空站专用咖啡机[UCC Space Roast](https://www.amazon.com/s?k=UCC%20Space%20Roast&tag=coffeeprism-20)，其零重力萃取技术现已下放至民用市场。他们最新推出的「风味分子锁鲜罐」，采用航天级氮气填充技术，让研磨咖啡的芳香物质保存期延长300%。
 
 ### 2. 小川咖啡：京都古法的现代演绎
-在保持传统炭火烘焙的同时，小川咖啡实验室研发出「超声波萃取浓缩液」，完美复刻昭和初期咖啡的醇厚感。其招牌产品「御用达」系列手冲套装[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)，特别设计的60度锥角与京都水质达成绝妙共振。
+在保持传统炭火烘焙的同时，小川咖啡实验室研发出「超声波萃取浓缩液」，完美复刻昭和初期咖啡的醇厚感。其招牌产品「御用达」系列手冲套装[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)，特别设计的60度锥角与京都水质达成绝妙共振。
 
 ### 3. 丸山咖啡：精品咖啡的东方解法
-这个轻井泽起家的品牌，将日本审美注入咖啡产业链每个环节。他们与信州陶艺家合作的[Kalita波纹铜制手冲壶](https://www.amazon.com/s?k=Kalita%E6%B3%A2%E7%BA%B9%E9%93%9C%E5%88%B6%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)，壶嘴弧度经过流体力学优化，让注水轨迹如书法般精准可控。其「微气候发酵法」处理的云南豆，去年斩获Coffee Review 97分。
+这个轻井泽起家的品牌，将日本审美注入咖啡产业链每个环节。他们与信州陶艺家合作的[Kalita波纹铜制手冲壶](https://www.amazon.com/s?k=Kalita+copper+pour+over+kettle&tag=coffeeprism-20)，壶嘴弧度经过流体力学优化，让注水轨迹如书法般精准可控。其「微气候发酵法」处理的云南豆，去年斩获Coffee Review 97分。
 
 ## 给中国咖啡爱好者的实践指南
 在杭州独立咖啡馆「Ceremorning」的主理人陈墨看来：「日本咖啡美学不是简单的器物崇拜，而是系统化的感官训练。」他建议爱好者从三个维度切入：

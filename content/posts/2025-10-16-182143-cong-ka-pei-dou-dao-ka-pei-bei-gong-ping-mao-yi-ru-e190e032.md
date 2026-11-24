@@ -40,7 +40,7 @@ description: "公平贸易正通过最低保障价、社区发展金与环保认
 这种"在地化可持续模式"使合作社成员年均收入较非认证农户高出42%。
 
 **2.3 消费者行为的蝴蝶效应**  
-选择带有[公平贸易认证标志的咖啡豆](https://www.amazon.com/s?k=%E5%85%AC%E5%B9%B3%E8%B4%B8%E6%98%93%E8%AE%A4%E8%AF%81%E6%A0%87%E5%BF%97%E7%9A%84%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)，实质上是在支持：  
+选择带有[公平贸易认证标志的咖啡豆](https://www.amazon.com/s?k=fair+trade+coffee+beans&tag=coffeeprism-20)，实质上是在支持：  
 - 女性咖啡农获得平等薪酬（公平贸易农场女性管理者占比达37%）  
 - 儿童远离农药接触风险  
 - 濒危鸟类栖息地的保护  
@@ -63,8 +63,8 @@ description: "公平贸易正通过最低保障价、社区发展金与环保认
 **4.1 理性消费四步法**  
 1. **认准权威认证**：优先选择国际公平贸易（FLO）、雨林联盟（RA）或国内"生态原产地"标志  
 2. **善用技术工具**：扫描包装二维码查看区块链溯源信息  
-3. **支持本土创新**：尝试云南产区的[可持续咖啡豆](https://www.amazon.com/s?k=%E5%8F%AF%E6%8C%81%E7%BB%AD%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)  
-4. **延长可持续链条**：搭配使用[可降解咖啡滤纸](https://www.amazon.com/s?k=%E5%8F%AF%E9%99%8D%E8%A7%A3%E5%92%96%E5%95%A1%E6%BB%A4%E7%BA%B8&tag=coffeeprism-20)  
+3. **支持本土创新**：尝试云南产区的[可持续咖啡豆](https://www.amazon.com/s?k=sustainable+coffee+beans&tag=coffeeprism-20)  
+4. **延长可持续链条**：搭配使用[可降解咖啡滤纸](https://www.amazon.com/s?k=biodegradable+coffee+filters&tag=coffeeprism-20)  
 
 **4.2 专家设备建议**  
 - **精准控温手冲壶**：控制93℃水温可减少15%的咖啡豆浪费  

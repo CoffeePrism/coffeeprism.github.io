@@ -98,9 +98,9 @@ author: "Coffee Prism"
 ## 六、产品推荐：经典与创新的平衡
 
 ### 6.1 入门首选套装
-- [泰摩鱼三代手冲壶](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%B1%BC%E4%B8%89%E4%BB%A3%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20) 
+- [泰摩鱼三代手冲壶](https://www.amazon.com/s?k=Timemore+Fish+3+pour+over+kettle&tag=coffeeprism-20) 
   特点：可调节流速阀+温度显示
-- [Hero虹吸壶SX-4](https://www.amazon.com/s?k=Hero%E8%99%B9%E5%90%B8%E5%A3%B6SX-4&tag=coffeeprism-20)
+- [Hero虹吸壶SX-4](https://www.amazon.com/s?k=siphon+coffee+maker&tag=coffeeprism-20)
   优势：硼硅玻璃耐温差达150℃
 
 ### 6.2 进阶玩家必备

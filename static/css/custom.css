@@ -839,3 +839,13 @@ ins.adsbygoogle {
   .post__title, .main__title { font-size: 1.45rem; }
   .post__content h2, .content h2 { font-size: 1.3rem; }
 }
+
+/* Affiliate disclosure shown above articles that contain Amazon links. */
+.affiliate-note {
+  margin: 0 0 1rem;
+  padding: 0.5rem 0.75rem;
+  font-size: 0.85rem;
+  color: var(--cp-text-mute);
+  border-left: 3px solid var(--cp-line);
+  background: var(--cp-cream);
+}

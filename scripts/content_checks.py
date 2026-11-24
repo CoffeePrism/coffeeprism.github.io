@@ -13,6 +13,7 @@ written for this site rather than copied.
 """
 import datetime
 import re
+import urllib.parse
 
 # Sentences that attribute a claim to research, data or experts.
 ATTRIBUTION = re.compile(
@@ -30,6 +31,7 @@ STAT = re.compile(r"\d+(?:\.\d+)?\s*(?:[%％]|倍)|\d+(?:\.\d+)?\s*(?:万|亿)(?
 BREWING_CONTEXT = re.compile(r"萃取|TDS|浓度|含水|湿度|失重|粉水比|水粉比|研磨|烘焙度|密度|脂肪|乳脂|酒精|可可")
 AMAZON_SEARCH = re.compile(r"^https://(?:www\.)?amazon\.com/s\?k=")
 OWN_SITE = re.compile(r"^https?://(?:www\.)?coffeeprism\.com/")
+CJK = re.compile(r"[\u3000-\u9fff\uff00-\uffef]")
 LINK = re.compile(r"\]\((https?://[^)\s]+)\)|(?<![(\w])(https?://[^\s)<>\"'，。]+)")
 YEAR = re.compile(r"(?<!\d)(19|20)\d{2}(?!\d)")
 GUIDE_QUOTE = re.compile(r"^\s*>\s*(?:📚|📰|☕|📌)")
@@ -47,7 +49,9 @@ def _sentences(body):
     for line in body.split("\n"):
         if GUIDE_QUOTE.match(line):
             continue  # the site's own guide and e-book links, added by scripts
-        for sentence in re.split(r"(?<=[。！？!?；;])", line):
+        # ASCII ?!; end a sentence only before whitespace, so "?k=" inside a URL
+        # does not split a link and turn "%E5%92" into a fake percentage.
+        for sentence in re.split(r"(?<=[。！？；])|(?<=[!?;])(?=\s|$)", line):
             if sentence.strip():
                 yield sentence.strip()
 
@@ -96,6 +100,9 @@ def findings(title, body, *, allowed_urls=(), source_text="", today=None):
         url = m.group(1) or m.group(2)
         if not (AMAZON_SEARCH.match(url) or OWN_SITE.match(url) or url in allowed):
             found.append(("external-link", url[:80]))
+        elif AMAZON_SEARCH.match(url) and CJK.search(urllib.parse.unquote_plus(url)):
+            # amazon.com search returns poor results for Chinese keywords.
+            found.append(("amazon-chinese-query", url[:80]))
 
     for m in YEAR.finditer(title + "\n" + text):
         if int(m.group(0)) > today.year:

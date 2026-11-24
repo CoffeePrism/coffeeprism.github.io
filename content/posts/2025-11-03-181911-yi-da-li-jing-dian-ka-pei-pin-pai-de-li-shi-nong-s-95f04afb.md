@@ -67,8 +67,8 @@ author: "Coffee Prism"
 ## 五、专业设备推荐
 
 ### 5.1 家用经典组合
-- [比乐蒂摩卡壶](https://www.amazon.com/s?k=%E6%AF%94%E4%B9%90%E8%92%82%E6%91%A9%E5%8D%A1%E5%A3%B6&tag=coffeeprism-20)：复刻1933年原型设计
-- [德龙Icona系列](https://www.amazon.com/s?k=%E5%BE%B7%E9%BE%99Icona%E7%B3%BB%E5%88%97&tag=coffeeprism-20)：蒸汽系统达专业级1.5Bar
+- [比乐蒂摩卡壶](https://www.amazon.com/s?k=Bialetti+moka+pot&tag=coffeeprism-20)：复刻1933年原型设计
+- [德龙Icona系列](https://www.amazon.com/s?k=DeLonghi+Icona+espresso+machine&tag=coffeeprism-20)：蒸汽系统达专业级1.5Bar
 - [泰摩栗子C手磨](https://item.jd.com/100006947876.html)：中国品牌的高性价比之选
 
 ## 常见问题解答

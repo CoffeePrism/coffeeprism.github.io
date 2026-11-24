@@ -93,7 +93,7 @@ author: "Coffee Prism"
 ## 七、工具推荐与购买指南
 
 ### 7.1 新手必备三件套
-- [泰摩镜面拉花缸](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%95%9C%E9%9D%A2%E6%8B%89%E8%8A%B1%E7%BC%B8&tag=coffeeprism-20)：符合人体工学的37度倾角设计
+- [泰摩镜面拉花缸](https://www.amazon.com/s?k=Timemore+latte+art+pitcher&tag=coffeeprism-20)：符合人体工学的37度倾角设计
 - [Hero智能温控奶泡机](https://detail.tmall.com/item.htm?id=634530982211)：三档绵密度调节
 - [Pinda咖啡雕花套装](https://item.jd.com/100043454672.html)：含12种专业模板
 

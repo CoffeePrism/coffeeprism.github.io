@@ -21,7 +21,7 @@ description: "咖啡与美食搭配的关键，在于用咖啡风味轮识别花
 - **第二层**：细分至44种风味组（如水果、坚果、香料）  
 - **第三层**：具体描述词（如黑醋栗、烤杏仁、丁香）  
 
-[专业咖啡风味轮挂图](https://www.amazon.com/s?k=%E4%B8%93%E4%B8%9A%E5%92%96%E5%95%A1%E9%A3%8E%E5%91%B3%E8%BD%AE%E6%8C%82%E5%9B%BE&tag=coffeeprism-20)可作为日常品鉴的视觉辅助工具。
+[专业咖啡风味轮挂图](https://www.amazon.com/s?k=coffee+flavor+wheel+poster&tag=coffeeprism-20)可作为日常品鉴的视觉辅助工具。
 
 ### 1.2 中国咖啡爱好者的实用解读  
 对普通消费者而言，无需记忆所有术语，重点在于理解**风味强度**与**味觉平衡**：  
@@ -50,8 +50,8 @@ description: "咖啡与美食搭配的关键，在于用咖啡风味轮识别花
 
 ## 三、本土化场景：当西式理论遇上中国胃  
 ### 3.1 早餐场景：唤醒味觉的黄金组合  
-- **北方油条+拿铁**：选择[明治醇壹鲜牛奶](https://www.amazon.com/s?k=%E6%98%8E%E6%B2%BB%E9%86%87%E5%A3%B9%E9%B2%9C%E7%89%9B%E5%A5%B6&tag=coffeeprism-20)制作的奶咖，甜感中和油炸食品的油腻  
-- **广式肠粉+冷萃**：推荐[三顿半数字星球系列](https://www.amazon.com/s?k=%E4%B8%89%E9%A1%BF%E5%8D%8A%E6%95%B0%E5%AD%97%E6%98%9F%E7%90%83%E7%B3%BB%E5%88%97&tag=coffeeprism-20)的5号深烘冷萃，米浆清香与可可尾韵相得益彰  
+- **北方油条+拿铁**：选择[明治醇壹鲜牛奶](https://www.amazon.com/s?k=whole+milk&tag=coffeeprism-20)制作的奶咖，甜感中和油炸食品的油腻  
+- **广式肠粉+冷萃**：推荐[三顿半数字星球系列](https://www.amazon.com/s?k=Saturnbird+instant+coffee&tag=coffeeprism-20)的5号深烘冷萃，米浆清香与可可尾韵相得益彰  
 
 ### 3.2 火锅社交：解辣与提味的双重方案  
 - 麻辣锅底 × 哥斯达黎加蜜处理（蜂蜜甜感+红茶叶尾韵）：甜味缓解灼烧感，茶感清洁口腔  
@@ -61,8 +61,8 @@ description: "咖啡与美食搭配的关键，在于用咖啡风味轮识别花
 
 ## 四、进阶技巧：在家打造专业级体验  
 ### 4.1 器具选择：精准控制变量  
-- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)：通过调整注水速度，可突出特定风味维度  
-- 电子秤推荐[泰摩黑镜Basic](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%BB%91%E9%95%9CBasic&tag=coffeeprism-20)，0.1g精度确保萃取一致性  
+- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)：通过调整注水速度，可突出特定风味维度  
+- 电子秤推荐[泰摩黑镜Basic](https://www.amazon.com/s?k=Timemore+Black+Mirror+Basic+scale&tag=coffeeprism-20)，0.1g精度确保萃取一致性  
 
 ### 4.2 烘焙度与食物温度的微妙关系  
 实验发现：  

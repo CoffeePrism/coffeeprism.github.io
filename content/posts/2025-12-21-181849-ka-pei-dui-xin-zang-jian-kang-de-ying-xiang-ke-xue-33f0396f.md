@@ -87,7 +87,7 @@ author: "Coffee Prism"
 ## 六、精选器具与咖啡豆推荐
 
 ### 6.1 健康冲煮三件套
-- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)：锥形结构确保均匀萃取
+- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)：锥形结构确保均匀萃取
 - [泰摩电子秤](https://item.jd.com/100008423764.html)：精准控制粉水比（±0.1g）
 - 日本三洋无漂白滤纸：有效吸附有害脂类
 

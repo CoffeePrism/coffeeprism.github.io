@@ -31,12 +31,12 @@ description: "可持续咖啡包装正通过可降解材料、单一材质回收
 #### 1. 可降解材料的突破性应用  
 生物基PLA（聚乳酸）材料制成的包装袋，在工业堆肥条件下45天可完全分解。日本品牌%Arabica已在中国门店试点使用含咖啡渣的PLA杯盖，而云南本土品牌「四叶杯」推出的咖啡渣再生包装袋，将30%烘焙废料融入材料配方，实现"咖啡包装咖啡"的闭环。  
 
-**专家建议**：选择带有「OK Compost」认证标志的产品，并注意区分家庭堆肥与工业堆肥标准差异。家庭用户可搭配使用[家用堆肥桶](https://www.amazon.com/s?k=%E5%AE%B6%E7%94%A8%E5%A0%86%E8%82%A5%E6%A1%B6&tag=coffeeprism-20)，将咖啡渣与包装协同处理。
+**专家建议**：选择带有「OK Compost」认证标志的产品，并注意区分家庭堆肥与工业堆肥标准差异。家庭用户可搭配使用[家用堆肥桶](https://www.amazon.com/s?k=compost+bin&tag=coffeeprism-20)，将咖啡渣与包装协同处理。
 
 #### 2. 可重复使用系统的兴起  
 德国品牌Circolution的不锈钢咖啡胶囊在中国市场引发热议，其押金制回收系统让包装重复使用达50次以上。更贴近中国国情的是「三顿半」返航计划：消费者集齐6个空罐可兑换新品，2022年该计划回收率达78%，空罐经处理后成为自行车零部件原料。  
 
-**本地化洞察**：考虑到中国快递物流的高效性，建议优先支持提供「包装返还抵扣」的本土品牌，如[永璞咖啡环保飞碟杯](https://www.amazon.com/s?k=%E6%B0%B8%E7%92%9E%E5%92%96%E5%95%A1%E7%8E%AF%E4%BF%9D%E9%A3%9E%E7%A2%9F%E6%9D%AF&tag=coffeeprism-20)。
+**本地化洞察**：考虑到中国快递物流的高效性，建议优先支持提供「包装返还抵扣」的本土品牌，如[永璞咖啡环保飞碟杯](https://www.amazon.com/s?k=insulated+travel+cup&tag=coffeeprism-20)。
 
 #### 3. 植物基涂层的技术革新  
 中科院团队研发的「竹纤维+魔芋胶」涂层技术，使纸包装在完全可降解的同时具备12个月防潮性能。这项技术已应用于上海咖啡展会上亮相的「零碳咖啡盒」，其碳足迹比传统包装降低62%。
@@ -54,7 +54,7 @@ description: "可持续咖啡包装正通过可降解材料、单一材质回收
 ### 四、消费者行动指南：从选择到创造  
 作为普通咖啡爱好者，可持续实践可始于三个维度：  
 1. **消费选择**：优先购买采用「单一材质」设计的包装（如全纸罐），避免多层复合材料  
-2. **二次创造**：将咖啡麻布袋改造成收纳包，铝罐变身多肉盆栽容器（附：[DIY工具套装](https://www.amazon.com/s?k=DIY%E5%B7%A5%E5%85%B7%E5%A5%97%E8%A3%85&tag=coffeeprism-20)）  
+2. **二次创造**：将咖啡麻布袋改造成收纳包，铝罐变身多肉盆栽容器（附：DIY工具套装）  
 3. **社区参与**：加入「上海环保咖啡联盟」等组织，用20个空袋兑换一次杯测体验  
 
 笔者的个人实践：用咖啡渣混合蜂蜡制作「咖啡蜡烛」，包装麻布缝制成滤杯保温套，实现零废弃咖啡生活。
@@ -79,9 +79,9 @@ description: "可持续咖啡包装正通过可降解材料、单一材质回收
 ---
 
 **延伸产品推荐**：  
-1. [KeepCup可重复使用咖啡杯](https://www.amazon.com/s?k=KeepCup%E5%8F%AF%E9%87%8D%E5%A4%8D%E4%BD%BF%E7%94%A8%E5%92%96%E5%95%A1%E6%9D%AF&tag=coffeeprism-20)  
-2. [Kaffeeform咖啡渣随行杯](https://www.amazon.com/s?k=Kaffeeform%E5%92%96%E5%95%A1%E6%B8%A3%E9%9A%8F%E8%A1%8C%E6%9D%AF&tag=coffeeprism-20)  
-3. [Hario可降解滤纸](https://www.amazon.com/s?k=Hario%E5%8F%AF%E9%99%8D%E8%A7%A3%E6%BB%A4%E7%BA%B8&tag=coffeeprism-20)  
+1. [KeepCup可重复使用咖啡杯](https://www.amazon.com/s?k=KeepCup+reusable+coffee+cup&tag=coffeeprism-20)  
+2. [Kaffeeform咖啡渣随行杯](https://www.amazon.com/s?k=Kaffeeform+coffee+grounds+cup&tag=coffeeprism-20)  
+3. [Hario可降解滤纸](https://www.amazon.com/s?k=Hario+biodegradable+filter+papers&tag=coffeeprism-20)  
 
 （注：产品链接为亚马逊标准搜索链接，具体购买请根据实际需求选择）
 

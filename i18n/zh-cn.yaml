@@ -34,4 +34,6 @@
 - id: adLabel
   translation: "推广内容"
 - id: affiliateDisclosure
-  translation: "Coffee Prism 是亚马逊联盟（Amazon Associates）成员：读者通过本站链接完成的合格购买，我们可能获得佣金，你的购买价格不会因此改变。"
+  translation: "Coffee Prism 是亚马逊联盟（Amazon Associates）成员：读者通过本站链接完成的合格购买，我们可能获得佣金，你的购买价格不会因此改变。As an Amazon Associate I earn from qualifying purchases."
+- id: affiliateNote
+  translation: "本文含亚马逊推广链接：通过这些链接购买，我们可能获得佣金，你的价格不变。"

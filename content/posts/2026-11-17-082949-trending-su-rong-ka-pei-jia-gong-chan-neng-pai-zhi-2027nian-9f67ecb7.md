@@ -107,7 +107,7 @@ news_source: "https://news.google.com/rss/articles/CBMikgFBVV95cUxOcmlMUG5hZmJIV
 2. **产品**：厂家会更积极地用拼配和工艺创新消化高豆价，比如提高罗布斯塔比例、用氮气锁鲜包装、推出低因和植物基版本。
 3. **选择**：冻干产品与喷雾干燥产品的价差会进一步拉大，“按需选择”比“盲目买贵”更理性。
 
-日常办公场景里，喷雾干燥的纯黑咖啡粉性价比更高。对风味有要求时，再选择冻干产品。如果习惯奶咖，可以参考[越南G7咖啡](https://www.amazon.com/s?k=%E8%B6%8A%E5%8D%97G7%E5%92%96%E5%95%A1&tag=coffeeprism-20)这类以罗布斯塔为基底的产品，它们加奶后醇厚度突出。偏好清爽果酸风味，可以看看[云南冻干咖啡](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E5%86%BB%E5%B9%B2%E5%92%96%E5%95%A1&tag=coffeeprism-20)，云南豆以阿拉比卡为主，近年水洗和日晒处理都在进步。
+日常办公场景里，喷雾干燥的纯黑咖啡粉性价比更高。对风味有要求时，再选择冻干产品。如果习惯奶咖，可以参考[越南G7咖啡](https://www.amazon.com/s?k=Vietnamese+G7+coffee&tag=coffeeprism-20)这类以罗布斯塔为基底的产品，它们加奶后醇厚度突出。偏好清爽果酸风味，可以看看[云南冻干咖啡](https://www.amazon.com/s?k=freeze+dried+coffee&tag=coffeeprism-20)，云南豆以阿拉比卡为主，近年水洗和日晒处理都在进步。
 
 ## 对中国咖啡市场的影响：平价咖啡的“成本天花板”正在下移
 

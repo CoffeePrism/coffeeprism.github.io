@@ -59,10 +59,10 @@ description: "公平贸易咖啡是中国消费者兼顾品质、可持续与社
 3. **警惕价格陷阱**：真正公平贸易咖啡的溢价应在15-25%区间，过低可能涉嫌洗绿  
 
 ### 3.2 支持本土可持续品牌  
-中国新兴品牌如「明谦咖啡」推出云南公平贸易拼配豆，采用可降解玉米纤维包装。消费者使用[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)手冲时，可减少滤纸消耗达60%。  
+中国新兴品牌如「明谦咖啡」推出云南公平贸易拼配豆，采用可降解玉米纤维包装。消费者使用[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)手冲时，可减少滤纸消耗达60%。  
 
 ### 3.3 从日常习惯创造改变  
-- 自带随行杯减少一次性包装：推荐使用[KeepCup原木系列](https://www.amazon.com/s?k=KeepCup%E5%8E%9F%E6%9C%A8%E7%B3%BB%E5%88%97&tag=coffeeprism-20)  
+- 自带随行杯减少一次性包装：推荐使用[KeepCup原木系列](https://www.amazon.com/s?k=KeepCup+wood+edition&tag=coffeeprism-20)  
 - 将咖啡渣用于家庭堆肥  
 - 参与咖啡渣回收计划（上海已有30+咖啡馆实施）  
 

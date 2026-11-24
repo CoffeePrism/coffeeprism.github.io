@@ -34,7 +34,7 @@ description: "公平贸易正通过最低保障价、社区发展金与环保条
 #### （1）消费端觉醒：从星巴克到本土精品馆  
 星巴克自2015年起在中国推出公平贸易浓缩咖啡豆，2023年更将云南天宇农场纳入其全球"咖啡和种植者公平规范"（C.A.F.E. Practices）。本土品牌如Manner、Seesaw则通过"透明供应链计划"，在每包豆卡标注咖农合作社信息。  
 
-**专家建议**：选择带有[公平贸易国际认证标签](https://www.fairtrade.net/)的产品，如这款[云南小粒咖啡豆](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E5%B0%8F%E7%B2%92%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)。
+**专家建议**：选择带有[公平贸易国际认证标签](https://www.fairtrade.net/)的产品，如这款[云南小粒咖啡豆](https://www.amazon.com/s?k=Yunnan+coffee+beans&tag=coffeeprism-20)。
 
 #### （2）生产端变革：云南咖啡的范式升级  
 作为中国98%的咖啡产地，云南正经历从"商业豆代工厂"到"精品豆原产地"的转型。孟连县的娜允庄园通过公平贸易认证后，每公斤生豆溢价达30%，并建成首个咖农子弟奖学金制度。  
@@ -65,7 +65,7 @@ description: "公平贸易正通过最低保障价、社区发展金与环保条
 - **碳足迹数据**（部分品牌开始标注）  
 
 #### （2）支持本土创新模式  
-尝试云南庄园直供的[挂耳咖啡组合](https://www.amazon.com/s?k=%E6%8C%82%E8%80%B3%E5%92%96%E5%95%A1%E7%BB%84%E5%90%88&tag=coffeeprism-20)，或使用可重复利用的[不锈钢咖啡滤网](https://www.amazon.com/s?k=%E4%B8%8D%E9%94%88%E9%92%A2%E5%92%96%E5%95%A1%E6%BB%A4%E7%BD%91&tag=coffeeprism-20)减少耗材。
+尝试云南庄园直供的[挂耳咖啡组合](https://www.amazon.com/s?k=drip+bag+coffee+variety+pack&tag=coffeeprism-20)，或使用可重复利用的[不锈钢咖啡滤网](https://www.amazon.com/s?k=stainless+steel+coffee+filter&tag=coffeeprism-20)减少耗材。
 
 #### （3）参与消费者共益行动  
 加入"咖啡渣回收计划"（上海已有200+咖啡馆实施），或将家庭咖啡消费纳入个人碳账户管理。

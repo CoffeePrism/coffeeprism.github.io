@@ -46,7 +46,7 @@ author: "Coffee Prism"
 **关键点**：每次煮沸后需静置1分钟，三次分别对应"过去、现在、未来"的哲学意涵
 
 ### 4.2 日式极致手冲
-东京咖啡科学实验室2022年研究发现：采用鹤嘴壶以88℃水温，以每秒5克的匀速注水，可使耶加雪菲的花香物质提取率提升23%。建议初学者使用[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)，其60度锥角设计能完美复刻冠军手法。
+东京咖啡科学实验室2022年研究发现：采用鹤嘴壶以88℃水温，以每秒5克的匀速注水，可使耶加雪菲的花香物质提取率提升23%。建议初学者使用[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)，其60度锥角设计能完美复刻冠军手法。
 
 ## 五、避开常见误区的专业方案
 
@@ -54,7 +54,7 @@ author: "Coffee Prism"
 多数人忽视的**咖啡仪式与传统**成败关键：马来西亚白咖啡必须用怡保石灰岩水（TDS值120-150ppm），而制作冰滴咖啡时，建议使用农夫山泉婴儿水（TDS值35ppm）。北京咖啡协会的对比测试显示，错误用水会导致风味物质流失达40%。
 
 ### 5.2 时间控制的科学
-常见的"3分钟手冲理论"并不适用于所有**咖啡仪式与传统**。例如也门摩卡壶需严格把控25秒萃取时间，而芬兰的Kaffeost（奶酪咖啡）要求浸泡时间长达7分钟。建议配备[Timemore电子秤](https://www.amazon.com/s?k=Timemore%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)，其0.1g精度+自动计时功能可避免失误。
+常见的"3分钟手冲理论"并不适用于所有**咖啡仪式与传统**。例如也门摩卡壶需严格把控25秒萃取时间，而芬兰的Kaffeost（奶酪咖啡）要求浸泡时间长达7分钟。建议配备[Timemore电子秤](https://www.amazon.com/s?k=Timemore+coffee+scale&tag=coffeeprism-20)，其0.1g精度+自动计时功能可避免失误。
 
 ## 六、专业咖啡师的进阶秘籍
 
@@ -66,7 +66,7 @@ author: "Coffee Prism"
 
 ## 七、文化沉浸必备工具推荐
 
-1. [Aeropress Go旅行套装](https://www.amazon.com/s?k=Aeropress%20Go%E6%97%85%E8%A1%8C%E5%A5%97%E8%A3%85&tag=coffeeprism-20)：可模拟7种传统冲泡法，京东618期间直降30%
+1. [Aeropress Go旅行套装](https://www.amazon.com/s?k=AeroPress+Go+travel+set&tag=coffeeprism-20)：可模拟7种传统冲泡法，京东618期间直降30%
 2. 云南保山日晒小粒咖啡豆：天猫「辛鹿旗舰店」提供200g传统火烤风味装
 3. 土耳其手工雕刻铜壶：淘宝「中东之窗」店铺复刻16世纪工艺，支持定制纹样
 

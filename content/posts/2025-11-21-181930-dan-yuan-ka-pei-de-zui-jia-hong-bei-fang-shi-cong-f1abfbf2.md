@@ -57,7 +57,7 @@ author: "Coffee Prism"
 2. 入豆：初始温度设定180℃（豆温计显示值）
 3. 一爆监控：当出现密集爆裂声时（约196℃），立即记录时间戳
 4. 风味发展：根据目标烘焙度延长1-2分钟
-5. 急速冷却：使用[Hario V60专用冷却盘](https://www.amazon.com/s?k=Hario%20V60%E4%B8%93%E7%94%A8%E5%86%B7%E5%8D%B4%E7%9B%98&tag=coffeeprism-20)在90秒内降温至室温
+5. 急速冷却：使用[Hario V60专用冷却盘](https://www.amazon.com/s?k=Hario+V60+cooling+tray&tag=coffeeprism-20)在90秒内降温至室温
 
 ---
 
@@ -90,7 +90,7 @@ author: "Coffee Prism"
 建议从100g小批次开始，选用密度适中的哥伦比亚慧兰豆。使用手网烘焙时，保持火焰与网面15cm距离，前3分钟持续Z字形晃动。首次烘焙以听到一爆后30秒为基准点。
 
 ### 单源咖啡的最佳烘焙方式需要哪些核心工具？
-必备三件套：烘焙度检测仪（推荐泰摩黑镜PRO）、精准温度计（误差±1℃以内）、计时器。进阶者可添置[IKAWA Pro家用烘焙机](https://www.amazon.com/s?k=IKAWA%20Pro%E5%AE%B6%E7%94%A8%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)，其预设的50种原产地曲线能大幅降低试错成本。
+必备三件套：烘焙度检测仪（推荐泰摩黑镜PRO）、精准温度计（误差±1℃以内）、计时器。进阶者可添置[IKAWA Pro家用烘焙机](https://www.amazon.com/s?k=IKAWA+Pro+coffee+roaster&tag=coffeeprism-20)，其预设的50种原产地曲线能大幅降低试错成本。
 
 ---
 

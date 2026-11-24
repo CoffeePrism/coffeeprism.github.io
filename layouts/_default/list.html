@@ -15,6 +15,9 @@
 	<div class="post__layout">
 		{{- partial "post_toc.html" . -}}
 		<div class="post__main">
+			{{- if strings.Contains .Content "amazon.com/s?" }}
+			<p class="affiliate-note">{{ i18n "affiliateNote" }}</p>
+			{{- end }}
 			<div class="content post__content clearfix">
 				{{ .Content }}
 			</div>

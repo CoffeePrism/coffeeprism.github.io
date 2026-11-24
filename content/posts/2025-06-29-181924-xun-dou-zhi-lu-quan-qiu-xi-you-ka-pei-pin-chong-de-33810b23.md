@@ -36,7 +36,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-06-07-181635-mo-ren-biao-t
 ### 3. 波旁尖身（Laurina）：拿破仑的咖啡解药
 这个源自留尼汪岛的天然低因品种，曾因拿破仑的偏爱而风靡欧洲宫廷。其咖啡因含量仅0.4%（普通阿拉比卡约1.2%），却保有柑橘和焦糖的明亮风味。由于基因缺陷导致授粉困难，全球年产量不足2吨。
 
-建议搭配[Chemex手冲壶](https://www.amazon.com/s?k=Chemex%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)进行冲煮，六角滤纸能更好展现其细腻的酸质层次。注意水温需控制在88℃以下，避免过度萃取带来的苦涩。
+建议搭配[Chemex手冲壶](https://www.amazon.com/s?k=Chemex+pour+over+coffee+maker&tag=coffeeprism-20)进行冲煮，六角滤纸能更好展现其细腻的酸质层次。注意水温需控制在88℃以下，避免过度萃取带来的苦涩。
 
 ### 4. 圣海伦娜咖啡：被囚禁的皇室血脉
 这个与拿破仑流放地同名的珍稀品种，保持着最纯正的也门摩卡基因。由于圣赫勒拿岛特殊的玄武岩土壤和信风气候，其咖啡带有独特的青梅和雪松香气。2022年伦敦拍卖会上，250克生豆拍出￡780的天价。
@@ -52,7 +52,7 @@ canonicalURL: "https://www.coffeeprism.com/posts/2025-06-07-181635-mo-ren-biao-t
 2. 不当储存造成的风味流失
 3. 冲煮参数与豆种特性不匹配
 
-建议选择带有单向排气阀的[Fellow Atmos咖啡罐](https://www.amazon.com/s?k=Fellow%20Atmos%E5%92%96%E5%95%A1%E7%BD%90&tag=coffeeprism-20)进行保存，并配合[Comandante C40手摇磨豆机](https://www.amazon.com/s?k=Comandante%20C40%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)现磨现冲。对于发酵感较强的豆种，可尝试"三阶段注水法"：首段40ml唤醒花香，二段120ml提取甜感，末段60ml平衡醇厚度。
+建议选择带有单向排气阀的[Fellow Atmos咖啡罐](https://www.amazon.com/s?k=Fellow+Atmos+canister&tag=coffeeprism-20)进行保存，并配合[Comandante C40手摇磨豆机](https://www.amazon.com/s?k=Comandante+C40+hand+grinder&tag=coffeeprism-20)现磨现冲。对于发酵感较强的豆种，可尝试"三阶段注水法"：首段40ml唤醒花香，二段120ml提取甜感，末段60ml平衡醇厚度。
 
 ---
 

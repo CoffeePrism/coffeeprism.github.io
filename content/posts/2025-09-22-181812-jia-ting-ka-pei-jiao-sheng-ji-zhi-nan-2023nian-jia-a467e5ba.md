@@ -28,12 +28,12 @@ description: "家庭咖啡角升级的关键，是按风味需求与预算搭配
 - [Breville Bambino Plus](https://www.amazon.com/s?k=Breville%20Bambino%20Plus&tag=coffeeprism-20) 半自动咖啡机（热机速度25秒，专利微泡系统）  
 - [Baratza Encore ESP](https://www.amazon.com/s?k=Baratza%20Encore%20ESP&tag=coffeeprism-20) 专业级磨豆机（55档微调，意式专用刀盘）  
 
-这套组合在笔者的三个月实测中展现出惊人稳定性：9Bar标准压力下，单杯萃取误差控制在±0.5g咖啡粉，蒸汽棒预热时间比传统机型缩短40%。特别适合需要快速制作卡布奇诺的双职工家庭，配合国产[明谦教父拼配豆](https://www.amazon.com/s?k=%E6%98%8E%E8%B0%A6%E6%95%99%E7%88%B6%E6%8B%BC%E9%85%8D%E8%B1%86&tag=coffeeprism-20)，能稳定输出油脂厚度达3mm的合格浓缩。
+这套组合在笔者的三个月实测中展现出惊人稳定性：9Bar标准压力下，单杯萃取误差控制在±0.5g咖啡粉，蒸汽棒预热时间比传统机型缩短40%。特别适合需要快速制作卡布奇诺的双职工家庭，配合国产[明谦教父拼配豆](https://www.amazon.com/s?k=dark+roast+coffee+blend&tag=coffeeprism-20)，能稳定输出油脂厚度达3mm的合格浓缩。
 
 ### 2.2 手冲艺术系统（周末沉浸体验）
 **核心器具**：  
-- [泰摩栗子C3](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3&tag=coffeeprism-20) 手摇磨豆机（38mm钢刀，16格精细刻度）  
-- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20) + 云朵壶2.0  
+- [泰摩栗子C3](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20) 手摇磨豆机（38mm钢刀，16格精细刻度）  
+- [Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20) + 云朵壶2.0  
 
 这套组合的妙处在于「可控的变量艺术」：通过调整水温（88-94℃）、注水速度（5-8g/s）和粉层厚度，能完整展现云南小粒咖啡的花果调性。笔者建议搭配手机App《Coffee Gator》进行冲煮记录，每次调整研磨度时仅改变单个变量（建议每次调整1/4刻度），三个月内即可建立个人风味档案。
 
@@ -49,10 +49,10 @@ description: "家庭咖啡角升级的关键，是按风味需求与预算搭配
 ## 三、中国家庭的特有关键考量
 
 ### 3.1 空间优化方案
-针对典型的小户型厨房，推荐采用「垂直收纳系统」：将[Normann Copenhagen壁挂架](https://www.amazon.com/s?k=Normann%20Copenhagen%E5%A3%81%E6%8C%82%E6%9E%B6&tag=coffeeprism-20)与折叠沥水盘结合，使1㎡空间可容纳15件标准器具。实测证明，这种布局比传统台面摆放效率提升60%，且能避免南方潮湿环境导致的器具霉变问题。
+针对典型的小户型厨房，推荐采用「垂直收纳系统」：将[Normann Copenhagen壁挂架](https://www.amazon.com/s?k=wall+mount+rack&tag=coffeeprism-20)与折叠沥水盘结合，使1㎡空间可容纳15件标准器具。实测证明，这种布局比传统台面摆放效率提升60%，且能避免南方潮湿环境导致的器具霉变问题。
 
 ### 3.2 水质处理盲区
-北京、上海等地普遍存在的硬水问题（平均TDS值180-220），会直接导致咖啡机加热块结垢和设备寿命缩短。建议在入水端加装[Brita Maxtra滤水壶](https://www.amazon.com/s?k=Brita%20Maxtra%E6%BB%A4%E6%B0%B4%E5%A3%B6&tag=coffeeprism-20)，可将钙镁离子浓度降低至50ppm以下，同时保留适量矿物质提升萃取效率。
+北京、上海等地普遍存在的硬水问题（平均TDS值180-220），会直接导致咖啡机加热块结垢和设备寿命缩短。建议在入水端加装[Brita Maxtra滤水壶](https://www.amazon.com/s?k=Brita+Maxtra+water+pitcher&tag=coffeeprism-20)，可将钙镁离子浓度降低至50ppm以下，同时保留适量矿物质提升萃取效率。
 
 ---
 

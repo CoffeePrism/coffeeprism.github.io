@@ -110,8 +110,8 @@ SL28品种的叶绿体DNA中，存在独特的CcSAP基因片段。该基因调�
 ## 七、产品推荐与工具
 
 ### 7.1 国内优质豆源
-- [明谦咖啡 肯尼亚AA水洗](https://www.amazon.com/s?k=%E6%98%8E%E8%B0%A6%E5%92%96%E5%95%A1%20%E8%82%AF%E5%B0%BC%E4%BA%9AAA%E6%B0%B4%E6%B4%97&tag=coffeeprism-20)：2023年COE竞标批次，每季度直采
-- [Fisher Coffee 肯尼亚小农精选](https://www.amazon.com/s?k=Fisher%20Coffee%20%E8%82%AF%E5%B0%BC%E4%BA%9A%E5%B0%8F%E5%86%9C%E7%B2%BE%E9%80%89&tag=coffeeprism-20)：性价比之选，适合日常口粮
+- [明谦咖啡 肯尼亚AA水洗](https://www.amazon.com/s?k=Kenya+AA+washed+coffee+beans&tag=coffeeprism-20)：2023年COE竞标批次，每季度直采
+- [Fisher Coffee 肯尼亚小农精选](https://www.amazon.com/s?k=Kenya+smallholder+coffee+beans&tag=coffeeprism-20)：性价比之选，适合日常口粮
 
 ### 7.2 必备工具
 - 泰摩雕刻家078磨豆机：83mm镀钛刀盘，专为浅中烘设计

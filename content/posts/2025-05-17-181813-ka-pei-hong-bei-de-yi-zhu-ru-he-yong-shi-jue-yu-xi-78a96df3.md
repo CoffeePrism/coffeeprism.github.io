@@ -24,7 +24,7 @@ description: "用视觉与嗅觉捕捉咖啡烘焙完美瞬间，关键在观察
 - **焦糖化期（190-210℃）**：颜色梯度从肉桂色向深巧克力色过渡，豆表油光逐渐显现
 - **发展期（210℃以上）**：深烘焙时会出现细密油斑，但需警惕过度出油导致的碳化风险
 
-专业建议：备一支[烘焙色度仪](https://www.amazon.com/s?k=%E7%83%98%E7%84%99%E8%89%B2%E5%BA%A6%E4%BB%AA&tag=coffeeprism-20)作为参考工具，但不要过度依赖数值。云南小粒咖啡在Agtron#65时往往能展现最佳酸甜平衡。
+专业建议：备一支[烘焙色度仪](https://www.amazon.com/s?k=coffee+roast+color+meter&tag=coffeeprism-20)作为参考工具，但不要过度依赖数值。云南小粒咖啡在Agtron#65时往往能展现最佳酸甜平衡。
 
 ### 2. 形态变化的观察要点
 - 膨胀程度：优质水洗豆膨胀率可达60%，而日晒豆因结构疏松可能提前开裂
@@ -47,7 +47,7 @@ description: "用视觉与嗅觉捕捉咖啡烘焙完美瞬间，关键在观察
 - 刺鼻烟呛味：银皮燃烧或排烟不畅
 - 轮胎烧焦味：已进入碳化阶段需立即下豆
 
-建议使用[专业烘焙排烟设备](https://www.amazon.com/s?k=%E4%B8%93%E4%B8%9A%E7%83%98%E7%84%99%E6%8E%92%E7%83%9F%E8%AE%BE%E5%A4%87&tag=coffeeprism-20)保持空气流通，这对家庭烘焙者尤为重要。
+建议使用专业烘焙排烟设备保持空气流通，这对家庭烘焙者尤为重要。
 
 ---
 
@@ -59,7 +59,7 @@ description: "用视觉与嗅觉捕捉咖啡烘焙完美瞬间，关键在观察
 - 尝试用龙眼木炭烘焙，赋予咖啡独特的熏香韵味
 
 ### 2. 家用设备选择
-- 入门推荐[Hario手网](https://www.amazon.com/s?k=Hario%E6%89%8B%E7%BD%91&tag=coffeeprism-20)，适合培养基础感官认知
+- 入门推荐[Hario手网](https://www.amazon.com/s?k=Hario+hand+roasting+net&tag=coffeeprism-20)，适合培养基础感官认知
 - 进阶选择[FreshRoast SR540](https://www.amazon.com/s?k=FreshRoast%20SR540&tag=coffeeprism-20)，可视化的烘焙仓设计更易观察变化
 
 ---

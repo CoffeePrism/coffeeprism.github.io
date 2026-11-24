@@ -143,7 +143,7 @@ news_source: "https://news.google.com/rss/articles/CBMiqAFBVV95cUxPWGRQOWJnVW9OO
 
 一端是低价高频市场。消费者越来越接受“9.9元咖啡”“通勤咖啡”“联名咖啡”。他们不一定在乎豆子来自哪里，也不一定在乎拉花和空间，只要方便、便宜、味道稳定即可。中国市场上，瑞幸几乎定义了这一赛道的主流认知。
 
-另一端是精品和生活方式市场。愿意为手冲、单一产地、烘焙风味、设计空间买单的消费者，也没有减少。他们甚至比以前更挑剔。对于这一群体，星巴克的标准化反而可能显得不够“特别”。他们更愿意去Seesaw、M Stand，或者本地精品店，甚至自己购买[咖啡磨豆机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)和[手冲壶](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)在家冲煮。
+另一端是精品和生活方式市场。愿意为手冲、单一产地、烘焙风味、设计空间买单的消费者，也没有减少。他们甚至比以前更挑剔。对于这一群体，星巴克的标准化反而可能显得不够“特别”。他们更愿意去Seesaw、M Stand，或者本地精品店，甚至自己购买[咖啡磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)和[手冲壶](https://www.amazon.com/s?k=pour+over+kettle&tag=coffeeprism-20)在家冲煮。
 
 夹在中间的品牌，最容易遭遇“价格不够低，体验又不够尖”的困境。星巴克并非没有应对，比如强化冷饮、会员体系、季节限定和即时零售，但这些动作更多是在守住盘子，而不是重新定义增长。
 

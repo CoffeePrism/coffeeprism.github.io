@@ -45,7 +45,7 @@ Seesaw Coffee与UCCA合作推出的「莫奈睡莲」特调系列，通过蝶豆
 ### 3.2 工具组合的化学方程式  
 - 奶泡温度：55-65℃区间泡沫稳定性最佳（蛋白质变性率78%）  
 - 拉花缸嘴型：尖嘴（1mm开口）适合线条勾勒，宽嘴适合大面积铺色  
-- 推荐工具：[轰炸机不锈钢拉花缸](https://www.amazon.com/s?k=%E8%BD%B0%E7%82%B8%E6%9C%BA%E4%B8%8D%E9%94%88%E9%92%A2%E6%8B%89%E8%8A%B1%E7%BC%B8&tag=coffeeprism-20) 的45°倾角设计符合人体工学
+- 推荐工具：[轰炸机不锈钢拉花缸](https://www.amazon.com/s?k=stainless+steel+milk+frothing+pitcher&tag=coffeeprism-20) 的45°倾角设计符合人体工学
 
 ### 3.3 艺术设计的空间拓扑学  
 日本冠军泽田洋介独创的「咖啡画布三分法」：将杯口划分为9宫格，中心区保持空白以营造景深效果，这种构图法则使图案辨识度提升37%。
@@ -74,7 +74,7 @@ Seesaw Coffee与UCCA合作推出的「莫奈睡莲」特调系列，通过蝶豆
 ### 5.3 工具选择的三大陷阱  
 - 避免使用不沾涂层的拉花缸（影响奶泡结构）  
 - 警惕「万能型」工具组合（不同技法需要专用工具）  
-- 推荐入门套装：[惠家KD-310咖啡机](https://www.amazon.com/s?k=%E6%83%A0%E5%AE%B6KD-310%E5%92%96%E5%95%A1%E6%9C%BA&tag=coffeeprism-20)+[MILKLAB植物奶](https://www.amazon.com/s?k=MILKLAB%E6%A4%8D%E7%89%A9%E5%A5%B6&tag=coffeeprism-20)
+- 推荐入门套装：[惠家KD-310咖啡机](https://www.amazon.com/s?k=espresso+machine&tag=coffeeprism-20)+[MILKLAB植物奶](https://www.amazon.com/s?k=plant+based+milk&tag=coffeeprism-20)
 
 ---
 

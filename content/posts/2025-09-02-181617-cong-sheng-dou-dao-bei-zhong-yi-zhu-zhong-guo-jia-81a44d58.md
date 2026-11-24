@@ -16,8 +16,8 @@ description: "家庭咖啡烘焙值得尝试，因为它能精准掌控咖啡风
 ## 家庭烘焙前的必要准备
 
 ### 设备选择三部曲
-1. **入门神器手网**：这款直径20cm的不锈钢网筛堪称性价比之王，[手网烘焙器](https://www.amazon.com/s?k=%E6%89%8B%E7%BD%91%E7%83%98%E7%84%99%E5%99%A8&tag=coffeeprism-20)在淘宝月销超2000件，其开放式结构特别适合观察豆色变化
-2. **智能烘焙机**：FreshRoast SR540这类[家用咖啡烘焙机](https://www.amazon.com/s?k=%E5%AE%B6%E7%94%A8%E5%92%96%E5%95%A1%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)配备热风循环系统，可编程设定让新手也能稳定出品
+1. **入门神器手网**：这款直径20cm的不锈钢网筛堪称性价比之王，[手网烘焙器](https://www.amazon.com/s?k=hand+roasting+coffee+net&tag=coffeeprism-20)在淘宝月销超2000件，其开放式结构特别适合观察豆色变化
+2. **智能烘焙机**：FreshRoast SR540这类[家用咖啡烘焙机](https://www.amazon.com/s?k=home+coffee+roaster&tag=coffeeprism-20)配备热风循环系统，可编程设定让新手也能稳定出品
 3. **传统铸铁锅**：云南当地咖农常用的土法烘焙工具，适合追求原始风味的玩家
 
 建议初学者从手网开始，投入成本低且操作直观。笔者曾用景德镇定制手网成功烘焙出带有桂花香气的云南小粒咖啡，这种参与感是商用设备无法比拟的。
@@ -49,9 +49,9 @@ description: "家庭咖啡烘焙值得尝试，因为它能精准掌控咖啡风
 
 ## 中国家庭的特别注意事项
 
-1. **环境适配**：多数公寓厨房排烟系统无法应对烘焙烟雾，可选购[厨房吸烟罩](https://www.amazon.com/s?k=%E5%8E%A8%E6%88%BF%E5%90%B8%E7%83%9F%E7%BD%A9&tag=coffeeprism-20)增强排风
+1. **环境适配**：多数公寓厨房排烟系统无法应对烘焙烟雾，可选购[厨房吸烟罩](https://www.amazon.com/s?k=kitchen+range+hood&tag=coffeeprism-20)增强排风
 2. **本土豆探索**：云南普洱的蜜处理豆与重庆洪崖洞的炭火烘焙法结合，可能碰撞出意想不到的味觉火花
-3. **保存智慧**：建议使用[真空密封罐](https://www.amazon.com/s?k=%E7%9C%9F%E7%A9%BA%E5%AF%86%E5%B0%81%E7%BD%90&tag=coffeeprism-20)存放，长三角地区梅雨季需放入脱氧剂
+3. **保存智慧**：建议使用[真空密封罐](https://www.amazon.com/s?k=vacuum+coffee+canister&tag=coffeeprism-20)存放，长三角地区梅雨季需放入脱氧剂
 
 笔者发现，用景德镇手拉坯陶罐养豆，能让云南日晒豆的发酵感更圆润。这种传统器具与现代咖啡工艺的结合，正是中国咖啡文化的独特魅力所在。
 

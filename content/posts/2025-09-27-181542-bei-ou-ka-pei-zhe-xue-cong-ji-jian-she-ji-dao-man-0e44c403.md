@@ -20,7 +20,7 @@ description: "北欧咖啡哲学的核心，在于以极简设计、精品咖啡
 ## 二、品牌故事：从匠人到文化符号的蜕变之路
 
 ### 1. Tim Wendelboe：咖啡界的北欧神话
-这家奥斯陆的微型烘焙坊，创始人Tim Wendelboe曾四次获得世界咖啡师大赛冠军。他们坚持直接贸易模式，与哥伦比亚、埃塞俄比亚等地的咖啡农建立长达十年的合作关系。招牌的La Palma y El Tucán微批次咖啡豆，采用72小时厌氧发酵工艺，带来蓝莓酒与黑巧克力的复合风味。[Tim Wendelboe咖啡豆](https://www.amazon.com/s?k=Tim%20Wendelboe%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)
+这家奥斯陆的微型烘焙坊，创始人Tim Wendelboe曾四次获得世界咖啡师大赛冠军。他们坚持直接贸易模式，与哥伦比亚、埃塞俄比亚等地的咖啡农建立长达十年的合作关系。招牌的La Palma y El Tucán微批次咖啡豆，采用72小时厌氧发酵工艺，带来蓝莓酒与黑巧克力的复合风味。[Tim Wendelboe咖啡豆](https://www.amazon.com/s?k=Tim+Wendelboe+coffee+beans&tag=coffeeprism-20)
 
 **专家建议**：中国爱好者可尝试用92℃水温搭配V60滤杯，1:15粉水比能完美展现其明亮的柑橘酸质。
 
@@ -48,7 +48,7 @@ description: "北欧咖啡哲学的核心，在于以极简设计、精品咖啡
 
 ### 1. 器具选择之道
 - **Aeropress Go**：适合办公室使用的便携咖啡神器，完美适配北欧浅焙豆的层次表现[Aeropress Go](https://www.amazon.com/s?k=Aeropress%20Go&tag=coffeeprism-20)
-- **Kinto SCS Glass Coffee Dripper**：日式工艺与北欧设计的结晶，3mm厚玻璃壁确保温度稳定[Kinto咖啡滤杯](https://www.amazon.com/s?k=Kinto%E5%92%96%E5%95%A1%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)
+- **Kinto SCS Glass Coffee Dripper**：日式工艺与北欧设计的结晶，3mm厚玻璃壁确保温度稳定[Kinto咖啡滤杯](https://www.amazon.com/s?k=Kinto+coffee+dripper&tag=coffeeprism-20)
 
 ### 2. 本土化冲泡方案
 建议杭州/成都等软水地区的爱好者，在冲煮北欧浅焙豆时添加5%的镁离子（食品级硫酸镁），可增强甜感表现。北京等硬水地区则需提前将TDS值调整至80-100ppm。

@@ -49,7 +49,7 @@ Manner Coffee在上海推出的公平贸易快闪店，通过AR技术展示咖�
 认准包装上的三种认证标志：国际公平贸易标签（黑色小人图标）、雨林联盟（绿色青蛙图标）、美国公平交易认证（红色FTF字母）。警惕「直接贸易」「道德采购」等模糊表述，要求商家出示认证编号可查验真伪。
 
 ### 5.2 性价比最优选择
-对比主流平台价格发现：200g装的公平贸易咖啡豆合理价格区间为68-128元。推荐尝试[明谦咖啡公平贸易系列](https://www.amazon.com/s?k=%E6%98%8E%E8%B0%A6%E5%92%96%E5%95%A1%E5%85%AC%E5%B9%B3%E8%B4%B8%E6%98%93%E7%B3%BB%E5%88%97&tag=coffeeprism-20)（98元/200g）或[Fisher Coffee云南认证豆](https://www.amazon.com/s?k=Fisher%20Coffee%E4%BA%91%E5%8D%97%E8%AE%A4%E8%AF%81%E8%B1%86&tag=coffeeprism-20)（78元/200g），两者都通过双重认证且适合中国人口味。
+对比主流平台价格发现：200g装的公平贸易咖啡豆合理价格区间为68-128元。推荐尝试[明谦咖啡公平贸易系列](https://www.amazon.com/s?k=fair+trade+coffee+beans&tag=coffeeprism-20)（98元/200g）或[Fisher Coffee云南认证豆](https://www.amazon.com/s?k=Yunnan+coffee+beans&tag=coffeeprism-20)（78元/200g），两者都通过双重认证且适合中国人口味。
 
 ## 常见问题解答
 

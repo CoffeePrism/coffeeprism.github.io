@@ -121,7 +121,7 @@ news_source: "https://news.google.com/rss/articles/CBMixgFBVV95cUxONXB3WTZHVFJHa
 
 从需求端看，消费者通常有三种典型反应。
 
-第一种是“渠道替代”。原来每天在精品店买杯咖啡的人，可能改成工作日喝连锁、周末再喝手冲；原来在门店喝拿铁的人，可能开始购买[咖啡胶囊机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E8%83%B6%E5%9B%8A%E6%9C%BA&tag=coffeeprism-20)、[手冲套装](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%A5%97%E8%A3%85&tag=coffeeprism-20)或[电动磨豆机](https://www.amazon.com/s?k=%E7%94%B5%E5%8A%A8%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)。这不是退出咖啡消费，而是重配预算。
+第一种是“渠道替代”。原来每天在精品店买杯咖啡的人，可能改成工作日喝连锁、周末再喝手冲；原来在门店喝拿铁的人，可能开始购买[咖啡胶囊机](https://www.amazon.com/s?k=capsule+coffee+machine&tag=coffeeprism-20)、[手冲套装](https://www.amazon.com/s?k=pour+over+coffee+set&tag=coffeeprism-20)或[电动磨豆机](https://www.amazon.com/s?k=electric+coffee+grinder&tag=coffeeprism-20)。这不是退出咖啡消费，而是重配预算。
 
 第二种是“品类替代”。奶咖和风味咖啡的价格容忍度通常高于纯黑咖，因为消费者会把奶、糖浆、创意配方和品牌体验也算进价值中。反过来，黑咖啡更容易成为价格锚点，一旦美式涨价过快，消费者反感更强。因此很多品牌会把压力转移到季节限定、联名饮品和烘焙零售上。
 

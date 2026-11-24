@@ -31,7 +31,7 @@ description: "爱乐压的九种颠覆性玩法，能把一台器具玩成手冲
 突破的关键在于**变量解构与重组**。以下是经过验证的三大创新方向：
 
 ### 1. 反向萃取法（Inverted Method Pro）
-将传统正压改为倒置萃取，可精确控制浸泡时间至秒级。建议搭配[泰摩栗子C手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)实现更均匀的研磨：
+将传统正压改为倒置萃取，可精确控制浸泡时间至秒级。建议搭配[泰摩栗子C手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C+hand+grinder&tag=coffeeprism-20)实现更均匀的研磨：
 - 研磨度：细砂糖颗粒（比手冲细20%）
 - 水温：92℃（云南豆）或88℃（埃塞日晒）
 - 操作要点：先注水后下压，全程保持15°倾斜角
@@ -44,7 +44,7 @@ description: "爱乐压的九种颠覆性玩法，能把一台器具玩成手冲
 - 甜感提升：19%
 - 醇厚度：维持82%水平
 
-搭配[Hario V60电子秤](https://www.amazon.com/s?k=Hario%20V60%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)进行精准计时，可完美复现该方案。
+搭配[Hario V60电子秤](https://www.amazon.com/s?k=Hario+V60+drip+coffee+scale&tag=coffeeprism-20)进行精准计时，可完美复现该方案。
 
 ### 3. 预浸泡压力控制
 在正式下压前进行3次1/4行程预压，模拟专业意式机的预浸泡阶段。广州咖啡师大赛冠军配方：
@@ -58,13 +58,13 @@ description: "爱乐压的九种颠覆性玩法，能把一台器具玩成手冲
 针对中国市场的特殊需求，我们开发了以下定制方案：
 
 ### 1. 水质适配方案
-中国北方水质偏硬（150-300ppm），建议使用[农夫山泉婴儿水](https://www.amazon.com/s?k=%E5%86%9C%E5%A4%AB%E5%B1%B1%E6%B3%89%E5%A9%B4%E5%84%BF%E6%B0%B4&tag=coffeeprism-20)（TDS≈50）进行冲泡，可降低30%的苦涩感。
+中国北方水质偏硬（150-300ppm），建议使用[农夫山泉婴儿水](https://www.amazon.com/s?k=baby+water&tag=coffeeprism-20)（TDS≈50）进行冲泡，可降低30%的苦涩感。
 
 ### 2. 茶咖融合实验
 将正山小种与耶加雪菲以1:4比例拼配，采用低温慢萃法（80℃/5分钟），能产生独特的桂圆蜜香。该配方在杭州「资董窝玺」咖啡馆已成为招牌特调。
 
 ### 3. 压力可视化改造
-加装[气压表配件](https://www.amazon.com/s?k=%E6%B0%94%E5%8E%8B%E8%A1%A8%E9%85%8D%E4%BB%B6&tag=coffeeprism-20)，将抽象的手感压力转化为具体数值。测试表明，1.8-2.2bar压力区间最适配亚洲浅烘豆。
+加装[气压表配件](https://www.amazon.com/s?k=pressure+gauge&tag=coffeeprism-20)，将抽象的手感压力转化为具体数值。测试表明，1.8-2.2bar压力区间最适配亚洲浅烘豆。
 
 ### 4. 地域风味数据库
 我们建立了涵盖中国12个咖啡产区的爱乐压参数库，例如：

@@ -28,7 +28,7 @@ description: "支持可持续咖啡未来，关键在于选择具备有机、雨
 - **有机认证（Organic）**：禁止合成农药与化肥，注重土壤健康  
 - **公平贸易认证（Fairtrade）**：确保最低收购价与社区发展基金  
 
-*专家建议*：优先选择带有三重认证（有机+公平贸易+雨林联盟）的咖啡豆，例如[Ethiopia Yirgacheffe有机咖啡豆](https://www.amazon.com/s?k=Ethiopia%20Yirgacheffe%E6%9C%89%E6%9C%BA%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)，这类产品往往代表行业最高可持续标准。
+*专家建议*：优先选择带有三重认证（有机+公平贸易+雨林联盟）的咖啡豆，例如[Ethiopia Yirgacheffe有机咖啡豆](https://www.amazon.com/s?k=Ethiopia+Yirgacheffe+organic+coffee+beans&tag=coffeeprism-20)，这类产品往往代表行业最高可持续标准。
 
 ---
 
@@ -39,12 +39,12 @@ description: "支持可持续咖啡未来，关键在于选择具备有机、雨
 - 生产溯源信息：优质品牌会标注具体产区与处理厂代码  
 
 **支持本土可持续品牌**  
-中国云南咖啡产区近年涌现出多家践行可持续种植的庄园，例如普洱的「天宇咖啡庄园」采用蚯蚓堆肥技术，将咖啡果皮转化为有机肥料。尝试[云南小粒咖啡豆](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E5%B0%8F%E7%B2%92%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)，既能减少运输碳足迹，又能支持本土咖啡农。
+中国云南咖啡产区近年涌现出多家践行可持续种植的庄园，例如普洱的「天宇咖啡庄园」采用蚯蚓堆肥技术，将咖啡果皮转化为有机肥料。尝试[云南小粒咖啡豆](https://www.amazon.com/s?k=Yunnan+coffee+beans&tag=coffeeprism-20)，既能减少运输碳足迹，又能支持本土咖啡农。
 
 #### （2）日常冲泡的环保细节  
 **设备选择：**  
-- 改用可重复使用的金属滤网替代纸质滤纸，推荐[不锈钢咖啡滤杯](https://www.amazon.com/s?k=%E4%B8%8D%E9%94%88%E9%92%A2%E5%92%96%E5%95%A1%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)  
-- 选择节能型咖啡机，如配备自动关机功能的[Breville精密冲泡机](https://www.amazon.com/s?k=Breville%E7%B2%BE%E5%AF%86%E5%86%B2%E6%B3%A1%E6%9C%BA&tag=coffeeprism-20)  
+- 改用可重复使用的金属滤网替代纸质滤纸，推荐[不锈钢咖啡滤杯](https://www.amazon.com/s?k=stainless+steel+coffee+dripper&tag=coffeeprism-20)  
+- 选择节能型咖啡机，如配备自动关机功能的[Breville精密冲泡机](https://www.amazon.com/s?k=Breville+Precision+Brewer&tag=coffeeprism-20)  
 
 **咖啡渣再生计划：**  
 - 除臭剂：晒干后装入纱布袋放置冰箱  
@@ -60,7 +60,7 @@ description: "支持可持续咖啡未来，关键在于选择具备有机、雨
 - 选择门店堂食时主动要求陶瓷杯  
 
 #### 挂耳咖啡的可持续升级  
-针对中国消费者偏好的挂耳咖啡，可选购采用可降解滤袋的产品，例如[日本三顿半环保挂耳包](https://www.amazon.com/s?k=%E6%97%A5%E6%9C%AC%E4%B8%89%E9%A1%BF%E5%8D%8A%E7%8E%AF%E4%BF%9D%E6%8C%82%E8%80%B3%E5%8C%85&tag=coffeeprism-20)。其玉米纤维材质在堆肥条件下45天即可分解。
+针对中国消费者偏好的挂耳咖啡，可选购采用可降解滤袋的产品，例如[日本三顿半环保挂耳包](https://www.amazon.com/s?k=Saturnbird+drip+bag+coffee&tag=coffeeprism-20)。其玉米纤维材质在堆肥条件下45天即可分解。
 
 ---
 
@@ -90,7 +90,7 @@ description: "支持可持续咖啡未来，关键在于选择具备有机、雨
 **延伸阅读推荐**  
 - 《精品咖啡学》韩怀宗 著（深入解析全球咖啡产业链）  
 - 纪录片《黑金》（揭露咖啡贸易中的公平性问题）  
-- [Hario可重复使用冷萃瓶](https://www.amazon.com/s?k=Hario%E5%8F%AF%E9%87%8D%E5%A4%8D%E4%BD%BF%E7%94%A8%E5%86%B7%E8%90%83%E7%93%B6&tag=coffeeprism-20)（夏季环保冷萃解决方案）  
+- [Hario可重复使用冷萃瓶](https://www.amazon.com/s?k=Hario+reusable+cold+brew+bottle&tag=coffeeprism-20)（夏季环保冷萃解决方案）  
 
 ---
 

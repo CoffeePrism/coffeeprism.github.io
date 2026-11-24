@@ -22,8 +22,8 @@ description: "判断咖啡完美焙度的黄金时刻，关键看咖啡烘焙中
 ### 二、视觉线索：读懂咖啡豆的“色彩密码”
 
 #### 1. **色阶演变：从青绿到深褐的色谱哲学**
-- **浅焙（City Roast）**：豆表呈肉桂色，中心线明显褶皱，保留生豆原始银皮。适合突出柑橘、茉莉等明亮酸质，如[云南水洗卡蒂姆](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E6%B0%B4%E6%B4%97%E5%8D%A1%E8%92%82%E5%A7%86&tag=coffeeprism-20)的浅焙版本。
-- **中焙（Full City Roast）**：深棕色表面泛哑光，豆体膨胀至裂纹完全展开。此时焦糖化反应主导，形成蜂蜜与坚果的平衡感，推荐尝试[明谦咖啡的巴西黄波旁](https://www.amazon.com/s?k=%E6%98%8E%E8%B0%A6%E5%92%96%E5%95%A1%E7%9A%84%E5%B7%B4%E8%A5%BF%E9%BB%84%E6%B3%A2%E6%97%81&tag=coffeeprism-20)。
+- **浅焙（City Roast）**：豆表呈肉桂色，中心线明显褶皱，保留生豆原始银皮。适合突出柑橘、茉莉等明亮酸质，如[云南水洗卡蒂姆](https://www.amazon.com/s?k=Yunnan+washed+Catimor+coffee+beans&tag=coffeeprism-20)的浅焙版本。
+- **中焙（Full City Roast）**：深棕色表面泛哑光，豆体膨胀至裂纹完全展开。此时焦糖化反应主导，形成蜂蜜与坚果的平衡感，推荐尝试[明谦咖啡的巴西黄波旁](https://www.amazon.com/s?k=Brazil+Yellow+Bourbon+coffee+beans&tag=coffeeprism-20)。
 - **深焙（French Roast）**：油光浮現的深褐色，豆形圆润如爆米花。苦甜交织的烟熏感适合奶咖，但需警惕“碳化过度”导致的空洞焦苦。
 
 #### 2. **细节警示：油光、膨胀与均匀度**
@@ -41,7 +41,7 @@ description: "判断咖啡完美焙度的黄金时刻，关键看咖啡烘焙中
 - **焦糖化期（一爆密集阶段）**：焦糖、烤坚果香（糖类降解）
 - **二爆阶段（约225℃）**：松木、黑巧克力与烟熏调（纤维裂解）
 
-**实战技巧**：在家庭烘焙时，可借助[FreshRoast SR540家用烘焙机](https://www.amazon.com/s?k=FreshRoast%20SR540%E5%AE%B6%E7%94%A8%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)的透明仓实时观测，当闻到“爆米花甜香”时即标志一爆开始，此时关火可锁定浅焙花果调。
+**实战技巧**：在家庭烘焙时，可借助[FreshRoast SR540家用烘焙机](https://www.amazon.com/s?k=Fresh+Roast+SR540+coffee+roaster&tag=coffeeprism-20)的透明仓实时观测，当闻到“爆米花甜香”时即标志一爆开始，此时关火可锁定浅焙花果调。
 
 #### 2. **缺陷气味诊断表**
 | 气味特征          | 可能成因               | 解决方案               |
@@ -55,9 +55,9 @@ description: "判断咖啡完美焙度的黄金时刻，关键看咖啡烘焙中
 ### 四、中国咖啡场景的特别指南
 
 #### 1. **适配本土口味的焙度选择**
-- **奶咖爱好者**：选择中深焙（Agtron#55-65），利用焦糖化风味抗衡牛奶甜感。推荐[Fisher Coffee的曼特宁深烘拼配](https://www.amazon.com/s?k=Fisher%20Coffee%E7%9A%84%E6%9B%BC%E7%89%B9%E5%AE%81%E6%B7%B1%E7%83%98%E6%8B%BC%E9%85%8D&tag=coffeeprism-20)。
-- **手冲玩家**：浅中焙（Agtron#70-80）凸显云南日晒豆的莓果酒香，搭配[泰摩冰瞳滤杯](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E5%86%B0%E7%9E%B3%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)增强层次感。
-- **商用意式**：建议定制“分段烘焙”，将拼配豆中不同品种分开处理（如巴西中深焙+埃塞浅焙），再用[格米莱CRM3007商用磨豆机](https://www.amazon.com/s?k=%E6%A0%BC%E7%B1%B3%E8%8E%B1CRM3007%E5%95%86%E7%94%A8%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)精细调整萃取参数。
+- **奶咖爱好者**：选择中深焙（Agtron#55-65），利用焦糖化风味抗衡牛奶甜感。推荐[Fisher Coffee的曼特宁深烘拼配](https://www.amazon.com/s?k=Mandheling+dark+roast+coffee+beans&tag=coffeeprism-20)。
+- **手冲玩家**：浅中焙（Agtron#70-80）凸显云南日晒豆的莓果酒香，搭配[泰摩冰瞳滤杯](https://www.amazon.com/s?k=Timemore+Crystal+Eye+dripper&tag=coffeeprism-20)增强层次感。
+- **商用意式**：建议定制“分段烘焙”，将拼配豆中不同品种分开处理（如巴西中深焙+埃塞浅焙），再用[格米莱CRM3007商用磨豆机](https://www.amazon.com/s?k=commercial+coffee+grinder&tag=coffeeprism-20)精细调整萃取参数。
 
 #### 2. **在家练习烘焙的三大原则**
 1. **小批量实验**：每次烘焙100克以内，避免浪费（云南生豆约30元/磅）。

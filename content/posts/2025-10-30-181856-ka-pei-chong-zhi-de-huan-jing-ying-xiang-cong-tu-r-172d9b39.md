@@ -39,7 +39,7 @@ author: "Coffee Prism"
 在云南保山，采用三层遮荫系统的庄园使鸟类数量回升45%。推荐使用[Agroforestry Toolkit](https://www.amazon.com/s?k=Agroforestry%20Toolkit&tag=coffeeprism-20)进行系统设计，这种立体种植模式可使碳汇能力提升3倍。
 
 ### 3.2 水循环的智慧管理
-安装[雨水收集系统](https://www.amazon.com/s?k=%E9%9B%A8%E6%B0%B4%E6%94%B6%E9%9B%86%E7%B3%BB%E7%BB%9F&tag=coffeeprism-20)的单位每季节水40%。哥斯达黎加的"零废水处理"技术，通过生物滤池将COD值从8000mg/L降至150mg/L。
+安装雨水收集系统的单位每季节水40%。哥斯达黎加的"零废水处理"技术，通过生物滤池将COD值从8000mg/L降至150mg/L。
 
 ### 3.3 有机堆肥的土壤革命
 混合咖啡果皮与蚯蚓粪的堆肥，能使土壤有机质含量在18个月内提升2.3%。推荐使用[KomposTumbler](https://www.amazon.com/s?k=KomposTumbler&tag=coffeeprism-20)进行高效发酵，其专利通风设计使堆肥周期缩短60%。

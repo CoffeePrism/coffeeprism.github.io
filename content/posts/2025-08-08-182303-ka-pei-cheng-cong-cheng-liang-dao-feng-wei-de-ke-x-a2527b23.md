@@ -50,10 +50,10 @@ aliases: ["/posts/2025-05-17-055340-ka-pei-cheng-cong-cheng-liang-dao-feng-wei-d
 
 ## 三款经实战验证的咖啡秤推荐
 
-### 1. [Hario V60电子秤](https://www.amazon.com/s?k=Hario%20V60%E7%94%B5%E5%AD%90%E7%A7%A4&tag=coffeeprism-20)
+### 1. [Hario V60电子秤](https://www.amazon.com/s?k=Hario+V60+drip+coffee+scale&tag=coffeeprism-20)
 这款日系经典之作以**5kg承重+0.1g精度**的平衡设计，成为全球咖啡师大赛的常见选择。其独特的宽边防溅设计特别适合中国常见的"高冲"手法，且兼容各类手冲壶底座。建议搭配官方硅胶防滑垫使用。
 
-### 2. [Acaia Pearl 2023版](https://www.amazon.com/s?k=Acaia%20Pearl%202023%E7%89%88&tag=coffeeprism-20)
+### 2. [Acaia Pearl 2023版](https://www.amazon.com/s?k=Acaia+Pearl+scale&tag=coffeeprism-20)
 咖啡秤界的"苹果产品"，拥有行业领先的**每秒80次采样率**和智能冲煮引导功能。其专利的流量测算算法，能根据实时注水速度预测最终水量，特别适合追求极致控制的进阶玩家。虽然价格较高，但长期使用成本摊薄后值得投资。
 
 ### 3. [Timemore Black Mirror Nano](https://www.amazon.com/s?k=Timemore%20Black%20Mirror%20Nano&tag=coffeeprism-20)

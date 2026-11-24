@@ -27,7 +27,7 @@ description: "全球顶级咖啡馆如何安排朝圣路线？这份咖啡旅行
 ## 欧洲篇：第三波咖啡的进化图谱
 
 ### 哥本哈根·Coffee Collective：极简主义的极致追求
-这个被《Monocle》称为"北欧咖啡圣经"的品牌，其旗舰店用纯白空间与黑色Tone's Coffee桌形成强烈视觉符号。他们首创的"Transparency Roasting"概念，要求每包咖啡豆标注精确到0.5%的瑕疵率。中国客人常被推荐的Ethiopia Chelbesa日晒处理，建议使用[Hario V60滤杯](https://www.amazon.com/s?k=Hario%20V60%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)在家复刻。
+这个被《Monocle》称为"北欧咖啡圣经"的品牌，其旗舰店用纯白空间与黑色Tone's Coffee桌形成强烈视觉符号。他们首创的"Transparency Roasting"概念，要求每包咖啡豆标注精确到0.5%的瑕疵率。中国客人常被推荐的Ethiopia Chelbesa日晒处理，建议使用[Hario V60滤杯](https://www.amazon.com/s?k=Hario+V60+dripper&tag=coffeeprism-20)在家复刻。
 
 **本地化提示**：店内不提供糖浆类调味品，建议习惯甜味咖啡的客人提前调整预期。
 
@@ -39,7 +39,7 @@ description: "全球顶级咖啡馆如何安排朝圣路线？这份咖啡旅行
 ## 美洲篇：从农场到杯子的完整叙事
 
 ### 波特兰·Coava Coffee Roasters：单品咖啡的沉浸式剧场
-在这个由旧厂房改造的空间里，从生豆仓储、烘焙车间到冲泡吧台形成完整动线。其标志性的"Kenya Gachatha AA"采用72小时厌氧发酵，建议搭配[Fellow Stagg手冲壶](https://www.amazon.com/s?k=Fellow%20Stagg%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)体验93℃水温带来的莓果爆发。
+在这个由旧厂房改造的空间里，从生豆仓储、烘焙车间到冲泡吧台形成完整动线。其标志性的"Kenya Gachatha AA"采用72小时厌氧发酵，建议搭配[Fellow Stagg手冲壶](https://www.amazon.com/s?k=Fellow+Stagg+pour+over+kettle&tag=coffeeprism-20)体验93℃水温带来的莓果爆发。
 
 ### 布宜诺斯艾利斯·Café Tortoni：百年咖啡馆的时光密码
 始建于1858年的这家阿根廷国宝级咖啡馆，木质吧台上至今保留着博尔赫斯常坐的23号椅。虽然其招牌"Submarino"（热巧克力配牛奶巧克力棒）并非咖啡，但搭配当地特色的牛角面包，能完整感受南美咖啡文化的慵懒基因。
@@ -49,7 +49,7 @@ description: "全球顶级咖啡馆如何安排朝圣路线？这份咖啡旅行
 ## 中国咖啡客的全球朝圣指南
 
 ### 装备策略：轻量化与专业性平衡
-建议携带200g容量的[Airscape咖啡豆罐](https://www.amazon.com/s?k=Airscape%E5%92%96%E5%95%A1%E8%B1%86%E7%BD%90&tag=coffeeprism-20)，既能保存途中购买的精品豆，又可作临时手冲器具。避免托运咖啡豆，气压变化会导致风味流失。
+建议携带200g容量的[Airscape咖啡豆罐](https://www.amazon.com/s?k=Airscape+coffee+canister&tag=coffeeprism-20)，既能保存途中购买的精品豆，又可作临时手冲器具。避免托运咖啡豆，气压变化会导致风味流失。
 
 ### 文化礼仪解码
 - 在意大利：站着喝浓缩咖啡的价格是坐着的1/3

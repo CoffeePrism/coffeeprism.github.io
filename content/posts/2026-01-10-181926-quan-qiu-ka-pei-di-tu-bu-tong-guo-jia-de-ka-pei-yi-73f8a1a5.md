@@ -45,7 +45,7 @@ author: "Coffee Prism"
 ### 3.2 日本极致手冲（和式コーヒー）
 - **技法精髓**：京都流派讲究30秒闷蒸后分5段注水，粉层需形成完美的「富士山」隆起
 - **本土进化**：冰手冲需用特制金属滤网，相比法兰绒更能凸显埃塞水洗豆的茉莉花香
-- **器具推荐**：[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario%20V60%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)搭配鹤嘴壶，天猫国际常年位居手冲套装销量前三
+- **器具推荐**：[Hario V60陶瓷滤杯](https://www.amazon.com/s?k=Hario+V60+ceramic+dripper&tag=coffeeprism-20)搭配鹤嘴壶，天猫国际常年位居手冲套装销量前三
 
 ---
 
@@ -60,7 +60,7 @@ author: "Coffee Prism"
 中国消费者可通过以下组合实现多国风味：
 - 土耳其铜壶+超细研磨：替代方案为摩卡壶研磨度调至最细档
 - 越南滴漏壶：可用法压壶倒置，在淘宝搜索「越南滴滴壶」月销2000+的304不锈钢款
-- 埃塞俄比亚咖啡仪式：建议选购[Zassenhaus手动磨豆机](https://www.amazon.com/s?k=Zassenhaus%E6%89%8B%E5%8A%A8%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)，其锥形磨芯能完美复刻传统石磨质感
+- 埃塞俄比亚咖啡仪式：建议选购[Zassenhaus手动磨豆机](https://www.amazon.com/s?k=Zassenhaus+hand+grinder&tag=coffeeprism-20)，其锥形磨芯能完美复刻传统石磨质感
 
 ---
 

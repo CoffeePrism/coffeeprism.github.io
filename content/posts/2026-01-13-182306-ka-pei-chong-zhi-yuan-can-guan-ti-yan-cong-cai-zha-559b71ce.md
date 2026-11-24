@@ -93,8 +93,8 @@ author: "Coffee Prism"
 ## 七、必备工具与本土资源推荐（H2）
 
 ### 7.1 专业装备精选（H3）  
-- [Hario咖啡鲜果糖度计](https://www.amazon.com/s?k=Hario%E5%92%96%E5%95%A1%E9%B2%9C%E6%9E%9C%E7%B3%96%E5%BA%A6%E8%AE%A1&tag=coffeeprism-20)：精准测量鲜果糖度  
-- [Snow Peak钛合金咖啡杯](https://www.amazon.com/s?k=Snow%20Peak%E9%92%9B%E5%90%88%E9%87%91%E5%92%96%E5%95%A1%E6%9D%AF&tag=coffeeprism-20)：轻量化户外品鉴  
+- [Hario咖啡鲜果糖度计](https://www.amazon.com/s?k=Hario+refractometer&tag=coffeeprism-20)：精准测量鲜果糖度  
+- [Snow Peak钛合金咖啡杯](https://www.amazon.com/s?k=Snow+Peak+titanium+coffee+mug&tag=coffeeprism-20)：轻量化户外品鉴  
 - 云南农科院编《中国咖啡种植图谱》：收录136个本土庄园数据  
 
 ### 7.2 国内特色线路（H3）  

@@ -64,7 +64,7 @@ MassLive 报道指出，美国本地咖啡馆与烘焙商正同时承受**咖啡
 - 用季节限定或产区故事解释涨价
 - 提升零售豆、挂耳和器具销售占比
 
-如果只靠咖啡液销售支撑利润，抗风险能力会越来越弱。反过来，零售化和订阅制可能成为更重要的利润修复工具，比如引导消费者购买[咖啡磨豆机](https://www.amazon.com/s?k=%E5%92%96%E5%95%A1%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)、[手冲壶](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%A3%B6&tag=coffeeprism-20)或[滤杯](https://www.amazon.com/s?k=%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)等家用设备，帮助门店从“卖一杯”转向“卖一个消费场景”。
+如果只靠咖啡液销售支撑利润，抗风险能力会越来越弱。反过来，零售化和订阅制可能成为更重要的利润修复工具，比如引导消费者购买[咖啡磨豆机](https://www.amazon.com/s?k=coffee+grinder&tag=coffeeprism-20)、[手冲壶](https://www.amazon.com/s?k=pour+over+kettle&tag=coffeeprism-20)或[滤杯](https://www.amazon.com/s?k=coffee+dripper&tag=coffeeprism-20)等家用设备，帮助门店从“卖一杯”转向“卖一个消费场景”。
 
 ## 关税与通胀为什么比单纯的豆价上涨更危险？
 
@@ -156,7 +156,7 @@ MassLive 报道指出，美国本地咖啡馆与烘焙商正同时承受**咖啡
    比如券变少、套餐调整、免费升级减少，这比直接涨价更常见。
 
 3. **家庭咖啡消费继续扩容**  
-   当门店价格敏感度提升，越来越多消费者会转向挂耳、咖啡液和家用设备。对追求稳定风味的人来说，自己搭配[法压壶](https://www.amazon.com/s?k=%E6%B3%95%E5%8E%8B%E5%A3%B6&tag=coffeeprism-20)或[意式手柄机](https://www.amazon.com/s?k=%E6%84%8F%E5%BC%8F%E6%89%8B%E6%9F%84%E6%9C%BA&tag=coffeeprism-20)的性价比会越来越高。
+   当门店价格敏感度提升，越来越多消费者会转向挂耳、咖啡液和家用设备。对追求稳定风味的人来说，自己搭配[法压壶](https://www.amazon.com/s?k=French+press&tag=coffeeprism-20)或[意式手柄机](https://www.amazon.com/s?k=espresso+machine+with+portafilter&tag=coffeeprism-20)的性价比会越来越高。
 
 我认为，中国市场未来不会简单重复欧美精品馆的大面积涨价路径，而是会走向更明显的“双轨制”：日常口粮咖啡继续卷价格，精品和体验型咖啡强化内容与溢价。消费者也会越来越清楚地区分“提神饮料”和“风味消费品”。
 

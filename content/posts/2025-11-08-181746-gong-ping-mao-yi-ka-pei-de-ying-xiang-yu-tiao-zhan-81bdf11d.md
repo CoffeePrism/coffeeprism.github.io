@@ -90,7 +90,7 @@ author: "Coffee Prism"
 ## 六、精选产品与工具推荐  
 
 ### 6.1 入门之选  
-- [云南保山公平贸易日晒](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E4%BF%9D%E5%B1%B1%E5%85%AC%E5%B9%B3%E8%B4%B8%E6%98%93%E6%97%A5%E6%99%92&tag=coffeeprism-20)：柑橘与红糖风味，每包补贴2元用于社区医疗  
+- [云南保山公平贸易日晒](https://www.amazon.com/s?k=Baoshan+fair+trade+natural+coffee+beans&tag=coffeeprism-20)：柑橘与红糖风味，每包补贴2元用于社区医疗  
 - Hario V60陶瓷滤杯：精准控制萃取，适配不同处理法  
 
 ### 6.2 专业设备  

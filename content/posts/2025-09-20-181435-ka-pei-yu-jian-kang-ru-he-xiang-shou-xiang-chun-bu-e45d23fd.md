@@ -36,7 +36,7 @@ description: "咖啡会影响睡眠，但掌握咖啡因摄入量、饮用时间
 咖啡因峰值浓度出现在摄入后30-120分钟，但生物钟基因CLOCK蛋白会调控其作用强度。晨间8-9点因皮质醇自然下降期，是相对安全的摄入时段。
 
 3. **咖啡形态选择**  
-深烘焙咖啡豆虽含有更多抗氧化物质，但因烘焙过程延长导致咖啡因含量降低约15%。推荐焦虑体质人群尝试[中深烘焙咖啡豆](https://www.amazon.com/s?k=%E4%B8%AD%E6%B7%B1%E7%83%98%E7%84%99%E5%92%96%E5%95%A1%E8%B1%86&tag=coffeeprism-20)。
+深烘焙咖啡豆虽含有更多抗氧化物质，但因烘焙过程延长导致咖啡因含量降低约15%。推荐焦虑体质人群尝试[中深烘焙咖啡豆](https://www.amazon.com/s?k=medium+dark+roast+coffee+beans&tag=coffeeprism-20)。
 
 4. **饮食协同效应**  
 高脂饮食会延缓咖啡因代谢，而富含维生素C的水果可加速清除过程。中国传统早餐中的油条配咖啡，可能无意间延长咖啡因作用时间。
@@ -50,10 +50,10 @@ description: "咖啡会影响睡眠，但掌握咖啡因摄入量、饮用时间
 
 #### 策略一：建立个人咖啡时间表  
 - **黄金法则**：将每日最后一杯咖啡控制在起床后10小时以内  
-- **替代方案**：下午茶时段改用[低因咖啡](https://www.amazon.com/s?k=%E4%BD%8E%E5%9B%A0%E5%92%96%E5%95%A1&tag=coffeeprism-20)，推荐瑞士水处理法的Lavazza Decaffeinato  
+- **替代方案**：下午茶时段改用[低因咖啡](https://www.amazon.com/s?k=decaf+coffee&tag=coffeeprism-20)，推荐瑞士水处理法的Lavazza Decaffeinato  
 
 #### 策略二：优化冲煮参数  
-- 冷萃咖啡的咖啡因释放速度较热萃慢30%，建议使用[Hario冷萃壶](https://www.amazon.com/s?k=Hario%E5%86%B7%E8%90%83%E5%A3%B6&tag=coffeeprism-20)制作  
+- 冷萃咖啡的咖啡因释放速度较热萃慢30%，建议使用[Hario冷萃壶](https://www.amazon.com/s?k=Hario+cold+brew+pitcher&tag=coffeeprism-20)制作  
 - 研磨度调整：粗研磨减少20%咖啡因溶出量  
 
 #### 策略三：巧用营养素组合  
@@ -62,7 +62,7 @@ description: "咖啡会影响睡眠，但掌握咖啡因摄入量、饮用时间
 
 #### 策略四：营造睡眠仪式感  
 - 晚间用洋甘菊茶+0.5g肉桂粉模拟咖啡仪式  
-- 使用[Ember智能温控杯](https://www.amazon.com/s?k=Ember%E6%99%BA%E8%83%BD%E6%B8%A9%E6%8E%A7%E6%9D%AF&tag=coffeeprism-20)保持饮品温度，提升心理满足感  
+- 使用[Ember智能温控杯](https://www.amazon.com/s?k=Ember+temperature+control+mug&tag=coffeeprism-20)保持饮品温度，提升心理满足感  
 
 #### 策略五：动态监测与调整  
 推荐使用睡眠监测手环记录睡眠质量，建立“咖啡摄入-睡眠深度”关联模型，逐步找到个人最佳平衡点。
@@ -72,7 +72,7 @@ description: "咖啡会影响睡眠，但掌握咖啡因摄入量、饮用时间
 ### 第四章：中国咖啡族的特别指南  
 
 1. **茶咖融合新趋势**  
-茉莉花茶拿铁、龙井美式等本土化创新饮品，既能满足咖啡因需求又富含L-茶氨酸（具有镇静作用），建议选择[手冲套装](https://www.amazon.com/s?k=%E6%89%8B%E5%86%B2%E5%A5%97%E8%A3%85&tag=coffeeprism-20)自行调配。  
+茉莉花茶拿铁、龙井美式等本土化创新饮品，既能满足咖啡因需求又富含L-茶氨酸（具有镇静作用），建议选择[手冲套装](https://www.amazon.com/s?k=pour+over+coffee+set&tag=coffeeprism-20)自行调配。  
 
 2. **地域气候适配方案**  
 南方湿热地区人群代谢较快，可较北方居民适当延长下午咖啡时段1-2小时。  

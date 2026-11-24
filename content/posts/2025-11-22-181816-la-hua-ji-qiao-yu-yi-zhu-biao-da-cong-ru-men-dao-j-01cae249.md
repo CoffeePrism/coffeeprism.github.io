@@ -28,10 +28,10 @@ author: "Coffee Prism"
 ## 二、黄金三要素：解密完美拉花的底层逻辑
 
 ### 2.1 奶泡质地的「微米级」掌控
-实验数据显示：**理想拉花奶泡的直径应控制在1-3微米**。使用[惠家KD-310](https://www.amazon.com/s?k=%E6%83%A0%E5%AE%B6KD-310&tag=coffeeprism-20)打奶系统时，建议将蒸汽棒角度调整为15°，通过「先充气后细化」的两段式处理，可获得丝绸般的光泽度。
+实验数据显示：**理想拉花奶泡的直径应控制在1-3微米**。使用[惠家KD-310](https://www.amazon.com/s?k=espresso+machine&tag=coffeeprism-20)打奶系统时，建议将蒸汽棒角度调整为15°，通过「先充气后细化」的两段式处理，可获得丝绸般的光泽度。
 
 ### 2.2 浓缩咖啡的黄金搭档
-云南咖啡实验室对比测试表明：**油脂厚度0.8-1.2cm的浓缩基底**最利图案定型。使用[泰摩栗子C3](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C3&tag=coffeeprism-20)手磨时，建议将研磨度调至18格（对应600μm粒径），配合92℃水温萃取26秒。
+云南咖啡实验室对比测试表明：**油脂厚度0.8-1.2cm的浓缩基底**最利图案定型。使用[泰摩栗子C3](https://www.amazon.com/s?k=Timemore+Chestnut+C3+grinder&tag=coffeeprism-20)手磨时，建议将研磨度调至18格（对应600μm粒径），配合92℃水温萃取26秒。
 
 ### 3.3 流体动力学的艺术应用
 台湾东海大学研究团队发现：**注入点距液面5cm时形成的伯努利效应**能产生最佳图案扩散效果。进阶者可尝试「Z型抖动法」：以每秒3次的频率横向晃动拉花缸，可创作出羽毛状纹理。
@@ -41,7 +41,7 @@ author: "Coffee Prism"
 ## 三、五步训练法：从零到精通的系统路径
 
 ### 3.1 控流基础训练（第1-30杯）
-- 使用[Hero骑士拉花杯](https://www.amazon.com/s?k=Hero%E9%AA%91%E5%A3%AB%E6%8B%89%E8%8A%B1%E6%9D%AF&tag=coffeeprism-20)练习定点注水
+- 使用[Hero骑士拉花杯](https://www.amazon.com/s?k=Hero+latte+art+pitcher&tag=coffeeprism-20)练习定点注水
 - 每日进行「水+洗洁精」模拟训练20分钟
 
 ### 3.2 图形解构训练（第31-100杯）
@@ -57,10 +57,10 @@ author: "Coffee Prism"
 ## 四、避开新手必踩的六大误区
 
 ### 4.1 「唯工具论」的认知偏差
-2023年中国咖啡消费白皮书显示：**68%的失败案例源于操作不当而非设备缺陷**。建议初学者先用基础款[Motta 600ml拉花缸](https://www.amazon.com/s?k=Motta%20600ml%E6%8B%89%E8%8A%B1%E7%BC%B8&tag=coffeeprism-20)建立手感。
+2023年中国咖啡消费白皮书显示：**68%的失败案例源于操作不当而非设备缺陷**。建议初学者先用基础款[Motta 600ml拉花缸](https://www.amazon.com/s?k=Motta+600ml+milk+pitcher&tag=coffeeprism-20)建立手感。
 
 ### 4.2 温度控制的隐形杀手
-实验证明：**奶泡温度超过68℃时蛋白质结构破坏**，会导致图案边界模糊。建议搭配[泰摩黑镜智能温控壶](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E9%BB%91%E9%95%9C%E6%99%BA%E8%83%BD%E6%B8%A9%E6%8E%A7%E5%A3%B6&tag=coffeeprism-20)，将奶温精准控制在55-65℃区间。
+实验证明：**奶泡温度超过68℃时蛋白质结构破坏**，会导致图案边界模糊。建议搭配[泰摩黑镜智能温控壶](https://www.amazon.com/s?k=Timemore+Black+Mirror+temperature+kettle&tag=coffeeprism-20)，将奶温精准控制在55-65℃区间。
 
 ---
 

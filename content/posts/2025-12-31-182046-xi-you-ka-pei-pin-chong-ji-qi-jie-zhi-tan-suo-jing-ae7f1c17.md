@@ -48,7 +48,7 @@ author: "Coffee Prism"
 - 京东生鲜「微批次计划」：每周限量供应哥伦比亚「粉波旁」蜜处理
 - 微信小程序「Coffee Exchange」：专业级90+系列咖啡豆现货
 
-推荐产品：[巴拿马翡翠庄园日晒瑰夏](https://www.amazon.com/s?k=%E5%B7%B4%E6%8B%BF%E9%A9%AC%E7%BF%A1%E7%BF%A0%E5%BA%84%E5%9B%AD%E6%97%A5%E6%99%92%E7%91%B0%E5%A4%8F&tag=coffeeprism-20)（酸质明亮，茉莉花香突出）、[云南天宇庄园铁皮卡](https://www.amazon.com/s?k=%E4%BA%91%E5%8D%97%E5%A4%A9%E5%AE%87%E5%BA%84%E5%9B%AD%E9%93%81%E7%9A%AE%E5%8D%A1&tag=coffeeprism-20)（性价比最高的中国稀有品种）
+推荐产品：[巴拿马翡翠庄园日晒瑰夏](https://www.amazon.com/s?k=Panama+Geisha+natural+coffee+beans&tag=coffeeprism-20)（酸质明亮，茉莉花香突出）、[云南天宇庄园铁皮卡](https://www.amazon.com/s?k=Yunnan+Typica+coffee+beans&tag=coffeeprism-20)（性价比最高的中国稀有品种）
 
 ## 五、避开消费陷阱的三大原则
 
@@ -56,7 +56,7 @@ author: "Coffee Prism"
 2023年上海市场监管局的抽检显示，38%标称「瑰夏」的产品实际混豆比例超过50%。建议选择有「基因检测报告」的供应商，如北京「S.O.E Coffee」提供的DNA溯源服务。
 
 ### 5.2 正确处理保存
-使用[泰摩真空罐](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E7%9C%9F%E7%A9%BA%E7%BD%90&tag=coffeeprism-20)保存，配合Boveda 62%湿度调节包，可将咖啡豆最佳风味期延长至45天。切忌冷冻保存，冰晶会破坏细胞结构导致风味流失。
+使用[泰摩真空罐](https://www.amazon.com/s?k=Timemore+vacuum+canister&tag=coffeeprism-20)保存，配合Boveda 62%湿度调节包，可将咖啡豆最佳风味期延长至45天。切忌冷冻保存，冰晶会破坏细胞结构导致风味流失。
 
 ---
 
@@ -69,7 +69,7 @@ author: "Coffee Prism"
 成都「常识咖啡」每月举办稀有品种品鉴会，提供12种以上微批次咖啡。线上可通过「铂澜咖啡学院」的直播课程，298元即可品尝到5种BOP获奖豆。
 
 ### 普通爱好者该如何入门？
-建议从「地域对比套装」开始，如[三顿半探索系列](https://www.amazon.com/s?k=%E4%B8%89%E9%A1%BF%E5%8D%8A%E6%8E%A2%E7%B4%A2%E7%B3%BB%E5%88%97&tag=coffeeprism-20)包含云南/哥伦比亚/埃塞三地同处理法咖啡，通过横向比较快速建立风味认知。
+建议从「地域对比套装」开始，如[三顿半探索系列](https://www.amazon.com/s?k=Saturnbird+instant+coffee&tag=coffeeprism-20)包含云南/哥伦比亚/埃塞三地同处理法咖啡，通过横向比较快速建立风味认知。
 
 ---
 

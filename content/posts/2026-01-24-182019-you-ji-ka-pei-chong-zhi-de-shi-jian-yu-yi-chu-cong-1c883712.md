@@ -59,7 +59,7 @@ aliases: ["/posts/2025-12-08-182046-you-ji-ka-pei-chong-zhi-de-shi-jian-yu-yi-ch
 选用矮化品种（如卡蒂姆Dwarf），配置60cm³种植箱，底层铺火山岩（排水层），中层混合椰糠+腐殖土（3:1），表层覆盖咖啡果壳（保湿抑菌）。北京咖啡爱好者王女士的实践显示，采用**有机种植方法**的盆栽咖啡，果实甜度提升15%。
 
 ### 4.2 都市堆肥的创意方案  
-将咖啡渣与EM菌按10:1比例密封发酵，两周后可获得pH6.5的优质液肥。搭配[KALITA陶瓷滤杯](https://www.amazon.com/s?k=KALITA%E9%99%B6%E7%93%B7%E6%BB%A4%E6%9D%AF&tag=coffeeprism-20)进行手冲，能完整呈现**有机咖啡益处**的风味特征。
+将咖啡渣与EM菌按10:1比例密封发酵，两周后可获得pH6.5的优质液肥。搭配[KALITA陶瓷滤杯](https://www.amazon.com/s?k=Kalita+ceramic+dripper&tag=coffeeprism-20)进行手冲，能完整呈现**有机咖啡益处**的风味特征。
 
 ---
 
@@ -96,7 +96,7 @@ aliases: ["/posts/2025-12-08-182046-you-ji-ka-pei-chong-zhi-de-shi-jian-yu-yi-ch
 - 「明谦」雨林认证系列：采用间作香茅草的自然防虫体系  
 
 ### 7.2 家庭种植必备工具  
-- [Vivosun pH测试仪](https://www.amazon.com/s?k=Vivosun%20pH%E6%B5%8B%E8%AF%95%E4%BB%AA&tag=coffeeprism-20)：精准监控土壤酸碱度  
+- [Vivosun pH测试仪](https://www.amazon.com/s?k=Vivosun+pH+meter&tag=coffeeprism-20)：精准监控土壤酸碱度  
 - 台湾「大井」生物有机肥：含18种氨基酸，特别适合咖啡幼苗期  
 
 ---
@@ -107,16 +107,16 @@ aliases: ["/posts/2025-12-08-182046-you-ji-ka-pei-chong-zhi-de-shi-jian-yu-yi-ch
 查看包装上的有机认证标志（需包含认证机构名称），登陆「中国食品农产品认证信息系统」输入有机码查验。真正的**有机咖啡种植实践**需要3年以上转换期，价格低于80元/200g的需谨慎购买。
 
 ### Q2：家庭种植需要哪些基础条件？  
-至少保证每天4小时直射光，环境温度维持在15-30℃。使用[Miracle-Gro室内种植灯](https://www.amazon.com/s?k=Miracle-Gro%E5%AE%A4%E5%86%85%E7%A7%8D%E6%A4%8D%E7%81%AF&tag=coffeeprism-20)可解决光照不足问题，配合自动灌溉系统更佳。
+至少保证每天4小时直射光，环境温度维持在15-30℃。使用[Miracle-Gro室内种植灯](https://www.amazon.com/s?k=Miracle-Gro+indoor+grow+light&tag=coffeeprism-20)可解决光照不足问题，配合自动灌溉系统更佳。
 
 ### Q3：有机咖啡为什么有时更苦涩？  
-可能是烘焙不当所致。有机咖啡豆密度更高，建议采用「渐进式烘焙」：将脱水期延长15%，一爆后立即下豆。使用[泰摩栗子C手摇磨豆机](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%A0%97%E5%AD%90C%E6%89%8B%E6%91%87%E7%A3%A8%E8%B1%86%E6%9C%BA&tag=coffeeprism-20)可精准控制研磨度。
+可能是烘焙不当所致。有机咖啡豆密度更高，建议采用「渐进式烘焙」：将脱水期延长15%，一爆后立即下豆。使用[泰摩栗子C手摇磨豆机](https://www.amazon.com/s?k=Timemore+Chestnut+C+hand+grinder&tag=coffeeprism-20)可精准控制研磨度。
 
 ---
 
 ## 结语  
 
-从埃塞俄比亚的古老森林到云南的现代庄园，**有机咖啡种植的实践与益处**正在重塑整个产业链。消费者不仅能获得更纯净的风味体验，每杯咖啡都在为地球生态投票。建议从购买双认证产品开始实践，进阶爱好者可尝试阳台种植——用[三顿半回收计划](https://www.amazon.com/s?k=%E4%B8%89%E9%A1%BF%E5%8D%8A%E5%9B%9E%E6%94%B6%E8%AE%A1%E5%88%92&tag=coffeeprism-20)的再生材料制作花盆，让可持续理念贯穿每个细节。欢迎在评论区分享你的有机咖啡故事，下期我们将深入解析「中国精品咖啡庄园地图」。
+从埃塞俄比亚的古老森林到云南的现代庄园，**有机咖啡种植的实践与益处**正在重塑整个产业链。消费者不仅能获得更纯净的风味体验，每杯咖啡都在为地球生态投票。建议从购买双认证产品开始实践，进阶爱好者可尝试阳台种植——用三顿半回收计划的再生材料制作花盆，让可持续理念贯穿每个细节。欢迎在评论区分享你的有机咖啡故事，下期我们将深入解析「中国精品咖啡庄园地图」。
 
 <!-- related-reading-start -->
 

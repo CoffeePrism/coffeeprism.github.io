@@ -47,11 +47,11 @@ author: "Coffee Prism"
 
 ## 四、家庭调制的必备工具清单
 
-1. **精准控温手冲壶**（推荐[泰摩温控版](https://www.amazon.com/s?k=%E6%B3%B0%E6%91%A9%E6%B8%A9%E6%8E%A7%E7%89%88&tag=coffeeprism-20)）
+1. **精准控温手冲壶**（推荐[泰摩温控版](https://www.amazon.com/s?k=Timemore+temperature+control+kettle&tag=coffeeprism-20)）
    - 理由：±1℃精准控温，特别适合处理不同烘焙度的咖啡豆
 2. **双层雪克壶**（建议选择Hario 450ml型号）
    - 优势：玻璃材质避免金属味干扰，双层隔热设计保冷性提升40%
-3. **国产精品咖啡豆**（尝试[明谦咖啡](https://www.amazon.com/s?k=%E6%98%8E%E8%B0%A6%E5%92%96%E5%95%A1&tag=coffeeprism-20)的「黑灵魂」拼配）
+3. **国产精品咖啡豆**（尝试[明谦咖啡](https://www.amazon.com/s?k=Yunnan+coffee+beans&tag=coffeeprism-20)的「黑灵魂」拼配）
    - 特点：专为调酒设计的深烘豆，带有明显焦糖与坚果尾韵
 
 ## 五、避开这三大常见误区

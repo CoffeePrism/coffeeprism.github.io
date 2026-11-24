@@ -21,9 +21,9 @@ description: "家庭咖啡烘焙的关键在于掌握生豆脱水、梅纳反应
 
 ## 三、家庭烘焙实战手册
 ### 1. 设备进化论
-- **手工锅炒**：铸铁锅[铸铁煎锅](https://www.amazon.com/s?k=%E9%93%B8%E9%93%81%E7%85%8E%E9%94%85&tag=coffeeprism-20)是最原始也最具仪式感的方式，适合追求传统工艺的爱好者。建议选用直径20cm的平底锅，每批次处理量不超过150g。
-- **爆米花机改造**：美国Sweet Maria's的调研显示，全球63%的家庭烘焙者起步于爆米花机。推荐[West Bend爆米花机](https://www.amazon.com/s?k=West%20Bend%E7%88%86%E7%B1%B3%E8%8A%B1%E6%9C%BA&tag=coffeeprism-20)，其热风循环系统能实现基本均匀的烘焙。
-- **专业家用烘焙机**：日本Tiamo推出的[500g家用烘焙机](https://www.amazon.com/s?k=500g%E5%AE%B6%E7%94%A8%E7%83%98%E7%84%99%E6%9C%BA&tag=coffeeprism-20)配备PID温控系统，实测温差可控制在±3℃以内，适合进阶玩家。
+- **手工锅炒**：铸铁锅[铸铁煎锅](https://www.amazon.com/s?k=cast+iron+skillet&tag=coffeeprism-20)是最原始也最具仪式感的方式，适合追求传统工艺的爱好者。建议选用直径20cm的平底锅，每批次处理量不超过150g。
+- **爆米花机改造**：美国Sweet Maria's的调研显示，全球63%的家庭烘焙者起步于爆米花机。推荐[West Bend爆米花机](https://www.amazon.com/s?k=West+Bend+popcorn+popper&tag=coffeeprism-20)，其热风循环系统能实现基本均匀的烘焙。
+- **专业家用烘焙机**：日本Tiamo推出的[500g家用烘焙机](https://www.amazon.com/s?k=500g+home+coffee+roaster&tag=coffeeprism-20)配备PID温控系统，实测温差可控制在±3℃以内，适合进阶玩家。
 
 ### 2. 参数控制心法
 上海咖啡烘焙冠军张明宇建议采用"3-6-3法则"：前3分钟完成脱水，中间6分钟发展风味，最后3分钟定型。实际操作中要注意：
@@ -33,7 +33,7 @@ description: "家庭咖啡烘焙的关键在于掌握生豆脱水、梅纳反应
 
 ## 四、后制处理的精妙时刻
 ### 1. 养豆的时空魔法
-新鲜烘焙的咖啡豆需要72小时的脱气期。笔者建议使用[单排气阀咖啡罐](https://www.amazon.com/s?k=%E5%8D%95%E6%8E%92%E6%B0%94%E9%98%80%E5%92%96%E5%95%A1%E7%BD%90&tag=coffeeprism-20)，在阴凉避光环境下保存。中国南方潮湿地区可放入食品级干燥剂，北方干燥地区则需注意密封性。
+新鲜烘焙的咖啡豆需要72小时的脱气期。笔者建议使用[单排气阀咖啡罐](https://www.amazon.com/s?k=one+way+valve+coffee+canister&tag=coffeeprism-20)，在阴凉避光环境下保存。中国南方潮湿地区可放入食品级干燥剂，北方干燥地区则需注意密封性。
 
 ### 2. 杯测的觉醒训练
 建议组建3-5人的品鉴小组，采用SCAA标准杯测流程。重点记录：
@@ -48,13 +48,13 @@ description: "家庭咖啡烘焙的关键在于掌握生豆脱水、梅纳反应
 
 ### 2. 厨房改造方案
 针对中国家庭常见的封闭式厨房，建议：
-- 安装[壁挂式排气扇](https://www.amazon.com/s?k=%E5%A3%81%E6%8C%82%E5%BC%8F%E6%8E%92%E6%B0%94%E6%89%87&tag=coffeeprism-20)
+- 安装[壁挂式排气扇](https://www.amazon.com/s?k=wall+mounted+exhaust+fan&tag=coffeeprism-20)
 - 使用硅胶密封条处理门窗缝隙
 - 烘焙时开启抽油烟机最高档位
 
 ## 六、专家私房建议
 1. **生豆拼配实验**：尝试将云南豆与埃塞俄比亚日晒豆按7:3比例混合烘焙，能获得惊人的黑巧克力尾韵。
-2. **应急冷却法**：当发现发展过度时，立即将豆子倒入[不锈钢滤网](https://www.amazon.com/s?k=%E4%B8%8D%E9%94%88%E9%92%A2%E6%BB%A4%E7%BD%91&tag=coffeeprism-20)并用冷风吹拂。
+2. **应急冷却法**：当发现发展过度时，立即将豆子倒入[不锈钢滤网](https://www.amazon.com/s?k=stainless+steel+coffee+filter&tag=coffeeprism-20)并用冷风吹拂。
 3. **记录系统**：建议使用"烘焙日志APP"，完整记录每次的温升曲线和环境参数。
 
 在这个人均咖啡消费量仅为日本1/10的市场，家庭烘焙正成为精品咖啡文化的新突破口。当第一缕银皮在晨光中飘落，当一爆声在厨房响起，我们不仅是在烘焙咖啡豆，更是在酿造属于自己的生活美学。记住，最好的烘焙曲线不是仪器测量的，而是用热爱勾勒的。
