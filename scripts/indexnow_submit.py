@@ -11,7 +11,11 @@ indexing delays”。现在默认按 sitemap 的 <lastmod> 只推最近 N 天变
 （新文章、首页、所属分类页），通常每天不到 10 条。
 
 用法:
-  python3 scripts/indexnow_submit.py                 # 最近 3 天有变化的 URL（CI 默认）
+  python3 scripts/indexnow_submit.py --diff-build public --out urls.txt
+                                                     # CI：部署前把新构建的 sitemap 和线上 sitemap 比对，
+                                                     # 只记下新增、lastmod 变了、或被删除/跳转的 URL
+  python3 scripts/indexnow_submit.py --from-file urls.txt   # CI：部署后提交上一步记下的 URL
+  python3 scripts/indexnow_submit.py                 # 最近 3 天有变化的 URL（旧做法，比对失败时兜底）
   python3 scripts/indexnow_submit.py --days 7        # 放宽窗口，比如补推漏掉的几天
   python3 scripts/indexnow_submit.py --all           # sitemap 全量（只在全站改版后手动用）
   python3 scripts/indexnow_submit.py URL1 URL2 ...   # 只提交指定 URL
@@ -27,6 +31,7 @@ import re
 import sys
 import urllib.error
 import urllib.request
+from pathlib import Path
 
 HOST = "www.coffeeprism.com"
 KEY = "77b015f417c80918fabc459c5729ad5a"
@@ -70,6 +75,39 @@ def sitemap_entries():
     return out
 
 
+def local_sitemap_entries(public_dir):
+    """读本地构建目录里的 sitemap（含 sitemap index）→ [(url, lastmod 或 None)]。"""
+    root = Path(public_dir)
+    out = []
+
+    def parse(path):
+        xml = path.read_text(encoding="utf-8", errors="ignore")
+        if "<sitemapindex" in xml:
+            for loc in re.findall(r"<loc>([^<]+)</loc>", xml):
+                rel = re.sub(r"^https?://[^/]+/", "", loc.strip())
+                child = root / rel
+                if child.exists():
+                    parse(child)
+            return
+        for block in re.findall(r"<url>(.*?)</url>", xml, re.S):
+            loc = re.search(r"<loc>([^<]+)</loc>", block)
+            if loc:
+                lastmod = re.search(r"<lastmod>([^<]+)</lastmod>", block)
+                out.append((loc.group(1).strip(), lastmod.group(1).strip() if lastmod else None))
+
+    parse(root / "sitemap.xml")
+    return out
+
+
+def changed_urls(new_entries, live_entries):
+    """新增的、lastmod 变了的、以及从 sitemap 里消失（删除或合并跳转）的 URL。"""
+    live = dict(live_entries)
+    new = dict(new_entries)
+    changed = [u for u, m in new_entries if u not in live or live[u] != m]
+    removed = [u for u in live if u not in new]
+    return changed + removed
+
+
 def recent_urls(entries, days):
     """lastmod 日期（取前 10 位 YYYY-MM-DD）在最近 days 天内的 URL。"""
     cutoff = (datetime.datetime.now(datetime.timezone.utc).date()
@@ -110,9 +148,29 @@ def main():
                    help=f"提交 lastmod 在最近 N 天内的 URL（默认 {DEFAULT_DAYS}）")
     p.add_argument("--all", action="store_true", help="提交 sitemap 全量 URL")
     p.add_argument("--dry-run", action="store_true", help="只打印，不提交")
+    p.add_argument("--diff-build", metavar="DIR", help="和线上比对这个构建目录的 sitemap，把变化的 URL 写进 --out")
+    p.add_argument("--out", metavar="FILE", help="--diff-build 的输出文件")
+    p.add_argument("--from-file", metavar="FILE", help="提交这个文件里的 URL（每行一个）")
     args = p.parse_args()
 
-    if args.urls:
+    if args.diff_build:
+        new_entries = local_sitemap_entries(args.diff_build)
+        live_entries = sitemap_entries()
+        if live_entries:
+            urls = changed_urls(new_entries, live_entries)
+            print(f"本次构建 {len(new_entries)} 条，线上 {len(live_entries)} 条，有变化 {len(urls)} 条")
+        else:
+            urls = recent_urls(new_entries, args.days)
+            print(f"读不到线上 sitemap，改用最近 {args.days} 天的 lastmod：{len(urls)} 条")
+        Path(args.out or "indexnow-urls.txt").write_text("\n".join(urls) + ("\n" if urls else ""), encoding="utf-8")
+        for u in urls[:20]:
+            print(f"  {u}")
+        return 0
+
+    if args.from_file:
+        path = Path(args.from_file)
+        urls = [u.strip() for u in path.read_text(encoding="utf-8").splitlines() if u.strip()] if path.exists() else []
+    elif args.urls:
         urls = args.urls
     else:
         entries = sitemap_entries()
