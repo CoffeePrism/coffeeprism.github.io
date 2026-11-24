@@ -88,6 +88,21 @@ jobs:
       - name: 构建网站
         run: hugo --minify --themesDir ./themes
 
+      - name: 记下要推给 IndexNow 的 URL
+        # 部署前把新构建的 sitemap 和线上的比对：只推新增、lastmod 变了、
+        # 以及删除/合并跳转的 URL，每个变化只推一次（以前按「3 天内 lastmod」推，
+        # 同一网址会连推 3 天）。比对失败时脚本自己退回 3 天窗口。
+        continue-on-error: true
+        run: python3 scripts/indexnow_submit.py --diff-build public --out indexnow-urls.txt
+
+      - name: 上传 IndexNow URL 列表
+        uses: actions/upload-artifact@v4
+        with:
+          name: indexnow-urls
+          path: indexnow-urls.txt
+          if-no-files-found: ignore
+          retention-days: 3
+
       - name: 提交新文章到main分支
         # 只提交 content/。public/ 不再入库：Pages 用下面上传的构建产物部署。
         # 以前每天强推 public/ 的时间戳变动，让"没有新文章"也天天出现
@@ -118,8 +133,8 @@ jobs:
         uses: actions/deploy-pages@v4
 
   indexnow:
-    # deploy 成功后把最近 3 天有变化的 URL（按 sitemap lastmod）推给 IndexNow
-    # （Bing/Copilot 等）。不要每天推全量：Bing 会提示 “Avoid IndexNow Batch Mode”。
+    # deploy 成功后把构建时记下的变化 URL 推给 IndexNow（Bing/Copilot 等）。
+    # 不要每天推全量：Bing 会提示 “Avoid IndexNow Batch Mode”。
     # Bing 索引喂 Copilot、DeepSeek 候选集、豆包全网搜索 —— 即时推送比
     # 等爬虫快几天到几周。失败不影响发布（continue-on-error）。
     runs-on: ubuntu-latest
@@ -128,10 +143,19 @@ jobs:
     steps:
       - name: 检出代码
         uses: actions/checkout@v4
+      - name: 取回 URL 列表
+        uses: actions/download-artifact@v4
+        continue-on-error: true  # 没有列表时下一步退回 3 天窗口
+        with:
+          name: indexnow-urls
       - name: IndexNow 提交
         run: |
           sleep 60  # 等 Pages CDN 生效，确保 key 文件可被 IndexNow 验证
-          python3 scripts/indexnow_submit.py
+          if [ -f indexnow-urls.txt ]; then
+            python3 scripts/indexnow_submit.py --from-file indexnow-urls.txt
+          else
+            python3 scripts/indexnow_submit.py
+          fi
 
   report:
     # 文章生成失败（0 产出 / 无可用 LLM）时把整个运行标红 → GitHub 邮件通知。
