@@ -183,6 +183,40 @@ def title_similarity(a, b):
     return len(A & B) / min(len(A), len(B))
 
 
+# 换个问法的重复选题（「冷萃用什么咖啡豆更好」vs「冷萃咖啡豆怎么选」）字面二元组重合很低。
+# 去掉疑问词后再比一次「意图」，用 Jaccard（不用包含度：短标题会误伤，如
+# 「摩卡壶怎么选」vs「摩卡壶适合什么咖啡豆」）。0.75 在现有 770 个标题上不多拦任何一对。
+_QUESTION_WORDS = [
+    "用什么", "什么", "怎么选", "怎么样", "怎么", "哪个好", "哪种", "哪些", "更好", "推荐",
+    "选择", "适合", "可以", "需要", "应该", "有没有", "会不会", "能不能", "是否", "吗", "呢", "的",
+]
+DUP_INTENT_THRESHOLD = 0.75
+
+
+def _intent_key(t):
+    t = _norm_title(t)
+    for w in _QUESTION_WORDS:
+        t = t.replace(w, '')
+    return t
+
+
+def intent_similarity(a, b):
+    A, B = _bigrams(_intent_key(a)), _bigrams(_intent_key(b))
+    if not A or not B:
+        return 0.0
+    return len(A & B) / len(A | B)
+
+
+def most_similar_intent(title, existing_titles):
+    """返回 (意图相似度, 最相近的已有标题)。"""
+    best = (0.0, "")
+    for t in existing_titles:
+        s = intent_similarity(title, t)
+        if s > best[0]:
+            best = (s, t)
+    return best
+
+
 def most_similar_title(title, existing_titles):
     """返回 (相似度, 最相近的已有标题)。"""
     best = (0.0, "")
@@ -459,7 +493,7 @@ def plan_fresh_topic(seed_topic, existing_posts, n_candidates=6):
     if seed_topic.get("seed_coverage", 1) == 0:
         return dict(seed_topic)
 
-    listing = "\n".join(f"- {t}" for t in cat_titles[-120:])
+    listing = "\n".join(f"- {t}" for t in cat_titles[-300:])
     prompt = f"""你是 Coffee Prism（中文咖啡知识站）的选题编辑。今天是 {datetime.date.today().isoformat()}。
 类目：{cat}
 种子方向：{seed}
@@ -496,6 +530,10 @@ def plan_fresh_topic(seed_topic, existing_posts, n_candidates=6):
         score, near = most_similar_title(cand, all_titles)
         if score >= DUP_CANDIDATE_THRESHOLD:
             print(f"  ↩️  跳过选题「{cand}」：与已有「{near}」相似度 {score:.2f}")
+            continue
+        intent, near = most_similar_intent(cand, all_titles)
+        if intent >= DUP_INTENT_THRESHOLD:
+            print(f"  ↩️  跳过选题「{cand}」：与已有「{near}」意图相同（{intent:.2f}）")
             continue
         print(f"  ✅ 新选题「{cand}」（最相近已有标题相似度 {score:.2f}）")
         return {"main_topic": cat, "specific_topic": cand, "seed": seed}
@@ -1757,7 +1795,8 @@ def _count_recent_trending(days=7):
 
 TRENDING_QUOTA_DAYS = 7
 TRENDING_QUOTA = int(os.getenv("TRENDING_QUOTA") or 2)  # 7 天内最多 N 篇热点分析
-REGULAR_ARTICLES_PER_RUN = int(os.getenv("REGULAR_ARTICLES_PER_RUN") or 3)
+# 2026-11-24 起每天 1 篇：精力放在修旧文和 8 个指南页上（docs/seo-plan-2026-11.md）。
+REGULAR_ARTICLES_PER_RUN = int(os.getenv("REGULAR_ARTICLES_PER_RUN") or 1)
 
 
 def main():
