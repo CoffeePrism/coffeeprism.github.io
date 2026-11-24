@@ -35,5 +35,7 @@
   translation: "Sponsored"
 - id: affiliateDisclosure
   translation: "As an Amazon Associate I earn from qualifying purchases. This never changes the price you pay."
+- id: pillarUpdated
+  translation: "Updated"
 - id: affiliateNote
   translation: "This article contains Amazon affiliate links: we may earn a commission, at no extra cost to you."

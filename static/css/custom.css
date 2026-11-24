@@ -849,3 +849,10 @@ ins.adsbygoogle {
   border-left: 3px solid var(--cp-line);
   background: var(--cp-cream);
 }
+
+/* "Updated" date under pillar-page titles. */
+.main__updated {
+  margin: 0.25rem 0 0;
+  font-size: 0.85rem;
+  color: var(--cp-text-mute);
+}

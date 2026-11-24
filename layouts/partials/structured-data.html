@@ -36,7 +36,8 @@
 <script type="application/ld+json">{{ $website | jsonify | safeJS }}</script>
 {{- end -}}
 
-{{- if .IsPage -}}
+{{- /* 指南页（有正文的分类首页，如 /coffee-beans/）也输出 Article + dateModified。 */ -}}
+{{- if or .IsPage (and .IsSection (gt (len .RawContent) 500)) -}}
 {{- $iso8601 := "2006-01-02T15:04:05-07:00" -}}
 {{- /* description：markdownify→plainify 剥掉 **加粗**、> 引用 等 markdown 痕迹 */ -}}
 {{- $desc := .Description | default .Summary | markdownify | plainify | truncate 160 -}}

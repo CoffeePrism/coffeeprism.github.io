@@ -7,6 +7,10 @@
 		{{- with .Description }}
 		<p class="main__subtitle">{{ . }}</p>
 		{{- end }}
+		{{- /* 指南页显示更新日期：读者和 AI 引擎都看它判断内容新不新。 */ -}}
+		{{- if and $hasContent (not .Lastmod.IsZero) }}
+		<p class="main__updated">{{ i18n "pillarUpdated" }} <time datetime="{{ .Lastmod.Format "2006-01-02" }}">{{ .Lastmod.Format "2006-01-02" }}</time></p>
+		{{- end }}
 	</header>
 	{{- end }}
 
